@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Comet_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1457611216" GUID="{D5AAC3C3-F2FE-493F-AD59-EC9484092776}" Language="SFX">
+			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Flies</ObjectPath>
+			<ShortName>Flies</ShortName>
+			<Path>Flies.bnk</Path>
+			<IncludedEvents>
+				<Event Id="445229126" Name="AudioEvent_Flies_Loop" ObjectPath="\Events\OBJECT\OBJECT_DECO\Flies\AudioEvent_Flies_Loop" GUID="{A2822DA5-D82A-4892-AB00-FA153F14E1B1}" MaxAttenuation="450.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="121830662" Language="SFX">
+							<ShortName>Objects\Flys\sfx_flies_loop_02.wav</ShortName>
+							<Path>SFX\Objects\Flys\sfx_flies_loop_02_0BC91DCF.wem</Path>
+						</File>
+						<File Id="565819124" Language="SFX">
+							<ShortName>Objects\Flys\sfx_flies_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Flys\sfx_flies_loop_01_0BC91DCF.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+					</AuxBusSends>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="121830662" Language="SFX">
+					<ShortName>Objects\Flys\sfx_flies_loop_02.wav</ShortName>
+					<Path>SFX\Objects\Flys\sfx_flies_loop_02_0BC91DCF.wem</Path>
+				</File>
+				<File Id="565819124" Language="SFX">
+					<ShortName>Objects\Flys\sfx_flies_loop_01.wav</ShortName>
+					<Path>SFX\Objects\Flys\sfx_flies_loop_01_0BC91DCF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Comet_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1937850491" GUID="{5AB91AF6-89D3-4BAB-A0D7-160A0BFEA5BD}" Language="SFX">
+			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Lantern</ObjectPath>
+			<ShortName>Lantern</ShortName>
+			<Path>Lantern.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2108480200" Name="AudioEvent_Lantern_Fire_Start" ObjectPath="\Events\OBJECT\OBJECT_DECO\Lantern\AudioEvent_Lantern_Fire_Start" GUID="{7820364D-8D24-4038-8C70-AA1EA50E43AB}" MaxAttenuation="450.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="112357062" Language="SFX">
+							<ShortName>Objects\Lantern\sfx_lantern_fire_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Lantern\sfx_lantern_fire_loop_01_0BC91DCF.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1112698644" Name="AudioEvent_Lantern_Fire_Stop" ObjectPath="\Events\OBJECT\OBJECT_DECO\Lantern\AudioEvent_Lantern_Fire_Stop" GUID="{F45C812E-F759-467F-B510-A3340CC6F7BA}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="112357062" Language="SFX">
+					<ShortName>Objects\Lantern\sfx_lantern_fire_loop_01.wav</ShortName>
+					<Path>SFX\Objects\Lantern\sfx_lantern_fire_loop_01_0BC91DCF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
