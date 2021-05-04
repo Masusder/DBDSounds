@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Comet_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Draco\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Draco\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Draco_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Comet\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Draco\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1785969531" GUID="{B7C886EC-0CEB-4E70-A630-C8B2B2C0980B}" Language="SFX">
@@ -978,7 +978,7 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3708240483" Name="AudioEvent_HUD_SkillCheck_Warning_Stop" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Warning_Stop" GUID="{E6C88A9B-05EE-4E51-8273-A3B42CC7FF93}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1054129866" Name="AudioEvent_HUD_SkillCheck_Wiggle_Fail" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Wiggle_Fail" GUID="{A8D3FE4A-E2FB-49CA-861B-1C7153F303BA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.162583" DurationMax="1.188073">
+				<Event Id="1054129866" Name="AudioEvent_HUD_SkillCheck_Wiggle_Fail" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Wiggle_Fail" GUID="{A8D3FE4A-E2FB-49CA-861B-1C7153F303BA}" DurationType="OneShot" DurationMin="1.389383" DurationMax="1.472000">
 					<ExcludedMemoryFiles>
 						<File Id="4202218" Language="SFX">
 							<ShortName>Characters\SVR_F08\vo_svr_f08_grunt_hurt_light_02.wav</ShortName>
@@ -1627,6 +1627,10 @@
 						<File Id="518730556" Language="SFX">
 							<ShortName>Characters\SVR_M11\vo_svr_m11_grunt_hurt_light_08.wav</ShortName>
 							<Path>SFX\Characters\SVR_M11\vo_svr_m11_grunt_hurt_light_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="519543302" Language="SFX">
+							<ShortName>HUD\sfx_hud_wiggle_skillcheck_fail_04.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_wiggle_skillcheck_fail_04_982BF740.wem</Path>
 						</File>
 						<File Id="520052306" Language="SFX">
 							<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_07.wav</ShortName>
@@ -2798,6 +2802,83 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="3450366029" Name="AudioEvent_HUD_SkillCheck_Wiggle_Good" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Wiggle_Good" GUID="{AB6088EF-5E46-4A9D-875B-FD0637A937CA}" DurationType="OneShot" DurationMin="2.433333" DurationMax="2.433333">
+					<ExcludedMemoryFiles>
+						<File Id="217457559" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_good_02.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_good_02_982BF740.wem</Path>
+						</File>
+						<File Id="256959683" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_04.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_04_F97808C0.wem</Path>
+						</File>
+						<File Id="377800651" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_05.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_05_982BF740.wem</Path>
+						</File>
+						<File Id="737001430" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_02.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_02_982BF740.wem</Path>
+						</File>
+						<File Id="945004211" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_01.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_01_982BF740.wem</Path>
+						</File>
+						<File Id="1064920520" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_03.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_03_982BF740.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1561552133" Name="AudioEvent_HUD_SkillCheck_Wiggle_Great" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Wiggle_Great" GUID="{AB69B282-4B0E-47D7-977C-A172F8DD35B6}" DurationType="OneShot" DurationMin="2.433333" DurationMax="2.433333">
+					<ExcludedMemoryFiles>
+						<File Id="256959683" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_04.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_04_F97808C0.wem</Path>
+						</File>
+						<File Id="377800651" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_05.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_05_982BF740.wem</Path>
+						</File>
+						<File Id="737001430" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_02.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_02_982BF740.wem</Path>
+						</File>
+						<File Id="844435013" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_bonus_02.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_bonus_02_982BF740.wem</Path>
+						</File>
+						<File Id="945004211" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_01.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_01_982BF740.wem</Path>
+						</File>
+						<File Id="1064920520" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_03.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_03_982BF740.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2213386182" Name="AudioEvent_HUD_SkillCheck_Wiggle_ResetRTPC" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Wiggle_ResetRTPC" GUID="{7488E766-C14C-4FA2-BCB2-B59252E2DF2E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3726773827" Name="AudioEvent_HUD_SkillCheck_Wiggle_Success" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Wiggle_Success" GUID="{9A4EAEFC-4A01-4A9E-B469-2275FC0CD139}" DurationType="OneShot" DurationMin="3.670386" DurationMax="3.670386">
+					<ExcludedMemoryFiles>
+						<File Id="951835834" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_good_01.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_good_01_D8984390.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3979313798" Name="AudioEvent_HUD_SkillCheck_Wiggle_Warning" ObjectPath="\Events\HUD\AudioEvent_HUD_SkillCheck_Wiggle_Warning" GUID="{C3248731-FC75-4C2C-9163-B4A511C9F986}" DurationType="OneShot" DurationMin="5.730377" DurationMax="7.219823">
+					<ExcludedMemoryFiles>
+						<File Id="451268969" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_open_02.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_open_02_D8984390.wem</Path>
+						</File>
+						<File Id="965432408" Language="SFX">
+							<ShortName>HUD\sfx_hud_skillcheck_open_04.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_skillcheck_open_04_D8984390.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3419538149" Name="AudioEvent_HUD_StatusEffect" ObjectPath="\Events\HUD\AudioEvent_HUD_StatusEffect" GUID="{606CB253-57E0-4551-8C81-F9A94AE86429}" DurationType="OneShot" DurationMin="3.370667" DurationMax="3.370667">
 					<ExcludedMemoryFiles>
@@ -4485,47 +4566,27 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1660668471" Name="AudioEvent_Plants_Corn_Move" ObjectPath="\Events\OBJECT\OBJECT_VEGETATION\AudioEvent_Plants_Corn_Move" GUID="{99F82682-1852-416D-ACBF-54FAC025746B}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.240796" DurationMax="2.012229">
+				<Event Id="1660668471" Name="AudioEvent_Plants_Corn_Move" ObjectPath="\Events\OBJECT\OBJECT_VEGETATION\AudioEvent_Plants_Corn_Move" GUID="{99F82682-1852-416D-ACBF-54FAC025746B}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.322977" DurationMax="2.267575">
 					<ExcludedMemoryFiles>
-						<File Id="4697700" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_09.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_09_32DC8FDB.wem</Path>
-						</File>
 						<File Id="27787624" Language="SFX">
 							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_04.wav</ShortName>
 							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_04_32DC8FDB.wem</Path>
 						</File>
-						<File Id="148031577" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_01.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_01_32DC8FDB.wem</Path>
+						<File Id="112031866" Language="SFX">
+							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_04.wav</ShortName>
+							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_04_FFA19DEB.wem</Path>
 						</File>
 						<File Id="202949359" Language="SFX">
 							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_01.wav</ShortName>
 							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_01_32DC8FDB.wem</Path>
 						</File>
-						<File Id="419073118" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_04.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_04_32DC8FDB.wem</Path>
-						</File>
 						<File Id="464721009" Language="SFX">
 							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_05.wav</ShortName>
 							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_05_32DC8FDB.wem</Path>
 						</File>
-						<File Id="515303558" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_07.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_07_32DC8FDB.wem</Path>
-						</File>
-						<File Id="550568177" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_07.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_07_32DC8FDB.wem</Path>
-						</File>
-						<File Id="588691092" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_06.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_06_32DC8FDB.wem</Path>
-						</File>
-						<File Id="663063090" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_02.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_02_32DC8FDB.wem</Path>
+						<File Id="491199641" Language="SFX">
+							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_05.wav</ShortName>
+							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_05_FFA19DEB.wem</Path>
 						</File>
 						<File Id="702332307" Language="SFX">
 							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_02.wav</ShortName>
@@ -4535,17 +4596,17 @@
 							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_03.wav</ShortName>
 							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_03_32DC8FDB.wem</Path>
 						</File>
+						<File Id="758030539" Language="SFX">
+							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_01.wav</ShortName>
+							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_01_FFA19DEB.wem</Path>
+						</File>
+						<File Id="830602743" Language="SFX">
+							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_07.wav</ShortName>
+							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_07_FFA19DEB.wem</Path>
+						</File>
 						<File Id="950025968" Language="SFX">
 							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_06.wav</ShortName>
 							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_06_32DC8FDB.wem</Path>
-						</File>
-						<File Id="954419497" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_05.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_end_05_32DC8FDB.wem</Path>
-						</File>
-						<File Id="975650273" Language="SFX">
-							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_10.wav</ShortName>
-							<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_10_32DC8FDB.wem</Path>
 						</File>
 						<File Id="989130510" Language="SFX">
 							<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_08.wav</ShortName>
@@ -54632,23 +54693,11 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1805451716" Name="AudioEvent_Survivor_Menu_Body_Jingle_Bells" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_MOVEMENT\AudioEvent_Survivor_Menu_Body_Jingle_Bells" GUID="{80B7A655-5F85-4A0B-9E69-F912F86D2E6D}" DurationType="OneShot" DurationMin="0.781801" DurationMax="1.536650">
+				<Event Id="1805451716" Name="AudioEvent_Survivor_Menu_Body_Jingle_Bells" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_MOVEMENT\AudioEvent_Survivor_Menu_Body_Jingle_Bells" GUID="{80B7A655-5F85-4A0B-9E69-F912F86D2E6D}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
-						<File Id="326812308" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_03.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="439941611" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_04.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="817828804" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_01.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="869035500" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_02.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_02_7FA8D501.wem</Path>
+						<File Id="979587779" Language="SFX">
+							<ShortName>Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_loop.wav</ShortName>
+							<Path>SFX\Characters\Survivor_COMMON\sfx_chr_menu_body_jingle_bells_loop_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
@@ -63722,7 +63771,14 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3334548637" Name="AudioEvent_Windows_Break" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Windows\AudioEvent_Windows_Break" GUID="{C0AF8BEB-A5FB-42A1-A3F3-2E77CB76A65C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2314580101" Name="AuduiEvent_CQ_BGlyph_HUD" ObjectPath="\Events\GAMEPLAY\ContextualQuest\AuduiEvent_CQ_BGlyph_HUD" GUID="{A23AF3C2-02FD-4FA0-943F-DAEBFBDBFFB9}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2314580101" Name="AuduiEvent_CQ_BGlyph_HUD" ObjectPath="\Events\GAMEPLAY\ContextualQuest\AuduiEvent_CQ_BGlyph_HUD" GUID="{A23AF3C2-02FD-4FA0-943F-DAEBFBDBFFB9}" DurationType="OneShot" DurationMin="6.519194" DurationMax="7.164471">
+					<ExcludedMemoryFiles>
+						<File Id="185933894" Language="SFX">
+							<ShortName>Gameplay\sfx_archives_Bglyphs_HUD_V1.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_archives_Bglyphs_HUD_V1_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="7362173" Language="SFX">
@@ -63850,10 +63906,6 @@
 				<File Id="1610496" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_shake_hard_04.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_meathook_shake_hard_04_67368C31.wem</Path>
-				</File>
-				<File Id="4697700" Language="SFX">
-					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_09.wav</ShortName>
-					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_09_32DC8FDB.wem</Path>
 				</File>
 				<File Id="12040349" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_shake_light_04.wav</ShortName>
@@ -64019,6 +64071,10 @@
 					<ShortName>Objects\Meathook\sfx_sabotage_metal_low_07.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_sabotage_metal_low_07_67368C31.wem</Path>
 				</File>
+				<File Id="112031866" Language="SFX">
+					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_04.wav</ShortName>
+					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_04_FFA19DEB.wem</Path>
+				</File>
 				<File Id="112997125" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_shake_metal_02.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_meathook_shake_metal_02_67368C31.wem</Path>
@@ -64147,6 +64203,10 @@
 					<ShortName>Gameplay\sfx_perks_franklinsdemise_01.wav</ShortName>
 					<Path>SFX\Gameplay\sfx_perks_franklinsdemise_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="185933894" Language="SFX">
+					<ShortName>Gameplay\sfx_archives_Bglyphs_HUD_V1.wav</ShortName>
+					<Path>SFX\Gameplay\sfx_archives_Bglyphs_HUD_V1_7FA8D501.wem</Path>
+				</File>
 				<File Id="194682331" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_sabotage_crack_06.wav</ShortName>
 					<Path>SFX\Objects\Meathook\sfx_meathook_sabotage_crack_06_67368C31.wem</Path>
@@ -64186,6 +64246,10 @@
 				<File Id="214943756" Language="SFX">
 					<ShortName>HUD\sfx_hud_addon_used_01.wav</ShortName>
 					<Path>SFX\HUD\sfx_hud_addon_used_01_982BF740.wem</Path>
+				</File>
+				<File Id="217457559" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_good_02.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_good_02_982BF740.wem</Path>
 				</File>
 				<File Id="226163416" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_sabotage_metal_A_04.wav</ShortName>
@@ -64235,6 +64299,10 @@
 				<File Id="256295779" Language="SFX">
 					<ShortName>HUD\sfx_hud_out_of_ammo_01.wav</ShortName>
 					<Path>SFX\HUD\sfx_hud_out_of_ammo_01_D8984390.wem</Path>
+				</File>
+				<File Id="256959683" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_04.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_04_F97808C0.wem</Path>
 				</File>
 				<File Id="257384196" Language="SFX">
 					<ShortName>Characters\Survivor_COMMON\vo_svr_male_Vomit_21.wav</ShortName>
@@ -64387,6 +64455,10 @@
 				<File Id="373871436" Language="SFX">
 					<ShortName>Gameplay\sfx_endgame_slowdown_01.wav</ShortName>
 					<Path>SFX\Gameplay\sfx_endgame_slowdown_01_67368C31.wem</Path>
+				</File>
+				<File Id="377800651" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_05.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_05_982BF740.wem</Path>
 				</File>
 				<File Id="378937456" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_shake_light_03.wav</ShortName>
@@ -64560,6 +64632,10 @@
 					<ShortName>Music\mu_terrorradius_default_02_layer_02.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_default_02_layer_02_0BC91DCF.wem</Path>
 				</File>
+				<File Id="491199641" Language="SFX">
+					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_05.wav</ShortName>
+					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_05_FFA19DEB.wem</Path>
+				</File>
 				<File Id="493324169" Language="SFX">
 					<ShortName>Gameplay\sfx_perks_builttolast_02.wav</ShortName>
 					<Path>SFX\Gameplay\sfx_perks_builttolast_02_7FA8D501.wem</Path>
@@ -64612,6 +64688,10 @@
 					<ShortName>Objects\Blood\Blood_Splash_Bounce_03.wav</ShortName>
 					<Path>SFX\Objects\Blood\Blood_Splash_Bounce_03_67368C31.wem</Path>
 				</File>
+				<File Id="519543302" Language="SFX">
+					<ShortName>HUD\sfx_hud_wiggle_skillcheck_fail_04.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_wiggle_skillcheck_fail_04_982BF740.wem</Path>
+				</File>
 				<File Id="519925890" Language="SFX">
 					<ShortName>Stingers\sfx_stinger_07.wav</ShortName>
 					<Path>SFX\Stingers\sfx_stinger_07_67368C31.wem</Path>
@@ -64655,10 +64735,6 @@
 				<File Id="545846222" Language="SFX">
 					<ShortName>Characters\Survivor_COMMON\vo_svr_male_Vomit_03.wav</ShortName>
 					<Path>SFX\Characters\Survivor_COMMON\vo_svr_male_Vomit_03_67368C31.wem</Path>
-				</File>
-				<File Id="550568177" Language="SFX">
-					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_07.wav</ShortName>
-					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_07_32DC8FDB.wem</Path>
 				</File>
 				<File Id="551308922" Language="SFX">
 					<ShortName>Characters\Survivor_COMMON\vo_svr_male_Vomit_15.wav</ShortName>
@@ -64924,6 +65000,10 @@
 					<ShortName>Gameplay\sfx_perks_redherring_01.wav</ShortName>
 					<Path>SFX\Gameplay\sfx_perks_redherring_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="737001430" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_02.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_02_982BF740.wem</Path>
+				</File>
 				<File Id="738619646" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_spray_03.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_spray_03_67368C31.wem</Path>
@@ -64959,6 +65039,10 @@
 				<File Id="756484641" Language="SFX">
 					<ShortName>HUD\HUD_Survivor_Get_Hooked_Bounce.wav</ShortName>
 					<Path>SFX\HUD\HUD_Survivor_Get_Hooked_Bounce_D8984390.wem</Path>
+				</File>
+				<File Id="758030539" Language="SFX">
+					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_01.wav</ShortName>
+					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_01_FFA19DEB.wem</Path>
 				</File>
 				<File Id="760246624" Language="SFX">
 					<ShortName>Gameplay\sfx_archives_glyph_activation_idle_electricity_sparks_04.wav</ShortName>
@@ -65028,6 +65112,10 @@
 					<ShortName>Gameplay\sfx_archives_glyph_activation_idle_electricity_sparks_02.wav</ShortName>
 					<Path>SFX\Gameplay\sfx_archives_glyph_activation_idle_electricity_sparks_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="830602743" Language="SFX">
+					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_07.wav</ShortName>
+					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_corn_end_07_FFA19DEB.wem</Path>
+				</File>
 				<File Id="834187481" Language="SFX">
 					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_tallgrass_08.wav</ShortName>
 					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_tallgrass_08_32DC8FDB.wem</Path>
@@ -65039,6 +65127,10 @@
 				<File Id="839267441" Language="SFX">
 					<ShortName>Characters\Survivor_COMMON\sfx_survivor_body_crack_04.wav</ShortName>
 					<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_body_crack_04_67368C31.wem</Path>
+				</File>
+				<File Id="844435013" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_bonus_02.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_bonus_02_982BF740.wem</Path>
 				</File>
 				<File Id="845392496" Language="SFX">
 					<ShortName>Gameplay\sfx_endgame_ground_cinder_01.wav</ShortName>
@@ -65120,6 +65212,10 @@
 					<ShortName>Music\mu_terrorradius_default_01_layer_01.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_default_01_layer_01_0BC91DCF.wem</Path>
 				</File>
+				<File Id="945004211" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_01.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_01_982BF740.wem</Path>
+				</File>
 				<File Id="945906507" Language="SFX">
 					<ShortName>Characters\Survivor_COMMON\vo_svr_female_vomit_06-11.wav</ShortName>
 					<Path>SFX\Characters\Survivor_COMMON\vo_svr_female_vomit_06-11_67368C31.wem</Path>
@@ -65175,10 +65271,6 @@
 				<File Id="972517219" Language="SFX">
 					<ShortName>HUD\sfx_obsession_chosen_icon_01.wav</ShortName>
 					<Path>SFX\HUD\sfx_obsession_chosen_icon_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="975650273" Language="SFX">
-					<ShortName>Characters\Footsteps_COMMON\sfx_character_footstep_bush_10.wav</ShortName>
-					<Path>SFX\Characters\Footsteps_COMMON\sfx_character_footstep_bush_10_32DC8FDB.wem</Path>
 				</File>
 				<File Id="976909282" Language="SFX">
 					<ShortName>Objects\Meathook\sfx_meathook_sabotage_explosion_02.wav</ShortName>
@@ -65299,6 +65391,10 @@
 				<File Id="1059596498" Language="SFX">
 					<ShortName>Objects\Blood\sfx_blood_spray_02.wav</ShortName>
 					<Path>SFX\Objects\Blood\sfx_blood_spray_02_67368C31.wem</Path>
+				</File>
+				<File Id="1064920520" Language="SFX">
+					<ShortName>HUD\sfx_hud_skillcheck_wiggle_add_v2_03.wav</ShortName>
+					<Path>SFX\HUD\sfx_hud_skillcheck_wiggle_add_v2_03_982BF740.wem</Path>
 				</File>
 				<File Id="1065386541" Language="SFX">
 					<ShortName>Objects\Blood\Blood_Splash_Bounce_10.wav</ShortName>
@@ -65499,9 +65595,11 @@
 				<GameParameter Id="178822728" Name="AudioRTPC_Endgame_Slowdown" ObjectPath="\Game Parameters\RTPC_ENDGAME\AudioRTPC_Endgame_Slowdown" GUID="{3F1D810A-9ADF-4D7E-A52A-73B542006F77}"/>
 				<GameParameter Id="379311847" Name="AudioRTPC_Survivor_Time_Stop_Moving" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Survivor_Time_Stop_Moving" GUID="{879A231E-2653-440D-976D-53F57B2C0D11}"/>
 				<GameParameter Id="533506399" Name="AudioRTPC_Effect_StaggerReduction" ObjectPath="\Game Parameters\RTPC_EFFECT\AudioRTPC_Effect_StaggerReduction" GUID="{17B1E87F-37AB-458A-AF8D-BBDAF78A66AD}"/>
+				<GameParameter Id="625919133" Name="AudioRTPC_Character_Rotation_Speed" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Rotation_Speed" GUID="{A8073099-2A67-4E14-954D-6A21863A4D94}"/>
 				<GameParameter Id="842905171" Name="AudioRTPC_VOL_SVR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_SVR_GRUNT" GUID="{DEC3D784-475D-476E-B2BF-0B730C2576AD}"/>
 				<GameParameter Id="1264094883" Name="AudioRTPC_Chase_Killer" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Chase_Killer" GUID="{4771F806-0A14-4917-83EB-EC7E98879116}"/>
 				<GameParameter Id="1488839951" Name="AudioRTPC_Proximity_Survivor_Killer" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Proximity_Survivor_Killer" GUID="{DDFD515E-1AF8-4012-96A5-AE9851788E16}"/>
+				<GameParameter Id="1684874382" Name="AudioRTPC_HUD_Wiggle_Progression" ObjectPath="\Game Parameters\RTPC_HUD\AudioRTPC_HUD_Wiggle_Progression" GUID="{848D1F3C-C86F-446D-B4AC-04703BE74B9E}"/>
 				<GameParameter Id="2444086592" Name="AudioRTPC_Proximity_Terror_Radius" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Proximity_Terror_Radius" GUID="{B90C8BF7-27D1-46A0-8417-5EA7C60184A3}"/>
 				<GameParameter Id="2639448690" Name="AudioRTPC_Perk_Volume_SVR_Footsteps" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_SVR_Footsteps" GUID="{66421343-68DF-4D88-988F-A81C5793AC82}"/>
 				<GameParameter Id="2640173796" Name="AudioRTPC_Endgame_Pourcentage" ObjectPath="\Game Parameters\RTPC_ENDGAME\AudioRTPC_Endgame_Pourcentage" GUID="{DB67ED9A-042D-4022-97BD-7FF5378EA7F8}"/>

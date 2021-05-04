@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Draco\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Draco\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Draco_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Draco\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1183803264" GUID="{EB5D9F74-004C-4B0A-BE46-988DE0CB58C1}" Language="SFX">
+			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Fan</ObjectPath>
+			<ShortName>Fan</ShortName>
+			<Path>Fan.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4098994258" Name="AudioEvent_Obj_Fan_Big_Jittery" ObjectPath="\Events\OBJECT\OBJECT_DECO\Fans\AudioEvent_Obj_Fan_Big_Jittery" GUID="{C375E9E2-E7EB-4BF9-A809-214ECD7A814E}" MaxAttenuation="850.000000" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="504966469" Language="SFX">
+							<ShortName>Objects\Fan_Squeak\sfx_emt_t03_farm_fan_broken_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Fan_Squeak\sfx_emt_t03_farm_fan_broken_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2647286237" Name="AudioEvent_Obj_Fan_Big_Smooth" ObjectPath="\Events\OBJECT\OBJECT_DECO\Fans\AudioEvent_Obj_Fan_Big_Smooth" GUID="{033D4DF7-F17E-4192-9A1D-2901009849F1}" MaxAttenuation="850.000000" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="504966469" Language="SFX">
+							<ShortName>Objects\Fan_Squeak\sfx_emt_t03_farm_fan_broken_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Fan_Squeak\sfx_emt_t03_farm_fan_broken_loop_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="517924174" Language="SFX">
+							<ShortName>Objects\Fan_Squeak\sfx_emt_t03_farm_fan_big_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Fan_Squeak\sfx_emt_t03_farm_fan_big_loop_01_D3D155B1.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="86079871" Name="AudioEvent_Obj_Fan_Small" ObjectPath="\Events\OBJECT\OBJECT_DECO\Fans\AudioEvent_Obj_Fan_Small" GUID="{4F19EFF6-3F97-4BDF-A7C2-2D721D3D1B87}" MaxAttenuation="850.000000" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="761803400" Language="SFX">
+							<ShortName>Objects\Fan_Squeak\sfx_emt_t03_farm_fan_small_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Fan_Squeak\sfx_emt_t03_farm_fan_small_loop_01_CF0CFB13.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1645218840" Name="AudioRTPC_Fan_Speed_Jittery" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_Fan_Speed_Jittery" GUID="{BE9B2984-4B06-4E0C-920F-61DFA74FD871}"/>
+				<GameParameter Id="3660473867" Name="AudioRTPC_Fan_Speed_Smooth" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_Fan_Speed_Smooth" GUID="{F0EAAAD1-C120-4168-A5B6-8FFE742D1A70}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
