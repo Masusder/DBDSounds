@@ -171,14 +171,6 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3951701939" Name="AudioEvent_Killer_Stalker_Menu_Stinger" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\Stalker_STATUS\AudioEvent_Killer_Stalker_Menu_Stinger" GUID="{3E4661E1-DE90-4F5E-9D73-AF690175E2D0}" DurationType="OneShot" DurationMin="12.193537" DurationMax="12.193537">
-					<IncludedMemoryFiles>
-						<File Id="453803152" Language="SFX">
-							<ShortName>Music\mu_killer_stinger_k06_menu.wav</ShortName>
-							<Path>SFX\Music\mu_killer_stinger_k06_menu_0BC91DCF.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1537754648" Name="AudioEvent_KLR_06_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\Stalker_STATUS\AudioEvent_KLR_06_Status_Start" GUID="{484A3FC7-4211-43E7-859F-1CBC48CB3D7F}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="14463080" Language="SFX">
@@ -211,6 +203,14 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="2171036324" Name="AudioEvent_KLR_06_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\Stalker_STATUS\AudioEvent_KLR_06_Status_Stop" GUID="{CE99BB83-AFBB-49F3-8CC0-E2E73B7015C9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="323300019" Name="AudioEvent_KLR_06_Stinger_Menu" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\Stalker_STATUS\AudioEvent_KLR_06_Stinger_Menu" GUID="{3E4661E1-DE90-4F5E-9D73-AF690175E2D0}" DurationType="OneShot" DurationMin="12.193537" DurationMax="12.193537">
+					<IncludedMemoryFiles>
+						<File Id="453803152" Language="SFX">
+							<ShortName>Music\mu_killer_stinger_k06_menu.wav</ShortName>
+							<Path>SFX\Music\mu_killer_stinger_k06_menu_0BC91DCF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2760063061" Name="AudioEvent_Stalk_Completed" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\Stalker_POWER\AudioEvent_Stalk_Completed" GUID="{7A4E8E09-0B59-4767-8277-67307FC1CF77}" DurationType="OneShot" DurationMin="8.977959" DurationMax="8.977959">
 					<IncludedMemoryFiles>
 						<File Id="59404081" Language="SFX">

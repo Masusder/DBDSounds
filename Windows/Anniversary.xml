@@ -13,14 +13,462 @@
 			<ShortName>Anniversary</ShortName>
 			<Path>Anniversary.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3415836604" Name="AudioEvent_Firecracker_Explode_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Firecracker_Explode_Anniversary" GUID="{722DABE2-4B0B-438F-880F-32643AEB10D0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.704642" DurationMax="3.147714"/>
-				<Event Id="306812195" Name="AudioEvent_Flashlight_Anniversary_Blind" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Flashlight_Anniversary_Blind" GUID="{030E8926-DA85-4802-B575-1C42847AE3E0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.704642" DurationMax="2.147714"/>
-				<Event Id="3850481366" Name="AudioEvent_Generator_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Generator_Anniversary" GUID="{BC724B75-73B5-4F9D-A379-EAF90770833E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.717281" DurationMax="2.206462"/>
-				<Event Id="2405012655" Name="AudioEvent_Generator_Inside_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Generator_Inside_Anniversary" GUID="{8BFCE50D-BF62-4C4A-B16F-5BC7808B0E68}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.717281" DurationMax="2.206462"/>
-				<Event Id="1126746933" Name="AudioEvent_Meathook_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Meathook_Anniversary" GUID="{2A90BDD6-27A1-4656-BBB5-5C8B2AF6B2D0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.027308" DurationMax="2.522800"/>
-				<Event Id="3698716460" Name="AudioEvent_Medkit_Anniversary_Heal" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Medkit_Anniversary_Heal" GUID="{6EF51283-0FC6-4D39-B3F4-FCBDE4021375}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.826172" DurationMax="1.044050"/>
-				<Event Id="1558840097" Name="AudioEvent_ToolBox_Fail_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_ToolBox_Fail_Anniversary" GUID="{09D242A8-DB2A-4317-8595-4BE40732FCFE}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.155565" DurationMax="1.374606"/>
-				<Event Id="3860074652" Name="AudioEvent_ToolBox_GreatSucess_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_ToolBox_GreatSucess_Anniversary" GUID="{5085CB13-B083-4FC6-9061-47F6904EFB3C}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.244616" DurationMax="1.806462"/>
+				<Event Id="3415836604" Name="AudioEvent_Firecracker_Explode_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Firecracker_Explode_Anniversary" GUID="{722DABE2-4B0B-438F-880F-32643AEB10D0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.704642" DurationMax="3.147714">
+					<IncludedMemoryFiles>
+						<File Id="328989781" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_04_mix_Bounce.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_04_mix_Bounce_7FA8D501.wem</Path>
+						</File>
+						<File Id="699205890" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_firecracker_anniversary_02.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_firecracker_anniversary_02_67368C31.wem</Path>
+						</File>
+						<File Id="781281346" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_firecracker_anniversary_01.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_firecracker_anniversary_01_67368C31.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="306812195" Name="AudioEvent_Flashlight_Anniversary_Blind" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Flashlight_Anniversary_Blind" GUID="{030E8926-DA85-4802-B575-1C42847AE3E0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.704642" DurationMax="2.147714">
+					<IncludedMemoryFiles>
+						<File Id="328989781" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_04_mix_Bounce.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_04_mix_Bounce_7FA8D501.wem</Path>
+						</File>
+						<File Id="699205890" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_firecracker_anniversary_02.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_firecracker_anniversary_02_67368C31.wem</Path>
+						</File>
+						<File Id="781281346" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_firecracker_anniversary_01.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_firecracker_anniversary_01_67368C31.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3850481366" Name="AudioEvent_Generator_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Generator_Anniversary" GUID="{BC724B75-73B5-4F9D-A379-EAF90770833E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.717281" DurationMax="2.206462">
+					<IncludedMemoryFiles>
+						<File Id="51368230" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="62504609" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="105601824" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_04.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_04_DF5CE43E.wem</Path>
+						</File>
+						<File Id="109606281" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="249141063" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_14.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="250088744" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_06.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="261529421" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_09.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="333324963" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_12.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="345298057" Language="SFX">
+							<ShortName>Gameplay\sfx_5thAnniversary_burst_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_5thAnniversary_burst_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="374752562" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_13.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="386001034" Language="SFX">
+							<ShortName>Gameplay\sfx_5thAnniversary_burst_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_5thAnniversary_burst_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="428196463" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01_CEF167BE.wem</Path>
+						</File>
+						<File Id="444060674" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="488732429" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_15.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="592440505" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="616645725" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03_8AF24AAB.wem</Path>
+						</File>
+						<File Id="620887483" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="654938742" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="667599577" Language="SFX">
+							<ShortName>Gameplay\sfx_5thAnniversary_burst_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_5thAnniversary_burst_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="731919723" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="830538810" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="837525977" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_10.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="892542627" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_08.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1050295392" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_05_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2405012655" Name="AudioEvent_Generator_Inside_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Generator_Inside_Anniversary" GUID="{8BFCE50D-BF62-4C4A-B16F-5BC7808B0E68}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.717281" DurationMax="2.206462">
+					<IncludedMemoryFiles>
+						<File Id="51368230" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="62504609" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="109606281" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="249141063" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_14.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="250088744" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_06.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="261529421" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_09.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="333324963" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_12.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="345298057" Language="SFX">
+							<ShortName>Gameplay\sfx_5thAnniversary_burst_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_5thAnniversary_burst_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="374752562" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_13.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="386001034" Language="SFX">
+							<ShortName>Gameplay\sfx_5thAnniversary_burst_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_5thAnniversary_burst_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="444060674" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="488732429" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_15.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="592440505" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="620887483" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="654938742" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="667599577" Language="SFX">
+							<ShortName>Gameplay\sfx_5thAnniversary_burst_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_5thAnniversary_burst_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="731919723" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="830538810" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="837525977" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_10.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="892542627" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_08.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1050295392" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_05_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1126746933" Name="AudioEvent_Meathook_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Meathook_Anniversary" GUID="{2A90BDD6-27A1-4656-BBB5-5C8B2AF6B2D0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.027308" DurationMax="2.522800">
+					<IncludedMemoryFiles>
+						<File Id="51368230" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="105601824" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_04.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_04_DF5CE43E.wem</Path>
+						</File>
+						<File Id="249141063" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_14.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="250088744" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_06.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="261529421" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_09.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="333324963" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_12.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="374752562" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_13.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="428196463" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01_CEF167BE.wem</Path>
+						</File>
+						<File Id="444060674" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="454014372" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_generator_explosion_02.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_generator_explosion_02_40C32530.wem</Path>
+						</File>
+						<File Id="488732429" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_15.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="616645725" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03_8AF24AAB.wem</Path>
+						</File>
+						<File Id="654938742" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="783482635" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_generator_explosion_03.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_generator_explosion_03_0E3E6C52.wem</Path>
+						</File>
+						<File Id="830538810" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="837525977" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_10.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="840500313" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_anniversary_firecrackers_02.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_anniversary_firecrackers_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="860743394" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_anniversary_firecrackers_01.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_anniversary_firecrackers_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="862166616" Language="SFX">
+							<ShortName>Objects\Fireworks\sfx_fireworks_generator_explosion_01.wav</ShortName>
+							<Path>SFX\Objects\Fireworks\sfx_fireworks_generator_explosion_01_716EF97C.wem</Path>
+						</File>
+						<File Id="892542627" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_08.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="908831820" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_anniversary_firecrackers_03.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_anniversary_firecrackers_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1050295392" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_05_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3698716460" Name="AudioEvent_Medkit_Anniversary_Heal" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_Medkit_Anniversary_Heal" GUID="{6EF51283-0FC6-4D39-B3F4-FCBDE4021375}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.826172" DurationMax="1.044050">
+					<IncludedMemoryFiles>
+						<File Id="243266498" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_03_67368C31.wem</Path>
+						</File>
+						<File Id="699205890" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_firecracker_anniversary_02.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_firecracker_anniversary_02_67368C31.wem</Path>
+						</File>
+						<File Id="781281346" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_firecracker_anniversary_01.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_firecracker_anniversary_01_67368C31.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1558840097" Name="AudioEvent_ToolBox_Fail_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_ToolBox_Fail_Anniversary" GUID="{09D242A8-DB2A-4317-8595-4BE40732FCFE}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.155565" DurationMax="1.374606">
+					<IncludedMemoryFiles>
+						<File Id="62504609" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="109606281" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="539289050" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_toolbox_fail_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_toolbox_fail_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="592440505" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="620887483" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="731919723" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="758852776" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_toolbox_fail_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_toolbox_fail_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="847953565" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_toolbox_fail_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_toolbox_fail_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="852567038" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_toolbox_fail_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_toolbox_fail_01_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3860074652" Name="AudioEvent_ToolBox_GreatSucess_Anniversary" ObjectPath="\Events\OBJECT\OBJECT_VFX\Anniversary\AudioEvent_ToolBox_GreatSucess_Anniversary" GUID="{5085CB13-B083-4FC6-9061-47F6904EFB3C}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.244616" DurationMax="1.806462">
+					<IncludedMemoryFiles>
+						<File Id="51368230" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="62504609" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="109606281" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="249141063" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_14.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="250088744" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_06.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="261529421" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_09.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="333324963" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_12.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="374752562" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_13.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="444060674" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_02.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="488732429" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_15.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="592440505" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_01.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="620887483" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="654938742" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="731919723" Language="SFX">
+							<ShortName>Gameplay\sfx_anniversary_blowouts_big_03.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniversary_blowouts_big_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="830538810" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_04.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="837525977" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_10.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="840500313" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_anniversary_firecrackers_02.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_anniversary_firecrackers_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="860743394" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_anniversary_firecrackers_01.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_anniversary_firecrackers_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="892542627" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_08.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="908831820" Language="SFX">
+							<ShortName>Objects\Firecracker\sfx_anniversary_firecrackers_03.wav</ShortName>
+							<Path>SFX\Objects\Firecracker\sfx_anniversary_firecrackers_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1050295392" Language="SFX">
+							<ShortName>Gameplay\sfx_anniverary_horn_common_05.wav</ShortName>
+							<Path>SFX\Gameplay\sfx_anniverary_horn_common_05_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
