@@ -13,7 +13,7 @@
 			<ShortName>KLR_03</ShortName>
 			<Path>KLR_03.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2092267674" Name="AudioEvent_Chainsaw_HillBilly_Hit_Object" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Object" GUID="{99176CA8-E25E-4A4E-9444-710F36C9E4D4}" DurationType="OneShot" DurationMin="1.488628" DurationMax="2.135102">
+				<Event Id="2092267674" Name="AudioEvent_Chainsaw_HillBilly_Hit_Object" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Object" GUID="{99176CA8-E25E-4A4E-9444-710F36C9E4D4}" DurationType="OneShot" DurationMin="1.488628" DurationMax="2.135102">
 					<IncludedMemoryFiles>
 						<File Id="30213688" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
@@ -45,13 +45,13 @@
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
+						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1514105209" Name="AudioEvent_Chainsaw_HillBilly_Hit_Survivor" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Survivor" GUID="{E3A3A199-8382-45C2-9313-F953A444F261}" DurationType="OneShot" DurationMin="1.688628" DurationMax="2.335102">
+				<Event Id="1514105209" Name="AudioEvent_Chainsaw_HillBilly_Hit_Survivor" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Survivor" GUID="{E3A3A199-8382-45C2-9313-F953A444F261}" DurationType="OneShot" DurationMin="1.688628" DurationMax="2.335102">
 					<IncludedMemoryFiles>
 						<File Id="30213688" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
@@ -67,7 +67,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
+						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
 						<ActionPostEventEntry Id="1440243927" Name="AudioEvent_Blood_ChainSaw_Loop_Stop" ObjectPath="\Events\OBJECT\OBJECT_VFX\Blood\AudioEvent_Blood_ChainSaw_Loop_Stop" GUID="{6B1E7C81-67B8-427E-9A4C-D124A877AF04}"/>
 						<ActionPostEventEntry Id="3415251201" Name="AudioEvent_Blood_ChainSaw_Loop_Play" ObjectPath="\Events\OBJECT\OBJECT_VFX\Blood\AudioEvent_Blood_ChainSaw_Loop_Play" GUID="{FFB10B8D-6722-4D94-BBE7-1D464D10157E}"/>
 					</ActionPostEvent>
@@ -76,7 +76,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1244037019" Name="AudioEvent_Chainsaw_HillBilly_Hit_Survivor_Mori" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Survivor_Mori" GUID="{5737A819-8F9F-4039-9998-632C9139F034}" DurationType="Infinite">
+				<Event Id="1244037019" Name="AudioEvent_Chainsaw_HillBilly_Hit_Survivor_Mori" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Survivor_Mori" GUID="{5737A819-8F9F-4039-9998-632C9139F034}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="22689873" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_attack_rev_multi_05.wav</ShortName>
@@ -135,7 +135,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="558305491" Name="AudioEvent_Chainsaw_HillBilly_Hit_Wall" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Wall" GUID="{7FEE41EC-EE18-4510-9959-FB2F73AEBB15}" DurationType="OneShot" DurationMin="1.188628" DurationMax="1.835102">
+				<Event Id="558305491" Name="AudioEvent_Chainsaw_HillBilly_Hit_Wall" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Hit_Wall" GUID="{7FEE41EC-EE18-4510-9959-FB2F73AEBB15}" DurationType="OneShot" DurationMin="1.188628" DurationMax="1.835102">
 					<IncludedMemoryFiles>
 						<File Id="30213688" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
@@ -167,13 +167,13 @@
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
+						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2571249149" Name="AudioEvent_Chainsaw_HillBilly_Idle_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Idle_Loop_Start" GUID="{3542C126-E467-4C1C-9186-722E8C276F1A}" DurationType="Infinite">
+				<Event Id="2571249149" Name="AudioEvent_Chainsaw_HillBilly_Idle_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Idle_Loop_Start" GUID="{3542C126-E467-4C1C-9186-722E8C276F1A}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="40354129" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_attack_rev_stress_loop_04.wav</ShortName>
@@ -189,7 +189,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1429616487" Name="AudioEvent_Chainsaw_HillBilly_Overheat_End" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Overheat_End" GUID="{18792877-ADBA-4174-9798-8F19EE23C1A0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.864500" DurationMax="0.891104">
+				<Event Id="1429616487" Name="AudioEvent_Chainsaw_HillBilly_Overheat_End" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Overheat_End" GUID="{18792877-ADBA-4174-9798-8F19EE23C1A0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.864500" DurationMax="0.891104">
 					<IncludedMemoryFiles>
 						<File Id="62744219" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_attack_ready_02.wav</ShortName>
@@ -205,7 +205,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="365450836" Name="AudioEvent_Chainsaw_HillBilly_Overheat_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Overheat_Start" GUID="{AF28411D-9174-490F-A5DE-6453AA2A0575}" DurationType="OneShot" DurationMin="2.129167" DurationMax="2.464292">
+				<Event Id="365450836" Name="AudioEvent_Chainsaw_HillBilly_Overheat_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Overheat_Start" GUID="{AF28411D-9174-490F-A5DE-6453AA2A0575}" DurationType="OneShot" DurationMin="2.129167" DurationMax="2.464292">
 					<IncludedMemoryFiles>
 						<File Id="538248666" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_attack_overheat_03.wav</ShortName>
@@ -221,10 +221,10 @@
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
+						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="1229843836" Name="AudioEvent_Chainsaw_HillBilly_Rev_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Loop_Start" GUID="{F482718B-C70A-4233-8F18-5B46145EEE01}" DurationType="Infinite">
+				<Event Id="1229843836" Name="AudioEvent_Chainsaw_HillBilly_Rev_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Loop_Start" GUID="{F482718B-C70A-4233-8F18-5B46145EEE01}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="22689873" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_attack_rev_multi_05.wav</ShortName>
@@ -248,7 +248,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="537169360" Name="AudioEvent_Chainsaw_HillBilly_Rev_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Loop_Stop" GUID="{2C663EDE-8C0E-4C67-AD32-C4712EF336B8}" DurationType="OneShot" DurationMin="1.088628" DurationMax="1.735102">
+				<Event Id="537169360" Name="AudioEvent_Chainsaw_HillBilly_Rev_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Loop_Stop" GUID="{2C663EDE-8C0E-4C67-AD32-C4712EF336B8}" DurationType="OneShot" DurationMin="1.088628" DurationMax="1.735102">
 					<IncludedMemoryFiles>
 						<File Id="30213688" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
@@ -260,13 +260,13 @@
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
+						<ActionPostEventEntry Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4124253071" Name="AudioEvent_Chainsaw_HillBilly_Rev_Single" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Single" GUID="{65147E21-54F9-4DA6-9096-DB4328F05DDA}" DurationType="OneShot" DurationMin="1.320354" DurationMax="1.635102">
+				<Event Id="4124253071" Name="AudioEvent_Chainsaw_HillBilly_Rev_Single" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Single" GUID="{65147E21-54F9-4DA6-9096-DB4328F05DDA}" DurationType="OneShot" DurationMin="1.320354" DurationMax="1.635102">
 					<IncludedMemoryFiles>
 						<File Id="30213688" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
@@ -294,7 +294,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="976357862" Name="AudioEvent_Chainsaw_HillBilly_Rev_Single_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Single_Attack" GUID="{F2776865-B574-46B6-B86C-429589530FB5}" DurationType="OneShot" DurationMin="1.320354" DurationMax="1.635102">
+				<Event Id="976357862" Name="AudioEvent_Chainsaw_HillBilly_Rev_Single_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Rev_Single_Attack" GUID="{F2776865-B574-46B6-B86C-429589530FB5}" DurationType="OneShot" DurationMin="1.320354" DurationMax="1.635102">
 					<IncludedMemoryFiles>
 						<File Id="30213688" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
@@ -322,7 +322,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1813589596" Name="AudioEvent_Chainsaw_HillBilly_Startup" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Startup" GUID="{943FF70E-E1F1-4D8F-A833-4880C5F5D01D}" DurationType="OneShot" DurationMin="0.684853" DurationMax="0.833651">
+				<Event Id="1813589596" Name="AudioEvent_Chainsaw_HillBilly_Startup" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Startup" GUID="{943FF70E-E1F1-4D8F-A833-4880C5F5D01D}" DurationType="OneShot" DurationMin="0.684853" DurationMax="0.833651">
 					<IncludedMemoryFiles>
 						<File Id="913967190" Language="SFX">
 							<ShortName>Objects\Chainsaw\sfx_chainsaw_attack_start_01.wav</ShortName>
@@ -334,8 +334,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3621992346" Name="AudioEvent_K03_WPN_Default_Hammer_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Arm" GUID="{D6AF35C3-03C7-4E38-8520-3519C3DF2446}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.467619" DurationMax="0.578798">
+				<Event Id="416186409" Name="AudioEvent_Chainsaw_HillBilly_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_POWER\AudioEvent_Chainsaw_HillBilly_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3621992346" Name="AudioEvent_K03_WPN_Default_Hammer_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Arm" GUID="{D6AF35C3-03C7-4E38-8520-3519C3DF2446}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.467619" DurationMax="0.578798">
 					<IncludedMemoryFiles>
 						<File Id="37062825" Language="SFX">
 							<ShortName>Weapons\Hammer\sfx_weapon_hammer_arm_move_01.wav</ShortName>
@@ -358,7 +358,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="48891184" Name="AudioEvent_K03_WPN_Default_Hammer_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Attack" GUID="{BB789DC9-F778-47DC-9452-E3F7F2346F0C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.415964" DurationMax="0.859546">
+				<Event Id="48891184" Name="AudioEvent_K03_WPN_Default_Hammer_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Attack" GUID="{BB789DC9-F778-47DC-9452-E3F7F2346F0C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.415964" DurationMax="0.859546">
 					<IncludedMemoryFiles>
 						<File Id="283762743" Language="SFX">
 							<ShortName>Weapons\Hammer\sfx_weapon_hammer_attack_whoosh_04.wav</ShortName>
@@ -385,7 +385,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="852667173" Name="AudioEvent_K03_WPN_Default_Hammer_Flip" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Flip" GUID="{CD038B2E-DCE3-47FF-99CE-89911A4BB8F3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.499093" DurationMax="0.714082">
+				<Event Id="852667173" Name="AudioEvent_K03_WPN_Default_Hammer_Flip" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Flip" GUID="{CD038B2E-DCE3-47FF-99CE-89911A4BB8F3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.499093" DurationMax="0.714082">
 					<IncludedMemoryFiles>
 						<File Id="42818499" Language="SFX">
 							<ShortName>Weapons\Hammer\sfx_weapon_hammer_flip_whoosh_05.wav</ShortName>
@@ -404,7 +404,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2940787282" Name="AudioEvent_K03_WPN_Default_Hammer_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Impact" GUID="{5F7A9723-D9C0-45F6-B394-D8E401AA439D}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.811708" DurationMax="1.338606">
+				<Event Id="2940787282" Name="AudioEvent_K03_WPN_Default_Hammer_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_WEAPON\AudioEvent_K03_WPN_Default_Hammer_Impact" GUID="{5F7A9723-D9C0-45F6-B394-D8E401AA439D}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.811708" DurationMax="1.338606">
 					<IncludedMemoryFiles>
 						<File Id="390177365" Language="SFX">
 							<ShortName>Impacts\sfx_weapon_hammer_impact_hit_03.wav</ShortName>
@@ -433,12 +433,12 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3511018639" Name="AudioEvent_K03_WPN_Default_Hammer_PullOut" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_WEAPON\AudioEvent_K03_WPN_Default_Hammer_PullOut" GUID="{D0893B40-DE70-43D5-86FF-835CCCE63422}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="3511018639" Name="AudioEvent_K03_WPN_Default_Hammer_PullOut" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_WEAPON\AudioEvent_K03_WPN_Default_Hammer_PullOut" GUID="{D0893B40-DE70-43D5-86FF-835CCCE63422}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1466983514" Name="AudioEvent_Killer_HillBilly_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_GRUNT\AudioEvent_Killer_HillBilly_Grunt_Hurt" GUID="{753C7F12-5A37-4A35-8B22-A80D6925E23E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.584331" DurationMax="0.829478">
+				<Event Id="1466983514" Name="AudioEvent_Killer_HillBilly_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_GRUNT\AudioEvent_Killer_HillBilly_Grunt_Hurt" GUID="{753C7F12-5A37-4A35-8B22-A80D6925E23E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.584331" DurationMax="0.829478">
 					<IncludedMemoryFiles>
 						<File Id="132226834" Language="SFX">
 							<ShortName>Characters\Killer_Hillbilly\vo_killer_hillbilly_grunt_hurt_05.wav</ShortName>
@@ -465,7 +465,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1499771209" Name="AudioEvent_Killer_HillBilly_Grunt_Sprint" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_GRUNT\AudioEvent_Killer_HillBilly_Grunt_Sprint" GUID="{1EC12AAD-29B3-4E60-8B8F-A1EB34C7C583}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.714000" DurationMax="1.258467">
+				<Event Id="1499771209" Name="AudioEvent_Killer_HillBilly_Grunt_Sprint" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_GRUNT\AudioEvent_Killer_HillBilly_Grunt_Sprint" GUID="{1EC12AAD-29B3-4E60-8B8F-A1EB34C7C583}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.714000" DurationMax="1.258467">
 					<IncludedMemoryFiles>
 						<File Id="58738074" Language="SFX">
 							<ShortName>Characters\Killer_Hillbilly\vo_killer_hillbilly_grunt_sprint_02.wav</ShortName>
@@ -488,7 +488,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1452588380" Name="AudioEvent_Killer_HillBilly_Mori_Lick_Blood" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_GRUNT\AudioEvent_Killer_HillBilly_Mori_Lick_Blood" GUID="{35AB2542-853A-4FE8-A766-BBE85ED6B1ED}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.354925" DurationMax="0.478917">
+				<Event Id="1452588380" Name="AudioEvent_Killer_HillBilly_Mori_Lick_Blood" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_GRUNT\AudioEvent_Killer_HillBilly_Mori_Lick_Blood" GUID="{35AB2542-853A-4FE8-A766-BBE85ED6B1ED}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.354925" DurationMax="0.478917">
 					<IncludedMemoryFiles>
 						<File Id="106943639" Language="SFX">
 							<ShortName>Characters\Killer_Witch\sfx_killer_lick_blood_02.wav</ShortName>
@@ -507,7 +507,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3847529075" Name="AudioEvent_KLR_03_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_STATUS\AudioEvent_KLR_03_Status_Start" GUID="{D9DA2DB9-1EE4-49FD-B2D5-4AC100D276B9}" MaxAttenuation="1900.000000" DurationType="Infinite">
+				<Event Id="3847529075" Name="AudioEvent_KLR_03_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_STATUS\AudioEvent_KLR_03_Status_Start" GUID="{D9DA2DB9-1EE4-49FD-B2D5-4AC100D276B9}" MaxAttenuation="1900.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="679709" Language="SFX">
 							<ShortName>Characters\Killer_Hillbilly\sfx_killer_hillbilly_normal_breath_9.wav</ShortName>
@@ -554,8 +554,8 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2324430769" Name="AudioEvent_KLR_03_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_STATUS\AudioEvent_KLR_03_Status_Stop" GUID="{218D93AD-7C98-4C31-AEFA-3E195CB253A5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4119450440" Name="AudioEvent_MenuIdle_Arm_Wipe" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_STATUS\AudioEvent_MenuIdle_Arm_Wipe" GUID="{C97DE51B-952E-45C0-A869-19B203CDFACB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.837930" DurationMax="1.055725">
+				<Event Id="2324430769" Name="AudioEvent_KLR_03_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_STATUS\AudioEvent_KLR_03_Status_Stop" GUID="{218D93AD-7C98-4C31-AEFA-3E195CB253A5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4119450440" Name="AudioEvent_MenuIdle_Arm_Wipe" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_STATUS\AudioEvent_MenuIdle_Arm_Wipe" GUID="{C97DE51B-952E-45C0-A869-19B203CDFACB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.837930" DurationMax="1.055725">
 					<IncludedMemoryFiles>
 						<File Id="19259635" Language="SFX">
 							<ShortName>Menu\sfx_machete_clean_01_interrupt.wav</ShortName>
@@ -567,7 +567,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="266186349" Name="AudioEvent_MenuIdle_Hammer_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_STATUS\AudioEvent_MenuIdle_Hammer_Attack" GUID="{D3567AAF-13B4-4FD5-B2B1-EDA73F3F45F6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.415964" DurationMax="0.859546">
+				<Event Id="266186349" Name="AudioEvent_MenuIdle_Hammer_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_STATUS\AudioEvent_MenuIdle_Hammer_Attack" GUID="{D3567AAF-13B4-4FD5-B2B1-EDA73F3F45F6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.415964" DurationMax="0.859546">
 					<ReferencedStreamedFiles>
 						<File Id="78903791" Language="SFX">
 							<ShortName>Menu\sfx_weapon_hammer_attack_whoosh_04_interrupt.wav</ShortName>
@@ -591,7 +591,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="1418756908" Name="AudioEvent_MenuIdle_Hammer_Clean" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_STATUS\AudioEvent_MenuIdle_Hammer_Clean" GUID="{E209F462-3CD5-48A0-B51C-D0DA80A1ED15}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.588633" DurationMax="1.332070">
+				<Event Id="1418756908" Name="AudioEvent_MenuIdle_Hammer_Clean" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_STATUS\AudioEvent_MenuIdle_Hammer_Clean" GUID="{E209F462-3CD5-48A0-B51C-D0DA80A1ED15}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.588633" DurationMax="1.332070">
 					<ReferencedStreamedFiles>
 						<File Id="37606997" Language="SFX">
 							<ShortName>Menu\SledgeHammer_Clean_Foley_cn_01_interrupt.wav</ShortName>
@@ -615,7 +615,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="3343030823" Name="AudioEvent_MenuIdle_Hammer_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_STATUS\AudioEvent_MenuIdle_Hammer_Impact" GUID="{66401D05-7DF1-4092-B59D-7EDE71364E1D}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.768000" DurationMax="1.066667">
+				<Event Id="3343030823" Name="AudioEvent_MenuIdle_Hammer_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_STATUS\AudioEvent_MenuIdle_Hammer_Impact" GUID="{66401D05-7DF1-4092-B59D-7EDE71364E1D}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.768000" DurationMax="1.066667">
 					<ReferencedStreamedFiles>
 						<File Id="155795107" Language="SFX">
 							<ShortName>Menu\MenuIdle_Hammer_Impact_Bounce_01.wav</ShortName>
@@ -639,7 +639,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="2762842253" Name="AudioEvent_MenuIdle_HillBilly_Scream" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\HillBilly_STATUS\AudioEvent_MenuIdle_HillBilly_Scream" GUID="{5F661DA9-79DA-46B6-9BC2-36C2F9934DE1}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.772902" DurationMax="0.829478">
+				<Event Id="2762842253" Name="AudioEvent_MenuIdle_HillBilly_Scream" ObjectPath="\Events\CHARACTER\KILLER\KLR_03_HillBilly\K03_STATUS\AudioEvent_MenuIdle_HillBilly_Scream" GUID="{5F661DA9-79DA-46B6-9BC2-36C2F9934DE1}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.772902" DurationMax="0.829478">
 					<ReferencedStreamedFiles>
 						<File Id="880518789" Language="SFX">
 							<ShortName>Menu\vo_killer_hillbilly_grunt_hurt_01_interrupt.wav</ShortName>

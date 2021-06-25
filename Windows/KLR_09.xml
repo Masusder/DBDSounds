@@ -13,7 +13,7 @@
 			<ShortName>KLR_09</ShortName>
 			<Path>KLR_09.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1213004720" Name="AudioEvent_Chainsaw_Cannibal_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Attack" GUID="{6D12EEE5-06AF-4A87-9925-5C7E8A779483}" DurationType="OneShot" DurationMin="2.093583" DurationMax="2.264244">
+				<Event Id="1213004720" Name="AudioEvent_Chainsaw_Cannibal_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Attack" GUID="{6D12EEE5-06AF-4A87-9925-5C7E8A779483}" DurationType="OneShot" DurationMin="2.093583" DurationMax="2.264244">
 					<IncludedMemoryFiles>
 						<File Id="34251117" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_rev_add_01.wav</ShortName>
@@ -72,7 +72,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3415013186" Name="AudioEvent_Chainsaw_Cannibal_Cancel" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Cancel" GUID="{E1242795-B2C3-4C75-9E10-E0AE7DAD3B09}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.393583" DurationMax="1.564244">
+				<Event Id="3415013186" Name="AudioEvent_Chainsaw_Cannibal_Cancel" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Cancel" GUID="{E1242795-B2C3-4C75-9E10-E0AE7DAD3B09}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.393583" DurationMax="1.564244">
 					<IncludedMemoryFiles>
 						<File Id="1071241387" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_rev_release.wav</ShortName>
@@ -83,12 +83,12 @@
 						<ActionPostEventEntry Id="1440243927" Name="AudioEvent_Blood_ChainSaw_Loop_Stop" ObjectPath="\Events\OBJECT\OBJECT_VFX\Blood\AudioEvent_Blood_ChainSaw_Loop_Stop" GUID="{6B1E7C81-67B8-427E-9A4C-D124A877AF04}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="820766534" Name="AudioEvent_Chainsaw_Cannibal_Cancel_Silent" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Cancel_Silent" GUID="{3A6D799D-C270-43FD-8698-6B0DA81B459F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="820766534" Name="AudioEvent_Chainsaw_Cannibal_Cancel_Silent" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Cancel_Silent" GUID="{3A6D799D-C270-43FD-8698-6B0DA81B459F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1440243927" Name="AudioEvent_Blood_ChainSaw_Loop_Stop" ObjectPath="\Events\OBJECT\OBJECT_VFX\Blood\AudioEvent_Blood_ChainSaw_Loop_Stop" GUID="{6B1E7C81-67B8-427E-9A4C-D124A877AF04}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2689366611" Name="AudioEvent_Chainsaw_Cannibal_Hit_Object" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Hit_Object" GUID="{6C5EDEA6-BBEE-4E0C-A32A-A1831D9CFB91}" DurationType="OneShot" DurationMin="0.558617" DurationMax="0.788980">
+				<Event Id="2689366611" Name="AudioEvent_Chainsaw_Cannibal_Hit_Object" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Hit_Object" GUID="{6C5EDEA6-BBEE-4E0C-A32A-A1831D9CFB91}" DurationType="OneShot" DurationMin="0.558617" DurationMax="0.788980">
 					<IncludedMemoryFiles>
 						<File Id="81407336" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_hit_wall_02.wav</ShortName>
@@ -111,7 +111,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2439225420" Name="AudioEvent_Chainsaw_Cannibal_Hit_Survivor" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Hit_Survivor" GUID="{31BF8AA8-8FEB-4DDA-9240-E6555A646559}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.793583" DurationMax="1.964244">
+				<Event Id="2439225420" Name="AudioEvent_Chainsaw_Cannibal_Hit_Survivor" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Hit_Survivor" GUID="{31BF8AA8-8FEB-4DDA-9240-E6555A646559}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.793583" DurationMax="1.964244">
 					<IncludedMemoryFiles>
 						<File Id="819055317" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsawcannibal_attack_body_loop_bounce.wav</ShortName>
@@ -127,7 +127,7 @@
 						<ActionPostEventEntry Id="3415251201" Name="AudioEvent_Blood_ChainSaw_Loop_Play" ObjectPath="\Events\OBJECT\OBJECT_VFX\Blood\AudioEvent_Blood_ChainSaw_Loop_Play" GUID="{FFB10B8D-6722-4D94-BBE7-1D464D10157E}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="57685806" Name="AudioEvent_Chainsaw_Cannibal_Hit_Wall" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Hit_Wall" GUID="{B0A5D287-2F99-48CD-8F7A-2B32F47C588C}" DurationType="OneShot" DurationMin="0.558617" DurationMax="0.788980">
+				<Event Id="57685806" Name="AudioEvent_Chainsaw_Cannibal_Hit_Wall" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Hit_Wall" GUID="{B0A5D287-2F99-48CD-8F7A-2B32F47C588C}" DurationType="OneShot" DurationMin="0.558617" DurationMax="0.788980">
 					<IncludedMemoryFiles>
 						<File Id="81407336" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_hit_wall_02.wav</ShortName>
@@ -150,7 +150,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1158756250" Name="AudioEvent_Chainsaw_Cannibal_Idle" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Idle" GUID="{6236116B-D290-42A3-A40F-B2B2577DACFD}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="1158756250" Name="AudioEvent_Chainsaw_Cannibal_Idle" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Idle" GUID="{6236116B-D290-42A3-A40F-B2B2577DACFD}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="797437290" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_idle_loop_bounce.wav</ShortName>
@@ -161,8 +161,8 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2247469289" Name="AudioEvent_Chainsaw_Cannibal_Idle_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Idle_Stop" GUID="{49474BDF-CA43-4482-B329-ADB89F9C9690}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3871318093" Name="AudioEvent_Chainsaw_Cannibal_Rev_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Rev_Loop_Start" GUID="{11E2F61A-EEB3-44EB-8829-DC66EA382EF2}" DurationType="Infinite">
+				<Event Id="2247469289" Name="AudioEvent_Chainsaw_Cannibal_Idle_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Idle_Stop" GUID="{49474BDF-CA43-4482-B329-ADB89F9C9690}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3871318093" Name="AudioEvent_Chainsaw_Cannibal_Rev_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Rev_Loop_Start" GUID="{11E2F61A-EEB3-44EB-8829-DC66EA382EF2}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="34251117" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_rev_add_01.wav</ShortName>
@@ -221,7 +221,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1863970174" Name="AudioEvent_Chainsaw_Cannibal_Rev_Single" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Rev_Single" GUID="{822295C7-511D-4477-AECE-C7A1BBCD2F59}" DurationType="OneShot" DurationMin="2.093583" DurationMax="2.264244">
+				<Event Id="1863970174" Name="AudioEvent_Chainsaw_Cannibal_Rev_Single" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Rev_Single" GUID="{822295C7-511D-4477-AECE-C7A1BBCD2F59}" DurationType="OneShot" DurationMin="2.093583" DurationMax="2.264244">
 					<IncludedMemoryFiles>
 						<File Id="34251117" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_rev_add_01.wav</ShortName>
@@ -280,7 +280,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3155677262" Name="AudioEvent_Chainsaw_Cannibal_Swing" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_Swing" GUID="{582C12AB-5FE1-4805-BEF1-A58987AE03B3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.704000" DurationMax="0.874667">
+				<Event Id="3155677262" Name="AudioEvent_Chainsaw_Cannibal_Swing" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_Swing" GUID="{582C12AB-5FE1-4805-BEF1-A58987AE03B3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.704000" DurationMax="0.874667">
 					<IncludedMemoryFiles>
 						<File Id="320642913" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_swing_mix_bounce_05.wav</ShortName>
@@ -312,7 +312,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2898048350" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Consume" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Consume" GUID="{CA72449C-A98D-46FD-9CE5-8C714B433052}" DurationType="OneShot" DurationMin="0.994725" DurationMax="1.116542">
+				<Event Id="2898048350" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Consume" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Consume" GUID="{CA72449C-A98D-46FD-9CE5-8C714B433052}" DurationType="OneShot" DurationMin="0.994725" DurationMax="1.116542">
 					<IncludedMemoryFiles>
 						<File Id="159652374" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_tantrumcharge_consume_01.wav</ShortName>
@@ -320,7 +320,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2639524257" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Depleted" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Depleted" GUID="{4DED0977-EF00-47ED-83C1-8546FDA8D80C}" DurationType="OneShot" DurationMin="2.629333" DurationMax="2.749333">
+				<Event Id="2639524257" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Depleted" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Depleted" GUID="{4DED0977-EF00-47ED-83C1-8546FDA8D80C}" DurationType="OneShot" DurationMin="2.629333" DurationMax="2.749333">
 					<IncludedMemoryFiles>
 						<File Id="411441625" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_tantrumcharge_depleted_03.wav</ShortName>
@@ -336,7 +336,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1551191009" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Negation" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Negation" GUID="{B5AB3779-A037-466A-8567-8B0FEF0B389A}" DurationType="OneShot" DurationMin="0.371542" DurationMax="0.465500">
+				<Event Id="1551191009" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Negation" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Negation" GUID="{B5AB3779-A037-466A-8567-8B0FEF0B389A}" DurationType="OneShot" DurationMin="0.371542" DurationMax="0.465500">
 					<IncludedMemoryFiles>
 						<File Id="58107210" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_tantrumcharge_negation_03.wav</ShortName>
@@ -352,7 +352,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3662130632" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Refill" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Refill" GUID="{7A92E498-19D9-4328-8DFE-481C2020E34A}" DurationType="OneShot" DurationMin="0.607266" DurationMax="0.765107">
+				<Event Id="3662130632" Name="AudioEvent_Chainsaw_Cannibal_TantrumCharge_Refill" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_POWER\AudioEvent_Chainsaw_Cannibal_TantrumCharge_Refill" GUID="{7A92E498-19D9-4328-8DFE-481C2020E34A}" DurationType="OneShot" DurationMin="0.607266" DurationMax="0.765107">
 					<IncludedMemoryFiles>
 						<File Id="622009220" Language="SFX">
 							<ShortName>Powers\PWR_09_ChainsawCannibal\sfx_chainsaw_cannibal_swing_gaz_01.wav</ShortName>
@@ -360,7 +360,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4210976892" Name="AudioEvent_K09_WPN_Default_Hammer_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_WEAPON\AudioEvent_K09_WPN_Default_Hammer_Impact" GUID="{920F7351-1CAE-47CC-BEE2-1FFEF467B9C7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.811708" DurationMax="1.338606">
+				<Event Id="4210976892" Name="AudioEvent_K09_WPN_Default_Hammer_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_WEAPON\AudioEvent_K09_WPN_Default_Hammer_Impact" GUID="{920F7351-1CAE-47CC-BEE2-1FFEF467B9C7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.811708" DurationMax="1.338606">
 					<IncludedMemoryFiles>
 						<File Id="248244814" Language="SFX">
 							<ShortName>Weapons\SledgeHammer\sfx_sledgehammer_impact_02.wav</ShortName>
@@ -389,7 +389,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4118514342" Name="AudioEvent_K09_WPN_Default_SledgeHammer_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_Arm" GUID="{ED64DF70-25C8-4A10-BD98-5A6D153246F8}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.613215" DurationMax="0.688311">
+				<Event Id="4118514342" Name="AudioEvent_K09_WPN_Default_SledgeHammer_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_Arm" GUID="{ED64DF70-25C8-4A10-BD98-5A6D153246F8}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.613215" DurationMax="0.688311">
 					<IncludedMemoryFiles>
 						<File Id="24326020" Language="SFX">
 							<ShortName>Weapons\SledgeHammer\sfx_weapon_sledgehammer_arm_01.wav</ShortName>
@@ -400,7 +400,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3045673740" Name="AudioEvent_K09_WPN_Default_SledgeHammer_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_Attack" GUID="{BA5AC37C-9953-4499-A4E9-D25CF39680A7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.415964" DurationMax="0.859546">
+				<Event Id="3045673740" Name="AudioEvent_K09_WPN_Default_SledgeHammer_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_Attack" GUID="{BA5AC37C-9953-4499-A4E9-D25CF39680A7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.415964" DurationMax="0.859546">
 					<IncludedMemoryFiles>
 						<File Id="86443328" Language="SFX">
 							<ShortName>Weapons\SledgeHammer\sfx_weapon_sledgehammer_attack_03.wav</ShortName>
@@ -427,7 +427,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4128442651" Name="AudioEvent_K09_WPN_Default_SledgeHammer_Clean" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_Clean" GUID="{76D200C3-C7F6-44DE-A5E7-CF67A0ABEE6A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.588633" DurationMax="1.332070">
+				<Event Id="4128442651" Name="AudioEvent_K09_WPN_Default_SledgeHammer_Clean" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_Clean" GUID="{76D200C3-C7F6-44DE-A5E7-CF67A0ABEE6A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.588633" DurationMax="1.332070">
 					<IncludedMemoryFiles>
 						<File Id="247009106" Language="SFX">
 							<ShortName>Weapons\SledgeHammer\sfx_sledgehammer_clean_12.wav</ShortName>
@@ -446,12 +446,12 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1241813363" Name="AudioEvent_K09_WPN_Default_SledgeHammer_PullOut" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_PullOut" GUID="{2990596A-7679-437C-A488-D931CAB80208}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="1241813363" Name="AudioEvent_K09_WPN_Default_SledgeHammer_PullOut" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_WEAPON\AudioEvent_K09_WPN_Default_SledgeHammer_PullOut" GUID="{2990596A-7679-437C-A488-D931CAB80208}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3642609185" Name="AudioEvent_Killer_Cannibal_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_GRUNT\AudioEvent_Killer_Cannibal_Grunt_Hurt" GUID="{B74374F7-3C3B-4455-AF06-00F6351163C3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.820000" DurationMax="1.020000">
+				<Event Id="3642609185" Name="AudioEvent_Killer_Cannibal_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_GRUNT\AudioEvent_Killer_Cannibal_Grunt_Hurt" GUID="{B74374F7-3C3B-4455-AF06-00F6351163C3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.820000" DurationMax="1.020000">
 					<IncludedMemoryFiles>
 						<File Id="222383774" Language="SFX">
 							<ShortName>Characters\Killer_Cannibal\vo_killer_cannibal_grunt_hurt_01.wav</ShortName>
@@ -490,7 +490,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2784998920" Name="AudioEvent_Killer_Cannibal_Scream" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_GRUNT\AudioEvent_Killer_Cannibal_Scream" GUID="{6171BDBC-D1C7-41B8-A203-FBD0FD672703}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.212917" DurationMax="1.441604">
+				<Event Id="2784998920" Name="AudioEvent_Killer_Cannibal_Scream" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_GRUNT\AudioEvent_Killer_Cannibal_Scream" GUID="{6171BDBC-D1C7-41B8-A203-FBD0FD672703}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.212917" DurationMax="1.441604">
 					<IncludedMemoryFiles>
 						<File Id="269750344" Language="SFX">
 							<ShortName>Characters\Killer_Cannibal\vo_killer_cannibal_scream_02.wav</ShortName>
@@ -517,7 +517,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="363918380" Name="AudioEvent_Killer_Cannibal_SpecialKill" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_GRUNT\AudioEvent_Killer_Cannibal_SpecialKill" GUID="{D6191DE2-14FF-46FC-9F36-5081FA419736}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.640000" DurationMax="3.040000">
+				<Event Id="363918380" Name="AudioEvent_Killer_Cannibal_SpecialKill" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_GRUNT\AudioEvent_Killer_Cannibal_SpecialKill" GUID="{D6191DE2-14FF-46FC-9F36-5081FA419736}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.640000" DurationMax="3.040000">
 					<IncludedMemoryFiles>
 						<File Id="222383774" Language="SFX">
 							<ShortName>Characters\Killer_Cannibal\vo_killer_cannibal_grunt_hurt_01.wav</ShortName>
@@ -556,7 +556,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2472196073" Name="AudioEvent_KLR_09_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_STATUS\AudioEvent_KLR_09_Status_Start" GUID="{C0AF5BF4-80D6-4E02-8F6E-8BDAB18E53D2}" MaxAttenuation="1900.000000" DurationType="Infinite">
+				<Event Id="2472196073" Name="AudioEvent_KLR_09_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_STATUS\AudioEvent_KLR_09_Status_Start" GUID="{C0AF5BF4-80D6-4E02-8F6E-8BDAB18E53D2}" MaxAttenuation="1900.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="24533162" Language="SFX">
 							<ShortName>Characters\Killer_Cannibal\vo_killer_cannibal_chase_01.wav</ShortName>
@@ -629,7 +629,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2808007171" Name="AudioEvent_KLR_09_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\Cannibal_STATUS\AudioEvent_KLR_09_Status_Stop" GUID="{28D0872F-4555-4562-B42C-E25E11B6B104}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2808007171" Name="AudioEvent_KLR_09_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_09_Cannibal\K09_STATUS\AudioEvent_KLR_09_Status_Stop" GUID="{28D0872F-4555-4562-B42C-E25E11B6B104}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
