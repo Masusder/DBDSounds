@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1576334075" GUID="{B4E97568-88BC-481A-96C7-09376043CB9D}" Language="SFX">
+			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\ChurchBell</ObjectPath>
+			<ShortName>ChurchBell</ShortName>
+			<Path>ChurchBell.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2677718444" Name="AudioEvent_ChurchBell" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\ChurchBell\AudioEvent_ChurchBell" GUID="{466C261B-D441-43B3-BB41-44AA1931CCE9}" MaxAttenuation="3400.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="181630818" Language="SFX">
+							<ShortName>Objects\ChurchBell\sfx_churchbell_01.wav</ShortName>
+							<Path>SFX\Objects\ChurchBell\sfx_churchbell_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="181630818" Language="SFX">
+					<ShortName>Objects\ChurchBell\sfx_churchbell_01.wav</ShortName>
+					<Path>SFX\Objects\ChurchBell\sfx_churchbell_01_256CDB0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

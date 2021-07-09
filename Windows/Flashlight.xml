@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1167979795" GUID="{118B7FB1-FA7A-4632-A350-7857926C6BF6}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>Flashlight</ShortName>
 			<Path>Flashlight.bnk</Path>
 			<IncludedEvents>
-				<Event Id="960984608" Name="AudioEvent_Flashlight_Drop" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Flashlight\AudioEvent_Flashlight_Drop" GUID="{EE888D92-53C9-4B4A-996D-2DFDA97A11B3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.225212" DurationMax="0.252791">
+				<Event Id="960984608" Name="AudioEvent_Flashlight_Drop" ObjectPath="\Events\OBJECT\OBJ_ITEM\Flashlight\AudioEvent_Flashlight_Drop" GUID="{EE888D92-53C9-4B4A-996D-2DFDA97A11B3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.225212" DurationMax="0.252791">
 					<ExcludedMemoryFiles>
 						<File Id="621091041" Language="SFX">
 							<ShortName>Objects\Flashlight\sfx_flashlight_drop_02.wav</ShortName>
@@ -25,7 +25,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="16702881" Name="AudioEvent_Flashlight_Flicker" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Flashlight\AudioEvent_Flashlight_Flicker" GUID="{2B9BFAFF-39F6-40B9-A268-826589A87594}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.064330" DurationMax="0.278441">
+				<Event Id="16702881" Name="AudioEvent_Flashlight_Flicker" ObjectPath="\Events\OBJECT\OBJ_ITEM\Flashlight\AudioEvent_Flashlight_Flicker" GUID="{2B9BFAFF-39F6-40B9-A268-826589A87594}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.064330" DurationMax="0.278441">
 					<ExcludedMemoryFiles>
 						<File Id="262012306" Language="SFX">
 							<ShortName>Objects\Flashlight\sfx_item_flashlight_flicker_08.wav</ShortName>
@@ -57,7 +57,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1333009289" Name="AudioEvent_Flashlight_Get" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Flashlight\AudioEvent_Flashlight_Get" GUID="{1BEF6FB7-4331-44BC-B765-44E729EA3264}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.289318" DurationMax="0.324748">
+				<Event Id="1333009289" Name="AudioEvent_Flashlight_Get" ObjectPath="\Events\OBJECT\OBJ_ITEM\Flashlight\AudioEvent_Flashlight_Get" GUID="{1BEF6FB7-4331-44BC-B765-44E729EA3264}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.289318" DurationMax="0.324748">
 					<ExcludedMemoryFiles>
 						<File Id="236928713" Language="SFX">
 							<ShortName>Objects\Flashlight\sfx_flashlight_get_04.wav</ShortName>
@@ -69,7 +69,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1549838554" Name="AudioEvent_Flashlight_Off" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Flashlight\AudioEvent_Flashlight_Off" GUID="{FD4E6683-4E35-4E8C-AE19-CFFAE3EFE020}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.432472" DurationMax="0.432472">
+				<Event Id="1549838554" Name="AudioEvent_Flashlight_Off" ObjectPath="\Events\OBJECT\OBJ_ITEM\Flashlight\AudioEvent_Flashlight_Off" GUID="{FD4E6683-4E35-4E8C-AE19-CFFAE3EFE020}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.432472" DurationMax="0.432472">
 					<ExcludedMemoryFiles>
 						<File Id="374598777" Language="SFX">
 							<ShortName>Objects\Flashlight\sfx_flashlight_off_01.wav</ShortName>
@@ -77,7 +77,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1508383196" Name="AudioEvent_Flashlight_On" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Flashlight\AudioEvent_Flashlight_On" GUID="{E525D301-2631-40D3-A837-91D12B986118}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.440272" DurationMax="0.440272">
+				<Event Id="1508383196" Name="AudioEvent_Flashlight_On" ObjectPath="\Events\OBJECT\OBJ_ITEM\Flashlight\AudioEvent_Flashlight_On" GUID="{E525D301-2631-40D3-A837-91D12B986118}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.440272" DurationMax="0.440272">
 					<ExcludedMemoryFiles>
 						<File Id="632744304" Language="SFX">
 							<ShortName>Objects\Flashlight\sfx_flashlight_on_01.wav</ShortName>
@@ -85,7 +85,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="305911889" Name="AudioEvent_Flashlight_TargetSpot_Start" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Flashlight\AudioEvent_Flashlight_TargetSpot_Start" GUID="{FF66AE86-9AC7-458C-B8F6-234C48AD41BE}" DurationType="Infinite">
+				<Event Id="305911889" Name="AudioEvent_Flashlight_TargetSpot_Start" ObjectPath="\Events\OBJECT\OBJ_ITEM\Flashlight\AudioEvent_Flashlight_TargetSpot_Start" GUID="{FF66AE86-9AC7-458C-B8F6-234C48AD41BE}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="22994546" Language="SFX">
 							<ShortName>Objects\Flashlight\sfx_flashlight_target_burg_loop_01.wav</ShortName>
@@ -97,7 +97,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1362212171" Name="AudioEvent_Flashlight_TargetSpot_Stop" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Flashlight\AudioEvent_Flashlight_TargetSpot_Stop" GUID="{D1E3B973-6088-49B6-8D70-E8D9FAEB2CCB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1362212171" Name="AudioEvent_Flashlight_TargetSpot_Stop" ObjectPath="\Events\OBJECT\OBJ_ITEM\Flashlight\AudioEvent_Flashlight_TargetSpot_Stop" GUID="{D1E3B973-6088-49B6-8D70-E8D9FAEB2CCB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="22994546" Language="SFX">

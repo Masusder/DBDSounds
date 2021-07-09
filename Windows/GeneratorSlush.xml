@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1926846203" GUID="{9B166A83-9218-4613-9F25-EBD02A98E30E}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>GeneratorSlush</ShortName>
 			<Path>GeneratorSlush.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1664972389" Name="AudioEvent_GeneratorSlush_Lever" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Lever" GUID="{C56BEA8E-5D64-4FD9-BB91-F965D5AD7C30}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.630902" DurationMax="0.794886">
+				<Event Id="1664972389" Name="AudioEvent_GeneratorSlush_Lever" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Lever" GUID="{C56BEA8E-5D64-4FD9-BB91-F965D5AD7C30}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.630902" DurationMax="0.794886">
 					<ExcludedMemoryFiles>
 						<File Id="115513826" Language="SFX">
 							<ShortName>Objects\Generator\sfx_generator_slush_lever_04.wav</ShortName>
@@ -33,7 +33,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2285222443" Name="AudioEvent_GeneratorSlush_Motor_Start" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Motor_Start" GUID="{75E7592A-64B8-4CF8-9886-33FD2BF9B46A}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="2285222443" Name="AudioEvent_GeneratorSlush_Motor_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Motor_Start" GUID="{75E7592A-64B8-4CF8-9886-33FD2BF9B46A}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="629725619" Language="SFX">
 							<ShortName>Objects\Generator\sfx_generatorslush_motor_loop_01.wav</ShortName>
@@ -41,8 +41,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4042064969" Name="AudioEvent_GeneratorSlush_Motor_Stop" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Motor_Stop" GUID="{3A037C0A-DA70-4503-B733-43C6E009A866}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1111604136" Name="AudioEvent_GeneratorSlush_Out_Start" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Out_Start" GUID="{1613FD10-F204-4578-85E4-4B9B70D33728}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="4.414172" DurationMax="4.414172">
+				<Event Id="4042064969" Name="AudioEvent_GeneratorSlush_Motor_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Motor_Stop" GUID="{3A037C0A-DA70-4503-B733-43C6E009A866}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1111604136" Name="AudioEvent_GeneratorSlush_Out_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Out_Start" GUID="{1613FD10-F204-4578-85E4-4B9B70D33728}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="4.414172" DurationMax="4.414172">
 					<ExcludedMemoryFiles>
 						<File Id="56169828" Language="SFX">
 							<ShortName>Objects\Generator\sfx_generator_slush_out_03.wav</ShortName>
@@ -66,7 +66,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2747481716" Name="AudioEvent_GeneratorSlush_Out_Stop" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Out_Stop" GUID="{E5A573B2-C8C8-4058-80F7-AC5BE1A17A2C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2747481716" Name="AudioEvent_GeneratorSlush_Out_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\GeneratorSlush\AudioEvent_GeneratorSlush_Out_Stop" GUID="{E5A573B2-C8C8-4058-80F7-AC5BE1A17A2C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="56169828" Language="SFX">

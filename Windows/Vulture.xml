@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2931650816" GUID="{742958EC-AFB8-4F3E-BF64-3E507FC3B163}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>Vulture</ShortName>
 			<Path>Vulture.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1964111464" Name="AudioEvent_Vulture_Beak_Impact" ObjectPath="\Events\OBJECT\OBJECT_DECO\Animals\Vulture\AudioEvent_Vulture_Beak_Impact" GUID="{17B17FA7-D4ED-4F1E-93D4-9CBF194B25E4}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.300000" DurationMax="0.500000">
+				<Event Id="1964111464" Name="AudioEvent_Vulture_Beak_Impact" ObjectPath="\Events\OBJECT\OBJ_DECO\Animals\Vulture\AudioEvent_Vulture_Beak_Impact" GUID="{17B17FA7-D4ED-4F1E-93D4-9CBF194B25E4}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.300000" DurationMax="0.500000">
 					<IncludedMemoryFiles>
 						<File Id="9273542" Language="SFX">
 							<ShortName>Objects\Vulture\sfx_vulture_beak_hit_05.wav</ShortName>
@@ -37,14 +37,14 @@
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1653473310" Name="AudioEvent_Vulture_Beak_Tear" ObjectPath="\Events\OBJECT\OBJECT_DECO\Animals\Vulture\AudioEvent_Vulture_Beak_Tear" GUID="{2073EF5B-97AA-4288-9EA5-637B191CD345}"/>
+						<ActionPostEventEntry Id="1653473310" Name="AudioEvent_Vulture_Beak_Tear" ObjectPath="\Events\OBJECT\OBJ_DECO\Animals\Vulture\AudioEvent_Vulture_Beak_Tear" GUID="{2073EF5B-97AA-4288-9EA5-637B191CD345}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1653473310" Name="AudioEvent_Vulture_Beak_Tear" ObjectPath="\Events\OBJECT\OBJECT_DECO\Animals\Vulture\AudioEvent_Vulture_Beak_Tear" GUID="{2073EF5B-97AA-4288-9EA5-637B191CD345}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.581333" DurationMax="1.242667">
+				<Event Id="1653473310" Name="AudioEvent_Vulture_Beak_Tear" ObjectPath="\Events\OBJECT\OBJ_DECO\Animals\Vulture\AudioEvent_Vulture_Beak_Tear" GUID="{2073EF5B-97AA-4288-9EA5-637B191CD345}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.581333" DurationMax="1.242667">
 					<IncludedMemoryFiles>
 						<File Id="198081405" Language="SFX">
 							<ShortName>Objects\Vulture\sfx_vulture_beak_tear_04.wav</ShortName>
@@ -88,7 +88,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3179905997" Name="AudioEvent_Vulture_Squawk_Close_Single_Play" ObjectPath="\Events\OBJECT\OBJECT_DECO\Animals\Vulture\AudioEvent_Vulture_Squawk_Close_Single_Play" GUID="{C493131D-30B7-416D-9643-B9E41CDBDA69}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="5.219125">
+				<Event Id="3179905997" Name="AudioEvent_Vulture_Squawk_Close_Single_Play" ObjectPath="\Events\OBJECT\OBJ_DECO\Animals\Vulture\AudioEvent_Vulture_Squawk_Close_Single_Play" GUID="{C493131D-30B7-416D-9643-B9E41CDBDA69}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="5.219125">
 					<IncludedMemoryFiles>
 						<File Id="80096976" Language="SFX">
 							<ShortName>Objects\Vulture\sfx_vulture_squawk_close_03.wav</ShortName>
@@ -124,7 +124,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1347259944" Name="AudioEvent_Vulture_Squawk_Far_Loop_Play" ObjectPath="\Events\OBJECT\OBJECT_DECO\Animals\Vulture\AudioEvent_Vulture_Squawk_Far_Loop_Play" GUID="{43C39A51-AA58-4AAB-BF8E-7551AA76445C}" MaxAttenuation="3400.000000" DurationType="Infinite">
+				<Event Id="1347259944" Name="AudioEvent_Vulture_Squawk_Far_Loop_Play" ObjectPath="\Events\OBJECT\OBJ_DECO\Animals\Vulture\AudioEvent_Vulture_Squawk_Far_Loop_Play" GUID="{43C39A51-AA58-4AAB-BF8E-7551AA76445C}" MaxAttenuation="3400.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="135084999" Language="SFX">
 							<ShortName>Objects\Vulture\sfx_vulture_squawk_far_02.wav</ShortName>
@@ -160,7 +160,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2204759557" Name="AudioEvent_Vulture_Wing_Flap" ObjectPath="\Events\OBJECT\OBJECT_DECO\Animals\Vulture\AudioEvent_Vulture_Wing_Flap" GUID="{DFACEBA0-16FA-4A7F-AAF4-7AB632F2578A}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.849354" DurationMax="0.943750">
+				<Event Id="2204759557" Name="AudioEvent_Vulture_Wing_Flap" ObjectPath="\Events\OBJECT\OBJ_DECO\Animals\Vulture\AudioEvent_Vulture_Wing_Flap" GUID="{DFACEBA0-16FA-4A7F-AAF4-7AB632F2578A}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.849354" DurationMax="0.943750">
 					<IncludedMemoryFiles>
 						<File Id="125686473" Language="SFX">
 							<ShortName>Objects\Vulture\sfx_vulture_wing_flap_04.wav</ShortName>

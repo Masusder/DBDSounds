@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="4237424144" GUID="{EF9BDDA7-4FDE-4A52-B6A3-72EBAE660F83}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>Crow</ShortName>
 			<Path>Crow.bnk</Path>
 			<IncludedEvents>
-				<Event Id="308821730" Name="AudioEvent_Crow_Bomb" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Crow\AudioEvent_Crow_Bomb" GUID="{3C488443-3F8D-474C-A568-AE1A439F94C1}" MaxAttenuation="6600.000000" DurationType="Infinite">
+				<Event Id="308821730" Name="AudioEvent_Crow_Bomb" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Crow\AudioEvent_Crow_Bomb" GUID="{3C488443-3F8D-474C-A568-AE1A439F94C1}" MaxAttenuation="6600.000000" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="201002641" Language="SFX">
 							<ShortName>Objects\Crow\sfx_crow_bomb_loop_01.wav</ShortName>
@@ -43,7 +43,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1757466089" Name="AudioEvent_Crow_Fly" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Crow\AudioEvent_Crow_Fly" GUID="{995649A5-E8E7-4D81-AE8E-A3083BA4496C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.803606" DurationMax="2.630303">
+				<Event Id="1757466089" Name="AudioEvent_Crow_Fly" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Crow\AudioEvent_Crow_Fly" GUID="{995649A5-E8E7-4D81-AE8E-A3083BA4496C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.803606" DurationMax="2.630303">
 					<ExcludedMemoryFiles>
 						<File Id="81878054" Language="SFX">
 							<ShortName>Objects\Crow\Crow_Wings_Bounce_05.wav</ShortName>
@@ -82,7 +82,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="963067359" Name="AudioEvent_Crow_Flying" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Crow\AudioEvent_Crow_Flying" GUID="{DD614BDB-AE99-411A-B6F3-5BE40862EB12}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.251613" DurationMax="1.090743">
+				<Event Id="963067359" Name="AudioEvent_Crow_Flying" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Crow\AudioEvent_Crow_Flying" GUID="{DD614BDB-AE99-411A-B6F3-5BE40862EB12}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.251613" DurationMax="1.090743">
 					<ExcludedMemoryFiles>
 						<File Id="16566239" Language="SFX">
 							<ShortName>Objects\Crow\sfx_crow_wing_02.wav</ShortName>
@@ -137,7 +137,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3755183920" Name="AudioEvent_Crow_Flying_Exposer" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Crow\AudioEvent_Crow_Flying_Exposer" GUID="{3EB36828-7CA1-4727-ADE5-CD03D269C09B}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="3755183920" Name="AudioEvent_Crow_Flying_Exposer" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Crow\AudioEvent_Crow_Flying_Exposer" GUID="{3EB36828-7CA1-4727-ADE5-CD03D269C09B}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="16566239" Language="SFX">
 							<ShortName>Objects\Crow\sfx_crow_wing_02.wav</ShortName>
@@ -192,8 +192,8 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3019427647" Name="AudioEvent_Crow_Flying_Exposer_Stop" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Crow\AudioEvent_Crow_Flying_Exposer_Stop" GUID="{3218DC44-D173-487A-B1A5-CC252D949675}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2408619222" Name="AudioEvent_Crow_Scream_Exposer" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Crow\AudioEvent_Crow_Scream_Exposer" GUID="{44DD8DD5-0DB5-4741-B3E7-410896D45E60}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="0.219531" DurationMax="1.090743">
+				<Event Id="3019427647" Name="AudioEvent_Crow_Flying_Exposer_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Crow\AudioEvent_Crow_Flying_Exposer_Stop" GUID="{3218DC44-D173-487A-B1A5-CC252D949675}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2408619222" Name="AudioEvent_Crow_Scream_Exposer" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Crow\AudioEvent_Crow_Scream_Exposer" GUID="{44DD8DD5-0DB5-4741-B3E7-410896D45E60}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="0.219531" DurationMax="1.090743">
 					<ExcludedMemoryFiles>
 						<File Id="26997862" Language="SFX">
 							<ShortName>Objects\Crow\sfx_crow_scream_05.wav</ShortName>
@@ -236,7 +236,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1688508931" Name="AudioEvent_Crow_Wing" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Crow\AudioEvent_Crow_Wing" GUID="{A039465F-6A5C-43DC-8533-EF9E39FAD0D9}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.251613" DurationMax="0.377234">
+				<Event Id="1688508931" Name="AudioEvent_Crow_Wing" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Crow\AudioEvent_Crow_Wing" GUID="{A039465F-6A5C-43DC-8533-EF9E39FAD0D9}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.251613" DurationMax="0.377234">
 					<ExcludedMemoryFiles>
 						<File Id="16566239" Language="SFX">
 							<ShortName>Objects\Crow\sfx_crow_wing_02.wav</ShortName>

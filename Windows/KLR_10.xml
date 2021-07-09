@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1474338094" GUID="{EA980972-8EFF-45CA-9F4D-71F5F0AB4080}" Language="SFX">
@@ -119,13 +119,13 @@
 				</Event>
 				<Event Id="1763286900" Name="AudioEvent_Dream_v2_Killer_Appear" ObjectPath="\Events\CHARACTER\KILLER\KLR_10_Sandman\K10_POWER\AudioEvent_Dream_v2_Killer_Appear" GUID="{E6B86CCD-AF05-4D81-AEF7-028456ED813D}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.042756" DurationMax="1.313790">
 					<IncludedMemoryFiles>
-						<File Id="246129596" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_01.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_01_67368C31.wem</Path>
+						<File Id="9806400" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_02.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_02_67368C31.wem</Path>
 						</File>
-						<File Id="734713415" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_02.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_02_67368C31.wem</Path>
+						<File Id="702353782" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_01.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_01_67368C31.wem</Path>
 						</File>
 						<File Id="966939787" Language="SFX">
 							<ShortName>Powers\PWR_10_Dream\sfx_killer_10_power_appear_01.wav</ShortName>
@@ -135,17 +135,17 @@
 				</Event>
 				<Event Id="2880464422" Name="AudioEvent_Dream_v2_Killer_Disappear" ObjectPath="\Events\CHARACTER\KILLER\KLR_10_Sandman\K10_POWER\AudioEvent_Dream_v2_Killer_Disappear" GUID="{3C504750-7748-4CB7-883B-51C23AF2F751}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.984230" DurationMax="1.391912">
 					<IncludedMemoryFiles>
+						<File Id="9806400" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_02.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_02_67368C31.wem</Path>
+						</File>
 						<File Id="140464312" Language="SFX">
 							<ShortName>Powers\PWR_10_Dream\sfx_killer_10_power_disappear_01.wav</ShortName>
 							<Path>SFX\Powers\PWR_10_Dream\sfx_killer_10_power_disappear_01_67368C31.wem</Path>
 						</File>
-						<File Id="246129596" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_01.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_01_67368C31.wem</Path>
-						</File>
-						<File Id="734713415" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_02.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_02_67368C31.wem</Path>
+						<File Id="702353782" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_01.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_01_67368C31.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -252,13 +252,13 @@
 				</Event>
 				<Event Id="514193121" Name="AudioEvent_Dream_v2_Survivor_Appear" ObjectPath="\Events\CHARACTER\KILLER\KLR_10_Sandman\K10_POWER\AudioEvent_Dream_v2_Survivor_Appear" GUID="{CC62ADEB-5A26-4D4A-81DA-E1E195E3D71C}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.104761" DurationMax="1.240052">
 					<IncludedMemoryFiles>
-						<File Id="246129596" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_01.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_01_67368C31.wem</Path>
+						<File Id="9806400" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_02.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_02_67368C31.wem</Path>
 						</File>
-						<File Id="734713415" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_02.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_02_67368C31.wem</Path>
+						<File Id="702353782" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_01.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_01_67368C31.wem</Path>
 						</File>
 						<File Id="966939787" Language="SFX">
 							<ShortName>Powers\PWR_10_Dream\sfx_killer_10_power_appear_01.wav</ShortName>
@@ -268,17 +268,17 @@
 				</Event>
 				<Event Id="97531509" Name="AudioEvent_Dream_v2_Survivor_Disappear" ObjectPath="\Events\CHARACTER\KILLER\KLR_10_Sandman\K10_POWER\AudioEvent_Dream_v2_Survivor_Disappear" GUID="{28B335F8-F3F5-4322-B012-620F1DF0016F}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.104761" DurationMax="1.240052">
 					<IncludedMemoryFiles>
+						<File Id="9806400" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_02.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_02_67368C31.wem</Path>
+						</File>
 						<File Id="140464312" Language="SFX">
 							<ShortName>Powers\PWR_10_Dream\sfx_killer_10_power_disappear_01.wav</ShortName>
 							<Path>SFX\Powers\PWR_10_Dream\sfx_killer_10_power_disappear_01_67368C31.wem</Path>
 						</File>
-						<File Id="246129596" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_01.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_01_67368C31.wem</Path>
-						</File>
-						<File Id="734713415" Language="SFX">
-							<ShortName>Characters\Survivor_COMMON\sfx_survivor_spawn_02.wav</ShortName>
-							<Path>SFX\Characters\Survivor_COMMON\sfx_survivor_spawn_02_67368C31.wem</Path>
+						<File Id="702353782" Language="SFX">
+							<ShortName>Characters\SURVIVOR\sfx_survivor_spawn_01.wav</ShortName>
+							<Path>SFX\Characters\SURVIVOR\sfx_survivor_spawn_01_67368C31.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

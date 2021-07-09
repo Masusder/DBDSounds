@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2277168142" GUID="{D1EBDF9B-2717-45C3-BC53-9ADE764205D9}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>Bookshelf</ShortName>
 			<Path>Bookshelf.bnk</Path>
 			<IncludedEvents>
-				<Event Id="98052659" Name="AudioEvent_Bookshelf_Break" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Break" GUID="{7292188E-C754-4408-9827-6A220724B880}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.781333" DurationMax="2.581333">
+				<Event Id="98052659" Name="AudioEvent_Bookshelf_Break" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Break" GUID="{7292188E-C754-4408-9827-6A220724B880}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.781333" DurationMax="2.581333">
 					<ExcludedMemoryFiles>
 						<File Id="209345849" Language="SFX">
 							<ShortName>Objects\Bookshelf\Bookshelf_Break_Bounce_02.wav</ShortName>
@@ -57,7 +57,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2952515828" Name="AudioEvent_Bookshelf_Kick" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Kick" GUID="{37795483-B755-4EC6-8046-123116C91D93}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.309333" DurationMax="0.736000">
+				<Event Id="2952515828" Name="AudioEvent_Bookshelf_Kick" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Kick" GUID="{37795483-B755-4EC6-8046-123116C91D93}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.309333" DurationMax="0.736000">
 					<ExcludedMemoryFiles>
 						<File Id="89696784" Language="SFX">
 							<ShortName>Objects\Bookshelf\Bookshelf_Kick_Bounce_04.wav</ShortName>
@@ -101,7 +101,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2439859385" Name="AudioEvent_Bookshelf_Killer_Hit" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Killer_Hit" GUID="{0052D27A-E1B3-4905-9089-0E0B3C4E3423}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.264825" DurationMax="0.589280">
+				<Event Id="2439859385" Name="AudioEvent_Bookshelf_Killer_Hit" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Killer_Hit" GUID="{0052D27A-E1B3-4905-9089-0E0B3C4E3423}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.264825" DurationMax="0.589280">
 					<ExcludedMemoryFiles>
 						<File Id="264206656" Language="SFX">
 							<ShortName>Objects\Bookshelf\sfx_bookshelf_break_crack_03.wav</ShortName>
@@ -117,7 +117,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4130655081" Name="AudioEvent_Bookshelf_Land" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Land" GUID="{23BF16A4-E168-482D-B760-222966179F86}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.794602" DurationMax="2.425762">
+				<Event Id="4130655081" Name="AudioEvent_Bookshelf_Land" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Land" GUID="{23BF16A4-E168-482D-B760-222966179F86}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.794602" DurationMax="2.425762">
 					<ExcludedMemoryFiles>
 						<File Id="324333042" Language="SFX">
 							<ShortName>Objects\Bookshelf\sfx_bookshelf_land_03.wav</ShortName>
@@ -133,7 +133,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2044477524" Name="AudioEvent_Bookshelf_PullUp" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_PullUp" GUID="{E1A5172B-9ADE-4929-888A-A17371F8CBB1}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.726162" DurationMax="1.153662">
+				<Event Id="2044477524" Name="AudioEvent_Bookshelf_PullUp" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_PullUp" GUID="{E1A5172B-9ADE-4929-888A-A17371F8CBB1}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.726162" DurationMax="1.153662">
 					<ExcludedMemoryFiles>
 						<File Id="450441075" Language="SFX">
 							<ShortName>Objects\Bookshelf\sfx_bookshelf_pullup_01.wav</ShortName>
@@ -149,7 +149,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2917585444" Name="AudioEvent_Bookshelf_Shake" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Shake" GUID="{49FCCBC8-7D7A-4ACC-8C16-81E7B9F2F445}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="2917585444" Name="AudioEvent_Bookshelf_Shake" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Shake" GUID="{49FCCBC8-7D7A-4ACC-8C16-81E7B9F2F445}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="89696784" Language="SFX">

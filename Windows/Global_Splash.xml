@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX">
@@ -13,27 +13,27 @@
 			<ShortName>Global_Splash</ShortName>
 			<Path>Global_Splash.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4237175098" Name="AudioEvent_AM_Theme_00_Intro" ObjectPath="\Events\AMBIENCE\AM_THEME\AM_Theme_00_Common\AudioEvent_AM_Theme_00_Intro" GUID="{A125D025-1214-47C1-9CE7-4D1D2BC7F149}" DurationType="OneShot" DurationMin="0.000000" DurationMax="28.068001">
+				<Event Id="4237175098" Name="AudioEvent_AM_Theme_00_Intro" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AudioEvent_AM_Theme_00_Intro" GUID="{A125D025-1214-47C1-9CE7-4D1D2BC7F149}" DurationType="OneShot" DurationMin="1.000000" DurationMax="28.068001">
 					<ExcludedMemoryFiles>
-						<File Id="308280726" Language="SFX">
-							<ShortName>Ambience\ThemesIntro\am_theme_intro_suburbs_01.wav</ShortName>
-							<Path>SFX\Ambience\ThemesIntro\am_theme_intro_suburbs_01_7FA8D501.wem</Path>
+						<File Id="559831559" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_intro_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_intro_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="507105343" Language="SFX">
-							<ShortName>Ambience\ThemesIntro\am_theme_intro_wales_siren_single_01.wav</ShortName>
-							<Path>SFX\Ambience\ThemesIntro\am_theme_intro_wales_siren_single_01_7FA8D501.wem</Path>
+						<File Id="585902754" Language="SFX">
+							<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_intro_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_intro_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{EA798D88-B72C-4767-A21A-FFAFBD6B503A}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{F813892C-3731-4409-9197-DA703CAF6EA5}">
-							<Media>
-								<File Id="507105343"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{37B25AEB-A931-47FC-8858-FC02C1D631DC}">
 							<Media>
-								<File Id="308280726"/>
+								<File Id="585902754"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F813892C-3731-4409-9197-DA703CAF6EA5}">
+							<Media>
+								<File Id="559831559"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1137,11 +1137,27 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="1886373225" Name="AudioEvent_BloodWeb_Reward_Mistery_Box_Open" ObjectPath="\Events\MENU\BloodWeb\AudioEvent_BloodWeb_Reward_Mistery_Box_Open" GUID="{FA9556D2-E638-4C7F-9ECD-A043FEB5FD9C}" DurationType="OneShot" DurationMin="2.716667" DurationMax="2.716667">
+					<ExcludedMemoryFiles>
+						<File Id="117849707" Language="SFX">
+							<ShortName>Menu\sfx_bloodweb_reward_mistery_box_open.wav</ShortName>
+							<Path>SFX\Menu\sfx_bloodweb_reward_mistery_box_open_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="157620833" Name="AudioEvent_BloodWeb_Reward_Popup" ObjectPath="\Events\MENU\BloodWeb\AudioEvent_BloodWeb_Reward_Popup" GUID="{4B58C25F-E97F-4896-A396-CF1BAF96F89C}" DurationType="OneShot" DurationMin="1.099054" DurationMax="1.471455">
 					<ExcludedMemoryFiles>
 						<File Id="758280396" Language="SFX">
 							<ShortName>Objects\TheEntity\sfx_theentity_short_01.wav</ShortName>
 							<Path>SFX\Objects\TheEntity\sfx_theentity_short_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3101682777" Name="AudioEvent_BloodWeb_Reward_Super_Mistery_Box_Open" ObjectPath="\Events\MENU\BloodWeb\AudioEvent_BloodWeb_Reward_Super_Mistery_Box_Open" GUID="{4305735F-755C-4023-997A-F2BEF9299A59}" DurationType="OneShot" DurationMin="2.733333" DurationMax="2.733333">
+					<ExcludedMemoryFiles>
+						<File Id="538274164" Language="SFX">
+							<ShortName>Menu\sfx_bloodweb_reward_super_mistery_box_open.wav</ShortName>
+							<Path>SFX\Menu\sfx_bloodweb_reward_super_mistery_box_open_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -1753,7 +1769,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="4237175098" Name="AudioEvent_AM_Theme_00_Intro" ObjectPath="\Events\AMBIENCE\AM_THEME\AM_Theme_00_Common\AudioEvent_AM_Theme_00_Intro" GUID="{A125D025-1214-47C1-9CE7-4D1D2BC7F149}"/>
+						<ActionPostEventEntry Id="4237175098" Name="AudioEvent_AM_Theme_00_Intro" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AudioEvent_AM_Theme_00_Intro" GUID="{A125D025-1214-47C1-9CE7-4D1D2BC7F149}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="984691642" Name="Ingame" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Ingame" GUID="{E224B8AC-328E-4861-8851-A700D7BB2EE9}"/>
@@ -1763,13 +1779,13 @@
 				<Event Id="2073225541" Name="AudioEvent_Gameflow_GameStop" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_GameStop" GUID="{10EE22DA-8CBB-4C5D-8DFF-6A65B07D5FD5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Reset_RTPC" GUID="{5C71EA60-E02B-4C1F-A117-B3D617F27EBB}"/>
-						<ActionPostEventEntry Id="2891650873" Name="AudioEvent_Rev_Int_Preset_DEFAULT" ObjectPath="\Events\AMBIENCE\AM_THEME\AM_Theme_00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_Preset_DEFAULT" GUID="{8377D46B-4DF0-4F27-AAA4-85C50EB3D8B1}"/>
+						<ActionPostEventEntry Id="2891650873" Name="AudioEvent_Rev_Int_Preset_DEFAULT" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_Preset_DEFAULT" GUID="{8377D46B-4DF0-4F27-AAA4-85C50EB3D8B1}"/>
 					</ActionPostEvent>
 				</Event>
 				<Event Id="2193032589" Name="AudioEvent_Gameflow_Loading" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Loading" GUID="{B942BE93-A284-4E96-BB3C-991B6EB3EE12}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Reset_RTPC" GUID="{5C71EA60-E02B-4C1F-A117-B3D617F27EBB}"/>
-						<ActionPostEventEntry Id="2891650873" Name="AudioEvent_Rev_Int_Preset_DEFAULT" ObjectPath="\Events\AMBIENCE\AM_THEME\AM_Theme_00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_Preset_DEFAULT" GUID="{8377D46B-4DF0-4F27-AAA4-85C50EB3D8B1}"/>
+						<ActionPostEventEntry Id="2891650873" Name="AudioEvent_Rev_Int_Preset_DEFAULT" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_Preset_DEFAULT" GUID="{8377D46B-4DF0-4F27-AAA4-85C50EB3D8B1}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
@@ -1778,93 +1794,150 @@
 				</Event>
 				<Event Id="4070909553" Name="AudioEvent_Gameflow_Lobby_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Killer" GUID="{65157012-002B-44EB-8347-0C5B3397D0FB}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="4061724" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_0243EB6D.wem</Path>
+						<File Id="353010712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="422427539" Language="SFX">
-							<ShortName>Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01.wav</ShortName>
-							<Path>SFX\Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01_256CDB0F.wem</Path>
+						<File Id="508576594" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="722955235" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05_1A4B86FB.wem</Path>
-						</File>
-						<File Id="1008407182" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1066373931" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01_7FA8D501.wem</Path>
+						<File Id="934404875" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="508576594"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
+							<Media>
+								<File Id="1024319034"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="353010712"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="290285391" Name="Lobby" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Lobby" GUID="{EA0B60B4-09FE-4FA5-90EF-0D890B61380D}"/>
 						<ActionSetStateEntry Id="932695537" Name="Gameplay_Killer" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Killer" GUID="{41FB00D7-7F8A-4DBD-BBB6-B4734E5E6597}"/>
 						<ActionSetStateEntry Id="2516092264" Name="Online" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Online" GUID="{AAFAD8E0-A103-4141-95DA-B5E768C0134B}"/>
 					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="2123304394" Name="AudioEvent_Gameflow_Lobby_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Survivor" GUID="{FF8124EA-5EF0-4DBB-9EFE-167BA12F9D37}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="4061724" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_0243EB6D.wem</Path>
+						<File Id="353010712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="422427539" Language="SFX">
-							<ShortName>Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01.wav</ShortName>
-							<Path>SFX\Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01_256CDB0F.wem</Path>
+						<File Id="508576594" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="722955235" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05_1A4B86FB.wem</Path>
-						</File>
-						<File Id="1008407182" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1066373931" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01_7FA8D501.wem</Path>
+						<File Id="934404875" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="508576594"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
+							<Media>
+								<File Id="1024319034"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="353010712"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="290285391" Name="Lobby" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Lobby" GUID="{EA0B60B4-09FE-4FA5-90EF-0D890B61380D}"/>
 						<ActionSetStateEntry Id="2516092264" Name="Online" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Online" GUID="{AAFAD8E0-A103-4141-95DA-B5E768C0134B}"/>
 						<ActionSetStateEntry Id="3102261578" Name="Gameplay_Survivor" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Survivor" GUID="{C98A583A-7B78-4309-9B9F-76C976EC2919}"/>
 					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="519196509" Name="AudioEvent_Gameflow_MainMenu_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Killer" GUID="{D222DB98-BEB5-46F5-A2CA-8C8B5FEE723E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="4061724" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_0243EB6D.wem</Path>
+						<File Id="353010712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="422427539" Language="SFX">
-							<ShortName>Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01.wav</ShortName>
-							<Path>SFX\Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01_256CDB0F.wem</Path>
+						<File Id="508576594" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="722955235" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05_1A4B86FB.wem</Path>
-						</File>
-						<File Id="1008407182" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1066373931" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01_7FA8D501.wem</Path>
+						<File Id="934404875" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="508576594"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
+							<Media>
+								<File Id="1024319034"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="353010712"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="290285391" Name="Lobby" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Lobby" GUID="{EA0B60B4-09FE-4FA5-90EF-0D890B61380D}"/>
@@ -1873,9 +1946,6 @@
 						<ActionSetStateEntry Id="2298552922" Name="Offline" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Offline" GUID="{D957D890-75F0-4286-996C-282F6E6BAC95}"/>
 						<ActionSetStateEntry Id="3039144286" Name="AudioStateWeather_Clear" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\AudioStateWeather_Clear" GUID="{392D48D3-A439-49FD-A660-02EECA04B588}"/>
 					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="1668204056" Name="AudioEvent_Gameflow_MainMenu_Music_Start" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Music_Start" GUID="{08E2799B-1DD6-45BE-8220-37DC8485AB5E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
@@ -2144,7 +2214,7 @@
 							<Children>
 								<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 									<Media>
-										<File Id="784036178"/>
+										<File Id="718509398"/>
 									</Media>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -2198,27 +2268,48 @@
 				</Event>
 				<Event Id="1066277998" Name="AudioEvent_Gameflow_MainMenu_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Survivor" GUID="{33F9A214-3C20-4C7E-81BB-78A4A0ECC478}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="4061724" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_0243EB6D.wem</Path>
+						<File Id="353010712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="422427539" Language="SFX">
-							<ShortName>Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01.wav</ShortName>
-							<Path>SFX\Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01_256CDB0F.wem</Path>
+						<File Id="508576594" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="722955235" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05_1A4B86FB.wem</Path>
-						</File>
-						<File Id="1008407182" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1066373931" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01_7FA8D501.wem</Path>
+						<File Id="934404875" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="508576594"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
+							<Media>
+								<File Id="1024319034"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="353010712"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="290285391" Name="Lobby" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Lobby" GUID="{EA0B60B4-09FE-4FA5-90EF-0D890B61380D}"/>
@@ -2227,9 +2318,6 @@
 						<ActionSetStateEntry Id="3039144286" Name="AudioStateWeather_Clear" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\AudioStateWeather_Clear" GUID="{392D48D3-A439-49FD-A660-02EECA04B588}"/>
 						<ActionSetStateEntry Id="3102261578" Name="Gameplay_Survivor" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Survivor" GUID="{C98A583A-7B78-4309-9B9F-76C976EC2919}"/>
 					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="1203115153" Name="AudioEvent_Gameflow_Offering" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Offering" GUID="{74A5F1E0-CE1C-429F-A153-D38850AD164E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
@@ -2344,25 +2432,17 @@
 				<Event Id="3682356338" Name="AudioEvent_Gameflow_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Quit" GUID="{184CF421-E994-4CCF-BEB0-89D43C2BE5E8}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2980828507" Name="AudioEvent_Gameflow_RoleSelection" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_RoleSelection" GUID="{647CD970-7569-4B26-9F2A-844574E37358}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="4061724" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_0243EB6D.wem</Path>
+						<File Id="353010712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="422427539" Language="SFX">
-							<ShortName>Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01.wav</ShortName>
-							<Path>SFX\Ambience\Tiles\T17_Eclipse\am_t17_eclipse_tile_outdoor_01_256CDB0F.wem</Path>
+						<File Id="508576594" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="722955235" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_05_1A4B86FB.wem</Path>
-						</File>
-						<File Id="1008407182" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Police_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1066373931" Language="SFX">
-							<ShortName>Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01.wav</ShortName>
-							<Path>SFX\Ambience\Random\T17_Eclipse\RDM_3D_Continuous_PoliceStation_Outside_Helicopter_01_7FA8D501.wem</Path>
+						<File Id="934404875" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -2370,7 +2450,34 @@
 							<ShortName>Menu\sfx_ui_mainmenu_open_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_mainmenu_open_02_67368C31.wem</Path>
 						</File>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="508576594"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
+							<Media>
+								<File Id="1024319034"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="353010712"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\None" GUID="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}"/>
@@ -2379,9 +2486,6 @@
 						<ActionSetStateEntry Id="2298552922" Name="Offline" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Offline" GUID="{D957D890-75F0-4286-996C-282F6E6BAC95}"/>
 						<ActionSetStateEntry Id="3039144286" Name="AudioStateWeather_Clear" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\AudioStateWeather_Clear" GUID="{392D48D3-A439-49FD-A660-02EECA04B588}"/>
 					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="1370037918" Name="AudioEvent_Gameflow_Spectate" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Spectate" GUID="{3C0B2015-E1EC-4E37-B1D0-59F1FC388092}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
@@ -3202,35 +3306,35 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4221219240" Name="Audioevent_Inbox_ClaimAll" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_ClaimAll" GUID="{2A09CA2A-67BD-42CC-B552-32B5F4381DA9}" DurationType="OneShot" DurationMin="2.986667" DurationMax="2.986667">
+				<Event Id="4221219240" Name="Audioevent_Inbox_ClaimAll" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_ClaimAll" GUID="{2A09CA2A-67BD-42CC-B552-32B5F4381DA9}" DurationType="OneShot" DurationMin="1.304000" DurationMax="1.304000">
 					<ExcludedMemoryFiles>
-						<File Id="212727333" Language="SFX">
-							<ShortName>Menu\sfx_ui_bloodweb_unlock_no_01.wav</ShortName>
-							<Path>SFX\Menu\sfx_ui_bloodweb_unlock_no_01_67368C31.wem</Path>
+						<File Id="459701377" Language="SFX">
+							<ShortName>Menu\sfx_ui_inbox_claim_all_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_ui_inbox_claim_all_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4245642212" Name="Audioevent_Inbox_Delete" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_Delete" GUID="{559DF401-E99D-4696-9D9D-674F5581D557}" DurationType="OneShot" DurationMin="1.237333" DurationMax="1.237333">
+				<Event Id="4245642212" Name="Audioevent_Inbox_Delete" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_Delete" GUID="{559DF401-E99D-4696-9D9D-674F5581D557}" DurationType="OneShot" DurationMin="0.632667" DurationMax="0.632667">
 					<ExcludedMemoryFiles>
-						<File Id="1055342754" Language="SFX">
-							<ShortName>Menu\BloodWeb_Reward_Box_Open_Bounce.wav</ShortName>
-							<Path>SFX\Menu\BloodWeb_Reward_Box_Open_Bounce_67368C31.wem</Path>
+						<File Id="159887921" Language="SFX">
+							<ShortName>Menu\sfx_ui_inbox_delete_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_ui_inbox_delete_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="816601709" Name="Audioevent_Inbox_DeleteAll" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_DeleteAll" GUID="{A729C272-7375-42E3-9934-1E61EE61EECB}" DurationType="OneShot" DurationMin="2.986667" DurationMax="2.986667">
+				<Event Id="816601709" Name="Audioevent_Inbox_DeleteAll" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_DeleteAll" GUID="{A729C272-7375-42E3-9934-1E61EE61EECB}" DurationType="OneShot" DurationMin="1.061333" DurationMax="1.061333">
 					<ExcludedMemoryFiles>
-						<File Id="212727333" Language="SFX">
-							<ShortName>Menu\sfx_ui_bloodweb_unlock_no_01.wav</ShortName>
-							<Path>SFX\Menu\sfx_ui_bloodweb_unlock_no_01_67368C31.wem</Path>
+						<File Id="525173446" Language="SFX">
+							<ShortName>Menu\sfx_ui_inbox_delete_all_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_ui_inbox_delete_all_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="846932386" Name="Audioevent_Inbox_ReadAll" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_ReadAll" GUID="{43F3C515-D554-4E0A-8A8E-CAEB091A999A}" DurationType="OneShot" DurationMin="0.401814" DurationMax="0.506253">
+				<Event Id="846932386" Name="Audioevent_Inbox_ReadAll" ObjectPath="\Events\MENU\Inbox\Audioevent_Inbox_ReadAll" GUID="{43F3C515-D554-4E0A-8A8E-CAEB091A999A}" DurationType="OneShot" DurationMin="3.252667" DurationMax="3.252667">
 					<ExcludedMemoryFiles>
-						<File Id="685440897" Language="SFX">
-							<ShortName>Menu\sfx_ui_bloodweb_reward_popup_01.wav</ShortName>
-							<Path>SFX\Menu\sfx_ui_bloodweb_reward_popup_01_67368C31.wem</Path>
+						<File Id="385278686" Language="SFX">
+							<ShortName>Menu\sfx_ui_inbox_read_all_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_ui_inbox_read_all_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -4208,8 +4312,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2891650873" Name="AudioEvent_Rev_Int_Preset_DEFAULT" ObjectPath="\Events\AMBIENCE\AM_THEME\AM_Theme_00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_Preset_DEFAULT" GUID="{8377D46B-4DF0-4F27-AAA4-85C50EB3D8B1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1608699267" Name="AudioEvent_Reward_Appear_Level1" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level1" GUID="{98770CA2-6635-4B08-A743-3F3698B4C845}" DurationType="OneShot" DurationMin="1.668481" DurationMax="1.668481">
+				<Event Id="2891650873" Name="AudioEvent_Rev_Int_Preset_DEFAULT" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_Preset_DEFAULT" GUID="{8377D46B-4DF0-4F27-AAA4-85C50EB3D8B1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1608699267" Name="AudioEvent_Reward_Appear_Level1" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level1" GUID="{98770CA2-6635-4B08-A743-3F3698B4C845}" DurationType="OneShot" DurationMin="1.768481" DurationMax="1.768481">
 					<ExcludedMemoryFiles>
 						<File Id="38408397" Language="SFX">
 							<ShortName>Menu\sfx_ui_store_reward_appear_creak_02.wav</ShortName>
@@ -4228,7 +4332,7 @@
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1608699264" Name="AudioEvent_Reward_Appear_Level2" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level2" GUID="{9B849ACE-AE83-4ECC-A245-27772F9933A3}" DurationType="OneShot" DurationMin="2.239751" DurationMax="2.239751">
+				<Event Id="1608699264" Name="AudioEvent_Reward_Appear_Level2" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level2" GUID="{9B849ACE-AE83-4ECC-A245-27772F9933A3}" DurationType="OneShot" DurationMin="2.339751" DurationMax="2.339751">
 					<ExcludedMemoryFiles>
 						<File Id="38408397" Language="SFX">
 							<ShortName>Menu\sfx_ui_store_reward_appear_creak_02.wav</ShortName>
@@ -4247,7 +4351,7 @@
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1608699265" Name="AudioEvent_Reward_Appear_Level3" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level3" GUID="{025AFCB6-2B83-4BB2-BAAC-EEB9A6CA2484}" DurationType="OneShot" DurationMin="2.620000" DurationMax="2.620000">
+				<Event Id="1608699265" Name="AudioEvent_Reward_Appear_Level3" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level3" GUID="{025AFCB6-2B83-4BB2-BAAC-EEB9A6CA2484}" DurationType="OneShot" DurationMin="2.720000" DurationMax="2.720000">
 					<ExcludedMemoryFiles>
 						<File Id="38408397" Language="SFX">
 							<ShortName>Menu\sfx_ui_store_reward_appear_creak_02.wav</ShortName>
@@ -4266,7 +4370,7 @@
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1608699270" Name="AudioEvent_Reward_Appear_Level4" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level4" GUID="{91F3339F-3C15-4555-9C7D-0E4A6A0EC325}" DurationType="OneShot" DurationMin="2.837823" DurationMax="2.837823">
+				<Event Id="1608699270" Name="AudioEvent_Reward_Appear_Level4" ObjectPath="\Events\MENU\Reward\AudioEvent_Reward_Appear_Level4" GUID="{91F3339F-3C15-4555-9C7D-0E4A6A0EC325}" DurationType="OneShot" DurationMin="2.937823" DurationMax="2.937823">
 					<ExcludedMemoryFiles>
 						<File Id="38408397" Language="SFX">
 							<ShortName>Menu\sfx_ui_store_reward_appear_creak_02.wav</ShortName>
@@ -4932,609 +5036,6 @@
 						<File Id="515986678" Language="SFX">
 							<ShortName>Menu\sfx_ui_select_release_bones_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_select_release_bones_02_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="1453802913" Name="AudioEvent_Sacrifice_Complete" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_Sacrifice_Complete" GUID="{231813A4-FA69-4704-86D3-4D2442BC2B4C}" DurationType="OneShot" DurationMin="23.931646" DurationMax="23.931646">
-					<ReferencedStreamedFiles>
-						<File Id="200695121" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce_195AA83D.wem</Path>
-						</File>
-						<File Id="921978375" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce_306C63FD.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="25195370" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="62183643" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06_67368C31.wem</Path>
-						</File>
-						<File Id="68441472" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05_67368C31.wem</Path>
-						</File>
-						<File Id="116415137" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01_67368C31.wem</Path>
-						</File>
-						<File Id="143573984" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_01_67368C31.wem</Path>
-						</File>
-						<File Id="151957249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_06_67368C31.wem</Path>
-						</File>
-						<File Id="155012077" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="175541781" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_02_67368C31.wem</Path>
-						</File>
-						<File Id="178719969" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_08_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="234854935" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02_67368C31.wem</Path>
-						</File>
-						<File Id="239299028" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_02_67368C31.wem</Path>
-						</File>
-						<File Id="291498512" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_07_67368C31.wem</Path>
-						</File>
-						<File Id="294023115" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04_67368C31.wem</Path>
-						</File>
-						<File Id="315837674" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_01_67368C31.wem</Path>
-						</File>
-						<File Id="322912390" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="337548453" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="340315105" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_05_67368C31.wem</Path>
-						</File>
-						<File Id="369601199" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="389700922" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_03_67368C31.wem</Path>
-						</File>
-						<File Id="412338209" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_04_67368C31.wem</Path>
-						</File>
-						<File Id="540648889" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="639823308" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_07_67368C31.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="739700061" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="1582245332" Name="AudioEvent_Sacrifice_Hide" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_Sacrifice_Hide" GUID="{10D83716-95D9-43DF-89DE-968BCDB2D60A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3734973314" Name="AudioEvent_Sacrifice_Idle" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_Sacrifice_Idle" GUID="{A773ADC8-8099-491F-B976-8AF9D46974A0}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="14840660" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_09.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_09_67368C31.wem</Path>
-						</File>
-						<File Id="41203361" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_14.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_14_67368C31.wem</Path>
-						</File>
-						<File Id="143573984" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_01_67368C31.wem</Path>
-						</File>
-						<File Id="151957249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_06_67368C31.wem</Path>
-						</File>
-						<File Id="178719969" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_08_67368C31.wem</Path>
-						</File>
-						<File Id="201081475" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_burning_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_burning_03_0BC91DCF.wem</Path>
-						</File>
-						<File Id="221271402" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_09.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_09_3A54D1DD.wem</Path>
-						</File>
-						<File Id="228130352" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_01_0BC91DCF.wem</Path>
-						</File>
-						<File Id="234147047" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_appear_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_appear_02_0BC91DCF.wem</Path>
-						</File>
-						<File Id="235238587" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_13.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_13_67368C31.wem</Path>
-						</File>
-						<File Id="248846299" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_12.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_12_67368C31.wem</Path>
-						</File>
-						<File Id="291498512" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_07_67368C31.wem</Path>
-						</File>
-						<File Id="292473018" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_01_3A54D1DD.wem</Path>
-						</File>
-						<File Id="322731237" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_08_3A54D1DD.wem</Path>
-						</File>
-						<File Id="340315105" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_05_67368C31.wem</Path>
-						</File>
-						<File Id="389700922" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_03_67368C31.wem</Path>
-						</File>
-						<File Id="390593706" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_15.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_15_67368C31.wem</Path>
-						</File>
-						<File Id="412338209" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_04_67368C31.wem</Path>
-						</File>
-						<File Id="480020303" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_12.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_12_3A54D1DD.wem</Path>
-						</File>
-						<File Id="593045952" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_13.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_13_3A54D1DD.wem</Path>
-						</File>
-						<File Id="596792238" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_05_3A54D1DD.wem</Path>
-						</File>
-						<File Id="613785502" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_burning_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_burning_01_0BC91DCF.wem</Path>
-						</File>
-						<File Id="640351889" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_03_3A54D1DD.wem</Path>
-						</File>
-						<File Id="739032885" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_07_3A54D1DD.wem</Path>
-						</File>
-						<File Id="823249227" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_11.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_11_67368C31.wem</Path>
-						</File>
-						<File Id="831928474" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_11.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_11_3A54D1DD.wem</Path>
-						</File>
-						<File Id="870355667" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_15.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_15_3A54D1DD.wem</Path>
-						</File>
-						<File Id="973693081" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_06_3A54D1DD.wem</Path>
-						</File>
-						<File Id="1048335023" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_14.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_14_3A54D1DD.wem</Path>
-						</File>
-						<File Id="1049068394" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_04_3A54D1DD.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="2065045372" Name="AudioEvent_Sacrifice_Reaction_Start" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_Sacrifice_Reaction_Start" GUID="{1667E186-BF67-4864-9500-6CB5D2060A7D}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="5.232018" DurationMax="7.438073">
-					<ExcludedMemoryFiles>
-						<File Id="25195370" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="62183643" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06_67368C31.wem</Path>
-						</File>
-						<File Id="68441472" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05_67368C31.wem</Path>
-						</File>
-						<File Id="88708406" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05_67368C31.wem</Path>
-						</File>
-						<File Id="107280683" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04_67368C31.wem</Path>
-						</File>
-						<File Id="116415137" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01_67368C31.wem</Path>
-						</File>
-						<File Id="143573984" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_01_67368C31.wem</Path>
-						</File>
-						<File Id="151957249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_06_67368C31.wem</Path>
-						</File>
-						<File Id="155012077" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="175541781" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_02_67368C31.wem</Path>
-						</File>
-						<File Id="178719969" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_08_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="234854935" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02_67368C31.wem</Path>
-						</File>
-						<File Id="239299028" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_02_67368C31.wem</Path>
-						</File>
-						<File Id="280309263" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02_67368C31.wem</Path>
-						</File>
-						<File Id="291498512" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_07_67368C31.wem</Path>
-						</File>
-						<File Id="294023115" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04_67368C31.wem</Path>
-						</File>
-						<File Id="310108528" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03_67368C31.wem</Path>
-						</File>
-						<File Id="315837674" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_01_67368C31.wem</Path>
-						</File>
-						<File Id="322912390" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="337548453" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="340315105" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_05_67368C31.wem</Path>
-						</File>
-						<File Id="369601199" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="389700922" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_03_67368C31.wem</Path>
-						</File>
-						<File Id="412338209" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_04_67368C31.wem</Path>
-						</File>
-						<File Id="540648889" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="639823308" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_07_67368C31.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="739700061" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="744978486" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01_67368C31.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="994191548" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="991002769" Name="AudioEvent_Sacrifice_Struggle" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_Sacrifice_Struggle" GUID="{0ECDED9B-0E8D-4953-880B-C9538F6A850B}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="14840660" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_09.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_09_67368C31.wem</Path>
-						</File>
-						<File Id="30383761" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_04_67368C31.wem</Path>
-						</File>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="41203361" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_14.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_14_67368C31.wem</Path>
-						</File>
-						<File Id="41272317" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_12.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_12_67368C31.wem</Path>
-						</File>
-						<File Id="62183643" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06_67368C31.wem</Path>
-						</File>
-						<File Id="68441472" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05_67368C31.wem</Path>
-						</File>
-						<File Id="114816331" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_07_67368C31.wem</Path>
-						</File>
-						<File Id="116415137" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01_67368C31.wem</Path>
-						</File>
-						<File Id="143573984" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_01_67368C31.wem</Path>
-						</File>
-						<File Id="151957249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_06_67368C31.wem</Path>
-						</File>
-						<File Id="160330010" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_03_67368C31.wem</Path>
-						</File>
-						<File Id="178719969" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_08_67368C31.wem</Path>
-						</File>
-						<File Id="201753123" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_08_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="221271402" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_09.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_09_3A54D1DD.wem</Path>
-						</File>
-						<File Id="228130352" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_01_0BC91DCF.wem</Path>
-						</File>
-						<File Id="234854935" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02_67368C31.wem</Path>
-						</File>
-						<File Id="235238587" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_13.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_13_67368C31.wem</Path>
-						</File>
-						<File Id="248846299" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_12.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_12_67368C31.wem</Path>
-						</File>
-						<File Id="254348311" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_09.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_09_67368C31.wem</Path>
-						</File>
-						<File Id="291498512" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_07_67368C31.wem</Path>
-						</File>
-						<File Id="292473018" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_01_3A54D1DD.wem</Path>
-						</File>
-						<File Id="294023115" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04_67368C31.wem</Path>
-						</File>
-						<File Id="322731237" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_08_3A54D1DD.wem</Path>
-						</File>
-						<File Id="340315105" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_05_67368C31.wem</Path>
-						</File>
-						<File Id="340876665" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_10.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_10_67368C31.wem</Path>
-						</File>
-						<File Id="369601199" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="374793428" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_05_67368C31.wem</Path>
-						</File>
-						<File Id="385462082" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_11.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_11_67368C31.wem</Path>
-						</File>
-						<File Id="389700922" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_03_67368C31.wem</Path>
-						</File>
-						<File Id="390593706" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_15.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_15_67368C31.wem</Path>
-						</File>
-						<File Id="412338209" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_04_67368C31.wem</Path>
-						</File>
-						<File Id="480020303" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_12.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_12_3A54D1DD.wem</Path>
-						</File>
-						<File Id="593045952" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_13.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_13_3A54D1DD.wem</Path>
-						</File>
-						<File Id="596792238" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_05_3A54D1DD.wem</Path>
-						</File>
-						<File Id="631064291" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_02_67368C31.wem</Path>
-						</File>
-						<File Id="640351889" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_03_3A54D1DD.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="684971195" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_01_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="739032885" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_07_3A54D1DD.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="823249227" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_11.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_11_67368C31.wem</Path>
-						</File>
-						<File Id="831928474" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_11.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_11_3A54D1DD.wem</Path>
-						</File>
-						<File Id="870355667" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_15.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_15_3A54D1DD.wem</Path>
-						</File>
-						<File Id="973693081" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_06_3A54D1DD.wem</Path>
-						</File>
-						<File Id="1048335023" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_14.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_14_3A54D1DD.wem</Path>
-						</File>
-						<File Id="1049068394" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_background_whale_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_background_whale_04_3A54D1DD.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -6446,634 +5947,23 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="1516917350" Name="AudioEvent_Tallyscreen_Xp_Stop" ObjectPath="\Events\MENU\Tallyscreen\AudioEvent_Tallyscreen_Xp_Stop" GUID="{D71A4E34-9E88-4E4F-9E9F-AA189B30AB41}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2026360850" Name="AudioEvent_TheEntity_Crisp" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Crisp" GUID="{008EA272-C643-4A19-A8EF-A2AE64EC9E3F}" DurationType="OneShot" DurationMin="0.712970" DurationMax="1.485420">
+				<Event Id="926230481" Name="AudioEvent_UI_ControlCustomization_Overlap" ObjectPath="\Events\MENU\ControlCustomization\AudioEvent_UI_ControlCustomization_Overlap" GUID="{D109FD5D-6C76-48B1-8BE4-274FD199B0B4}" DurationType="OneShot" DurationMin="2.374667" DurationMax="2.374667">
 					<ExcludedMemoryFiles>
-						<File Id="81023926" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_10.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_10_67368C31.wem</Path>
-						</File>
-						<File Id="285618676" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="409659490" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="478519065" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="538406029" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="595997187" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_09.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_09_67368C31.wem</Path>
-						</File>
-						<File Id="722715973" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="757200066" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="804962665" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_07_67368C31.wem</Path>
-						</File>
-						<File Id="1027324876" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_crisp_short_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_crisp_short_08_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3972205050" Name="AudioEvent_TheEntity_DaddyFinger_Appear" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_DaddyFinger_Appear" GUID="{DB66B252-AF08-4FAC-8DF2-D9938522906D}" DurationType="OneShot" DurationMin="23.931646" DurationMax="23.931646">
-					<ReferencedStreamedFiles>
-						<File Id="200695121" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce_195AA83D.wem</Path>
-						</File>
-						<File Id="921978375" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_3D_DaddyFinger_Appear_Bounce_306C63FD.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-				</Event>
-				<Event Id="924838014" Name="AudioEvent_TheEntity_DaddyFinger_Explosion" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_DaddyFinger_Explosion" GUID="{FC996D38-E9FE-46DD-8088-B3AF2F283FC5}" MaxAttenuation="12800.000000" DurationType="OneShot" DurationMin="9.024000" DurationMax="10.122666">
-					<ExcludedMemoryFiles>
-						<File Id="113894987" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_3D_DaddyFinger_Explosion_Bounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_3D_DaddyFinger_Explosion_Bounce_02_67368C31.wem</Path>
-						</File>
-						<File Id="524504203" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_3D_DaddyFinger_Explosion_Bounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_3D_DaddyFinger_Explosion_Bounce_03_67368C31.wem</Path>
-						</File>
-						<File Id="868605838" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_3D_DaddyFinger_Explosion_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_3D_DaddyFinger_Explosion_Bounce_01_67368C31.wem</Path>
+						<File Id="45286677" Language="SFX">
+							<ShortName>Menu\sfx_ui_control_customization_release_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_ui_control_customization_release_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3907822910" Name="AudioEvent_TheEntity_DreamPallet_Blocker_Start" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_DreamPallet_Blocker_Start" GUID="{F5AB0B27-CDA1-4151-B000-8BC12D032EA7}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="1739663030" Name="AudioEvent_UI_ControlCustomization_Problem_PopUp" ObjectPath="\Events\MENU\ControlCustomization\AudioEvent_UI_ControlCustomization_Problem_PopUp" GUID="{8CF82C24-C331-4501-8A10-E5A8F39D21BA}" DurationType="OneShot" DurationMin="3.688667" DurationMax="3.688667">
 					<ExcludedMemoryFiles>
-						<File Id="86079463" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="181520584" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="241083712" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="278366913" Language="SFX">
-							<ShortName>Objects\Windows\sfx_windows_bloc_loop_02.wav</ShortName>
-							<Path>SFX\Objects\Windows\sfx_windows_bloc_loop_02_0BC91DCF.wem</Path>
-						</File>
-						<File Id="566301239" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="997818064" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="1069470774" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_02_7FA8D501.wem</Path>
+						<File Id="582111387" Language="SFX">
+							<ShortName>Menu\sfx_ui_control_customization_popup_open_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_ui_control_customization_popup_open_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4098344286" Name="AudioEvent_TheEntity_DreamPallet_Blocker_Stop" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_DreamPallet_Blocker_Stop" GUID="{160F5047-8F54-4353-8227-8D2B85C21D9D}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.397333" DurationMax="1.717333">
-					<ExcludedMemoryFiles>
-						<File Id="387514773" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="394643880" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="399711101" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="436185642" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="474799462" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="705278634" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_03_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="3565802450" Name="AudioEvent_TheEntity_Object_Blocker_Start" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Object_Blocker_Start" GUID="{ED5ACB64-620A-470D-B161-9AEE60443879}" MaxAttenuation="850.000000" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="86079463" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="181520584" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="241083712" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="278366913" Language="SFX">
-							<ShortName>Objects\Windows\sfx_windows_bloc_loop_02.wav</ShortName>
-							<Path>SFX\Objects\Windows\sfx_windows_bloc_loop_02_0BC91DCF.wem</Path>
-						</File>
-						<File Id="566301239" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="997818064" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="1069470774" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_start_mixbounce_02_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="2966639498" Name="AudioEvent_TheEntity_Object_Blocker_Stop" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Object_Blocker_Stop" GUID="{644254B6-ABD9-43B2-9CD3-298C31A21D12}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.397333" DurationMax="1.717333">
-					<ExcludedMemoryFiles>
-						<File Id="387514773" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="394643880" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="399711101" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="436185642" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="474799462" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="705278634" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_entity_object_blocker_stop_mixbounce_03_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="3997097954" Name="AudioEvent_TheEntity_Spider_Appear" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Appear" GUID="{6E733C2B-FFC8-4D88-B011-5440C580A8E1}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="234147047" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_appear_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_appear_02_0BC91DCF.wem</Path>
-						</File>
-						<File Id="613785502" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_burning_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_burning_01_0BC91DCF.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="1556877473" Name="AudioEvent_TheEntity_Spider_Attack" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Attack" GUID="{AB29BFD9-5ACF-4C63-9A21-3CE24F9078D0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.269333" DurationMax="1.609012">
-					<ExcludedMemoryFiles>
-						<File Id="88708406" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05_67368C31.wem</Path>
-						</File>
-						<File Id="107280683" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04_67368C31.wem</Path>
-						</File>
-						<File Id="178637716" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_01.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_01_67368C31.wem</Path>
-						</File>
-						<File Id="280309263" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02_67368C31.wem</Path>
-						</File>
-						<File Id="310108528" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03_67368C31.wem</Path>
-						</File>
-						<File Id="738619646" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_03.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_03_67368C31.wem</Path>
-						</File>
-						<File Id="744978486" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01_67368C31.wem</Path>
-						</File>
-						<File Id="994191548" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06_67368C31.wem</Path>
-						</File>
-						<File Id="1038070358" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_04.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_04_67368C31.wem</Path>
-						</File>
-						<File Id="1059596498" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_02.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_02_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="1429442364" Name="AudioEvent_TheEntity_Spider_Attack_Remove" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Attack_Remove" GUID="{ADABB3DF-0C3E-4D4D-9538-1C9BD5C87F79}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.896603" DurationMax="1.579012">
-					<ExcludedMemoryFiles>
-						<File Id="107951843" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06_DDCD68FE.wem</Path>
-						</File>
-						<File Id="178637716" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_01.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_01_67368C31.wem</Path>
-						</File>
-						<File Id="192315219" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05_A237EFE1.wem</Path>
-						</File>
-						<File Id="510327044" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03_296E6CC4.wem</Path>
-						</File>
-						<File Id="601741003" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04_E11EE33F.wem</Path>
-						</File>
-						<File Id="738619646" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_03.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_03_67368C31.wem</Path>
-						</File>
-						<File Id="784330516" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02_6C608AC9.wem</Path>
-						</File>
-						<File Id="832197446" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01_DAF9B77D.wem</Path>
-						</File>
-						<File Id="1038070358" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_04.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_04_67368C31.wem</Path>
-						</File>
-						<File Id="1059596498" Language="SFX">
-							<ShortName>Objects\Blood\sfx_blood_spray_02.wav</ShortName>
-							<Path>SFX\Objects\Blood\sfx_blood_spray_02_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="3571854820" Name="AudioEvent_TheEntity_Spider_Generator_Appear" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Generator_Appear" GUID="{71311820-4441-4A28-988E-A9160CDDC9F9}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="41272317" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_12.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_12_67368C31.wem</Path>
-						</File>
-						<File Id="62183643" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06_67368C31.wem</Path>
-						</File>
-						<File Id="68441472" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05_67368C31.wem</Path>
-						</File>
-						<File Id="114816331" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_07.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_07_67368C31.wem</Path>
-						</File>
-						<File Id="116415137" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01_67368C31.wem</Path>
-						</File>
-						<File Id="201753123" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_08.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_08_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="234854935" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02_67368C31.wem</Path>
-						</File>
-						<File Id="254348311" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_09.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_09_67368C31.wem</Path>
-						</File>
-						<File Id="294023115" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04_67368C31.wem</Path>
-						</File>
-						<File Id="340876665" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_10.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_10_67368C31.wem</Path>
-						</File>
-						<File Id="369601199" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="385462082" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_11.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_11_67368C31.wem</Path>
-						</File>
-						<File Id="434383326" Language="SFX">
-							<ShortName>Objects\TheEntity\AudioEvent_TheEntity_Spider_Generator_Appear_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\AudioEvent_TheEntity_Spider_Generator_Appear_Bounce_01_67368C31.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="836871511" Name="AudioEvent_TheEntity_Spider_Generator_Attack" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Generator_Attack" GUID="{05EA9EA5-13F8-46C7-91E4-3C13B25F41FD}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="5.232018" DurationMax="7.438073">
-					<ExcludedMemoryFiles>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="62183643" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06_67368C31.wem</Path>
-						</File>
-						<File Id="68441472" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05_67368C31.wem</Path>
-						</File>
-						<File Id="88708406" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_05_67368C31.wem</Path>
-						</File>
-						<File Id="107280683" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_04_67368C31.wem</Path>
-						</File>
-						<File Id="116415137" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="234854935" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02_67368C31.wem</Path>
-						</File>
-						<File Id="239299028" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_02_67368C31.wem</Path>
-						</File>
-						<File Id="280309263" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_02_67368C31.wem</Path>
-						</File>
-						<File Id="294023115" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04_67368C31.wem</Path>
-						</File>
-						<File Id="310108528" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_03_67368C31.wem</Path>
-						</File>
-						<File Id="315837674" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_01_67368C31.wem</Path>
-						</File>
-						<File Id="369601199" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="744978486" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_01_67368C31.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="994191548" Language="SFX">
-							<ShortName>Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\TheEntity_Spider_Attack_Bounce_06_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="2755599638" Name="AudioEvent_TheEntity_Spider_Generator_Disappear" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Generator_Disappear" GUID="{529EE166-FD73-4202-B75F-394E7388F38F}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="5.237333" DurationMax="5.237333">
-					<ExcludedMemoryFiles>
-						<File Id="776571650" Language="SFX">
-							<ShortName>Objects\TheEntity\AudioEvent_TheEntity_Spider_Generator_Disappear_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\AudioEvent_TheEntity_Spider_Generator_Disappear_Bounce_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="1696396379" Name="AudioEvent_TheEntity_Spider_Generator_IdleShortClose" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Generator_IdleShortClose" GUID="{3A96FBF3-0A13-48DB-8EA9-39742B741218}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.189691" DurationMax="3.120068">
-					<ExcludedMemoryFiles>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="860143389" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_short_02_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="3604510205" Name="AudioEvent_TheEntity_Spider_Generator_IdleShortOpen" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Generator_IdleShortOpen" GUID="{32528F3A-B32E-4578-8011-9A7745CE0B16}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.189691" DurationMax="3.120068">
-					<ExcludedMemoryFiles>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-						<File Id="758280396" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_short_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="3385112907" Name="AudioEvent_TheEntity_Spider_Move_Long" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Move_Long" GUID="{06CA1AA7-6C4D-491B-859E-5E99451809EA}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="8.530000" DurationMax="9.524399">
-					<ExcludedMemoryFiles>
-						<File Id="30383761" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_04_67368C31.wem</Path>
-						</File>
-						<File Id="160330010" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_03_67368C31.wem</Path>
-						</File>
-						<File Id="374793428" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_05_67368C31.wem</Path>
-						</File>
-						<File Id="631064291" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_02_67368C31.wem</Path>
-						</File>
-						<File Id="684971195" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_long_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_long_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="3697839237" Name="AudioEvent_TheEntity_Spider_Move_Short" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Move_Short" GUID="{042E58F0-61A5-41F2-8A6B-D64FFB97DF1A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="5.232018" DurationMax="7.438073">
-					<ExcludedMemoryFiles>
-						<File Id="36933844" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_01_67368C31.wem</Path>
-						</File>
-						<File Id="62183643" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_06_67368C31.wem</Path>
-						</File>
-						<File Id="68441472" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_05_67368C31.wem</Path>
-						</File>
-						<File Id="116415137" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_01_67368C31.wem</Path>
-						</File>
-						<File Id="217286379" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_04_67368C31.wem</Path>
-						</File>
-						<File Id="234854935" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_02_67368C31.wem</Path>
-						</File>
-						<File Id="239299028" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_02_67368C31.wem</Path>
-						</File>
-						<File Id="294023115" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_04_67368C31.wem</Path>
-						</File>
-						<File Id="315837674" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_big_01.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_big_01_67368C31.wem</Path>
-						</File>
-						<File Id="369601199" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_crisp_03_67368C31.wem</Path>
-						</File>
-						<File Id="373689249" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_03.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_03_67368C31.wem</Path>
-						</File>
-						<File Id="656458231" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_05.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_05_67368C31.wem</Path>
-						</File>
-						<File Id="730050036" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_02.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_02_67368C31.wem</Path>
-						</File>
-						<File Id="755354695" Language="SFX">
-							<ShortName>Objects\TheEntity\sfx_theentity_spider_move_short_06.wav</ShortName>
-							<Path>SFX\Objects\TheEntity\sfx_theentity_spider_move_short_06_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="1065006161" Name="AudioEvent_TheEntity_Spider_Stop" ObjectPath="\Events\OBJECT\OBJECT_TheEntity\AudioEvent_TheEntity_Spider_Stop" GUID="{D298106E-4923-4DAB-BE95-FACF9229D25E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2897252035" Name="AudioEvent_UI_ControlProblem" ObjectPath="\Events\MENU\ControlCustomization\AudioEvent_UI_ControlProblem" GUID="{447ADC0D-1B01-4B12-986D-BD0399100F8F}" DurationType="OneShot" DurationMin="1.444000" DurationMax="1.444000">
-					<ExcludedMemoryFiles>
-						<File Id="433034014" Language="SFX">
-							<ShortName>Menu\sfx_ui_select_release_01.wav</ShortName>
-							<Path>SFX\Menu\sfx_ui_select_release_01_67368C31.wem</Path>
-						</File>
-						<File Id="817841787" Language="SFX">
-							<ShortName>Menu\sfx_ui_select_release_controlproblem.wav</ShortName>
-							<Path>SFX\Menu\sfx_ui_select_release_controlproblem_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
+				<Event Id="2897252035" Name="AudioEvent_UI_ControlProblem" ObjectPath="\Events\MENU\ControlCustomization\AudioEvent_UI_ControlProblem" GUID="{447ADC0D-1B01-4B12-986D-BD0399100F8F}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="104462169" Name="AudioEvent_UI_Highlight" ObjectPath="\Events\MENU\Default\AudioEvent_UI_Highlight" GUID="{D6E058DC-7051-4920-B107-D48570F26822}" DurationType="OneShot" DurationMin="0.629333" DurationMax="0.810667">
 					<ExcludedMemoryFiles>
 						<File Id="63332082" Language="SFX">
@@ -7555,6 +6445,10 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_07.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_07_67368C31.wem</Path>
 				</File>
+				<File Id="45286677" Language="SFX">
+					<ShortName>Menu\sfx_ui_control_customization_release_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_ui_control_customization_release_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="48579120" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_14.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_14_67368C31.wem</Path>
@@ -7607,6 +6501,10 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_18.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_18_67368C31.wem</Path>
 				</File>
+				<File Id="117849707" Language="SFX">
+					<ShortName>Menu\sfx_bloodweb_reward_mistery_box_open.wav</ShortName>
+					<Path>SFX\Menu\sfx_bloodweb_reward_mistery_box_open_7FA8D501.wem</Path>
+				</File>
 				<File Id="121102700" Language="SFX">
 					<ShortName>Menu\BloodWeb_Generation_Bounce_02.wav</ShortName>
 					<Path>SFX\Menu\BloodWeb_Generation_Bounce_02_67368C31.wem</Path>
@@ -7650,6 +6548,10 @@
 				<File Id="158280365" Language="SFX">
 					<ShortName>Menu\sfx_ui_tallyscreen_emblem_rock_slide_03.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_tallyscreen_emblem_rock_slide_03_67368C31.wem</Path>
+				</File>
+				<File Id="159887921" Language="SFX">
+					<ShortName>Menu\sfx_ui_inbox_delete_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_ui_inbox_delete_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="160867727" Language="SFX">
 					<ShortName>Menu\sfx_archives_page_01.wav</ShortName>
@@ -7823,6 +6725,10 @@
 					<ShortName>Menu\sfx_ui_store_Buy_AuricCells_1.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_store_Buy_AuricCells_1_67368C31.wem</Path>
 				</File>
+				<File Id="385278686" Language="SFX">
+					<ShortName>Menu\sfx_ui_inbox_read_all_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_ui_inbox_read_all_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="387130672" Language="SFX">
 					<ShortName>Menu\sfx_archives_node_reward_claimed_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_node_reward_claimed_02_7FA8D501.wem</Path>
@@ -7911,6 +6817,10 @@
 					<ShortName>Menu\sfx_ui_offering_horror_03.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_offering_horror_03_67368C31.wem</Path>
 				</File>
+				<File Id="459701377" Language="SFX">
+					<ShortName>Menu\sfx_ui_inbox_claim_all_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_ui_inbox_claim_all_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="467118190" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_23.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_23_67368C31.wem</Path>
@@ -7959,6 +6869,10 @@
 					<ShortName>Menu\sfx_ui_select_release_bones_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_select_release_bones_02_67368C31.wem</Path>
 				</File>
+				<File Id="525173446" Language="SFX">
+					<ShortName>Menu\sfx_ui_inbox_delete_all_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_ui_inbox_delete_all_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="530039288" Language="SFX">
 					<ShortName>Menu\sfx_ui_ready_other_rip_05.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_ready_other_rip_05_67368C31.wem</Path>
@@ -7970,6 +6884,10 @@
 				<File Id="534721415" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_15.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_15_67368C31.wem</Path>
+				</File>
+				<File Id="538274164" Language="SFX">
+					<ShortName>Menu\sfx_bloodweb_reward_super_mistery_box_open.wav</ShortName>
+					<Path>SFX\Menu\sfx_bloodweb_reward_super_mistery_box_open_7FA8D501.wem</Path>
 				</File>
 				<File Id="543313025" Language="SFX">
 					<ShortName>Objects\BlackSmoke\Blood_UI_Highlight_Bounce_04.wav</ShortName>
@@ -7995,6 +6913,10 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_19.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_19_67368C31.wem</Path>
 				</File>
+				<File Id="582111387" Language="SFX">
+					<ShortName>Menu\sfx_ui_control_customization_popup_open_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_ui_control_customization_popup_open_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="589511514" Language="SFX">
 					<ShortName>Menu\sfx_archives_node_quest_activate_03.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_node_quest_activate_03_7FA8D501.wem</Path>
@@ -8018,6 +6940,10 @@
 				<File Id="597628689" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_08.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_08_67368C31.wem</Path>
+				</File>
+				<File Id="598755615" Language="SFX">
+					<ShortName>Menu\sfx_ui_inbox_claim_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_ui_inbox_claim_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="611023892" Language="SFX">
 					<ShortName>Menu\BloodWeb_Player_Node_Captured_Bounce_03.wav</ShortName>
@@ -8199,10 +7125,6 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_10.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_10_67368C31.wem</Path>
 				</File>
-				<File Id="817841787" Language="SFX">
-					<ShortName>Menu\sfx_ui_select_release_controlproblem.wav</ShortName>
-					<Path>SFX\Menu\sfx_ui_select_release_controlproblem_7FA8D501.wem</Path>
-				</File>
 				<File Id="825179390" Language="SFX">
 					<ShortName>Menu\sfx_archives_node_quest_paused_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_node_quest_paused_01_7FA8D501.wem</Path>
@@ -8319,6 +7241,10 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_01.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_01_67368C31.wem</Path>
 				</File>
+				<File Id="1024319034" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="1039739770" Language="SFX">
 					<ShortName>Menu\sfx_ui_offering_card_reveal_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_offering_card_reveal_02_67368C31.wem</Path>
@@ -8353,6 +7279,7 @@
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="2292444427" Name="AudioRTPC_Intro_Menu" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Intro_Menu" GUID="{DCF28482-83FF-45BF-9878-B8CB05B3AEEE}"/>
 				<GameParameter Id="3327471627" Name="AudioRTPC_CrowdChoice" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_CrowdChoice" GUID="{B3BD59B3-7006-46C8-957B-A661C9176CF9}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>

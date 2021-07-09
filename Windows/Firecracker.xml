@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="3438151632" GUID="{A624511D-DD58-4E45-AADF-88AFAF698AC4}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>Firecracker</ShortName>
 			<Path>Firecracker.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2909633746" Name="AudioEvent_Firecracker_Burn_Start" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Firecracker\AudioEvent_Firecracker_Burn_Start" GUID="{A1BE104A-49AA-4ACF-8B63-75BB19CB24F6}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="2909633746" Name="AudioEvent_Firecracker_Burn_Start" ObjectPath="\Events\OBJECT\OBJ_ITEM\Firecracker\AudioEvent_Firecracker_Burn_Start" GUID="{A1BE104A-49AA-4ACF-8B63-75BB19CB24F6}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="569373619" Language="SFX">
 							<ShortName>Objects\Firecracker\sfx_firecracker_burn_loop_01.wav</ShortName>
@@ -29,8 +29,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2005837450" Name="AudioEvent_Firecracker_Burn_Stop" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Firecracker\AudioEvent_Firecracker_Burn_Stop" GUID="{005C8A7D-8B23-4D2C-AEE8-92A1A54E9FDD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3719829543" Name="AudioEvent_Firecracker_Explode" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Firecracker\AudioEvent_Firecracker_Explode" GUID="{72511A60-1E3D-472C-B77E-490CEFD03994}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="1.636283" DurationMax="2.597437">
+				<Event Id="2005837450" Name="AudioEvent_Firecracker_Burn_Stop" ObjectPath="\Events\OBJECT\OBJ_ITEM\Firecracker\AudioEvent_Firecracker_Burn_Stop" GUID="{005C8A7D-8B23-4D2C-AEE8-92A1A54E9FDD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3719829543" Name="AudioEvent_Firecracker_Explode" ObjectPath="\Events\OBJECT\OBJ_ITEM\Firecracker\AudioEvent_Firecracker_Explode" GUID="{72511A60-1E3D-472C-B77E-490CEFD03994}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="1.636283" DurationMax="2.597437">
 					<ExcludedMemoryFiles>
 						<File Id="38432998" Language="SFX">
 							<ShortName>Objects\Firecracker\sfx_firecracker_boom_deep_02.wav</ShortName>
@@ -42,7 +42,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1461430183" Name="AudioEvent_Firecracker_Explode_China" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Firecracker\AudioEvent_Firecracker_Explode_China" GUID="{DEA4DA3B-0179-44DC-86EE-3FF32701ECDE}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.348966" DurationMax="0.693458">
+				<Event Id="1461430183" Name="AudioEvent_Firecracker_Explode_China" ObjectPath="\Events\OBJECT\OBJ_ITEM\Firecracker\AudioEvent_Firecracker_Explode_China" GUID="{DEA4DA3B-0179-44DC-86EE-3FF32701ECDE}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.348966" DurationMax="0.693458">
 					<ExcludedMemoryFiles>
 						<File Id="34979312" Language="SFX">
 							<ShortName>Objects\Firecracker\sfx_firecracker_boom_04.wav</ShortName>
@@ -82,7 +82,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2877665425" Name="AudioEvent_Firecracker_Explode_Winter" ObjectPath="\Events\OBJECT\OBJECT_ITEM\Firecracker\AudioEvent_Firecracker_Explode_Winter" GUID="{3FC64AA9-ED45-470F-B642-D587FBD889A6}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="2.084639" DurationMax="2.663016">
+				<Event Id="2877665425" Name="AudioEvent_Firecracker_Explode_Winter" ObjectPath="\Events\OBJECT\OBJ_ITEM\Firecracker\AudioEvent_Firecracker_Explode_Winter" GUID="{3FC64AA9-ED45-470F-B642-D587FBD889A6}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="2.084639" DurationMax="2.663016">
 					<ExcludedMemoryFiles>
 						<File Id="34979312" Language="SFX">
 							<ShortName>Objects\Firecracker\sfx_firecracker_boom_04.wav</ShortName>

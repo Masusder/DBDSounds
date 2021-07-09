@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="14239492" GUID="{43FDD36B-4998-443F-8CFD-2AD64005BCF5}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>Chest</ShortName>
 			<Path>Chest.bnk</Path>
 			<IncludedEvents>
-				<Event Id="922057168" Name="AudioEvent_Chest_Close" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Close" GUID="{652594FB-5A9F-4C7F-B143-A9982F95DD67}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.341216" DurationMax="0.341216">
+				<Event Id="922057168" Name="AudioEvent_Chest_Close" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Close" GUID="{652594FB-5A9F-4C7F-B143-A9982F95DD67}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.341216" DurationMax="0.341216">
 					<ExcludedMemoryFiles>
 						<File Id="590466296" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_close_01.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4282512128" Name="AudioEvent_Chest_Fail" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Fail" GUID="{3A005BEC-5383-4E23-9667-67E794CCE15A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.341216" DurationMax="0.341216">
+				<Event Id="4282512128" Name="AudioEvent_Chest_Fail" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Fail" GUID="{3A005BEC-5383-4E23-9667-67E794CCE15A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.341216" DurationMax="0.341216">
 					<ExcludedMemoryFiles>
 						<File Id="590466296" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_close_01.wav</ShortName>
@@ -29,7 +29,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2597737454" Name="AudioEvent_Chest_Moving" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Moving" GUID="{588B3D11-6E7C-4902-8802-105DA82E7692}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.321709" DurationMax="0.593588">
+				<Event Id="2597737454" Name="AudioEvent_Chest_Moving" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Moving" GUID="{588B3D11-6E7C-4902-8802-105DA82E7692}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.321709" DurationMax="0.593588">
 					<ExcludedMemoryFiles>
 						<File Id="284497423" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_moving_01.wav</ShortName>
@@ -53,7 +53,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="214421604" Name="AudioEvent_Chest_Open" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Open" GUID="{A3CF907E-BAC5-479A-8A58-7F10E8F590E6}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.205333" DurationMax="2.378667">
+				<Event Id="214421604" Name="AudioEvent_Chest_Open" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Open" GUID="{A3CF907E-BAC5-479A-8A58-7F10E8F590E6}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.205333" DurationMax="2.378667">
 					<ExcludedMemoryFiles>
 						<File Id="247045601" Language="SFX">
 							<ShortName>Objects\Chest\Chest_Open_Mix_Bounce_01.wav</ShortName>
@@ -65,7 +65,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2903998586" Name="AudioEvent_Chest_Open_End" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Open_End" GUID="{F5E9514E-1EFF-4FCE-AFF6-CB79D47D3725}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.892608" DurationMax="1.045601">
+				<Event Id="2903998586" Name="AudioEvent_Chest_Open_End" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Open_End" GUID="{F5E9514E-1EFF-4FCE-AFF6-CB79D47D3725}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.892608" DurationMax="1.045601">
 					<ExcludedMemoryFiles>
 						<File Id="245817461" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_open_end_03.wav</ShortName>
@@ -81,7 +81,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2210601079" Name="AudioEvent_Chest_Padlock_Handle" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Padlock_Handle" GUID="{CD65E6E6-502D-4614-B793-A67B8455120A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.230896" DurationMax="1.969796">
+				<Event Id="2210601079" Name="AudioEvent_Chest_Padlock_Handle" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Padlock_Handle" GUID="{CD65E6E6-502D-4614-B793-A67B8455120A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.230896" DurationMax="1.969796">
 					<ExcludedMemoryFiles>
 						<File Id="94353476" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_padlock_handle_09.wav</ShortName>
@@ -121,7 +121,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1584014272" Name="AudioEvent_Chest_Padlock_Take" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Padlock_Take" GUID="{AD96CC6B-0405-4919-AF46-F3DF9752DBDB}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.322698" DurationMax="0.749557">
+				<Event Id="1584014272" Name="AudioEvent_Chest_Padlock_Take" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Padlock_Take" GUID="{AD96CC6B-0405-4919-AF46-F3DF9752DBDB}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.322698" DurationMax="0.749557">
 					<ExcludedMemoryFiles>
 						<File Id="120017958" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_padlock_start_01.wav</ShortName>
@@ -137,7 +137,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2829163710" Name="AudioEvent_Chest_Padlock_Unlocked" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Padlock_Unlocked" GUID="{A5851230-BED1-41F2-AE8E-61CDBDE80D1E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.241957" DurationMax="0.304846">
+				<Event Id="2829163710" Name="AudioEvent_Chest_Padlock_Unlocked" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Padlock_Unlocked" GUID="{A5851230-BED1-41F2-AE8E-61CDBDE80D1E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.241957" DurationMax="0.304846">
 					<ExcludedMemoryFiles>
 						<File Id="186249665" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_padlock_unlocked_01.wav</ShortName>
@@ -149,7 +149,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2508632970" Name="AudioEvent_Chest_Rummage" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Chest\AudioEvent_Chest_Rummage" GUID="{BE677311-ED1A-4223-AC1C-A54500EA8F7E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.698416" DurationMax="1.231069">
+				<Event Id="2508632970" Name="AudioEvent_Chest_Rummage" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Chest\AudioEvent_Chest_Rummage" GUID="{BE677311-ED1A-4223-AC1C-A54500EA8F7E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.698416" DurationMax="1.231069">
 					<ExcludedMemoryFiles>
 						<File Id="5095763" Language="SFX">
 							<ShortName>Objects\Chest\sfx_chest_rummage_07.wav</ShortName>

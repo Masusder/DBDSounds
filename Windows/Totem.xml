@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1469631760" GUID="{49766964-F4CC-47C8-BC43-22399C56398F}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>Totem</ShortName>
 			<Path>Totem.bnk</Path>
 			<IncludedEvents>
-				<Event Id="981871514" Name="AudioEvent_Totem_Destroy" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Totem\AudioEvent_Totem_Destroy" GUID="{5AB5C405-1226-419C-8914-CC8BBAAB70EF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.891746" DurationMax="1.918730">
+				<Event Id="981871514" Name="AudioEvent_Totem_Destroy" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Totem_Destroy" GUID="{5AB5C405-1226-419C-8914-CC8BBAAB70EF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.891746" DurationMax="1.918730">
 					<ExcludedMemoryFiles>
 						<File Id="49562503" Language="SFX">
 							<ShortName>Objects\Totem\sfx_totem_break_03.wav</ShortName>
@@ -81,7 +81,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2205015021" Name="AudioEvent_Totem_Fire_Start" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Totem\AudioEvent_Totem_Fire_Start" GUID="{93B6899D-C581-4B6A-B52A-7FD3551E559E}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="2205015021" Name="AudioEvent_Totem_Fire_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Totem_Fire_Start" GUID="{93B6899D-C581-4B6A-B52A-7FD3551E559E}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="811864212" Language="SFX">
 							<ShortName>Objects\Totem\sfx_totem_fire_loop_01.wav</ShortName>
@@ -89,8 +89,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="974426159" Name="AudioEvent_Totem_Fire_Stop" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Totem\AudioEvent_Totem_Fire_Stop" GUID="{A96DF42D-BB17-4A14-9E29-A78D2107DAF0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4228521480" Name="AudioEvent_Totem_Sabotage" ObjectPath="\Events\OBJECT\OBJECT_GAMEPLAY\Totem\AudioEvent_Totem_Sabotage" GUID="{40F1A22C-352F-48A2-ADF2-E73248711CBF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.347088" DurationMax="1.192046">
+				<Event Id="974426159" Name="AudioEvent_Totem_Fire_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Totem_Fire_Stop" GUID="{A96DF42D-BB17-4A14-9E29-A78D2107DAF0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4228521480" Name="AudioEvent_Totem_Sabotage" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Totem_Sabotage" GUID="{40F1A22C-352F-48A2-ADF2-E73248711CBF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.347088" DurationMax="1.192046">
 					<ExcludedMemoryFiles>
 						<File Id="1140447" Language="SFX">
 							<ShortName>Objects\Totem\sfx_totem_sabotage_04.wav</ShortName>

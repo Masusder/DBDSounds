@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1491115653" GUID="{5A03EDD3-B9B9-40C6-B795-1E7566E41A25}" Language="SFX">
@@ -43,6 +43,14 @@
 							<ShortName>Characters\Killer_Nurse\vo_killer_nurse_teleport_appear_05.wav</ShortName>
 							<Path>SFX\Characters\Killer_Nurse\vo_killer_nurse_teleport_appear_05_67368C31.wem</Path>
 						</File>
+						<File Id="214566911" Language="SFX">
+							<ShortName>Characters\KILLER\sfx_killer_spawn_02.wav</ShortName>
+							<Path>SFX\Characters\KILLER\sfx_killer_spawn_02_67368C31.wem</Path>
+						</File>
+						<File Id="227952070" Language="SFX">
+							<ShortName>Characters\KILLER\sfx_killer_spawn_01.wav</ShortName>
+							<Path>SFX\Characters\KILLER\sfx_killer_spawn_01_67368C31.wem</Path>
+						</File>
 						<File Id="236672967" Language="SFX">
 							<ShortName>Powers\PWR_04_Blink\sfx_blink_appear_01.wav</ShortName>
 							<Path>SFX\Powers\PWR_04_Blink\sfx_blink_appear_01_67368C31.wem</Path>
@@ -62,14 +70,6 @@
 						<File Id="689382575" Language="SFX">
 							<ShortName>Powers\PWR_04_Blink\Blink_Appear_2D_Bounce.wav</ShortName>
 							<Path>SFX\Powers\PWR_04_Blink\Blink_Appear_2D_Bounce_67368C31.wem</Path>
-						</File>
-						<File Id="800359488" Language="SFX">
-							<ShortName>Characters\Killer_COMMON\sfx_killer_spawn_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_COMMON\sfx_killer_spawn_01_67368C31.wem</Path>
-						</File>
-						<File Id="822041885" Language="SFX">
-							<ShortName>Characters\Killer_COMMON\sfx_killer_spawn_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_COMMON\sfx_killer_spawn_02_67368C31.wem</Path>
 						</File>
 						<File Id="903069564" Language="SFX">
 							<ShortName>Characters\Killer_Nurse\vo_killer_nurse_teleport_appear_11.wav</ShortName>
@@ -434,13 +434,13 @@
 				</Event>
 				<Event Id="667335484" Name="AudioEvent_Killer_Nurse_BreakableWall_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_04_Nurse\K04_SPEC\AudioEvent_Killer_Nurse_BreakableWall_Attack" GUID="{278BAA30-2D3D-4373-B9E6-E94A76BB30C3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.252562" DurationMax="2.799062">
 					<IncludedMemoryFiles>
-						<File Id="800359488" Language="SFX">
-							<ShortName>Characters\Killer_COMMON\sfx_killer_spawn_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_COMMON\sfx_killer_spawn_01_67368C31.wem</Path>
+						<File Id="214566911" Language="SFX">
+							<ShortName>Characters\KILLER\sfx_killer_spawn_02.wav</ShortName>
+							<Path>SFX\Characters\KILLER\sfx_killer_spawn_02_67368C31.wem</Path>
 						</File>
-						<File Id="822041885" Language="SFX">
-							<ShortName>Characters\Killer_COMMON\sfx_killer_spawn_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_COMMON\sfx_killer_spawn_02_67368C31.wem</Path>
+						<File Id="227952070" Language="SFX">
+							<ShortName>Characters\KILLER\sfx_killer_spawn_01.wav</ShortName>
+							<Path>SFX\Characters\KILLER\sfx_killer_spawn_01_67368C31.wem</Path>
 						</File>
 						<File Id="950721722" Language="SFX">
 							<ShortName>Powers\PWR_04_Blink\sfx_blink_appear_02.wav</ShortName>

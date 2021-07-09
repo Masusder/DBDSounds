@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Eclipse_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Eclipse\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="3291769530" GUID="{CA507B9D-7EE7-4E1E-8EC9-01E81D209696}" Language="SFX">
@@ -13,7 +13,7 @@
 			<ShortName>MagicFountain</ShortName>
 			<Path>MagicFountain.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2733673798" Name="AudioEvent_MagicFountain_EntityBlood_Loop" ObjectPath="\Events\OBJECT\OBJECT_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_EntityBlood_Loop" GUID="{8971133E-1D3D-4B3C-8516-62083BC7215D}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="2733673798" Name="AudioEvent_MagicFountain_EntityBlood_Loop" ObjectPath="\Events\OBJECT\OBJ_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_EntityBlood_Loop" GUID="{8971133E-1D3D-4B3C-8516-62083BC7215D}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="439599551" Language="SFX">
 							<ShortName>Objects\MagicFountain\MagicFountain_EntityBlood_Loop_Mix_Bounce.wav</ShortName>
@@ -25,7 +25,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4238333568" Name="AudioEvent_MagicFountain_KLR_Drink" ObjectPath="\Events\OBJECT\OBJECT_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_KLR_Drink" GUID="{64FFE4C6-828D-4E99-9F20-02A2E5F56B73}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="5.831905" DurationMax="5.831905">
+				<Event Id="4238333568" Name="AudioEvent_MagicFountain_KLR_Drink" ObjectPath="\Events\OBJECT\OBJ_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_KLR_Drink" GUID="{64FFE4C6-828D-4E99-9F20-02A2E5F56B73}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="5.831905" DurationMax="5.831905">
 					<IncludedMemoryFiles>
 						<File Id="325700314" Language="SFX">
 							<ShortName>Objects\MagicFountain\sfx_magicfountain_killer_absorb_01.wav</ShortName>
@@ -49,7 +49,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4234245566" Name="AudioEvent_MagicFountain_KLR_Drink_Finish" ObjectPath="\Events\OBJECT\OBJECT_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_KLR_Drink_Finish" GUID="{17AFBF78-2386-4FAA-9662-EE052E54FE37}" DurationType="OneShot" DurationMin="4.600000" DurationMax="4.600000">
+				<Event Id="4234245566" Name="AudioEvent_MagicFountain_KLR_Drink_Finish" ObjectPath="\Events\OBJECT\OBJ_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_KLR_Drink_Finish" GUID="{17AFBF78-2386-4FAA-9662-EE052E54FE37}" DurationType="OneShot" DurationMin="4.600000" DurationMax="4.600000">
 					<IncludedMemoryFiles>
 						<File Id="49138927" Language="SFX">
 							<ShortName>Stingers\sfx_stinger_magicfountain_killerdrink_01.wav</ShortName>
@@ -60,7 +60,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2454421286" Name="AudioEvent_MagicFountain_SVR_Drink" ObjectPath="\Events\OBJECT\OBJECT_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_SVR_Drink" GUID="{8C844D46-1D0A-4421-895D-35386D785C11}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.389958" DurationMax="2.065083">
+				<Event Id="2454421286" Name="AudioEvent_MagicFountain_SVR_Drink" ObjectPath="\Events\OBJECT\OBJ_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_SVR_Drink" GUID="{8C844D46-1D0A-4421-895D-35386D785C11}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.389958" DurationMax="2.065083">
 					<IncludedMemoryFiles>
 						<File Id="465925309" Language="SFX">
 							<ShortName>Objects\MagicFountain\sfx_magicfountain_drink_03.wav</ShortName>
@@ -80,7 +80,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1272790704" Name="AudioEvent_MagicFountain_SVR_Drink_Finish" ObjectPath="\Events\OBJECT\OBJECT_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_SVR_Drink_Finish" GUID="{090B51B1-D2C5-4DCB-8885-B4CC458AF8F3}" DurationType="OneShot" DurationMin="4.333809" DurationMax="4.333809">
+				<Event Id="1272790704" Name="AudioEvent_MagicFountain_SVR_Drink_Finish" ObjectPath="\Events\OBJECT\OBJ_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_SVR_Drink_Finish" GUID="{090B51B1-D2C5-4DCB-8885-B4CC458AF8F3}" DurationType="OneShot" DurationMin="4.333809" DurationMax="4.333809">
 					<IncludedMemoryFiles>
 						<File Id="243696651" Language="SFX">
 							<ShortName>Stingers\sfx_stinger_magicfountain_survivordrink_01.wav</ShortName>
@@ -91,7 +91,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1736695780" Name="AudioEvent_MagicFountain_Water_Loop" ObjectPath="\Events\OBJECT\OBJECT_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_Water_Loop" GUID="{A515EFA6-52F4-4A5D-8FAB-215D4A53BB0A}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="1736695780" Name="AudioEvent_MagicFountain_Water_Loop" ObjectPath="\Events\OBJECT\OBJ_KILLER\K15_MagicFountain\AudioEvent_MagicFountain_Water_Loop" GUID="{A515EFA6-52F4-4A5D-8FAB-215D4A53BB0A}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="573189967" Language="SFX">
 							<ShortName>Objects\MagicFountain\sfx_magicfountain_water_entity_01.wav</ShortName>
