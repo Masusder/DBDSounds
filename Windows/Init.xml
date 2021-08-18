@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Flare_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Gemini_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Flare\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
@@ -104,6 +104,13 @@
 						<State Id="748895195" Name="None" ObjectPath="\States\STATES_MENU\AudioStateVideo\None" GUID="{F5B4D598-9393-4D6E-8C05-CB78D0132314}"/>
 						<State Id="1028549302" Name="Video_ON" ObjectPath="\States\STATES_MENU\AudioStateVideo\Video_ON" GUID="{64F496EF-321D-4B77-A3A8-E1D671E04D48}"/>
 						<State Id="1081215356" Name="Video_OFF" ObjectPath="\States\STATES_MENU\AudioStateVideo\Video_OFF" GUID="{3D35BBA0-F527-4A87-B07C-B5176A367CAE}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2278117652" Name="AudioState_K25_Possessing" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing" GUID="{393C9700-D1EB-4772-BB93-1F0E1D74A2BD}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing\None" GUID="{D3CC90EC-6695-4C8A-8C18-F4E671FDEBBC}"/>
+						<State Id="1640480940" Name="AudioState_K25_Possessing_On" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing\AudioState_K25_Possessing_On" GUID="{B6241E63-3ED8-40D0-9013-3ACF5174187F}"/>
+						<State Id="2440315466" Name="AudioState_K25_Possessing_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing\AudioState_K25_Possessing_Off" GUID="{2D5E9850-CF38-4E07-8EFD-EE1B5F616CB1}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="2965757447" Name="AudioStateInOut" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut" GUID="{CA5AE963-F3D7-4B6C-8233-176A16D036EE}">
