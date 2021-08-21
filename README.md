@@ -8,8 +8,8 @@ You can easily find here any audio that you need without need to look into the f
 
 ## Overwiew
 
-Extracted Files - raw files extracted from Dead By Daylight
-Converted Files - audio files converted into OGG format with correct structure and names
+Extracted Files - raw files extracted from Dead By Daylight<br>
+Converted Files - audio files converted into OGG format with correct structure and names<br>
 Help_Template.txt - additional file to help distinguish IDs
 
 
