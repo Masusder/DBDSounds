@@ -1,15 +1,17 @@
 # DBDSounds
 <img src="https://i.imgur.com/pBGzNxL.png" align="right" alt="Wwise Logo" width="128" height="128">
 
-This repository is collection of all audio featured in Dead By Daylight game. Main use of this repository is to track changes made in Dead By Daylight's audio database in each update.
+This repository serves as a collection of all audio featured in Dead By Daylight game. Main use of this repository is to track changes made in Dead By Daylight's audio database.
 You can easily find here any audio that you need without need to look into the files by yourself. 
 
 ‎
 
-## How To Use
+## Overwiew
 
-To find what each sound is responsible for use XML file (SoundsBank.xml is main storage for all sounds) and search by audio ID.           
-You can also use other XMLs for individual BNKs.
+Extracted Files - raw files extracted from Dead By Daylight
+Converted Files - audio files converted into OGG format with correct structure and names
+Help_Template.txt - additional file to help distinguish IDs
+
 
 ## Useful Tools
 
@@ -20,6 +22,4 @@ Collection of useful tools:
 
 ## Other
 
-The .BNK files are already unpacked and converted to playable audio in this path "DBDSounds/BNK/(BNK you're looking for)".
-
-If you want to learn how to put your own audio into the game make sure to visit Mod By Daylight Discord - https://discord.gg/NKSBpbRxhD.
+Thanks to BrandonItaly for helping with tool used to maintain this repository.
