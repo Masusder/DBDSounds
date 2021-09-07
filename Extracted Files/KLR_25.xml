@@ -13,53 +13,38 @@
 			<ShortName>KLR_25</ShortName>
 			<Path>KLR_25.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2096793970" Name="AudioEvent_K25_DIALOG_Mori_TearYourSoul" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_Mori_TearYourSoul" GUID="{17656C14-7BCB-4785-A116-54D2E8AA39BF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="7.039417" DurationMax="7.039417">
-					<IncludedMemoryFiles>
-						<File Id="78470897" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_MORI\sfx_k25_mori_vo_tearyoursoul.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_MORI\sfx_k25_mori_vo_tearyoursoul_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="2096793970" Name="AudioEvent_K25_DIALOG_Mori_TearYourSoul" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_Mori_TearYourSoul" GUID="{17656C14-7BCB-4785-A116-54D2E8AA39BF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers/>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="3185455491" Name="AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" GUID="{4009B3CA-CE31-49F4-9443-27E646B72A7E}" DurationType="OneShot" DurationMin="3.631120" DurationMax="4.034447">
-					<IncludedMemoryFiles>
-						<File Id="55499913" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_02.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_02_171E3772.wem</Path>
-						</File>
-						<File Id="550782027" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_03.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_03_7ADA6148.wem</Path>
-						</File>
-						<File Id="719600482" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_01_D35F3E33.wem</Path>
-						</File>
-						<File Id="733212620" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_04.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_04_58CF7792.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="3185455491" Name="AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" GUID="{4009B3CA-CE31-49F4-9443-27E646B72A7E}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers/>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="3185455488" Name="AudioEvent_K25_DIALOG_PWR_Teleport_Pt2" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_PWR_Teleport_Pt2" GUID="{E80D77E6-B58B-441C-8684-221D34B35D3C}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="5.498698" DurationMax="6.071803">
+				<Event Id="3185455488" Name="AudioEvent_K25_DIALOG_PWR_Teleport_Pt2" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_PWR_Teleport_Pt2" GUID="{E80D77E6-B58B-441C-8684-221D34B35D3C}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="3.294667">
 					<IncludedMemoryFiles>
-						<File Id="71889889" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_01_4F6EAFAF.wem</Path>
-						</File>
-						<File Id="151092686" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_03.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_03_2656C76C.wem</Path>
-						</File>
-						<File Id="525912247" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_04.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_04_4C20BFC0.wem</Path>
-						</File>
-						<File Id="984812298" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_02.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_DIALOG\sfx_k25_grunt_pwr_teleport_thebox_02_580D9452.wem</Path>
+						<File Id="215706291" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_teleport.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_teleport_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1DAEB736-BFC6-4D0F-A671-7D1A3F105E0D}">
+							<Media>
+								<File Id="215706291"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1885828548" Name="AudioEvent_K25_Gemini_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_STATUS\AudioEvent_K25_Gemini_Status_Start" GUID="{E5F29E94-6A45-4ACF-896B-F6643FCF7365}" MaxAttenuation="1900.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -186,18 +171,23 @@
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}">
-							<Media>
-								<File Id="502321767"/>
-								<File Id="358508268"/>
-								<File Id="459258878"/>
-								<File Id="435932637"/>
-								<File Id="704446744"/>
-								<File Id="625157716"/>
-								<File Id="1069077486"/>
-								<File Id="758959830"/>
-								<File Id="867936381"/>
-								<File Id="803938803"/>
-							</Media>
+							<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+									<Media>
+										<File Id="502321767"/>
+										<File Id="358508268"/>
+										<File Id="459258878"/>
+										<File Id="435932637"/>
+										<File Id="704446744"/>
+										<File Id="625157716"/>
+										<File Id="1069077486"/>
+										<File Id="758959830"/>
+										<File Id="867936381"/>
+										<File Id="803938803"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionSetSwitch>
@@ -207,54 +197,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3135098712" Name="AudioEvent_K25_GRUNT_Obstacle_Destroy" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_Obstacle_Destroy" GUID="{29F2887A-6777-4055-89E3-696DA9B395B3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.706403" DurationMax="2.250911">
-					<IncludedMemoryFiles>
-						<File Id="324136007" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_08.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="482362738" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_03.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="512733466" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_09.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="525733106" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_02.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="599623450" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_10.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="616176409" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_04.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="682896631" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="779225236" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_07.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="850868951" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_06.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="885142750" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_05.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="1002326899" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_11.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_obstacle_destroy_temp_11_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="3135098712" Name="AudioEvent_K25_GRUNT_Obstacle_Destroy" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_Obstacle_Destroy" GUID="{29F2887A-6777-4055-89E3-696DA9B395B3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3890205039" Name="AudioEvent_K25_GRUNT_Repossess_Husk" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_Repossess_Husk" GUID="{E71C5D13-F606-49D8-8A3E-30E9D76F0572}" DurationType="OneShot" DurationMin="3.504493" DurationMax="5.142698">
 					<IncludedMemoryFiles>
 						<File Id="56806959" Language="SFX">
@@ -313,6 +256,10 @@
 				</Event>
 				<Event Id="2002276989" Name="AudioEvent_K25_GRUNT_Stunned" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_Stunned" GUID="{56B8AAFD-AAD1-449F-BDCE-2C07282834C6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.062176" DurationMax="3.106765">
 					<IncludedMemoryFiles>
+						<File Id="19391624" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_stunned_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_stunned_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="28663777" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT\sfx_k25_grunt_stunned_03.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT\sfx_k25_grunt_stunned_03_7FA8D501.wem</Path>
@@ -333,160 +280,37 @@
 							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT\sfx_k25_grunt_stunned_04.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT\sfx_k25_grunt_stunned_04_7FA8D501.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="602454572" Name="AudioEvent_K25_GRUNT_WPN_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_WPN_Attack" GUID="{41C5BFE7-0B47-4346-8236-91ADC7F6C7B5}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.420549" DurationMax="1.382873">
-					<IncludedMemoryFiles>
-						<File Id="52149211" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_07.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_07_7FA8D501.wem</Path>
+						<File Id="855413433" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_stunned_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_stunned_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="54027861" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_05.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="165565642" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="220265691" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_02.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="253175107" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_22.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_22_7FA8D501.wem</Path>
-						</File>
-						<File Id="280406351" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_23.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_23_7FA8D501.wem</Path>
-						</File>
-						<File Id="314204543" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_12.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="337793021" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_18.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_18_7FA8D501.wem</Path>
-						</File>
-						<File Id="362027442" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_20.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_20_7FA8D501.wem</Path>
-						</File>
-						<File Id="367234169" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_10.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="421932144" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_08.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="438954322" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_15.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_15_7FA8D501.wem</Path>
-						</File>
-						<File Id="457587507" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_14.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_14_7FA8D501.wem</Path>
-						</File>
-						<File Id="479656004" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_06.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="515975118" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_11.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_11_7FA8D501.wem</Path>
-						</File>
-						<File Id="551027520" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_24.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_24_7FA8D501.wem</Path>
-						</File>
-						<File Id="599777903" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_17.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_17_7FA8D501.wem</Path>
-						</File>
-						<File Id="651568868" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_09.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="698434844" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_04.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="868626062" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_21.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_21_7FA8D501.wem</Path>
-						</File>
-						<File Id="874151711" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_16.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_16_7FA8D501.wem</Path>
-						</File>
-						<File Id="893382222" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_19.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_19_7FA8D501.wem</Path>
-						</File>
-						<File Id="913090517" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_13.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_13_7FA8D501.wem</Path>
-						</File>
-						<File Id="1022339709" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_03.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_attack_temp_03_7FA8D501.wem</Path>
+						<File Id="1072906719" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_stunned_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_stunned_02_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="517276068"/>
+								<File Id="179212178"/>
+								<File Id="28663777"/>
+								<File Id="602699985"/>
+								<File Id="580067670"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1DAEB736-BFC6-4D0F-A671-7D1A3F105E0D}">
+							<Media>
+								<File Id="19391624"/>
+								<File Id="1072906719"/>
+								<File Id="855413433"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="1965824544" Name="AudioEvent_K25_GRUNT_WPN_Miss" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_WPN_Miss" GUID="{E5652AA8-4FF6-49EB-AFD5-4ADB7BBE24C4}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.781047" DurationMax="1.945601">
-					<IncludedMemoryFiles>
-						<File Id="112676944" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_11.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_11_7FA8D501.wem</Path>
-						</File>
-						<File Id="173224470" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_06.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="288294363" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_05.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="331713079" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_04.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="432124775" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_08.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="489258189" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="537216411" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_12.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="566911288" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_09.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="584598780" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_03.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="587195881" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_02.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="770616236" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_07.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="992862106" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_10.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Temp\sfx_k24_grunt_wpn_miss_temp_10_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="602454572" Name="AudioEvent_K25_GRUNT_WPN_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_WPN_Attack" GUID="{41C5BFE7-0B47-4346-8236-91ADC7F6C7B5}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1965824544" Name="AudioEvent_K25_GRUNT_WPN_Miss" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_WPN_Miss" GUID="{E5652AA8-4FF6-49EB-AFD5-4ADB7BBE24C4}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2317230188" Name="AudioEvent_K25_Mori_ChainWrap" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_MORI\AudioEvent_K25_Mori_ChainWrap" GUID="{2A03E1AF-8812-4B8C-8689-6269F5D2023F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="6.066667" DurationMax="6.066667">
 					<IncludedMemoryFiles>
 						<File Id="398932561" Language="SFX">
@@ -495,13 +319,30 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4097160695" Name="AudioEvent_K25_Mori_Grunt_Begin" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_MORI\AudioEvent_K25_Mori_Grunt_Begin" GUID="{14745ADF-9E8B-40F2-8E42-4EEC2015D1FB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.191667" DurationMax="2.191667">
+				<Event Id="4097160695" Name="AudioEvent_K25_Mori_Grunt_Begin" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_MORI\AudioEvent_K25_Mori_Grunt_Begin" GUID="{14745ADF-9E8B-40F2-8E42-4EEC2015D1FB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.834252" DurationMax="2.760062">
 					<IncludedMemoryFiles>
+						<File Id="473044363" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_mori.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_mori_7FA8D501.wem</Path>
+						</File>
 						<File Id="1044568624" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_MORI\sfx_k25_mori_grunt_begin.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_MORI\sfx_k25_mori_grunt_begin_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="1044568624"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1DAEB736-BFC6-4D0F-A671-7D1A3F105E0D}">
+							<Media>
+								<File Id="473044363"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3554136369" Name="AudioEvent_K25_Mori_Pillar" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_MORI\AudioEvent_K25_Mori_Pillar" GUID="{DD6B019F-4A8A-423A-AC61-2C87D08DED7E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="15.333333" DurationMax="15.333333">
 					<IncludedMemoryFiles>
@@ -511,7 +352,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3919397540" Name="AudioEvent_K25_OBJ_PuzzleBox_Electricity" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Electricity" GUID="{3C4B2C2A-A390-4B31-BD42-B7C47F3FC5FD}" MaxAttenuation="1200.000000" DurationType="Infinite">
+				<Event Id="83801588" Name="AudioEvent_K25_OBJ_PuzzleBox_Bind" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Bind" GUID="{BE2C968B-E052-439C-BA0C-EF49675B3B84}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="4.729333" DurationMax="4.729333">
+					<IncludedMemoryFiles>
+						<File Id="441018265" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_bind_stinger.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_bind_stinger_7FA8D501.wem</Path>
+						</File>
+						<File Id="961191202" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_bind_chains.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_bind_chains_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1101958335" Name="AudioEvent_K25_OBJ_PuzzleBox_Electricity_Burst" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Electricity_Burst" GUID="{3C4B2C2A-A390-4B31-BD42-B7C47F3FC5FD}" MaxAttenuation="1200.000000" DurationType="OneShot" DurationMin="0.504979" DurationMax="2.127646">
 					<IncludedMemoryFiles>
 						<File Id="7235527" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_12.wav</ShortName>
@@ -629,14 +482,6 @@
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_11.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_11_7FA8D501.wem</Path>
 						</File>
-						<File Id="689245330" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_19.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_19_7FA8D501.wem</Path>
-						</File>
-						<File Id="749068336" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_24.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_24_7FA8D501.wem</Path>
-						</File>
 						<File Id="770537408" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_16.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_16_7FA8D501.wem</Path>
@@ -644,10 +489,6 @@
 						<File Id="789456268" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_05.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="790218130" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_14.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_14_7FA8D501.wem</Path>
 						</File>
 						<File Id="852713463" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_21.wav</ShortName>
@@ -661,9 +502,165 @@
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_03.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="961179676" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_17.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_17_7FA8D501.wem</Path>
+						<File Id="985227093" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_13.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001107939" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_10.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="1021295541" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_15.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="1034089404" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_19.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_19_7FA8D501.wem</Path>
+						</File>
+						<File Id="1055426907" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_26.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_26_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3836982671" Name="AudioEvent_K25_OBJ_PuzzleBox_Electricity_Lp" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Electricity_Lp" GUID="{CE9F775E-1CBD-456D-934B-384A1B17B8C6}" MaxAttenuation="1200.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="7235527" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_12.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="39853974" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="54378480" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_08.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="72266405" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_15.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="149148885" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="160170378" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_07.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="167932176" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_09.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="212246359" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_09.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="232082020" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_10.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="245598915" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_07.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="256527921" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="316509143" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_20.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_20_7FA8D501.wem</Path>
+						</File>
+						<File Id="349060063" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_13.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="406699969" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_23.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_23_7FA8D501.wem</Path>
+						</File>
+						<File Id="420316431" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="420469420" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_22.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_22_7FA8D501.wem</Path>
+						</File>
+						<File Id="436391591" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="478961733" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_16.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="513788086" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_11.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="549992087" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_25.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_25_7FA8D501.wem</Path>
+						</File>
+						<File Id="557391981" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_18.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="558156224" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_17.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="583514346" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="609551601" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_12.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="616796648" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_08.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="630480566" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="656259399" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_18.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="665972046" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_14.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="682097336" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_11.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="770537408" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_16.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="789456268" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="852713463" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_21.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_21_7FA8D501.wem</Path>
+						</File>
+						<File Id="873910368" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_20.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_sparks_20_7FA8D501.wem</Path>
+						</File>
+						<File Id="931772446" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="985227093" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_arcs_13.wav</ShortName>
@@ -698,19 +695,66 @@
 				</Event>
 				<Event Id="751115202" Name="AudioEvent_K25_OBJ_PuzzleBox_PickUp_Survivor" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_PickUp_Survivor" GUID="{BB61009D-3DF4-4E4E-9B5A-CC26128BBF08}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
-						<ActionSetStateEntry Id="2147660821" Name="AudioState_K25_PuzzleBox_SVR" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_SVR" GUID="{31186D83-CF86-4B42-B27C-57A7E1F42910}"/>
+						<ActionSetStateEntry Id="2270341473" Name="AudioState_K25_PuzzleBox_On" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_On" GUID="{31186D83-CF86-4B42-B27C-57A7E1F42910}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="555913553" Name="AudioEvent_K25_OBJ_PuzzleBox_PutDown_Survivor" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_PutDown_Survivor" GUID="{C8AE855C-75C1-4AA2-B41A-93BA04E740DC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
-						<ActionSetStateEntry Id="4191233292" Name="AudioState_K25_PuzzleBox_NotSVR" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_NotSVR" GUID="{B4002573-E2FF-4325-808D-71DA1A27B577}"/>
+						<ActionSetStateEntry Id="1881190445" Name="AudioState_K25_PuzzleBox_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_Off" GUID="{B4002573-E2FF-4325-808D-71DA1A27B577}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1972314580" Name="AudioEvent_K25_OBJ_PuzzleBox_SkillcheckFail" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_SkillcheckFail" GUID="{BE2C968B-E052-439C-BA0C-EF49675B3B84}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="4.729333" DurationMax="4.729333">
+				<Event Id="1061357402" Name="AudioEvent_K25_OBJ_PuzzleBox_Solved" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Solved" GUID="{9B9353C4-BA98-4201-B6EF-1BA294407F33}" DurationType="OneShot" DurationMin="3.960333" DurationMax="3.960333">
 					<IncludedMemoryFiles>
-						<File Id="545382219" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_failsolve.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_failsolve_7FA8D501.wem</Path>
+						<File Id="1003769440" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solved_3d.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solved_3d_7FA8D501.wem</Path>
+						</File>
+						<File Id="1062295844" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solved_2d.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solved_2d_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1475063095" Name="AudioEvent_K25_OBJ_PuzzleBox_Solving_KLR" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Solving_KLR" GUID="{523D97BD-0E6A-4EA5-A307-344A3D1CF1D8}" MaxAttenuation="2200.000000" DurationType="OneShot" DurationMin="6.582146" DurationMax="6.582146">
+					<IncludedMemoryFiles>
+						<File Id="101802022" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="285750700" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="539611221" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="762981692" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1061185320" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_electricity.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_electricity_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1382142151" Name="AudioEvent_K25_OBJ_PuzzleBox_Solving_KLR_Wipe" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Solving_KLR_Wipe" GUID="{8DEB62DF-76AF-4A77-A85B-1FB4B47E3D61}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.485333" DurationMax="1.677333">
+					<IncludedMemoryFiles>
+						<File Id="34730114" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_wipe_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_wipe_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="223397606" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_wipe_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_wipe_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="972828551" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_wipe_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_solve_klr_wipe_02_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -882,7 +926,7 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="416603390" Name="AudioEvent_K25_OBJ_PuzzleBox_Solving_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Solving_Stop" GUID="{94D58652-7847-4926-BB10-75E9525BEFC0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3375115666" Name="AudioEvent_K25_OBJ_PuzzleBox_Spawn" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Spawn" GUID="{E6A33A0A-81CD-4C17-946B-163DEACE3F2A}" DurationType="OneShot" DurationMin="5.531083" DurationMax="5.531083">
+				<Event Id="3375115666" Name="AudioEvent_K25_OBJ_PuzzleBox_Spawn" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_OBJECT\AudioEvent_K25_OBJ_PuzzleBox_Spawn" GUID="{E6A33A0A-81CD-4C17-946B-163DEACE3F2A}" DurationType="OneShot" DurationMin="5.977792" DurationMax="5.977792">
 					<IncludedMemoryFiles>
 						<File Id="237019133" Language="SFX">
 							<ShortName>Characters\KLR_25\K25_OBJECT\sfx_k25_obj_puzzlebox_spawn.wav</ShortName>
@@ -941,6 +985,15 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2685488492" Name="AudioEvent_K25_PWR_ChainHunt_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_ChainHunt_Stop" GUID="{7C7DFF0D-43CB-4288-B321-8811D773B18A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1765297439" Name="AudioEvent_K25_PWR_Chains_Electricity" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_Chains_Electricity" GUID="{1F409C64-16D6-47E4-B8AF-E1A6BB4DA476}" MaxAttenuation="900.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="276300502" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chains_electricity_lp.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chains_electricity_lp_256CDB0F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1027794346" Name="AudioEvent_K25_PWR_Chains_Electricity_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_Chains_Electricity_Stop" GUID="{22EA1AAB-EF4A-41AE-A378-9E1EF2F3763A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2549692153" Name="AudioEvent_K25_PWR_Chains_Struggle_Detach" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_Chains_Struggle_Detach" GUID="{83CA8F32-3FDC-43AC-8DFE-A9973A60D228}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.022098" DurationMax="1.334924">
 					<IncludedMemoryFiles>
 						<File Id="225188493" Language="SFX">
@@ -1272,31 +1325,31 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3030839448" Name="AudioEvent_K25_PWR_ChainStrike_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_PWR_ChainStrike\AudioEvent_K25_PWR_ChainStrike_Charge_Cancel" GUID="{6CE99AC1-FBF9-4875-B0F7-E5059DA980DD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3752910545" Name="AudioEvent_K25_PWR_ChainStrike_Impact_Surface" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_PWR_ChainStrike\AudioEvent_K25_PWR_ChainStrike_Impact_Surface" GUID="{615A03D1-087C-4866-8D1B-958316A38446}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.119252" DurationMax="1.377682">
+				<Event Id="3752910545" Name="AudioEvent_K25_PWR_ChainStrike_Impact_Surface" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_PWR_ChainStrike\AudioEvent_K25_PWR_ChainStrike_Impact_Surface" GUID="{615A03D1-087C-4866-8D1B-958316A38446}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.389465" DurationMax="0.681471">
 					<IncludedMemoryFiles>
-						<File Id="55733520" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_01_7FA8D501.wem</Path>
+						<File Id="28509344" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="97192163" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_05.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_05_7FA8D501.wem</Path>
+						<File Id="198189654" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="180200373" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_04.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_04_7FA8D501.wem</Path>
+						<File Id="495290394" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="192597202" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_02.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_02_7FA8D501.wem</Path>
+						<File Id="618409961" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="863722846" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_06.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_06_7FA8D501.wem</Path>
+						<File Id="690015190" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="967343382" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_03.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_03_7FA8D501.wem</Path>
+						<File Id="862470914" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_04_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1391,12 +1444,9 @@
 							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_damage_generator_01.wav</ShortName>
 							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_damage_generator_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="684866158" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_damage_generator_magic_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_damage_generator_magic_01_7FA8D501.wem</Path>
-						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="582489559" Name="AudioEvent_K25_PWR_Damage_Generator_Cancel" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Damage_Generator_Cancel" GUID="{FCBAF400-4C5C-4C50-AD4C-636A96F21A90}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2491450472" Name="AudioEvent_K25_PWR_Destroy_Pallet_BreakSweetener" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Destroy_Pallet_BreakSweetener" GUID="{74CC720A-186C-488C-8693-B3AD712B2882}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.421167" DurationMax="2.421167">
 					<IncludedMemoryFiles>
 						<File Id="198435612" Language="SFX">
@@ -1513,31 +1563,39 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1048421463" Name="AudioEvent_K25_PWR_Locker_Search_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Locker_Search_Impact" GUID="{3FAE8A20-171C-4A8E-8CF0-3B91A945FC17}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.119252" DurationMax="1.377682">
+				<Event Id="1257488184" Name="AudioEvent_K25_PWR_Interact_Vault" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Interact_Vault" GUID="{0EB8B967-4D1C-47D7-A791-5A0D06F3A676}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.529333" DurationMax="2.529333">
 					<IncludedMemoryFiles>
-						<File Id="55733520" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_01.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_01_7FA8D501.wem</Path>
+						<File Id="275190871" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_interact_vault.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_interact_vault_7FA8D501.wem</Path>
 						</File>
-						<File Id="97192163" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_05.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_05_7FA8D501.wem</Path>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1048421463" Name="AudioEvent_K25_PWR_Locker_Search_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Locker_Search_Impact" GUID="{3FAE8A20-171C-4A8E-8CF0-3B91A945FC17}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.416000" DurationMax="0.681471">
+					<IncludedMemoryFiles>
+						<File Id="28509344" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="180200373" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_04.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_04_7FA8D501.wem</Path>
+						<File Id="198189654" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="192597202" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_02.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_02_7FA8D501.wem</Path>
+						<File Id="495290394" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="863722846" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_06.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_06_7FA8D501.wem</Path>
+						<File Id="618409961" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="967343382" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_03.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_surface_03_7FA8D501.wem</Path>
+						<File Id="690015190" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="862470914" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_chainstrike_impact_04_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ExcludedMemoryFiles>
@@ -1574,6 +1632,18 @@
 							<Path>SFX\Impacts\IMP_SUR_Wood_Bounce_04_67368C31.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1901047746" Name="AudioEvent_K25_PWR_Menu_Interrupt" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_Menu_Interrupt" GUID="{94B15D83-8EFA-4E06-AE4D-E0A404BE822E}" DurationType="OneShot" DurationMin="5.759125" DurationMax="5.759125">
+					<IncludedMemoryFiles>
+						<File Id="239621589" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_menu_interrupt_chains_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_menu_interrupt_chains_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="868336131" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_PWR\sfx_k25_pwr_menu_interrupt_chains_electricity.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_menu_interrupt_chains_electricity_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3805858993" Name="AudioEvent_K25_PWR_Teleport_Abort" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_Teleport_Abort" GUID="{75DAFF89-8B2E-4AE6-81AF-00EC9F5EC962}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
@@ -1744,10 +1814,6 @@
 					<ShortName>Music\mu_terrorradius_k25_layer_01.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k25_layer_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="332544476" Language="SFX">
-					<ShortName>Music\mu_k25_box_02_piano.wav</ShortName>
-					<Path>SFX\Music\mu_k25_box_02_piano_256CDB0F.wem</Path>
-				</File>
 				<File Id="520361670" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k25_layer_03.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k25_layer_03_256CDB0F.wem</Path>
@@ -1756,33 +1822,22 @@
 					<ShortName>Music\mu_terrorradius_k25_layer_02.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k25_layer_02_256CDB0F.wem</Path>
 				</File>
-				<File Id="621403755" Language="SFX">
-					<ShortName>Music\mu_k25_box_02_melody.wav</ShortName>
-					<Path>SFX\Music\mu_k25_box_02_melody_256CDB0F.wem</Path>
-				</File>
-				<File Id="921689417" Language="SFX">
-					<ShortName>Music\mu_k25_box_01_Dark.wav</ShortName>
-					<Path>SFX\Music\mu_k25_box_01_Dark_256CDB0F.wem</Path>
-				</File>
-				<File Id="981748234" Language="SFX">
-					<ShortName>Music\mu_k25_box_02_detuned.wav</ShortName>
-					<Path>SFX\Music\mu_k25_box_02_detuned_256CDB0F.wem</Path>
-				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="1528154866" Name="AudioRTPC_K25_PWR_Gateway_Position" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K25_Gemini\AudioRTPC_K25_PWR_Gateway_Position" GUID="{CA5C3D7A-573E-44EF-9038-21D4C73617DD}"/>
 				<GameParameter Id="2444086592" Name="AudioRTPC_Proximity_Terror_Radius" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Proximity_Terror_Radius" GUID="{B90C8BF7-27D1-46A0-8417-5EA7C60184A3}"/>
 				<GameParameter Id="2935614212" Name="AudioRTPC_Chase_Survivor" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Chase_Survivor" GUID="{173C4D0D-11E9-4F47-871B-1284E8907774}"/>
 				<GameParameter Id="2969655195" Name="AudioRTPC_K25_OBJ_PuzzleBox_TriggerTime" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K25_Gemini\AudioRTPC_K25_OBJ_PuzzleBox_TriggerTime" GUID="{1989B3E0-7E01-48CB-B7CB-EB1D017E1847}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="2147660821" Name="AudioState_K25_PuzzleBox_SVR" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_SVR" GUID="{31186D83-CF86-4B42-B27C-57A7E1F42910}">
+				<StateGroup Id="1881190445" Name="AudioState_K25_PuzzleBox_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_Off" GUID="{B4002573-E2FF-4325-808D-71DA1A27B577}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2270341473" Name="AudioState_K25_PuzzleBox_On" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_On" GUID="{31186D83-CF86-4B42-B27C-57A7E1F42910}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2440315466" Name="AudioState_K25_Possessing_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing\AudioState_K25_Possessing_Off" GUID="{2D5E9850-CF38-4E07-8EFD-EE1B5F616CB1}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="4191233292" Name="AudioState_K25_PuzzleBox_NotSVR" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_NotSVR" GUID="{B4002573-E2FF-4325-808D-71DA1A27B577}">
 					<States/>
 				</StateGroup>
 			</StateGroups>
@@ -1812,6 +1867,12 @@
 						<Switch Id="3200746917" Name="Choked" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Choked" GUID="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}"/>
 						<Switch Id="3094692510" Name="Injured_Hiding" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Injured_Hiding" GUID="{54A0B897-2A42-4AE1-B0D5-CA909A8C5F16}"/>
 						<Switch Id="63215442" Name="Normal_Hiding" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Normal_Hiding" GUID="{21B70A73-E2F6-4A2B-B152-265C2483D367}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3197778033" Name="AudioSwitchSubKiller_K25" ObjectPath="\Switches\SWITCH_KILLER\K25\AudioSwitchSubKiller_K25" GUID="{4FBA1DCE-DF50-46C8-9A2F-66C38705CCA5}">
+					<Switches>
+						<Switch Id="1600780411" Name="K25_SubID_LeadCenobite" ObjectPath="\Switches\SWITCH_KILLER\K25\AudioSwitchSubKiller_K25\K25_SubID_LeadCenobite" GUID="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}"/>
+						<Switch Id="181992060" Name="K25_SubID_Chatterer" ObjectPath="\Switches\SWITCH_KILLER\K25\AudioSwitchSubKiller_K25\K25_SubID_Chatterer" GUID="{1DAEB736-BFC6-4D0F-A671-7D1A3F105E0D}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3548994684" Name="AudioSwitchProximity" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchProximity" GUID="{A238147F-8756-470E-AC66-0AFAF133FD8A}">

@@ -3977,6 +3977,114 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="2532897696" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Arm" GUID="{334C6A61-DC76-470D-BC61-A98D69793582}" MaxAttenuation="2300.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1224061630" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Attack" GUID="{D956DE1F-B4C1-45F7-A2DC-D9E37CD98E73}" MaxAttenuation="2300.000000" DurationType="OneShot" DurationMin="0.408383" DurationMax="0.513487">
+					<IncludedMemoryFiles>
+						<File Id="361215940" Language="SFX">
+							<ShortName>Characters\KLR_23\sfx_wpn_k23_default_attack_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\sfx_wpn_k23_default_attack_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="465358299" Language="SFX">
+							<ShortName>Characters\KLR_23\sfx_wpn_k23_default_attack_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\sfx_wpn_k23_default_attack_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="526291202" Language="SFX">
+							<ShortName>Characters\KLR_23\sfx_wpn_k23_default_attack_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\sfx_wpn_k23_default_attack_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="585523327" Language="SFX">
+							<ShortName>Characters\KLR_23\sfx_wpn_k23_default_attack_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\sfx_wpn_k23_default_attack_01_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="102230450" Name="AudioEvent_K23_GRUNT_WPN_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_23_Comet\K23_GRUNTS\AudioEvent_K23_GRUNT_WPN_Attack" GUID="{582A9071-31CC-416C-B222-FB1F303F09C2}"/>
+					</ActionPostEvent>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3790808969" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Clean" ObjectPath="\Events\CHARACTER\KILLER\KLR_23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Clean" GUID="{153A7C7E-5DC7-440D-800D-966489774967}" MaxAttenuation="2300.000000" DurationType="OneShot" DurationMin="2.694563" DurationMax="3.271523">
+					<IncludedMemoryFiles>
+						<File Id="39832178" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="401620728" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="413451392" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="864909454" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_04_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{41FB00D7-7F8A-4DBD-BBB6-B4734E5E6597}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}">
+							<Media>
+								<File Id="413451392"/>
+								<File Id="401620728"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C98A583A-7B78-4309-9B9F-76C976EC2919}">
+							<Media>
+								<File Id="39832178"/>
+								<File Id="864909454"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="805658764" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Impact" GUID="{B1AE0213-9F72-4824-A98B-AE23820C2865}" MaxAttenuation="2300.000000" DurationType="OneShot" DurationMin="0.432000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="116591306" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="351137730" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="534910261" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="847528691" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="939356900" Language="SFX">
+							<ShortName>Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_02_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media>
+								<File Id="116591306"/>
+								<File Id="939356900"/>
+								<File Id="534910261"/>
+								<File Id="351137730"/>
+								<File Id="847528691"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="2558859986" Name="AudioEvent_K23_WPN_Custom_Baton_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_Baton_Arm" GUID="{BF58FD39-86AD-47AF-940D-15FE1034F03F}" MaxAttenuation="2300.000000" DurationType="OneShot" DurationMin="0.454695" DurationMax="0.627202">
 					<IncludedMemoryFiles>
 						<File Id="331783158" Language="SFX">
