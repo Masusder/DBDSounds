@@ -1,17 +1,1401 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Gemini_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2199192626" GUID="{FAE768C6-D50B-412B-AB34-FD4430B9ED36}" Language="SFX">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_08</ObjectPath>
 			<ShortName>AMB_08</ShortName>
 			<Path>AMB_08.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2433193273" Name="AudioEvent_AM_Boreal_Arch" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_Arch" GUID="{EA6771A7-AEFA-43C5-A76C-C290B8ADD1B7}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="960464586" Name="AudioEvent_Rev_Int_08_Boreal_Default" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Default" GUID="{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}"/>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1650442345" Name="AudioStateIndoor_08_Boreal_Arch" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Arch" GUID="{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}"/>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="997586895" Name="AudioEvent_AM_Boreal_Forest_Rain" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_Forest_Rain" GUID="{15B083A9-B0F9-4AAC-A93C-184207DC8A06}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3546852042" Name="AudioEvent_AM_Boreal_MainHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_MainHouse" GUID="{EFDCAA13-0E57-4C65-BCE9-4C30D161BC26}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="47937973" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="153392835" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="245110275" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="438831835" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="639965886" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="696748296" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="765479017" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="789956059" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="882488603" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991496044" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1010468823" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1040845007" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+						<ActionPostEventEntry Id="1259973652" Name="AudioEvent_Rev_Int_08_Boreal_MainHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_MainHouse" GUID="{C8A00CB3-4665-4EEA-AA9F-FCC1CB017B00}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="567096506" Name="AudioStateIndoor_08_Boreal_MainHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_MainHouse" GUID="{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}"/>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1894818519" Name="AudioEvent_AM_Boreal_MainHouse_UnderRain" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_MainHouse_UnderRain" GUID="{90F996A1-649F-4412-8E49-776047EECE13}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="960464586" Name="AudioEvent_Rev_Int_08_Boreal_Default" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Default" GUID="{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}"/>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+						<ActionSetStateEntry Id="4206111882" Name="AudioStateOutdoor_08_Boreal_MainHouse_UnderRain" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_MainHouse_UnderRain" GUID="{0ED9656B-CDB0-4670-A3F0-049A691E5D20}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="318481600" Name="AudioEvent_AM_Boreal_SmokedHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_SmokedHouse" GUID="{566277A8-2592-48FA-882A-4DA4C628EAA5}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="47937973" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="153392835" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="245110275" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="438831835" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="639965886" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="696748296" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="765479017" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="789956059" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="882488603" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991496044" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1010468823" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_warehouse_creak_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_warehouse_creak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1040845007" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_mainhouse_creak_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_mainhouse_creak_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+						<ActionPostEventEntry Id="3881326034" Name="AudioEvent_Rev_Int_08_Boreal_SmokedHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_SmokedHouse" GUID="{3D3D289C-F8C9-4033-A861-A3AAA706F2EA}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2563879436" Name="AudioStateIndoor_08_Boreal_SmokeHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_SmokeHouse" GUID="{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}"/>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3907644203" Name="AudioEvent_AM_Boreal_Temple_MainRoom" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_Temple_MainRoom" GUID="{D3EBA9F9-C5C5-4696-8369-CFAD501A9127}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="279334501" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="437223631" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="723848118" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="792304373" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="489408612" Name="AudioEvent_Rev_Int_08_Boreal_Temple_Main" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Temple_Main" GUID="{ACB2DD57-98A1-4DA7-9D46-D2692F9FDD54}"/>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
+						<ActionSetStateEntry Id="4262432795" Name="AudioStateIndoor_08_Boreal_Temple_MainRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Temple_MainRoom" GUID="{BC34FC3B-73C3-405E-97FF-21AB27E776E2}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1605186856" Name="AudioEvent_AM_Boreal_Temple_Underground" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_Temple_Underground" GUID="{1F0EDB66-5B11-4623-8138-0B6ECF4AB5A5}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="3133699" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_33.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_33_2A15638C.wem</Path>
+						</File>
+						<File Id="45012630" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_14.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_14_2A15638C.wem</Path>
+						</File>
+						<File Id="144750191" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_13.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_13_2A15638C.wem</Path>
+						</File>
+						<File Id="188446696" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_23.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_23_2A15638C.wem</Path>
+						</File>
+						<File Id="209871842" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_34.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_34_2A15638C.wem</Path>
+						</File>
+						<File Id="250553507" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_01_2A15638C.wem</Path>
+						</File>
+						<File Id="258959281" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_08_2A15638C.wem</Path>
+						</File>
+						<File Id="278280265" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_20.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_20_2A15638C.wem</Path>
+						</File>
+						<File Id="279334501" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="297193585" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_19.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_19_2A15638C.wem</Path>
+						</File>
+						<File Id="305473491" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_09_2A15638C.wem</Path>
+						</File>
+						<File Id="388544053" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_26.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_26_2A15638C.wem</Path>
+						</File>
+						<File Id="403574033" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_22.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_22_2A15638C.wem</Path>
+						</File>
+						<File Id="426697659" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_32.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_32_2A15638C.wem</Path>
+						</File>
+						<File Id="437223631" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="457338211" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_11.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_11_2A15638C.wem</Path>
+						</File>
+						<File Id="476430560" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_31.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_31_2A15638C.wem</Path>
+						</File>
+						<File Id="486555046" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_17.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_17_2A15638C.wem</Path>
+						</File>
+						<File Id="502882110" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_28.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_28_2A15638C.wem</Path>
+						</File>
+						<File Id="548576763" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_24.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_24_2A15638C.wem</Path>
+						</File>
+						<File Id="567926495" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_21.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_21_2A15638C.wem</Path>
+						</File>
+						<File Id="632833986" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_29.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_29_2A15638C.wem</Path>
+						</File>
+						<File Id="669003117" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_18.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_18_2A15638C.wem</Path>
+						</File>
+						<File Id="700225953" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_15.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_15_2A15638C.wem</Path>
+						</File>
+						<File Id="723848118" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="728787131" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_10.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_10_2A15638C.wem</Path>
+						</File>
+						<File Id="792304373" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_drama_woosh_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_drama_woosh_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="860364050" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_27.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_27_2A15638C.wem</Path>
+						</File>
+						<File Id="877418510" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_12.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_12_2A15638C.wem</Path>
+						</File>
+						<File Id="893690460" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_04_2A15638C.wem</Path>
+						</File>
+						<File Id="921217687" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_16.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_16_2A15638C.wem</Path>
+						</File>
+						<File Id="949689621" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_25.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_25_2A15638C.wem</Path>
+						</File>
+						<File Id="963527334" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_06_2A15638C.wem</Path>
+						</File>
+						<File Id="976943867" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_30.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_30_2A15638C.wem</Path>
+						</File>
+						<File Id="1013342673" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_02_2A15638C.wem</Path>
+						</File>
+						<File Id="1028426590" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_waterdrops_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_waterdrops_07_2A15638C.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="95954190" Name="AudioEvent_Rev_Int_08_Boreal_Temple_Underground" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Temple_Underground" GUID="{ED51E322-F45E-4630-B43C-9E289F28D116}"/>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+						<ActionSetStateEntry Id="4058111832" Name="AudioStateIndoor_08_Boreal_Temple_Underground" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Temple_Underground" GUID="{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2305054249" Name="AudioEvent_AM_T08_Escape" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Escape" GUID="{DE81DE8F-AF21-4E9C-A0B0-C88A17E24CB4}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3399740635" Name="AudioEvent_AM_T08_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Fence_NoTree" GUID="{1FD582F6-E045-438F-A611-80B6D7EC9AE1}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="26153179" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="45521172" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_10.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="64158961" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="175432835" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="366260417" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="403304136" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="497599597" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="501164096" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="501189002" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="550987102" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="767804546" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="786198187" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="810684229" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="862711058" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="888443841" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="905010886" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026653124" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1055486656" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1064480479" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_09_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="182076669" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="245011168" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="651608340" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="837085540" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="924554964" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1536609998" Name="AudioEvent_AM_T08_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Fence_WithTree" GUID="{314DE655-CA54-4415-85EF-CDC1E7392461}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="45521172" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_10.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="175432835" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="501164096" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="501189002" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="550987102" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="767804546" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="862711058" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="888443841" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="905010886" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1064480479" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_09_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="182076669" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="245011168" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="651608340" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="837085540" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="924554964" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="654324518" Name="AudioEvent_AM_T08_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Forest_High" GUID="{98170ACB-D43C-499E-9403-7DD9B9414AD8}" DurationType="OneShot" DurationMin="0.000000" DurationMax="11.326944">
+					<ExcludedMemoryFiles>
+						<File Id="182076669" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="245011168" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="651608340" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="837085540" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="924554964" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="777055184" Name="AudioEvent_AM_T08_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Forest_Low" GUID="{9550D252-B4EF-4E3A-B710-2D55A08CD58C}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+					<ReferencedStreamedFiles>
+						<File Id="26153179" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="64158961" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="366260417" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="403304136" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="497599597" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="786198187" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="810684229" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026653124" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1055486656" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="182076669" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="245011168" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="651608340" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="837085540" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="924554964" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="72645444" Name="AudioEvent_AM_T08_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Forest_Med" GUID="{BBE128C1-BC16-4818-A44A-A6FA8FF2F392}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+					<ReferencedStreamedFiles>
+						<File Id="26153179" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="64158961" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="366260417" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="403304136" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="497599597" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="786198187" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="810684229" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026653124" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1055486656" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="182076669" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="245011168" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="651608340" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="837085540" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="924554964" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1855089470" Name="AudioStateOutdoor_08_Boreal_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Med" GUID="{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2617617228" Name="AudioEvent_AM_T08_Shack" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Shack" GUID="{5C7DFC8F-5E62-4ABF-AEBD-0A291C04A90B}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+						<ActionPostEventEntry Id="3691418881" Name="AudioEvent_Rev_Int_08_Boreal_Shack" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Shack" GUID="{24811208-00CA-44FE-BCF8-E609CE448125}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+						<ActionSetStateEntry Id="3829197823" Name="AudioStateIndoor_08_Boreal_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Shack" GUID="{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1120069921" Name="AudioEvent_AM_Theme_08_Boreal" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AudioEvent_AM_Theme_08_Boreal" GUID="{A8DE4632-55EC-4458-9265-E792FC8B1176}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="55919655" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_weather_rain_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_weather_rain_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="92026313" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_med_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_med_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="321868350" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_middle_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_middle_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="455378843" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_shack_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_shack_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="530998246" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="583176534" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_high_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_high_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="669406764" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_arch_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_arch_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="699831424" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_templeunderground_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_templeunderground_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="777860042" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_low_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_low_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="865475176" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_smokehouse_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_smokehouse_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="907609448" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_theme_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_theme_01_256CDB0F.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="18509155" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_drops_10.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_drops_10_256CDB0F.wem</Path>
+						</File>
+						<File Id="355007772" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_theentity_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="523351202" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_background_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_background_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{BEB4F446-FED3-4A3D-8777-9C6A108635C3}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}">
+							<Media>
+								<File Id="669406764"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}">
+							<Media>
+								<File Id="530998246"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}">
+							<Media>
+								<File Id="865475176"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}">
+							<Media>
+								<File Id="455378843"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F21BE3C3-7EDE-4FDE-A65A-B49232CBB182}">
+							<Media>
+								<File Id="355007772"/>
+								<File Id="18509155"/>
+								<File Id="523351202"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BC34FC3B-73C3-405E-97FF-21AB27E776E2}">
+							<Media>
+								<File Id="530998246"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}">
+							<Media>
+								<File Id="699831424"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{85E06043-91ED-40E8-9E52-A58FB7B03263}">
+							<Media>
+								<File Id="18509155"/>
+								<File Id="355007772"/>
+								<File Id="523351202"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}">
+							<Media>
+								<File Id="92026313"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F64E33F8-438C-4680-8D76-7805967EBB2D}">
+							<Media>
+								<File Id="583176534"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}">
+							<Media>
+								<File Id="777860042"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0ED9656B-CDB0-4670-A3F0-049A691E5D20}">
+							<Media>
+								<File Id="321868350"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="675045446" Name="AudioEvent_Emitter_Boreal_Temple" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_EMITTER\AudioEvent_Emitter_Boreal_Temple" GUID="{2E001302-0B96-4BEF-9316-C4E028C51B83}" MaxAttenuation="1700.000000" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="547885653" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_temple_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_temple_01_256CDB0F.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2005917161" Name="AudioEvent_Emitter_Boreal_Temple_Bats" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_EMITTER\AudioEvent_Emitter_Boreal_Temple_Bats" GUID="{7AF66BC5-D9AB-422F-9378-750BF21DAEA4}" MaxAttenuation="3400.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="48366720" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="166999312" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_07.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="238873240" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_04.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="278104986" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="312362536" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="585289122" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="586325847" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3926189888" Name="AudioEvent_Emitter_MainHouse_Center" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_EMITTER\AudioEvent_Emitter_MainHouse_Center" GUID="{137A9221-51B0-4386-9FE6-A7D62665148B}" MaxAttenuation="1700.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="217552004" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="393087638" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_04.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="913976741" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="952662036" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="990291990" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1045570813" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_mainhouse_center_candles_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_mainhouse_center_candles_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="960464586" Name="AudioEvent_Rev_Int_08_Boreal_Default" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Default" GUID="{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1259973652" Name="AudioEvent_Rev_Int_08_Boreal_MainHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_MainHouse" GUID="{C8A00CB3-4665-4EEA-AA9F-FCC1CB017B00}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1640055104" Name="AudioEvent_Rev_Int_08_Boreal_MainHouse_SmallRooms" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_MainHouse_SmallRooms" GUID="{B9816746-B217-4367-96E9-A05554F0217B}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3691418881" Name="AudioEvent_Rev_Int_08_Boreal_Shack" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Shack" GUID="{24811208-00CA-44FE-BCF8-E609CE448125}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3881326034" Name="AudioEvent_Rev_Int_08_Boreal_SmokedHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_SmokedHouse" GUID="{3D3D289C-F8C9-4033-A861-A3AAA706F2EA}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="489408612" Name="AudioEvent_Rev_Int_08_Boreal_Temple_Main" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Temple_Main" GUID="{ACB2DD57-98A1-4DA7-9D46-D2692F9FDD54}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="95954190" Name="AudioEvent_Rev_Int_08_Boreal_Temple_Underground" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Temple_Underground" GUID="{ED51E322-F45E-4630-B43C-9E289F28D116}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2167642864" Name="AudioEvent_T08_Emitter_RainDrops" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_EMITTER\AudioEvent_T08_Emitter_RainDrops" GUID="{8DFE25E2-B716-423E-9E7A-201CDAB86B93}" MaxAttenuation="850.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="29095912" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_raindrops_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_raindrops_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1097691772" Name="AudioEvent_T08_Emitter_RainRoof" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_EMITTER\AudioEvent_T08_Emitter_RainRoof" GUID="{15215268-29B0-4AD4-84C4-E5AD83B2108F}" MaxAttenuation="1700.000000" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="654097065" Language="SFX">
+							<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_rainroof_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_rainroof_01_256CDB0F.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="55919655" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_weather_rain_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_weather_rain_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="92026313" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_med_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_med_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="321868350" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_middle_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_middle_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="455378843" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_shack_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_shack_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="530998246" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_mainhouse_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="547885653" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_temple_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_temple_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="583176534" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_high_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_high_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="654097065" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_rainroof_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_rainroof_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="669406764" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_arch_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_arch_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="699831424" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_templeunderground_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_templeunderground_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="777860042" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_low_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_forest_low_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="865475176" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_smokehouse_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_smokehouse_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="907609448" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_theme_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_theme_01_256CDB0F.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="10273717" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_28.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_28_F03EBB80.wem</Path>
+				</File>
+				<File Id="18509155" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_drops_10.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_drops_10_256CDB0F.wem</Path>
+				</File>
+				<File Id="29095912" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_raindrops_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_raindrops_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="48366720" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="83666585" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_24.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_24_F03EBB80.wem</Path>
+				</File>
+				<File Id="96145261" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_09.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_09_F03EBB80.wem</Path>
+				</File>
+				<File Id="97346163" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_27.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_27_F03EBB80.wem</Path>
+				</File>
+				<File Id="166999312" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_07.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="167317587" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_17.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_17_F03EBB80.wem</Path>
+				</File>
+				<File Id="217552004" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="238873240" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_04.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="251467744" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_07.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_07_F03EBB80.wem</Path>
+				</File>
+				<File Id="278104986" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_05.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="312362536" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_06.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="355007772" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_theentity_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="357248029" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_20.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_20_F03EBB80.wem</Path>
+				</File>
+				<File Id="393079994" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_18.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_18_F03EBB80.wem</Path>
+				</File>
+				<File Id="393087638" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_04.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="430585400" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_16.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_16_F03EBB80.wem</Path>
+				</File>
+				<File Id="440339351" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_01_F03EBB80.wem</Path>
+				</File>
+				<File Id="488102736" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_04.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_04_F03EBB80.wem</Path>
+				</File>
+				<File Id="523351202" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_background_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_tile_killerbasement_background_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="549461114" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_08.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_08_F03EBB80.wem</Path>
+				</File>
+				<File Id="583302953" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_31.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_31_F03EBB80.wem</Path>
+				</File>
+				<File Id="585289122" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="586325847" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="653805097" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_33.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_33_F03EBB80.wem</Path>
+				</File>
+				<File Id="668273802" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_34.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_34_F03EBB80.wem</Path>
+				</File>
+				<File Id="715569387" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_32.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_32_F03EBB80.wem</Path>
+				</File>
+				<File Id="781650160" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_25.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_25_F03EBB80.wem</Path>
+				</File>
+				<File Id="794098648" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_19.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_19_F03EBB80.wem</Path>
+				</File>
+				<File Id="800344372" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_21.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_21_F03EBB80.wem</Path>
+				</File>
+				<File Id="809989972" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_13.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_13_F03EBB80.wem</Path>
+				</File>
+				<File Id="825937588" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_14.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_14_F03EBB80.wem</Path>
+				</File>
+				<File Id="841521940" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_23.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_23_F03EBB80.wem</Path>
+				</File>
+				<File Id="856371567" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_26.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_26_F03EBB80.wem</Path>
+				</File>
+				<File Id="858321974" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_02_F03EBB80.wem</Path>
+				</File>
+				<File Id="879680958" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_22.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_22_F03EBB80.wem</Path>
+				</File>
+				<File Id="913976741" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_05.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="920353347" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_15.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_15_F03EBB80.wem</Path>
+				</File>
+				<File Id="952662036" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="990215334" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_29.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_29_F03EBB80.wem</Path>
+				</File>
+				<File Id="990291990" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_lumberpile_creaks_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="995404666" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_06.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_06_F03EBB80.wem</Path>
+				</File>
+				<File Id="1023750866" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_11.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_11_F03EBB80.wem</Path>
+				</File>
+				<File Id="1023768388" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_12.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_12_F03EBB80.wem</Path>
+				</File>
+				<File Id="1032493603" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_30.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_30_F03EBB80.wem</Path>
+				</File>
+				<File Id="1045570813" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_mainhouse_center_candles_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_mainhouse_center_candles_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="1055837148" Language="SFX">
+					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_10.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_10_F03EBB80.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="567096506" Name="AudioStateIndoor_08_Boreal_MainHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_MainHouse" GUID="{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1152963390" Name="AudioStateIndoor_08_Boreal" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal" GUID="{9E0D4112-427B-4E58-BE75-078F52A1AC06}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\None" GUID="{A9481437-A25B-438E-847C-D8A4587E1D1F}"/>
+						<State Id="2580179395" Name="AudioStateIndoor_08_Boreal_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_KillerBasement" GUID="{F21BE3C3-7EDE-4FDE-A65A-B49232CBB182}"/>
+						<State Id="4081386148" Name="AudioStateIndoor_08_Boreal_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_KillerBasement_Stairs" GUID="{85E06043-91ED-40E8-9E52-A58FB7B03263}"/>
+						<State Id="3829197823" Name="AudioStateIndoor_08_Boreal_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Shack" GUID="{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}"/>
+						<State Id="2563879436" Name="AudioStateIndoor_08_Boreal_SmokeHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_SmokeHouse" GUID="{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}"/>
+						<State Id="567096506" Name="AudioStateIndoor_08_Boreal_MainHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_MainHouse" GUID="{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}"/>
+						<State Id="1650442345" Name="AudioStateIndoor_08_Boreal_Arch" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Arch" GUID="{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}"/>
+						<State Id="4262432795" Name="AudioStateIndoor_08_Boreal_Temple_MainRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Temple_MainRoom" GUID="{BC34FC3B-73C3-405E-97FF-21AB27E776E2}"/>
+						<State Id="4058111832" Name="AudioStateIndoor_08_Boreal_Temple_Underground" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Temple_Underground" GUID="{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1650442345" Name="AudioStateIndoor_08_Boreal_Arch" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Arch" GUID="{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1855089470" Name="AudioStateOutdoor_08_Boreal_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Med" GUID="{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2563879436" Name="AudioStateIndoor_08_Boreal_SmokeHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_SmokeHouse" GUID="{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3829197823" Name="AudioStateIndoor_08_Boreal_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Shack" GUID="{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4058111832" Name="AudioStateIndoor_08_Boreal_Temple_Underground" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Temple_Underground" GUID="{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4157533803" Name="AudioStateOutdoor_08_Boreal" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal" GUID="{413AAC8A-954F-4175-AA11-DB764E5D6911}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\None" GUID="{C0A47BCC-9AA4-483F-BFA3-97FE4E3FD124}"/>
+						<State Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}"/>
+						<State Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"/>
+						<State Id="1855089470" Name="AudioStateOutdoor_08_Boreal_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Med" GUID="{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}"/>
+						<State Id="4206111882" Name="AudioStateOutdoor_08_Boreal_MainHouse_UnderRain" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_MainHouse_UnderRain" GUID="{0ED9656B-CDB0-4670-A3F0-049A691E5D20}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4206111882" Name="AudioStateOutdoor_08_Boreal_MainHouse_UnderRain" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_MainHouse_UnderRain" GUID="{0ED9656B-CDB0-4670-A3F0-049A691E5D20}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4262432795" Name="AudioStateIndoor_08_Boreal_Temple_MainRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Temple_MainRoom" GUID="{BC34FC3B-73C3-405E-97FF-21AB27E776E2}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

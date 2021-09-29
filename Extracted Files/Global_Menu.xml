@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Gemini_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="4102295186" GUID="{FCABD589-ED18-4D19-9E42-32DDECDCEB46}" Language="SFX">
@@ -272,9 +272,15 @@
 						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\None" GUID="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}"/>
 						<ActionSetStateEntry Id="1686739432" Name="Store" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Store" GUID="{9F125987-0D5A-4E02-97C8-3600E646BE73}"/>
 						<ActionSetStateEntry Id="2298552922" Name="Offline" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Offline" GUID="{D957D890-75F0-4286-996C-282F6E6BAC95}"/>
+						<ActionSetStateEntry Id="3126000125" Name="Overlay_On" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_On" GUID="{639F628F-7DAD-4446-A735-8CF0AC2D4004}"/>
+						<ActionSetStateEntry Id="3140923371" Name="Mobile" ObjectPath="\States\STATES_MENU\AudioStateCoreMobile\Mobile" GUID="{3B2B2F65-6735-45B0-8977-19027F74534D}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1443864420" Name="AudioEvent_Gameflow_Store_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Quit" GUID="{0D0A2992-B362-4797-9BE5-8CBA09029BC0}" DurationType="OneShot" DurationMin="3.703272" DurationMax="4.250001"/>
+				<Event Id="1443864420" Name="AudioEvent_Gameflow_Store_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Quit" GUID="{0D0A2992-B362-4797-9BE5-8CBA09029BC0}" DurationType="OneShot" DurationMin="3.703272" DurationMax="4.250001">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1168080073" Name="Overlay_Off" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_Off" GUID="{641E0AD5-B1F1-478F-A2AE-AAA764A1D5D7}"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="3373423115" Name="AudioEvent_Gameflow_Tallyscreen_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Tallyscreen_Killer" GUID="{91A8CFF7-1122-4E16-9873-DBC61BEF4316}" DurationType="Infinite">
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
@@ -27118,6 +27124,12 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3102261578" Name="Gameplay_Survivor" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Survivor" GUID="{C98A583A-7B78-4309-9B9F-76C976EC2919}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3126000125" Name="Overlay_On" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_On" GUID="{639F628F-7DAD-4446-A735-8CF0AC2D4004}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3140923371" Name="Mobile" ObjectPath="\States\STATES_MENU\AudioStateCoreMobile\Mobile" GUID="{3B2B2F65-6735-45B0-8977-19027F74534D}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3157011750" Name="Overlay_Loadout" ObjectPath="\States\STATES_MENU\AudioStateOverlayMenu\Overlay_Loadout" GUID="{89EB6646-3DF8-4930-AE00-2D93EF30D5C0}">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Gemini_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1469631760" GUID="{49766964-F4CC-47C8-BC43-22399C56398F}" Language="SFX">
@@ -13,6 +13,91 @@
 			<ShortName>Totem</ShortName>
 			<Path>Totem.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3613542230" Name="AudioEvent_Boon_Totem_Blessing" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Blessing" GUID="{3302CC0B-169E-4CE7-B3FA-CEB164AC61F2}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.246202" DurationMax="0.341557">
+					<ExcludedMemoryFiles>
+						<File Id="138035216" Language="SFX">
+							<ShortName>Objects\Totem\sfx_totem_blessing_bones_02.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="320383093" Language="SFX">
+							<ShortName>Objects\Totem\sfx_totem_blessing_bones_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="495918172" Language="SFX">
+							<ShortName>Objects\Totem\sfx_totem_blessing_bones_04.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1032683431" Language="SFX">
+							<ShortName>Objects\Totem\sfx_totem_blessing_bones_03.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3472561113" Name="AudioEvent_Boon_Totem_Killer_Interaction" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Killer_Interaction" GUID="{E8B81FC8-6199-40A4-B301-B76BC6D4ACEB}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.582125" DurationMax="3.215824">
+					<ExcludedMemoryFiles>
+						<File Id="1009160616" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_killer_interaction_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_killer_interaction_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1019536252" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_killer_interaction_03.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_killer_interaction_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030606894" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_killer_interaction_02.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_killer_interaction_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3868163059" Name="AudioEvent_Boon_Totem_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Start" GUID="{1EB5F726-4A54-46CB-8176-43DBADE0CB51}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="42155389" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_activation_thunder_02.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_activation_thunder_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="216414482" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_drone_low_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_drone_low_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="252273919" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_drone_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_drone_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="270109860" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_activation_chimes_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_activation_chimes_01_B3EBCAF9.wem</Path>
+						</File>
+						<File Id="337477609" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_activation_chimes_02.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_activation_chimes_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="352806747" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_activation_thunder_03.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_activation_thunder_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="430913230" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_fire_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_fire_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="569104287" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_activation_chimes_03.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_activation_chimes_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="725477397" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_drone_02.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_drone_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="871123701" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_fire_02.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_fire_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="1071804908" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_activation_thunder_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_activation_thunder_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="4109611057" Name="AudioEvent_Boon_Totem_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Stop" GUID="{B07097A0-E74D-409D-833D-0443FF583BB0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="981871514" Name="AudioEvent_Totem_Destroy" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Totem_Destroy" GUID="{5AB5C405-1226-419C-8914-CC8BBAAB70EF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.891746" DurationMax="1.918730">
 					<ExcludedMemoryFiles>
 						<File Id="49562503" Language="SFX">
@@ -148,6 +233,10 @@
 					<ShortName>Objects\Totem\sfx_totem_sabotage_04.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_04_67368C31.wem</Path>
 				</File>
+				<File Id="42155389" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_activation_thunder_02.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_activation_thunder_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="49562503" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_03.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_break_03_67368C31.wem</Path>
@@ -168,6 +257,10 @@
 					<ShortName>Objects\Totem\sfx_totem_sabotage_03.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_03_67368C31.wem</Path>
 				</File>
+				<File Id="138035216" Language="SFX">
+					<ShortName>Objects\Totem\sfx_totem_blessing_bones_02.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="147577407" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_05.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_break_05_67368C31.wem</Path>
@@ -184,9 +277,17 @@
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_04.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_bones_04_67368C31.wem</Path>
 				</File>
+				<File Id="216414482" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_drone_low_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_drone_low_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="225606187" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_01.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_break_01_67368C31.wem</Path>
+				</File>
+				<File Id="252273919" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_drone_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_drone_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="264561577" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_fire_short_02.wav</ShortName>
@@ -196,21 +297,45 @@
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_07.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_bones_07_67368C31.wem</Path>
 				</File>
+				<File Id="270109860" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_activation_chimes_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_activation_chimes_01_B3EBCAF9.wem</Path>
+				</File>
+				<File Id="320383093" Language="SFX">
+					<ShortName>Objects\Totem\sfx_totem_blessing_bones_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="321408986" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_fire_short_01.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_fire_short_01_67368C31.wem</Path>
+				</File>
+				<File Id="337477609" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_activation_chimes_02.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_activation_chimes_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="339169744" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_04.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_break_04_67368C31.wem</Path>
 				</File>
+				<File Id="352806747" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_activation_thunder_03.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_activation_thunder_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="365849650" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_01.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_bones_01_67368C31.wem</Path>
 				</File>
+				<File Id="430913230" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_fire_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_fire_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="482349466" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_bones_03.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_bones_03_67368C31.wem</Path>
+				</File>
+				<File Id="495918172" Language="SFX">
+					<ShortName>Objects\Totem\sfx_totem_blessing_bones_04.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="499833203" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_bones_06.wav</ShortName>
@@ -228,6 +353,10 @@
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_02.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_bones_02_67368C31.wem</Path>
 				</File>
+				<File Id="569104287" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_activation_chimes_03.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_activation_chimes_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="596096101" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_02.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_break_02_67368C31.wem</Path>
@@ -240,6 +369,10 @@
 					<ShortName>Objects\Totem\sfx_totem_bones_01.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_bones_01_67368C31.wem</Path>
 				</File>
+				<File Id="725477397" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_drone_02.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_drone_02_256CDB0F.wem</Path>
+				</File>
 				<File Id="803362662" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_bones_02.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_bones_02_67368C31.wem</Path>
@@ -247,6 +380,10 @@
 				<File Id="811864212" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_fire_loop_01.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_fire_loop_01_0BC91DCF.wem</Path>
+				</File>
+				<File Id="871123701" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_fire_02.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_fire_02_256CDB0F.wem</Path>
 				</File>
 				<File Id="881911223" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_sabotage_01.wav</ShortName>
@@ -259,6 +396,26 @@
 				<File Id="977097267" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_sabotage_02.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_02_67368C31.wem</Path>
+				</File>
+				<File Id="1009160616" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_killer_interaction_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_killer_interaction_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="1019536252" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_killer_interaction_03.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_killer_interaction_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1030606894" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_killer_interaction_02.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_killer_interaction_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1032683431" Language="SFX">
+					<ShortName>Objects\Totem\sfx_totem_blessing_bones_03.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_totem_blessing_bones_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1071804908" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_activation_thunder_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_activation_thunder_01_7FA8D501.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>

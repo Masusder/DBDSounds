@@ -1,17 +1,668 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Gemini_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2199192638" GUID="{95254806-2C30-4167-BAD6-7FD004D1810B}" Language="SFX">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_04</ObjectPath>
 			<ShortName>AMB_04</ShortName>
 			<Path>AMB_04.bnk</Path>
+			<IncludedEvents>
+				<Event Id="599126131" Name="AudioEvent_AM_T04_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Asylum_GreenHouse" GUID="{43B577E1-12C3-47F6-ADE1-21FC6CDB4612}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="162082946" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" GUID="{8484269A-6CDA-4B70-9E30-2BE26D482502}"/>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}"/>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3125614155" Name="AudioEvent_AM_T04_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Asylum_Main" GUID="{773907FB-43FA-4F83-877D-72B049D2C826}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+						<ActionPostEventEntry Id="2439959066" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Main" GUID="{3E769E77-C475-4FF5-ACDA-D4B34EA820D3}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}"/>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1205573389" Name="AudioEvent_AM_T04_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Asylum_Top" GUID="{F1CE835E-B773-416E-AE31-73FA6DB925A5}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+						<ActionPostEventEntry Id="3265197610" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Top" GUID="{28F62CAD-DEB2-42C5-B27A-64A50F015E77}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}"/>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2699436330" Name="AudioEvent_AM_T04_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_CarnivalWagon" GUID="{15832881-A15F-43B0-BB78-9C26F05B0697}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+						<ActionPostEventEntry Id="2314917271" Name="AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" GUID="{D255543C-7F33-4DCD-8F66-0148322F546F}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="773994993" Name="AudioStateIndoor_04_Asylum_CarnivalWagon" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_CarnivalWagon" GUID="{EAACC13A-87D1-439B-BE9D-F682C259B786}"/>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2750826901" Name="AudioEvent_AM_T04_Chapel" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Chapel" GUID="{A5E0E250-A833-4418-82A3-399ADD5E004C}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="529366350" Name="AudioEvent_Rev_Int_04_Asylum_Chapel" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Chapel" GUID="{48585EB9-1452-4EB6-84A9-0C60D8F23874}"/>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1975983144" Name="AudioStateIndoor_04_Asylum_Chapel" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Chapel" GUID="{2F2880FB-48F6-47CD-AFFD-5E7AD331E68E}"/>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1501183549" Name="AudioEvent_AM_T04_Escape" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Escape" GUID="{FDDAA154-3C0E-4BF3-A656-5B60957EF1A6}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="3229683470" Name="AudioStateOutdoor_04_Asylum_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum\AudioStateOutdoor_04_Asylum_Forest_Low" GUID="{1942C84A-88DE-4F1E-A8EA-833F47BA6914}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1887227677" Name="AudioEvent_AM_T04_ExteriorMain" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_ExteriorMain" GUID="{F942AE57-0375-4999-A40D-1D9388F55B25}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+					<ReferencedStreamedFiles>
+						<File Id="26153179" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="64158961" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="366260417" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="403304136" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="497599597" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="786198187" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="810684229" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026653124" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1055486656" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="91379727" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wolves_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wolves_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="105272548" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wolves_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wolves_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="182076669" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="222820112" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wolves_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wolves_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="245011168" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="465726678" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wolves_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wolves_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="492255187" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wolves_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wolves_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="651608340" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="837085540" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="924554964" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1050229875" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wolves_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wolves_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="3229683470" Name="AudioStateOutdoor_04_Asylum_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum\AudioStateOutdoor_04_Asylum_Forest_Low" GUID="{1942C84A-88DE-4F1E-A8EA-833F47BA6914}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3215549847" Name="AudioEvent_AM_T04_Fence" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Fence" GUID="{5FA8B8D9-1822-43AB-AE45-8521D3AFB49C}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="26153179" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="45521172" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_10.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="64158961" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="175432835" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="366260417" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="403304136" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="497599597" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="501164096" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="501189002" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="550987102" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="767804546" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="786198187" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="810684229" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="862711058" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="888443841" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="905010886" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026653124" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_08.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1055486656" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_wind_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1064480479" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_limitpoint_voice_09.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_limitpoint_voice_09_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="182076669" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="245011168" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="651608340" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="837085540" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="924554964" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="3229683470" Name="AudioStateOutdoor_04_Asylum_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum\AudioStateOutdoor_04_Asylum_Forest_Low" GUID="{1942C84A-88DE-4F1E-A8EA-833F47BA6914}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3662027288" Name="AudioEvent_AM_T04_Shack" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Shack" GUID="{D6AADBA8-1EAE-489E-8A35-A4CC3EB76F18}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+					<ReferencedStreamedFiles>
+						<File Id="80768791" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="221962473" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="313169381" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
+						<ActionPostEventEntry Id="1442068973" Name="AudioEvent_Rev_Int_04_Asylum_Shack" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Shack" GUID="{51AC78F9-9F5B-464B-91A5-BF759872F2DC}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+						<ActionSetStateEntry Id="3200683547" Name="AudioStateIndoor_04_Asylum_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Shack" GUID="{AAE70F16-F248-4A22-8D07-27813AFB5BBD}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2846124933" Name="AudioEvent_AM_Theme_04_Asylum" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AudioEvent_AM_Theme_04_Asylum" GUID="{4F3D860A-4707-45A0-B7AD-E9A9882DEDA4}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="37729725" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_asylum_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_asylum_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="64015627" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_chapel_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_chapel_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="314520035" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_shack_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_shack_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="329680321" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_theme_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_theme_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="458317082" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_carnivalwagon_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_carnivalwagon_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="614413426" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_forest_low_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_forest_low_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="800829342" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_weather_wind_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_weather_wind_01_256CDB0F.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="526761950" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_background_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_background_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="746799551" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_drops_10.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_drops_10_256CDB0F.wem</Path>
+						</File>
+						<File Id="794107984" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_theentity_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{1942C84A-88DE-4F1E-A8EA-833F47BA6914}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{AAE70F16-F248-4A22-8D07-27813AFB5BBD}">
+							<Media>
+								<File Id="314520035"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{87E1453A-6EA8-49BC-B237-5F1F3DFF5E8E}">
+							<Media>
+								<File Id="794107984"/>
+								<File Id="746799551"/>
+								<File Id="526761950"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B8F15798-2ED4-4438-AEC8-50C7D6BD7688}">
+							<Media>
+								<File Id="37729725"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2F2880FB-48F6-47CD-AFFD-5E7AD331E68E}">
+							<Media>
+								<File Id="64015627"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EAACC13A-87D1-439B-BE9D-F682C259B786}">
+							<Media>
+								<File Id="458317082"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B3221D10-5AFD-49DD-A396-0C33E3A74AEB}">
+							<Media>
+								<File Id="526761950"/>
+								<File Id="746799551"/>
+								<File Id="794107984"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FBD2A447-94FA-44A4-A257-A797F3A6D4AB}">
+							<Media>
+								<File Id="614413426"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="245486570" Name="AudioEvent_Emitter_Asylum" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_EMITTER\AudioEvent_Emitter_Asylum" GUID="{31B9F94E-6C09-405F-B500-5A33C08BE052}" MaxAttenuation="1700.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="515903440" Language="SFX">
+							<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_emt_top_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_emt_top_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="162082946" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" GUID="{8484269A-6CDA-4B70-9E30-2BE26D482502}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2439959066" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Main" GUID="{3E769E77-C475-4FF5-ACDA-D4B34EA820D3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3265197610" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Top" GUID="{28F62CAD-DEB2-42C5-B27A-64A50F015E77}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2314917271" Name="AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" GUID="{D255543C-7F33-4DCD-8F66-0148322F546F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="529366350" Name="AudioEvent_Rev_Int_04_Asylum_Chapel" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Chapel" GUID="{48585EB9-1452-4EB6-84A9-0C60D8F23874}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1442068973" Name="AudioEvent_Rev_Int_04_Asylum_Shack" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Shack" GUID="{51AC78F9-9F5B-464B-91A5-BF759872F2DC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="37729725" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_asylum_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_asylum_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="64015627" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_chapel_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_chapel_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="314520035" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_shack_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_shack_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="329680321" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_theme_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_theme_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="458317082" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_carnivalwagon_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_carnivalwagon_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="614413426" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_forest_low_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_forest_low_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="800829342" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_weather_wind_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_weather_wind_01_256CDB0F.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="515903440" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_emt_top_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_emt_top_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="526761950" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_background_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_background_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="746799551" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_drops_10.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_drops_10_256CDB0F.wem</Path>
+				</File>
+				<File Id="794107984" Language="SFX">
+					<ShortName>Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_theentity_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T04_Asylum\am_t04_asylum_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="773994993" Name="AudioStateIndoor_04_Asylum_CarnivalWagon" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_CarnivalWagon" GUID="{EAACC13A-87D1-439B-BE9D-F682C259B786}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="861994823" Name="AudioStateOutdoor_04_Asylum" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum" GUID="{42A37CFE-DEB3-4B46-B21C-5ED5C82BE43C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum\None" GUID="{FBD2A447-94FA-44A4-A257-A797F3A6D4AB}"/>
+						<State Id="3229683470" Name="AudioStateOutdoor_04_Asylum_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum\AudioStateOutdoor_04_Asylum_Forest_Low" GUID="{1942C84A-88DE-4F1E-A8EA-833F47BA6914}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1975983144" Name="AudioStateIndoor_04_Asylum_Chapel" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Chapel" GUID="{2F2880FB-48F6-47CD-AFFD-5E7AD331E68E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2909946994" Name="AudioStateIndoor_04_Asylum" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum" GUID="{13A33E6B-5C8A-4411-89FA-C577396CE649}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\None" GUID="{B8F15798-2ED4-4438-AEC8-50C7D6BD7688}"/>
+						<State Id="4210551703" Name="AudioStateIndoor_04_Asylum_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_KillerBasement" GUID="{87E1453A-6EA8-49BC-B237-5F1F3DFF5E8E}"/>
+						<State Id="3628715840" Name="AudioStateIndoor_04_Asylum_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_KillerBasement_Stairs" GUID="{B3221D10-5AFD-49DD-A396-0C33E3A74AEB}"/>
+						<State Id="3200683547" Name="AudioStateIndoor_04_Asylum_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Shack" GUID="{AAE70F16-F248-4A22-8D07-27813AFB5BBD}"/>
+						<State Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}"/>
+						<State Id="1975983144" Name="AudioStateIndoor_04_Asylum_Chapel" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Chapel" GUID="{2F2880FB-48F6-47CD-AFFD-5E7AD331E68E}"/>
+						<State Id="773994993" Name="AudioStateIndoor_04_Asylum_CarnivalWagon" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_CarnivalWagon" GUID="{EAACC13A-87D1-439B-BE9D-F682C259B786}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3200683547" Name="AudioStateIndoor_04_Asylum_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Shack" GUID="{AAE70F16-F248-4A22-8D07-27813AFB5BBD}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3229683470" Name="AudioStateOutdoor_04_Asylum_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum\AudioStateOutdoor_04_Asylum_Forest_Low" GUID="{1942C84A-88DE-4F1E-A8EA-833F47BA6914}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

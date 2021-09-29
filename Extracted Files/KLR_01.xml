@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Gemini_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Gemini\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1491115648" GUID="{3096291F-1CFC-425E-88BE-39C80F3272D2}" Language="SFX">
@@ -13,6 +13,34 @@
 			<ShortName>KLR_01</ShortName>
 			<Path>KLR_01.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3814136492" Name="AudioEvemt_BearTrap_Grab_MaxCapacity" ObjectPath="\Events\CHARACTER\KILLER\KLR_01_Trapper\K01_OBJECT\AudioEvemt_BearTrap_Grab_MaxCapacity" GUID="{ADFF97E7-3695-49BC-8852-5495B30F37D7}" DurationType="OneShot" DurationMin="0.411363" DurationMax="0.565902">
+					<IncludedMemoryFiles>
+						<File Id="459357182" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_04.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="526227761" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_03.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="959756707" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_01.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="999970392" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_05.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1000771939" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_06.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="1064845903" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_02.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_grab_max_capacity_02_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1233600463" Name="AudioEvent_BearTrap_Activate" ObjectPath="\Events\CHARACTER\KILLER\KLR_01_Trapper\K01_OBJECT\AudioEvent_BearTrap_Activate" GUID="{9D13D690-0D33-44D4-B1CF-3CD26368F137}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.350884" DurationMax="0.615646">
 					<IncludedMemoryFiles>
 						<File Id="246209421" Language="SFX">
@@ -70,6 +98,25 @@
 						<File Id="801851191" Language="SFX">
 							<ShortName>Powers\PWR_01_BearTrap\BearTrap_dissarm_Snap_Bounce_1.wav</ShortName>
 							<Path>SFX\Powers\PWR_01_BearTrap\BearTrap_dissarm_Snap_Bounce_1_67368C31.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2049097321" Name="AudioEvent_BearTrap_Dissarm_PaddedJaws" ObjectPath="\Events\CHARACTER\KILLER\KLR_01_Trapper\K01_OBJECT\AudioEvent_BearTrap_Dissarm_PaddedJaws" GUID="{33D2F51A-2C2C-4CD4-B930-0126710B7A79}" DurationType="OneShot" DurationMin="0.960667" DurationMax="1.103333">
+					<IncludedMemoryFiles>
+						<File Id="228293526" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_02.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="623284955" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_03.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="643631875" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_01.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_01_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -209,6 +256,25 @@
 						<File Id="801851191" Language="SFX">
 							<ShortName>Powers\PWR_01_BearTrap\BearTrap_dissarm_Snap_Bounce_1.wav</ShortName>
 							<Path>SFX\Powers\PWR_01_BearTrap\BearTrap_dissarm_Snap_Bounce_1_67368C31.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2065101136" Name="AudioEvent_BearTrap_Snap_PaddedJaws" ObjectPath="\Events\CHARACTER\KILLER\KLR_01_Trapper\K01_OBJECT\AudioEvent_BearTrap_Snap_PaddedJaws" GUID="{7EB29175-33BB-4391-85F7-6B1B9386BEAB}" DurationType="OneShot" DurationMin="0.960667" DurationMax="1.103333">
+					<IncludedMemoryFiles>
+						<File Id="228293526" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_02.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="623284955" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_03.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="643631875" Language="SFX">
+							<ShortName>Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_01.wav</ShortName>
+							<Path>SFX\Powers\PWR_01_BearTrap\sfx_beartrap_snap_paddedjaws_01_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -397,6 +463,45 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1120392738" Name="AudioEvent_Killer_Trapper_Grunt_Satisfaction" ObjectPath="\Events\CHARACTER\KILLER\KLR_01_Trapper\K01_GRUNT\AudioEvent_Killer_Trapper_Grunt_Satisfaction" GUID="{FE02170F-A3AA-4D51-8BE1-C32A39038927}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.749223" DurationMax="1.217510">
+					<IncludedMemoryFiles>
+						<File Id="378590340" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_08.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="433778265" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="484814130" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="563950862" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="695635663" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="909274935" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="937659473" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_07.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="977843832" Language="SFX">
+							<ShortName>Characters\KLR_01\vo_killer_trapper_satisfaction_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_01\vo_killer_trapper_satisfaction_05_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="2329143553" Name="AudioEvent_KLR_01_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_01_Trapper\K01_STATUS\AudioEvent_KLR_01_Status_Start" GUID="{868C7669-7967-4B0D-BEDB-577FE2D698C2}" MaxAttenuation="1900.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="153728569" Language="SFX">
@@ -448,6 +553,7 @@
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
+				<GameParameter Id="2569989159" Name="AudioRTPC_Addons_BearTrap_Volume" ObjectPath="\Game Parameters\RTPC_ADDON\AudioRTPC_Addons_BearTrap_Volume" GUID="{79707758-F174-4F27-B156-4271701CAC59}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 			<SwitchGroups>
