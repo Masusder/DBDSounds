@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1457560511" GUID="{11006D46-13C9-40AE-AFCB-E208D6BCBC59}" Language="SFX">
@@ -14,7 +14,6 @@
 			<Path>KLR_24.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1513878627" Name="AudioEvent_K24_Eclipse_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_START\AudioEvent_K24_Eclipse_Status_Start" GUID="{BBAB54E1-9E48-4294-9520-9A7C43D0EB2E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="371650401" Name="AudioEvent_K24_Eclipse_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_START\AudioEvent_K24_Eclipse_Status_Stop" GUID="{DB56CD13-C8E4-49E0-8FE7-895BB3FCDDB2}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3880612791" Name="AudioEvent_K24_GRUNT_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_GRUNTS\AudioEvent_K24_GRUNT_Attack" GUID="{3EF20724-6107-421F-8965-E6177F43AF15}" MaxAttenuation="2200.000000" DurationType="OneShot" DurationMin="0.957333" DurationMax="1.642667">
 					<IncludedMemoryFiles>
 						<File Id="15116155" Language="SFX">
@@ -399,7 +398,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3549085397" Name="AudioEvent_K24_Mori_Body_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_SPECIFIC\AudioEvent_K24_Mori_Body_Impact" GUID="{255EA0CB-CE2D-4B6F-A872-6F977D00AB97}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="1.012063" DurationMax="1.012063">
+				<Event Id="3549085397" Name="AudioEvent_K24_Mori_Body_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_MORI\AudioEvent_K24_Mori_Body_Impact" GUID="{255EA0CB-CE2D-4B6F-A872-6F977D00AB97}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="1.012063" DurationMax="1.012063">
 					<IncludedMemoryFiles>
 						<File Id="718095692" Language="SFX">
 							<ShortName>Characters\KLR_24\K24_MORI\sfx_impact_body_heavy.wav</ShortName>
@@ -407,7 +406,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1339255027" Name="AudioEvent_K24_Mori_Head_Smash" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_SPECIFIC\AudioEvent_K24_Mori_Head_Smash" GUID="{57A2DFCC-198F-47B7-87BF-0FD5670CEAC2}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="3.201667" DurationMax="3.201667">
+				<Event Id="1339255027" Name="AudioEvent_K24_Mori_Head_Smash" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_MORI\AudioEvent_K24_Mori_Head_Smash" GUID="{57A2DFCC-198F-47B7-87BF-0FD5670CEAC2}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="3.201667" DurationMax="3.201667">
 					<IncludedMemoryFiles>
 						<File Id="981118801" Language="SFX">
 							<ShortName>Characters\KLR_24\K24_MORI\sfx_k24_mori_headsmash.wav</ShortName>
@@ -415,7 +414,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2056312065" Name="AudioEvent_K24_Mori_Whip_01_Grab" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_SPECIFIC\AudioEvent_K24_Mori_Whip_01_Grab" GUID="{7C5C55A8-B482-41E2-91C0-81B1619EF2F9}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="3.048750" DurationMax="3.048750">
+				<Event Id="2056312065" Name="AudioEvent_K24_Mori_Whip_01_Grab" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_MORI\AudioEvent_K24_Mori_Whip_01_Grab" GUID="{7C5C55A8-B482-41E2-91C0-81B1619EF2F9}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="3.048750" DurationMax="3.048750">
 					<IncludedMemoryFiles>
 						<File Id="657955619" Language="SFX">
 							<ShortName>Characters\KLR_24\K24_MORI\sfx_k24_mori_whip_01_stab_and_grab.wav</ShortName>
@@ -423,7 +422,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="123535565" Name="AudioEvent_K24_Mori_Whip_02_Lift" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_SPECIFIC\AudioEvent_K24_Mori_Whip_02_Lift" GUID="{4DE3F71B-A8A6-4DFA-9E0B-8DB0A2B592BA}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="2.307292" DurationMax="2.307292">
+				<Event Id="123535565" Name="AudioEvent_K24_Mori_Whip_02_Lift" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_MORI\AudioEvent_K24_Mori_Whip_02_Lift" GUID="{4DE3F71B-A8A6-4DFA-9E0B-8DB0A2B592BA}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="2.307292" DurationMax="2.307292">
 					<IncludedMemoryFiles>
 						<File Id="149380694" Language="SFX">
 							<ShortName>Characters\KLR_24\K24_MORI\sfx_k24_mori_whip_02_stab_and_lift.wav</ShortName>
@@ -431,7 +430,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3410921026" Name="AudioEvent_K24_Mori_Whip_ImpactLayer" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_SPECIFIC\AudioEvent_K24_Mori_Whip_ImpactLayer" GUID="{4919A2E5-72F6-4E54-A587-1D6A9AF9C23D}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="0.734062" DurationMax="0.734062">
+				<Event Id="3410921026" Name="AudioEvent_K24_Mori_Whip_ImpactLayer" ObjectPath="\Events\CHARACTER\KILLER\KLR_24_Eclipse\K24_MORI\AudioEvent_K24_Mori_Whip_ImpactLayer" GUID="{4919A2E5-72F6-4E54-A587-1D6A9AF9C23D}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="0.734062" DurationMax="0.734062">
 					<IncludedMemoryFiles>
 						<File Id="1047531940" Language="SFX">
 							<ShortName>Characters\KLR_24\K24_MORI\sfx_k24_mori_impactlayer.wav</ShortName>

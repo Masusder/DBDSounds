@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970221" GUID="{7F216364-F88A-4FA4-A8C2-293528A3EDA5}" Language="SFX">
@@ -40,9 +40,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1783830377" Name="AudioStateOutdoor_10_Finland_Escape" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateOutdoor_10_Finland\AudioStateOutdoor_10_Finland_Escape" GUID="{BF5AEB74-A257-4986-ADFC-F8534EC56BCF}"/>
@@ -69,7 +66,6 @@
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="861128798" Name="AudioEvent_Rev_Int_10_Finland_Floor_Down" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Down" GUID="{E8E208A7-0FAE-47D0-9165-532C793C73F5}"/>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -79,7 +75,6 @@
 				<Event Id="4216699601" Name="AudioEvent_AM_T10_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Floor_Top" GUID="{6A58FD8C-A578-481C-BED3-D690FD21A735}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="170402197" Name="AudioStateIndoor_10_Finland_Floor_Top" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Floor_Top" GUID="{D89A2DBD-13C4-48F8-A267-CB398B1FA368}"/>
@@ -114,7 +109,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="2123144747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Freezer" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Freezer" GUID="{30DFE240-72BD-4294-AD73-43F4C099DA62}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -151,7 +145,6 @@
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1593908747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Rack" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Rack" GUID="{C885BACC-A8D4-482C-B299-FC011E610AF0}"/>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="54959136" Name="AudioStateIndoor_10_Finland_Rack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Rack" GUID="{91E3D31A-5E51-4E90-B624-80208EA84577}"/>
@@ -187,7 +180,6 @@
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -308,16 +300,6 @@
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
-				</Event>
-				<Event Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="87593278" Name="AudioStateGunTail_Room" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Room" GUID="{E0BFC296-6E46-44A8-ACA5-0AD2474371F2}"/>
-					</ActionSetState>
 				</Event>
 				<Event Id="1829049560" Name="AudioEvent_Emitter_Freezer" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_EMITTER\AudioEvent_Emitter_Freezer" GUID="{6E5C37CF-2FF4-4E2E-B4EE-4935101E213C}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ReferencedStreamedFiles>
@@ -457,9 +439,6 @@
 				<StateGroup Id="54959136" Name="AudioStateIndoor_10_Finland_Rack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Rack" GUID="{91E3D31A-5E51-4E90-B624-80208EA84577}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="87593278" Name="AudioStateGunTail_Room" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Room" GUID="{E0BFC296-6E46-44A8-ACA5-0AD2474371F2}">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="170402197" Name="AudioStateIndoor_10_Finland_Floor_Top" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Floor_Top" GUID="{D89A2DBD-13C4-48F8-A267-CB398B1FA368}">
 					<States/>
 				</StateGroup>
@@ -473,9 +452,6 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3254717288" Name="AudioStateIndoor_10_Finland_Floor_Down" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Floor_Down" GUID="{0E1A8721-3A36-435C-A2F7-E1363281303C}">

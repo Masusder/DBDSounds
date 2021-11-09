@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970218" GUID="{0A4332AD-9D23-41E3-A0F3-21B0E042F5B2}" Language="SFX">
@@ -119,7 +119,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -159,7 +158,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -232,9 +230,6 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
@@ -253,7 +248,6 @@
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}"/>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -262,7 +256,6 @@
 				</Event>
 				<Event Id="3230490472" Name="AudioEvent_AM_T17_BreakRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_BreakRoom" GUID="{2CE65B9A-1B59-406C-A749-026A535F9DF5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -272,7 +265,6 @@
 				</Event>
 				<Event Id="3304398198" Name="AudioEvent_AM_T17_ChiefsOffice" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_ChiefsOffice" GUID="{47A7A558-BB20-489D-B20E-9106FAE6EE89}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -308,7 +300,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -344,7 +335,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -380,7 +370,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -416,7 +405,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -452,7 +440,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -488,7 +475,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -498,7 +484,6 @@
 				</Event>
 				<Event Id="2203898749" Name="AudioEvent_AM_T17_DarkRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_DarkRoom" GUID="{18BAE523-E0A6-45E7-9B9C-AFD7DE2D7471}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -590,7 +575,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -708,7 +692,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="2415084935" Name="AudioEvent_Rev_Int_17_Eclipse_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_TinyRooms" GUID="{96051F08-3A99-4C4E-BCDC-99B9F523AA78}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -785,9 +768,6 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
@@ -862,9 +842,6 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
@@ -939,9 +916,6 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
@@ -1057,7 +1031,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1097,7 +1070,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1133,7 +1105,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1211,7 +1182,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1293,7 +1263,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1383,7 +1352,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 						<ActionPostEventEntry Id="2552625369" Name="AudioEvent_Rev_Int_17_Eclipse_MainHall" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MainHall" GUID="{1095FC2B-DDF0-4D6D-BE8D-42DE455964B6}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1501,7 +1469,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1597,7 +1564,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1715,7 +1681,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1833,7 +1798,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1915,7 +1879,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2011,7 +1974,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2088,9 +2050,6 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1174546211" Name="AudioStateInOut_Top" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Top" GUID="{3B94DFE1-2DC3-4A3F-80AE-03CB1E9AB387}"/>
 						<ActionSetStateEntry Id="4208631474" Name="AudioStateOutdoor_17_Eclipse_Roof" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Roof" GUID="{3C3DA9E2-F0F2-490C-9904-7CF153F68CE0}"/>
@@ -2128,7 +2087,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2207,7 +2165,6 @@
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}"/>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -2298,7 +2255,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2390,7 +2346,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="2415084935" Name="AudioEvent_Rev_Int_17_Eclipse_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_TinyRooms" GUID="{96051F08-3A99-4C4E-BCDC-99B9F523AA78}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2508,7 +2463,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2548,7 +2502,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2640,7 +2593,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2758,7 +2710,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}"/>
 						<ActionPostEventEntry Id="2415084935" Name="AudioEvent_Rev_Int_17_Eclipse_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_TinyRooms" GUID="{96051F08-3A99-4C4E-BCDC-99B9F523AA78}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -2889,21 +2840,6 @@
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
-				</Event>
-				<Event Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1642021313" Name="AudioEvent_AudioStateGunTail_Room" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Room" GUID="{15D40CEB-06C9-4A9F-8200-2ED3309B1559}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="87593278" Name="AudioStateGunTail_Room" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Room" GUID="{E0BFC296-6E46-44A8-ACA5-0AD2474371F2}"/>
-					</ActionSetState>
 				</Event>
 				<Event Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -3584,9 +3520,6 @@
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>
-				<StateGroup Id="87593278" Name="AudioStateGunTail_Room" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Room" GUID="{E0BFC296-6E46-44A8-ACA5-0AD2474371F2}">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}">
 					<States/>
 				</StateGroup>
@@ -3606,9 +3539,6 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}">
@@ -3635,9 +3565,6 @@
 						<State Id="4208631474" Name="AudioStateOutdoor_17_Eclipse_Roof" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Roof" GUID="{3C3DA9E2-F0F2-490C-9904-7CF153F68CE0}"/>
 						<State Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
 					</States>
-				</StateGroup>
-				<StateGroup Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}">
-					<States/>
 				</StateGroup>
 				<StateGroup Id="4208631474" Name="AudioStateOutdoor_17_Eclipse_Roof" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Roof" GUID="{3C3DA9E2-F0F2-490C-9904-7CF153F68CE0}">
 					<States/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX">
@@ -13,34 +13,6 @@
 			<ShortName>Global_Splash</ShortName>
 			<Path>Global_Splash.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4237175098" Name="AudioEvent_AM_Theme_00_Intro" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AudioEvent_AM_Theme_00_Intro" GUID="{A125D025-1214-47C1-9CE7-4D1D2BC7F149}" DurationType="OneShot" DurationMin="1.000000" DurationMax="28.068001">
-					<ExcludedMemoryFiles>
-						<File Id="559831559" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_intro_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_intro_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="585902754" Language="SFX">
-							<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_intro_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_intro_01_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<DefaultSwitchValue>{EA798D88-B72C-4767-A21A-FFAFBD6B503A}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{37B25AEB-A931-47FC-8858-FC02C1D631DC}">
-							<Media>
-								<File Id="585902754"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{F813892C-3731-4409-9197-DA703CAF6EA5}">
-							<Media>
-								<File Id="559831559"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-					</AuxBusSends>
-				</Event>
 				<Event Id="351919323" Name="AudioEvent_Archives_Artefact_Loop_Interupt" ObjectPath="\Events\MENU\Archives\AudioEvent_Archives_Artefact_Loop_Interupt" GUID="{0CC3A512-6703-430D-80B3-91A1F8A2AEFD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1244463020" Name="AudioEvent_Archives_Artefact_Loop_Start" ObjectPath="\Events\MENU\Archives\AudioEvent_Archives_Artefact_Loop_Start" GUID="{3AE6DB5B-2808-40DB-AE91-209DD7D760AC}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -1768,9 +1740,6 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="4237175098" Name="AudioEvent_AM_Theme_00_Intro" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AudioEvent_AM_Theme_00_Intro" GUID="{A125D025-1214-47C1-9CE7-4D1D2BC7F149}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="984691642" Name="Ingame" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Ingame" GUID="{E224B8AC-328E-4861-8851-A700D7BB2EE9}"/>
 						<ActionSetStateEntry Id="2818768589" Name="Menu_Out" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_Out" GUID="{7ED5325E-421B-4C4F-85BD-F41A083531A1}"/>
@@ -1794,13 +1763,17 @@
 				</Event>
 				<Event Id="4070909553" Name="AudioEvent_Gameflow_Lobby_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Killer" GUID="{65157012-002B-44EB-8347-0C5B3397D0FB}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="305916662" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="508576594" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
+						<File Id="365931481" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -1810,27 +1783,99 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
+						<File Id="924986256" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="934404875" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="25353198" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="111840411" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="125113586" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="174146207" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="181456884" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="214695862" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="222620284" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="229672656" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_15.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="451080658" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_14.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_14_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="528187003" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="566286962" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="583440215" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="656649701" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="680243585" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="680664808" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="707703597" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="774475539" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
@@ -1839,6 +1884,22 @@
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="856511431" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="899465903" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="920468901" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="972329971" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -1854,11 +1915,6 @@
 						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 							<Media>
 								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
-							<Media>
-								<File Id="508576594"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -1890,6 +1946,48 @@
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="662236280"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="583440215"/>
+								<File Id="528187003"/>
+								<File Id="856511431"/>
+								<File Id="656649701"/>
+								<File Id="214695862"/>
+								<File Id="707703597"/>
+								<File Id="924986256"/>
+								<File Id="365931481"/>
+								<File Id="305916662"/>
+								<File Id="899465903"/>
+								<File Id="181456884"/>
+								<File Id="125113586"/>
+								<File Id="972329971"/>
+								<File Id="111840411"/>
+								<File Id="566286962"/>
+								<File Id="680664808"/>
+								<File Id="920468901"/>
+								<File Id="25353198"/>
+								<File Id="222620284"/>
+								<File Id="680243585"/>
+								<File Id="774475539"/>
+								<File Id="174146207"/>
+								<File Id="229672656"/>
+								<File Id="451080658"/>
+								<File Id="181456884"/>
+								<File Id="111840411"/>
+								<File Id="899465903"/>
+								<File Id="222620284"/>
+								<File Id="25353198"/>
+								<File Id="774475539"/>
+								<File Id="566286962"/>
+								<File Id="229672656"/>
+								<File Id="125113586"/>
+								<File Id="920468901"/>
+								<File Id="680243585"/>
+								<File Id="174146207"/>
+								<File Id="680664808"/>
+								<File Id="972329971"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1900,18 +1998,25 @@
 						<ActionSetStateEntry Id="2516092264" Name="Online" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Online" GUID="{AAFAD8E0-A103-4141-95DA-B5E768C0134B}"/>
 					</ActionSetState>
 					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2123304394" Name="AudioEvent_Gameflow_Lobby_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Survivor" GUID="{FF8124EA-5EF0-4DBB-9EFE-167BA12F9D37}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="305916662" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="508576594" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
+						<File Id="365931481" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -1921,27 +2026,99 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
+						<File Id="924986256" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="934404875" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="25353198" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="111840411" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="125113586" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="174146207" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="181456884" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="214695862" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="222620284" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="229672656" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_15.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="451080658" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_14.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_14_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="528187003" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="566286962" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="583440215" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="656649701" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="680243585" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="680664808" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="707703597" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="774475539" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
@@ -1950,6 +2127,22 @@
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="856511431" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="899465903" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="920468901" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="972329971" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -1965,11 +2158,6 @@
 						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 							<Media>
 								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
-							<Media>
-								<File Id="508576594"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -2001,6 +2189,48 @@
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="662236280"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="583440215"/>
+								<File Id="528187003"/>
+								<File Id="856511431"/>
+								<File Id="656649701"/>
+								<File Id="214695862"/>
+								<File Id="707703597"/>
+								<File Id="924986256"/>
+								<File Id="365931481"/>
+								<File Id="305916662"/>
+								<File Id="899465903"/>
+								<File Id="181456884"/>
+								<File Id="125113586"/>
+								<File Id="972329971"/>
+								<File Id="111840411"/>
+								<File Id="566286962"/>
+								<File Id="680664808"/>
+								<File Id="920468901"/>
+								<File Id="25353198"/>
+								<File Id="222620284"/>
+								<File Id="680243585"/>
+								<File Id="774475539"/>
+								<File Id="174146207"/>
+								<File Id="229672656"/>
+								<File Id="451080658"/>
+								<File Id="181456884"/>
+								<File Id="111840411"/>
+								<File Id="899465903"/>
+								<File Id="222620284"/>
+								<File Id="25353198"/>
+								<File Id="774475539"/>
+								<File Id="566286962"/>
+								<File Id="229672656"/>
+								<File Id="125113586"/>
+								<File Id="920468901"/>
+								<File Id="680243585"/>
+								<File Id="174146207"/>
+								<File Id="680664808"/>
+								<File Id="972329971"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2011,18 +2241,25 @@
 						<ActionSetStateEntry Id="3102261578" Name="Gameplay_Survivor" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Survivor" GUID="{C98A583A-7B78-4309-9B9F-76C976EC2919}"/>
 					</ActionSetState>
 					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="519196509" Name="AudioEvent_Gameflow_MainMenu_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Killer" GUID="{D222DB98-BEB5-46F5-A2CA-8C8B5FEE723E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="305916662" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="508576594" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
+						<File Id="365931481" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -2032,27 +2269,99 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
+						<File Id="924986256" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="934404875" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="25353198" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="111840411" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="125113586" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="174146207" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="181456884" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="214695862" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="222620284" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="229672656" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_15.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="451080658" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_14.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_14_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="528187003" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="566286962" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="583440215" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="656649701" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="680243585" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="680664808" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="707703597" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="774475539" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
@@ -2061,6 +2370,22 @@
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="856511431" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="899465903" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="920468901" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="972329971" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -2076,11 +2401,6 @@
 						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 							<Media>
 								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
-							<Media>
-								<File Id="508576594"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -2112,6 +2432,48 @@
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="662236280"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="583440215"/>
+								<File Id="528187003"/>
+								<File Id="856511431"/>
+								<File Id="656649701"/>
+								<File Id="214695862"/>
+								<File Id="707703597"/>
+								<File Id="924986256"/>
+								<File Id="365931481"/>
+								<File Id="305916662"/>
+								<File Id="899465903"/>
+								<File Id="181456884"/>
+								<File Id="125113586"/>
+								<File Id="972329971"/>
+								<File Id="111840411"/>
+								<File Id="566286962"/>
+								<File Id="680664808"/>
+								<File Id="920468901"/>
+								<File Id="25353198"/>
+								<File Id="222620284"/>
+								<File Id="680243585"/>
+								<File Id="774475539"/>
+								<File Id="174146207"/>
+								<File Id="229672656"/>
+								<File Id="451080658"/>
+								<File Id="181456884"/>
+								<File Id="111840411"/>
+								<File Id="899465903"/>
+								<File Id="222620284"/>
+								<File Id="25353198"/>
+								<File Id="774475539"/>
+								<File Id="566286962"/>
+								<File Id="229672656"/>
+								<File Id="125113586"/>
+								<File Id="920468901"/>
+								<File Id="680243585"/>
+								<File Id="174146207"/>
+								<File Id="680664808"/>
+								<File Id="972329971"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2124,7 +2486,10 @@
 						<ActionSetStateEntry Id="3039144286" Name="AudioStateWeather_Clear" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\AudioStateWeather_Clear" GUID="{392D48D3-A439-49FD-A660-02EECA04B588}"/>
 					</ActionSetState>
 					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1668204056" Name="AudioEvent_Gameflow_MainMenu_Music_Start" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Music_Start" GUID="{08E2799B-1DD6-45BE-8220-37DC8485AB5E}" DurationType="Infinite">
@@ -2254,6 +2619,12 @@
 							<Path>SFX\Music\mu_soundtrack_black_blood_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="1065731121" Language="SFX">
+							<ShortName>Music\mu_menu_lobby_k26.wav</ShortName>
+							<Path>SFX\Music\mu_menu_lobby_k26_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{35DBE558-84F8-4C5E-9503-F79125738D97}">
 							<Children>
@@ -2348,6 +2719,11 @@
 																<File Id="116221640"/>
 															</Media>
 														</SwitchContainer>
+														<SwitchContainer SwitchValue="{8423CC97-EF52-49D2-9967-B66686724E5A}">
+															<Media>
+																<File Id="1065731121"/>
+															</Media>
+														</SwitchContainer>
 													</Children>
 												</SwitchContainer>
 											</Children>
@@ -2407,7 +2783,7 @@
 									<Children>
 										<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 											<Media>
-												<File Id="718509398"/>
+												<File Id="1065731121"/>
 											</Media>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -2491,13 +2867,17 @@
 				</Event>
 				<Event Id="1066277998" Name="AudioEvent_Gameflow_MainMenu_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Survivor" GUID="{33F9A214-3C20-4C7E-81BB-78A4A0ECC478}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="305916662" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="508576594" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
+						<File Id="365931481" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -2507,27 +2887,99 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
+						<File Id="924986256" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="934404875" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="25353198" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="111840411" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="125113586" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="174146207" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="181456884" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="214695862" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="222620284" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="229672656" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_15.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="451080658" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_14.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_14_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="528187003" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="566286962" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="583440215" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="656649701" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="680243585" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="680664808" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="707703597" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="774475539" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
@@ -2536,6 +2988,22 @@
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="856511431" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="899465903" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="920468901" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="972329971" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -2551,11 +3019,6 @@
 						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 							<Media>
 								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
-							<Media>
-								<File Id="508576594"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -2589,6 +3052,48 @@
 								<File Id="662236280"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="583440215"/>
+								<File Id="528187003"/>
+								<File Id="856511431"/>
+								<File Id="656649701"/>
+								<File Id="214695862"/>
+								<File Id="707703597"/>
+								<File Id="924986256"/>
+								<File Id="365931481"/>
+								<File Id="305916662"/>
+								<File Id="899465903"/>
+								<File Id="181456884"/>
+								<File Id="125113586"/>
+								<File Id="972329971"/>
+								<File Id="111840411"/>
+								<File Id="566286962"/>
+								<File Id="680664808"/>
+								<File Id="920468901"/>
+								<File Id="25353198"/>
+								<File Id="222620284"/>
+								<File Id="680243585"/>
+								<File Id="774475539"/>
+								<File Id="174146207"/>
+								<File Id="229672656"/>
+								<File Id="451080658"/>
+								<File Id="181456884"/>
+								<File Id="111840411"/>
+								<File Id="899465903"/>
+								<File Id="222620284"/>
+								<File Id="25353198"/>
+								<File Id="774475539"/>
+								<File Id="566286962"/>
+								<File Id="229672656"/>
+								<File Id="125113586"/>
+								<File Id="920468901"/>
+								<File Id="680243585"/>
+								<File Id="174146207"/>
+								<File Id="680664808"/>
+								<File Id="972329971"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
@@ -2599,7 +3104,10 @@
 						<ActionSetStateEntry Id="3102261578" Name="Gameplay_Survivor" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Survivor" GUID="{C98A583A-7B78-4309-9B9F-76C976EC2919}"/>
 					</ActionSetState>
 					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1203115153" Name="AudioEvent_Gameflow_Offering" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Offering" GUID="{74A5F1E0-CE1C-429F-A153-D38850AD164E}" DurationType="Infinite">
@@ -2646,13 +3154,17 @@
 				<Event Id="3682356338" Name="AudioEvent_Gameflow_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Quit" GUID="{184CF421-E994-4CCF-BEB0-89D43C2BE5E8}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2980828507" Name="AudioEvent_Gameflow_RoleSelection" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_RoleSelection" GUID="{647CD970-7569-4B26-9F2A-844574E37358}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="305916662" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_lunar_01_0BC91DCF.wem</Path>
 						</File>
-						<File Id="508576594" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_winter_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_winter_01_0BC91DCF.wem</Path>
+						<File Id="365931481" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -2662,27 +3174,99 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
+						<File Id="924986256" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="934404875" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="25353198" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="111840411" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="125113586" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="174146207" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="181456884" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="214695862" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="222620284" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="229672656" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_15.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="451080658" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_14.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_14_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="528187003" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="566286962" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="583440215" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="656649701" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="680243585" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="680664808" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="707703597" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="774475539" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
@@ -2692,9 +3276,25 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
 						</File>
+						<File Id="856511431" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="899465903" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="920468901" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_08_7FA8D501.wem</Path>
+						</File>
 						<File Id="926751461" Language="SFX">
 							<ShortName>Menu\sfx_ui_mainmenu_open_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_mainmenu_open_02_67368C31.wem</Path>
+						</File>
+						<File Id="972329971" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -2710,11 +3310,6 @@
 						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 							<Media>
 								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
-							<Media>
-								<File Id="508576594"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -2748,6 +3343,48 @@
 								<File Id="662236280"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="583440215"/>
+								<File Id="528187003"/>
+								<File Id="856511431"/>
+								<File Id="656649701"/>
+								<File Id="214695862"/>
+								<File Id="707703597"/>
+								<File Id="924986256"/>
+								<File Id="365931481"/>
+								<File Id="305916662"/>
+								<File Id="899465903"/>
+								<File Id="181456884"/>
+								<File Id="125113586"/>
+								<File Id="972329971"/>
+								<File Id="111840411"/>
+								<File Id="566286962"/>
+								<File Id="680664808"/>
+								<File Id="920468901"/>
+								<File Id="25353198"/>
+								<File Id="222620284"/>
+								<File Id="680243585"/>
+								<File Id="774475539"/>
+								<File Id="174146207"/>
+								<File Id="229672656"/>
+								<File Id="451080658"/>
+								<File Id="181456884"/>
+								<File Id="111840411"/>
+								<File Id="899465903"/>
+								<File Id="222620284"/>
+								<File Id="25353198"/>
+								<File Id="774475539"/>
+								<File Id="566286962"/>
+								<File Id="229672656"/>
+								<File Id="125113586"/>
+								<File Id="920468901"/>
+								<File Id="680243585"/>
+								<File Id="174146207"/>
+								<File Id="680664808"/>
+								<File Id="972329971"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
@@ -2758,7 +3395,10 @@
 						<ActionSetStateEntry Id="3039144286" Name="AudioStateWeather_Clear" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\AudioStateWeather_Clear" GUID="{392D48D3-A439-49FD-A660-02EECA04B588}"/>
 					</ActionSetState>
 					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1370037918" Name="AudioEvent_Gameflow_Spectate" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Spectate" GUID="{3C0B2015-E1EC-4E37-B1D0-59F1FC388092}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
@@ -2952,6 +3592,14 @@
 				<Event Id="3877040936" Name="AudioEvent_Gameflow_SplashScreen_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_SplashScreen_Quit" GUID="{F11B7539-E157-4308-9C99-29227BA22954}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="836639789" Name="AudioEvent_Gameflow_Store_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Enter" GUID="{2926D414-2574-4B34-88DC-81970599A95E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="305916662" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="365931481" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="465288404" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_roleselection_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_roleselection_01_0BC91DCF.wem</Path>
@@ -2959,6 +3607,10 @@
 						<File Id="856565386" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_background_04_0BC91DCF.wem</Path>
+						</File>
+						<File Id="924986256" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="934404875" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
@@ -2983,6 +3635,21 @@
 							<Path>SFX\Menu\sfx_ui_transition_02_67368C31.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="924986256"/>
+								<File Id="365931481"/>
+								<File Id="305916662"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\None" GUID="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}"/>
@@ -2993,6 +3660,14 @@
 				</Event>
 				<Event Id="4068000952" Name="AudioEvent_Gameflow_Store_Mobile_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Mobile_Enter" GUID="{C1926FEC-FA09-4533-9AC4-337678A2C831}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="305916662" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="365931481" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="465288404" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_roleselection_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_roleselection_01_0BC91DCF.wem</Path>
@@ -3000,6 +3675,10 @@
 						<File Id="856565386" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_background_04_0BC91DCF.wem</Path>
+						</File>
+						<File Id="924986256" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="934404875" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
@@ -3024,6 +3703,21 @@
 							<Path>SFX\Menu\sfx_ui_transition_02_67368C31.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="924986256"/>
+								<File Id="365931481"/>
+								<File Id="305916662"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\None" GUID="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}"/>
@@ -7630,7 +8324,7 @@
 							<ShortName>Music\mu_stinger_special_anniversary_popup_01.wav</ShortName>
 							<Path>SFX\Music\mu_stinger_special_anniversary_popup_01_256CDB0F.wem</Path>
 						</File>
-						<File Id="870245861" Language="SFX">
+						<File Id="847877030" Language="SFX">
 							<ShortName>Stingers\sfx_halloween_popup_stinger_04.wav</ShortName>
 							<Path>SFX\Stingers\sfx_halloween_popup_stinger_04_256CDB0F.wem</Path>
 						</File>
@@ -7649,7 +8343,7 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
-								<File Id="870245861"/>
+								<File Id="847877030"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -7974,6 +8668,10 @@
 					<ShortName>Menu\sfx_archives_node_quest_activate_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_node_quest_activate_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="25353198" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
+				</File>
 				<File Id="38408397" Language="SFX">
 					<ShortName>Menu\sfx_ui_store_reward_appear_creak_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_store_reward_appear_creak_02_7FA8D501.wem</Path>
@@ -8034,6 +8732,10 @@
 					<ShortName>Menu\sfx_ui_select_release_bones_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_select_release_bones_01_67368C31.wem</Path>
 				</File>
+				<File Id="111840411" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_05.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="112411854" Language="SFX">
 					<ShortName>Menu\BloodWeb_Generation_Bounce_03.wav</ShortName>
 					<Path>SFX\Menu\BloodWeb_Generation_Bounce_03_67368C31.wem</Path>
@@ -8057,6 +8759,10 @@
 				<File Id="123369937" Language="SFX">
 					<ShortName>Menu\sfx_ui_bloodweb_player_node_shrink_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_bloodweb_player_node_shrink_01_67368C31.wem</Path>
+				</File>
+				<File Id="125113586" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="128907191" Language="SFX">
 					<ShortName>Menu\sfx_ui_bloodweb_unlock_yes_01.wav</ShortName>
@@ -8110,6 +8816,10 @@
 					<ShortName>Objects\Blood\Blood_UI_Action_Bounce_03.wav</ShortName>
 					<Path>SFX\Objects\Blood\Blood_UI_Action_Bounce_03_67368C31.wem</Path>
 				</File>
+				<File Id="174146207" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_13_7FA8D501.wem</Path>
+				</File>
 				<File Id="174689389" Language="SFX">
 					<ShortName>Menu\sfx_ui_bloodweb_player_node_highlight_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_bloodweb_player_node_highlight_01_67368C31.wem</Path>
@@ -8134,6 +8844,10 @@
 					<ShortName>Menu\sfx_ui_reward_level_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_reward_level_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="181456884" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_02.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="182927405" Language="SFX">
 					<ShortName>Menu\sfx_ui_overlay_open_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_overlay_open_01_67368C31.wem</Path>
@@ -8150,13 +8864,25 @@
 					<ShortName>Menu\sfx_ui_bloodweb_unlock_no_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_bloodweb_unlock_no_01_67368C31.wem</Path>
 				</File>
+				<File Id="214695862" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_05.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="218396526" Language="SFX">
 					<ShortName>Menu\BloodWeb_Player_Node_Captured_Bounce_02.wav</ShortName>
 					<Path>SFX\Menu\BloodWeb_Player_Node_Captured_Bounce_02_67368C31.wem</Path>
 				</File>
+				<File Id="222620284" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_10.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_10_7FA8D501.wem</Path>
+				</File>
 				<File Id="226258602" Language="SFX">
 					<ShortName>Menu\BloodWeb_Generation_Bounce_01.wav</ShortName>
 					<Path>SFX\Menu\BloodWeb_Generation_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="229672656" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_15.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_15_7FA8D501.wem</Path>
 				</File>
 				<File Id="229901182" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_09.wav</ShortName>
@@ -8366,6 +9092,10 @@
 					<ShortName>Ambience\Menus\sfx_thunder_low_12.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_thunder_low_12_7FA8D501.wem</Path>
 				</File>
+				<File Id="451080658" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_14.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_14_7FA8D501.wem</Path>
+				</File>
 				<File Id="456189160" Language="SFX">
 					<ShortName>Menu\sfx_ui_offering_horror_03.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_offering_horror_03_67368C31.wem</Path>
@@ -8430,6 +9160,10 @@
 					<ShortName>Menu\sfx_ui_inbox_delete_all_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_inbox_delete_all_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="528187003" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_02.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="530039288" Language="SFX">
 					<ShortName>Menu\sfx_ui_ready_other_rip_05.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_ready_other_rip_05_67368C31.wem</Path>
@@ -8462,6 +9196,10 @@
 					<ShortName>Menu\sfx_ui_offering_horror_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_offering_horror_01_67368C31.wem</Path>
 				</File>
+				<File Id="566286962" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_06.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="572870115" Language="SFX">
 					<ShortName>Menu\sfx_archives_node_reward_claimed_03.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_node_reward_claimed_03_7FA8D501.wem</Path>
@@ -8477,6 +9215,10 @@
 				<File Id="582111387" Language="SFX">
 					<ShortName>Menu\sfx_ui_control_customization_popup_open_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_control_customization_popup_open_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="583440215" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_01.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="589511514" Language="SFX">
 					<ShortName>Menu\sfx_archives_node_quest_activate_03.wav</ShortName>
@@ -8542,13 +9284,25 @@
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_17.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_17_67368C31.wem</Path>
 				</File>
+				<File Id="656649701" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_04.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="674007602" Language="SFX">
 					<ShortName>Menu\sfx_ui_highlight_tab_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_highlight_tab_01_67368C31.wem</Path>
 				</File>
+				<File Id="680243585" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_11.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_11_7FA8D501.wem</Path>
+				</File>
 				<File Id="680404367" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_21.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_21_67368C31.wem</Path>
+				</File>
+				<File Id="680664808" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_07.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="684282543" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_02.wav</ShortName>
@@ -8577,6 +9331,10 @@
 				<File Id="692001744" Language="SFX">
 					<ShortName>Menu\sfx_ui_tallyscreen_emblem_rock_slide_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_tallyscreen_emblem_rock_slide_01_67368C31.wem</Path>
+				</File>
+				<File Id="707703597" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_06.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="710691922" Language="SFX">
 					<ShortName>Menu\sfx_ui_transition_01.wav</ShortName>
@@ -8650,6 +9408,10 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_03.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_03_67368C31.wem</Path>
 				</File>
+				<File Id="774475539" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
+				</File>
 				<File Id="779351461" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_10.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_10_67368C31.wem</Path>
@@ -8714,6 +9476,10 @@
 					<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 					<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="856511431" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_windysand_03.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_windysand_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="863957764" Language="SFX">
 					<ShortName>Menu\sfx_ui_ready_all_gong_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_ready_all_gong_01_67368C31.wem</Path>
@@ -8742,6 +9508,10 @@
 					<ShortName>Menu\sfx_ui_dropdown_release_swoosh_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_dropdown_release_swoosh_01_702BF4AE.wem</Path>
 				</File>
+				<File Id="899465903" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_01.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="899728729" Language="SFX">
 					<ShortName>Menu\sfx_ui_bloodweb_entity_appears_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_bloodweb_entity_appears_01_67368C31.wem</Path>
@@ -8766,6 +9536,10 @@
 					<ShortName>Menu\sfx_ui_ready_other_rip_03.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_ready_other_rip_03_67368C31.wem</Path>
 				</File>
+				<File Id="920468901" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_08.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="926751461" Language="SFX">
 					<ShortName>Menu\sfx_ui_mainmenu_open_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_mainmenu_open_02_67368C31.wem</Path>
@@ -8785,6 +9559,10 @@
 				<File Id="965935259" Language="SFX">
 					<ShortName>Objects\Blood\Blood_UI_Action_Bounce_09.wav</ShortName>
 					<Path>SFX\Objects\Blood\Blood_UI_Action_Bounce_09_67368C31.wem</Path>
+				</File>
+				<File Id="972329971" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="972846039" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_13.wav</ShortName>
@@ -8857,6 +9635,10 @@
 				<File Id="1060327361" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_22.wav</ShortName>
 					<Path>SFX\Objects\TheEntity\sfx_theentity_ui_scream_22_67368C31.wem</Path>
+				</File>
+				<File Id="1065731121" Language="SFX">
+					<ShortName>Music\mu_menu_lobby_k26.wav</ShortName>
+					<Path>SFX\Music\mu_menu_lobby_k26_256CDB0F.wem</Path>
 				</File>
 				<File Id="1072811688" Language="SFX">
 					<ShortName>Objects\TheEntity\sfx_theentity_ui_scream_11.wav</ShortName>
@@ -8967,6 +9749,7 @@
 						<State Id="2295688134" Name="K23_ID_Comet" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K23_ID_Comet" GUID="{BED8ED22-D372-4B95-B9DB-BB072144375E}"/>
 						<State Id="3192246540" Name="K24_ID_Eclipse" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K24_ID_Eclipse" GUID="{BFE764B3-1EFB-4DEA-8215-708BBABA3D57}"/>
 						<State Id="941516329" Name="K25_ID_Gemini" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K25_ID_Gemini" GUID="{407838BD-2CB6-4F58-A07A-7F63E9EAEF93}"/>
+						<State Id="1992808187" Name="K26_ID_Ion" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K26_ID_Ion" GUID="{8423CC97-EF52-49D2-9967-B66686724E5A}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="1168080073" Name="Overlay_Off" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_Off" GUID="{641E0AD5-B1F1-478F-A2AE-AAA764A1D5D7}">
@@ -9056,29 +9839,6 @@
 				</StateGroup>
 				<StateGroup Id="3360093794" Name="Onboarding" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Onboarding" GUID="{395BB5DA-9A18-487E-9EE7-7C1C78688BC9}">
 					<States/>
-				</StateGroup>
-				<StateGroup Id="3492861450" Name="AudioStateThemes" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes" GUID="{5CB61AF2-9269-4FBF-BCAE-F25AD941BCDB}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\None" GUID="{27429593-22AA-4E81-93FB-1C6CCBFB3223}"/>
-						<State Id="2830663333" Name="AudioStateThemes_03_Farm" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_03_Farm" GUID="{A82F56DE-9712-44CC-8190-B8290252799B}"/>
-						<State Id="255580390" Name="AudioStateThemes_01_Industrial" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_01_Industrial" GUID="{0A926206-9FB6-43E1-AA84-94F80281FB1B}"/>
-						<State Id="1239846808" Name="AudioStateThemes_02_Junkyard" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_02_Junkyard" GUID="{3932618D-8763-4DC2-A318-4FE18065450F}"/>
-						<State Id="4006101314" Name="AudioStateThemes_06_Swamp" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_06_Swamp" GUID="{1A4DD1FD-6E73-4FBA-9A5C-278301D2FEBE}"/>
-						<State Id="1806341669" Name="AudioStateThemes_04_Asylum" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_04_Asylum" GUID="{CE5D3D0D-771A-4072-B541-61068B429EDA}"/>
-						<State Id="257365259" Name="AudioStateThemes_05_Suburbs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_05_Suburbs" GUID="{37B25AEB-A931-47FC-8858-FC02C1D631DC}"/>
-						<State Id="3262389519" Name="AudioStateThemes_07_Hospital" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_07_Hospital" GUID="{7063776F-01C8-4CD4-922A-C16CFDCB907E}"/>
-						<State Id="3608045121" Name="AudioStateThemes_08_Boreal" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_08_Boreal" GUID="{A5A756F2-7272-4E7C-A978-094E39F531EF}"/>
-						<State Id="1829111622" Name="AudioStateThemes_09_England" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_09_England" GUID="{CAFDAE11-4F7F-413A-8C58-CB3896825E6E}"/>
-						<State Id="3073906983" Name="AudioStateThemes_10_Finland" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_10_Finland" GUID="{051D2A9A-9AF2-412F-95FA-7672592BFD00}"/>
-						<State Id="2611700875" Name="AudioStateThemes_11_GYM" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_11_GYM" GUID="{2D6DC68C-2AF4-4671-B184-2CB8C6B24669}"/>
-						<State Id="3383330402" Name="AudioStateThemes_12_Haiti" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_12_Haiti" GUID="{547B6469-4E25-47F5-B63B-199B8AD5DECF}"/>
-						<State Id="3673141740" Name="AudioStateThemes_13_Kenya" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_13_Kenya" GUID="{22C1E129-0A27-4666-94B0-3F6348E4C803}"/>
-						<State Id="4278211756" Name="AudioStateThemes_14_Qatar" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_14_Qatar" GUID="{3942AEA7-A8D8-4545-8902-10A672C4A8E4}"/>
-						<State Id="2646026029" Name="AudioStateThemes_15_Ukraine" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_15_Ukraine" GUID="{3B210522-597C-401C-A50E-0600B514CDB6}"/>
-						<State Id="420118191" Name="AudioStateThemes_00_COMMON" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_00_COMMON" GUID="{EA798D88-B72C-4767-A21A-FFAFBD6B503A}"/>
-						<State Id="78137681" Name="AudioStateThemes_16_Wales" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_16_Wales" GUID="{F813892C-3731-4409-9197-DA703CAF6EA5}"/>
-						<State Id="1346211975" Name="AudioStateThemes_17_Eclipse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateThemes\AudioStateThemes_17_Eclipse" GUID="{B1A0400C-13F1-4CE2-864F-CF99EC8CC540}"/>
-					</States>
 				</StateGroup>
 				<StateGroup Id="3573931707" Name="Loading" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Loading" GUID="{2F0EF53B-1E30-4BDE-8874-42A4066A9998}">
 					<States/>

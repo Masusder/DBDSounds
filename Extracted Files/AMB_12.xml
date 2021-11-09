@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970223" GUID="{1D67B735-E010-472F-8C3D-8A3F61B2DCD0}" Language="SFX">
@@ -98,9 +98,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_tomb_hiss_10_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="937682429" Name="AudioStateOutdoor_12_Haiti_BigShrine_Down" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_BigShrine_Down" GUID="{48F623F3-2181-4DC2-87AF-A770C0AA141B}"/>
@@ -215,7 +212,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
 						<ActionPostEventEntry Id="3677471887" Name="AudioEvent_Rev_Int_12_Haiti_BigShrine_Top" ObjectPath="\Events\AMBIENCE\AMB_T12_Haiti\AMB_T12_TILE\AM_Reverb_12_Haiti\AudioEvent_Rev_Int_12_Haiti_BigShrine_Top" GUID="{0D1E54C0-29AB-4128-B461-C81779773E6A}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -295,7 +291,6 @@
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="232416842" Name="AudioEvent_Rev_Int_12_Haiti_HouseCorridor" ObjectPath="\Events\AMBIENCE\AMB_T12_Haiti\AMB_T12_TILE\AM_Reverb_12_Haiti\AudioEvent_Rev_Int_12_Haiti_HouseCorridor" GUID="{EAA2049E-8B1A-495D-B68B-1E2BF0C5F4A8}"/>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1922333402" Name="AudioStateIndoor_12_Haiti_House" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateIndoor_12_Haiti\AudioStateIndoor_12_Haiti_House" GUID="{9722460D-8D8F-4DDD-AC58-3B1A22B3F1D1}"/>
@@ -372,7 +367,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 						<ActionPostEventEntry Id="1860883197" Name="AudioEvent_Rev_Int_12_Haiti_HouseRoom" ObjectPath="\Events\AMBIENCE\AMB_T12_Haiti\AMB_T12_TILE\AM_Reverb_12_Haiti\AudioEvent_Rev_Int_12_Haiti_HouseRoom" GUID="{77373574-AD2E-459B-864C-53076814C254}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -430,7 +424,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 						<ActionPostEventEntry Id="2127529158" Name="AudioEvent_Rev_Int_12_Haiti_Mid" ObjectPath="\Events\AMBIENCE\AMB_T12_Haiti\AMB_T12_TILE\AM_Reverb_12_Haiti\AudioEvent_Rev_Int_12_Haiti_Mid" GUID="{F7BCCBD1-92A0-474F-84AB-1BCE19C9088A}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -499,9 +492,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="2206037757" Name="AudioStateOutdoor_12_Haiti_Out" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Out" GUID="{33FB65E2-008F-4EEF-929A-73558553FF0F}"/>
@@ -539,7 +529,6 @@
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="121254381" Name="AudioEvent_Rev_Int_12_Haiti_Shrine" ObjectPath="\Events\AMBIENCE\AMB_T12_Haiti\AMB_T12_TILE\AM_Reverb_12_Haiti\AudioEvent_Rev_Int_12_Haiti_Shrine" GUID="{291280EF-1FBF-44F7-A842-EE0FA07AD3EF}"/>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1922333402" Name="AudioStateIndoor_12_Haiti_House" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateIndoor_12_Haiti\AudioStateIndoor_12_Haiti_House" GUID="{9722460D-8D8F-4DDD-AC58-3B1A22B3F1D1}"/>
@@ -573,9 +562,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1190014587" Name="AudioStateOutdoor_12_Haiti_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_Low" GUID="{36FA7E65-9F3C-4C58-A0DA-983515662DC3}"/>
@@ -682,9 +668,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1190014587" Name="AudioStateOutdoor_12_Haiti_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_Low" GUID="{36FA7E65-9F3C-4C58-A0DA-983515662DC3}"/>
@@ -759,9 +742,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="3866295823" Name="AudioStateOutdoor_12_Haiti_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_High" GUID="{B137F117-07E9-4C0E-A735-520DD72EB907}"/>
@@ -794,9 +774,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="3866295823" Name="AudioStateOutdoor_12_Haiti_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_High" GUID="{B137F117-07E9-4C0E-A735-520DD72EB907}"/>
@@ -866,9 +843,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1190014587" Name="AudioStateOutdoor_12_Haiti_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_Low" GUID="{36FA7E65-9F3C-4C58-A0DA-983515662DC3}"/>
@@ -938,9 +912,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1827416867" Name="AudioStateOutdoor_12_Haiti_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_Med" GUID="{6AD5C445-270C-4CE3-9542-B373DFB5C984}"/>
@@ -977,7 +948,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 						<ActionPostEventEntry Id="975135244" Name="AudioEvent_Rev_Int_12_Haiti_Shack" ObjectPath="\Events\AMBIENCE\AMB_T12_Haiti\AMB_T12_TILE\AM_Reverb_12_Haiti\AudioEvent_Rev_Int_12_Haiti_Shack" GUID="{60FA3207-9916-432E-A7FA-9B2367131D8F}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -1102,16 +1072,6 @@
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
-				</Event>
-				<Event Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}"/>
-					</ActionSetState>
 				</Event>
 				<Event Id="281986373" Name="AudioEvent_Emitter_ChimeBells" ObjectPath="\Events\AMBIENCE\AMB_T12_Haiti\AMB_T12_EMITTER\AudioEvent_Emitter_ChimeBells" GUID="{88C18857-3150-4811-9C28-75B344CBCCED}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ReferencedStreamedFiles>
@@ -1294,13 +1254,7 @@
 				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="3866295823" Name="AudioStateOutdoor_12_Haiti_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_High" GUID="{B137F117-07E9-4C0E-A735-520DD72EB907}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3954901737" Name="AudioStateIndoor_12_Haiti_BigShrine_Top" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateIndoor_12_Haiti\AudioStateIndoor_12_Haiti_BigShrine_Top" GUID="{4838C31E-5AE4-4457-9CA3-1EF6D4092070}">

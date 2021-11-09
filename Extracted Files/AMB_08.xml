@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2199192626" GUID="{FAE768C6-D50B-412B-AB34-FD4430B9ED36}" Language="SFX">
@@ -16,7 +16,6 @@
 				<Event Id="2433193273" Name="AudioEvent_AM_Boreal_Arch" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_Arch" GUID="{EA6771A7-AEFA-43C5-A76C-C290B8ADD1B7}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="960464586" Name="AudioEvent_Rev_Int_08_Boreal_Default" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Default" GUID="{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}"/>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1650442345" Name="AudioStateIndoor_08_Boreal_Arch" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Arch" GUID="{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}"/>
@@ -24,9 +23,6 @@
 					</ActionSetState>
 				</Event>
 				<Event Id="997586895" Name="AudioEvent_AM_Boreal_Forest_Rain" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AudioEvent_AM_Boreal_Forest_Rain" GUID="{15B083A9-B0F9-4AAC-A93C-184207DC8A06}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}"/>
@@ -84,7 +80,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 						<ActionPostEventEntry Id="1259973652" Name="AudioEvent_Rev_Int_08_Boreal_MainHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_MainHouse" GUID="{C8A00CB3-4665-4EEA-AA9F-FCC1CB017B00}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -125,7 +120,6 @@
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="960464586" Name="AudioEvent_Rev_Int_08_Boreal_Default" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Default" GUID="{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}"/>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
@@ -184,7 +178,6 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 						<ActionPostEventEntry Id="3881326034" Name="AudioEvent_Rev_Int_08_Boreal_SmokedHouse" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_SmokedHouse" GUID="{3D3D289C-F8C9-4033-A861-A3AAA706F2EA}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -217,7 +210,6 @@
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="489408612" Name="AudioEvent_Rev_Int_08_Boreal_Temple_Main" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Temple_Main" GUID="{ACB2DD57-98A1-4DA7-9D46-D2692F9FDD54}"/>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -373,7 +365,6 @@
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="95954190" Name="AudioEvent_Rev_Int_08_Boreal_Temple_Underground" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Temple_Underground" GUID="{ED51E322-F45E-4630-B43C-9E289F28D116}"/>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
@@ -411,9 +402,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"/>
@@ -520,9 +508,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"/>
@@ -597,9 +582,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}"/>
@@ -632,9 +614,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1661292232" Name="AudioStateOutdoor_08_Boreal_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_High" GUID="{F64E33F8-438C-4680-8D76-7805967EBB2D}"/>
@@ -704,9 +683,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1150282450" Name="AudioStateOutdoor_08_Boreal_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Low" GUID="{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"/>
@@ -776,9 +752,6 @@
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}"/>
-					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1855089470" Name="AudioStateOutdoor_08_Boreal_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateOutdoor_08_Boreal\AudioStateOutdoor_08_Boreal_Forest_Med" GUID="{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}"/>
@@ -815,7 +788,6 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}"/>
 						<ActionPostEventEntry Id="3691418881" Name="AudioEvent_Rev_Int_08_Boreal_Shack" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Reverb_08_Boreal\AudioEvent_Rev_Int_08_Boreal_Shack" GUID="{24811208-00CA-44FE-BCF8-E609CE448125}"/>
 					</ActionPostEvent>
 					<ActionSetState>
@@ -954,16 +926,6 @@
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
-				</Event>
-				<Event Id="3192835406" Name="AudioEvent_AudioStateGunTail_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Exterior" GUID="{2A11C2E5-2250-4C65-AFBE-5CF2BFF57377}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="917594830" Name="AudioEvent_AudioStateGunTail_Mid" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Guntail\AudioEvent_AudioStateGunTail_Mid" GUID="{84650664-B730-4DC5-89C2-9433878BD658}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}"/>
-					</ActionSetState>
 				</Event>
 				<Event Id="675045446" Name="AudioEvent_Emitter_Boreal_Temple" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_EMITTER\AudioEvent_Emitter_Boreal_Temple" GUID="{2E001302-0B96-4BEF-9316-C4E028C51B83}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ReferencedStreamedFiles>
@@ -1368,13 +1330,7 @@
 				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="2849605265" Name="AudioStateGunTail_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Exterior" GUID="{35CD4012-3FFE-4D57-9F03-31128FF76CA3}">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="3829197823" Name="AudioStateIndoor_08_Boreal_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Shack" GUID="{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="3880332935" Name="AudioStateGunTail_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateGunTail\AudioStateGunTail_Mid" GUID="{0043852A-472A-400D-995B-13B5888A05DE}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="4058111832" Name="AudioStateIndoor_08_Boreal_Temple_Underground" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_Temple_Underground" GUID="{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}">

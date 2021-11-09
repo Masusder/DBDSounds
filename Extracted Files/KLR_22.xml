@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Hubble_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Hubble\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1457560505" GUID="{FD673857-66DF-426A-8A61-D3DA81E17058}" Language="SFX">
@@ -666,7 +666,6 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2989994960" Name="AudioEvent_K22_Aurora_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_22_Aurora\K22_STATUS\AudioEvent_K22_Aurora_Status_Stop" GUID="{2569F29E-D2C1-4504-BBBC-26CF01B9EE42}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2287464249" Name="AudioEvent_K22_Grunt_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_22_Aurora\K22_GRUNTS_Sister\AudioEvent_K22_Grunt_Attack" GUID="{32D0C317-60E6-4D2D-895A-1AAAE1BC2934}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.359254" DurationMax="0.864301">
 					<IncludedMemoryFiles>
 						<File Id="329437455" Language="SFX">
@@ -1804,7 +1803,6 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3127417818" Name="AudioEvent_K22_Twin_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_22_Aurora\K22_STATUS\AudioEvent_K22_Twin_Status_Stop" GUID="{0F580807-9D0F-415B-B447-42A196C6EBC0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2316544826" Name="AudioEvent_K22_WPN_Default_Sickle_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_22_Aurora\K22_WEAPON\AudioEvent_K22_WPN_Default_Sickle_Arm" GUID="{4D03EFCA-370F-4D9E-BE8C-98EC9C964279}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.359360" DurationMax="0.406657">
 					<IncludedMemoryFiles>
 						<File Id="91042752" Language="SFX">
@@ -2047,33 +2045,34 @@
 					<Switches>
 						<Switch Id="717288360" Name="K01_CLOTH_Default_Leather" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01_CLOTH_Default_Leather" GUID="{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}"/>
 						<Switch Id="3628576691" Name="K02_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Default_Fabric" GUID="{852645FB-1A4B-4E68-AE7D-B5532A2B9A8C}"/>
+						<Switch Id="333212504" Name="K03_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Default_Fabric" GUID="{52059F07-AD7C-443A-B7CD-408A2DF72A73}"/>
 						<Switch Id="755079677" Name="K04_CLOTH_Default_LigthFabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K04_CLOTH_Default_LigthFabric" GUID="{FA85B262-676B-4934-9BAA-6EDDFBE2427A}"/>
 						<Switch Id="945375262" Name="K05_CLOTH_Default_Goo" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K05_CLOTH_Default_Goo" GUID="{85432483-B815-406D-A447-040EBFEB8428}"/>
-						<Switch Id="380503869" Name="K17_CLOTH_Default_Skin" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K17_CLOTH_Default_Skin" GUID="{F24CE2AF-85D8-40DC-A7DA-368B26EFE0AD}"/>
-						<Switch Id="4057867784" Name="K18_CLOTH_Default_Armor" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Default_Armor" GUID="{C1511352-06BA-4963-8BED-996B96F27996}"/>
-						<Switch Id="3464499022" Name="K18_CLOTH_Custom_Fur" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Custom_Fur" GUID="{5743BD22-F8CA-43C2-BACF-06DCA962788F}"/>
-						<Switch Id="2867951822" Name="K20_CLOTH_Default_Burlap" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K20_CLOTH_Default_Burlap" GUID="{C3418A61-9049-46A5-B208-C1A2FB7A7366}"/>
-						<Switch Id="333212504" Name="K03_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Default_Fabric" GUID="{52059F07-AD7C-443A-B7CD-408A2DF72A73}"/>
-						<Switch Id="1612657504" Name="K09_CLOTH_Default_Leather" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K09_CLOTH_Default_Leather" GUID="{51672655-BA07-49BF-A8C8-1691D245695F}"/>
-						<Switch Id="1583896714" Name="K21_CLOTH_Default_FastFabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K21_CLOTH_Default_FastFabric" GUID="{B4E52013-C09F-40A5-BD9B-F7E7E572D970}"/>
-						<Switch Id="3895083374" Name="K22_CLOTH_Default_Equipment" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Default_Equipment" GUID="{8A657979-01E3-4185-8A68-3A3F7352FAAE}"/>
 						<Switch Id="3597155343" Name="K06_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K06_CLOTH_Default_Fabric" GUID="{FD15A244-6CCB-4DFA-AB31-7944F0A7BEEB}"/>
-						<Switch Id="193007874" Name="K12_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K12_CLOTH_Default_Fabric" GUID="{4F5286A8-142B-4E54-8C21-C4C5EC8B7D21}"/>
-						<Switch Id="2418663995" Name="K19_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K19_CLOTH_Default_Fabric" GUID="{A94DC4B7-4B96-483E-8CB5-7D7C372735F2}"/>
-						<Switch Id="552255486" Name="K16_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K16_CLOTH_Default_Fabric" GUID="{6801144D-89FD-420D-85C6-F5591AE29FA8}"/>
-						<Switch Id="1699431039" Name="K15_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K15_CLOTH_Default_Fabric" GUID="{E32D5974-A3C3-4B14-BBCA-ACD07AEB6E0A}"/>
-						<Switch Id="1879263330" Name="K14_CLOTH_Default_Leather" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Default_Leather" GUID="{C82A353A-6DB7-40AA-B76D-3AA0374D1BD1}"/>
-						<Switch Id="1718789868" Name="K13_CLOTH_Default_Bandage" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Default_Bandage" GUID="{D076A5EA-63B7-49D7-8790-5C78D0724A03}"/>
-						<Switch Id="1920243491" Name="K11_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K11_CLOTH_Default_Fabric" GUID="{86069E24-7D78-4291-83C1-9E89A0280E9F}"/>
-						<Switch Id="2942337352" Name="K10_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K10_CLOTH_Default_Fabric" GUID="{3E84E6B2-107B-494E-9CBA-A73BCF8B762E}"/>
-						<Switch Id="2114835861" Name="K08_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K08_CLOTH_Default_Fabric" GUID="{C1E46461-C9DC-499F-91E9-843456F94804}"/>
 						<Switch Id="249141490" Name="K07_CLOTH_Default_Leather" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K07_CLOTH_Default_Leather" GUID="{C7D29F78-C1AA-4C52-8799-B4F037DAC6D0}"/>
+						<Switch Id="2114835861" Name="K08_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K08_CLOTH_Default_Fabric" GUID="{C1E46461-C9DC-499F-91E9-843456F94804}"/>
+						<Switch Id="1612657504" Name="K09_CLOTH_Default_Leather" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K09_CLOTH_Default_Leather" GUID="{51672655-BA07-49BF-A8C8-1691D245695F}"/>
+						<Switch Id="2942337352" Name="K10_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K10_CLOTH_Default_Fabric" GUID="{3E84E6B2-107B-494E-9CBA-A73BCF8B762E}"/>
+						<Switch Id="1920243491" Name="K11_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K11_CLOTH_Default_Fabric" GUID="{86069E24-7D78-4291-83C1-9E89A0280E9F}"/>
+						<Switch Id="193007874" Name="K12_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K12_CLOTH_Default_Fabric" GUID="{4F5286A8-142B-4E54-8C21-C4C5EC8B7D21}"/>
+						<Switch Id="2132863809" Name="K13_CLOTH_Custom_Bubbles" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Custom_Bubbles" GUID="{935A71B5-DF49-416D-A374-DB953A943D5F}"/>
+						<Switch Id="1718789868" Name="K13_CLOTH_Default_Bandage" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Default_Bandage" GUID="{D076A5EA-63B7-49D7-8790-5C78D0724A03}"/>
+						<Switch Id="1879263330" Name="K14_CLOTH_Default_Leather" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Default_Leather" GUID="{C82A353A-6DB7-40AA-B76D-3AA0374D1BD1}"/>
+						<Switch Id="1699431039" Name="K15_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K15_CLOTH_Default_Fabric" GUID="{E32D5974-A3C3-4B14-BBCA-ACD07AEB6E0A}"/>
+						<Switch Id="552255486" Name="K16_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K16_CLOTH_Default_Fabric" GUID="{6801144D-89FD-420D-85C6-F5591AE29FA8}"/>
+						<Switch Id="380503869" Name="K17_CLOTH_Default_Skin" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K17_CLOTH_Default_Skin" GUID="{F24CE2AF-85D8-40DC-A7DA-368B26EFE0AD}"/>
+						<Switch Id="3464499022" Name="K18_CLOTH_Custom_Fur" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Custom_Fur" GUID="{5743BD22-F8CA-43C2-BACF-06DCA962788F}"/>
+						<Switch Id="4057867784" Name="K18_CLOTH_Default_Armor" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Default_Armor" GUID="{C1511352-06BA-4963-8BED-996B96F27996}"/>
+						<Switch Id="2418663995" Name="K19_CLOTH_Default_Fabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K19_CLOTH_Default_Fabric" GUID="{A94DC4B7-4B96-483E-8CB5-7D7C372735F2}"/>
+						<Switch Id="2867951822" Name="K20_CLOTH_Default_Burlap" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K20_CLOTH_Default_Burlap" GUID="{C3418A61-9049-46A5-B208-C1A2FB7A7366}"/>
+						<Switch Id="1583896714" Name="K21_CLOTH_Default_FastFabric" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K21_CLOTH_Default_FastFabric" GUID="{B4E52013-C09F-40A5-BD9B-F7E7E572D970}"/>
+						<Switch Id="797234414" Name="K22_CLOTH_Custom_FishAndGuts" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Custom_FishAndGuts" GUID="{846DE21D-B297-4392-99F2-E088E4F49C71}"/>
+						<Switch Id="3895083374" Name="K22_CLOTH_Default_Equipment" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Default_Equipment" GUID="{8A657979-01E3-4185-8A68-3A3F7352FAAE}"/>
 						<Switch Id="2255847814" Name="K22_CLOTH_Twin_Silence" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Twin_Silence" GUID="{B537246C-DEFC-4927-9A9D-55AD22980F1B}"/>
 						<Switch Id="4047428039" Name="K23_CLOTH_Default_Jacket" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K23_CLOTH_Default_Jacket" GUID="{6D2C8DCA-1207-49A7-9248-94E767297DAD}"/>
 						<Switch Id="2442396517" Name="K24_CLOTH_Default_Straps" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K24_CLOTH_Default_Straps" GUID="{4811230D-DB0B-42E6-A63A-9E6679B4901C}"/>
-						<Switch Id="797234414" Name="K22_CLOTH_Custom_FishAndGuts" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Custom_FishAndGuts" GUID="{846DE21D-B297-4392-99F2-E088E4F49C71}"/>
-						<Switch Id="2132863809" Name="K13_CLOTH_Custom_Bubbles" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Custom_Bubbles" GUID="{935A71B5-DF49-416D-A374-DB953A943D5F}"/>
 						<Switch Id="924976172" Name="K25_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K25_CLOTH_Default" GUID="{5AE5642C-B420-478F-B5E6-701E17CE413E}"/>
+						<Switch Id="1929999991" Name="K26_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K26_CLOTH_Default" GUID="{B1ED8674-7C0A-4008-BD2B-9433988D7FB7}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3548994684" Name="AudioSwitchProximity" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchProximity" GUID="{A238147F-8756-470E-AC66-0AFAF133FD8A}">
