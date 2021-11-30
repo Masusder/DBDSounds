@@ -1764,8 +1764,12 @@
 				<Event Id="4070909553" Name="AudioEvent_Gameflow_Lobby_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Killer" GUID="{65157012-002B-44EB-8347-0C5B3397D0FB}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="306975957" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
@@ -1797,6 +1801,14 @@
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="42280866" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="59176400" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
@@ -1808,6 +1820,10 @@
 						<File Id="125113586" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="143629341" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="174146207" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
@@ -1873,6 +1889,14 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="724990519" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="763842374" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="774475539" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
@@ -1900,6 +1924,10 @@
 						<File Id="972329971" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994478620" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -1988,6 +2016,21 @@
 								<File Id="174146207"/>
 								<File Id="680664808"/>
 								<File Id="972329971"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="763842374"/>
+								<File Id="59176400"/>
+								<File Id="42280866"/>
+								<File Id="724990519"/>
+								<File Id="994478620"/>
+								<File Id="143629341"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2007,8 +2050,12 @@
 				<Event Id="2123304394" Name="AudioEvent_Gameflow_Lobby_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Survivor" GUID="{FF8124EA-5EF0-4DBB-9EFE-167BA12F9D37}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="306975957" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
@@ -2040,6 +2087,14 @@
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="42280866" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="59176400" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
@@ -2051,6 +2106,10 @@
 						<File Id="125113586" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="143629341" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="174146207" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
@@ -2116,6 +2175,14 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="724990519" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="763842374" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="774475539" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
@@ -2143,6 +2210,10 @@
 						<File Id="972329971" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994478620" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -2231,6 +2302,21 @@
 								<File Id="174146207"/>
 								<File Id="680664808"/>
 								<File Id="972329971"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="763842374"/>
+								<File Id="59176400"/>
+								<File Id="42280866"/>
+								<File Id="724990519"/>
+								<File Id="994478620"/>
+								<File Id="143629341"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2250,8 +2336,12 @@
 				<Event Id="519196509" Name="AudioEvent_Gameflow_MainMenu_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Killer" GUID="{D222DB98-BEB5-46F5-A2CA-8C8B5FEE723E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="306975957" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
@@ -2283,6 +2373,14 @@
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="42280866" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="59176400" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
@@ -2294,6 +2392,10 @@
 						<File Id="125113586" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="143629341" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="174146207" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
@@ -2359,6 +2461,14 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="724990519" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="763842374" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="774475539" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
@@ -2386,6 +2496,10 @@
 						<File Id="972329971" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994478620" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -2474,6 +2588,21 @@
 								<File Id="174146207"/>
 								<File Id="680664808"/>
 								<File Id="972329971"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="763842374"/>
+								<File Id="59176400"/>
+								<File Id="42280866"/>
+								<File Id="724990519"/>
+								<File Id="994478620"/>
+								<File Id="143629341"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2509,10 +2638,6 @@
 						<File Id="198682296" Language="SFX">
 							<ShortName>Music\mu_menu_lobby_k20.wav</ShortName>
 							<Path>SFX\Music\mu_menu_lobby_k20_256CDB0F.wem</Path>
-						</File>
-						<File Id="261616524" Language="SFX">
-							<ShortName>Music\mu_menu_special_winter_01.wav</ShortName>
-							<Path>SFX\Music\mu_menu_special_winter_01_0BC91DCF.wem</Path>
 						</File>
 						<File Id="348343780" Language="SFX">
 							<ShortName>Music\mu_menu_lobby_k12.wav</ShortName>
@@ -2620,6 +2745,10 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="351025586" Language="SFX">
+							<ShortName>Music\mu_menu_special_winter_02.wav</ShortName>
+							<Path>SFX\Music\mu_menu_special_winter_02_256CDB0F.wem</Path>
+						</File>
 						<File Id="1065731121" Language="SFX">
 							<ShortName>Music\mu_menu_lobby_k26.wav</ShortName>
 							<Path>SFX\Music\mu_menu_lobby_k26_256CDB0F.wem</Path>
@@ -2803,7 +2932,7 @@
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
 											<Media>
-												<File Id="261616524"/>
+												<File Id="351025586"/>
 											</Media>
 										</SwitchContainer>
 									</Children>
@@ -2868,8 +2997,12 @@
 				<Event Id="1066277998" Name="AudioEvent_Gameflow_MainMenu_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Survivor" GUID="{33F9A214-3C20-4C7E-81BB-78A4A0ECC478}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="306975957" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
@@ -2901,6 +3034,14 @@
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="42280866" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="59176400" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
@@ -2912,6 +3053,10 @@
 						<File Id="125113586" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="143629341" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="174146207" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
@@ -2977,6 +3122,14 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="724990519" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="763842374" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="774475539" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
@@ -3004,6 +3157,10 @@
 						<File Id="972329971" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994478620" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -3092,6 +3249,21 @@
 								<File Id="174146207"/>
 								<File Id="680664808"/>
 								<File Id="972329971"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="763842374"/>
+								<File Id="59176400"/>
+								<File Id="42280866"/>
+								<File Id="724990519"/>
+								<File Id="994478620"/>
+								<File Id="143629341"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -3155,8 +3327,12 @@
 				<Event Id="2980828507" Name="AudioEvent_Gameflow_RoleSelection" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_RoleSelection" GUID="{647CD970-7569-4B26-9F2A-844574E37358}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="306975957" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="353010712" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_lunar_01.wav</ShortName>
@@ -3188,6 +3364,14 @@
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_09.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="42280866" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="59176400" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="90493988" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
@@ -3199,6 +3383,10 @@
 						<File Id="125113586" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="143629341" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="174146207" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_13.wav</ShortName>
@@ -3264,6 +3452,14 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="724990519" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="763842374" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="774475539" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_12_7FA8D501.wem</Path>
@@ -3295,6 +3491,10 @@
 						<File Id="972329971" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994478620" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="1001713948" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
@@ -3383,6 +3583,21 @@
 								<File Id="174146207"/>
 								<File Id="680664808"/>
 								<File Id="972329971"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="763842374"/>
+								<File Id="59176400"/>
+								<File Id="42280866"/>
+								<File Id="724990519"/>
+								<File Id="994478620"/>
+								<File Id="143629341"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -3593,8 +3808,12 @@
 				<Event Id="836639789" Name="AudioEvent_Gameflow_Store_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Enter" GUID="{2926D414-2574-4B34-88DC-81970599A95E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="306975957" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="365931481" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
@@ -3603,6 +3822,10 @@
 						<File Id="465288404" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_roleselection_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_roleselection_01_0BC91DCF.wem</Path>
+						</File>
+						<File Id="622861268" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_store_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_store_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="856565386" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_background_04.wav</ShortName>
@@ -3622,6 +3845,18 @@
 							<ShortName>Menu\sfx_ui_transition_05.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_05_67368C31.wem</Path>
 						</File>
+						<File Id="42280866" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="59176400" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="143629341" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="397638292" Language="SFX">
 							<ShortName>Objects\TheEntity\sfx_theentity_long_01b.wav</ShortName>
 							<Path>SFX\Objects\TheEntity\sfx_theentity_long_01b_7FA8D501.wem</Path>
@@ -3630,6 +3865,18 @@
 							<ShortName>Menu\sfx_ui_transition_01.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_01_67368C31.wem</Path>
 						</File>
+						<File Id="724990519" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="763842374" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="994478620" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="997219686" Language="SFX">
 							<ShortName>Menu\sfx_ui_transition_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_02_67368C31.wem</Path>
@@ -3637,9 +3884,29 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="622861268"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="306975957"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 							<Media>
 								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="763842374"/>
+								<File Id="59176400"/>
+								<File Id="42280866"/>
+								<File Id="724990519"/>
+								<File Id="994478620"/>
+								<File Id="143629341"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
@@ -3657,12 +3924,19 @@
 						<ActionSetStateEntry Id="1686739432" Name="Store" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Store" GUID="{9F125987-0D5A-4E02-97C8-3600E646BE73}"/>
 						<ActionSetStateEntry Id="2298552922" Name="Offline" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Offline" GUID="{D957D890-75F0-4286-996C-282F6E6BAC95}"/>
 					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4068000952" Name="AudioEvent_Gameflow_Store_Mobile_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Mobile_Enter" GUID="{C1926FEC-FA09-4533-9AC4-337678A2C831}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\amb_lobby_ion_crickets_01_256CDB0F.wem</Path>
+							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="306975957" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="365931481" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
@@ -3671,6 +3945,10 @@
 						<File Id="465288404" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_roleselection_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_roleselection_01_0BC91DCF.wem</Path>
+						</File>
+						<File Id="622861268" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_winter_store_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_winter_store_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="856565386" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_background_04.wav</ShortName>
@@ -3690,6 +3968,18 @@
 							<ShortName>Menu\sfx_ui_transition_05.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_05_67368C31.wem</Path>
 						</File>
+						<File Id="42280866" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="59176400" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="143629341" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="397638292" Language="SFX">
 							<ShortName>Objects\TheEntity\sfx_theentity_long_01b.wav</ShortName>
 							<Path>SFX\Objects\TheEntity\sfx_theentity_long_01b_7FA8D501.wem</Path>
@@ -3698,6 +3988,18 @@
 							<ShortName>Menu\sfx_ui_transition_01.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_01_67368C31.wem</Path>
 						</File>
+						<File Id="724990519" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="763842374" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="994478620" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="997219686" Language="SFX">
 							<ShortName>Menu\sfx_ui_transition_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_02_67368C31.wem</Path>
@@ -3705,9 +4007,29 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="622861268"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="306975957"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 							<Media>
 								<File Id="934404875"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="763842374"/>
+								<File Id="59176400"/>
+								<File Id="42280866"/>
+								<File Id="724990519"/>
+								<File Id="994478620"/>
+								<File Id="143629341"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
@@ -3726,6 +4048,9 @@
 						<ActionSetStateEntry Id="3126000125" Name="Overlay_On" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_On" GUID="{639F628F-7DAD-4446-A735-8CF0AC2D4004}"/>
 						<ActionSetStateEntry Id="3140923371" Name="Mobile" ObjectPath="\States\STATES_MENU\AudioStateCoreMobile\Mobile" GUID="{3B2B2F65-6735-45B0-8977-19027F74534D}"/>
 					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1443864420" Name="AudioEvent_Gameflow_Store_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Quit" GUID="{0D0A2992-B362-4797-9BE5-8CBA09029BC0}" DurationType="OneShot" DurationMin="3.703272" DurationMax="4.250001">
 					<ExcludedMemoryFiles>
@@ -8334,6 +8659,10 @@
 							<ShortName>Objects\TheEntity\sfx_theentity_long_01b.wav</ShortName>
 							<Path>SFX\Objects\TheEntity\sfx_theentity_long_01b_7FA8D501.wem</Path>
 						</File>
+						<File Id="480429876" Language="SFX">
+							<ShortName>Stingers\sfx_winter_popup_stinger_03.wav</ShortName>
+							<Path>SFX\Stingers\sfx_winter_popup_stinger_03_256CDB0F.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{7B2C5A20-E789-4E16-8838-F350790A50C6}">
@@ -8344,6 +8673,11 @@
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="847877030"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="480429876"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -8504,6 +8838,52 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="2617677691" Name="GameChat_ErrorMessage" ObjectPath="\Events\MENU\GameChat\GameChat_ErrorMessage" GUID="{26DAF0FC-2501-44A7-A67E-4B5BD74C022B}" DurationType="OneShot" DurationMin="1.124500" DurationMax="1.124500">
+					<ExcludedMemoryFiles>
+						<File Id="715338784" Language="SFX">
+							<ShortName>Menu\sfx_gamechat_errormessage_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_gamechat_errormessage_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1717807883" Name="GameChat_NewMessage" ObjectPath="\Events\MENU\GameChat\GameChat_NewMessage" GUID="{EE114B69-C694-440B-8000-1A60CE6E9DAB}" DurationType="OneShot" DurationMin="0.475683" DurationMax="0.475683">
+					<ExcludedMemoryFiles>
+						<File Id="677160102" Language="SFX">
+							<ShortName>Menu\sfx_gamechat_newmeesage_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_gamechat_newmeesage_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1320895186" Name="GameChat_Scroll_Overlay" ObjectPath="\Events\MENU\GameChat\GameChat_Scroll_Overlay" GUID="{58DB668F-DC6D-460A-A164-366AC40788EE}" DurationType="OneShot" DurationMin="0.663224" DurationMax="0.811166">
+					<ExcludedMemoryFiles>
+						<File Id="146686086" Language="SFX">
+							<ShortName>Menu\sfx_gamechat_scroll_overlay_02.wav</ShortName>
+							<Path>SFX\Menu\sfx_gamechat_scroll_overlay_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="757084984" Language="SFX">
+							<ShortName>Menu\sfx_gamechat_scroll_overlay_03.wav</ShortName>
+							<Path>SFX\Menu\sfx_gamechat_scroll_overlay_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="880148170" Language="SFX">
+							<ShortName>Menu\sfx_gamechat_scroll_overlay_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_gamechat_scroll_overlay_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="928189172" Language="SFX">
+							<ShortName>Menu\sfx_gamechat_scroll_overlay_04.wav</ShortName>
+							<Path>SFX\Menu\sfx_gamechat_scroll_overlay_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="315029852" Name="GameChat_Sticker_Select" ObjectPath="\Events\MENU\GameChat\GameChat_Sticker_Select" GUID="{33590A9D-681A-4547-915C-6A3050090029}" DurationType="OneShot" DurationMin="1.329290" DurationMax="1.492077">
+					<ExcludedMemoryFiles>
+						<File Id="1043276672" Language="SFX">
+							<ShortName>Menu\sfx_gamechat_sticker_select_01.wav</ShortName>
+							<Path>SFX\Menu\sfx_gamechat_sticker_select_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1373500230" Name="GameChat_StickerAppears_Others_Animation" ObjectPath="\Events\MENU\GameChat\GameChat_StickerAppears_Others_Animation" GUID="{73130E2C-0C12-4400-8D54-95A8847E75A8}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3707212388" Name="GameChat_StickerAppears_Player_Animation" ObjectPath="\Events\MENU\GameChat\GameChat_StickerAppears_Player_Animation" GUID="{53CE4A52-D835-4869-925E-7819CB778DB7}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="65347682" Language="SFX">
@@ -8525,10 +8905,6 @@
 				<File Id="198682296" Language="SFX">
 					<ShortName>Music\mu_menu_lobby_k20.wav</ShortName>
 					<Path>SFX\Music\mu_menu_lobby_k20_256CDB0F.wem</Path>
-				</File>
-				<File Id="261616524" Language="SFX">
-					<ShortName>Music\mu_menu_special_winter_01.wav</ShortName>
-					<Path>SFX\Music\mu_menu_special_winter_01_0BC91DCF.wem</Path>
 				</File>
 				<File Id="348343780" Language="SFX">
 					<ShortName>Music\mu_menu_lobby_k12.wav</ShortName>
@@ -8680,6 +9056,10 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_07.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_07_67368C31.wem</Path>
 				</File>
+				<File Id="42280866" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_04.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="45286677" Language="SFX">
 					<ShortName>Menu\sfx_ui_control_customization_release_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_control_customization_release_01_7FA8D501.wem</Path>
@@ -8691,6 +9071,10 @@
 				<File Id="56797813" Language="SFX">
 					<ShortName>Menu\sfx_archives_widget_quest_complete_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_widget_quest_complete_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="59176400" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="63332082" Language="SFX">
 					<ShortName>Objects\BlackSmoke\Blood_UI_Highlight_Bounce_05.wav</ShortName>
@@ -8784,9 +9168,17 @@
 					<ShortName>Menu\sfx_ui_generic_open_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_generic_open_01_67368C31.wem</Path>
 				</File>
+				<File Id="143629341" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="144668667" Language="SFX">
 					<ShortName>Menu\sfx_archives_widget_quest_complete_add_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_widget_quest_complete_add_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="146686086" Language="SFX">
+					<ShortName>Menu\sfx_gamechat_scroll_overlay_02.wav</ShortName>
+					<Path>SFX\Menu\sfx_gamechat_scroll_overlay_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="148973338" Language="SFX">
 					<ShortName>Menu\sfx_ui_bloodweb_player_node_release_01.wav</ShortName>
@@ -8987,6 +9379,10 @@
 				<File Id="348537456" Language="SFX">
 					<ShortName>Menu\sfx_roleselection_friends.wav</ShortName>
 					<Path>SFX\Menu\sfx_roleselection_friends_4C82775A.wem</Path>
+				</File>
+				<File Id="351025586" Language="SFX">
+					<ShortName>Music\mu_menu_special_winter_02.wav</ShortName>
+					<Path>SFX\Music\mu_menu_special_winter_02_256CDB0F.wem</Path>
 				</File>
 				<File Id="361033226" Language="SFX">
 					<ShortName>Menu\sfx_ui_splashscreen_open_01.wav</ShortName>
@@ -9292,6 +9688,10 @@
 					<ShortName>Menu\sfx_ui_highlight_tab_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_highlight_tab_01_67368C31.wem</Path>
 				</File>
+				<File Id="677160102" Language="SFX">
+					<ShortName>Menu\sfx_gamechat_newmeesage_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_gamechat_newmeesage_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="680243585" Language="SFX">
 					<ShortName>Ambience\Menus\am_lobby_ion_rdm_ink_11.wav</ShortName>
 					<Path>SFX\Ambience\Menus\am_lobby_ion_rdm_ink_11_7FA8D501.wem</Path>
@@ -9344,6 +9744,10 @@
 					<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
 					<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="715338784" Language="SFX">
+					<ShortName>Menu\sfx_gamechat_errormessage_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_gamechat_errormessage_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="717547532" Language="SFX">
 					<ShortName>Menu\sfx_ui_stadia_crowd_choice_killer_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_stadia_crowd_choice_killer_01_7FA8D501.wem</Path>
@@ -9355,6 +9759,10 @@
 				<File Id="724930386" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_12.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_12_67368C31.wem</Path>
+				</File>
+				<File Id="724990519" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="728772887" Language="SFX">
 					<ShortName>Menu\sfx_ui_heartbeat_01.wav</ShortName>
@@ -9384,9 +9792,17 @@
 					<ShortName>HUD\Menu_Actions_Ready_Bounce.wav</ShortName>
 					<Path>SFX\HUD\Menu_Actions_Ready_Bounce_67368C31.wem</Path>
 				</File>
+				<File Id="757084984" Language="SFX">
+					<ShortName>Menu\sfx_gamechat_scroll_overlay_03.wav</ShortName>
+					<Path>SFX\Menu\sfx_gamechat_scroll_overlay_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="763540587" Language="SFX">
 					<ShortName>Menu\sfx_ui_store_reward_character_appear_mn_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_store_reward_character_appear_mn_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="763842374" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="764065131" Language="SFX">
 					<ShortName>Menu\sfx_ui_highlight_03.wav</ShortName>
@@ -9496,6 +9912,10 @@
 					<ShortName>Menu\sfx_ui_bloodweb_generation_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_bloodweb_generation_01_67368C31.wem</Path>
 				</File>
+				<File Id="880148170" Language="SFX">
+					<ShortName>Menu\sfx_gamechat_scroll_overlay_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_gamechat_scroll_overlay_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="882565281" Language="SFX">
 					<ShortName>Menu\sfx_ui_dropdown_release_swoosh_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_dropdown_release_swoosh_02_FB92B68C.wem</Path>
@@ -9544,6 +9964,10 @@
 					<ShortName>Menu\sfx_ui_mainmenu_open_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_mainmenu_open_02_67368C31.wem</Path>
 				</File>
+				<File Id="928189172" Language="SFX">
+					<ShortName>Menu\sfx_gamechat_scroll_overlay_04.wav</ShortName>
+					<Path>SFX\Menu\sfx_gamechat_scroll_overlay_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="934990099" Language="SFX">
 					<ShortName>Menu\sfx_ui_bloodweb_prestige_player_lign_progressing_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_bloodweb_prestige_player_lign_progressing_01_7FA8D501.wem</Path>
@@ -9584,6 +10008,10 @@
 					<ShortName>Menu\sfx_ui_select_press_bones_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_select_press_bones_02_67368C31.wem</Path>
 				</File>
+				<File Id="994478620" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="997219686" Language="SFX">
 					<ShortName>Menu\sfx_ui_transition_02.wav</ShortName>
 					<Path>SFX\Menu\sfx_ui_transition_02_67368C31.wem</Path>
@@ -9619,6 +10047,10 @@
 				<File Id="1042016034" Language="SFX">
 					<ShortName>Menu\sfx_archives_node_highlight_01.wav</ShortName>
 					<Path>SFX\Menu\sfx_archives_node_highlight_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="1043276672" Language="SFX">
+					<ShortName>Menu\sfx_gamechat_sticker_select_01.wav</ShortName>
+					<Path>SFX\Menu\sfx_gamechat_sticker_select_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="1055342754" Language="SFX">
 					<ShortName>Menu\BloodWeb_Reward_Box_Open_Bounce.wav</ShortName>

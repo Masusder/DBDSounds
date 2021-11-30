@@ -2174,18 +2174,6 @@
 						<ActionSetStateEntry Id="1684403910" Name="AudioStateOutdoor_18_Ion_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateOutdoor_18_Ion\AudioStateOutdoor_18_Ion_Outdoor" GUID="{E7891160-91EC-4E62-A48C-63348F198371}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1747107600" Name="AudioEvent_AM_T18_Hill" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Hill" GUID="{0C012700-0698-45DB-AD14-31489D4326FD}" DurationType="Infinite">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1684403910" Name="AudioStateOutdoor_18_Ion_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateOutdoor_18_Ion\AudioStateOutdoor_18_Ion_Outdoor" GUID="{E7891160-91EC-4E62-A48C-63348F198371}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2653601348" Name="AudioEvent_AM_T18_Maze" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Maze" GUID="{939FEBB8-D045-4F3D-ABB2-DE95C9CA8855}" DurationType="Infinite">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1684403910" Name="AudioStateOutdoor_18_Ion_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateOutdoor_18_Ion\AudioStateOutdoor_18_Ion_Outdoor" GUID="{E7891160-91EC-4E62-A48C-63348F198371}"/>
-					</ActionSetState>
-				</Event>
 				<Event Id="4204114908" Name="AudioEvent_AM_Tutorial_Yard" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AudioEvent_AM_Tutorial_Yard" GUID="{9924C4E1-FF3A-4C81-B015-27C30BE1420B}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
@@ -2351,6 +2339,7 @@
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3895306974" Name="AudioEvent_Rev_Int_00_Common_Basement" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_Common_Basement" GUID="{F17D7500-F674-413B-A713-4B61C26F8953}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

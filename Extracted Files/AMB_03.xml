@@ -1229,10 +1229,6 @@
 				</Event>
 				<Event Id="2581722117" Name="AudioEvent_AM_Theme_03_Farm" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AudioEvent_AM_Theme_03_Farm" GUID="{EE4F9E00-7787-4670-8499-DB050CBBABE0}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="290213677" Language="SFX">
-							<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_01_256CDB0F.wem</Path>
-						</File>
 						<File Id="324276433" Language="SFX">
 							<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_tile_shack_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_tile_shack_01_256CDB0F.wem</Path>
@@ -1240,6 +1236,10 @@
 						<File Id="367379795" Language="SFX">
 							<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_tile_silo_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_tile_silo_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="462050280" Language="SFX">
+							<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="583201629" Language="SFX">
 							<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_tile_slaughterhouse_01.wav</ShortName>
@@ -1340,13 +1340,13 @@
 				<Event Id="4227593368" Name="AudioEvent_Rev_Int_T03_FarmHouse_SmallRooms" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_TILE\AM_Reverb_03_Farm\AudioEvent_Rev_Int_T03_FarmHouse_SmallRooms" GUID="{6A807A98-FDAE-4805-B987-7732B0B12097}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="954893743" Name="AudioEvent_Rev_Int_T03_Silo" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_TILE\AM_Reverb_03_Farm\AudioEvent_Rev_Int_T03_Silo" GUID="{EDE12E27-B45C-4D85-81DF-E923894FC51C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1048831341" Name="AudioEvent_Rev_Int_T03_SlaughterHouse" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_TILE\AM_Reverb_03_Farm\AudioEvent_Rev_Int_T03_SlaughterHouse" GUID="{9BC9DE59-5F23-4052-BB13-63E707454F03}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2472563826" Name="AudioEvent_T03_Emitter_CedarElm" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_EMITTER\AudioEvent_T03_Emitter_CedarElm" GUID="{0C74812A-9A8E-4438-94AD-D737B00C54AE}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+				<Event Id="2472563826" Name="AudioEvent_T03_Emitter_CedarElm" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_EMITTER\AudioEvent_T03_Emitter_CedarElm" GUID="{0C74812A-9A8E-4438-94AD-D737B00C54AE}" MaxAttenuation="1300.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
 						<File Id="29933316" Language="SFX">
 							<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_cedarelm_leaves_loop_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_cedarelm_leaves_loop_01_256CDB0F.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="4075097747" Name="AudioEvent_T03_Emitter_HangingRope" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_EMITTER\AudioEvent_T03_Emitter_HangingRope" GUID="{B1A4E8BF-B0CD-4525-93B4-232F705CCA86}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -1375,13 +1375,13 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1044353030" Name="AudioEvent_T03_Emitter_PostOak" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_EMITTER\AudioEvent_T03_Emitter_PostOak" GUID="{8BE91D7D-742D-411C-AAA6-60522CC1F76F}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+				<Event Id="1044353030" Name="AudioEvent_T03_Emitter_PostOak" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_EMITTER\AudioEvent_T03_Emitter_PostOak" GUID="{8BE91D7D-742D-411C-AAA6-60522CC1F76F}" MaxAttenuation="1300.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
 						<File Id="1028122591" Language="SFX">
 							<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_postoak_leaves_loop_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_postoak_leaves_loop_01_256CDB0F.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3760956625" Name="AudioEvent_T03_Emitter_SinkDripping" ObjectPath="\Events\AMBIENCE\AMB_T03_Farm\AMB_T03_EMITTER\AudioEvent_T03_Emitter_SinkDripping" GUID="{F62EEF44-8B79-4909-8CF0-8BD2E87FD2D7}" MaxAttenuation="450.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -1605,10 +1605,6 @@
 				</Event>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
-				<File Id="29933316" Language="SFX">
-					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_cedarelm_leaves_loop_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_cedarelm_leaves_loop_01_256CDB0F.wem</Path>
-				</File>
 				<File Id="176100628" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughtertree_scream_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughtertree_scream_01_7FA8D501.wem</Path>
@@ -1616,10 +1612,6 @@
 				<File Id="267723514" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughtertree_scream_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughtertree_scream_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="290213677" Language="SFX">
-					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="324276433" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_tile_shack_01.wav</ShortName>
@@ -1632,6 +1624,10 @@
 				<File Id="383533800" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughtertree_scream_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughtertree_scream_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="462050280" Language="SFX">
+					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_theme_quad_02_256CDB0F.wem</Path>
 				</File>
 				<File Id="583201629" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_tile_slaughterhouse_01.wav</ShortName>
@@ -1665,10 +1661,6 @@
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_tile_farmhouse_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_tile_farmhouse_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="1028122591" Language="SFX">
-					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_postoak_leaves_loop_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_postoak_leaves_loop_01_256CDB0F.wem</Path>
-				</File>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="10699555" Language="SFX">
@@ -1678,6 +1670,10 @@
 				<File Id="21913570" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughterhouse_metalhook_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_slaughterhouse_metalhook_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="29933316" Language="SFX">
+					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_cedarelm_leaves_loop_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_cedarelm_leaves_loop_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="64305360" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_rdm_shackdust_06.wav</ShortName>
@@ -1890,6 +1886,10 @@
 				<File Id="1013737530" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_rdm_shackdust_05.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_rdm_shackdust_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="1028122591" Language="SFX">
+					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_postoak_leaves_loop_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T03_Farm\am_t03_farm_emt_postoak_leaves_loop_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="1043844258" Language="SFX">
 					<ShortName>Ambience\Themes\T03_Farm\am_t03_farm_emt_sinkdripping_10.wav</ShortName>
