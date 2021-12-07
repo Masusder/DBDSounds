@@ -13,19 +13,23 @@
 			<ShortName>Totem</ShortName>
 			<Path>Totem.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4170707652" Name="AudioEvent_Boon_Totem_Being_Blessed_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Being_Blessed_Start" GUID="{53CAF452-F0EA-471F-95A5-BCB7B740C9E7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="12.575828" DurationMax="12.575828">
+				<Event Id="4170707652" Name="AudioEvent_Boon_Totem_Being_Blessed_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Being_Blessed_Start" GUID="{53CAF452-F0EA-471F-95A5-BCB7B740C9E7}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
+						<File Id="53436536" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_superfast_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_superfast_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="132734634" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_medium_01.wav</ShortName>
-							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_medium_01_7FA8D501.wem</Path>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_medium_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="213685190" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_fast_01.wav</ShortName>
-							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_fast_01_7FA8D501.wem</Path>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_fast_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="632979262" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_slow_01.wav</ShortName>
-							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_slow_01_7FA8D501.wem</Path>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_slow_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="858162089" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_base_01.wav</ShortName>
@@ -34,19 +38,23 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="901166200" Name="AudioEvent_Boon_Totem_Being_Blessed_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Being_Blessed_Stop" GUID="{7D546C2D-5E45-4C2F-81DC-F8167FE59A63}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3613542230" Name="AudioEvent_Boon_Totem_Blessing" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Blessing" GUID="{3302CC0B-169E-4CE7-B3FA-CEB164AC61F2}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="12.575828" DurationMax="12.575828">
+				<Event Id="3613542230" Name="AudioEvent_Boon_Totem_Blessing" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Totem\AudioEvent_Boon_Totem_Blessing" GUID="{3302CC0B-169E-4CE7-B3FA-CEB164AC61F2}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
+						<File Id="53436536" Language="SFX">
+							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_superfast_01.wav</ShortName>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_superfast_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="132734634" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_medium_01.wav</ShortName>
-							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_medium_01_7FA8D501.wem</Path>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_medium_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="213685190" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_fast_01.wav</ShortName>
-							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_fast_01_7FA8D501.wem</Path>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_fast_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="632979262" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_slow_01.wav</ShortName>
-							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_slow_01_7FA8D501.wem</Path>
+							<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_slow_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="858162089" Language="SFX">
 							<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_base_01.wav</ShortName>
@@ -262,6 +270,10 @@
 					<ShortName>Objects\Totem\sfx_totem_break_03.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_break_03_67368C31.wem</Path>
 				</File>
+				<File Id="53436536" Language="SFX">
+					<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_superfast_01.wav</ShortName>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_superfast_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="55918615" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_05.wav</ShortName>
 					<Path>SFX\Objects\Totem\sfx_totem_sabotage_bones_05_67368C31.wem</Path>
@@ -280,7 +292,7 @@
 				</File>
 				<File Id="132734634" Language="SFX">
 					<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_medium_01.wav</ShortName>
-					<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_medium_01_7FA8D501.wem</Path>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_medium_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="147577407" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_break_05.wav</ShortName>
@@ -296,7 +308,7 @@
 				</File>
 				<File Id="213685190" Language="SFX">
 					<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_fast_01.wav</ShortName>
-					<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_fast_01_7FA8D501.wem</Path>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_fast_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="215717333" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_sabotage_bones_04.wav</ShortName>
@@ -380,7 +392,7 @@
 				</File>
 				<File Id="632979262" Language="SFX">
 					<ShortName>Objects\Totem\sfx_boon_totem_beingblessed_slow_01.wav</ShortName>
-					<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_slow_01_7FA8D501.wem</Path>
+					<Path>SFX\Objects\Totem\sfx_boon_totem_beingblessed_slow_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="642929546" Language="SFX">
 					<ShortName>Objects\Totem\sfx_totem_fire_short_03.wav</ShortName>
