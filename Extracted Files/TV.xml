@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1568083719" GUID="{8D7122D5-62B1-49C5-B911-A4676F5FEC62}" Language="SFX">
@@ -33,8 +33,27 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="106131781" Name="AudioEvent_TV_WhiteNoise_Loop" ObjectPath="\Events\OBJECT\OBJ_DECO\TV\AudioEvent_TV_WhiteNoise_Loop" GUID="{15875F4C-A49D-4061-AD77-647EED101037}" MaxAttenuation="850.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="51580419" Language="SFX">
+							<ShortName>Objects\TV\obj_tv_whitenoise_loop_01.wav</ShortName>
+							<Path>SFX\Objects\TV\obj_tv_whitenoise_loop_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="765838219" Language="SFX">
+							<ShortName>Objects\TV\obj_tv_loop_04.wav</ShortName>
+							<Path>SFX\Objects\TV\obj_tv_loop_04_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="51580419" Language="SFX">
+					<ShortName>Objects\TV\obj_tv_whitenoise_loop_01.wav</ShortName>
+					<Path>SFX\Objects\TV\obj_tv_whitenoise_loop_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="103844984" Language="SFX">
 					<ShortName>Objects\TV\sfx_tv_static_soft_loop_01.wav</ShortName>
 					<Path>SFX\Objects\TV\sfx_tv_static_soft_loop_01_256CDB0F.wem</Path>
@@ -46,6 +65,10 @@
 				<File Id="511497862" Language="SFX">
 					<ShortName>Objects\TV\sfx_tv_loop_04_Mix_Bounce.wav</ShortName>
 					<Path>SFX\Objects\TV\sfx_tv_loop_04_Mix_Bounce_0BC91DCF.wem</Path>
+				</File>
+				<File Id="765838219" Language="SFX">
+					<ShortName>Objects\TV\obj_tv_loop_04.wav</ShortName>
+					<Path>SFX\Objects\TV\obj_tv_loop_04_256CDB0F.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>

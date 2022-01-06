@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1182830809" GUID="{3C65271E-2FCE-4549-8A2C-A99D9D299EB3}" Language="SFX">
+			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Clock</ObjectPath>
+			<ShortName>Clock</ShortName>
+			<Path>Clock.bnk</Path>
+			<IncludedEvents>
+				<Event Id="619697421" Name="AudioEvent_Clock_Loop" ObjectPath="\Events\OBJECT\OBJ_DECO\Clock\AudioEvent_Clock_Loop" GUID="{B3B6D2AE-49C8-4B98-9438-12C2FCC647AD}" MaxAttenuation="450.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="296280722" Language="SFX">
+							<ShortName>Objects\Clock\obj_clock_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Clock\obj_clock_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="296280722" Language="SFX">
+					<ShortName>Objects\Clock\obj_clock_loop_01.wav</ShortName>
+					<Path>SFX\Objects\Clock\obj_clock_loop_01_256CDB0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

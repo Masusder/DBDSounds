@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1457560510" GUID="{7CCBA1BD-C14D-4792-BD5B-E1475B344BBB}" Language="SFX">
@@ -13,38 +13,357 @@
 			<ShortName>KLR_25</ShortName>
 			<Path>KLR_25.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2096793970" Name="AudioEvent_K25_DIALOG_Mori_TearYourSoul" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_Mori_TearYourSoul" GUID="{17656C14-7BCB-4785-A116-54D2E8AA39BF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
-					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
-					<SwitchContainers/>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3185455491" Name="AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" GUID="{4009B3CA-CE31-49F4-9443-27E646B72A7E}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
-					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
-					<SwitchContainers/>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3185455488" Name="AudioEvent_K25_DIALOG_PWR_Teleport_Pt2" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_PWR_Teleport_Pt2" GUID="{E80D77E6-B58B-441C-8684-221D34B35D3C}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="3.294667">
+				<Event Id="1925315646" Name="AudioEvent_DIALOG_K25_ComeWith" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_ComeWith" GUID="{8817294C-E187-4FB2-9B13-0C22F25A5D15}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="5.448125">
 					<IncludedMemoryFiles>
-						<File Id="215706291" Language="SFX">
-							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_teleport.wav</ShortName>
-							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_teleport_7FA8D501.wem</Path>
+						<File Id="433614331" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_09_comewith.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_09_comewith_7FA8D501.wem</Path>
+						</File>
+						<File Id="907288279" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_09_comewith.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_09_comewith_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{1DAEB736-BFC6-4D0F-A671-7D1A3F105E0D}">
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
 							<Media>
-								<File Id="215706291"/>
+								<File Id="433614331"/>
+								<File Id="907288279"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="82530028" Name="AudioEvent_DIALOG_K25_GoingNow" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_GoingNow" GUID="{39873577-0F4B-45ED-81CF-8DED41F964E4}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="2.000000" DurationMax="6.429688">
+					<IncludedMemoryFiles>
+						<File Id="497487692" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_03_goingnow.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_03_goingnow_7FA8D501.wem</Path>
+						</File>
+						<File Id="603221249" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_03_goingnow.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_03_goingnow_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="603221249"/>
+								<File Id="497487692"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="791929565" Name="AudioEvent_DIALOG_K25_Mori_A" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_Mori_A" GUID="{17656C14-7BCB-4785-A116-54D2E8AA39BF}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="6.101854">
+					<IncludedMemoryFiles>
+						<File Id="137199935" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_07_sights.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_07_sights_7FA8D501.wem</Path>
+						</File>
+						<File Id="973486992" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_07_sights.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_07_sights_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="137199935"/>
+								<File Id="973486992"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3566194170" Name="AudioEvent_DIALOG_K25_NoTears" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_NoTears" GUID="{A51B4B18-86D5-432D-86D4-F1C60712A677}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="8.026167">
+					<IncludedMemoryFiles>
+						<File Id="624141507" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_04_notears.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_04_notears_7FA8D501.wem</Path>
+						</File>
+						<File Id="808219996" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_04_notears.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_04_notears_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="808219996"/>
+								<File Id="624141507"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2549999348" Name="AudioEvent_DIALOG_K25_NotEscape" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_NotEscape" GUID="{C3944680-F3D9-4F8C-BDD8-26BC7F569080}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="5.056458">
+					<IncludedMemoryFiles>
+						<File Id="716310496" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_02_notescape.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_02_notescape_7FA8D501.wem</Path>
+						</File>
+						<File Id="1029479104" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_02_notescape.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_02_notescape_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="716310496"/>
+								<File Id="1029479104"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2214489122" Name="AudioEvent_DIALOG_K25_OhNo" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_OhNo" GUID="{DB719891-EEFF-4FDC-A974-E91D7DC019C5}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="5.750854">
+					<IncludedMemoryFiles>
+						<File Id="388454845" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_10_ohno.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_10_ohno_7FA8D501.wem</Path>
+						</File>
+						<File Id="810065710" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_10_ohno.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_10_ohno_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="388454845"/>
+								<File Id="810065710"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1765500821" Name="AudioEvent_DIALOG_K25_PWR_Teleport_Pt1_A" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_PWR_Teleport_Pt1_A" GUID="{4009B3CA-CE31-49F4-9443-27E646B72A7E}" DurationType="OneShot" DurationMin="5.659667" DurationMax="5.659667">
+					<IncludedMemoryFiles>
+						<File Id="406836257" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_05_thebox.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_05_thebox_7FA8D501.wem</Path>
+						</File>
+						<File Id="985796167" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_05_thebox.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_05_thebox_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1765500822" Name="AudioEvent_DIALOG_K25_PWR_Teleport_Pt1_B" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_PWR_Teleport_Pt1_B" GUID="{98E7AF79-8913-4239-903D-342A96219D70}" DurationType="OneShot" DurationMin="4.709521" DurationMax="4.709521">
+					<IncludedMemoryFiles>
+						<File Id="148112778" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_08_summoned.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_08_summoned_7FA8D501.wem</Path>
+						</File>
+						<File Id="559465013" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_08_summoned.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_08_summoned_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1765648106" Name="AudioEvent_DIALOG_K25_PWR_Teleport_Pt2_A" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_PWR_Teleport_Pt2_A" GUID="{E80D77E6-B58B-441C-8684-221D34B35D3C}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="4.754771" DurationMax="4.754771">
+					<IncludedMemoryFiles>
+						<File Id="141664630" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_06_icame.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_06_icame_7FA8D501.wem</Path>
+						</File>
+						<File Id="329805075" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_06_icame.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_06_icame_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="213010419" Name="AudioEvent_DIALOG_K25_TearSoul" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_TearSoul" GUID="{BBAA06DB-10EB-46A2-84B6-4A7D54E72B4A}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="5.411667">
+					<IncludedMemoryFiles>
+						<File Id="585827328" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_01_tearsoul.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_01_tearsoul_7FA8D501.wem</Path>
+						</File>
+						<File Id="1065927466" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_01_tearsoul.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_01_tearsoul_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="585827328"/>
+								<File Id="1065927466"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3393955345" Name="AudioEvent_DIALOG_K25_WhatAWaste" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_DIALOG_K25_WhatAWaste" GUID="{DAF6E780-41F0-4CF3-B0F6-AB835BD35BBD}" MaxAttenuation="2600.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="5.524229">
+					<IncludedMemoryFiles>
+						<File Id="381397698" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_11_wasteof.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_11_wasteof_7FA8D501.wem</Path>
+						</File>
+						<File Id="748980285" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_11_wasteof.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_DIALOG\sfx_k25_dialog_2d_11_wasteof_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C9E46C9E-97F5-4EA6-988C-A92DA4685CD8}">
+							<Media>
+								<File Id="748980285"/>
+								<File Id="381397698"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3283037983" Name="AudioEvent_K25_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_CLOTH\AudioEvent_K25_CLOTH_Default_Land" GUID="{ED5DAC2B-4298-4B8D-A91B-E97786703A36}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.751333" DurationMax="1.325333">
+					<IncludedMemoryFiles>
+						<File Id="70446095" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_06_4BEAA10A.wem</Path>
+						</File>
+						<File Id="274757845" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_01_4BEAA10A.wem</Path>
+						</File>
+						<File Id="602507471" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_05_4BEAA10A.wem</Path>
+						</File>
+						<File Id="636128987" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_02_4BEAA10A.wem</Path>
+						</File>
+						<File Id="671255352" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_03_4BEAA10A.wem</Path>
+						</File>
+						<File Id="679823429" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_04_4BEAA10A.wem</Path>
+						</File>
+						<File Id="728322294" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_07.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_land_07_4BEAA10A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="376266679" Name="AudioEvent_K25_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_CLOTH\AudioEvent_K25_CLOTH_Default_Move" GUID="{D892BE5C-1A52-4DDC-9B4B-3C215D71A1BB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.989333" DurationMax="1.689333">
+					<IncludedMemoryFiles>
+						<File Id="141093533" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_06_4BEAA10A.wem</Path>
+						</File>
+						<File Id="416225980" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_05_4BEAA10A.wem</Path>
+						</File>
+						<File Id="430601352" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_02_4BEAA10A.wem</Path>
+						</File>
+						<File Id="486836765" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_01_4BEAA10A.wem</Path>
+						</File>
+						<File Id="686142386" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_04_C6948666.wem</Path>
+						</File>
+						<File Id="822245497" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_03_245D8AAE.wem</Path>
+						</File>
+						<File Id="930960225" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_07.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_body_move_07_4BEAA10A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3968971051" Name="AudioEvent_K25_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_CLOTH\AudioEvent_K25_CLOTH_Default_ShuffleHigh" GUID="{E9A05B9A-C732-49BC-A147-12AC2061DEB2}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.650425" DurationMax="1.314122">
+					<IncludedMemoryFiles>
+						<File Id="118788245" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_03_BE7DF68E.wem</Path>
+						</File>
+						<File Id="253776647" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_01_4BEAA10A.wem</Path>
+						</File>
+						<File Id="321231371" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_05_B53A89BA.wem</Path>
+						</File>
+						<File Id="439914220" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_04_4BEAA10A.wem</Path>
+						</File>
+						<File Id="567102957" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_high_02_4BEAA10A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3039357807" Name="AudioEvent_K25_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_CLOTH\AudioEvent_K25_CLOTH_Default_ShuffleLow" GUID="{35AF9E98-495A-43F3-BFD5-5F68F53D06A7}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.036000" DurationMax="1.418667">
+					<ExcludedMemoryFiles>
+						<File Id="132327143" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="367203452" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="494110553" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="523990720" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_07.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="744379754" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_06.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="749558160" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="994082064" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1024560027" Language="SFX">
+							<ShortName>Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_08.wav</ShortName>
+							<Path>SFX\Characters\KLR_24\K24_FOLEY\sfx_k24_shuffle_low_08_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="1885828548" Name="AudioEvent_K25_Gemini_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_STATUS\AudioEvent_K25_Gemini_Status_Start" GUID="{E5F29E94-6A45-4ACF-896B-F6643FCF7365}" MaxAttenuation="1900.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -196,6 +515,14 @@
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="171420479" Name="AudioEvent_K25_GRUNT_Chatterer_Teleport_Pt2" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_Chatterer_Teleport_Pt2" GUID="{1673BE12-268B-4D4D-A5A8-6C0A94C66954}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.136907" DurationMax="3.136907">
+					<IncludedMemoryFiles>
+						<File Id="215706291" Language="SFX">
+							<ShortName>Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_teleport.wav</ShortName>
+							<Path>SFX\Characters\KLR_25\K25_GRUNT\K25_GRUNT_Chatterer\sfx_k25_grunt_chatterer_teleport_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3890205039" Name="AudioEvent_K25_GRUNT_Repossess_Husk" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_GRUNTS\AudioEvent_K25_GRUNT_Repossess_Husk" GUID="{E71C5D13-F606-49D8-8A3E-30E9D76F0572}" DurationType="OneShot" DurationMin="3.504493" DurationMax="5.142698">
 					<IncludedMemoryFiles>
@@ -1562,9 +1889,6 @@
 							<Path>SFX\Characters\KLR_25\K25_PWR\sfx_k25_pwr_teleport_charge_7FA8D501.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3185455491" Name="AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_VO_DIALOG\AudioEvent_K25_DIALOG_PWR_Teleport_Pt1" GUID="{4009B3CA-CE31-49F4-9443-27E646B72A7E}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="3587893300" Name="AudioEvent_K25_PWR_Teleport_FadeOutBegin" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_Teleport_FadeOutBegin" GUID="{D51890DA-58B1-4205-8CA4-468ECC2967DF}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="238036581" Name="AudioEvent_K25_PWR_Teleport_Vignette_Off" ObjectPath="\Events\CHARACTER\KILLER\KLR_25_Gemini\K25_POWER\AudioEvent_K25_PWR_Teleport_Vignette_Off" GUID="{816236C8-96D2-4BDA-AED6-B3A63690EA3E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

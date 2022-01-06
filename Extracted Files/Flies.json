@@ -1,0 +1,79 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\",
+   "SourceFilesRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Jupiter_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1457611216",
+    "GUID": "{D5AAC3C3-F2FE-493F-AD59-EC9484092776}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\OBJECT\\OBJECT_DECO\\Flies",
+    "ShortName": "Flies",
+    "Path": "Flies.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "445229126",
+      "Name": "AudioEvent_Flies_Loop",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Animals\\Flies\\AudioEvent_Flies_Loop",
+      "GUID": "{A2822DA5-D82A-4892-AB00-FA153F14E1B1}",
+      "MaxAttenuation": "450.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "121830662",
+        "Language": "SFX",
+        "ShortName": "Objects\\Flys\\sfx_flies_loop_02.wav",
+        "Path": "SFX\\Objects\\Flys\\sfx_flies_loop_02_0BC91DCF.wem"
+       },
+       {
+        "Id": "565819124",
+        "Language": "SFX",
+        "ShortName": "Objects\\Flys\\sfx_flies_loop_01.wav",
+        "Path": "SFX\\Objects\\Flys\\sfx_flies_loop_01_0BC91DCF.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1271754253",
+        "Name": "MENU_OBJECT_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_OBJECT_AUX",
+        "GUID": "{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "121830662",
+      "Language": "SFX",
+      "ShortName": "Objects\\Flys\\sfx_flies_loop_02.wav",
+      "Path": "SFX\\Objects\\Flys\\sfx_flies_loop_02_0BC91DCF.wem"
+     },
+     {
+      "Id": "565819124",
+      "Language": "SFX",
+      "ShortName": "Objects\\Flys\\sfx_flies_loop_01.wav",
+      "Path": "SFX\\Objects\\Flys\\sfx_flies_loop_01_0BC91DCF.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4096507154",
+      "Name": "AudioRTPC_Listener_Angle_Object_Relative",
+      "ObjectPath": "\\Game Parameters\\RTPC_WORLD\\AudioRTPC_Listener_Angle_Object_Relative",
+      "GUID": "{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"
+     }
+    ]
+   }
+  ]
+ }
+}

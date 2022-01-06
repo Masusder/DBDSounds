@@ -1,0 +1,1621 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\",
+   "SourceFilesRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Jupiter_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1491115650",
+    "GUID": "{86A8B68F-CA47-44FE-B3EC-5FEFC2754A81}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\CHARACTER\\KILLER\\KLR_03",
+    "ShortName": "KLR_03",
+    "Path": "KLR_03.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2092267674",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Hit_Object",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Hit_Object",
+      "GUID": "{99176CA8-E25E-4A4E-9444-710F36C9E4D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.488628",
+      "DurationMax": "2.135102",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30213688",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_01_67368C31.wem"
+       },
+       {
+        "Id": "151744445",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01_67368C31.wem"
+       },
+       {
+        "Id": "191971888",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_02_67368C31.wem"
+       },
+       {
+        "Id": "239599534",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_04.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_04_67368C31.wem"
+       },
+       {
+        "Id": "358057694",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_03.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_03_67368C31.wem"
+       },
+       {
+        "Id": "778649255",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01_7FA8D501.wem"
+       },
+       {
+        "Id": "784019472",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_02_67368C31.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "416186409",
+        "Name": "AudioEvent_Chainsaw_HillBilly_Stop",
+        "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Stop",
+        "GUID": "{BF061916-460B-4AD3-819C-8D053C7D9291}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\2D\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       }
+      ]
+     },
+     {
+      "Id": "1514105209",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Hit_Survivor",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Hit_Survivor",
+      "GUID": "{E3A3A199-8382-45C2-9313-F953A444F261}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.688628",
+      "DurationMax": "2.335102",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30213688",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_01_67368C31.wem"
+       },
+       {
+        "Id": "191971888",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_02_67368C31.wem"
+       },
+       {
+        "Id": "244654283",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_body_loop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_body_loop_02_6931D3FB.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "416186409",
+        "Name": "AudioEvent_Chainsaw_HillBilly_Stop",
+        "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Stop",
+        "GUID": "{BF061916-460B-4AD3-819C-8D053C7D9291}"
+       },
+       {
+        "Id": "1440243927",
+        "Name": "AudioEvent_Blood_ChainSaw_Loop_Stop",
+        "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\Blood\\AudioEvent_Blood_ChainSaw_Loop_Stop",
+        "GUID": "{6B1E7C81-67B8-427E-9A4C-D124A877AF04}"
+       },
+       {
+        "Id": "3415251201",
+        "Name": "AudioEvent_Blood_ChainSaw_Loop_Play",
+        "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\Blood\\AudioEvent_Blood_ChainSaw_Loop_Play",
+        "GUID": "{FFB10B8D-6722-4D94-BBE7-1D464D10157E}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\2D\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       },
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "1244037019",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Hit_Survivor_Mori",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Hit_Survivor_Mori",
+      "GUID": "{5737A819-8F9F-4039-9998-632C9139F034}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "22689873",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_05.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_05_7FA8D501.wem"
+       },
+       {
+        "Id": "30213688",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_01_67368C31.wem"
+       },
+       {
+        "Id": "37377127",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_04.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_04_7FA8D501.wem"
+       },
+       {
+        "Id": "60334813",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_13.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_13_67368C31.wem"
+       },
+       {
+        "Id": "122653075",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_03.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_03_7FA8D501.wem"
+       },
+       {
+        "Id": "154282370",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_05.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_05_67368C31.wem"
+       },
+       {
+        "Id": "186028484",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_14.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_14_67368C31.wem"
+       },
+       {
+        "Id": "191971888",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_02_67368C31.wem"
+       },
+       {
+        "Id": "244654283",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_body_loop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_body_loop_02_6931D3FB.wem"
+       },
+       {
+        "Id": "248776406",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_02_7FA8D501.wem"
+       },
+       {
+        "Id": "289246203",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_12.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_12_67368C31.wem"
+       },
+       {
+        "Id": "883260334",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_01_7FA8D501.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1440243927",
+        "Name": "AudioEvent_Blood_ChainSaw_Loop_Stop",
+        "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\Blood\\AudioEvent_Blood_ChainSaw_Loop_Stop",
+        "GUID": "{6B1E7C81-67B8-427E-9A4C-D124A877AF04}"
+       },
+       {
+        "Id": "3415251201",
+        "Name": "AudioEvent_Blood_ChainSaw_Loop_Play",
+        "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\Blood\\AudioEvent_Blood_ChainSaw_Loop_Play",
+        "GUID": "{FFB10B8D-6722-4D94-BBE7-1D464D10157E}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "558305491",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Hit_Wall",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Hit_Wall",
+      "GUID": "{7FEE41EC-EE18-4510-9959-FB2F73AEBB15}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.188628",
+      "DurationMax": "1.835102",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30213688",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_01_67368C31.wem"
+       },
+       {
+        "Id": "151744445",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01_67368C31.wem"
+       },
+       {
+        "Id": "191971888",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_02_67368C31.wem"
+       },
+       {
+        "Id": "239599534",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_04.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_04_67368C31.wem"
+       },
+       {
+        "Id": "358057694",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_03.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_03_67368C31.wem"
+       },
+       {
+        "Id": "778649255",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_01_7FA8D501.wem"
+       },
+       {
+        "Id": "784019472",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_hit_wall_02_67368C31.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "416186409",
+        "Name": "AudioEvent_Chainsaw_HillBilly_Stop",
+        "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Stop",
+        "GUID": "{BF061916-460B-4AD3-819C-8D053C7D9291}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\2D\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       }
+      ]
+     },
+     {
+      "Id": "2571249149",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Idle_Loop_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Idle_Loop_Start",
+      "GUID": "{3542C126-E467-4C1C-9186-722E8C276F1A}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "40354129",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_stress_loop_04.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_stress_loop_04_256CDB0F.wem"
+       },
+       {
+        "Id": "728471210",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_stress_loop_05.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_stress_loop_05_256CDB0F.wem"
+       },
+       {
+        "Id": "821658842",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_idle_loop_Mix_Bounce.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_idle_loop_Mix_Bounce_0BC91DCF.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1429616487",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Overheat_End",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Overheat_End",
+      "GUID": "{18792877-ADBA-4174-9798-8F19EE23C1A0}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.864500",
+      "DurationMax": "0.891104",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "62744219",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_ready_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_ready_02_7FA8D501.wem"
+       },
+       {
+        "Id": "556465312",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_ready_03.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_ready_03_7FA8D501.wem"
+       },
+       {
+        "Id": "718907631",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_ready_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_ready_01_7FA8D501.wem"
+       }
+      ]
+     },
+     {
+      "Id": "365450836",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Overheat_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Overheat_Start",
+      "GUID": "{AF28411D-9174-490F-A5DE-6453AA2A0575}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.129167",
+      "DurationMax": "2.464292",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "538248666",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_overheat_03.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_overheat_03_7FA8D501.wem"
+       },
+       {
+        "Id": "989307942",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_overheat_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_overheat_02_7FA8D501.wem"
+       },
+       {
+        "Id": "1041134287",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_overheat_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_overheat_01_7FA8D501.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "416186409",
+        "Name": "AudioEvent_Chainsaw_HillBilly_Stop",
+        "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Stop",
+        "GUID": "{BF061916-460B-4AD3-819C-8D053C7D9291}"
+       }
+      ]
+     },
+     {
+      "Id": "1229843836",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Rev_Loop_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Rev_Loop_Start",
+      "GUID": "{F482718B-C70A-4233-8F18-5B46145EEE01}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "22689873",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_05.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_05_7FA8D501.wem"
+       },
+       {
+        "Id": "37377127",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_04.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_04_7FA8D501.wem"
+       },
+       {
+        "Id": "122653075",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_03.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_03_7FA8D501.wem"
+       },
+       {
+        "Id": "248776406",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_02_7FA8D501.wem"
+       },
+       {
+        "Id": "883260334",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_multi_01_7FA8D501.wem"
+       }
+      ]
+     },
+     {
+      "Id": "537169360",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Rev_Loop_Stop",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Rev_Loop_Stop",
+      "GUID": "{2C663EDE-8C0E-4C67-AD32-C4712EF336B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.088628",
+      "DurationMax": "1.735102",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30213688",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_01_67368C31.wem"
+       },
+       {
+        "Id": "191971888",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_02_67368C31.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "416186409",
+        "Name": "AudioEvent_Chainsaw_HillBilly_Stop",
+        "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Stop",
+        "GUID": "{BF061916-460B-4AD3-819C-8D053C7D9291}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\2D\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       }
+      ]
+     },
+     {
+      "Id": "4124253071",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Rev_Single",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Rev_Single",
+      "GUID": "{65147E21-54F9-4DA6-9096-DB4328F05DDA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.320354",
+      "DurationMax": "1.635102",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30213688",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_01_67368C31.wem"
+       },
+       {
+        "Id": "60334813",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_13.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_13_67368C31.wem"
+       },
+       {
+        "Id": "154282370",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_05.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_05_67368C31.wem"
+       },
+       {
+        "Id": "186028484",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_14.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_14_67368C31.wem"
+       },
+       {
+        "Id": "191971888",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_02_67368C31.wem"
+       },
+       {
+        "Id": "289246203",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_12.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_12_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "976357862",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Rev_Single_Attack",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Rev_Single_Attack",
+      "GUID": "{F2776865-B574-46B6-B86C-429589530FB5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.320354",
+      "DurationMax": "1.635102",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30213688",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_01_67368C31.wem"
+       },
+       {
+        "Id": "60334813",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_13.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_13_67368C31.wem"
+       },
+       {
+        "Id": "154282370",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_05.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_05_67368C31.wem"
+       },
+       {
+        "Id": "186028484",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_14.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_14_67368C31.wem"
+       },
+       {
+        "Id": "191971888",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_stop_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_stop_02_67368C31.wem"
+       },
+       {
+        "Id": "289246203",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_12.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_rev_single_12_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1813589596",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Startup",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Startup",
+      "GUID": "{943FF70E-E1F1-4D8F-A833-4880C5F5D01D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.684853",
+      "DurationMax": "0.833651",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "913967190",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_start_01.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_start_01_67368C31.wem"
+       },
+       {
+        "Id": "970904879",
+        "Language": "SFX",
+        "ShortName": "Objects\\Chainsaw\\sfx_chainsaw_attack_start_02.wav",
+        "Path": "SFX\\Objects\\Chainsaw\\sfx_chainsaw_attack_start_02_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "416186409",
+      "Name": "AudioEvent_Chainsaw_HillBilly_Stop",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_POWER\\AudioEvent_Chainsaw_HillBilly_Stop",
+      "GUID": "{BF061916-460B-4AD3-819C-8D053C7D9291}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3621992346",
+      "Name": "AudioEvent_K03_WPN_Default_Hammer_Arm",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_WEAPON\\AudioEvent_K03_WPN_Default_Hammer_Arm",
+      "GUID": "{D6AF35C3-03C7-4E38-8520-3519C3DF2446}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.467619",
+      "DurationMax": "0.578798",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "37062825",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_arm_move_01.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_arm_move_01_67368C31.wem"
+       },
+       {
+        "Id": "148734006",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_arm_move_04.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_arm_move_04_67368C31.wem"
+       },
+       {
+        "Id": "294386020",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_arm_move_02.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_arm_move_02_67368C31.wem"
+       },
+       {
+        "Id": "484595379",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_arm_move_03.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_arm_move_03_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "48891184",
+      "Name": "AudioEvent_K03_WPN_Default_Hammer_Attack",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_WEAPON\\AudioEvent_K03_WPN_Default_Hammer_Attack",
+      "GUID": "{BB789DC9-F778-47DC-9452-E3F7F2346F0C}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.415964",
+      "DurationMax": "0.859546",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "283762743",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_04.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_04_67368C31.wem"
+       },
+       {
+        "Id": "445819776",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_02.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_02_67368C31.wem"
+       },
+       {
+        "Id": "569110330",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_03.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_03_67368C31.wem"
+       },
+       {
+        "Id": "777313893",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_01.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_01_67368C31.wem"
+       },
+       {
+        "Id": "837543560",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_05.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_attack_whoosh_05_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "852667173",
+      "Name": "AudioEvent_K03_WPN_Default_Hammer_Flip",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_WEAPON\\AudioEvent_K03_WPN_Default_Hammer_Flip",
+      "GUID": "{CD038B2E-DCE3-47FF-99CE-89911A4BB8F3}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.499093",
+      "DurationMax": "0.714082",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "42818499",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_flip_whoosh_05.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_flip_whoosh_05_67368C31.wem"
+       },
+       {
+        "Id": "118841510",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_flip_whoosh_04.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_flip_whoosh_04_67368C31.wem"
+       },
+       {
+        "Id": "530083092",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Hammer\\sfx_weapon_hammer_flip_whoosh_03.wav",
+        "Path": "SFX\\Weapons\\Hammer\\sfx_weapon_hammer_flip_whoosh_03_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "2940787282",
+      "Name": "AudioEvent_K03_WPN_Default_Hammer_Impact",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_WEAPON\\AudioEvent_K03_WPN_Default_Hammer_Impact",
+      "GUID": "{5F7A9723-D9C0-45F6-B394-D8E401AA439D}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.811708",
+      "DurationMax": "1.338606",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "390177365",
+        "Language": "SFX",
+        "ShortName": "Impacts\\sfx_weapon_hammer_impact_hit_03.wav",
+        "Path": "SFX\\Impacts\\sfx_weapon_hammer_impact_hit_03_67368C31.wem"
+       },
+       {
+        "Id": "784028054",
+        "Language": "SFX",
+        "ShortName": "Impacts\\sfx_weapon_hammer_impact_hit_02.wav",
+        "Path": "SFX\\Impacts\\sfx_weapon_hammer_impact_hit_02_67368C31.wem"
+       },
+       {
+        "Id": "872969250",
+        "Language": "SFX",
+        "ShortName": "Impacts\\sfx_weapon_hammer_impact_hit_01.wav",
+        "Path": "SFX\\Impacts\\sfx_weapon_hammer_impact_hit_01_67368C31.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{82BAB65C-92F7-4F63-990C-4F5495B4979B}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{2792490C-9C7E-402A-B630-E1AEE10B67B0}",
+        "Media": [
+         {
+          "Id": "872969250"
+         },
+         {
+          "Id": "784028054"
+         },
+         {
+          "Id": "390177365"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3511018639",
+      "Name": "AudioEvent_K03_WPN_Default_Hammer_PullOut",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_WEAPON\\AudioEvent_K03_WPN_Default_Hammer_PullOut",
+      "GUID": "{D0893B40-DE70-43D5-86FF-835CCCE63422}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "1466983514",
+      "Name": "AudioEvent_Killer_HillBilly_Grunt_Hurt",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_GRUNT\\AudioEvent_Killer_HillBilly_Grunt_Hurt",
+      "GUID": "{753C7F12-5A37-4A35-8B22-A80D6925E23E}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.584331",
+      "DurationMax": "0.829478",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "132226834",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_05.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_05_67368C31.wem"
+       },
+       {
+        "Id": "492587789",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_01.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_01_67368C31.wem"
+       },
+       {
+        "Id": "528650092",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_04.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_04_67368C31.wem"
+       },
+       {
+        "Id": "591319690",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_02.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_02_67368C31.wem"
+       },
+       {
+        "Id": "663162209",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_03.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_hurt_03_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "1499771209",
+      "Name": "AudioEvent_Killer_HillBilly_Grunt_Sprint",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_GRUNT\\AudioEvent_Killer_HillBilly_Grunt_Sprint",
+      "GUID": "{1EC12AAD-29B3-4E60-8B8F-A1EB34C7C583}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.714000",
+      "DurationMax": "1.258467",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "58738074",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_02.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_02_7FA8D501.wem"
+       },
+       {
+        "Id": "445145578",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_04.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_04_7FA8D501.wem"
+       },
+       {
+        "Id": "567273890",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_01.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_01_7FA8D501.wem"
+       },
+       {
+        "Id": "1035824331",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_03.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\vo_killer_hillbilly_grunt_sprint_03_7FA8D501.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "1452588380",
+      "Name": "AudioEvent_Killer_HillBilly_Mori_Lick_Blood",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_GRUNT\\AudioEvent_Killer_HillBilly_Mori_Lick_Blood",
+      "GUID": "{35AB2542-853A-4FE8-A766-BBE85ED6B1ED}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.354925",
+      "DurationMax": "0.478917",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "106943639",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Witch\\sfx_killer_lick_blood_02.wav",
+        "Path": "SFX\\Characters\\Killer_Witch\\sfx_killer_lick_blood_02_67368C31.wem"
+       },
+       {
+        "Id": "634907896",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Witch\\sfx_killer_lick_blood_03.wav",
+        "Path": "SFX\\Characters\\Killer_Witch\\sfx_killer_lick_blood_03_67368C31.wem"
+       },
+       {
+        "Id": "1056507466",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Witch\\sfx_killer_lick_blood_01.wav",
+        "Path": "SFX\\Characters\\Killer_Witch\\sfx_killer_lick_blood_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3847529075",
+      "Name": "AudioEvent_KLR_03_Status_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_STATUS\\AudioEvent_KLR_03_Status_Start",
+      "GUID": "{D9DA2DB9-1EE4-49FD-B2D5-4AC100D276B9}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "679709",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_9.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_9_67368C31.wem"
+       },
+       {
+        "Id": "309958270",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_4.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_4_67368C31.wem"
+       },
+       {
+        "Id": "332077002",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_2.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_2_67368C31.wem"
+       },
+       {
+        "Id": "352413719",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_10.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_10_67368C31.wem"
+       },
+       {
+        "Id": "473817572",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_7.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_7_67368C31.wem"
+       },
+       {
+        "Id": "621023237",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_8.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_8_67368C31.wem"
+       },
+       {
+        "Id": "656365971",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_1.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_1_67368C31.wem"
+       },
+       {
+        "Id": "836848185",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_6.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_6_67368C31.wem"
+       },
+       {
+        "Id": "961146931",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_5.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_5_67368C31.wem"
+       },
+       {
+        "Id": "1029593814",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_3.wav",
+        "Path": "SFX\\Characters\\Killer_Hillbilly\\sfx_killer_hillbilly_normal_breath_3_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "4119450440",
+      "Name": "AudioEvent_MenuIdle_Arm_Wipe",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_STATUS\\AudioEvent_MenuIdle_Arm_Wipe",
+      "GUID": "{C97DE51B-952E-45C0-A869-19B203CDFACB}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.837930",
+      "DurationMax": "1.055725",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "19259635",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_machete_clean_01_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_machete_clean_01_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "705177838",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_machete_clean_02_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_machete_clean_02_interrupt_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "266186349",
+      "Name": "AudioEvent_MenuIdle_Hammer_Attack",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_STATUS\\AudioEvent_MenuIdle_Hammer_Attack",
+      "GUID": "{D3567AAF-13B4-4FD5-B2B1-EDA73F3F45F6}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.415964",
+      "DurationMax": "0.859546",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "78903791",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_weapon_hammer_attack_whoosh_04_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_weapon_hammer_attack_whoosh_04_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "238702943",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_weapon_hammer_attack_whoosh_02_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_weapon_hammer_attack_whoosh_02_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "261636696",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_weapon_hammer_attack_whoosh_01_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_weapon_hammer_attack_whoosh_01_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "333107202",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_weapon_hammer_attack_whoosh_05_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_weapon_hammer_attack_whoosh_05_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "369839913",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_weapon_hammer_attack_whoosh_03_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_weapon_hammer_attack_whoosh_03_interrupt_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1418756908",
+      "Name": "AudioEvent_MenuIdle_Hammer_Clean",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_STATUS\\AudioEvent_MenuIdle_Hammer_Clean",
+      "GUID": "{E209F462-3CD5-48A0-B51C-D0DA80A1ED15}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.588633",
+      "DurationMax": "1.332070",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "37606997",
+        "Language": "SFX",
+        "ShortName": "Menu\\SledgeHammer_Clean_Foley_cn_01_interrupt.wav",
+        "Path": "SFX\\Menu\\SledgeHammer_Clean_Foley_cn_01_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "60540283",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_sledgehammer_clean_10_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_sledgehammer_clean_10_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "402360034",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_sledgehammer_clean_12_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_sledgehammer_clean_12_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "445341299",
+        "Language": "SFX",
+        "ShortName": "Menu\\sfx_sledgehammer_clean_11_interrupt.wav",
+        "Path": "SFX\\Menu\\sfx_sledgehammer_clean_11_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "1021212493",
+        "Language": "SFX",
+        "ShortName": "Menu\\SledgeHammer_Clean_Foley_cn_02_interrupt.wav",
+        "Path": "SFX\\Menu\\SledgeHammer_Clean_Foley_cn_02_interrupt_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3343030823",
+      "Name": "AudioEvent_MenuIdle_Hammer_Impact",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_STATUS\\AudioEvent_MenuIdle_Hammer_Impact",
+      "GUID": "{66401D05-7DF1-4092-B59D-7EDE71364E1D}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.768000",
+      "DurationMax": "1.066667",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "155795107",
+        "Language": "SFX",
+        "ShortName": "Menu\\MenuIdle_Hammer_Impact_Bounce_01.wav",
+        "Path": "SFX\\Menu\\MenuIdle_Hammer_Impact_Bounce_01_67368C31.wem"
+       },
+       {
+        "Id": "166454025",
+        "Language": "SFX",
+        "ShortName": "Menu\\MenuIdle_Hammer_Impact_Bounce_05.wav",
+        "Path": "SFX\\Menu\\MenuIdle_Hammer_Impact_Bounce_05_67368C31.wem"
+       },
+       {
+        "Id": "716327686",
+        "Language": "SFX",
+        "ShortName": "Menu\\MenuIdle_Hammer_Impact_Bounce_02.wav",
+        "Path": "SFX\\Menu\\MenuIdle_Hammer_Impact_Bounce_02_67368C31.wem"
+       },
+       {
+        "Id": "803355093",
+        "Language": "SFX",
+        "ShortName": "Menu\\MenuIdle_Hammer_Impact_Bounce_04.wav",
+        "Path": "SFX\\Menu\\MenuIdle_Hammer_Impact_Bounce_04_67368C31.wem"
+       },
+       {
+        "Id": "857742845",
+        "Language": "SFX",
+        "ShortName": "Menu\\MenuIdle_Hammer_Impact_Bounce_03.wav",
+        "Path": "SFX\\Menu\\MenuIdle_Hammer_Impact_Bounce_03_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2762842253",
+      "Name": "AudioEvent_MenuIdle_HillBilly_Scream",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_03_HillBilly\\K03_STATUS\\AudioEvent_MenuIdle_HillBilly_Scream",
+      "GUID": "{5F661DA9-79DA-46B6-9BC2-36C2F9934DE1}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.772902",
+      "DurationMax": "0.829478",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "880518789",
+        "Language": "SFX",
+        "ShortName": "Menu\\vo_killer_hillbilly_grunt_hurt_01_interrupt.wav",
+        "Path": "SFX\\Menu\\vo_killer_hillbilly_grunt_hurt_01_interrupt_67368C31.wem"
+       },
+       {
+        "Id": "959217104",
+        "Language": "SFX",
+        "ShortName": "Menu\\vo_killer_hillbilly_grunt_hurt_04_interrupt.wav",
+        "Path": "SFX\\Menu\\vo_killer_hillbilly_grunt_hurt_04_interrupt_67368C31.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "109935601",
+      "Language": "SFX",
+      "ShortName": "Music\\mu_terrorradius_k03_layer_02.wav",
+      "Path": "SFX\\Music\\mu_terrorradius_k03_layer_02_256CDB0F.wem"
+     },
+     {
+      "Id": "153271411",
+      "Language": "SFX",
+      "ShortName": "Music\\mu_terrorradius_k03_layer_04.wav",
+      "Path": "SFX\\Music\\mu_terrorradius_k03_layer_04_256CDB0F.wem"
+     },
+     {
+      "Id": "700954980",
+      "Language": "SFX",
+      "ShortName": "Music\\mu_terrorradius_k03_layer_01.wav",
+      "Path": "SFX\\Music\\mu_terrorradius_k03_layer_01_256CDB0F.wem"
+     },
+     {
+      "Id": "1015773943",
+      "Language": "SFX",
+      "ShortName": "Music\\mu_terrorradius_k03_layer_03.wav",
+      "Path": "SFX\\Music\\mu_terrorradius_k03_layer_03_256CDB0F.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1071185174",
+      "Name": "AudioRTPC_KLR_03_Chainsaw_HeatPercentage",
+      "ObjectPath": "\\Game Parameters\\RTPC_CHARACTER\\RTPC_K03_HillBilly\\AudioRTPC_KLR_03_Chainsaw_HeatPercentage",
+      "GUID": "{E2651C1B-8840-42AF-92D4-E62D1D68CAB5}"
+     },
+     {
+      "Id": "1343933513",
+      "Name": "AudioRTPC_VOL_KLR_GRUNT",
+      "ObjectPath": "\\Game Parameters\\RTPC_VOLUME\\AudioRTPC_VOL_KLR_GRUNT",
+      "GUID": "{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"
+     },
+     {
+      "Id": "2444086592",
+      "Name": "AudioRTPC_Proximity_Terror_Radius",
+      "ObjectPath": "\\Game Parameters\\RTPC_CHARACTER\\RTPC_00_COMMON\\AudioRTPC_Proximity_Terror_Radius",
+      "GUID": "{B90C8BF7-27D1-46A0-8417-5EA7C60184A3}"
+     },
+     {
+      "Id": "2935614212",
+      "Name": "AudioRTPC_Chase_Survivor",
+      "ObjectPath": "\\Game Parameters\\RTPC_CHARACTER\\RTPC_00_COMMON\\AudioRTPC_Chase_Survivor",
+      "GUID": "{173C4D0D-11E9-4F47-871B-1284E8907774}"
+     },
+     {
+      "Id": "4096507154",
+      "Name": "AudioRTPC_Listener_Angle_Object_Relative",
+      "ObjectPath": "\\Game Parameters\\RTPC_WORLD\\AudioRTPC_Listener_Angle_Object_Relative",
+      "GUID": "{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1168819874",
+      "Name": "AudioSwitchSurface",
+      "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface",
+      "GUID": "{371C038E-C81E-4B1E-BEF0-AC9809AE0B13}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Wood",
+        "GUID": "{220AA47D-7E65-4864-A865-719DAC7D0078}"
+       },
+       {
+        "Id": "2315975534",
+        "Name": "Metal_Hard",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Metal_Hard",
+        "GUID": "{927B6344-7A96-4DF4-AFE4-4E141E97A81F}"
+       },
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Mud",
+        "GUID": "{1974DF19-3EAC-4718-94A9-7C7895513BA6}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Concrete",
+        "GUID": "{9947A5B8-0A0B-4897-BF44-2905F208E8DD}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Dirt",
+        "GUID": "{F8694AFD-F385-4983-A2F5-5B159E8ED9D2}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Gravel",
+        "GUID": "{175357DC-ECFA-4355-93E2-1A75AFA11C43}"
+       },
+       {
+        "Id": "504532776",
+        "Name": "Brick",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Brick",
+        "GUID": "{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}"
+       },
+       {
+        "Id": "2932679629",
+        "Name": "Vegetation",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Vegetation",
+        "GUID": "{A941FD53-8C7E-4702-8A7E-95B4CFB4DE52}"
+       },
+       {
+        "Id": "3787826983",
+        "Name": "Corn",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Corn",
+        "GUID": "{41A7F3B6-4B78-421A-BAD3-16E485BDB8D0}"
+       },
+       {
+        "Id": "3681786913",
+        "Name": "Metal_Soft",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Metal_Soft",
+        "GUID": "{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}"
+       },
+       {
+        "Id": "2981489164",
+        "Name": "FleshDry",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\FleshDry",
+        "GUID": "{A602BDEB-16F8-46CD-BB54-CFE585D15F02}"
+       },
+       {
+        "Id": "3322072369",
+        "Name": "Tree",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Tree",
+        "GUID": "{646F7389-CAE6-4F36-AEB3-BA5883FFBC7A}"
+       },
+       {
+        "Id": "2144363834",
+        "Name": "Rock",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Rock",
+        "GUID": "{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}"
+       },
+       {
+        "Id": "3934470635",
+        "Name": "Blood",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Blood",
+        "GUID": "{46A7CC2C-1CCD-4037-9FB7-52AD43498872}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Water",
+        "GUID": "{01B02E8C-F215-4C55-A4A7-703EC37B779F}"
+       },
+       {
+        "Id": "2449969375",
+        "Name": "Glass",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Glass",
+        "GUID": "{D024D7D1-8B15-432A-933B-97316C21555A}"
+       },
+       {
+        "Id": "3562804263",
+        "Name": "ChainLinkFence",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\ChainLinkFence",
+        "GUID": "{300CE055-A091-4BE3-A8A0-DE735DDACBE8}"
+       },
+       {
+        "Id": "660835419",
+        "Name": "Plastic",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Plastic",
+        "GUID": "{E10DE96C-22AC-408E-9FC6-443E95F6B542}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Carpet",
+        "GUID": "{F167B121-F497-496D-A248-9FF4BF749539}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Sand",
+        "GUID": "{33C94342-DC4C-4551-AE18-3B244ECA0689}"
+       },
+       {
+        "Id": "2108779961",
+        "Name": "Wall",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Wall",
+        "GUID": "{131534FE-9431-446B-854D-1E81BA3C77E7}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Snow",
+        "GUID": "{61C0A8D2-F421-465E-A55C-823BB4931283}"
+       },
+       {
+        "Id": "3825060929",
+        "Name": "Metal_Grid",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Metal_Grid",
+        "GUID": "{2792490C-9C7E-402A-B630-E1AEE10B67B0}"
+       },
+       {
+        "Id": "2736974230",
+        "Name": "Tarp",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Tarp",
+        "GUID": "{834AF73E-2FDA-4B1F-ABF8-7E926EA04F5E}"
+       },
+       {
+        "Id": "3841404889",
+        "Name": "Plexiglass",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Plexiglass",
+        "GUID": "{816BCA21-2268-4487-BF96-A5B26BCB03FC}"
+       },
+       {
+        "Id": "3006065224",
+        "Name": "Barrel_Plastic",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Barrel_Plastic",
+        "GUID": "{C1C58031-724C-47CC-9412-B4B8142690DD}"
+       },
+       {
+        "Id": "2507846665",
+        "Name": "Barrel_Metal",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Barrel_Metal",
+        "GUID": "{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}"
+       },
+       {
+        "Id": "3670307564",
+        "Name": "Drywall",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Drywall",
+        "GUID": "{D1454CB1-47C3-40C2-A2DE-B7D285618338}"
+       },
+       {
+        "Id": "3023765155",
+        "Name": "TECH_Debris_Rock",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\TECH_Debris_Rock",
+        "GUID": "{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}"
+       },
+       {
+        "Id": "2003165988",
+        "Name": "TECH_Debris_Glass",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\TECH_Debris_Glass",
+        "GUID": "{38536567-1A12-4FD1-8DCF-06603790A598}"
+       },
+       {
+        "Id": "1675720334",
+        "Name": "TECH_Debris_Trash",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\TECH_Debris_Trash",
+        "GUID": "{48A06FE5-D77E-440C-BC12-44D3DFE248E2}"
+       },
+       {
+        "Id": "3006696107",
+        "Name": "Tire",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Tire",
+        "GUID": "{978DAF7D-37D9-4EB1-BF47-9FAE7D88E73D}"
+       },
+       {
+        "Id": "2243064231",
+        "Name": "FleshJuicy",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\FleshJuicy",
+        "GUID": "{83EDD421-A376-401D-9D56-3CC8596D4C20}"
+       },
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Default",
+        "GUID": "{82BAB65C-92F7-4F63-990C-4F5495B4979B}"
+       },
+       {
+        "Id": "1229756253",
+        "Name": "Cardboard",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Cardboard",
+        "GUID": "{15062674-8B2F-4664-AEB6-B4178F782C33}"
+       },
+       {
+        "Id": "329716760",
+        "Name": "Typewriter",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Typewriter",
+        "GUID": "{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}"
+       },
+       {
+        "Id": "582824249",
+        "Name": "Leaves",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Leaves",
+        "GUID": "{6F4878BC-2C2D-4042-BC8E-03B16078145B}"
+       }
+      ]
+     },
+     {
+      "Id": "2003718045",
+      "Name": "AudioSwitchStatesSurvivor",
+      "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor",
+      "GUID": "{A172B188-385A-4B2F-9B5B-01C1D0763E22}",
+      "Switches": [
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Normal",
+        "GUID": "{4634728D-A6EC-463F-98B7-88625AA203FB}"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Running",
+        "GUID": "{C122D54D-7534-40F3-9278-C4B3885FC8A1}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Dead",
+        "GUID": "{3AAC6EB5-396F-445C-9C9B-7F35A2688A75}"
+       },
+       {
+        "Id": "3413347345",
+        "Name": "Healing",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Healing",
+        "GUID": "{23B62077-3C78-4A2C-9ED3-6207E562EFB0}"
+       },
+       {
+        "Id": "1848633330",
+        "Name": "Hooked_Part1",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Hooked_Part1",
+        "GUID": "{05374D88-4159-48FB-9221-5804D3776A9D}"
+       },
+       {
+        "Id": "559827443",
+        "Name": "Captured",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Captured",
+        "GUID": "{4B05EE76-2F40-47BF-B51C-3D49C36C540B}"
+       },
+       {
+        "Id": "2860195132",
+        "Name": "Injured",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Injured",
+        "GUID": "{C6A55A58-493C-4921-A35A-7A4B7296A933}"
+       },
+       {
+        "Id": "3328495488",
+        "Name": "Dying",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Dying",
+        "GUID": "{87ED9576-D64C-486B-80A5-29160DA2BBC0}"
+       },
+       {
+        "Id": "1848633329",
+        "Name": "Hooked_Part2",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Hooked_Part2",
+        "GUID": "{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}"
+       },
+       {
+        "Id": "1919908153",
+        "Name": "Normal_Crouch",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Normal_Crouch",
+        "GUID": "{E376616F-981E-41F4-9032-AB5D789371F0}"
+       },
+       {
+        "Id": "121290285",
+        "Name": "Injured_Crouch",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Injured_Crouch",
+        "GUID": "{B5F3498F-7451-47C5-B4EF-A1D4520FB19C}"
+       },
+       {
+        "Id": "3200746917",
+        "Name": "Choked",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Choked",
+        "GUID": "{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}"
+       },
+       {
+        "Id": "3094692510",
+        "Name": "Injured_Hiding",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Injured_Hiding",
+        "GUID": "{54A0B897-2A42-4AE1-B0D5-CA909A8C5F16}"
+       },
+       {
+        "Id": "63215442",
+        "Name": "Normal_Hiding",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Normal_Hiding",
+        "GUID": "{21B70A73-E2F6-4A2B-B152-265C2483D367}"
+       }
+      ]
+     },
+     {
+      "Id": "3548994684",
+      "Name": "AudioSwitchProximity",
+      "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchProximity",
+      "GUID": "{A238147F-8756-470E-AC66-0AFAF133FD8A}",
+      "Switches": [
+       {
+        "Id": "4248742144",
+        "Name": "Nothing",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchProximity\\Nothing",
+        "GUID": "{5B89779D-7E3C-4C6A-ACE5-5EDAC3AF6402}"
+       },
+       {
+        "Id": "1256202815",
+        "Name": "Play",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchProximity\\Play",
+        "GUID": "{40D8D63D-A241-4B30-8DD9-892C554BEA5C}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,2186 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\",
+   "SourceFilesRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Jupiter_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1474338094",
+    "GUID": "{EA980972-8EFF-45CA-9F4D-71F5F0AB4080}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\CHARACTER\\KILLER\\KLR_10",
+    "ShortName": "KLR_10",
+    "Path": "KLR_10.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1091021530",
+      "Name": "AudioEvent_Dream_v2_Activate",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Activate",
+      "GUID": "{B0A8CCEA-B12F-4400-AB55-973ED5E9E28D}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "261318067",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Dream\\AMB_Dream_Bounce_short.wav",
+        "Path": "SFX\\Ambience\\Dream\\AMB_Dream_Bounce_short_0BC91DCF.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "348918411",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05_67368C31.wem"
+       },
+       {
+        "Id": "356292965",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01_67368C31.wem"
+       },
+       {
+        "Id": "389428189",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03_67368C31.wem"
+       },
+       {
+        "Id": "551732080",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04_67368C31.wem"
+       },
+       {
+        "Id": "611583459",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\Dream_v2_Activate_MixBounce.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\Dream_v2_Activate_MixBounce_67368C31.wem"
+       },
+       {
+        "Id": "920066745",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02_67368C31.wem"
+       },
+       {
+        "Id": "957344489",
+        "Language": "SFX",
+        "ShortName": "Music\\mu_lullaby_k10.wav",
+        "Path": "SFX\\Music\\mu_lullaby_k10_71302ED5.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{4634728D-A6EC-463F-98B7-88625AA203FB}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{C122D54D-7534-40F3-9278-C4B3885FC8A1}",
+        "Media": [
+         {
+          "Id": "957344489"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4B05EE76-2F40-47BF-B51C-3D49C36C540B}",
+        "Media": [
+         {
+          "Id": "957344489"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2007833712",
+        "Name": "AudioStateDream_v2_On",
+        "ObjectPath": "\\States\\STATES_KILLER\\STATE_K10_Sandman\\AudioStateDream_v2\\AudioStateDream_v2_On",
+        "GUID": "{59DF2AF0-AAA4-4DBE-A832-5EFD4F37687E}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3402952576",
+      "Name": "AudioEvent_Dream_v2_Activate_Killer",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Activate_Killer",
+      "GUID": "{F2AB1894-80F3-411A-8CC7-C5F287EDA029}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "261318067",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Dream\\AMB_Dream_Bounce_short.wav",
+        "Path": "SFX\\Ambience\\Dream\\AMB_Dream_Bounce_short_0BC91DCF.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "348918411",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05_67368C31.wem"
+       },
+       {
+        "Id": "356292965",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01_67368C31.wem"
+       },
+       {
+        "Id": "389428189",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03_67368C31.wem"
+       },
+       {
+        "Id": "551732080",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04_67368C31.wem"
+       },
+       {
+        "Id": "920066745",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02_67368C31.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2007833712",
+        "Name": "AudioStateDream_v2_On",
+        "ObjectPath": "\\States\\STATES_KILLER\\STATE_K10_Sandman\\AudioStateDream_v2\\AudioStateDream_v2_On",
+        "GUID": "{59DF2AF0-AAA4-4DBE-A832-5EFD4F37687E}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3524532108",
+      "Name": "AudioEvent_Dream_v2_Desactivate",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Desactivate",
+      "GUID": "{88FEF80E-B20A-4844-A22D-084A61B659EC}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.672000",
+      "DurationMax": "4.672000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "55833063",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\Dream_v2_Desactivate_MixBounce.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\Dream_v2_Desactivate_MixBounce_7FA8D501.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "3716403342",
+        "Name": "AudioStateDream_v2_Off",
+        "ObjectPath": "\\States\\STATES_KILLER\\STATE_K10_Sandman\\AudioStateDream_v2\\AudioStateDream_v2_Off",
+        "GUID": "{679B685C-56E7-4338-BE00-D01C70B51A8E}"
+       }
+      ]
+     },
+     {
+      "Id": "1763286900",
+      "Name": "AudioEvent_Dream_v2_Killer_Appear",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Killer_Appear",
+      "GUID": "{E6B86CCD-AF05-4D81-AEF7-028456ED813D}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.042756",
+      "DurationMax": "1.313790",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "9806400",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_02.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_02_67368C31.wem"
+       },
+       {
+        "Id": "702353782",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_01.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_01_67368C31.wem"
+       },
+       {
+        "Id": "966939787",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_appear_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_appear_01_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2880464422",
+      "Name": "AudioEvent_Dream_v2_Killer_Disappear",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Killer_Disappear",
+      "GUID": "{3C504750-7748-4CB7-883B-51C23AF2F751}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.984230",
+      "DurationMax": "1.391912",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "9806400",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_02.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_02_67368C31.wem"
+       },
+       {
+        "Id": "140464312",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_disappear_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_disappear_01_67368C31.wem"
+       },
+       {
+        "Id": "702353782",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_01.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_01_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1441747636",
+      "Name": "AudioEvent_Dream_v2_Killer_DreamerNotification",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Killer_DreamerNotification",
+      "GUID": "{8E691A02-537E-462F-AE6A-D636E6D78E9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.040091",
+      "DurationMax": "3.816333",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "71666505",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_tag_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_tag_03_67368C31.wem"
+       },
+       {
+        "Id": "509747441",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_tag_06.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_tag_06_67368C31.wem"
+       },
+       {
+        "Id": "513850203",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_tag_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_tag_02_67368C31.wem"
+       },
+       {
+        "Id": "591059502",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_tag_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_tag_01_67368C31.wem"
+       },
+       {
+        "Id": "691052794",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_tag_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_tag_05_67368C31.wem"
+       },
+       {
+        "Id": "800345331",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_tag_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_tag_04_67368C31.wem"
+       },
+       {
+        "Id": "923650990",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_tag_07.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_tag_07_67368C31.wem"
+       },
+       {
+        "Id": "1053936557",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_tag_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_tag_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       },
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\2D\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       }
+      ]
+     },
+     {
+      "Id": "3680587226",
+      "Name": "AudioEvent_Dream_v2_Pallets_Charge_Cancel",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Pallets_Charge_Cancel",
+      "GUID": "{0AD14785-0E2A-4D5B-A384-A77109B3108A}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.883810",
+      "DurationMax": "0.883810",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "661940662",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_stop_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_stop_01_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2072414720",
+      "Name": "AudioEvent_Dream_v2_Pallets_Charge_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Pallets_Charge_Start",
+      "GUID": "{EA1A0304-4C4C-431C-9C5A-EE8A5ECC4F79}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.192676",
+      "DurationMax": "1.192676",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "503219193",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_stop_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_stop_02_67368C31.wem"
+       },
+       {
+        "Id": "1038017967",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_04.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_04_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "90962483",
+      "Name": "AudioEvent_Dream_v2_Pallets_Set",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Pallets_Set",
+      "GUID": "{293DACB8-1C0A-4306-8DF4-FFA487831E86}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.010667",
+      "DurationMax": "4.010667",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "344329575",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\Dream_v2_Pallets_Set_MixBounce.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\Dream_v2_Pallets_Set_MixBounce_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "273567476",
+      "Name": "AudioEvent_Dream_v2_Snare_Charge_Cancel",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Snare_Charge_Cancel",
+      "GUID": "{FF9D6B93-C38C-4340-9F8F-13CCDB0B268A}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.515105",
+      "DurationMax": "1.346954",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "392612433",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_03.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_03_67368C31.wem"
+       },
+       {
+        "Id": "477589136",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_01_67368C31.wem"
+       },
+       {
+        "Id": "529346911",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_start_02_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2100019138",
+      "Name": "AudioEvent_Dream_v2_Snare_Charge_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Snare_Charge_Start",
+      "GUID": "{431C77EF-BE0B-4DD5-90B4-3109AA787267}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.205333",
+      "DurationMax": "1.205333",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "742389174",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\Dream_v2_Snare_Charge_Start_MixBounce.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\Dream_v2_Snare_Charge_Start_MixBounce_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1226018669",
+      "Name": "AudioEvent_Dream_v2_Snare_Set",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Snare_Set",
+      "GUID": "{BBE4B5AC-78D8-4765-BEA3-0B26FA732150}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "590982384",
+      "Name": "AudioEvent_Dream_v2_Snare_Survivor_Trigger",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Snare_Survivor_Trigger",
+      "GUID": "{5F8E1059-0569-4B9B-B737-83A1CF24BC94}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.146104",
+      "DurationMax": "3.146104",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "927781180",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamv2_snare_lowkick.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamv2_snare_lowkick_A022464B.wem"
+       }
+      ]
+     },
+     {
+      "Id": "514193121",
+      "Name": "AudioEvent_Dream_v2_Survivor_Appear",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Survivor_Appear",
+      "GUID": "{CC62ADEB-5A26-4D4A-81DA-E1E195E3D71C}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.104761",
+      "DurationMax": "1.240052",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "9806400",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_02.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_02_67368C31.wem"
+       },
+       {
+        "Id": "702353782",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_01.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_01_67368C31.wem"
+       },
+       {
+        "Id": "966939787",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_appear_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_appear_01_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "97531509",
+      "Name": "AudioEvent_Dream_v2_Survivor_Disappear",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Survivor_Disappear",
+      "GUID": "{28B335F8-F3F5-4322-B012-620F1DF0016F}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.104761",
+      "DurationMax": "1.240052",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "9806400",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_02.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_02_67368C31.wem"
+       },
+       {
+        "Id": "140464312",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_disappear_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_disappear_01_67368C31.wem"
+       },
+       {
+        "Id": "702353782",
+        "Language": "SFX",
+        "ShortName": "Characters\\SURVIVOR\\sfx_survivor_spawn_01.wav",
+        "Path": "SFX\\Characters\\SURVIVOR\\sfx_survivor_spawn_01_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2754692076",
+      "Name": "AudioEvent_Dream_v2_Teleport_Charge_Cancel",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Teleport_Charge_Cancel",
+      "GUID": "{BA3BB7F2-D08B-49F8-9A86-8E58EB782D20}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.883810",
+      "DurationMax": "0.883810",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "661940662",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_stop_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_stop_01_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4022829898",
+      "Name": "AudioEvent_Dream_v2_Teleport_Charge_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Teleport_Charge_Start",
+      "GUID": "{C90DA295-4BF8-4650-9454-92B40416E837}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.519021",
+      "DurationMax": "9.519021",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "215856868",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_loop_02B.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_hand_loop_02B_85D539D7.wem"
+       },
+       {
+        "Id": "563687008",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\Dream_v2_Pallets_Charge_Start_MixBounce.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\Dream_v2_Pallets_Charge_Start_MixBounce_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3163933520",
+      "Name": "AudioEvent_Dream_v2_Teleport_Ready",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Teleport_Ready",
+      "GUID": "{40F8F133-9AFF-41B4-903C-39D83118C219}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.914014",
+      "DurationMax": "3.914014",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "88244788",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_tag_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_tag_02_67368C31.wem"
+       },
+       {
+        "Id": "596323390",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_killer_10_power_teleport_activate_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_killer_10_power_teleport_activate_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\2D\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       }
+      ]
+     },
+     {
+      "Id": "2007583642",
+      "Name": "AudioEvent_Dream_v2_Teleport_Triggered",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_POWER\\AudioEvent_Dream_v2_Teleport_Triggered",
+      "GUID": "{490796E5-9D44-481A-9149-A5A8F25EE031}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.518438",
+      "DurationMax": "4.476604",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "348918411",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05_67368C31.wem"
+       },
+       {
+        "Id": "349394867",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\Dream_v2_Teleport_Triggered_MixBounce.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\Dream_v2_Teleport_Triggered_MixBounce_67368C31.wem"
+       },
+       {
+        "Id": "356292965",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01_67368C31.wem"
+       },
+       {
+        "Id": "389428189",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03_67368C31.wem"
+       },
+       {
+        "Id": "551732080",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04_67368C31.wem"
+       },
+       {
+        "Id": "920066745",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "247327397",
+      "Name": "AudioEvent_DreamClock_BubbleIn",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_BubbleIn",
+      "GUID": "{2B1C044E-341D-47F2-9B8E-BA63E7C098EF}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.846089",
+      "DurationMax": "1.235909",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "39222858",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_04.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_04_67368C31.wem"
+       },
+       {
+        "Id": "159277455",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_05.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_05_67368C31.wem"
+       },
+       {
+        "Id": "648822005",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_01_67368C31.wem"
+       },
+       {
+        "Id": "663598169",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_02_67368C31.wem"
+       },
+       {
+        "Id": "816725041",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_03.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_bubble_03_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "102389700",
+      "Name": "AudioEvent_DreamClock_Cancel",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_Cancel",
+      "GUID": "{A3FB12D6-8403-4295-87BE-6D42BDBF3F09}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.768458",
+      "DurationMax": "0.931792",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "69394280",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_01_64DEB7A1.wem"
+       },
+       {
+        "Id": "92088863",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_02_64DEB7A1.wem"
+       },
+       {
+        "Id": "343456875",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_03.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_03_64DEB7A1.wem"
+       },
+       {
+        "Id": "633586438",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_04.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_04_64DEB7A1.wem"
+       },
+       {
+        "Id": "640523082",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_05.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_05_64DEB7A1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "750858852",
+      "Name": "AudioEvent_DreamClock_Grab",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_Grab",
+      "GUID": "{84AC2F8E-98CF-45B9-8C54-0CB332B0AE00}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.768458",
+      "DurationMax": "0.931792",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "69394280",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_01_64DEB7A1.wem"
+       },
+       {
+        "Id": "92088863",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_02_64DEB7A1.wem"
+       },
+       {
+        "Id": "343456875",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_03.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_03_64DEB7A1.wem"
+       },
+       {
+        "Id": "633586438",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_04.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_04_64DEB7A1.wem"
+       },
+       {
+        "Id": "640523082",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_pull_05.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_pull_05_64DEB7A1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2979823260",
+      "Name": "AudioEvent_DreamClock_Ring_Loop_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_Ring_Loop_Start",
+      "GUID": "{87B00FF9-0B19-4EA4-8E55-737FB4F6E688}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "196693634",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_ringing_loop.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_ringing_loop_0BC91DCF.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1792434288",
+      "Name": "AudioEvent_DreamClock_Ring_Loop_Stop",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_Ring_Loop_Stop",
+      "GUID": "{B9B153F9-0EB7-4CE5-AAE6-5A95904E858D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "218719303",
+      "Name": "AudioEvent_DreamClock_Tick_Loop_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_Tick_Loop_Start",
+      "GUID": "{32CDEC37-2D3C-4D10-8199-3E4B49922727}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1064994526",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_ticking_loop.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_ticking_loop_BD2B0111.wem"
+       }
+      ]
+     },
+     {
+      "Id": "258034925",
+      "Name": "AudioEvent_DreamClock_Tick_Loop_Stop",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_Tick_Loop_Stop",
+      "GUID": "{0C6CD615-4020-48AF-A76C-85DDA7F33443}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2525957762",
+      "Name": "AudioEvent_DreamClock_WakeUpSuccess",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_WakeUpSuccess",
+      "GUID": "{565A9BC6-3BAC-4675-9B18-FFAF9FE56C4E}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.213917",
+      "DurationMax": "1.235125",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "534296014",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_wakeup_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_wakeup_02_67368C31.wem"
+       },
+       {
+        "Id": "829150007",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamclock_wakeup_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamclock_wakeup_01_67368C31.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1792434288",
+        "Name": "AudioEvent_DreamClock_Ring_Loop_Stop",
+        "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamWaker\\AudioEvent_DreamClock_Ring_Loop_Stop",
+        "GUID": "{B9B153F9-0EB7-4CE5-AAE6-5A95904E858D}"
+       }
+      ]
+     },
+     {
+      "Id": "514273322",
+      "Name": "AudioEvent_DreamPallet_Destroy",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamPallet\\AudioEvent_DreamPallet_Destroy",
+      "GUID": "{658F8DDB-47F2-43B9-8BB3-E176F60122BF}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.500000",
+      "DurationMax": "2.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "690671573",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreampallet_destroy_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreampallet_destroy_02_67368C31.wem"
+       },
+       {
+        "Id": "691363535",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreampallet_destroy_03.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreampallet_destroy_03_67368C31.wem"
+       },
+       {
+        "Id": "887619018",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreampallet_destroy_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreampallet_destroy_01_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2877203580",
+      "Name": "AudioEvent_DreamPallet_Set",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamPallet\\AudioEvent_DreamPallet_Set",
+      "GUID": "{15E74659-1ECD-4091-8697-55091C6823BB}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.347969",
+      "DurationMax": "1.455543",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "127407540",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_DreamPallet_Set_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_DreamPallet_Set_02_0F73E604.wem"
+       },
+       {
+        "Id": "339037333",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_DreamPallet_Set_03.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_DreamPallet_Set_03_D83335D1.wem"
+       },
+       {
+        "Id": "391734416",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_DreamPallet_Set_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_DreamPallet_Set_01_81EFD3AD.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1000712766",
+      "Name": "AudioEvent_DreamSnare_Armed",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamSnare\\AudioEvent_DreamSnare_Armed",
+      "GUID": "{EFD1FE1A-47FD-4A68-AA57-021B0E8544A4}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.105701",
+      "DurationMax": "4.825767",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "268520159",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_armed_v1.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_armed_v1_67368C31.wem"
+       },
+       {
+        "Id": "466723769",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\Dream_v2_Snare_Set_MixBounce.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\Dream_v2_Snare_Set_MixBounce_67368C31.wem"
+       },
+       {
+        "Id": "935611637",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_armed_v2.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_armed_v2_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "355098826",
+      "Name": "AudioEvent_DreamSnare_Spawn",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamSnare\\AudioEvent_DreamSnare_Spawn",
+      "GUID": "{D1CCFA62-9A8F-4FF9-98F5-EC869ECBEFFB}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "85613792",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_05.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_05_8E0129AF.wem"
+       },
+       {
+        "Id": "298856999",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_spawn_loop_Bounce_01.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_spawn_loop_Bounce_01_0BC91DCF.wem"
+       },
+       {
+        "Id": "346133014",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_06.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_06_6AEED2EE.wem"
+       },
+       {
+        "Id": "411204747",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_02.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_02_25342F53.wem"
+       },
+       {
+        "Id": "559467477",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_04.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_04_8037BF31.wem"
+       },
+       {
+        "Id": "737947578",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_03.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_03_94BF40D9.wem"
+       },
+       {
+        "Id": "1040876499",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_01.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_01_0F00DDB1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2877661444",
+      "Name": "AudioEvent_DreamSnare_Triggered",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_OBJECT\\DreamSnare\\AudioEvent_DreamSnare_Triggered",
+      "GUID": "{2A50CF4F-336F-4FA4-8941-876DA97788A6}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.407621",
+      "DurationMax": "6.980772",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "35413655",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_01.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_01_6BAC354D.wem"
+       },
+       {
+        "Id": "83289334",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_04.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_04_FE8D8D3A.wem"
+       },
+       {
+        "Id": "144825435",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_05.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_05_963133F4.wem"
+       },
+       {
+        "Id": "174902114",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_05.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_05_FE8D8D3A.wem"
+       },
+       {
+        "Id": "475322787",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_02.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_02_D5FFC910.wem"
+       },
+       {
+        "Id": "532273121",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_02.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_02_FE8D8D3A.wem"
+       },
+       {
+        "Id": "540730370",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_03.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_03_FE8D8D3A.wem"
+       },
+       {
+        "Id": "553001747",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_04.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_04_1C131B05.wem"
+       },
+       {
+        "Id": "842707868",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_03.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_triggered_scream_03_2E241A12.wem"
+       },
+       {
+        "Id": "967525605",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_06.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_06_FE8D8D3A.wem"
+       },
+       {
+        "Id": "983761849",
+        "Language": "SFX",
+        "ShortName": "Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_01.wav",
+        "Path": "SFX\\Objects\\DreamSnare\\sfx_dreamsnare_bloodmovement_01_FE8D8D3A.wem"
+       },
+       {
+        "Id": "1040722590",
+        "Language": "SFX",
+        "ShortName": "Powers\\PWR_10_Dream\\sfx_dreamsnare_organic.wav",
+        "Path": "SFX\\Powers\\PWR_10_Dream\\sfx_dreamsnare_organic_A7139F38.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\WORLD\\2D\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       }
+      ]
+     },
+     {
+      "Id": "3825645179",
+      "Name": "AudioEvent_K10_WPN_Default_ClawedGlove_Arm",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_WEAPON\\AudioEvent_K10_WPN_Default_ClawedGlove_Arm",
+      "GUID": "{E302EAA3-8B58-4159-97D2-4B2F648E52E0}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.487322",
+      "DurationMax": "0.853843",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "192771169",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_arm_03.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_arm_03_67368C31.wem"
+       },
+       {
+        "Id": "806303946",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_arm_02.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_arm_02_67368C31.wem"
+       },
+       {
+        "Id": "1012107125",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_arm_01.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_arm_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "2162752355",
+      "Name": "AudioEvent_K10_WPN_Default_ClawedGlove_Attack",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_WEAPON\\AudioEvent_K10_WPN_Default_ClawedGlove_Attack",
+      "GUID": "{BA7BE07A-5EF7-46A5-AFF7-7A35FD7ECDE8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.729250",
+      "DurationMax": "1.000563",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "94030649",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_08.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_08_67368C31.wem"
+       },
+       {
+        "Id": "415495174",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_06.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_06_67368C31.wem"
+       },
+       {
+        "Id": "461940768",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_01.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_01_67368C31.wem"
+       },
+       {
+        "Id": "482131218",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_07.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_07_67368C31.wem"
+       },
+       {
+        "Id": "618078966",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_05.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_05_67368C31.wem"
+       },
+       {
+        "Id": "634680941",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_03.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_03_67368C31.wem"
+       },
+       {
+        "Id": "809031915",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_02.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_02_67368C31.wem"
+       },
+       {
+        "Id": "1036165749",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Claw\\ClawedGlove_Attack_Bounce_04.wav",
+        "Path": "SFX\\Weapons\\Claw\\ClawedGlove_Attack_Bounce_04_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3450319150",
+      "Name": "AudioEvent_K10_WPN_Default_ClawedGlove_Clean",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_WEAPON\\AudioEvent_K10_WPN_Default_ClawedGlove_Clean",
+      "GUID": "{B5BB0994-C816-45E2-91F6-3EBAB18E8FA9}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.708732",
+      "DurationMax": "0.876198",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30351068",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_idle_01.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_idle_01_67368C31.wem"
+       },
+       {
+        "Id": "772311456",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_idle_02.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_idle_02_67368C31.wem"
+       },
+       {
+        "Id": "847043744",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_idle_03.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_idle_03_67368C31.wem"
+       },
+       {
+        "Id": "851134391",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_idle_04.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_idle_04_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3683098929",
+      "Name": "AudioEvent_K10_WPN_Default_ClawedGlove_Impact",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_WEAPON\\AudioEvent_K10_WPN_Default_ClawedGlove_Impact",
+      "GUID": "{15C9603E-9B27-4648-A4D5-2F67E58E1F47}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.394667",
+      "DurationMax": "1.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "315028550",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_impact_01.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_impact_01_7FA8D501.wem"
+       },
+       {
+        "Id": "535551185",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_impact_02.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_impact_02_7FA8D501.wem"
+       },
+       {
+        "Id": "611590530",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_impact_06.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_impact_06_7FA8D501.wem"
+       },
+       {
+        "Id": "649065764",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_impact_05.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_impact_05_7FA8D501.wem"
+       },
+       {
+        "Id": "910741601",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_impact_03.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_impact_03_7FA8D501.wem"
+       },
+       {
+        "Id": "951383799",
+        "Language": "SFX",
+        "ShortName": "Weapons\\ClawedGlove\\sfx_clawedglove_impact_04.wav",
+        "Path": "SFX\\Weapons\\ClawedGlove\\sfx_clawedglove_impact_04_7FA8D501.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{82BAB65C-92F7-4F63-990C-4F5495B4979B}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{2792490C-9C7E-402A-B630-E1AEE10B67B0}",
+        "Media": [
+         {
+          "Id": "315028550"
+         },
+         {
+          "Id": "535551185"
+         },
+         {
+          "Id": "910741601"
+         },
+         {
+          "Id": "951383799"
+         },
+         {
+          "Id": "649065764"
+         },
+         {
+          "Id": "611590530"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3887635714",
+      "Name": "AudioEvent_K10_WPN_Default_ClawedGlove_PullOut",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_WEAPON\\AudioEvent_K10_WPN_Default_ClawedGlove_PullOut",
+      "GUID": "{92F6E656-13AB-461A-A7F6-DBF30208750C}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "162549109",
+      "Name": "AudioEvent_Killer_Sandman_Grunt_Hurt",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_GRUNT\\AudioEvent_Killer_Sandman_Grunt_Hurt",
+      "GUID": "{8ECA1BC5-BD6F-40E0-8547-B24CA817D443}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.837625",
+      "DurationMax": "2.062625",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "69303202",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_04_67368C31.wem"
+       },
+       {
+        "Id": "159213732",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_02_67368C31.wem"
+       },
+       {
+        "Id": "251913017",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_03_67368C31.wem"
+       },
+       {
+        "Id": "303032474",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_05_67368C31.wem"
+       },
+       {
+        "Id": "799153018",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_grunt_hurt_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "189816856",
+      "Name": "AudioEvent_Killer_Sandman_Husk_Appearing",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_SPECIFIC\\AudioEvent_Killer_Sandman_Husk_Appearing",
+      "GUID": "{0377A37A-4369-4E80-80E3-B9DE4AE050CB}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.843750",
+      "DurationMax": "2.843750",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "246289681",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\sfx_killer_10_husk_appearing.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\sfx_killer_10_husk_appearing_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "3305795809",
+      "Name": "AudioEvent_Killer_Sandman_Idle",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_SPECIFIC\\AudioEvent_Killer_Sandman_Idle",
+      "GUID": "{1D4ABC66-F888-4B84-9B9D-8156E783F9C9}",
+      "MaxAttenuation": "450.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.708732",
+      "DurationMax": "0.876198",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "48207160",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_04.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_04_67368C31.wem"
+       },
+       {
+        "Id": "270667441",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_01.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_01_67368C31.wem"
+       },
+       {
+        "Id": "397105951",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_03.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_03_67368C31.wem"
+       },
+       {
+        "Id": "927508380",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_02.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_02_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "463448889",
+      "Name": "AudioEvent_Killer_Sandman_Idle_Menu",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_STATUS\\AudioEvent_Killer_Sandman_Idle_Menu",
+      "GUID": "{F343C98E-B238-40E2-908C-7B9D0BF3A198}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.331893",
+      "DurationMax": "0.858703",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "161650005",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_menu_02.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_menu_02_67368C31.wem"
+       },
+       {
+        "Id": "406822693",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_menu_03.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_menu_03_F7C44B95.wem"
+       },
+       {
+        "Id": "1031640050",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_menu_04.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_idle_menu_04_3369E6FD.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3150927466",
+      "Name": "AudioEvent_Killer_Sandman_Laugh",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_GRUNT\\AudioEvent_Killer_Sandman_Laugh",
+      "GUID": "{BD850D57-DAE3-400D-A58E-5083101162C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.118438",
+      "DurationMax": "4.076604",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "348918411",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_05_67368C31.wem"
+       },
+       {
+        "Id": "356292965",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_01_67368C31.wem"
+       },
+       {
+        "Id": "389428189",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_03_67368C31.wem"
+       },
+       {
+        "Id": "551732080",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_04_67368C31.wem"
+       },
+       {
+        "Id": "920066745",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_02_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "2790808610",
+      "Name": "AudioEvent_Killer_Sandman_Weapon_Locker",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_SPECIFIC\\AudioEvent_Killer_Sandman_Weapon_Locker",
+      "GUID": "{EF1B5545-3641-4529-BD02-32714EF48019}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.565333",
+      "DurationMax": "0.672000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "36712572",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\Sandman_Weapon_Locker_Bounce_03.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\Sandman_Weapon_Locker_Bounce_03_67368C31.wem"
+       },
+       {
+        "Id": "546951132",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\Sandman_Weapon_Locker_Bounce_02.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\Sandman_Weapon_Locker_Bounce_02_67368C31.wem"
+       },
+       {
+        "Id": "578017568",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\Sandman_Weapon_Locker_Bounce_01.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\Sandman_Weapon_Locker_Bounce_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "2275066486",
+      "Name": "AudioEvent_Killer_Sandman_Weapon_Miss",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_SPECIFIC\\AudioEvent_Killer_Sandman_Weapon_Miss",
+      "GUID": "{52F8A9FA-FB03-40FC-BA5A-EE96E76E16EB}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.768163",
+      "DurationMax": "2.768163",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "158045301",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_miss_02.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_miss_02_67368C31.wem"
+       },
+       {
+        "Id": "918782957",
+        "Language": "SFX",
+        "ShortName": "Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_miss_01.wav",
+        "Path": "SFX\\Weapons\\Killer_10_Weapon\\sfx_killer_10_weapon_miss_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "409121747",
+      "Name": "AudioEvent_KLR_10_Menu_Laugh",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_STATUS\\AudioEvent_KLR_10_Menu_Laugh",
+      "GUID": "{64A2BEE4-B3A9-4D26-8F28-FA8B2CF6225F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.618438",
+      "DurationMax": "4.576604",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "403933531",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_01_67368C31.wem"
+       },
+       {
+        "Id": "483575667",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_02_67368C31.wem"
+       },
+       {
+        "Id": "558961234",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_03_67368C31.wem"
+       },
+       {
+        "Id": "782908848",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_04_67368C31.wem"
+       },
+       {
+        "Id": "799297536",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_laugh_menu_05_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1798481751",
+      "Name": "AudioEvent_KLR_10_Status_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\KLR_10_Sandman\\K10_STATUS\\AudioEvent_KLR_10_Status_Start",
+      "GUID": "{A7391E2A-B2E0-47ED-8AF2-681D08F9D3E0}",
+      "MaxAttenuation": "1900.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "26405389",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_crazy_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_crazy_03_67368C31.wem"
+       },
+       {
+        "Id": "156973053",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_breath_07.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_breath_07_3B1153AC.wem"
+       },
+       {
+        "Id": "187294029",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_breath_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_breath_02_3B1153AC.wem"
+       },
+       {
+        "Id": "218878933",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_breath_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_breath_01_3B1153AC.wem"
+       },
+       {
+        "Id": "229890980",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_breath_06.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_breath_06_3B1153AC.wem"
+       },
+       {
+        "Id": "256893520",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_crazy_02.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_crazy_02_67368C31.wem"
+       },
+       {
+        "Id": "499154809",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_crazy_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_crazy_05_67368C31.wem"
+       },
+       {
+        "Id": "589220433",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_breath_05.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_breath_05_3B1153AC.wem"
+       },
+       {
+        "Id": "716368336",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_crazy_01.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_crazy_01_67368C31.wem"
+       },
+       {
+        "Id": "788853197",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_breath_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_breath_04_3B1153AC.wem"
+       },
+       {
+        "Id": "1048998820",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_crazy_04.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_crazy_04_67368C31.wem"
+       },
+       {
+        "Id": "1068824401",
+        "Language": "SFX",
+        "ShortName": "Characters\\Killer_Sandman\\vo_killer_sandman_breath_03.wav",
+        "Path": "SFX\\Characters\\Killer_Sandman\\vo_killer_sandman_breath_03_3B1153AC.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{965881D7-B79B-4E1A-84CA-3422D7CB19F6}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{965881D7-B79B-4E1A-84CA-3422D7CB19F6}",
+        "Media": [
+         {
+          "Id": "218878933"
+         },
+         {
+          "Id": "187294029"
+         },
+         {
+          "Id": "1068824401"
+         },
+         {
+          "Id": "788853197"
+         },
+         {
+          "Id": "589220433"
+         },
+         {
+          "Id": "229890980"
+         },
+         {
+          "Id": "156973053"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}",
+        "Media": [
+         {
+          "Id": "716368336"
+         },
+         {
+          "Id": "256893520"
+         },
+         {
+          "Id": "26405389"
+         },
+         {
+          "Id": "1048998820"
+         },
+         {
+          "Id": "499154809"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1264094883",
+      "Name": "AudioRTPC_Chase_Killer",
+      "ObjectPath": "\\Game Parameters\\RTPC_CHARACTER\\RTPC_00_COMMON\\AudioRTPC_Chase_Killer",
+      "GUID": "{4771F806-0A14-4917-83EB-EC7E98879116}"
+     },
+     {
+      "Id": "1343933513",
+      "Name": "AudioRTPC_VOL_KLR_GRUNT",
+      "ObjectPath": "\\Game Parameters\\RTPC_VOLUME\\AudioRTPC_VOL_KLR_GRUNT",
+      "GUID": "{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"
+     },
+     {
+      "Id": "1488839951",
+      "Name": "AudioRTPC_Proximity_Survivor_Killer",
+      "ObjectPath": "\\Game Parameters\\RTPC_CHARACTER\\RTPC_00_COMMON\\AudioRTPC_Proximity_Survivor_Killer",
+      "GUID": "{DDFD515E-1AF8-4012-96A5-AE9851788E16}"
+     },
+     {
+      "Id": "4096507154",
+      "Name": "AudioRTPC_Listener_Angle_Object_Relative",
+      "ObjectPath": "\\Game Parameters\\RTPC_WORLD\\AudioRTPC_Listener_Angle_Object_Relative",
+      "GUID": "{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2007833712",
+      "Name": "AudioStateDream_v2_On",
+      "ObjectPath": "\\States\\STATES_KILLER\\STATE_K10_Sandman\\AudioStateDream_v2\\AudioStateDream_v2_On",
+      "GUID": "{59DF2AF0-AAA4-4DBE-A832-5EFD4F37687E}",
+      "States": []
+     },
+     {
+      "Id": "3716403342",
+      "Name": "AudioStateDream_v2_Off",
+      "ObjectPath": "\\States\\STATES_KILLER\\STATE_K10_Sandman\\AudioStateDream_v2\\AudioStateDream_v2_Off",
+      "GUID": "{679B685C-56E7-4338-BE00-D01C70B51A8E}",
+      "States": []
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "567149230",
+      "Name": "AudioSwitchKillerStatus",
+      "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerStatus",
+      "GUID": "{5E0E1C0C-CB8F-41D8-BA3B-513852C61BE1}",
+      "Switches": [
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerStatus\\Normal",
+        "GUID": "{965881D7-B79B-4E1A-84CA-3422D7CB19F6}"
+       },
+       {
+        "Id": "2930662992",
+        "Name": "Crazy",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerStatus\\Crazy",
+        "GUID": "{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}"
+       }
+      ]
+     },
+     {
+      "Id": "1168819874",
+      "Name": "AudioSwitchSurface",
+      "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface",
+      "GUID": "{371C038E-C81E-4B1E-BEF0-AC9809AE0B13}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Wood",
+        "GUID": "{220AA47D-7E65-4864-A865-719DAC7D0078}"
+       },
+       {
+        "Id": "2315975534",
+        "Name": "Metal_Hard",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Metal_Hard",
+        "GUID": "{927B6344-7A96-4DF4-AFE4-4E141E97A81F}"
+       },
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Mud",
+        "GUID": "{1974DF19-3EAC-4718-94A9-7C7895513BA6}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Concrete",
+        "GUID": "{9947A5B8-0A0B-4897-BF44-2905F208E8DD}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Dirt",
+        "GUID": "{F8694AFD-F385-4983-A2F5-5B159E8ED9D2}"
+       },
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Gravel",
+        "GUID": "{175357DC-ECFA-4355-93E2-1A75AFA11C43}"
+       },
+       {
+        "Id": "504532776",
+        "Name": "Brick",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Brick",
+        "GUID": "{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}"
+       },
+       {
+        "Id": "2932679629",
+        "Name": "Vegetation",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Vegetation",
+        "GUID": "{A941FD53-8C7E-4702-8A7E-95B4CFB4DE52}"
+       },
+       {
+        "Id": "3787826983",
+        "Name": "Corn",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Corn",
+        "GUID": "{41A7F3B6-4B78-421A-BAD3-16E485BDB8D0}"
+       },
+       {
+        "Id": "3681786913",
+        "Name": "Metal_Soft",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Metal_Soft",
+        "GUID": "{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}"
+       },
+       {
+        "Id": "2981489164",
+        "Name": "FleshDry",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\FleshDry",
+        "GUID": "{A602BDEB-16F8-46CD-BB54-CFE585D15F02}"
+       },
+       {
+        "Id": "3322072369",
+        "Name": "Tree",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Tree",
+        "GUID": "{646F7389-CAE6-4F36-AEB3-BA5883FFBC7A}"
+       },
+       {
+        "Id": "2144363834",
+        "Name": "Rock",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Rock",
+        "GUID": "{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}"
+       },
+       {
+        "Id": "3934470635",
+        "Name": "Blood",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Blood",
+        "GUID": "{46A7CC2C-1CCD-4037-9FB7-52AD43498872}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Water",
+        "GUID": "{01B02E8C-F215-4C55-A4A7-703EC37B779F}"
+       },
+       {
+        "Id": "2449969375",
+        "Name": "Glass",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Glass",
+        "GUID": "{D024D7D1-8B15-432A-933B-97316C21555A}"
+       },
+       {
+        "Id": "3562804263",
+        "Name": "ChainLinkFence",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\ChainLinkFence",
+        "GUID": "{300CE055-A091-4BE3-A8A0-DE735DDACBE8}"
+       },
+       {
+        "Id": "660835419",
+        "Name": "Plastic",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Plastic",
+        "GUID": "{E10DE96C-22AC-408E-9FC6-443E95F6B542}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Carpet",
+        "GUID": "{F167B121-F497-496D-A248-9FF4BF749539}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Sand",
+        "GUID": "{33C94342-DC4C-4551-AE18-3B244ECA0689}"
+       },
+       {
+        "Id": "2108779961",
+        "Name": "Wall",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Wall",
+        "GUID": "{131534FE-9431-446B-854D-1E81BA3C77E7}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Snow",
+        "GUID": "{61C0A8D2-F421-465E-A55C-823BB4931283}"
+       },
+       {
+        "Id": "3825060929",
+        "Name": "Metal_Grid",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Metal_Grid",
+        "GUID": "{2792490C-9C7E-402A-B630-E1AEE10B67B0}"
+       },
+       {
+        "Id": "2736974230",
+        "Name": "Tarp",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Tarp",
+        "GUID": "{834AF73E-2FDA-4B1F-ABF8-7E926EA04F5E}"
+       },
+       {
+        "Id": "3841404889",
+        "Name": "Plexiglass",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Plexiglass",
+        "GUID": "{816BCA21-2268-4487-BF96-A5B26BCB03FC}"
+       },
+       {
+        "Id": "3006065224",
+        "Name": "Barrel_Plastic",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Barrel_Plastic",
+        "GUID": "{C1C58031-724C-47CC-9412-B4B8142690DD}"
+       },
+       {
+        "Id": "2507846665",
+        "Name": "Barrel_Metal",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Barrel_Metal",
+        "GUID": "{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}"
+       },
+       {
+        "Id": "3670307564",
+        "Name": "Drywall",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Drywall",
+        "GUID": "{D1454CB1-47C3-40C2-A2DE-B7D285618338}"
+       },
+       {
+        "Id": "3023765155",
+        "Name": "TECH_Debris_Rock",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\TECH_Debris_Rock",
+        "GUID": "{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}"
+       },
+       {
+        "Id": "2003165988",
+        "Name": "TECH_Debris_Glass",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\TECH_Debris_Glass",
+        "GUID": "{38536567-1A12-4FD1-8DCF-06603790A598}"
+       },
+       {
+        "Id": "1675720334",
+        "Name": "TECH_Debris_Trash",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\TECH_Debris_Trash",
+        "GUID": "{48A06FE5-D77E-440C-BC12-44D3DFE248E2}"
+       },
+       {
+        "Id": "3006696107",
+        "Name": "Tire",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Tire",
+        "GUID": "{978DAF7D-37D9-4EB1-BF47-9FAE7D88E73D}"
+       },
+       {
+        "Id": "2243064231",
+        "Name": "FleshJuicy",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\FleshJuicy",
+        "GUID": "{83EDD421-A376-401D-9D56-3CC8596D4C20}"
+       },
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Default",
+        "GUID": "{82BAB65C-92F7-4F63-990C-4F5495B4979B}"
+       },
+       {
+        "Id": "1229756253",
+        "Name": "Cardboard",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Cardboard",
+        "GUID": "{15062674-8B2F-4664-AEB6-B4178F782C33}"
+       },
+       {
+        "Id": "329716760",
+        "Name": "Typewriter",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Typewriter",
+        "GUID": "{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}"
+       },
+       {
+        "Id": "582824249",
+        "Name": "Leaves",
+        "ObjectPath": "\\Switches\\SWITCH_COMMON\\AudioSwitchSurface\\Leaves",
+        "GUID": "{6F4878BC-2C2D-4042-BC8E-03B16078145B}"
+       }
+      ]
+     },
+     {
+      "Id": "2003718045",
+      "Name": "AudioSwitchStatesSurvivor",
+      "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor",
+      "GUID": "{A172B188-385A-4B2F-9B5B-01C1D0763E22}",
+      "Switches": [
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Normal",
+        "GUID": "{4634728D-A6EC-463F-98B7-88625AA203FB}"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Running",
+        "GUID": "{C122D54D-7534-40F3-9278-C4B3885FC8A1}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Dead",
+        "GUID": "{3AAC6EB5-396F-445C-9C9B-7F35A2688A75}"
+       },
+       {
+        "Id": "3413347345",
+        "Name": "Healing",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Healing",
+        "GUID": "{23B62077-3C78-4A2C-9ED3-6207E562EFB0}"
+       },
+       {
+        "Id": "1848633330",
+        "Name": "Hooked_Part1",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Hooked_Part1",
+        "GUID": "{05374D88-4159-48FB-9221-5804D3776A9D}"
+       },
+       {
+        "Id": "559827443",
+        "Name": "Captured",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Captured",
+        "GUID": "{4B05EE76-2F40-47BF-B51C-3D49C36C540B}"
+       },
+       {
+        "Id": "2860195132",
+        "Name": "Injured",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Injured",
+        "GUID": "{C6A55A58-493C-4921-A35A-7A4B7296A933}"
+       },
+       {
+        "Id": "3328495488",
+        "Name": "Dying",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Dying",
+        "GUID": "{87ED9576-D64C-486B-80A5-29160DA2BBC0}"
+       },
+       {
+        "Id": "1848633329",
+        "Name": "Hooked_Part2",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Hooked_Part2",
+        "GUID": "{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}"
+       },
+       {
+        "Id": "1919908153",
+        "Name": "Normal_Crouch",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Normal_Crouch",
+        "GUID": "{E376616F-981E-41F4-9032-AB5D789371F0}"
+       },
+       {
+        "Id": "121290285",
+        "Name": "Injured_Crouch",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Injured_Crouch",
+        "GUID": "{B5F3498F-7451-47C5-B4EF-A1D4520FB19C}"
+       },
+       {
+        "Id": "3200746917",
+        "Name": "Choked",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Choked",
+        "GUID": "{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}"
+       },
+       {
+        "Id": "3094692510",
+        "Name": "Injured_Hiding",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Injured_Hiding",
+        "GUID": "{54A0B897-2A42-4AE1-B0D5-CA909A8C5F16}"
+       },
+       {
+        "Id": "63215442",
+        "Name": "Normal_Hiding",
+        "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Normal_Hiding",
+        "GUID": "{21B70A73-E2F6-4A2B-B152-265C2483D367}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

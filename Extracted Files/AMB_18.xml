@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Ion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Ion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970213" GUID="{B26C45AB-9B8B-4720-8B35-40F11F4CF28D}" Language="SFX">
@@ -13,6 +13,14 @@
 			<ShortName>AMB_18</ShortName>
 			<Path>AMB_18.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}" DurationType="OneShot" DurationMin="7.600000" DurationMax="7.600000">
+					<ExcludedMemoryFiles>
+						<File Id="853258216" Language="SFX">
+							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_intro_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_intro_06_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="960301968" Name="AudioEvent_AM_T18_Basement_Killer" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Basement_Killer" GUID="{1FA2ED49-FC08-46C9-BEA6-60EA88526707}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="45521172" Language="SFX">
@@ -207,10 +215,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
@@ -222,10 +226,6 @@
 						<File Id="282071641" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="542124928" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
@@ -239,10 +239,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="659722128" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
@@ -254,10 +250,6 @@
 						<File Id="897957549" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
@@ -277,69 +269,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1977064367" Name="AudioEvent_AM_T18_Clocktower_2F" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_2F" GUID="{993BBC2F-4698-44BD-B40D-AD3A72C6B955}" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="36576294" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
-						<File Id="178410025" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="187493235" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="282071641" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="542124928" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="618739514" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_10.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="623513554" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="659722128" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="699397506" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13_7FA8D501.wem</Path>
-						</File>
-						<File Id="897957549" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
-						</File>
-						<File Id="1023356589" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
+				<Event Id="1977064367" Name="AudioEvent_AM_T18_Clocktower_2F" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_2F" GUID="{993BBC2F-4698-44BD-B40D-AD3A72C6B955}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}"/>
 					</ActionPostEvent>
@@ -347,21 +277,12 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 						<ActionSetStateEntry Id="3693972681" Name="AudioStateIndoor_18_Ion_Clocktower_2F" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateIndoor_18_Ion\AudioStateIndoor_18_Ion_Clocktower_2F" GUID="{E0514038-DAF7-4A8E-AB1E-321BD8493F4B}"/>
 					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="720905331" Name="AudioEvent_AM_T18_Clocktower_Mid" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_Mid" GUID="{2F126D4C-BE15-40F0-8266-B726205CD196}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="36576294" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
 						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
@@ -375,10 +296,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
 						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="542124928" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04_7FA8D501.wem</Path>
@@ -390,10 +307,6 @@
 						<File Id="623513554" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="659722128" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
@@ -407,17 +320,13 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
-						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}"/>
+						<ActionPostEventEntry Id="698383119" Name="AudioEvent_Rev_Int_18_Ion_Corridor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Corridor" GUID="{03FD465E-D36C-437B-BBEF-5999C0CB89C6}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2163943089" Name="AudioStateIndoor_18_Ion_Clocktower_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateIndoor_18_Ion\AudioStateIndoor_18_Ion_Clocktower_Mid" GUID="{C12401EF-11FB-4FBD-9D11-8C132FD28959}"/>
@@ -477,22 +386,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="90717078" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="114783806" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="155247906" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04_5237020A.wem</Path>
-						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
@@ -505,41 +398,13 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="199901859" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="210703769" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="238695303" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="245011168" Language="SFX">
 							<ShortName>Ambience\Random\am_t00_common_rdm_crow_02.wav</ShortName>
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="281971891" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="282071641" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="381102342" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="385421540" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="542124928" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
@@ -553,14 +418,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="646337848" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="651608340" Language="SFX">
 							<ShortName>Ambience\Random\am_t00_common_rdm_crow_03.wav</ShortName>
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
@@ -568,14 +425,6 @@
 						<File Id="659722128" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="661078551" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="687775548" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="699397506" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13.wav</ShortName>
@@ -592,10 +441,6 @@
 						<File Id="924554964" Language="SFX">
 							<ShortName>Ambience\Random\am_t00_common_rdm_crow_04.wav</ShortName>
 							<Path>SFX\Ambience\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
@@ -618,22 +463,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="90717078" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="114783806" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="155247906" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04_5237020A.wem</Path>
-						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
@@ -642,37 +471,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="199901859" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="210703769" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="238695303" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="281971891" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="282071641" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="381102342" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="385421540" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="542124928" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
@@ -686,25 +487,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="646337848" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="659722128" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="661078551" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="687775548" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="699397506" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13.wav</ShortName>
@@ -713,10 +498,6 @@
 						<File Id="897957549" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
@@ -739,22 +520,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="90717078" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="114783806" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="155247906" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04_5237020A.wem</Path>
-						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
@@ -763,37 +528,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="199901859" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="210703769" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="238695303" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="281971891" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="282071641" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="381102342" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="385421540" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="542124928" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
@@ -807,25 +544,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="646337848" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="659722128" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="661078551" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="687775548" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="699397506" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13.wav</ShortName>
@@ -835,18 +556,14 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
-						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1684403910" Name="AudioStateOutdoor_18_Ion_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateOutdoor_18_Ion\AudioStateOutdoor_18_Ion_Outdoor" GUID="{E7891160-91EC-4E62-A48C-63348F198371}"/>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -860,22 +577,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="90717078" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="114783806" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="155247906" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04_5237020A.wem</Path>
-						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
@@ -884,37 +585,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="199901859" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="210703769" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="238695303" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="281971891" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="282071641" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="381102342" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="385421540" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="542124928" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
@@ -928,25 +601,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="646337848" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="659722128" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="661078551" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="687775548" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="699397506" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13.wav</ShortName>
@@ -955,10 +612,6 @@
 						<File Id="897957549" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
@@ -981,22 +634,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="90717078" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="114783806" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="155247906" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04_5237020A.wem</Path>
-						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
@@ -1005,37 +642,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="199901859" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="210703769" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="238695303" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="281971891" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="282071641" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="381102342" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="385421540" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="542124928" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_04.wav</ShortName>
@@ -1049,25 +658,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="646337848" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="659722128" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="661078551" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="687775548" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="699397506" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13.wav</ShortName>
@@ -1076,10 +669,6 @@
 						<File Id="897957549" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
@@ -1114,10 +703,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_05_C1105E43.wem</Path>
 						</File>
-						<File Id="170984397" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="178410025" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_06_7FA8D501.wem</Path>
@@ -1133,10 +718,6 @@
 						<File Id="282071641" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="323477527" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="339955051" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_03.wav</ShortName>
@@ -1165,10 +746,6 @@
 						<File Id="623513554" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="646880112" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="650153664" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_04.wav</ShortName>
@@ -1202,10 +779,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="944336022" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
-						</File>
 						<File Id="1023356589" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_14_7FA8D501.wem</Path>
@@ -1216,7 +789,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="920539433" Name="AudioStateIndoor_18_Ion_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateIndoor_18_Ion\AudioStateIndoor_18_Ion_Shack" GUID="{1C475DA0-9A7E-4D50-9462-C8068F7D2DFE}"/>
-						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -1242,10 +815,6 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_2f_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_2f_01_256CDB0F.wem</Path>
 						</File>
-						<File Id="806829015" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_1f_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_1f_01_256CDB0F.wem</Path>
-						</File>
 						<File Id="961346398" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_shack_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_shack_02_256CDB0F.wem</Path>
@@ -1267,10 +836,6 @@
 						<File Id="501648482" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_killerbasement_theentity_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="853258216" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_intro_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_intro_06_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<SwitchContainers>
@@ -1295,7 +860,7 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{B79054B2-2021-423D-93D5-D39027F80FFA}">
 							<Media>
-								<File Id="806829015"/>
+								<File Id="324132809"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{E0514038-DAF7-4A8E-AB1E-321BD8493F4B}">
@@ -1303,14 +868,14 @@
 								<File Id="324132809"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{E0514038-DAF7-4A8E-AB1E-321BD8493F4B}">
+						<SwitchContainer SwitchValue="{B79054B2-2021-423D-93D5-D39027F80FFA}">
 							<Media>
 								<File Id="263230741"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C12401EF-11FB-4FBD-9D11-8C132FD28959}">
 							<Media>
-								<File Id="806829015"/>
+								<File Id="324132809"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{8B1F7D3C-EA41-495D-8A65-FCD666C73F03}">
@@ -1325,35 +890,18 @@
 				</Event>
 				<Event Id="1477708546" Name="AudioEvent_Rev_Int_18_Ion_Basement" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Basement" GUID="{9DC4B769-B1FB-4589-B64C-9EBA4DB1BF8F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="698383119" Name="AudioEvent_Rev_Int_18_Ion_Corridor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Corridor" GUID="{03FD465E-D36C-437B-BBEF-5999C0CB89C6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3033409227" Name="AudioEvent_Rev_Int_18_Ion_Shack" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Shack" GUID="{96FE6ECB-3E60-4B04-BA3F-30107BE67CFC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="60726462" Name="AudioEvent_T18_Emitter_ClockTowerDrone" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITER\AudioEvent_T18_Emitter_ClockTowerDrone" GUID="{2F9A3CED-F7FB-4749-B9DC-4D1A1E21903E}" MaxAttenuation="5000.000000" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="710078307" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_clocktower_drone_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_clocktower_drone_01_256CDB0F.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
-				</Event>
+				<Event Id="60726462" Name="AudioEvent_T18_Emitter_ClockTowerDrone" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITER\AudioEvent_T18_Emitter_ClockTowerDrone" GUID="{2F9A3CED-F7FB-4749-B9DC-4D1A1E21903E}" MaxAttenuation="5000.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="266447965" Name="AudioEvent_T18_Emitter_Mausoleum" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITER\AudioEvent_T18_Emitter_Mausoleum" GUID="{17DBD112-2BB5-4741-88FB-0BCDCEF74A4B}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="18212943" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="93747103" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="172116857" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="186733522" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="226316156" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_06.wav</ShortName>
@@ -1363,25 +911,9 @@
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="413893476" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="466304370" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="650153664" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="748185851" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="881460215" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="1010403194" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_05.wav</ShortName>
@@ -1389,11 +921,10 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="326083489" Name="AudioEvent_T18_Emitter_SwarmCrows_Indoor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITER\AudioEvent_T18_Emitter_SwarmCrows_Indoor" GUID="{E09D6C6B-0E0F-4200-BB89-3D2BEE9B875D}" MaxAttenuation="3400.000000" DurationType="Infinite">
+				<Event Id="326083489" Name="AudioEvent_T18_Emitter_SwarmCrows_Indoor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITER\AudioEvent_T18_Emitter_SwarmCrows_Indoor" GUID="{E09D6C6B-0E0F-4200-BB89-3D2BEE9B875D}" MaxAttenuation="6400.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="1070607475" Language="SFX">
 							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_swarncrows_indoor_03.wav</ShortName>
@@ -1427,10 +958,6 @@
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_2f_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_2f_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="806829015" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_1f_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_clocktower_1f_01_256CDB0F.wem</Path>
-				</File>
 				<File Id="961346398" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_shack_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_shack_02_256CDB0F.wem</Path>
@@ -1457,33 +984,17 @@
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_killerbasement_background_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_killerbasement_background_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="90717078" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="93747103" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_05.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="114783806" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="149520254" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_tile_killerbasement_drops_10.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_tile_killerbasement_drops_10_256CDB0F.wem</Path>
 				</File>
-				<File Id="155247906" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_04_5237020A.wem</Path>
-				</File>
 				<File Id="159182992" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_05.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_05_C1105E43.wem</Path>
-				</File>
-				<File Id="170984397" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="172116857" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_01.wav</ShortName>
@@ -1501,25 +1012,9 @@
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="199901859" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="210703769" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="226316156" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_06.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="238695303" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="281971891" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="282071641" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_12.wav</ShortName>
@@ -1529,21 +1024,9 @@
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="323477527" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="339955051" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="381102342" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="385421540" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="413893476" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_02.wav</ShortName>
@@ -1581,14 +1064,6 @@
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="646337848" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="646880112" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_09_7FA8D501.wem</Path>
-				</File>
 				<File Id="650153664" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_04.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_04_7FA8D501.wem</Path>
@@ -1597,21 +1072,9 @@
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_08_7FA8D501.wem</Path>
 				</File>
-				<File Id="661078551" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_distantimpacts_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="687775548" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_windysand_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="699397506" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="710078307" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_clocktower_drone_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_clocktower_drone_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="736578437" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_sand_02.wav</ShortName>
@@ -1636,10 +1099,6 @@
 				<File Id="897957549" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="944336022" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_ink_15_7FA8D501.wem</Path>
 				</File>
 				<File Id="1010403194" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_05.wav</ShortName>

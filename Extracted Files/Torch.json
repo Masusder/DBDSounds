@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\",
+   "SourceFilesRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Jupiter_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\DeadByDaylight_Unreal\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2019_2_5_Jupiter\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1904864137",
+    "GUID": "{DA136053-A758-4933-B004-AADB0391F0EB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\OBJECT\\OBJECT_DECO\\Torch",
+    "ShortName": "Torch",
+    "Path": "Torch.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2667867642",
+      "Name": "AudioEvent_Torch_Fire_Start",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Torch\\AudioEvent_Torch_Fire_Start",
+      "GUID": "{C017DEE4-B2E6-415C-818F-676AD12E61E0}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "258599225",
+        "Language": "SFX",
+        "ShortName": "Objects\\Torch\\Torch_Fire_Loop_Bounce.wav",
+        "Path": "SFX\\Objects\\Torch\\Torch_Fire_Loop_Bounce_0BC91DCF.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2605713682",
+      "Name": "AudioEvent_Torch_Fire_Stop",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Torch\\AudioEvent_Torch_Fire_Stop",
+      "GUID": "{9995318B-F32F-4261-A20E-286D5F4FD1DA}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "258599225",
+      "Language": "SFX",
+      "ShortName": "Objects\\Torch\\Torch_Fire_Loop_Bounce.wav",
+      "Path": "SFX\\Objects\\Torch\\Torch_Fire_Loop_Bounce_0BC91DCF.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4096507154",
+      "Name": "AudioRTPC_Listener_Angle_Object_Relative",
+      "ObjectPath": "\\Game Parameters\\RTPC_WORLD\\AudioRTPC_Listener_Angle_Object_Relative",
+      "GUID": "{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"
+     }
+    ]
+   }
+  ]
+ }
+}
