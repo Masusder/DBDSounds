@@ -9,35 +9,57 @@
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="4159760200" GUID="{C06DDE09-8661-40D8-9350-E0AC70B71339}" Language="SFX">
-			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Cockroach</ObjectPath>
+			<ObjectPath>\SoundBanks\OBJECT\OBJECT_VFX\Cockroach</ObjectPath>
 			<ShortName>Cockroach</ShortName>
 			<Path>Cockroach.bnk</Path>
 			<IncludedEvents>
-				<Event Id="313549375" Name="AudioEvent_Cockroach_Move" ObjectPath="\Events\OBJECT\OBJ_DECO\Animals\Cockroach\AudioEvent_Cockroach_Move" GUID="{0F68786F-B614-4043-8418-151C07FA80FC}" MaxAttenuation="450.000000" DurationType="OneShot" DurationMin="0.672781" DurationMax="1.241679">
-					<IncludedMemoryFiles>
-						<File Id="184681532" Language="SFX">
-							<ShortName>Objects\Coakroach\sfx_coakroach_move_02.wav</ShortName>
-							<Path>SFX\Objects\Coakroach\sfx_coakroach_move_02_67368C31.wem</Path>
+				<Event Id="313549375" Name="AudioEvent_Cockroach_Move" ObjectPath="\Events\OBJECT\OBJ_VFX\Cockroach\AudioEvent_Cockroach_Move" GUID="{0F68786F-B614-4043-8418-151C07FA80FC}" MaxAttenuation="450.000000" DurationType="OneShot" DurationMin="0.672781" DurationMax="1.241679">
+					<ExcludedMemoryFiles>
+						<File Id="75110112" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_05.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="258055778" Language="SFX">
-							<ShortName>Objects\Coakroach\sfx_coakroach_move_03.wav</ShortName>
-							<Path>SFX\Objects\Coakroach\sfx_coakroach_move_03_67368C31.wem</Path>
+						<File Id="611570634" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="547939442" Language="SFX">
-							<ShortName>Objects\Coakroach\sfx_coakroach_move_05.wav</ShortName>
-							<Path>SFX\Objects\Coakroach\sfx_coakroach_move_05_67368C31.wem</Path>
+						<File Id="627662577" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="978816655" Language="SFX">
-							<ShortName>Objects\Coakroach\sfx_coakroach_move_01.wav</ShortName>
-							<Path>SFX\Objects\Coakroach\sfx_coakroach_move_01_67368C31.wem</Path>
+						<File Id="668099802" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_04.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="996389983" Language="SFX">
-							<ShortName>Objects\Coakroach\sfx_coakroach_move_04.wav</ShortName>
-							<Path>SFX\Objects\Coakroach\sfx_coakroach_move_04_67368C31.wem</Path>
+						<File Id="680342734" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_01_7FA8D501.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="75110112" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_05.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="611570634" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="627662577" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="668099802" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_04.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="680342734" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Coakroach\sfx_cockroach_move_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Coakroach\sfx_cockroach_move_01_7FA8D501.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

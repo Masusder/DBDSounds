@@ -13,11 +13,277 @@
 			<ShortName>Fireworks</ShortName>
 			<Path>Fireworks.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1310711375" Name="AudioEvent_Fireworks_Burst_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Burst_Menu" GUID="{23251B99-AC3C-4B41-B9A4-53DC695BA927}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="2.526880" DurationMax="3.863051"/>
-				<Event Id="2025483392" Name="AudioEvent_Fireworks_Solo_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Solo_Menu" GUID="{F5A3CF2A-29A1-4AA6-935D-1A6D27855E19}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="0.760900" DurationMax="1.633704"/>
-				<Event Id="1831933054" Name="AudioEvent_Fireworks_Sphere_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Sphere_Menu" GUID="{5D9FFC69-390D-49DC-9E95-47BE00EB1610}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="3.173256" DurationMax="4.501556"/>
-				<Event Id="3816367177" Name="AudioEvent_Fireworks_Tail_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Tail_Menu" GUID="{80797C1E-220C-4969-97AC-DE44E73525BA}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="0.910542" DurationMax="1.748954"/>
+				<Event Id="1310711375" Name="AudioEvent_Fireworks_Burst_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Burst_Menu" GUID="{23251B99-AC3C-4B41-B9A4-53DC695BA927}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="2.526880" DurationMax="3.863051">
+					<ExcludedMemoryFiles>
+						<File Id="561409387" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="727931536" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3563313720" Name="AudioEvent_Fireworks_LunarEvent_InGame_ToolBox_SkillCheck_Fail" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_LunarEvent_InGame_ToolBox_SkillCheck_Fail" GUID="{DD5CE9B4-AD33-43B3-9325-362C15834018}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="3.160826" DurationMax="4.308917">
+					<ExcludedMemoryFiles>
+						<File Id="66940903" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="107270172" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_04.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="333627401" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="428196463" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="616645725" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991076136" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1071163149" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="120344637" Name="AudioEvent_Fireworks_LunarEvent_InGame_ToolBox_SkillCheck_GreatSucess" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_LunarEvent_InGame_ToolBox_SkillCheck_GreatSucess" GUID="{D1876048-3D84-4C00-A13C-DF8E3FAB68B7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.327748" DurationMax="1.977241">
+					<ExcludedMemoryFiles>
+						<File Id="104085701" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_02_5622497A.wem</Path>
+						</File>
+						<File Id="125926358" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_03_2C7B3097.wem</Path>
+						</File>
+						<File Id="445102591" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_01_CE7B2386.wem</Path>
+						</File>
+						<File Id="1022737201" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_04.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_04_0CE0CC25.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2025483392" Name="AudioEvent_Fireworks_Solo_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Solo_Menu" GUID="{F5A3CF2A-29A1-4AA6-935D-1A6D27855E19}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="0.760900" DurationMax="1.633704">
+					<ExcludedMemoryFiles>
+						<File Id="24037726" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="97400764" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="109121344" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="929924486" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_04.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1831933054" Name="AudioEvent_Fireworks_Sphere_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Sphere_Menu" GUID="{5D9FFC69-390D-49DC-9E95-47BE00EB1610}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="3.173256" DurationMax="4.501556">
+					<ExcludedMemoryFiles>
+						<File Id="948463013" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="962869180" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3816367177" Name="AudioEvent_Fireworks_Tail_Menu" ObjectPath="\Events\OBJECT\OBJ_VFX\Fireworks\AudioEvent_Fireworks_Tail_Menu" GUID="{80797C1E-220C-4969-97AC-DE44E73525BA}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="0.950281" DurationMax="1.748954">
+					<ExcludedMemoryFiles>
+						<File Id="588704338" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="654113638" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="907669941" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="24037726" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="60805836" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_01_b.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_01_b_7FA8D501.wem</Path>
+				</File>
+				<File Id="66940903" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="97400764" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="98925010" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_firecrackers_burst_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_firecrackers_burst_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="104085701" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_02_5622497A.wem</Path>
+				</File>
+				<File Id="105601824" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_04.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_04_DD710BF5.wem</Path>
+				</File>
+				<File Id="107270172" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_04.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="109121344" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="125926358" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_03_2C7B3097.wem</Path>
+				</File>
+				<File Id="156548033" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01_3166A164.wem</Path>
+				</File>
+				<File Id="185878254" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_firecrackers_burst_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_firecrackers_burst_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="188048301" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_base_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_base_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="225953491" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_02_c.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_02_c_7FA8D501.wem</Path>
+				</File>
+				<File Id="333627401" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="428196463" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="445102591" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_01_CE7B2386.wem</Path>
+				</File>
+				<File Id="447969840" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_01_a.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_01_a_7FA8D501.wem</Path>
+				</File>
+				<File Id="454014372" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_explosion_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_explosion_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="536106534" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_02_a.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_02_a_7FA8D501.wem</Path>
+				</File>
+				<File Id="551265873" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_01_c.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_01_c_7FA8D501.wem</Path>
+				</File>
+				<File Id="561409387" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="588704338" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="616645725" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="641930436" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_02_b.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_firecrackers_02_b_7FA8D501.wem</Path>
+				</File>
+				<File Id="654113638" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="697881045" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_02_A537A3A2.wem</Path>
+				</File>
+				<File Id="727931536" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_burst_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="783482635" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_explosion_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_explosion_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="862166616" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_explosion_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_generator_explosion_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="907189601" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_firecrackers_burst_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_firecrackers_burst_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="907669941" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_tail_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="915303889" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_whistle_03_7E1D4EA1.wem</Path>
+				</File>
+				<File Id="929924486" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_04.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_solo_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="948463013" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="962869180" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_sphere_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="991076136" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1022737201" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_04.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_great_sucess_firecrackers_04_0CE0CC25.wem</Path>
+				</File>
+				<File Id="1071163149" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Fireworks\sfx_fireworks_toolbox_skillheck_fail_explosion_03_7FA8D501.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -13,1117 +13,748 @@
 			<ShortName>KLR_14</ShortName>
 			<Path>KLR_14.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2923697365" Name="AudioEvent_Bolt_Activate" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_Activate" GUID="{755C4461-ECFA-4F44-8D73-20026776AD84}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="10710157" Language="SFX">
-							<ShortName>Powers\PWR_14_Bolt\Bolt_Loop_Mix_Bounce.wav</ShortName>
-							<Path>SFX\Powers\PWR_14_Bolt\Bolt_Loop_Mix_Bounce_0BC91DCF.wem</Path>
-						</File>
-						<File Id="620500246" Language="SFX">
-							<ShortName>Powers\PWR_14_Bolt\sfx_bolt_activate_02.wav</ShortName>
-							<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_activate_02_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="2923697365" Name="AudioEvent_Bolt_Activate" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_Activate" GUID="{755C4461-ECFA-4F44-8D73-20026776AD84}" DurationType="Infinite"/>
 				<Event Id="147137079" Name="AudioEvent_Bolt_BleedOut_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_BleedOut_Start" GUID="{01E8F222-EDD3-4CD6-B6B3-E1ECBA456766}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2051645597" Name="AudioEvent_Bolt_BleedOut_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_BleedOut_Stop" GUID="{B46259B2-F676-410B-86BF-4D3F950FB99B}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1066892676" Name="AudioEvent_Bolt_DeepWound_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_DeepWound_Start" GUID="{C5836081-4729-4BA2-8764-D84B0C2CE017}" DurationType="OneShot" DurationMin="3.637000" DurationMax="3.637000">
-					<IncludedMemoryFiles>
-						<File Id="721389994" Language="SFX">
-							<ShortName>Powers\PWR_14_Bolt\sfx_bolt_deepwound_start_01.wav</ShortName>
-							<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_deepwound_start_01_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-					</AuxBusSends>
-				</Event>
+				<Event Id="1066892676" Name="AudioEvent_Bolt_DeepWound_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_DeepWound_Start" GUID="{C5836081-4729-4BA2-8764-D84B0C2CE017}" DurationType="OneShot" DurationMin="3.637000" DurationMax="3.637000"/>
 				<Event Id="778896184" Name="AudioEvent_Bolt_DeepWound_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_DeepWound_Stop" GUID="{0971A61F-CE98-4F3C-B120-00A968CAF38F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="517457789" Name="AudioEvent_Bolt_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_Desactivate" GUID="{EDC9E76C-4F4D-4C72-9913-54880AF7CD16}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1415086785" Name="AudioEvent_Bolt_Frenzy_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_Frenzy_Start" GUID="{A4675F24-3E71-4938-85E6-66B867B6723B}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3046849403" Name="AudioEvent_Bolt_Frenzy_Stop" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_Frenzy_Stop" GUID="{3AFE3E58-A24A-4DD5-86D1-BDCE1B388C41}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2943652303" Name="AudioEvent_Bolt_Ready" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_Ready" GUID="{89365940-3F36-410F-8B7E-F2A98C415899}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="3.654716" DurationMax="3.654716">
-					<IncludedMemoryFiles>
-						<File Id="933347052" Language="SFX">
-							<ShortName>Powers\PWR_14_Bolt\sfx_bolt_ready_02.wav</ShortName>
-							<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_ready_02_67368C31.wem</Path>
-						</File>
-						<File Id="954436974" Language="SFX">
-							<ShortName>Powers\PWR_14_Bolt\sfx_bolt_deepwound_02.wav</ShortName>
-							<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_deepwound_02_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3496524976" Name="AudioEvent_K14_WPN_Default_ShortBlade_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Arm" GUID="{F97CE7E1-6DA0-41DE-902C-113D239F2D05}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.163109" DurationMax="0.283471">
-					<IncludedMemoryFiles>
-						<File Id="588164142" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="684336708" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_02.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="937498100" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_03.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_03_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="4000526734" Name="AudioEvent_K14_WPN_Default_ShortBlade_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Attack" GUID="{A9254778-2E13-43F3-8034-48C09CE1736C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.247076" DurationMax="0.304093">
-					<IncludedMemoryFiles>
-						<File Id="12865038" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_03.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="85431959" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_02.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="410981803" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_01.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="680336251" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_06.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="768826838" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_05.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="1044087216" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_04.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_04_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3314879993" Name="AudioEvent_K14_WPN_Default_ShortBlade_Clean" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Clean" GUID="{398B6436-B6E8-45A2-9C96-CBE1475D4CD9}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.254362" DurationMax="0.433333">
-					<IncludedMemoryFiles>
-						<File Id="207286858" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_02.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="1065024225" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_01.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1066478292" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_03.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_03_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="2480180188" Name="AudioEvent_K14_WPN_Default_ShortBlade_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Impact" GUID="{F18EF9D4-A21A-4FB5-8507-5E24DA8CCDA7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.394667" DurationMax="1.000000">
-					<IncludedMemoryFiles>
-						<File Id="379295702" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_07.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="447172603" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_05.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="785242914" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_03.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="905559912" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_01.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="919948413" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_02.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="981753115" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_04.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_04_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
-							<Media>
-								<File Id="905559912"/>
-								<File Id="919948413"/>
-								<File Id="785242914"/>
-								<File Id="981753115"/>
-								<File Id="447172603"/>
-								<File Id="379295702"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="1138640109" Name="AudioEvent_K14_WPN_Default_ShortBlade_PullOut" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_PullOut" GUID="{2E3D6EE9-62E9-434B-A970-A3B9D4449823}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186">
-					<IncludedMemoryFiles>
-						<File Id="588164142" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="684336708" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_02.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="937498100" Language="SFX">
-							<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_03.wav</ShortName>
-							<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_03_7FA8D501.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="2271790143" Name="AudioEvent_Killer_Kenya_Attack_Hard" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Hard" GUID="{C14C1792-A084-4190-85F2-AE318DC4CC55}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.409229" DurationMax="0.791917">
-					<IncludedMemoryFiles>
-						<File Id="11719898" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="47072055" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_07_67368C31.wem</Path>
-						</File>
-						<File Id="167547955" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_19.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_19_67368C31.wem</Path>
-						</File>
-						<File Id="187575418" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_03_67368C31.wem</Path>
-						</File>
-						<File Id="191160799" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="257061645" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_09_67368C31.wem</Path>
-						</File>
-						<File Id="286181851" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_05_67368C31.wem</Path>
-						</File>
-						<File Id="311212491" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_02_67368C31.wem</Path>
-						</File>
-						<File Id="353736353" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="365956499" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_23.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_23_67368C31.wem</Path>
-						</File>
-						<File Id="379292774" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_03_67368C31.wem</Path>
-						</File>
-						<File Id="393301444" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="443900799" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_15.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_15_67368C31.wem</Path>
-						</File>
-						<File Id="563197829" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_06_67368C31.wem</Path>
-						</File>
-						<File Id="582862756" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_07_67368C31.wem</Path>
-						</File>
-						<File Id="666017563" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="668946907" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_01_67368C31.wem</Path>
-						</File>
-						<File Id="680396407" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_67368C31.wem</Path>
-						</File>
-						<File Id="712422685" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_04_67368C31.wem</Path>
-						</File>
-						<File Id="738813326" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="768009664" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_010.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_010_67368C31.wem</Path>
-						</File>
-						<File Id="812663086" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_11.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_11_67368C31.wem</Path>
-						</File>
-						<File Id="946464852" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="980230852" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_08_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{B9AB5528-F9C0-4C88-889D-FC8FAA2233D1}">
-							<Media>
-								<File Id="680396407"/>
-								<File Id="668946907"/>
-								<File Id="379292774"/>
-								<File Id="47072055"/>
-								<File Id="311212491"/>
-								<File Id="980230852"/>
-								<File Id="257061645"/>
-								<File Id="712422685"/>
-								<File Id="768009664"/>
-								<File Id="286181851"/>
-								<File Id="563197829"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
-							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
-							<Children>
-								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
-									<Media>
-										<File Id="187575418"/>
-										<File Id="365956499"/>
-										<File Id="582862756"/>
-										<File Id="812663086"/>
-										<File Id="167547955"/>
-										<File Id="443900799"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
-									<Media>
-										<File Id="191160799"/>
-										<File Id="353736353"/>
-										<File Id="738813326"/>
-										<File Id="11719898"/>
-										<File Id="946464852"/>
-										<File Id="666017563"/>
-										<File Id="393301444"/>
-									</Media>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-					</SwitchContainers>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="344133644" Name="AudioEvent_Killer_Kenya_Attack_Light" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Light" GUID="{960E0780-33B1-4B97-BD38-BFA46A19D4F8}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.150000" DurationMax="0.555896">
-					<IncludedMemoryFiles>
-						<File Id="102034840" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_05_67368C31.wem</Path>
-						</File>
-						<File Id="165034961" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_07_67368C31.wem</Path>
-						</File>
-						<File Id="227638815" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_03_67368C31.wem</Path>
-						</File>
-						<File Id="297519137" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_27.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_27_67368C31.wem</Path>
-						</File>
-						<File Id="298865788" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_010.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_010_67368C31.wem</Path>
-						</File>
-						<File Id="344313383" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="358973801" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_23.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_23_67368C31.wem</Path>
-						</File>
-						<File Id="386206843" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_06_67368C31.wem</Path>
-						</File>
-						<File Id="397954824" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="449095737" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_07_67368C31.wem</Path>
-						</File>
-						<File Id="573363771" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_15.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_15_67368C31.wem</Path>
-						</File>
-						<File Id="581404426" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="595759925" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_31.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_31_67368C31.wem</Path>
-						</File>
-						<File Id="635298168" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_67368C31.wem</Path>
-						</File>
-						<File Id="673564620" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_04_67368C31.wem</Path>
-						</File>
-						<File Id="688957358" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_08_67368C31.wem</Path>
-						</File>
-						<File Id="713511640" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="778167860" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="837106153" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="852333075" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_03_67368C31.wem</Path>
-						</File>
-						<File Id="863493013" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_01_67368C31.wem</Path>
-						</File>
-						<File Id="988075005" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_11.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_11_67368C31.wem</Path>
-						</File>
-						<File Id="1033234436" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_09_67368C31.wem</Path>
-						</File>
-						<File Id="1039382434" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_02_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{B9AB5528-F9C0-4C88-889D-FC8FAA2233D1}">
-							<Media>
-								<File Id="635298168"/>
-								<File Id="852333075"/>
-								<File Id="1039382434"/>
-								<File Id="386206843"/>
-								<File Id="449095737"/>
-								<File Id="863493013"/>
-								<File Id="102034840"/>
-								<File Id="673564620"/>
-								<File Id="688957358"/>
-								<File Id="1033234436"/>
-								<File Id="298865788"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
-							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
-							<Children>
-								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
-									<Media>
-										<File Id="227638815"/>
-										<File Id="165034961"/>
-										<File Id="988075005"/>
-										<File Id="573363771"/>
-										<File Id="358973801"/>
-										<File Id="297519137"/>
-										<File Id="595759925"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
-									<Media>
-										<File Id="713511640"/>
-										<File Id="837106153"/>
-										<File Id="397954824"/>
-										<File Id="344313383"/>
-										<File Id="778167860"/>
-										<File Id="581404426"/>
-									</Media>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-					</SwitchContainers>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="147624854" Name="AudioEvent_Killer_Kenya_CoolDown" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_CoolDown" GUID="{45E800BB-53E7-4029-8338-FE101B3DFE20}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.580000" DurationMax="1.889637">
-					<IncludedMemoryFiles>
-						<File Id="55383146" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_09_67368C31.wem</Path>
-						</File>
-						<File Id="98083828" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_02_67368C31.wem</Path>
-						</File>
-						<File Id="261813672" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_06_67368C31.wem</Path>
-						</File>
-						<File Id="363236510" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_04_67368C31.wem</Path>
-						</File>
-						<File Id="423937041" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_17.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_17_67368C31.wem</Path>
-						</File>
-						<File Id="521546547" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="536385478" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="694224930" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_19.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_19_67368C31.wem</Path>
-						</File>
-						<File Id="736029614" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_01_67368C31.wem</Path>
-						</File>
-						<File Id="798989785" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_07_67368C31.wem</Path>
-						</File>
-						<File Id="806226644" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_03_67368C31.wem</Path>
-						</File>
-						<File Id="845681966" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_08_67368C31.wem</Path>
-						</File>
-						<File Id="854459370" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_67368C31.wem</Path>
-						</File>
-						<File Id="854736473" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="892344775" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_18.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_18_67368C31.wem</Path>
-						</File>
-						<File Id="911602776" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1029603257" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_15.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_15_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{B9AB5528-F9C0-4C88-889D-FC8FAA2233D1}">
-							<Media>
-								<File Id="798989785"/>
-								<File Id="806226644"/>
-								<File Id="845681966"/>
-								<File Id="55383146"/>
-								<File Id="98083828"/>
-								<File Id="736029614"/>
-								<File Id="261813672"/>
-								<File Id="363236510"/>
-								<File Id="854459370"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
-							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
-							<Children>
-								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
-									<Media>
-										<File Id="1029603257"/>
-										<File Id="423937041"/>
-										<File Id="892344775"/>
-										<File Id="694224930"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
-									<Media>
-										<File Id="536385478"/>
-										<File Id="911602776"/>
-										<File Id="521546547"/>
-										<File Id="854736473"/>
-									</Media>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-					</SwitchContainers>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="2380055927" Name="AudioEvent_Killer_Kenya_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Grunt_Hurt" GUID="{C50A6284-ED82-43C6-AD59-F57F7FF9CD0E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.580000" DurationMax="1.889637">
-					<IncludedMemoryFiles>
-						<File Id="55383146" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_09_67368C31.wem</Path>
-						</File>
-						<File Id="58690960" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_05_67368C31.wem</Path>
-						</File>
-						<File Id="98083828" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_02_67368C31.wem</Path>
-						</File>
-						<File Id="261813672" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_06_67368C31.wem</Path>
-						</File>
-						<File Id="363236510" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_04_67368C31.wem</Path>
-						</File>
-						<File Id="423937041" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_17.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_17_67368C31.wem</Path>
-						</File>
-						<File Id="521546547" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="536385478" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="694224930" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_19.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_19_67368C31.wem</Path>
-						</File>
-						<File Id="736029614" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_01_67368C31.wem</Path>
-						</File>
-						<File Id="798989785" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_07_67368C31.wem</Path>
-						</File>
-						<File Id="806226644" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_03_67368C31.wem</Path>
-						</File>
-						<File Id="845681966" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_08_67368C31.wem</Path>
-						</File>
-						<File Id="854459370" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_67368C31.wem</Path>
-						</File>
-						<File Id="854736473" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="892344775" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_18.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_18_67368C31.wem</Path>
-						</File>
-						<File Id="911602776" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1029603257" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_15.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_15_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{B9AB5528-F9C0-4C88-889D-FC8FAA2233D1}">
-							<Media>
-								<File Id="798989785"/>
-								<File Id="806226644"/>
-								<File Id="845681966"/>
-								<File Id="55383146"/>
-								<File Id="98083828"/>
-								<File Id="736029614"/>
-								<File Id="261813672"/>
-								<File Id="363236510"/>
-								<File Id="854459370"/>
-								<File Id="58690960"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
-							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
-							<Children>
-								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
-									<Media>
-										<File Id="1029603257"/>
-										<File Id="423937041"/>
-										<File Id="892344775"/>
-										<File Id="694224930"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
-									<Media>
-										<File Id="536385478"/>
-										<File Id="911602776"/>
-										<File Id="521546547"/>
-										<File Id="854736473"/>
-									</Media>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-					</SwitchContainers>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3372731043" Name="AudioEvent_KLR_14_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_STATUS\AudioEvent_KLR_14_Status_Start" GUID="{847C8E95-6B89-4251-9A0A-80DB6403829C}" MaxAttenuation="1900.000000" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="7205805" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_011.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_011_67368C31.wem</Path>
-						</File>
-						<File Id="15639864" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_05_67368C31.wem</Path>
-						</File>
-						<File Id="34030476" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_08_67368C31.wem</Path>
-						</File>
-						<File Id="56010942" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="73869332" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_21.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_21_67368C31.wem</Path>
-						</File>
-						<File Id="109327093" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_09_67368C31.wem</Path>
-						</File>
-						<File Id="113805213" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_19.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_19_67368C31.wem</Path>
-						</File>
-						<File Id="152759351" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_11.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_11_7FA8D501.wem</Path>
-						</File>
-						<File Id="153353385" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_03_67368C31.wem</Path>
-						</File>
-						<File Id="194464936" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_08_67368C31.wem</Path>
-						</File>
-						<File Id="195691154" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_07_67368C31.wem</Path>
-						</File>
-						<File Id="202103059" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_14.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_14_67368C31.wem</Path>
-						</File>
-						<File Id="212905281" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_016.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_016_67368C31.wem</Path>
-						</File>
-						<File Id="226676209" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_014.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_014_67368C31.wem</Path>
-						</File>
-						<File Id="228272073" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_10.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="230139959" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_09_67368C31.wem</Path>
-						</File>
-						<File Id="246148502" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_29.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_29_67368C31.wem</Path>
-						</File>
-						<File Id="253388857" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_39.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_39_67368C31.wem</Path>
-						</File>
-						<File Id="258149978" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_010.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_010_67368C31.wem</Path>
-						</File>
-						<File Id="263240047" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="263423508" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_04_67368C31.wem</Path>
-						</File>
-						<File Id="276197002" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_07_67368C31.wem</Path>
-						</File>
-						<File Id="296621390" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_05_67368C31.wem</Path>
-						</File>
-						<File Id="303146293" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_017.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_017_67368C31.wem</Path>
-						</File>
-						<File Id="314864040" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_06_67368C31.wem</Path>
-						</File>
-						<File Id="324166738" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_02_67368C31.wem</Path>
-						</File>
-						<File Id="324689051" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="327807574" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="329625079" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_08.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="343103223" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="350351076" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="356569091" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_09.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_09_67368C31.wem</Path>
-						</File>
-						<File Id="360731745" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_02_67368C31.wem</Path>
-						</File>
-						<File Id="377154451" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="381586223" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_51.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_51_67368C31.wem</Path>
-						</File>
-						<File Id="383869817" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_67368C31.wem</Path>
-						</File>
-						<File Id="389625386" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_25.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_25_67368C31.wem</Path>
-						</File>
-						<File Id="408870985" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_01_67368C31.wem</Path>
-						</File>
-						<File Id="439328256" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_23.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_23_67368C31.wem</Path>
-						</File>
-						<File Id="461326248" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_05_67368C31.wem</Path>
-						</File>
-						<File Id="565966377" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_15.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_15_67368C31.wem</Path>
-						</File>
-						<File Id="574070526" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_17.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_17_67368C31.wem</Path>
-						</File>
-						<File Id="585631609" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="600723805" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_01_67368C31.wem</Path>
-						</File>
-						<File Id="609356472" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_011.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_011_67368C31.wem</Path>
-						</File>
-						<File Id="643187685" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_13.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_13_67368C31.wem</Path>
-						</File>
-						<File Id="646556431" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_07_67368C31.wem</Path>
-						</File>
-						<File Id="662716132" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="677976535" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_49.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_49_67368C31.wem</Path>
-						</File>
-						<File Id="697288860" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_13.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_13_7FA8D501.wem</Path>
-						</File>
-						<File Id="703600097" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="710072264" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_03_67368C31.wem</Path>
-						</File>
-						<File Id="748499188" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_015.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_015_67368C31.wem</Path>
-						</File>
-						<File Id="762195024" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_47.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_47_67368C31.wem</Path>
-						</File>
-						<File Id="830502227" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_010.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_010_67368C31.wem</Path>
-						</File>
-						<File Id="869753720" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_15.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_15_67368C31.wem</Path>
-						</File>
-						<File Id="883181008" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_013.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_013_67368C31.wem</Path>
-						</File>
-						<File Id="890431857" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_06.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_06_67368C31.wem</Path>
-						</File>
-						<File Id="914817064" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_07_67368C31.wem</Path>
-						</File>
-						<File Id="920931234" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_04.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_04_67368C31.wem</Path>
-						</File>
-						<File Id="930882251" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_05.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_05_67368C31.wem</Path>
-						</File>
-						<File Id="945561573" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_07.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="979484037" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_13.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_13_67368C31.wem</Path>
-						</File>
-						<File Id="988155159" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_41.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_41_67368C31.wem</Path>
-						</File>
-						<File Id="988785619" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="991373488" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_67368C31.wem</Path>
-						</File>
-						<File Id="1014712567" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_03.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_03_67368C31.wem</Path>
-						</File>
-						<File Id="1014987282" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_02.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="1034618598" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_01.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_01_67368C31.wem</Path>
-						</File>
-						<File Id="1048855414" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_12.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="1057749869" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_012.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_012_67368C31.wem</Path>
-						</File>
-						<File Id="1072716557" Language="SFX">
-							<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_43.wav</ShortName>
-							<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_43_67368C31.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{965881D7-B79B-4E1A-84CA-3422D7CB19F6}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}">
-							<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
-							<Children>
-								<SwitchContainer SwitchValue="{B9AB5528-F9C0-4C88-889D-FC8FAA2233D1}">
-									<Media>
-										<File Id="153353385"/>
-										<File Id="1034618598"/>
-										<File Id="914817064"/>
-										<File Id="230139959"/>
-										<File Id="258149978"/>
-										<File Id="212905281"/>
-										<File Id="34030476"/>
-										<File Id="748499188"/>
-										<File Id="226676209"/>
-										<File Id="991373488"/>
-										<File Id="324166738"/>
-										<File Id="7205805"/>
-										<File Id="1057749869"/>
-										<File Id="883181008"/>
-										<File Id="303146293"/>
-										<File Id="263423508"/>
-										<File Id="890431857"/>
-										<File Id="296621390"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
-									<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
-									<Children>
-										<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
-											<Media>
-												<File Id="710072264"/>
-												<File Id="461326248"/>
-												<File Id="195691154"/>
-												<File Id="643187685"/>
-												<File Id="869753720"/>
-												<File Id="113805213"/>
-												<File Id="73869332"/>
-												<File Id="439328256"/>
-												<File Id="389625386"/>
-												<File Id="246148502"/>
-												<File Id="253388857"/>
-												<File Id="988155159"/>
-												<File Id="1072716557"/>
-												<File Id="762195024"/>
-												<File Id="677976535"/>
-												<File Id="381586223"/>
-											</Media>
-										</SwitchContainer>
-										<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
-											<Media>
-												<File Id="697288860"/>
-												<File Id="585631609"/>
-												<File Id="1048855414"/>
-												<File Id="152759351"/>
-												<File Id="263240047"/>
-												<File Id="377154451"/>
-												<File Id="228272073"/>
-												<File Id="324689051"/>
-												<File Id="703600097"/>
-												<File Id="945561573"/>
-												<File Id="329625079"/>
-												<File Id="662716132"/>
-												<File Id="327807574"/>
-											</Media>
-										</SwitchContainer>
-									</Children>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{965881D7-B79B-4E1A-84CA-3422D7CB19F6}">
-							<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
-							<Children>
-								<SwitchContainer SwitchValue="{B9AB5528-F9C0-4C88-889D-FC8FAA2233D1}">
-									<Media>
-										<File Id="920931234"/>
-										<File Id="383869817"/>
-										<File Id="600723805"/>
-										<File Id="194464936"/>
-										<File Id="646556431"/>
-										<File Id="830502227"/>
-										<File Id="314864040"/>
-										<File Id="356569091"/>
-										<File Id="930882251"/>
-										<File Id="360731745"/>
-										<File Id="609356472"/>
-									</Media>
-								</SwitchContainer>
-								<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
-									<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
-									<Children>
-										<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
-											<Media>
-												<File Id="988785619"/>
-												<File Id="1014987282"/>
-												<File Id="56010942"/>
-												<File Id="350351076"/>
-												<File Id="343103223"/>
-											</Media>
-										</SwitchContainer>
-										<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
-											<Media>
-												<File Id="408870985"/>
-												<File Id="1014712567"/>
-												<File Id="15639864"/>
-												<File Id="276197002"/>
-												<File Id="109327093"/>
-												<File Id="979484037"/>
-												<File Id="202103059"/>
-												<File Id="565966377"/>
-												<File Id="574070526"/>
-											</Media>
-										</SwitchContainer>
-									</Children>
-								</SwitchContainer>
-							</Children>
-						</SwitchContainer>
-					</SwitchContainers>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
+				<Event Id="2943652303" Name="AudioEvent_Bolt_Ready" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_POWER\AudioEvent_Bolt_Ready" GUID="{89365940-3F36-410F-8B7E-F2A98C415899}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="3.654716" DurationMax="3.654716"/>
+				<Event Id="892098523" Name="AudioEvent_K14_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_CLOTH\AudioEvent_K14_CLOTH_Default_Land" GUID="{755A5D02-2714-4875-8178-942D8238BBA6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
+				<Event Id="3087003195" Name="AudioEvent_K14_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_CLOTH\AudioEvent_K14_CLOTH_Default_Move" GUID="{915A11F8-E5AB-4891-BAA6-33FA4FB25939}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.169660" DurationMax="1.691338"/>
+				<Event Id="2756317751" Name="AudioEvent_K14_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_CLOTH\AudioEvent_K14_CLOTH_Default_ShuffleHigh" GUID="{61EC92DF-70BD-483E-A02A-178A51D9E983}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
+				<Event Id="4237542755" Name="AudioEvent_K14_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_CLOTH\AudioEvent_K14_CLOTH_Default_ShuffleLow" GUID="{113817CE-E666-4256-B66E-AA550E3D70AE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
+				<Event Id="3496524976" Name="AudioEvent_K14_WPN_Default_ShortBlade_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Arm" GUID="{F97CE7E1-6DA0-41DE-902C-113D239F2D05}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.163109" DurationMax="0.283471"/>
+				<Event Id="4000526734" Name="AudioEvent_K14_WPN_Default_ShortBlade_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Attack" GUID="{A9254778-2E13-43F3-8034-48C09CE1736C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.247076" DurationMax="0.304093"/>
+				<Event Id="3314879993" Name="AudioEvent_K14_WPN_Default_ShortBlade_Clean" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Clean" GUID="{398B6436-B6E8-45A2-9C96-CBE1475D4CD9}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.254362" DurationMax="0.433333"/>
+				<Event Id="2480180188" Name="AudioEvent_K14_WPN_Default_ShortBlade_Impact" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Impact" GUID="{F18EF9D4-A21A-4FB5-8507-5E24DA8CCDA7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.394667" DurationMax="1.000000"/>
+				<Event Id="1138640109" Name="AudioEvent_K14_WPN_Default_ShortBlade_PullOut" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_PullOut" GUID="{2E3D6EE9-62E9-434B-A970-A3B9D4449823}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186"/>
+				<Event Id="2271790143" Name="AudioEvent_Killer_Kenya_Attack_Hard" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Hard" GUID="{C14C1792-A084-4190-85F2-AE318DC4CC55}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.409229" DurationMax="0.791917"/>
+				<Event Id="344133644" Name="AudioEvent_Killer_Kenya_Attack_Light" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Light" GUID="{960E0780-33B1-4B97-BD38-BFA46A19D4F8}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.150000" DurationMax="0.555896"/>
+				<Event Id="147624854" Name="AudioEvent_Killer_Kenya_CoolDown" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_CoolDown" GUID="{45E800BB-53E7-4029-8338-FE101B3DFE20}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.580000" DurationMax="1.889637"/>
+				<Event Id="2380055927" Name="AudioEvent_Killer_Kenya_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Grunt_Hurt" GUID="{C50A6284-ED82-43C6-AD59-F57F7FF9CD0E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.580000" DurationMax="1.889637"/>
+				<Event Id="3372731043" Name="AudioEvent_KLR_14_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\KLR_14_Kenya\K14_STATUS\AudioEvent_KLR_14_Status_Start" GUID="{847C8E95-6B89-4251-9A0A-80DB6403829C}" MaxAttenuation="1900.000000" DurationType="Infinite"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="7205805" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_011.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_011_67368C31.wem</Path>
+				</File>
+				<File Id="10710157" Language="SFX">
+					<ShortName>Powers\PWR_14_Bolt\Bolt_Loop_Mix_Bounce.wav</ShortName>
+					<Path>SFX\Powers\PWR_14_Bolt\Bolt_Loop_Mix_Bounce_0BC91DCF.wem</Path>
+				</File>
+				<File Id="11719898" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="12865038" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_03.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="15639864" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_05_67368C31.wem</Path>
+				</File>
+				<File Id="34030476" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_08_67368C31.wem</Path>
+				</File>
+				<File Id="47072055" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_07_67368C31.wem</Path>
+				</File>
+				<File Id="55383146" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_09_67368C31.wem</Path>
+				</File>
+				<File Id="56010942" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="58690960" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_05_67368C31.wem</Path>
+				</File>
+				<File Id="73869332" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_21.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_21_67368C31.wem</Path>
+				</File>
+				<File Id="85431959" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_02.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="98083828" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_02_67368C31.wem</Path>
+				</File>
+				<File Id="102034840" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_05_67368C31.wem</Path>
+				</File>
+				<File Id="109327093" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_09_67368C31.wem</Path>
+				</File>
+				<File Id="110634539" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="113805213" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_19.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_19_67368C31.wem</Path>
+				</File>
+				<File Id="152759351" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_11.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="153353385" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_03_67368C31.wem</Path>
+				</File>
+				<File Id="165034961" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_07_67368C31.wem</Path>
+				</File>
+				<File Id="167547955" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_19.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_19_67368C31.wem</Path>
+				</File>
+				<File Id="187575418" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_03_67368C31.wem</Path>
+				</File>
+				<File Id="190943373" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="191160799" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="194464936" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_08_67368C31.wem</Path>
+				</File>
+				<File Id="195691154" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_07_67368C31.wem</Path>
+				</File>
+				<File Id="202103059" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_14.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_14_67368C31.wem</Path>
+				</File>
+				<File Id="207286858" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_02.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="212905281" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_016.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_016_67368C31.wem</Path>
+				</File>
+				<File Id="226676209" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_014.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_014_67368C31.wem</Path>
+				</File>
+				<File Id="227638815" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_03_67368C31.wem</Path>
+				</File>
+				<File Id="228272073" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_10.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="229417673" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_10.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="229895798" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="230139959" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_09_67368C31.wem</Path>
+				</File>
+				<File Id="246148502" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_29.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_29_67368C31.wem</Path>
+				</File>
+				<File Id="253388857" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_39.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_39_67368C31.wem</Path>
+				</File>
+				<File Id="257061645" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_09_67368C31.wem</Path>
+				</File>
+				<File Id="258149978" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_010.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_010_67368C31.wem</Path>
+				</File>
+				<File Id="260477015" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="261813672" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_06_67368C31.wem</Path>
+				</File>
+				<File Id="263240047" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="263423508" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_04_67368C31.wem</Path>
+				</File>
+				<File Id="276197002" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_07_67368C31.wem</Path>
+				</File>
+				<File Id="286181851" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_05_67368C31.wem</Path>
+				</File>
+				<File Id="296621390" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_05_67368C31.wem</Path>
+				</File>
+				<File Id="297519137" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_27.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_27_67368C31.wem</Path>
+				</File>
+				<File Id="298865788" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_010.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_010_67368C31.wem</Path>
+				</File>
+				<File Id="303146293" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_017.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_017_67368C31.wem</Path>
+				</File>
+				<File Id="311212491" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_02_67368C31.wem</Path>
+				</File>
+				<File Id="314864040" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_06_67368C31.wem</Path>
+				</File>
+				<File Id="324166738" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_02_67368C31.wem</Path>
+				</File>
+				<File Id="324689051" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="327807574" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="329625079" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="343103223" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="344313383" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="350351076" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="353736353" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="356569091" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_09_67368C31.wem</Path>
+				</File>
+				<File Id="358973801" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_23.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_23_67368C31.wem</Path>
+				</File>
+				<File Id="360731745" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_02_67368C31.wem</Path>
+				</File>
+				<File Id="363236510" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_04_67368C31.wem</Path>
+				</File>
+				<File Id="365956499" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_23.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_23_67368C31.wem</Path>
+				</File>
+				<File Id="368754784" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="377154451" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="379292774" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_03_67368C31.wem</Path>
+				</File>
+				<File Id="379295702" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_07.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="381586223" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_51.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_51_67368C31.wem</Path>
+				</File>
+				<File Id="383869817" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_67368C31.wem</Path>
+				</File>
+				<File Id="386206843" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_06_67368C31.wem</Path>
+				</File>
+				<File Id="389625386" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_25.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_25_67368C31.wem</Path>
+				</File>
+				<File Id="393301444" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="397954824" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="408870985" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_01_67368C31.wem</Path>
+				</File>
+				<File Id="410981803" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_01.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="423937041" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_17.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_17_67368C31.wem</Path>
+				</File>
+				<File Id="435823183" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="439328256" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_23.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_23_67368C31.wem</Path>
+				</File>
+				<File Id="441657116" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="443900799" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_15.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_15_67368C31.wem</Path>
+				</File>
+				<File Id="447172603" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_05.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="449095737" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_07_67368C31.wem</Path>
+				</File>
+				<File Id="461326248" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_05_67368C31.wem</Path>
+				</File>
+				<File Id="468119161" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="489148202" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="506854087" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="509515166" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="521546547" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="536385478" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="563197829" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_06_67368C31.wem</Path>
+				</File>
+				<File Id="565966377" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_15.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_15_67368C31.wem</Path>
+				</File>
+				<File Id="573363771" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_15.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_15_67368C31.wem</Path>
+				</File>
+				<File Id="574070526" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_17.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_17_67368C31.wem</Path>
+				</File>
+				<File Id="581404426" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="582862756" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_07_67368C31.wem</Path>
+				</File>
+				<File Id="585631609" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="588164142" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="594658326" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="595759925" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_31.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_31_67368C31.wem</Path>
+				</File>
+				<File Id="600723805" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_01_67368C31.wem</Path>
+				</File>
+				<File Id="609356472" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_011.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_011_67368C31.wem</Path>
+				</File>
+				<File Id="620500246" Language="SFX">
+					<ShortName>Powers\PWR_14_Bolt\sfx_bolt_activate_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_activate_02_67368C31.wem</Path>
+				</File>
+				<File Id="635298168" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_67368C31.wem</Path>
+				</File>
+				<File Id="643187685" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_13.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_13_67368C31.wem</Path>
+				</File>
+				<File Id="646556431" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_07_67368C31.wem</Path>
+				</File>
+				<File Id="662716132" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="666017563" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="668946907" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_01_67368C31.wem</Path>
+				</File>
+				<File Id="673564620" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_04_67368C31.wem</Path>
+				</File>
+				<File Id="677976535" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_49.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_49_67368C31.wem</Path>
+				</File>
+				<File Id="680336251" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_06.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="680396407" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_67368C31.wem</Path>
+				</File>
+				<File Id="684336708" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_02.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="688957358" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_08_67368C31.wem</Path>
+				</File>
+				<File Id="694224930" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_19.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_19_67368C31.wem</Path>
+				</File>
+				<File Id="695567426" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="697288860" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_13.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="703453216" Language="SFX">
+					<ShortName>Powers\PWR_14_Bolt\sfx_bolt_activate_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_activate_01_67368C31.wem</Path>
+				</File>
+				<File Id="703600097" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="710072264" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_03_67368C31.wem</Path>
+				</File>
+				<File Id="712422685" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_04_67368C31.wem</Path>
+				</File>
+				<File Id="713511640" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="721389994" Language="SFX">
+					<ShortName>Powers\PWR_14_Bolt\sfx_bolt_deepwound_start_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_deepwound_start_01_67368C31.wem</Path>
+				</File>
+				<File Id="736029614" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_01_67368C31.wem</Path>
+				</File>
+				<File Id="738813326" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="748499188" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_015.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_015_67368C31.wem</Path>
+				</File>
+				<File Id="762195024" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_47.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_47_67368C31.wem</Path>
+				</File>
+				<File Id="768009664" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_010.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_010_67368C31.wem</Path>
+				</File>
+				<File Id="768826838" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_05.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="778167860" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="785242914" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_03.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="798989785" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_07_67368C31.wem</Path>
+				</File>
+				<File Id="806226644" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_03_67368C31.wem</Path>
+				</File>
+				<File Id="812663086" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_hard_11.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_hard_11_67368C31.wem</Path>
+				</File>
+				<File Id="829087889" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="830502227" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_010.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_010_67368C31.wem</Path>
+				</File>
+				<File Id="837106153" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_light_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="845681966" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_08_67368C31.wem</Path>
+				</File>
+				<File Id="852333075" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_03_67368C31.wem</Path>
+				</File>
+				<File Id="854459370" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Hurt.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Hurt_67368C31.wem</Path>
+				</File>
+				<File Id="854736473" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="863493013" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_01_67368C31.wem</Path>
+				</File>
+				<File Id="869753720" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_15.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_15_67368C31.wem</Path>
+				</File>
+				<File Id="883181008" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_013.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_013_67368C31.wem</Path>
+				</File>
+				<File Id="890431857" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_06_67368C31.wem</Path>
+				</File>
+				<File Id="892344775" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_18.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_18_67368C31.wem</Path>
+				</File>
+				<File Id="897028604" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_equipement_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="905559912" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_01.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="911602776" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_hurt_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="914817064" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_07_67368C31.wem</Path>
+				</File>
+				<File Id="919948413" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_02.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="920931234" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_04_67368C31.wem</Path>
+				</File>
+				<File Id="930882251" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Breath_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Breath_05_67368C31.wem</Path>
+				</File>
+				<File Id="933347052" Language="SFX">
+					<ShortName>Powers\PWR_14_Bolt\sfx_bolt_ready_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_ready_02_67368C31.wem</Path>
+				</File>
+				<File Id="937498100" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_03.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="943217900" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_bodymove_default_leather_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="945561573" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="946464852" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_grunt_male01_mask20_attack_hard_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="954436974" Language="SFX">
+					<ShortName>Powers\PWR_14_Bolt\sfx_bolt_deepwound_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_deepwound_02_67368C31.wem</Path>
+				</File>
+				<File Id="979484037" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_13.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_13_67368C31.wem</Path>
+				</File>
+				<File Id="980230852" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_ Attack_Hard_08_67368C31.wem</Path>
+				</File>
+				<File Id="981753115" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_04.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="988075005" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_attack_light_11.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_attack_light_11_67368C31.wem</Path>
+				</File>
+				<File Id="988155159" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_41.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_41_67368C31.wem</Path>
+				</File>
+				<File Id="988785619" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="991373488" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_67368C31.wem</Path>
+				</File>
+				<File Id="1014712567" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_breath_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_breath_03_67368C31.wem</Path>
+				</File>
+				<File Id="1014987282" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_normal_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1029603257" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male01_hurt_15.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male01_hurt_15_67368C31.wem</Path>
+				</File>
+				<File Id="1033234436" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_09_67368C31.wem</Path>
+				</File>
+				<File Id="1034618598" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_01_67368C31.wem</Path>
+				</File>
+				<File Id="1039382434" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Attack_Light_02_67368C31.wem</Path>
+				</File>
+				<File Id="1044087216" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_04.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_attack_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="1048855414" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_12.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\sfx_k14_status_male01_mask20_crazy_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="1057749869" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_KK_Emilie_Crazy_012.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_KK_Emilie_Crazy_012_67368C31.wem</Path>
+				</File>
+				<File Id="1065024225" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_01.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="1066478292" Language="SFX">
+					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_03.wav</ShortName>
+					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_clean_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1072716557" Language="SFX">
+					<ShortName>Characters\Killer_Kenya\vo_kenya_male_crazy_43.wav</ShortName>
+					<Path>SFX\Characters\Killer_Kenya\vo_kenya_male_crazy_43_67368C31.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
@@ -1180,6 +811,7 @@
 						<Switch Id="1229756253" Name="Cardboard" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Cardboard" GUID="{15062674-8B2F-4664-AEB6-B4178F782C33}"/>
 						<Switch Id="329716760" Name="Typewriter" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Typewriter" GUID="{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}"/>
 						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Leaves" GUID="{6F4878BC-2C2D-4042-BC8E-03B16078145B}"/>
+						<Switch Id="3598975185" Name="HardWood" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\HardWood" GUID="{425080A3-52A3-4900-B570-E5014B94C732}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3562543212" Name="AudioSwitchSubKiller" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchSubKiller" GUID="{22641CAC-34F2-4706-92FD-41DCF9932F9D}">

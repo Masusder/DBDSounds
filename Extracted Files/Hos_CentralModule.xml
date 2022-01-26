@@ -16,28 +16,28 @@
 				<Event Id="3336012560" Name="AudioEvent_Emitter_HospitalCentralModule" ObjectPath="\Events\OBJECT\OBJ_DECO\Hos_CentralModule\AudioEvent_Emitter_HospitalCentralModule" GUID="{4177D192-73C9-415A-9F09-C6057260D3A1}" MaxAttenuation="2500.000000" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="456542325" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\EMT_Hospital_CentralModule_Bounce.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\EMT_Hospital_CentralModule_Bounce_0BC91DCF.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_loop_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
-					<IncludedMemoryFiles>
+					<ExcludedMemoryFiles>
 						<File Id="322926859" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_02.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_02_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="448098168" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_03.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_03_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="694572909" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_04.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_04_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_04.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="940788638" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_01.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_sparks_01_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_01_7FA8D501.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
@@ -46,8 +46,8 @@
 				<Event Id="2972725689" Name="AudioEvent_Hos_CentralModule_Activation" ObjectPath="\Events\OBJECT\OBJ_DECO\Hos_CentralModule\AudioEvent_Hos_CentralModule_Activation" GUID="{4FE4E40F-10A6-4FEB-BCBD-912C3574C76D}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="12.833333" DurationMax="12.833333">
 					<ReferencedStreamedFiles>
 						<File Id="783536263" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_activation_01.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_activation_01_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_activation_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_activation_01_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
@@ -55,51 +55,93 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="4101369230" Name="AudioEvent_Hos_CentralModule_Turn_End" ObjectPath="\Events\OBJECT\OBJ_DECO\Hos_CentralModule\AudioEvent_Hos_CentralModule_Turn_End" GUID="{1D38571D-F88E-4309-B5D7-5F67B9336DFB}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="2.633333" DurationMax="3.305667">
-					<IncludedMemoryFiles>
+					<ExcludedMemoryFiles>
 						<File Id="120572603" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_A_03.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_A_03_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="141935578" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_B_03.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_B_03_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_03_7FA8D501.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="260677703" Name="AudioEvent_Hos_CentralModule_Turn_Mid" ObjectPath="\Events\OBJECT\OBJ_DECO\Hos_CentralModule\AudioEvent_Hos_CentralModule_Turn_Mid" GUID="{B8FF5DCE-6F9A-476F-B06A-F21C1572A40C}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="6.366667" DurationMax="6.733333">
-					<IncludedMemoryFiles>
+					<ExcludedMemoryFiles>
 						<File Id="440162377" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_A_02.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_A_02_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="626927165" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_B_02.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_B_02_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_02_7FA8D501.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="728629157" Name="AudioEvent_Hos_CentralModule_Turn_Start" ObjectPath="\Events\OBJECT\OBJ_DECO\Hos_CentralModule\AudioEvent_Hos_CentralModule_Turn_Start" GUID="{34D83A7D-844D-44B1-A96E-8041D7EA0C91}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="3.200000" DurationMax="4.064188">
-					<IncludedMemoryFiles>
+					<ExcludedMemoryFiles>
 						<File Id="94757206" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_A_01.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_A_01_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_01_7FA8D501.wem</Path>
 						</File>
 						<File Id="971003352" Language="SFX">
-							<ShortName>Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_B_01.wav</ShortName>
-							<Path>SFX\Objects\Hos_CentralModule\sfx_hos_centralmodule_turn_B_01_7FA8D501.wem</Path>
+							<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_01_7FA8D501.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="94757206" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="120572603" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="141935578" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="322926859" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="440162377" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_A_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="448098168" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="626927165" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="694572909" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_04.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="940788638" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_sparks_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="971003352" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Hos_CentralModule\sfx_hos_centralmodule_turn_B_01_7FA8D501.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

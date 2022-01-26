@@ -13,6 +13,57 @@
 			<ShortName>KLR_11</ShortName>
 			<Path>KLR_11.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2140689280" Name="AudioEvent_K11_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\KLR_11_Finland\K11_CLOTH\AudioEvent_K11_CLOTH_Default_Land" GUID="{BA946BC2-060D-49A1-9275-0BBE8DA06BFD}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="482771648" Name="AudioEvent_K11_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\KLR_11_Finland\K11_CLOTH\AudioEvent_K11_CLOTH_Default_Move" GUID="{7A941401-B5F8-4B03-B7B9-BD9782BDBAF9}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
+					<IncludedMemoryFiles>
+						<File Id="74232261" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_04.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="99137966" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_01.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="190313009" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_07.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="192403373" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_03.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="430539278" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_06.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="518967181" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_10.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="570775886" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_02.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="664556239" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_09.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="803346893" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_08.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="864851055" Language="SFX">
+							<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_05.wav</ShortName>
+							<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_05_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="235885190" Name="AudioEvent_K11_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\KLR_11_Finland\K11_CLOTH\AudioEvent_K11_CLOTH_Default_ShuffleHigh" GUID="{0FC0E82D-D13C-445D-ACE1-1FD01AF6AC26}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
+				<Event Id="2120295600" Name="AudioEvent_K11_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\KLR_11_Finland\K11_CLOTH\AudioEvent_K11_CLOTH_Default_ShuffleLow" GUID="{33478BB1-143F-4A50-9ACF-0BCA5050BC93}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
 				<Event Id="3089328054" Name="AudioEvent_K11_WPN_custom_Drill_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_11_Finland\K11_WEAPON\AudioEvent_K11_WPN_custom_Drill_Arm" GUID="{835CCE99-CCE1-4A37-83C0-253CC3F2B7D1}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3171945052" Name="AudioEvent_K11_WPN_custom_Drill_Attack" ObjectPath="\Events\CHARACTER\KILLER\KLR_11_Finland\K11_WEAPON\AudioEvent_K11_WPN_custom_Drill_Attack" GUID="{25E70264-F8EC-400D-94C9-030675415446}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.093708" DurationMax="2.871229">
 					<IncludedMemoryFiles>
@@ -588,6 +639,396 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="16248609" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_01.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="17541306" Language="SFX">
+					<ShortName>Characters\Killer_Finland\GRT_Finland_Attack_Bounce_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\GRT_Finland_Attack_Bounce_03_67368C31.wem</Path>
+				</File>
+				<File Id="25203035" Language="SFX">
+					<ShortName>Weapons\Drill\sfx_weapon_drill_02.wav</ShortName>
+					<Path>SFX\Weapons\Drill\sfx_weapon_drill_02_67368C31.wem</Path>
+				</File>
+				<File Id="47290077" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_shortblade_arm_03.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_shortblade_arm_03_67368C31.wem</Path>
+				</File>
+				<File Id="74232261" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="99137966" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="103957960" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Insert_Bounce_05.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Insert_Bounce_05_67368C31.wem</Path>
+				</File>
+				<File Id="110167429" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_06_67368C31.wem</Path>
+				</File>
+				<File Id="116119234" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_breath_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_breath_02_67368C31.wem</Path>
+				</File>
+				<File Id="119643530" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_breath_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_breath_05_67368C31.wem</Path>
+				</File>
+				<File Id="134297405" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_shortblade_clean_03.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_shortblade_clean_03_67368C31.wem</Path>
+				</File>
+				<File Id="148979858" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_out_01.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_out_01_67368C31.wem</Path>
+				</File>
+				<File Id="163052090" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_05.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_05_67368C31.wem</Path>
+				</File>
+				<File Id="176955613" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_08_67368C31.wem</Path>
+				</File>
+				<File Id="177780380" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Unlock_Bounce_05.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Unlock_Bounce_05_67368C31.wem</Path>
+				</File>
+				<File Id="190313009" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="192403373" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="194533445" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_footsteps_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_footsteps_02_67368C31.wem</Path>
+				</File>
+				<File Id="196964287" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_weapon_ElectricKnife_03.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_weapon_ElectricKnife_03_67368C31.wem</Path>
+				</File>
+				<File Id="198212839" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_04_67368C31.wem</Path>
+				</File>
+				<File Id="206840382" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_breath_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_breath_07_67368C31.wem</Path>
+				</File>
+				<File Id="209599491" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_footsteps_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_footsteps_01_67368C31.wem</Path>
+				</File>
+				<File Id="212226932" Language="SFX">
+					<ShortName>Characters\Killer_Finland\GRT_Finland_Attack_Bounce_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\GRT_Finland_Attack_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="214304764" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_shortblade_arm_02.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_shortblade_arm_02_67368C31.wem</Path>
+				</File>
+				<File Id="229453586" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_out_02.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_out_02_67368C31.wem</Path>
+				</File>
+				<File Id="241099633" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_04.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="271841940" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_07_67368C31.wem</Path>
+				</File>
+				<File Id="281730590" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_footsteps_05.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_footsteps_05_67368C31.wem</Path>
+				</File>
+				<File Id="288931488" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_03.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="301414041" Language="SFX">
+					<ShortName>Weapons\Drill\sfx_weapon_Drill_04.wav</ShortName>
+					<Path>SFX\Weapons\Drill\sfx_weapon_Drill_04_67368C31.wem</Path>
+				</File>
+				<File Id="317507214" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_electricknife_attack_slice_01.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_electricknife_attack_slice_01_67368C31.wem</Path>
+				</File>
+				<File Id="322896592" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_interac_03.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_interac_03_67368C31.wem</Path>
+				</File>
+				<File Id="326089599" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_shortblade_clean_02.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_shortblade_clean_02_67368C31.wem</Path>
+				</File>
+				<File Id="327475738" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_interac_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_interac_01_67368C31.wem</Path>
+				</File>
+				<File Id="339548037" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_06.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_06_67368C31.wem</Path>
+				</File>
+				<File Id="367426082" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Open_Bounce_03.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Open_Bounce_03_67368C31.wem</Path>
+				</File>
+				<File Id="368828243" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_breath_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_breath_06_67368C31.wem</Path>
+				</File>
+				<File Id="381796193" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_shortblade_arm_01.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_shortblade_arm_01_67368C31.wem</Path>
+				</File>
+				<File Id="388347106" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Insert_Bounce_03.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Insert_Bounce_03_67368C31.wem</Path>
+				</File>
+				<File Id="430539278" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="433350666" Language="SFX">
+					<ShortName>Weapons\Drill\sfx_weapon_drill_01.wav</ShortName>
+					<Path>SFX\Weapons\Drill\sfx_weapon_drill_01_67368C31.wem</Path>
+				</File>
+				<File Id="458150426" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_weapon_ElectricKnife_02.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_weapon_ElectricKnife_02_67368C31.wem</Path>
+				</File>
+				<File Id="458913243" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Unlock_Bounce_03.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Unlock_Bounce_03_67368C31.wem</Path>
+				</File>
+				<File Id="461956395" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_in_01.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_in_01_67368C31.wem</Path>
+				</File>
+				<File Id="464524057" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Unlock_Bounce_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Unlock_Bounce_02_67368C31.wem</Path>
+				</File>
+				<File Id="490258386" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_footsteps_06.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_footsteps_06_67368C31.wem</Path>
+				</File>
+				<File Id="518967181" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_10.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="570775886" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="578842793" Language="SFX">
+					<ShortName>Characters\Killer_Finland\GRT_Finland_Attack_Bounce_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\GRT_Finland_Attack_Bounce_04_67368C31.wem</Path>
+				</File>
+				<File Id="589145593" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Insert_Bounce_04.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Insert_Bounce_04_67368C31.wem</Path>
+				</File>
+				<File Id="591627356" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_weapon_ElectricKnife_01.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_weapon_ElectricKnife_01_67368C31.wem</Path>
+				</File>
+				<File Id="595787174" Language="SFX">
+					<ShortName>Characters\Killer_Finland\GRT_Finland_Attack_Bounce_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\GRT_Finland_Attack_Bounce_02_67368C31.wem</Path>
+				</File>
+				<File Id="596077478" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Open_Bounce_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Open_Bounce_02_67368C31.wem</Path>
+				</File>
+				<File Id="602725559" Language="SFX">
+					<ShortName>Weapons\Drill\sfx_weapon_drill_00.wav</ShortName>
+					<Path>SFX\Weapons\Drill\sfx_weapon_drill_00_67368C31.wem</Path>
+				</File>
+				<File Id="613240415" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Open_Bounce_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Open_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="629869113" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Insert_Bounce_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Insert_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="633524259" Language="SFX">
+					<ShortName>Characters\Killer_Finland\GRT_Finland_Attack_Bounce_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\GRT_Finland_Attack_Bounce_05_67368C31.wem</Path>
+				</File>
+				<File Id="638994907" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_01.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="644437200" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_05_67368C31.wem</Path>
+				</File>
+				<File Id="649743959" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_interac_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_interac_02_67368C31.wem</Path>
+				</File>
+				<File Id="655142559" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_lock_03.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_lock_03_67368C31.wem</Path>
+				</File>
+				<File Id="655880768" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_breath_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_breath_04_67368C31.wem</Path>
+				</File>
+				<File Id="663895625" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_02.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_02_67368C31.wem</Path>
+				</File>
+				<File Id="664556239" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="675343508" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Open_Bounce_04.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Open_Bounce_04_67368C31.wem</Path>
+				</File>
+				<File Id="720594728" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_breath_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_breath_03_67368C31.wem</Path>
+				</File>
+				<File Id="731410952" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_in_02.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_finland_shortblade_in_02_67368C31.wem</Path>
+				</File>
+				<File Id="753326932" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_interac_04.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_interac_04_67368C31.wem</Path>
+				</File>
+				<File Id="766741750" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_footsteps_07.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_footsteps_07_67368C31.wem</Path>
+				</File>
+				<File Id="770466849" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_eletricknife_arm_01.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_eletricknife_arm_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="776029706" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_beep_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_beep_01_67368C31.wem</Path>
+				</File>
+				<File Id="801883742" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_03.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_03_67368C31.wem</Path>
+				</File>
+				<File Id="802762764" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_06.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="803346893" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="805334217" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_shortblade_clean_01.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_shortblade_clean_01_67368C31.wem</Path>
+				</File>
+				<File Id="825904928" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_04.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\ShortBlade_Attack_Bounce_04_67368C31.wem</Path>
+				</File>
+				<File Id="836447043" Language="SFX">
+					<ShortName>Weapons\Drill\sfx_drill_attack_slice_01.wav</ShortName>
+					<Path>SFX\Weapons\Drill\sfx_drill_attack_slice_01_67368C31.wem</Path>
+				</File>
+				<File Id="836630467" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_01_67368C31.wem</Path>
+				</File>
+				<File Id="863241032" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Insert_Bounce_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Insert_Bounce_02_67368C31.wem</Path>
+				</File>
+				<File Id="864851055" Language="SFX">
+					<ShortName>Characters\Killer_Finland\sfx_k11_bodymove_default_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\sfx_k11_bodymove_default_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="864991762" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_beep_loop_1.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_beep_loop_1_67368C31.wem</Path>
+				</File>
+				<File Id="877562280" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_05.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="884317738" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Unlock_Bounce_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Unlock_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="894691127" Language="SFX">
+					<ShortName>Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_02.wav</ShortName>
+					<Path>SFX\Weapons\K11_Finland_ShortBlade\sfx_k11_default_shortblade_impact_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="900061628" Language="SFX">
+					<ShortName>Weapons\Drill\sfx_weapon_drill_03.wav</ShortName>
+					<Path>SFX\Weapons\Drill\sfx_weapon_drill_03_67368C31.wem</Path>
+				</File>
+				<File Id="900564607" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_electricknife_clean_03.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_electricknife_clean_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="914396855" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_footsteps_03.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_footsteps_03_67368C31.wem</Path>
+				</File>
+				<File Id="929981741" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_lock_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_lock_01_67368C31.wem</Path>
+				</File>
+				<File Id="930932987" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_weapon_ElectricKnife_04.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_weapon_ElectricKnife_04_67368C31.wem</Path>
+				</File>
+				<File Id="932367132" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_breath_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_breath_01_67368C31.wem</Path>
+				</File>
+				<File Id="945773156" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_footsteps_04.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_footsteps_04_67368C31.wem</Path>
+				</File>
+				<File Id="958886665" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_electricknife_clean_02.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_electricknife_clean_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="962141575" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\RBT_Unlock_Bounce_04.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\RBT_Unlock_Bounce_04_67368C31.wem</Path>
+				</File>
+				<File Id="965709624" Language="SFX">
+					<ShortName>Weapons\ElectricKnife\sfx_electricknife_clean_01.wav</ShortName>
+					<Path>SFX\Weapons\ElectricKnife\sfx_electricknife_clean_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="970948324" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_03_67368C31.wem</Path>
+				</File>
+				<File Id="971663012" Language="SFX">
+					<ShortName>Characters\Killer_Finland\vo_killer_finland_hurt_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Finland\vo_killer_finland_hurt_02_67368C31.wem</Path>
+				</File>
+				<File Id="1049897437" Language="SFX">
+					<ShortName>Powers\PWR_11_RBT\sfx_rbt_lock_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_11_RBT\sfx_rbt_lock_02_67368C31.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
 				<GameParameter Id="1488839951" Name="AudioRTPC_Proximity_Survivor_Killer" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Proximity_Survivor_Killer" GUID="{DDFD515E-1AF8-4012-96A5-AE9851788E16}"/>
@@ -641,6 +1082,7 @@
 						<Switch Id="1229756253" Name="Cardboard" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Cardboard" GUID="{15062674-8B2F-4664-AEB6-B4178F782C33}"/>
 						<Switch Id="329716760" Name="Typewriter" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Typewriter" GUID="{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}"/>
 						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Leaves" GUID="{6F4878BC-2C2D-4042-BC8E-03B16078145B}"/>
+						<Switch Id="3598975185" Name="HardWood" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\HardWood" GUID="{425080A3-52A3-4900-B570-E5014B94C732}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

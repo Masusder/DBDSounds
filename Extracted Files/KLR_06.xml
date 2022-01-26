@@ -13,6 +13,57 @@
 			<ShortName>KLR_06</ShortName>
 			<Path>KLR_06.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4248013304" Name="AudioEvent_K06_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\K06_CLOTH\AudioEvent_K06_CLOTH_Default_Land" GUID="{BBAEE83D-A3F3-4B12-9D5B-B05DDE7F4C9B}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2318990552" Name="AudioEvent_K06_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\K06_CLOTH\AudioEvent_K06_CLOTH_Default_Move" GUID="{B1831FA7-A0B7-4520-AE85-93B3008B9657}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
+					<IncludedMemoryFiles>
+						<File Id="28740976" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_04.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="31199795" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_09.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="106757895" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_06.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="214043502" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_10.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="304484888" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_01.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="347540580" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_05.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="408308162" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_08.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="435568396" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_07.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="745273754" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_03.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1053573366" Language="SFX">
+							<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_02.wav</ShortName>
+							<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_02_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2060653342" Name="AudioEvent_K06_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\K06_CLOTH\AudioEvent_K06_CLOTH_Default_ShuffleHigh" GUID="{A7C9E91A-0FB4-4210-B9CA-2FD7F1DE9C8E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
+				<Event Id="2464838120" Name="AudioEvent_K06_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\K06_CLOTH\AudioEvent_K06_CLOTH_Default_ShuffleLow" GUID="{BE4796B2-3243-4709-B043-D20A5AD51C5D}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
 				<Event Id="3346072904" Name="AudioEvent_K06_WPN_Default_Knife_Arm" ObjectPath="\Events\CHARACTER\KILLER\KLR_06_Stalker\K06_WEAPON\AudioEvent_K06_WPN_Default_Knife_Arm" GUID="{7052F2DE-DF82-491C-BA10-94D2320023B9}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.163109" DurationMax="0.283471">
 					<IncludedMemoryFiles>
 						<File Id="205035360" Language="SFX">
@@ -293,21 +344,185 @@
 				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="14463080" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_01_67368C31.wem</Path>
+				</File>
+				<File Id="28740976" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="31199795" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_09.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="38779695" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_06_67368C31.wem</Path>
+				</File>
+				<File Id="45844617" Language="SFX">
+					<ShortName>Powers\PWR_06_Stalk\PWR_Stalk_Warning_Bounce.wav</ShortName>
+					<Path>SFX\Powers\PWR_06_Stalk\PWR_Stalk_Warning_Bounce_67368C31.wem</Path>
+				</File>
+				<File Id="59404081" Language="SFX">
+					<ShortName>Powers\PWR_06_Stalk\sfx_stalk_level_up_01.wav</ShortName>
+					<Path>SFX\Powers\PWR_06_Stalk\sfx_stalk_level_up_01_67368C31.wem</Path>
+				</File>
+				<File Id="62327273" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_04_67368C31.wem</Path>
+				</File>
+				<File Id="106757895" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="186076858" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_01_67368C31.wem</Path>
+				</File>
+				<File Id="205035360" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_arm_03.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_arm_03_67368C31.wem</Path>
+				</File>
+				<File Id="214043502" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_10.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="229235035" Language="SFX">
+					<ShortName>Weapons\Knife\Knife_Attack_Bounce_06.wav</ShortName>
+					<Path>SFX\Weapons\Knife\Knife_Attack_Bounce_06_67368C31.wem</Path>
+				</File>
+				<File Id="229644515" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_03_67368C31.wem</Path>
+				</File>
+				<File Id="237947529" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_05_67368C31.wem</Path>
+				</File>
+				<File Id="248421718" Language="SFX">
+					<ShortName>Weapons\Knife\Knife_Attack_Bounce_05.wav</ShortName>
+					<Path>SFX\Weapons\Knife\Knife_Attack_Bounce_05_67368C31.wem</Path>
+				</File>
 				<File Id="285572363" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k06_layer_04.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k06_layer_04_0BC91DCF.wem</Path>
+				</File>
+				<File Id="304484888" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_01.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="306940742" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k06_layer_02.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k06_layer_02_0BC91DCF.wem</Path>
 				</File>
+				<File Id="323521006" Language="SFX">
+					<ShortName>Powers\PWR_06_Stalk\PWR_Stalk_OFF_Bounce.wav</ShortName>
+					<Path>SFX\Powers\PWR_06_Stalk\PWR_Stalk_OFF_Bounce_67368C31.wem</Path>
+				</File>
+				<File Id="347540580" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="388917116" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_03_67368C31.wem</Path>
+				</File>
 				<File Id="393464394" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k06_layer_03.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k06_layer_03_0BC91DCF.wem</Path>
 				</File>
+				<File Id="408308162" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_08.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="421429048" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_impact_killer_04.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_impact_killer_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="435568396" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_07.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="444943994" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_impact_killer_01.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_impact_killer_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="455284794" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k06_layer_01.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k06_layer_01_0BC91DCF.wem</Path>
+				</File>
+				<File Id="474955478" Language="SFX">
+					<ShortName>Weapons\Knife\Knife_Attack_Bounce_04.wav</ShortName>
+					<Path>SFX\Weapons\Knife\Knife_Attack_Bounce_04_67368C31.wem</Path>
+				</File>
+				<File Id="491501586" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_04.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_04_67368C31.wem</Path>
+				</File>
+				<File Id="496563428" Language="SFX">
+					<ShortName>Weapons\Knife\Knife_Attack_Bounce_02.wav</ShortName>
+					<Path>SFX\Weapons\Knife\Knife_Attack_Bounce_02_67368C31.wem</Path>
+				</File>
+				<File Id="529701523" Language="SFX">
+					<ShortName>Weapons\Knife\Knife_Attack_Bounce_03.wav</ShortName>
+					<Path>SFX\Weapons\Knife\Knife_Attack_Bounce_03_67368C31.wem</Path>
+				</File>
+				<File Id="569893328" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_06.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_06_67368C31.wem</Path>
+				</File>
+				<File Id="601913857" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_arm_02.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_arm_02_67368C31.wem</Path>
+				</File>
+				<File Id="692475943" Language="SFX">
+					<ShortName>Weapons\Knife\Knife_Attack_Bounce_01.wav</ShortName>
+					<Path>SFX\Weapons\Knife\Knife_Attack_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="704578109" Language="SFX">
+					<ShortName>Powers\PWR_06_Stalk\PWR_Stalk_ON_Bounce.wav</ShortName>
+					<Path>SFX\Powers\PWR_06_Stalk\PWR_Stalk_ON_Bounce_67368C31.wem</Path>
+				</File>
+				<File Id="726699883" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_impact_killer_05.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_impact_killer_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="745273754" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_03.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="764745673" Language="SFX">
+					<ShortName>Powers\PWR_06_Stalk\sfx_stalk_level_up_02.wav</ShortName>
+					<Path>SFX\Powers\PWR_06_Stalk\sfx_stalk_level_up_02_67368C31.wem</Path>
+				</File>
+				<File Id="765526899" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_02_67368C31.wem</Path>
+				</File>
+				<File Id="825843281" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_killer_stalker_normal_breath_02_67368C31.wem</Path>
+				</File>
+				<File Id="861632769" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_05.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\vo_killer_stalker_grunt_hurt_05_67368C31.wem</Path>
+				</File>
+				<File Id="891833891" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_impact_killer_03.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_impact_killer_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="979723962" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_impact_killer_02.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_impact_killer_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1053573366" Language="SFX">
+					<ShortName>Characters\Killer_Stalker\sfx_k06_bodymove_default_02.wav</ShortName>
+					<Path>SFX\Characters\Killer_Stalker\sfx_k06_bodymove_default_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1057500569" Language="SFX">
+					<ShortName>Weapons\Knife\sfx_knife_arm_01.wav</ShortName>
+					<Path>SFX\Weapons\Knife\sfx_knife_arm_01_67368C31.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
@@ -357,6 +572,7 @@
 						<Switch Id="1229756253" Name="Cardboard" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Cardboard" GUID="{15062674-8B2F-4664-AEB6-B4178F782C33}"/>
 						<Switch Id="329716760" Name="Typewriter" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Typewriter" GUID="{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}"/>
 						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Leaves" GUID="{6F4878BC-2C2D-4042-BC8E-03B16078145B}"/>
+						<Switch Id="3598975185" Name="HardWood" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\HardWood" GUID="{425080A3-52A3-4900-B570-E5014B94C732}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2003718045" Name="AudioSwitchStatesSurvivor" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor" GUID="{A172B188-385A-4B2F-9B5B-01C1D0763E22}">

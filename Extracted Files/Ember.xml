@@ -16,28 +16,42 @@
 				<Event Id="475992701" Name="AudioEvent_Ember_Loop_Start" ObjectPath="\Events\OBJECT\OBJ_DECO\Ember\AudioEvent_Ember_Loop_Start" GUID="{C2E65CBF-11D6-48D8-8CC1-796ECB394353}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="156352324" Language="SFX">
-							<ShortName>Objects\Ember\sfx_ember_loop_01.wav</ShortName>
-							<Path>SFX\Objects\Ember\sfx_ember_loop_01_0BC91DCF.wem</Path>
+							<ShortName>Objects\Obj_Deco\Ember\sfx_ember_loop_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Ember\sfx_ember_loop_01_0BC91DCF.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="1382783681" Name="AudioEvent_Ember_Walk_In" ObjectPath="\Events\OBJECT\OBJ_DECO\Ember\AudioEvent_Ember_Walk_In" GUID="{9C83848B-F3A4-48F6-94DA-36AD2FC018F2}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.046715" DurationMax="1.671425">
-					<IncludedMemoryFiles>
+					<ExcludedMemoryFiles>
 						<File Id="550947783" Language="SFX">
-							<ShortName>Objects\Ember\sfx_ember_walk_in_01.wav</ShortName>
-							<Path>SFX\Objects\Ember\sfx_ember_walk_in_01_67368C31.wem</Path>
+							<ShortName>Objects\Obj_Deco\Ember\sfx_ember_walk_in_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Ember\sfx_ember_walk_in_01_67368C31.wem</Path>
 						</File>
 						<File Id="936755903" Language="SFX">
-							<ShortName>Objects\Ember\sfx_ember_walk_in_02.wav</ShortName>
-							<Path>SFX\Objects\Ember\sfx_ember_walk_in_02_67368C31.wem</Path>
+							<ShortName>Objects\Obj_Deco\Ember\sfx_ember_walk_in_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Ember\sfx_ember_walk_in_02_67368C31.wem</Path>
 						</File>
 						<File Id="1059624745" Language="SFX">
-							<ShortName>Objects\Ember\sfx_ember_walk_in_03.wav</ShortName>
-							<Path>SFX\Objects\Ember\sfx_ember_walk_in_03_67368C31.wem</Path>
+							<ShortName>Objects\Obj_Deco\Ember\sfx_ember_walk_in_03.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Ember\sfx_ember_walk_in_03_67368C31.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="550947783" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Ember\sfx_ember_walk_in_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Ember\sfx_ember_walk_in_01_67368C31.wem</Path>
+				</File>
+				<File Id="936755903" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Ember\sfx_ember_walk_in_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Ember\sfx_ember_walk_in_02_67368C31.wem</Path>
+				</File>
+				<File Id="1059624745" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Ember\sfx_ember_walk_in_03.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Ember\sfx_ember_walk_in_03_67368C31.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

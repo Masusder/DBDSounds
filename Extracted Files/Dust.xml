@@ -9,35 +9,57 @@
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2348606633" GUID="{A0C15D56-990A-4DFA-8FA6-CB3DFEF7CA05}" Language="SFX">
-			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Dust</ObjectPath>
+			<ObjectPath>\SoundBanks\OBJECT\OBJECT_VFX\Dust</ObjectPath>
 			<ShortName>Dust</ShortName>
 			<Path>Dust.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3238956555" Name="AudioEvent_Dust_Fall_Play" ObjectPath="\Events\OBJECT\OBJ_DECO\Dust\AudioEvent_Dust_Fall_Play" GUID="{20BA3617-BC6E-4478-B5AC-7D35BE1A425F}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.493333" DurationMax="1.898667">
-					<IncludedMemoryFiles>
-						<File Id="31657764" Language="SFX">
-							<ShortName>Objects\Dust\Dust_Fall_Mix_Bounce_10.wav</ShortName>
-							<Path>SFX\Objects\Dust\Dust_Fall_Mix_Bounce_10_67368C31.wem</Path>
+				<Event Id="3238956555" Name="AudioEvent_Dust_Fall_Play" ObjectPath="\Events\OBJECT\OBJ_VFX\Dust\AudioEvent_Dust_Fall_Play" GUID="{20BA3617-BC6E-4478-B5AC-7D35BE1A425F}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.493333" DurationMax="1.898667">
+					<ExcludedMemoryFiles>
+						<File Id="423358198" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_10.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_10_7FA8D501.wem</Path>
 						</File>
-						<File Id="209216469" Language="SFX">
-							<ShortName>Objects\Dust\Dust_Fall_Mix_Bounce_02.wav</ShortName>
-							<Path>SFX\Objects\Dust\Dust_Fall_Mix_Bounce_02_67368C31.wem</Path>
+						<File Id="494610821" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_09.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_09_7FA8D501.wem</Path>
 						</File>
-						<File Id="347612990" Language="SFX">
-							<ShortName>Objects\Dust\Dust_Fall_Mix_Bounce_01.wav</ShortName>
-							<Path>SFX\Objects\Dust\Dust_Fall_Mix_Bounce_01_67368C31.wem</Path>
+						<File Id="872903063" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="643683999" Language="SFX">
-							<ShortName>Objects\Dust\Dust_Fall_Mix_Bounce_09.wav</ShortName>
-							<Path>SFX\Objects\Dust\Dust_Fall_Mix_Bounce_09_67368C31.wem</Path>
+						<File Id="886380198" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_02.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="1008216991" Language="SFX">
-							<ShortName>Objects\Dust\Dust_Fall_Mix_Bounce_07.wav</ShortName>
-							<Path>SFX\Objects\Dust\Dust_Fall_Mix_Bounce_07_67368C31.wem</Path>
+						<File Id="923545304" Language="SFX">
+							<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_07.wav</ShortName>
+							<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_07_7FA8D501.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="423358198" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_10.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="494610821" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_09.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="872903063" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="886380198" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_02.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="923545304" Language="SFX">
+					<ShortName>Objects\Obj_VFX\Dust\sfx_dust_fall_07.wav</ShortName>
+					<Path>SFX\Objects\Obj_VFX\Dust\sfx_dust_fall_07_7FA8D501.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
