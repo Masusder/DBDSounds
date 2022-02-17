@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970216" GUID="{FBF5E375-FD51-46BC-BABA-EE473B44915D}" Language="SFX">
@@ -13,7 +13,14 @@
 			<ShortName>AMB_15</ShortName>
 			<Path>AMB_15.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1721534818" Name="AudioEvent_AM_Intro_15_Ukraine" ObjectPath="\Events\AMBIENCE\AMB_T15_Ukraine\AudioEvent_AM_Intro_15_Ukraine" GUID="{68DB27D5-DE2D-4FDB-AF16-F84F4AD8E528}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1721534818" Name="AudioEvent_AM_Intro_15_Ukraine" ObjectPath="\Events\AMBIENCE\AMB_T15_Ukraine\AudioEvent_AM_Intro_15_Ukraine" GUID="{68DB27D5-DE2D-4FDB-AF16-F84F4AD8E528}" DurationType="OneShot" DurationMin="7.000000" DurationMax="7.000000">
+					<ExcludedMemoryFiles>
+						<File Id="938634399" Language="SFX">
+							<ShortName>Ambience\Intros\am_t15_ukraine_intro.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t15_ukraine_intro_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="4101441205" Name="AudioEvent_AM_T15_Basement_Killer" ObjectPath="\Events\AMBIENCE\AMB_T15_Ukraine\AMB_T15_TILE\AM_Tile_15_Common_WIP\AudioEvent_AM_T15_Basement_Killer" GUID="{CC07BAEA-E40B-4EE4-88EF-EF03F5855797}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815450" Language="SFX">
@@ -683,6 +690,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1721534818" Name="AudioEvent_AM_Intro_15_Ukraine" ObjectPath="\Events\AMBIENCE\AMB_T15_Ukraine\AudioEvent_AM_Intro_15_Ukraine" GUID="{68DB27D5-DE2D-4FDB-AF16-F84F4AD8E528}"/>
+					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
@@ -1820,6 +1830,10 @@
 				<File Id="920322989" Language="SFX">
 					<ShortName>Ambience\Themes\T15_Ukraine\am_t15_ukraine_rdm_coyote_08.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T15_Ukraine\am_t15_ukraine_rdm_coyote_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="938634399" Language="SFX">
+					<ShortName>Ambience\Intros\am_t15_ukraine_intro.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t15_ukraine_intro_7FA8D501.wem</Path>
 				</File>
 				<File Id="950022629" Language="SFX">
 					<ShortName>Ambience\Themes\T15_Ukraine\am_t15_ukraine_emt_lumberpile_creaks_horror_01.wav</ShortName>

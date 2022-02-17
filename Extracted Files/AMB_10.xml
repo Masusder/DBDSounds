@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970221" GUID="{7F216364-F88A-4FA4-A8C2-293528A3EDA5}" Language="SFX">
@@ -13,7 +13,14 @@
 			<ShortName>AMB_10</ShortName>
 			<Path>AMB_10.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1277450372" Name="AudioEvent_AM_Intro_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AudioEvent_AM_Intro_10_Finland" GUID="{5F7E87A2-48BA-4308-9F8F-16370F429DBB}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1277450372" Name="AudioEvent_AM_Intro_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AudioEvent_AM_Intro_10_Finland" GUID="{5F7E87A2-48BA-4308-9F8F-16370F429DBB}" DurationType="OneShot" DurationMin="9.500000" DurationMax="9.500000">
+					<ExcludedMemoryFiles>
+						<File Id="93100798" Language="SFX">
+							<ShortName>Ambience\Intros\am_t10_finland_intro.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t10_finland_intro_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="3787796404" Name="AudioEvent_AM_T10_Escape" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Escape" GUID="{CEBC6B55-27E9-4F89-B364-6F66FF397038}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768791" Language="SFX">
@@ -294,6 +301,7 @@
 					</SwitchContainers>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
+						<ActionPostEventEntry Id="1277450372" Name="AudioEvent_AM_Intro_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AudioEvent_AM_Intro_10_Finland" GUID="{5F7E87A2-48BA-4308-9F8F-16370F429DBB}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -389,6 +397,10 @@
 				</File>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="93100798" Language="SFX">
+					<ShortName>Ambience\Intros\am_t10_finland_intro.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t10_finland_intro_7FA8D501.wem</Path>
+				</File>
 				<File Id="141781463" Language="SFX">
 					<ShortName>Ambience\Themes\T10_Finland\am_t10_finland_emt_water_jet_water_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T10_Finland\am_t10_finland_emt_water_jet_water_03_7FA8D501.wem</Path>

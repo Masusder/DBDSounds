@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970222" GUID="{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}" Language="SFX">
@@ -13,7 +13,14 @@
 			<ShortName>AMB_13</ShortName>
 			<Path>AMB_13.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}" DurationType="OneShot" DurationMin="7.707292" DurationMax="7.707292">
+					<ExcludedMemoryFiles>
+						<File Id="44162469" Language="SFX">
+							<ShortName>am_t13_kenya_intro.wav</ShortName>
+							<Path>SFX\am_t13_kenya_intro_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="2553368489" Name="AudioEvent_AM_T13_Chalet" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Chalet" GUID="{B20D0887-4363-4D17-A208-FEBF4307792C}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768791" Language="SFX">
@@ -473,6 +480,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}"/>
+					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="525978194" Name="AudioStateWind_13_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateWind_13_Kenya\AudioStateWind_13_Low" GUID="{B0207334-196F-492A-9991-4000F1D5DF27}"/>
 					</ActionSetState>
@@ -511,6 +521,10 @@
 				</File>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="44162469" Language="SFX">
+					<ShortName>am_t13_kenya_intro.wav</ShortName>
+					<Path>SFX\am_t13_kenya_intro_7FA8D501.wem</Path>
+				</File>
 				<File Id="983680486" Language="SFX">
 					<ShortName>Ambience\Themes\T13_Kenya\am_t13_kenya_tile_killerbasement_background_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T13_Kenya\am_t13_kenya_tile_killerbasement_background_01_256CDB0F.wem</Path>

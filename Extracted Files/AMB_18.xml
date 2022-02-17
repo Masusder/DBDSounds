@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970213" GUID="{B26C45AB-9B8B-4720-8B35-40F11F4CF28D}" Language="SFX">
@@ -13,11 +13,11 @@
 			<ShortName>AMB_18</ShortName>
 			<Path>AMB_18.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}" DurationType="OneShot" DurationMin="7.600000" DurationMax="7.600000">
+				<Event Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}" DurationType="OneShot" DurationMin="9.000000" DurationMax="9.000000">
 					<ExcludedMemoryFiles>
-						<File Id="853258216" Language="SFX">
-							<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_intro_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_intro_06_7FA8D501.wem</Path>
+						<File Id="471046712" Language="SFX">
+							<ShortName>Ambience\Intros\am_t18_ion_intro.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t18_ion_intro_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -884,6 +884,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}"/>
+					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
@@ -1044,6 +1047,10 @@
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_04.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_darkvoices_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="471046712" Language="SFX">
+					<ShortName>Ambience\Intros\am_t18_ion_intro.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t18_ion_intro_7FA8D501.wem</Path>
+				</File>
 				<File Id="472455831" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_emt_swarmcrows_outdoor_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_emt_swarmcrows_outdoor_01_6582094F.wem</Path>
@@ -1083,10 +1090,6 @@
 				<File Id="748185851" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_06.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="853258216" Language="SFX">
-					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_intro_06.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T18_Ion\am_t18_ion_intro_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="881460215" Language="SFX">
 					<ShortName>Ambience\Themes\T18_Ion\am_t18_ion_rdm_tombstone_03.wav</ShortName>

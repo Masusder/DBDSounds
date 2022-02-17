@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2199192632" GUID="{737A4061-EE21-41D7-A682-55F58A8BB4DC}" Language="SFX">
@@ -13,7 +13,14 @@
 			<ShortName>AMB_02</ShortName>
 			<Path>AMB_02.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3501555617" Name="AudioEvent_AM_Intro_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AudioEvent_AM_Intro_02_Junkyard" GUID="{7E4ECD6A-7859-4D97-B736-348DBB185B6C}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3501555617" Name="AudioEvent_AM_Intro_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AudioEvent_AM_Intro_02_Junkyard" GUID="{7E4ECD6A-7859-4D97-B736-348DBB185B6C}" DurationType="OneShot" DurationMin="9.500000" DurationMax="9.500000">
+					<ExcludedMemoryFiles>
+						<File Id="876796368" Language="SFX">
+							<ShortName>Ambience\Intros\am_t02_junkyard_intro.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t02_junkyard_intro_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="2413780727" Name="AudioEvent_AM_T02_BigGarage" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_BigGarage" GUID="{A0543D94-8E21-4BF5-8D21-B919169DFDBF}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768791" Language="SFX">
@@ -617,6 +624,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3501555617" Name="AudioEvent_AM_Intro_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AudioEvent_AM_Intro_02_Junkyard" GUID="{7E4ECD6A-7859-4D97-B736-348DBB185B6C}"/>
+					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
@@ -697,6 +707,10 @@
 				<File Id="621186484" Language="SFX">
 					<ShortName>Ambience\Themes\T02_Junkyard\am_t02_junkyard_tile_killerbasement_background_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T02_Junkyard\am_t02_junkyard_tile_killerbasement_background_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="876796368" Language="SFX">
+					<ShortName>Ambience\Intros\am_t02_junkyard_intro.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t02_junkyard_intro_7FA8D501.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>

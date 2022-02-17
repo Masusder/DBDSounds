@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2199192626" GUID="{FAE768C6-D50B-412B-AB34-FD4430B9ED36}" Language="SFX">
@@ -375,7 +375,14 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4081038936" Name="AudioEvent_AM_Intro_08_Boreal" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AudioEvent_AM_Intro_08_Boreal" GUID="{8999C5AD-21D7-4A69-9A62-18524CBB3BCC}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4081038936" Name="AudioEvent_AM_Intro_08_Boreal" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AudioEvent_AM_Intro_08_Boreal" GUID="{8999C5AD-21D7-4A69-9A62-18524CBB3BCC}" DurationType="OneShot" DurationMin="7.500000" DurationMax="7.500000">
+					<ExcludedMemoryFiles>
+						<File Id="619272895" Language="SFX">
+							<ShortName>Ambience\Intros\am_t08_boreal_intro.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t08_boreal_intro_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="2305054249" Name="AudioEvent_AM_T08_Escape" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AMB_T08_TILE\AM_Tile_08_Common_WIP\AudioEvent_AM_T08_Escape" GUID="{DE81DE8F-AF21-4E9C-A0B0-C88A17E24CB4}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768791" Language="SFX">
@@ -924,6 +931,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="4081038936" Name="AudioEvent_AM_Intro_08_Boreal" ObjectPath="\Events\AMBIENCE\AMB_T08_Boreal\AudioEvent_AM_Intro_08_Boreal" GUID="{8999C5AD-21D7-4A69-9A62-18524CBB3BCC}"/>
+					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
@@ -1193,6 +1203,10 @@
 				<File Id="586325847" Language="SFX">
 					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T08_Boreal\am_t08_boreal_emt_batscream_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="619272895" Language="SFX">
+					<ShortName>Ambience\Intros\am_t08_boreal_intro.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t08_boreal_intro_7FA8D501.wem</Path>
 				</File>
 				<File Id="653805097" Language="SFX">
 					<ShortName>Ambience\Themes\T08_Boreal\am_t08_boreal_rdm_waterdrops_33.wav</ShortName>

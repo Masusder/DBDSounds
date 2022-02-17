@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="64677507" GUID="{E6B01F3E-38B9-4B2A-AC81-A0D5CA0C0114}" Language="SFX">
 			<ObjectPath>\SoundBanks\CHARACTER\SURVIVOR\SVR_M07</ObjectPath>
 			<ShortName>SVR_M07</ShortName>
 			<Path>SVR_M07.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1071812999" Name="AudioEvent_SVR_M07_Dead" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Dead" GUID="{7BCE59F2-6C11-4944-8950-27B8C775F16F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="320469373" Name="AudioEvent_SVR_M07_GameStart_NotControlled" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GameStart\AudioEvent_SVR_M07_GameStart_NotControlled" GUID="{8B2D114D-FEC9-42B0-ADCA-4629A71A9AAF}" MaxAttenuation="1900.000000" DurationType="Infinite"/>
+				<Event Id="4047897622" Name="AudioEvent_SVR_M07_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Cough" GUID="{DB463BA3-B813-4900-BB89-976A52FCE850}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.295125" DurationMax="1.085042"/>
+				<Event Id="80877658" Name="AudioEvent_SVR_M07_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Effort_Hard" GUID="{40956C53-77A3-42D0-8099-1049216927A3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.352479" DurationMax="1.225333"/>
+				<Event Id="2270820135" Name="AudioEvent_SVR_M07_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Effort_Light" GUID="{B2FDD85E-AB7E-4E56-B0ED-07A97A189988}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.422333" DurationMax="0.849688"/>
+				<Event Id="3716625029" Name="AudioEvent_SVR_M07_Grunt_Falling" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Falling" GUID="{F812FA5A-F504-4596-A9E6-5D57070386E5}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.453979" DurationMax="0.922229"/>
+				<Event Id="1826943993" Name="AudioEvent_SVR_M07_Grunt_Hurt_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Hurt_Hard" GUID="{CE181E5F-2EA4-4C23-8ABE-F8DACEB06BA5}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.923646" DurationMax="3.700375"/>
+				<Event Id="843813266" Name="AudioEvent_SVR_M07_Grunt_Hurt_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Hurt_Light" GUID="{369968F5-A218-4327-B326-25712CEACD2B}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.162583" DurationMax="0.328417"/>
+				<Event Id="3747899839" Name="AudioEvent_SVR_M07_Grunt_Insanity" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Insanity" GUID="{61098F84-8401-4191-B147-4012FA09169A}" DurationType="OneShot" DurationMin="3.445958" DurationMax="5.858521"/>
+				<Event Id="3336885290" Name="AudioEvent_SVR_M07_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Insanity_SnapOfIt" GUID="{99711B5E-3303-49DE-9918-BA110FB5ADC5}" DurationType="OneShot" DurationMin="3.419971" DurationMax="3.838788"/>
+				<Event Id="3220353149" Name="AudioEvent_SVR_M07_Grunt_Land_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Land_Hard" GUID="{818E2DD5-5FA7-473A-B34D-56DC97B1A93B}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.373958" DurationMax="0.675292"/>
+				<Event Id="54958606" Name="AudioEvent_SVR_M07_Grunt_Land_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Land_Light" GUID="{03DC3EA9-42A5-46EA-B40D-634E7212F830}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.191396" DurationMax="0.393813"/>
+				<Event Id="4183890337" Name="AudioEvent_SVR_M07_Grunt_Scream_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Hit" GUID="{2E3B04BA-B311-4C1A-91E0-916D3BBC4002}" DurationType="OneShot" DurationMin="0.338729" DurationMax="0.486313"/>
+				<Event Id="2874857939" Name="AudioEvent_SVR_M07_Grunt_Scream_Hit_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Hit_Mori" GUID="{54BA2A3D-C011-4D1B-960F-D70018730E54}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.338729" DurationMax="0.486313"/>
+				<Event Id="10442052" Name="AudioEvent_SVR_M07_Grunt_Scream_Long" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Long" GUID="{94AB9B5F-E71C-4CCC-B607-59156EC4238D}" DurationType="OneShot" DurationMin="3.245958" DurationMax="5.658521"/>
+				<Event Id="2094106328" Name="AudioEvent_SVR_M07_Grunt_Scream_Long_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Long_Mori" GUID="{36C8D3B1-B477-4192-A701-9C330503E603}" DurationType="OneShot" DurationMin="3.245958" DurationMax="5.658521"/>
+				<Event Id="2786829452" Name="AudioEvent_SVR_M07_Grunt_Scream_Mori_K25" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Mori_K25" GUID="{89226DC5-A538-4A59-94C3-3F92A744122F}" DurationType="OneShot" DurationMin="3.245958" DurationMax="5.658521"/>
+				<Event Id="4195927647" Name="AudioEvent_SVR_M07_Grunt_Scream_Qatar_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Qatar_Mori" GUID="{CC06BA73-7DDA-46BD-853C-CA9808E3A8B4}" DurationType="OneShot" DurationMin="3.245958" DurationMax="5.658521"/>
+				<Event Id="2229817868" Name="AudioEvent_SVR_M07_Grunt_Scream_Short" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Short" GUID="{62F8314F-44BB-4402-9C04-85427D2AB132}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.278542" DurationMax="0.602271"/>
+				<Event Id="3437346706" Name="AudioEvent_SVR_M07_Grunt_Scream_Short_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Scream_Short_Hit" GUID="{3EE5974F-2F63-4B1E-AC7B-6E64995EE589}" DurationType="OneShot" DurationMin="0.338729" DurationMax="0.486313"/>
+				<Event Id="3078068832" Name="AudioEvent_SVR_M07_Grunt_Stop" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M07\SVR_M07_GRUNT\AudioEvent_SVR_M07_Grunt_Stop" GUID="{27426749-747C-425D-B535-4B5BDC07CC20}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="12421609" Language="SFX">
 					<ShortName>Characters\SVR_M07\vo_svr_m07_grunt_land_light_07.wav</ShortName>
@@ -944,13 +967,16 @@
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="379311847" Name="AudioRTPC_Survivor_Time_Stop_Moving" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Survivor_Time_Stop_Moving" GUID="{879A231E-2653-440D-976D-53F57B2C0D11}"/>
-				<GameParameter Id="533506399" Name="AudioRTPC_Effect_StaggerReduction" ObjectPath="\Game Parameters\RTPC_EFFECT\AudioRTPC_Effect_StaggerReduction" GUID="{17B1E87F-37AB-458A-AF8D-BBDAF78A66AD}"/>
 				<GameParameter Id="842905171" Name="AudioRTPC_VOL_SVR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_SVR_GRUNT" GUID="{DEC3D784-475D-476E-B2BF-0B730C2576AD}"/>
 				<GameParameter Id="1242206108" Name="AudioRTPC_Perk_Volume_Dying_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Dying_State" GUID="{E4C408A0-3EB2-45EF-84AE-269B386AB5EC}"/>
+				<GameParameter Id="2190398698" Name="AudioRTPC_Character_Survivor_Status_Injured_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Hiding" GUID="{4D2CE684-3942-4711-921C-553193BEF00F}"/>
+				<GameParameter Id="2512409509" Name="AudioRTPC_Character_Survivor_Status_Normal_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Crouch" GUID="{706F913C-F65D-47B2-BDBC-37265D577FC2}"/>
 				<GameParameter Id="2847211100" Name="AudioRTPC_Perk_Volume_Normal_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Normal_State" GUID="{1559F02B-CBCD-4A69-9EEA-1E154C343F86}"/>
 				<GameParameter Id="3074411056" Name="AudioRTPC_SM_SVR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_SM_SVR_Attenuation" GUID="{2F84B5A8-CF0F-4ACE-9FFC-2047C948057D}"/>
+				<GameParameter Id="3878507702" Name="AudioRTPC_Character_Survivor_Status_Normal_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Hiding" GUID="{11A5E8A6-5A37-467B-BCAC-95923283F57F}"/>
 				<GameParameter Id="4046646071" Name="AudioRTPC_Survivor_Status_Dead" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Survivor_Status_Dead" GUID="{F5A93109-8CE3-4D68-A190-D99FBD7E5532}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
+				<GameParameter Id="4125754129" Name="AudioRTPC_Character_Survivor_Status_Injured_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Crouch" GUID="{AFF464E3-9682-4DEE-B826-E03DE4742985}"/>
 				<GameParameter Id="4294706380" Name="AudioRTPC_Perk_Volume_Injured_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Injured_State" GUID="{19EDAF7F-21CC-4A39-B81B-D8FD71224345}"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -965,11 +991,7 @@
 						<Switch Id="2860195132" Name="Injured" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Injured" GUID="{C6A55A58-493C-4921-A35A-7A4B7296A933}"/>
 						<Switch Id="3328495488" Name="Dying" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dying" GUID="{87ED9576-D64C-486B-80A5-29160DA2BBC0}"/>
 						<Switch Id="1848633329" Name="Hooked_Part2" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Hooked_Part2" GUID="{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}"/>
-						<Switch Id="1919908153" Name="Normal_Crouch" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Normal_Crouch" GUID="{E376616F-981E-41F4-9032-AB5D789371F0}"/>
-						<Switch Id="121290285" Name="Injured_Crouch" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Injured_Crouch" GUID="{B5F3498F-7451-47C5-B4EF-A1D4520FB19C}"/>
 						<Switch Id="3200746917" Name="Choked" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Choked" GUID="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}"/>
-						<Switch Id="3094692510" Name="Injured_Hiding" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Injured_Hiding" GUID="{54A0B897-2A42-4AE1-B0D5-CA909A8C5F16}"/>
-						<Switch Id="63215442" Name="Normal_Hiding" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Normal_Hiding" GUID="{21B70A73-E2F6-4A2B-B152-265C2483D367}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

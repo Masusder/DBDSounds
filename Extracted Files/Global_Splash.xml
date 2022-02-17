@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Jupiter_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Jupiter\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX">
@@ -184,47 +184,23 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="3611935999" Name="AudioEvent_Gameflow_GameStart" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_GameStart" GUID="{02ABADEB-4F2B-4E9B-AE51-687709F0BACD}" DurationType="OneShot" DurationMin="9.632000" DurationMax="11.690666">
+				<Event Id="3611935999" Name="AudioEvent_Gameflow_GameStart" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_GameStart" GUID="{02ABADEB-4F2B-4E9B-AE51-687709F0BACD}" DurationType="OneShot" DurationMin="7.558542" DurationMax="7.558542">
 					<ExcludedMemoryFiles>
-						<File Id="14642113" Language="SFX">
-							<ShortName>HUD\Event_Killer_Gameplay_Start_Bounce_02.wav</ShortName>
-							<Path>SFX\HUD\Event_Killer_Gameplay_Start_Bounce_02_D8984390.wem</Path>
-						</File>
-						<File Id="98351530" Language="SFX">
-							<ShortName>HUD\Event_Survivor_Gameplay_Start_Bounce_02.wav</ShortName>
-							<Path>SFX\HUD\Event_Survivor_Gameplay_Start_Bounce_02_D8984390.wem</Path>
-						</File>
-						<File Id="278769413" Language="SFX">
-							<ShortName>HUD\Event_Killer_Gameplay_Start_Bounce_01.wav</ShortName>
-							<Path>SFX\HUD\Event_Killer_Gameplay_Start_Bounce_01_D8984390.wem</Path>
-						</File>
-						<File Id="368795191" Language="SFX">
-							<ShortName>HUD\Event_Survivor_Gameplay_Start_Bounce_03.wav</ShortName>
-							<Path>SFX\HUD\Event_Survivor_Gameplay_Start_Bounce_03_D8984390.wem</Path>
-						</File>
-						<File Id="648996054" Language="SFX">
-							<ShortName>HUD\Event_Killer_Gameplay_Start_Bounce_03.wav</ShortName>
-							<Path>SFX\HUD\Event_Killer_Gameplay_Start_Bounce_03_D8984390.wem</Path>
-						</File>
-						<File Id="1018321622" Language="SFX">
-							<ShortName>HUD\Event_Survivor_Gameplay_Start_Bounce_01.wav</ShortName>
-							<Path>SFX\HUD\Event_Survivor_Gameplay_Start_Bounce_01_D8984390.wem</Path>
+						<File Id="284966848" Language="SFX">
+							<ShortName>HUD\sfx_hud_gameplay_start.wav</ShortName>
+							<Path>SFX\HUD\sfx_hud_gameplay_start_982BF740.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{41FB00D7-7F8A-4DBD-BBB6-B4734E5E6597}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}">
 							<Media>
-								<File Id="278769413"/>
-								<File Id="14642113"/>
-								<File Id="648996054"/>
+								<File Id="284966848"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C98A583A-7B78-4309-9B9F-76C976EC2919}">
 							<Media>
-								<File Id="1018321622"/>
-								<File Id="98351530"/>
-								<File Id="368795191"/>
+								<File Id="284966848"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -251,9 +227,17 @@
 				</Event>
 				<Event Id="4070909553" Name="AudioEvent_Gameflow_Lobby_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Killer" GUID="{65157012-002B-44EB-8347-0C5B3397D0FB}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="147850414" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="306975957" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="522978398" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_forest_01_8B0D8983.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -263,9 +247,9 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
-						<File Id="934404875" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -281,17 +265,61 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
 						</File>
+						<File Id="112727397" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="143629341" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="146177618" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="292688094" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="295625155" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="412228344" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="442472999" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="478055271" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493344622" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="538051267" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="626433293" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="675896441" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
@@ -301,17 +329,53 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="734406466" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="763842374" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="773915712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_06_7FA8D501.wem</Path>
 						</File>
+						<File Id="812507534" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="882518906" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898417524" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="936490347" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="945861036" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="960323357" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="962509473" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="994478620" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
@@ -321,23 +385,9 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="1024319034" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
-							<Media>
-								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="1024319034"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="496253023"/>
@@ -347,16 +397,9 @@
 								<File Id="248056970"/>
 								<File Id="782469211"/>
 								<File Id="90493988"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="648280554"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
 								<File Id="662236280"/>
+								<File Id="648280554"/>
+								<File Id="1024319034"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -367,11 +410,33 @@
 								<File Id="724990519"/>
 								<File Id="994478620"/>
 								<File Id="143629341"/>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 							<Media>
-								<File Id="306975957"/>
+								<File Id="147850414"/>
+								<File Id="945861036"/>
+								<File Id="493344622"/>
+								<File Id="898417524"/>
+								<File Id="882518906"/>
+								<File Id="960323357"/>
+								<File Id="112727397"/>
+								<File Id="146177618"/>
+								<File Id="442472999"/>
+								<File Id="478055271"/>
+								<File Id="675896441"/>
+								<File Id="812507534"/>
+								<File Id="412228344"/>
+								<File Id="773915712"/>
+								<File Id="626433293"/>
+								<File Id="295625155"/>
+								<File Id="962509473"/>
+								<File Id="936490347"/>
+								<File Id="734406466"/>
+								<File Id="538051267"/>
+								<File Id="292688094"/>
+								<File Id="522978398"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -387,9 +452,17 @@
 				</Event>
 				<Event Id="2123304394" Name="AudioEvent_Gameflow_Lobby_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Survivor" GUID="{FF8124EA-5EF0-4DBB-9EFE-167BA12F9D37}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="147850414" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="306975957" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="522978398" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_forest_01_8B0D8983.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -399,9 +472,9 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
-						<File Id="934404875" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -417,17 +490,61 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
 						</File>
+						<File Id="112727397" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="143629341" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="146177618" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="292688094" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="295625155" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="412228344" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="442472999" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="478055271" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493344622" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="538051267" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="626433293" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="675896441" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
@@ -437,17 +554,53 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="734406466" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="763842374" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="773915712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_06_7FA8D501.wem</Path>
 						</File>
+						<File Id="812507534" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="882518906" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898417524" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="936490347" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="945861036" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="960323357" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="962509473" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="994478620" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
@@ -457,23 +610,9 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="1024319034" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
-							<Media>
-								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="1024319034"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="496253023"/>
@@ -483,16 +622,9 @@
 								<File Id="248056970"/>
 								<File Id="782469211"/>
 								<File Id="90493988"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="648280554"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
 								<File Id="662236280"/>
+								<File Id="648280554"/>
+								<File Id="1024319034"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -503,11 +635,33 @@
 								<File Id="724990519"/>
 								<File Id="994478620"/>
 								<File Id="143629341"/>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 							<Media>
-								<File Id="306975957"/>
+								<File Id="147850414"/>
+								<File Id="945861036"/>
+								<File Id="493344622"/>
+								<File Id="898417524"/>
+								<File Id="882518906"/>
+								<File Id="960323357"/>
+								<File Id="112727397"/>
+								<File Id="146177618"/>
+								<File Id="442472999"/>
+								<File Id="478055271"/>
+								<File Id="675896441"/>
+								<File Id="812507534"/>
+								<File Id="412228344"/>
+								<File Id="773915712"/>
+								<File Id="626433293"/>
+								<File Id="295625155"/>
+								<File Id="962509473"/>
+								<File Id="936490347"/>
+								<File Id="734406466"/>
+								<File Id="538051267"/>
+								<File Id="292688094"/>
+								<File Id="522978398"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -523,9 +677,17 @@
 				</Event>
 				<Event Id="519196509" Name="AudioEvent_Gameflow_MainMenu_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Killer" GUID="{D222DB98-BEB5-46F5-A2CA-8C8B5FEE723E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="147850414" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="306975957" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="522978398" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_forest_01_8B0D8983.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -535,9 +697,9 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
-						<File Id="934404875" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -553,17 +715,61 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
 						</File>
+						<File Id="112727397" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="143629341" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="146177618" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="292688094" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="295625155" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="412228344" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="442472999" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="478055271" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493344622" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="538051267" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="626433293" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="675896441" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
@@ -573,17 +779,53 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="734406466" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="763842374" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="773915712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_06_7FA8D501.wem</Path>
 						</File>
+						<File Id="812507534" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="882518906" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898417524" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="936490347" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="945861036" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="960323357" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="962509473" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="994478620" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
@@ -593,23 +835,9 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="1024319034" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
-							<Media>
-								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="1024319034"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="496253023"/>
@@ -619,16 +847,9 @@
 								<File Id="248056970"/>
 								<File Id="782469211"/>
 								<File Id="90493988"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="648280554"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
 								<File Id="662236280"/>
+								<File Id="648280554"/>
+								<File Id="1024319034"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -639,11 +860,33 @@
 								<File Id="724990519"/>
 								<File Id="994478620"/>
 								<File Id="143629341"/>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 							<Media>
-								<File Id="306975957"/>
+								<File Id="147850414"/>
+								<File Id="945861036"/>
+								<File Id="493344622"/>
+								<File Id="898417524"/>
+								<File Id="882518906"/>
+								<File Id="960323357"/>
+								<File Id="112727397"/>
+								<File Id="146177618"/>
+								<File Id="442472999"/>
+								<File Id="478055271"/>
+								<File Id="675896441"/>
+								<File Id="812507534"/>
+								<File Id="412228344"/>
+								<File Id="773915712"/>
+								<File Id="626433293"/>
+								<File Id="295625155"/>
+								<File Id="962509473"/>
+								<File Id="936490347"/>
+								<File Id="734406466"/>
+								<File Id="538051267"/>
+								<File Id="292688094"/>
+								<File Id="522978398"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -787,6 +1030,10 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="239285638" Language="SFX">
+							<ShortName>Music\mu_menu_lobby_k27.wav</ShortName>
+							<Path>SFX\Music\mu_menu_lobby_k27_256CDB0F.wem</Path>
+						</File>
 						<File Id="351025586" Language="SFX">
 							<ShortName>Music\mu_menu_special_winter_02.wav</ShortName>
 							<Path>SFX\Music\mu_menu_special_winter_02_256CDB0F.wem</Path>
@@ -896,6 +1143,11 @@
 																<File Id="1065731121"/>
 															</Media>
 														</SwitchContainer>
+														<SwitchContainer SwitchValue="{18BBFF90-3192-47F7-894F-52B85E31834F}">
+															<Media>
+																<File Id="239285638"/>
+															</Media>
+														</SwitchContainer>
 													</Children>
 												</SwitchContainer>
 												<SwitchContainer SwitchValue="{C98A583A-7B78-4309-9B9F-76C976EC2919}">
@@ -920,7 +1172,7 @@
 									<Children>
 										<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 											<Media>
-												<File Id="718509398"/>
+												<File Id="239285638"/>
 											</Media>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
@@ -1004,9 +1256,17 @@
 				</Event>
 				<Event Id="1066277998" Name="AudioEvent_Gameflow_MainMenu_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Survivor" GUID="{33F9A214-3C20-4C7E-81BB-78A4A0ECC478}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="147850414" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="306975957" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="522978398" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_forest_01_8B0D8983.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -1016,9 +1276,9 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
-						<File Id="934404875" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -1034,17 +1294,61 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
 						</File>
+						<File Id="112727397" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="143629341" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="146177618" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="292688094" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="295625155" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="412228344" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="442472999" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="478055271" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493344622" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="538051267" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="626433293" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="675896441" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
@@ -1054,17 +1358,53 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="734406466" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="763842374" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="773915712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_06_7FA8D501.wem</Path>
 						</File>
+						<File Id="812507534" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="882518906" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898417524" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="936490347" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="945861036" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="960323357" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="962509473" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="994478620" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
@@ -1074,23 +1414,9 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="1024319034" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
-							<Media>
-								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="1024319034"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="496253023"/>
@@ -1100,16 +1426,9 @@
 								<File Id="248056970"/>
 								<File Id="782469211"/>
 								<File Id="90493988"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="648280554"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
 								<File Id="662236280"/>
+								<File Id="648280554"/>
+								<File Id="1024319034"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -1120,11 +1439,33 @@
 								<File Id="724990519"/>
 								<File Id="994478620"/>
 								<File Id="143629341"/>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 							<Media>
-								<File Id="306975957"/>
+								<File Id="147850414"/>
+								<File Id="945861036"/>
+								<File Id="493344622"/>
+								<File Id="898417524"/>
+								<File Id="882518906"/>
+								<File Id="960323357"/>
+								<File Id="112727397"/>
+								<File Id="146177618"/>
+								<File Id="442472999"/>
+								<File Id="478055271"/>
+								<File Id="675896441"/>
+								<File Id="812507534"/>
+								<File Id="412228344"/>
+								<File Id="773915712"/>
+								<File Id="626433293"/>
+								<File Id="295625155"/>
+								<File Id="962509473"/>
+								<File Id="936490347"/>
+								<File Id="734406466"/>
+								<File Id="538051267"/>
+								<File Id="292688094"/>
+								<File Id="522978398"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1184,9 +1525,17 @@
 				<Event Id="3682356338" Name="AudioEvent_Gameflow_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Quit" GUID="{184CF421-E994-4CCF-BEB0-89D43C2BE5E8}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2980828507" Name="AudioEvent_Gameflow_RoleSelection" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_RoleSelection" GUID="{647CD970-7569-4B26-9F2A-844574E37358}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="147850414" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="306975957" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="522978398" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_forest_01_8B0D8983.wem</Path>
 						</File>
 						<File Id="648280554" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
@@ -1196,9 +1545,9 @@
 							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
-						<File Id="934404875" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -1214,17 +1563,61 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
 						</File>
+						<File Id="112727397" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="143629341" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="146177618" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="248056970" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="292688094" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="295625155" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="412228344" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="442472999" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="478055271" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493344622" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="496253023" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="538051267" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="626433293" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="675896441" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="714479039" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
@@ -1234,21 +1627,57 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="734406466" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="763842374" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="773915712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
 						</File>
 						<File Id="782469211" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_06_7FA8D501.wem</Path>
 						</File>
+						<File Id="812507534" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="852584589" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
 						</File>
+						<File Id="882518906" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898417524" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="926751461" Language="SFX">
 							<ShortName>Menu\sfx_ui_mainmenu_open_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_mainmenu_open_02_67368C31.wem</Path>
+						</File>
+						<File Id="936490347" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="945861036" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="960323357" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="962509473" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="994478620" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
@@ -1258,23 +1687,9 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="1024319034" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
-							<Media>
-								<File Id="934404875"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="1024319034"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
 								<File Id="496253023"/>
@@ -1284,16 +1699,9 @@
 								<File Id="248056970"/>
 								<File Id="782469211"/>
 								<File Id="90493988"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
-								<File Id="648280554"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
-							<Media>
 								<File Id="662236280"/>
+								<File Id="648280554"/>
+								<File Id="1024319034"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -1304,11 +1712,33 @@
 								<File Id="724990519"/>
 								<File Id="994478620"/>
 								<File Id="143629341"/>
+								<File Id="306975957"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 							<Media>
-								<File Id="306975957"/>
+								<File Id="147850414"/>
+								<File Id="945861036"/>
+								<File Id="493344622"/>
+								<File Id="898417524"/>
+								<File Id="882518906"/>
+								<File Id="960323357"/>
+								<File Id="112727397"/>
+								<File Id="146177618"/>
+								<File Id="442472999"/>
+								<File Id="478055271"/>
+								<File Id="675896441"/>
+								<File Id="812507534"/>
+								<File Id="412228344"/>
+								<File Id="773915712"/>
+								<File Id="626433293"/>
+								<File Id="295625155"/>
+								<File Id="962509473"/>
+								<File Id="936490347"/>
+								<File Id="734406466"/>
+								<File Id="538051267"/>
+								<File Id="292688094"/>
+								<File Id="522978398"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1515,37 +1945,37 @@
 				<Event Id="3877040936" Name="AudioEvent_Gameflow_SplashScreen_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_SplashScreen_Quit" GUID="{F11B7539-E157-4308-9C99-29227BA22954}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="836639789" Name="AudioEvent_Gameflow_Store_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Enter" GUID="{2926D414-2574-4B34-88DC-81970599A95E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="306975957" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
-						</File>
-						<File Id="365931481" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
+						<File Id="147850414" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="465288404" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_roleselection_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_roleselection_01_0BC91DCF.wem</Path>
 						</File>
+						<File Id="522978398" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_forest_01_8B0D8983.wem</Path>
+						</File>
 						<File Id="622861268" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_winter_store_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_winter_store_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="648280554" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="662236280" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="856565386" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
-						<File Id="924986256" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="934404875" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -1561,25 +1991,129 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="90493988" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="112727397" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="143629341" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="146177618" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="248056970" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="292688094" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="295625155" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="397638292" Language="SFX">
 							<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_long_01b.wav</ShortName>
 							<Path>SFX\Objects\Obj_VFX\TheEntity\sfx_theentity_long_01b_7FA8D501.wem</Path>
 						</File>
+						<File Id="412228344" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="442472999" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="478055271" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493344622" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="496253023" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="538051267" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="626433293" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="675896441" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
+						</File>
 						<File Id="710691922" Language="SFX">
 							<ShortName>Menu\sfx_ui_transition_01.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_01_67368C31.wem</Path>
+						</File>
+						<File Id="714479039" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="724990519" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="734406466" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="763842374" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="773915712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="782469211" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="812507534" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="852584589" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="882518906" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898417524" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="936490347" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="945861036" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="960323357" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="962509473" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="994478620" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
@@ -1589,22 +2123,25 @@
 							<ShortName>Menu\sfx_ui_transition_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_02_67368C31.wem</Path>
 						</File>
+						<File Id="1001713948" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_04_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
-								<File Id="622861268"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
-							<Media>
-								<File Id="306975957"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
-							<Media>
-								<File Id="934404875"/>
+								<File Id="496253023"/>
+								<File Id="714479039"/>
+								<File Id="852584589"/>
+								<File Id="1001713948"/>
+								<File Id="248056970"/>
+								<File Id="782469211"/>
+								<File Id="90493988"/>
+								<File Id="662236280"/>
+								<File Id="648280554"/>
+								<File Id="1024319034"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -1615,13 +2152,33 @@
 								<File Id="724990519"/>
 								<File Id="994478620"/>
 								<File Id="143629341"/>
+								<File Id="622861268"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 							<Media>
-								<File Id="924986256"/>
-								<File Id="365931481"/>
-								<File Id="305916662"/>
+								<File Id="147850414"/>
+								<File Id="945861036"/>
+								<File Id="493344622"/>
+								<File Id="898417524"/>
+								<File Id="882518906"/>
+								<File Id="960323357"/>
+								<File Id="112727397"/>
+								<File Id="146177618"/>
+								<File Id="442472999"/>
+								<File Id="478055271"/>
+								<File Id="675896441"/>
+								<File Id="812507534"/>
+								<File Id="412228344"/>
+								<File Id="773915712"/>
+								<File Id="522978398"/>
+								<File Id="626433293"/>
+								<File Id="295625155"/>
+								<File Id="962509473"/>
+								<File Id="936490347"/>
+								<File Id="734406466"/>
+								<File Id="538051267"/>
+								<File Id="292688094"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1638,37 +2195,37 @@
 				</Event>
 				<Event Id="4068000952" Name="AudioEvent_Gameflow_Store_Mobile_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Store_Mobile_Enter" GUID="{C1926FEC-FA09-4533-9AC4-337678A2C831}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="305916662" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_ion_crickets_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_ion_crickets_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="306975957" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_winter_02.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_winter_02_256CDB0F.wem</Path>
-						</File>
-						<File Id="365931481" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_ion_tile_outdoor_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_ion_tile_outdoor_01_256CDB0F.wem</Path>
+						<File Id="147850414" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="465288404" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_roleselection_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_roleselection_01_0BC91DCF.wem</Path>
 						</File>
+						<File Id="522978398" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_forest_01_8B0D8983.wem</Path>
+						</File>
 						<File Id="622861268" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_winter_store_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_winter_store_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="648280554" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="662236280" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_crickets_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_crickets_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="856565386" Language="SFX">
 							<ShortName>Ambience\Menus\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
-						<File Id="924986256" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_ion_theme_stereo_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_ion_theme_stereo_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="934404875" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_01_0BC91DCF.wem</Path>
+						<File Id="1024319034" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -1684,25 +2241,129 @@
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_01.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="90493988" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="112727397" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="143629341" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="146177618" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="248056970" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="292688094" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="295625155" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="397638292" Language="SFX">
 							<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_long_01b.wav</ShortName>
 							<Path>SFX\Objects\Obj_VFX\TheEntity\sfx_theentity_long_01b_7FA8D501.wem</Path>
 						</File>
+						<File Id="412228344" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="442472999" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="478055271" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493344622" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="496253023" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="538051267" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="626433293" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="675896441" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
+						</File>
 						<File Id="710691922" Language="SFX">
 							<ShortName>Menu\sfx_ui_transition_01.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_01_67368C31.wem</Path>
+						</File>
+						<File Id="714479039" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_02.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="724990519" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="734406466" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="763842374" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 							<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="773915712" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="782469211" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_06.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="812507534" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="852584589" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="882518906" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898417524" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="936490347" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="945861036" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="960323357" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="962509473" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="994478620" Language="SFX">
 							<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_03.wav</ShortName>
@@ -1712,22 +2373,25 @@
 							<ShortName>Menu\sfx_ui_transition_02.wav</ShortName>
 							<Path>SFX\Menu\sfx_ui_transition_02_67368C31.wem</Path>
 						</File>
+						<File Id="1001713948" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_rdm_voices_04.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_04_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 							<Media>
-								<File Id="622861268"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
-							<Media>
-								<File Id="306975957"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
-							<Media>
-								<File Id="934404875"/>
+								<File Id="496253023"/>
+								<File Id="714479039"/>
+								<File Id="852584589"/>
+								<File Id="1001713948"/>
+								<File Id="248056970"/>
+								<File Id="782469211"/>
+								<File Id="90493988"/>
+								<File Id="662236280"/>
+								<File Id="648280554"/>
+								<File Id="1024319034"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -1738,13 +2402,33 @@
 								<File Id="724990519"/>
 								<File Id="994478620"/>
 								<File Id="143629341"/>
+								<File Id="622861268"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 							<Media>
-								<File Id="924986256"/>
-								<File Id="365931481"/>
-								<File Id="305916662"/>
+								<File Id="147850414"/>
+								<File Id="945861036"/>
+								<File Id="493344622"/>
+								<File Id="898417524"/>
+								<File Id="882518906"/>
+								<File Id="960323357"/>
+								<File Id="112727397"/>
+								<File Id="146177618"/>
+								<File Id="442472999"/>
+								<File Id="478055271"/>
+								<File Id="675896441"/>
+								<File Id="812507534"/>
+								<File Id="412228344"/>
+								<File Id="773915712"/>
+								<File Id="522978398"/>
+								<File Id="626433293"/>
+								<File Id="295625155"/>
+								<File Id="962509473"/>
+								<File Id="936490347"/>
+								<File Id="734406466"/>
+								<File Id="538051267"/>
+								<File Id="292688094"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2333,11 +3017,8 @@
 				<Event Id="276221052" Name="AudioEvent_Master_Mute_ON" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Mute_ON" GUID="{9E6C5499-FEA2-4417-B56E-95CC3B31FEB6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Reset_RTPC" GUID="{5C71EA60-E02B-4C1F-A117-B3D617F27EBB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
-						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\STATES_MENU\AudioStateCollection\None" GUID="{13F3876A-2F60-4DFD-B1A8-F7B28AC6CED6}"/>
 						<ActionSetStateEntry Id="1081215356" Name="Video_OFF" ObjectPath="\States\STATES_MENU\AudioStateVideo\Video_OFF" GUID="{3D35BBA0-F527-4A87-B07C-B5176A367CAE}"/>
-						<ActionSetStateEntry Id="1881190445" Name="AudioState_K25_PuzzleBox_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_Off" GUID="{B4002573-E2FF-4325-808D-71DA1A27B577}"/>
 						<ActionSetStateEntry Id="2153531492" Name="OmanSurvivorExposed_Off" ObjectPath="\States\STATES_KILLER\STATE_K16_Oman\AudioStateOmanSurvivorExposed\OmanSurvivorExposed_Off" GUID="{1F182794-D0CD-4784-9E2F-6DBD308FCFA5}"/>
-						<ActionSetStateEntry Id="2440315466" Name="AudioState_K25_Possessing_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing\AudioState_K25_Possessing_Off" GUID="{2D5E9850-CF38-4E07-8EFD-EE1B5F616CB1}"/>
 						<ActionSetStateEntry Id="2605893650" Name="FinlandStealth_Off" ObjectPath="\States\STATES_KILLER\STATE_K11_Finland\AudioStateKillerFinlandStealth\FinlandStealth_Off" GUID="{77DA0D1E-827C-40F3-97EC-F5BB29AAAA1D}"/>
 						<ActionSetStateEntry Id="3047480847" Name="AudioStateIndoor_17_Eclipse_MainHall" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_MainHall" GUID="{27111CE2-39B8-4368-9143-E6A221911956}"/>
 						<ActionSetStateEntry Id="3716403342" Name="AudioStateDream_v2_Off" ObjectPath="\States\STATES_KILLER\STATE_K10_Sandman\AudioStateDream_v2\AudioStateDream_v2_Off" GUID="{679B685C-56E7-4338-BE00-D01C70B51A8E}"/>
@@ -3791,6 +4472,10 @@
 					<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_12.wav</ShortName>
 					<Path>SFX\Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_12_67368C31.wem</Path>
 				</File>
+				<File Id="112727397" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_06.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="117272805" Language="SFX">
 					<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_18.wav</ShortName>
 					<Path>SFX\Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_18_67368C31.wem</Path>
@@ -3803,9 +4488,17 @@
 					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_06.wav</ShortName>
 					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="146177618" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_07.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="229901182" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_09.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_09_67368C31.wem</Path>
+				</File>
+				<File Id="239285638" Language="SFX">
+					<ShortName>Music\mu_menu_lobby_k27.wav</ShortName>
+					<Path>SFX\Music\mu_menu_lobby_k27_256CDB0F.wem</Path>
 				</File>
 				<File Id="248056970" Language="SFX">
 					<ShortName>Ambience\Menus\am_lobby_rdm_voices_05.wav</ShortName>
@@ -3814,6 +4507,14 @@
 				<File Id="269467801" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_13.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_13_67368C31.wem</Path>
+				</File>
+				<File Id="292688094" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_10.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="295625155" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_03.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="303689108" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_02.wav</ShortName>
@@ -3831,9 +4532,17 @@
 					<ShortName>Music\mu_menu_special_winter_02.wav</ShortName>
 					<Path>SFX\Music\mu_menu_special_winter_02_256CDB0F.wem</Path>
 				</File>
+				<File Id="412228344" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_12.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_12_7FA8D501.wem</Path>
+				</File>
 				<File Id="436750450" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_thunder_low_05.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_thunder_low_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="442472999" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_08.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="450634095" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_thunder_low_12.wav</ShortName>
@@ -3842,6 +4551,14 @@
 				<File Id="467118190" Language="SFX">
 					<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_23.wav</ShortName>
 					<Path>SFX\Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_23_67368C31.wem</Path>
+				</File>
+				<File Id="478055271" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_09.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="493344622" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_02.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="496253023" Language="SFX">
 					<ShortName>Ambience\Menus\am_lobby_rdm_voices_01.wav</ShortName>
@@ -3859,6 +4576,10 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_15.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_15_67368C31.wem</Path>
 				</File>
+				<File Id="538051267" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_09.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_09_7FA8D501.wem</Path>
+				</File>
 				<File Id="547080405" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_thunder_low_06.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_thunder_low_06_7FA8D501.wem</Path>
@@ -3875,9 +4596,17 @@
 					<ShortName>Ambience\Menus\sfx_thunder_low_08.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_thunder_low_08_7FA8D501.wem</Path>
 				</File>
+				<File Id="626433293" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_01.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="640478728" Language="SFX">
 					<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_17.wav</ShortName>
 					<Path>SFX\Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_17_67368C31.wem</Path>
+				</File>
+				<File Id="675896441" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_10.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="680404367" Language="SFX">
 					<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_21.wav</ShortName>
@@ -3903,6 +4632,10 @@
 					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_05.wav</ShortName>
 					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="734406466" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_06.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="763842374" Language="SFX">
 					<ShortName>Ambience\Menus\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 					<Path>SFX\Ambience\Menus\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
@@ -3914,6 +4647,10 @@
 				<File Id="773181233" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_03.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_03_67368C31.wem</Path>
+				</File>
+				<File Id="773915712" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_13.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_13_7FA8D501.wem</Path>
 				</File>
 				<File Id="779351461" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_10.wav</ShortName>
@@ -3927,6 +4664,10 @@
 					<ShortName>Ambience\Menus\sfx_burning_high_06.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_06_67368C31.wem</Path>
 				</File>
+				<File Id="812507534" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_11.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_11_7FA8D501.wem</Path>
+				</File>
 				<File Id="813470654" Language="SFX">
 					<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_10.wav</ShortName>
 					<Path>SFX\Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_10_67368C31.wem</Path>
@@ -3939,13 +4680,37 @@
 					<ShortName>Ambience\Menus\am_lobby_rdm_voices_03.wav</ShortName>
 					<Path>SFX\Ambience\Menus\am_lobby_rdm_voices_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="882518906" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_04.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="898417524" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_03.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="912586477" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_thunder_low_14.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_thunder_low_14_7FA8D501.wem</Path>
 				</File>
+				<File Id="936490347" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_05.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="943434326" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_11.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_11_67368C31.wem</Path>
+				</File>
+				<File Id="945861036" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_01.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="960323357" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_treecreak_05.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_treecreak_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="962509473" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_kepler_rdm_forest_04.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_kepler_rdm_forest_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="972846039" Language="SFX">
 					<ShortName>Objects\Obj_VFX\TheEntity\sfx_theentity_ui_scream_13.wav</ShortName>
@@ -3962,10 +4727,6 @@
 				<File Id="1011370274" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_burning_high_01.wav</ShortName>
 					<Path>SFX\Ambience\Menus\sfx_burning_high_01_67368C31.wem</Path>
-				</File>
-				<File Id="1024319034" Language="SFX">
-					<ShortName>Ambience\Menus\am_lobby_halloween_01.wav</ShortName>
-					<Path>SFX\Ambience\Menus\am_lobby_halloween_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="1029397026" Language="SFX">
 					<ShortName>Ambience\Menus\sfx_thunder_low_01.wav</ShortName>
@@ -4075,6 +4836,7 @@
 						<State Id="3192246540" Name="K24_ID_Eclipse" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K24_ID_Eclipse" GUID="{BFE764B3-1EFB-4DEA-8215-708BBABA3D57}"/>
 						<State Id="941516329" Name="K25_ID_Gemini" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K25_ID_Gemini" GUID="{407838BD-2CB6-4F58-A07A-7F63E9EAEF93}"/>
 						<State Id="1992808187" Name="K26_ID_Ion" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K26_ID_Ion" GUID="{8423CC97-EF52-49D2-9967-B66686724E5A}"/>
+						<State Id="3720215239" Name="K27_ID_Kepler" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K27_ID_Kepler" GUID="{18BBFF90-3192-47F7-894F-52B85E31834F}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="1168080073" Name="Overlay_Off" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_Off" GUID="{641E0AD5-B1F1-478F-A2AE-AAA764A1D5D7}">
@@ -4086,16 +4848,10 @@
 				<StateGroup Id="1868627887" Name="Offering" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Offering" GUID="{0A3B913D-B94B-4643-83DB-3EA342C33320}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="1881190445" Name="AudioState_K25_PuzzleBox_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_PuzzleBox_SVR\AudioState_K25_PuzzleBox_Off" GUID="{B4002573-E2FF-4325-808D-71DA1A27B577}">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="2153531492" Name="OmanSurvivorExposed_Off" ObjectPath="\States\STATES_KILLER\STATE_K16_Oman\AudioStateOmanSurvivorExposed\OmanSurvivorExposed_Off" GUID="{1F182794-D0CD-4784-9E2F-6DBD308FCFA5}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2298552922" Name="Offline" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Offline" GUID="{D957D890-75F0-4286-996C-282F6E6BAC95}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="2440315466" Name="AudioState_K25_Possessing_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing\AudioState_K25_Possessing_Off" GUID="{2D5E9850-CF38-4E07-8EFD-EE1B5F616CB1}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2516092264" Name="Online" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Online" GUID="{AAFAD8E0-A103-4141-95DA-B5E768C0134B}">
