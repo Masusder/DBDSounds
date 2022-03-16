@@ -1116,19 +1116,6 @@
 							<Path>SFX\HUD\sfx_hud_gameplay_start_982BF740.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<DefaultSwitchValue>{41FB00D7-7F8A-4DBD-BBB6-B4734E5E6597}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}">
-							<Media>
-								<File Id="284966848"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{C98A583A-7B78-4309-9B9F-76C976EC2919}">
-							<Media>
-								<File Id="284966848"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="984691642" Name="Ingame" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Ingame" GUID="{E224B8AC-328E-4861-8851-A700D7BB2EE9}"/>
 						<ActionSetStateEntry Id="2818768589" Name="Menu_Out" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_Out" GUID="{7ED5325E-421B-4C4F-85BD-F41A083531A1}"/>
@@ -1378,13 +1365,6 @@
 				</StateGroup>
 				<StateGroup Id="4027872413" Name="AudioStateIndoor_01_Industrial_WareHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_01_Industrial\AudioStateIndoor_01_Industrial\AudioStateIndoor_01_Industrial_WareHouse" GUID="{E9EF39C2-FC62-465D-886D-44342945A41D}">
 					<States/>
-				</StateGroup>
-				<StateGroup Id="4268632856" Name="AudioStateGameplay" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay" GUID="{135FF12B-3DE1-46E5-9343-8B3639D03D55}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\None" GUID="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}"/>
-						<State Id="3102261578" Name="Gameplay_Survivor" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Survivor" GUID="{C98A583A-7B78-4309-9B9F-76C976EC2919}"/>
-						<State Id="932695537" Name="Gameplay_Killer" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Killer" GUID="{41FB00D7-7F8A-4DBD-BBB6-B4734E5E6597}"/>
-					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
