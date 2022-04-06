@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="81455220" GUID="{ECA4252D-DD2A-4986-8C04-98F6869CB1F2}" Language="SFX">
+		<SoundBank Id="81455220" GUID="{ECA4252D-DD2A-4986-8C04-98F6869CB1F2}" Language="SFX" Hash="2160377254">
 			<ObjectPath>\SoundBanks\CHARACTER\SURVIVOR\SVR_M13</ObjectPath>
 			<ShortName>SVR_M13</ShortName>
 			<Path>SVR_M13.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1342436470" Name="AudioEvent_SVR_M13_Dead" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M13\SVR_M13_GRUNT\AudioEvent_SVR_M13_Dead" GUID="{BD7B1C10-6432-43F0-930E-32309AE92309}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1153615986" Name="AudioEvent_SVR_M13_GameStart_NotControlled" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M13\SVR_M13_GameStart\AudioEvent_SVR_M13_GameStart_NotControlled" GUID="{79BCF546-8D34-4869-BB48-6ACB88C3501B}" MaxAttenuation="1900.000000" DurationType="Infinite"/>
+				<Event Id="1153615986" Name="AudioEvent_SVR_M13_GameStart_NotControlled" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M13\SVR_M13_GameStart\AudioEvent_SVR_M13_GameStart_NotControlled" GUID="{79BCF546-8D34-4869-BB48-6ACB88C3501B}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<DefaultSwitchValue>{4634728D-A6EC-463F-98B7-88625AA203FB}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C122D54D-7534-40F3-9278-C4B3885FC8A1}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C6A55A58-493C-4921-A35A-7A4B7296A933}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{87ED9576-D64C-486B-80A5-29160DA2BBC0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4B05EE76-2F40-47BF-B51C-3D49C36C540B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{05374D88-4159-48FB-9221-5804D3776A9D}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4634728D-A6EC-463F-98B7-88625AA203FB}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1612935253" Name="AudioEvent_SVR_M13_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M13\SVR_M13_GRUNT\AudioEvent_SVR_M13_Grunt_Cough" GUID="{CB184151-709A-40C2-B7E3-429E1D032FCA}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.404119" DurationMax="1.583014"/>
 				<Event Id="3352811157" Name="AudioEvent_SVR_M13_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M13\SVR_M13_GRUNT\AudioEvent_SVR_M13_Grunt_Effort_Hard" GUID="{D1DC700A-D9D5-4F26-BF71-1E8832150651}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.537167" DurationMax="2.004062"/>
 				<Event Id="2138947894" Name="AudioEvent_SVR_M13_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M13\SVR_M13_GRUNT\AudioEvent_SVR_M13_Grunt_Effort_Light" GUID="{50800379-09BB-4EC4-BC74-CDA54D8DD914}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.360167" DurationMax="0.765437"/>

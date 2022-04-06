@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560505" GUID="{FD673857-66DF-426A-8A61-D3DA81E17058}" Language="SFX">
+		<SoundBank Id="1457560505" GUID="{FD673857-66DF-426A-8A61-D3DA81E17058}" Language="SFX" Hash="3771501953">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_22</ObjectPath>
 			<ShortName>KLR_22</ShortName>
 			<Path>KLR_22.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1876082556" Name="AudioEvent_K22_Aurora_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_STATUS\AudioEvent_K22_Aurora_Status_Start" GUID="{D1233050-A852-4F81-A14D-2621180D32CC}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<DefaultSwitchValue>{8A657979-01E3-4185-8A68-3A3F7352FAAE}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{09277546-BA62-4156-ABD6-50DCE8E16611}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6C390DAD-6116-4BB2-AC8C-8DEACDBAA442}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C400E3DD-BF93-48E5-83D8-C6A7E6378C77}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{846DE21D-B297-4392-99F2-E088E4F49C71}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="405479540" Name="AudioEvent_K22_Status_1_Normal" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_STATUS\AudioEvent_K22_Status_1_Normal" GUID="{97BD2DCD-C374-464E-9842-E11A609DBE20}"/>
 					</ActionPostEvent>
@@ -69,7 +84,17 @@
 				<Event Id="613072517" Name="AudioEvent_K22_Twin_PWR_Brother_Release" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_POWER\AudioEvent_K22_Twin_PWR_Brother_Release" GUID="{07023AAE-8DEA-4894-8884-B34C2235AE51}" DurationType="OneShot" DurationMin="6.458437" DurationMax="7.066774"/>
 				<Event Id="820354131" Name="AudioEvent_K22_Twin_PWR_ChangeRole_Negation" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_POWER\AudioEvent_K22_Twin_PWR_ChangeRole_Negation" GUID="{CCF17B87-B550-4540-9D8B-4507C6668326}" DurationType="OneShot" DurationMin="1.209524" DurationMax="1.523905"/>
 				<Event Id="1757660022" Name="AudioEvent_K22_Twin_PWR_ChangeRole_VFX" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_POWER\AudioEvent_K22_Twin_PWR_ChangeRole_VFX" GUID="{E2736BC9-4978-4658-AB36-33671A5FBEA7}" DurationType="OneShot" DurationMin="2.522689" DurationMax="3.779763"/>
-				<Event Id="3280450241" Name="AudioEvent_K22_Twin_PWR_Detection_Start" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_POWER\AudioEvent_K22_Twin_PWR_Detection_Start" GUID="{79F53F37-EAED-42FF-9037-459B868327D4}" DurationType="Infinite"/>
+				<Event Id="3280450241" Name="AudioEvent_K22_Twin_PWR_Detection_Start" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_POWER\AudioEvent_K22_Twin_PWR_Detection_Start" GUID="{79F53F37-EAED-42FF-9037-459B868327D4}" DurationType="Infinite">
+					<DefaultSwitchValue>{CDF12BD3-8C90-4A9B-B78C-AD27CB9D7B5C}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{D862950E-0425-49F4-9295-E81F1BEABF64}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C026A7EE-48FB-4592-A2C8-3877D8D0F06C}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="240863219" Name="AudioEvent_K22_Twin_SPEC_Attack_Body_Impact" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_SPECIFIC\AudioEvent_K22_Twin_SPEC_Attack_Body_Impact" GUID="{47875AF2-3FF6-4DE6-9214-41C511427233}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.369333" DurationMax="0.404000"/>
 				<Event Id="3482031357" Name="AudioEvent_K22_Twin_SPEC_Attack_End" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_SPECIFIC\AudioEvent_K22_Twin_SPEC_Attack_End" GUID="{2142447D-CC35-47CC-AB56-BA6B8329196C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.943874" DurationMax="1.122462"/>
 				<Event Id="1175938870" Name="AudioEvent_K22_Twin_SPEC_Attack_Start" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_SPECIFIC\AudioEvent_K22_Twin_SPEC_Attack_Start" GUID="{BA734E46-CBA1-413D-8E35-E1264AD279B8}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.887748" DurationMax="2.378414"/>
@@ -96,11 +121,79 @@
 						<ActionSetStateEntry Id="2697635712" Name="AudioState_K22_Twin_Status_4_Attached" ObjectPath="\States\STATES_KILLER\STATE_K22_Aurora\AudioState_K22_Twin_Status\AudioState_K22_Twin_Status_4_Attached" GUID="{D862950E-0425-49F4-9295-E81F1BEABF64}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="982165986" Name="AudioEvent_K22_Twin_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_STATUS\AudioEvent_K22_Twin_Status_Start" GUID="{5F64C03D-82DF-4504-B82A-2C7433939226}" MaxAttenuation="1900.000000" DurationType="Infinite"/>
+				<Event Id="982165986" Name="AudioEvent_K22_Twin_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_STATUS\AudioEvent_K22_Twin_Status_Start" GUID="{5F64C03D-82DF-4504-B82A-2C7433939226}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<DefaultSwitchValue>{CDF12BD3-8C90-4A9B-B78C-AD27CB9D7B5C}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{D862950E-0425-49F4-9295-E81F1BEABF64}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{248FBF59-CFF3-40BF-8C6E-1BDFD8D73530}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C026A7EE-48FB-4592-A2C8-3877D8D0F06C}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2316544826" Name="AudioEvent_K22_WPN_Default_Sickle_Arm" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_WEAPON\AudioEvent_K22_WPN_Default_Sickle_Arm" GUID="{4D03EFCA-370F-4D9E-BE8C-98EC9C964279}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.359360" DurationMax="0.406657"/>
 				<Event Id="2052310096" Name="AudioEvent_K22_WPN_Default_Sickle_Attack" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_WEAPON\AudioEvent_K22_WPN_Default_Sickle_Attack" GUID="{EB959B87-89E2-4FCE-9569-FE85E1634538}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.513729" DurationMax="0.568313"/>
 				<Event Id="279172415" Name="AudioEvent_K22_WPN_Default_Sickle_Clean" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_WEAPON\AudioEvent_K22_WPN_Default_Sickle_Clean" GUID="{5A89244B-82C3-4B78-AE9E-80F96903CC77}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.807813" DurationMax="0.911833"/>
-				<Event Id="331365746" Name="AudioEvent_K22_WPN_Default_Sickle_Impact" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_WEAPON\AudioEvent_K22_WPN_Default_Sickle_Impact" GUID="{AFC19415-332F-4270-9EFF-2D93D644BE27}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.430914" DurationMax="1.000000"/>
+				<Event Id="331365746" Name="AudioEvent_K22_WPN_Default_Sickle_Impact" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_WEAPON\AudioEvent_K22_WPN_Default_Sickle_Impact" GUID="{AFC19415-332F-4270-9EFF-2D93D644BE27}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.430914" DurationMax="1.000000">
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{48A06FE5-D77E-440C-BC12-44D3DFE248E2}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1165258287" Name="AudioEvent_K22_WPN_Default_Sickle_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K22_Aurora\K22_WEAPON\AudioEvent_K22_WPN_Default_Sickle_PullOut" GUID="{F7C16F1B-6422-4BE7-A28D-7120726701A9}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.538625" DurationMax="0.538625"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>

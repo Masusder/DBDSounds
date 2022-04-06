@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115652" GUID="{6837A57E-EE21-4F58-B9BE-8B4293F373F4}" Language="SFX">
+		<SoundBank Id="1491115652" GUID="{6837A57E-EE21-4F58-B9BE-8B4293F373F4}" Language="SFX" Hash="661702343">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_05</ObjectPath>
 			<ShortName>KLR_05</ShortName>
 			<Path>KLR_05.bnk</Path>
@@ -20,7 +20,10 @@
 				<Event Id="3106967279" Name="AudioEvent_K05_WPN_Default_Claw_Arm" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_WEAPON\AudioEvent_K05_WPN_Default_Claw_Arm" GUID="{BDE6C059-E3B6-4B61-95E2-D0B283901FC8}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.149693" DurationMax="0.184793"/>
 				<Event Id="4268226327" Name="AudioEvent_K05_WPN_Default_Claw_Attack" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_WEAPON\AudioEvent_K05_WPN_Default_Claw_Attack" GUID="{F44EE91B-AA63-41A7-9656-7767799C8A76}" DurationType="OneShot" DurationMin="0.298667" DurationMax="0.405333"/>
 				<Event Id="2630834130" Name="AudioEvent_K05_WPN_Default_Claw_Clean" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_WEAPON\AudioEvent_K05_WPN_Default_Claw_Clean" GUID="{5B90AA71-5C5A-4DE5-B9B1-7F75DD01B9D9}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.544256" DurationMax="1.549787"/>
-				<Event Id="1831224229" Name="AudioEvent_K05_WPN_Default_Claw_Impact" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_WEAPON\AudioEvent_K05_WPN_Default_Claw_Impact" GUID="{2C01C153-B431-45AA-8BFC-8CE3C9C7593E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
+				<Event Id="1831224229" Name="AudioEvent_K05_WPN_Default_Claw_Impact" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_WEAPON\AudioEvent_K05_WPN_Default_Claw_Impact" GUID="{2C01C153-B431-45AA-8BFC-8CE3C9C7593E}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000">
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers/>
+				</Event>
 				<Event Id="277204174" Name="AudioEvent_K05_WPN_Default_Claw_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_WEAPON\AudioEvent_K05_WPN_Default_Claw_PullOut" GUID="{48C3FD74-38E5-4D8B-91DD-C9DA58606AC5}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2506826593" Name="AudioEvent_Killer_Witch_Attack_Kill" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_GRUNT\AudioEvent_Killer_Witch_Attack_Kill" GUID="{8A287BDC-3473-4C54-8F7B-BB44ABD5D78D}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.817021" DurationMax="1.361157"/>
 				<Event Id="2286840008" Name="AudioEvent_Killer_Witch_Eat" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_GRUNT\AudioEvent_Killer_Witch_Eat" GUID="{A1D537F2-A8FA-4F9F-BD13-20CE9C02E846}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.118958" DurationMax="1.472917"/>
@@ -35,37 +38,29 @@
 				<Event Id="1026713941" Name="AudioEvent_PhantomTrap_Draw" ObjectPath="\Events\CHARACTER\KILLER\K05_Witch\K05_POWER\AudioEvent_PhantomTrap_Draw" GUID="{B2A6B47C-73C9-4CA2-BCCF-227D149E2661}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.629333" DurationMax="0.864000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="135268" Language="SFX">
-					<ShortName>Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_05_7FA8D501.wem</Path>
+				<File Id="135269" Language="SFX">
+					<ShortName>Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="10164975" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_07.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_07_67368C31.wem</Path>
+				<File Id="10164976" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_07_67368C31.wem</Path>
 				</File>
-				<File Id="16379612" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_lick_blood_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_lick_blood_02_67368C31.wem</Path>
+				<File Id="16379613" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_lick_blood_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_lick_blood_02_67368C31.wem</Path>
 				</File>
 				<File Id="17561275" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_02_67368C31.wem</Path>
 				</File>
-				<File Id="30499879" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_grunt_hurt_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_grunt_hurt_02_67368C31.wem</Path>
+				<File Id="30499880" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_grunt_hurt_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_grunt_hurt_02_67368C31.wem</Path>
 				</File>
-				<File Id="38178445" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_grunt_hurt_07.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_grunt_hurt_07_67368C31.wem</Path>
-				</File>
-				<File Id="41143064" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_04_67368C31.wem</Path>
-				</File>
-				<File Id="43455722" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_01_67368C31.wem</Path>
+				<File Id="43455723" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_01_67368C31.wem</Path>
 				</File>
 				<File Id="60028769" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_2D_Bounce_03.wav</ShortName>
@@ -79,105 +74,69 @@
 					<ShortName>Weapons\Claw\sfx_claw_lick_liquid_03.wav</ShortName>
 					<Path>SFX\Weapons\Claw\sfx_claw_lick_liquid_03_67368C31.wem</Path>
 				</File>
-				<File Id="77684257" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_grunt_hurt_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_grunt_hurt_04_67368C31.wem</Path>
-				</File>
 				<File Id="85886412" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_eat_scream_03_interrupt.wav</ShortName>
 					<Path>SFX\Menu\vo_killer_witch_eat_scream_03_interrupt_67368C31.wem</Path>
 				</File>
-				<File Id="87050606" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_07.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_07_67368C31.wem</Path>
+				<File Id="87050607" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_07_67368C31.wem</Path>
 				</File>
-				<File Id="92402724" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_liquid_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_liquid_04_67368C31.wem</Path>
-				</File>
-				<File Id="103108886" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_grunt_hurt_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_grunt_hurt_03_67368C31.wem</Path>
+				<File Id="103108887" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_grunt_hurt_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_grunt_hurt_03_67368C31.wem</Path>
 				</File>
 				<File Id="106141942" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_eat_scream_02_interrupt.wav</ShortName>
 					<Path>SFX\Menu\vo_killer_witch_eat_scream_02_interrupt_67368C31.wem</Path>
 				</File>
-				<File Id="132427621" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_02_b.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_02_b_67368C31.wem</Path>
-				</File>
-				<File Id="148449899" Language="SFX">
-					<ShortName>Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_07.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_07_7FA8D501.wem</Path>
+				<File Id="148449900" Language="SFX">
+					<ShortName>Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="183066774" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_grunt_hurt_04_interrupt.wav</ShortName>
 					<Path>SFX\Menu\vo_killer_witch_grunt_hurt_04_interrupt_67368C31.wem</Path>
 				</File>
-				<File Id="206112589" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_grunt_hurt_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_grunt_hurt_01_67368C31.wem</Path>
+				<File Id="213128733" Language="SFX">
+					<ShortName>Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="210367730" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_02_67368C31.wem</Path>
+				<File Id="215813805" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_04_67368C31.wem</Path>
 				</File>
-				<File Id="213128732" Language="SFX">
-					<ShortName>Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_06_7FA8D501.wem</Path>
+				<File Id="217240322" Language="SFX">
+					<ShortName>Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="215813804" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_04_67368C31.wem</Path>
+				<File Id="219152758" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_08.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_08_67368C31.wem</Path>
 				</File>
-				<File Id="217240321" Language="SFX">
-					<ShortName>Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_01_7FA8D501.wem</Path>
+				<File Id="221868455" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_07_b.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_07_b_67368C31.wem</Path>
 				</File>
-				<File Id="219152757" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_08.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_08_67368C31.wem</Path>
-				</File>
-				<File Id="221868454" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_07_b.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_07_b_67368C31.wem</Path>
-				</File>
-				<File Id="239564200" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_03_67368C31.wem</Path>
-				</File>
-				<File Id="249136417" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_04_67368C31.wem</Path>
-				</File>
-				<File Id="261340165" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_05_b.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_05_b_67368C31.wem</Path>
+				<File Id="239564201" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_03_67368C31.wem</Path>
 				</File>
 				<File Id="262758486" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_eat_scream_05_interrupt.wav</ShortName>
 					<Path>SFX\Menu\vo_killer_witch_eat_scream_05_interrupt_67368C31.wem</Path>
 				</File>
-				<File Id="283085867" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_01_b.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_01_b_67368C31.wem</Path>
+				<File Id="291407820" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_02_67368C31.wem</Path>
 				</File>
-				<File Id="290587915" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_body_move_killer_witch_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_body_move_killer_witch_01_67368C31.wem</Path>
+				<File Id="298539764" Language="SFX">
+					<ShortName>Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="291407819" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_02_67368C31.wem</Path>
-				</File>
-				<File Id="298539763" Language="SFX">
-					<ShortName>Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="302401483" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_06_67368C31.wem</Path>
+				<File Id="302401484" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_06_67368C31.wem</Path>
 				</File>
 				<File Id="318519688" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_2D_Bounce_05.wav</ShortName>
@@ -187,45 +146,53 @@
 					<ShortName>Weapons\Claw\sfx_claw_lick_liquid_04.wav</ShortName>
 					<Path>SFX\Weapons\Claw\sfx_claw_lick_liquid_04_67368C31.wem</Path>
 				</File>
-				<File Id="323115288" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_04_b.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_04_b_67368C31.wem</Path>
-				</File>
 				<File Id="333362187" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_Bounce_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_appear_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="337972189" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_06_67368C31.wem</Path>
+				<File Id="343989334" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_02_67368C31.wem</Path>
 				</File>
-				<File Id="350258472" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_grunt_hurt_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_grunt_hurt_05_67368C31.wem</Path>
-				</File>
-				<File Id="352584392" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_liquid_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_liquid_03_67368C31.wem</Path>
+				<File Id="352584393" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_liquid_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_liquid_03_67368C31.wem</Path>
 				</File>
 				<File Id="357519668" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_2D_Bounce_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_appear_2D_Bounce_04_67368C31.wem</Path>
 				</File>
-				<File Id="367708846" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_05_67368C31.wem</Path>
+				<File Id="367708847" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_05_67368C31.wem</Path>
 				</File>
-				<File Id="378450379" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_02_67368C31.wem</Path>
+				<File Id="374263781" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_grunt_hurt_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_grunt_hurt_01_67368C31.wem</Path>
+				</File>
+				<File Id="378450380" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_02_67368C31.wem</Path>
 				</File>
 				<File Id="380730920" Language="SFX">
 					<ShortName>Weapons\Claw\sfx_claw_slice_03.wav</ShortName>
 					<Path>SFX\Weapons\Claw\sfx_claw_slice_03_67368C31.wem</Path>
 				</File>
-				<File Id="400177188" Language="SFX">
-					<ShortName>Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_02_7FA8D501.wem</Path>
+				<File Id="383429188" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_liquid_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_liquid_04_67368C31.wem</Path>
+				</File>
+				<File Id="393895925" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_body_move_killer_witch_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_body_move_killer_witch_01_67368C31.wem</Path>
+				</File>
+				<File Id="400177189" Language="SFX">
+					<ShortName>Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="401234090" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_04_b.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_04_b_67368C31.wem</Path>
 				</File>
 				<File Id="420681517" Language="SFX">
 					<ShortName>Weapons\Claw\sfx_claw_slice_01.wav</ShortName>
@@ -235,17 +202,21 @@
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_Bounce_03.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_appear_Bounce_03_67368C31.wem</Path>
 				</File>
-				<File Id="436413852" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_05_67368C31.wem</Path>
+				<File Id="427917918" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_04_67368C31.wem</Path>
+				</File>
+				<File Id="436413853" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_05_67368C31.wem</Path>
 				</File>
 				<File Id="441846988" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_disappear_Bounce_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_disappear_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="464142463" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_lick_blood_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_lick_blood_03_67368C31.wem</Path>
+				<File Id="464142464" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_lick_blood_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_lick_blood_03_67368C31.wem</Path>
 				</File>
 				<File Id="497838392" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_eat_scream_04_interrupt.wav</ShortName>
@@ -255,109 +226,109 @@
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_04_67368C31.wem</Path>
 				</File>
-				<File Id="507261594" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_lick_scream_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_lick_scream_04_67368C31.wem</Path>
+				<File Id="507261595" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_lick_scream_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_lick_scream_04_67368C31.wem</Path>
 				</File>
 				<File Id="528095535" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_destroy_Bounce_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_destroy_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="533575189" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_05_67368C31.wem</Path>
-				</File>
 				<File Id="534142245" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_Bounce_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_appear_Bounce_02_67368C31.wem</Path>
 				</File>
-				<File Id="542001313" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_04_67368C31.wem</Path>
+				<File Id="542001314" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_04_67368C31.wem</Path>
 				</File>
-				<File Id="560527762" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_06_b.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_06_b_67368C31.wem</Path>
+				<File Id="546426231" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_05_b.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_05_b_67368C31.wem</Path>
 				</File>
-				<File Id="581602034" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_lick_scream_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_lick_scream_05_67368C31.wem</Path>
+				<File Id="554314462" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_02_b.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_02_b_67368C31.wem</Path>
+				</File>
+				<File Id="562993795" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_06_b.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_06_b_67368C31.wem</Path>
+				</File>
+				<File Id="581602035" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_lick_scream_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_lick_scream_05_67368C31.wem</Path>
 				</File>
 				<File Id="589120992" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_2D_Bounce_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_appear_2D_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="613619596" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_liquid_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_liquid_02_67368C31.wem</Path>
+				<File Id="613619597" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_liquid_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_liquid_02_67368C31.wem</Path>
 				</File>
 				<File Id="631945106" Language="SFX">
 					<ShortName>Weapons\Claw\sfx_claw_lick_liquid_02.wav</ShortName>
 					<Path>SFX\Weapons\Claw\sfx_claw_lick_liquid_02_67368C31.wem</Path>
 				</File>
-				<File Id="645258401" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_01_67368C31.wem</Path>
-				</File>
 				<File Id="655802232" Language="SFX">
 					<ShortName>Weapons\Claw\Claw_Attack_Bounce_01.wav</ShortName>
 					<Path>SFX\Weapons\Claw\Claw_Attack_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="657335144" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_02_67368C31.wem</Path>
+				<File Id="657335145" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_02_67368C31.wem</Path>
 				</File>
 				<File Id="663436391" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_destroy_Bounce_03.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_destroy_Bounce_03_67368C31.wem</Path>
 				</File>
-				<File Id="666216837" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_grunt_hurt_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_grunt_hurt_06_67368C31.wem</Path>
-				</File>
 				<File Id="668079637" Language="SFX">
 					<ShortName>Weapons\Claw\Claw_Attack_Bounce_03.wav</ShortName>
 					<Path>SFX\Weapons\Claw\Claw_Attack_Bounce_03_67368C31.wem</Path>
-				</File>
-				<File Id="670510925" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_move_crack_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_move_crack_03_67368C31.wem</Path>
-				</File>
-				<File Id="675172017" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_normal_breath_03_b.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_normal_breath_03_b_67368C31.wem</Path>
 				</File>
 				<File Id="676662040" Language="SFX">
 					<ShortName>Weapons\Claw\sfx_claw_lick_liquid_01.wav</ShortName>
 					<Path>SFX\Weapons\Claw\sfx_claw_lick_liquid_01_67368C31.wem</Path>
 				</File>
-				<File Id="685029823" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_lick_scream_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_lick_scream_02_67368C31.wem</Path>
+				<File Id="685029824" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_lick_scream_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_lick_scream_02_67368C31.wem</Path>
+				</File>
+				<File Id="735459132" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_grunt_hurt_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_grunt_hurt_04_67368C31.wem</Path>
 				</File>
 				<File Id="738134037" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_grunt_hurt_03_interrupt.wav</ShortName>
 					<Path>SFX\Menu\vo_killer_witch_grunt_hurt_03_interrupt_67368C31.wem</Path>
 				</File>
-				<File Id="743860365" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_lick_blood_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_lick_blood_01_67368C31.wem</Path>
+				<File Id="743123115" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_grunt_hurt_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_grunt_hurt_07_67368C31.wem</Path>
+				</File>
+				<File Id="743860366" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_lick_blood_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_lick_blood_01_67368C31.wem</Path>
 				</File>
 				<File Id="769248503" Language="SFX">
 					<ShortName>Weapons\Claw\Claw_Attack_Bounce_05.wav</ShortName>
 					<Path>SFX\Weapons\Claw\Claw_Attack_Bounce_05_67368C31.wem</Path>
 				</File>
-				<File Id="798412647" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_03_67368C31.wem</Path>
+				<File Id="788585769" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_06_67368C31.wem</Path>
 				</File>
-				<File Id="800759159" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_lick_scream_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_lick_scream_03_67368C31.wem</Path>
+				<File Id="798412648" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_03_67368C31.wem</Path>
 				</File>
-				<File Id="809023258" Language="SFX">
-					<ShortName>Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\KLR_05_Witch_Eat_Mix_Bounce_03_7FA8D501.wem</Path>
+				<File Id="800759160" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_lick_scream_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_lick_scream_03_67368C31.wem</Path>
+				</File>
+				<File Id="809023259" Language="SFX">
+					<ShortName>Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\KLR_05_Witch_Eat_Mix_Bounce_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="812058142" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_grunt_hurt_05_interrupt.wav</ShortName>
@@ -371,33 +342,41 @@
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_disappear_Bounce_05.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_disappear_Bounce_05_67368C31.wem</Path>
 				</File>
-				<File Id="833244661" Language="SFX">
-					<ShortName>Characters\Killer_Witch\sfx_killer_witch_liquid_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\sfx_killer_witch_liquid_01_67368C31.wem</Path>
+				<File Id="840234857" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_03_67368C31.wem</Path>
 				</File>
 				<File Id="841613848" Language="SFX">
 					<ShortName>Menu\vo_killer_witch_eat_scream_01_interrupt.wav</ShortName>
 					<Path>SFX\Menu\vo_killer_witch_eat_scream_01_interrupt_67368C31.wem</Path>
 				</File>
+				<File Id="843524623" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_04_67368C31.wem</Path>
+				</File>
 				<File Id="850249971" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_destroy_Bounce_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_destroy_Bounce_04_67368C31.wem</Path>
 				</File>
-				<File Id="851745413" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_01_67368C31.wem</Path>
+				<File Id="851745414" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_01_67368C31.wem</Path>
 				</File>
 				<File Id="892350246" Language="SFX">
 					<ShortName>Weapons\Claw\Claw_Attack_Bounce_04.wav</ShortName>
 					<Path>SFX\Weapons\Claw\Claw_Attack_Bounce_04_67368C31.wem</Path>
 				</File>
-				<File Id="901053047" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_01_67368C31.wem</Path>
+				<File Id="895018575" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_grunt_hurt_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_grunt_hurt_05_67368C31.wem</Path>
 				</File>
-				<File Id="907954054" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_03_67368C31.wem</Path>
+				<File Id="901053048" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_01_67368C31.wem</Path>
+				</File>
+				<File Id="907954055" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_03_67368C31.wem</Path>
 				</File>
 				<File Id="919858951" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_Bounce_04.wav</ShortName>
@@ -407,13 +386,29 @@
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_03.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_03_67368C31.wem</Path>
 				</File>
+				<File Id="927813906" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_01_b.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_01_b_67368C31.wem</Path>
+				</File>
+				<File Id="939889687" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_grunt_hurt_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_grunt_hurt_06_67368C31.wem</Path>
+				</File>
 				<File Id="948946924" Language="SFX">
 					<ShortName>Weapons\Claw\Claw_Attack_Bounce_02.wav</ShortName>
 					<Path>SFX\Weapons\Claw\Claw_Attack_Bounce_02_67368C31.wem</Path>
 				</File>
-				<File Id="984819433" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_lick_scream_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_lick_scream_01_67368C31.wem</Path>
+				<File Id="971694672" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_05_67368C31.wem</Path>
+				</File>
+				<File Id="984819434" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_lick_scream_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_lick_scream_01_67368C31.wem</Path>
+				</File>
+				<File Id="996270751" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_liquid_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_liquid_01_67368C31.wem</Path>
 				</File>
 				<File Id="997978007" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_destroy_Bounce_02.wav</ShortName>
@@ -423,9 +418,13 @@
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_draw_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="1022037987" Language="SFX">
-					<ShortName>Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Witch\vo_killer_witch_phantomtrap_disappear_05_67368C31.wem</Path>
+				<File Id="1022037988" Language="SFX">
+					<ShortName>Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\vo_killer_witch_phantomtrap_disappear_05_67368C31.wem</Path>
+				</File>
+				<File Id="1032662962" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_move_crack_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_move_crack_01_67368C31.wem</Path>
 				</File>
 				<File Id="1033373214" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_appear_2D_Bounce_02.wav</ShortName>
@@ -434,6 +433,10 @@
 				<File Id="1035119664" Language="SFX">
 					<ShortName>Powers\PWR_05_PhantomTrap\PhantomTrap_disappear_Bounce_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_05_PhantomTrap\PhantomTrap_disappear_Bounce_04_67368C31.wem</Path>
+				</File>
+				<File Id="1036055015" Language="SFX">
+					<ShortName>Characters\KLR_05\sfx_killer_witch_normal_breath_03_b.wav</ShortName>
+					<Path>SFX\Characters\KLR_05\sfx_killer_witch_normal_breath_03_b_67368C31.wem</Path>
 				</File>
 				<File Id="1056689460" Language="SFX">
 					<ShortName>Weapons\Claw\Claw_Attack_Bounce_06.wav</ShortName>

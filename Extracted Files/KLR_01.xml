@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115648" GUID="{3096291F-1CFC-425E-88BE-39C80F3272D2}" Language="SFX">
+		<SoundBank Id="1491115648" GUID="{3096291F-1CFC-425E-88BE-39C80F3272D2}" Language="SFX" Hash="3569027680">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_01</ObjectPath>
 			<ShortName>KLR_01</ShortName>
 			<Path>KLR_01.bnk</Path>
@@ -31,7 +31,53 @@
 				<Event Id="2508208481" Name="AudioEvent_K01_WPN_Default_Machete_Arm" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_WEAPON\AudioEvent_K01_WPN_Default_Machete_Arm" GUID="{41F1E090-47BB-4EDE-BA87-08486DA2862F}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249"/>
 				<Event Id="535072169" Name="AudioEvent_K01_WPN_Default_Machete_Attack" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_WEAPON\AudioEvent_K01_WPN_Default_Machete_Attack" GUID="{48FC8DCD-DCF8-4F7C-9E29-06A964426A86}" DurationType="OneShot" DurationMin="0.565333" DurationMax="0.661333"/>
 				<Event Id="3431262376" Name="AudioEvent_K01_WPN_Default_Machete_Clean" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_WEAPON\AudioEvent_K01_WPN_Default_Machete_Clean" GUID="{13D9BA63-6D45-46F2-A848-80DC5B396FC4}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.609468" DurationMax="0.887839"/>
-				<Event Id="425927475" Name="AudioEvent_K01_WPN_Default_Machete_Impact" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_WEAPON\AudioEvent_K01_WPN_Default_Machete_Impact" GUID="{5B4B6155-41FE-480C-8311-E80D95B56433}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.297330" DurationMax="1.000000"/>
+				<Event Id="425927475" Name="AudioEvent_K01_WPN_Default_Machete_Impact" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_WEAPON\AudioEvent_K01_WPN_Default_Machete_Impact" GUID="{5B4B6155-41FE-480C-8311-E80D95B56433}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.297330" DurationMax="1.000000">
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="459807776" Name="AudioEvent_K01_WPN_Default_Machete_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_WEAPON\AudioEvent_K01_WPN_Default_Machete_PullOut" GUID="{316751F1-785B-4D25-A030-304FA42C0EE6}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249"/>
 				<Event Id="1642502237" Name="AudioEvent_Killer_Trapper_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_GRUNT\AudioEvent_Killer_Trapper_Grunt_Hurt" GUID="{1101BE44-FE11-4A35-97C2-1510D0D121DE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.305034" DurationMax="0.533333"/>
 				<Event Id="1120392738" Name="AudioEvent_Killer_Trapper_Grunt_Satisfaction" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_GRUNT\AudioEvent_Killer_Trapper_Grunt_Satisfaction" GUID="{FE02170F-A3AA-4D51-8BE1-C32A39038927}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.753671" DurationMax="0.982292"/>

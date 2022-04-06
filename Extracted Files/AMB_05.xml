@@ -1,179 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192639" GUID="{85912F6F-6EC4-41BE-9EC5-389ADC83A924}" Language="SFX">
+		<SoundBank Id="2199192639" GUID="{85912F6F-6EC4-41BE-9EC5-389ADC83A924}" Language="SFX" Hash="2736681038">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_05</ObjectPath>
 			<ShortName>AMB_05</ShortName>
 			<Path>AMB_05.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3890550838" Name="AudioEvent_AM_Suburbs_House" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_Suburbs_House" GUID="{A9A77BD4-0F62-4A12-A982-7458B487C734}" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="47937973" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="153392835" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="789956059" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="991496044" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="1040845007" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_mainhouse_creak_01_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3779853239" Name="AudioEvent_REV_int_05_suburbs_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AM_Reverb_05_Suburbs\AudioEvent_REV_int_05_suburbs_MediumRoom" GUID="{9E1A59A4-F82E-4AF5-931A-A86BCAD04A9A}"/>
-					</ActionPostEvent>
-					<ActionSetState>
-						<ActionSetStateEntry Id="2591748574" Name="AudioStateIndoor_05_Suburbs_House_MediumRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateIndoor_05_Suburbs\AudioStateIndoor_05_Suburbs_House_MediumRoom" GUID="{B0D044D1-A5AD-45E0-B676-2A6072B5258F}"/>
-						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="1844392638" Name="AudioEvent_AM_Suburbs_House_Basement" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_Suburbs_House_Basement" GUID="{D8381627-4FE4-4E82-88D3-707A466BB434}" DurationType="Infinite">
-					<ReferencedStreamedFiles>
-						<File Id="80768791" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="221962473" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="313169381" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="402813766" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="949972497" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1030383367" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="279334501" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="437223631" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="723848118" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="792304373" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_drama_woosh_02_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="984236243" Name="AudioEvent_REV_int_05_suburbs_House_Basement" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AM_Reverb_05_Suburbs\AudioEvent_REV_int_05_suburbs_House_Basement" GUID="{B66347B5-B5F2-40D5-A016-7AA2E892085B}"/>
-					</ActionPostEvent>
-					<ActionSetState>
-						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
-						<ActionSetStateEntry Id="2828341517" Name="AudioStateIndoor_05_Suburbs_House_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateIndoor_05_Suburbs\AudioStateIndoor_05_Suburbs_House_Basement" GUID="{EF9003F9-3E05-432D-8FB9-F1D115EFFB78}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1350592674" Name="AudioEvent_AM_Suburbs_Neighborhood" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_Suburbs_Neighborhood" GUID="{C52457FD-A717-4411-A5BF-54A1018972D2}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
-					<ReferencedStreamedFiles>
-						<File Id="26153179" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="64158961" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="366260417" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="403304136" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="497599597" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="786198187" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="810684229" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1026653124" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1055486656" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="128444358" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="152048782" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="283170588" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="632934752" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="737206276" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="847753901" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
-				</Event>
 				<Event Id="3778454722" Name="AudioEvent_AM_T05_Basement_Killer" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AudioEvent_AM_T05_Basement_Killer" GUID="{3DFA0836-88BD-4386-B787-8D2E58BD5C4B}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815450" Language="SFX">
@@ -504,445 +343,6 @@
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="4215300560" Name="AudioEvent_AM_T05_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Fence_NoTree" GUID="{432E323C-ABBC-48FC-AB90-D1D577B637FB}" DurationType="Infinite">
-					<ReferencedStreamedFiles>
-						<File Id="26153179" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="35815450" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="51394175" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_10.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="64158961" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="77267081" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="207364409" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="366260417" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="403304136" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="497599597" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="538900690" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="550987102" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="567259558" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="601732868" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="689674156" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="786198187" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="810684229" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="905010886" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="1026653124" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1055486656" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="182076669" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="245011168" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="651608340" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="837085540" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="924554964" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3082858941" Name="AudioEvent_AM_T05_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Fence_WithTree" GUID="{63AB9019-0DCD-42B6-A8EC-17F15745BEB3}" DurationType="Infinite">
-					<ReferencedStreamedFiles>
-						<File Id="26153179" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="35815450" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="51394175" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_10.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="64158961" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="77267081" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="207364409" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="366260417" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="403304136" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="497599597" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="538900690" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="550987102" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="567259558" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="601732868" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="689674156" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="786198187" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="810684229" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="905010886" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="1026653124" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1055486656" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="182076669" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="245011168" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="651608340" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="837085540" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="924554964" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_04_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="210557983" Name="AudioEvent_AM_T05_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Forest_High" GUID="{F6EF298D-FC06-4C34-B6DA-6C1F2E6367C9}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
-					<ReferencedStreamedFiles>
-						<File Id="26153179" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="64158961" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="366260417" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="403304136" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="497599597" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="786198187" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="810684229" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1026653124" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1055486656" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="128444358" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="152048782" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="283170588" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="632934752" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="737206276" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="847753901" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="424850315" Name="AudioEvent_AM_T05_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Forest_Low" GUID="{D9FF39FE-CE8B-4909-A1BC-0DF231951EC9}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
-					<ReferencedStreamedFiles>
-						<File Id="26153179" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="64158961" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="366260417" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="403304136" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="497599597" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="786198187" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="810684229" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1026653124" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1055486656" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="128444358" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="152048782" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="283170588" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="632934752" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="737206276" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="847753901" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="4283452435" Name="AudioEvent_AM_T05_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Forest_Med" GUID="{4C5BD98B-5615-4737-A7F5-895AC9B50542}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
-					<ReferencedStreamedFiles>
-						<File Id="26153179" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="64158961" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="366260417" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="403304136" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="497599597" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="786198187" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="810684229" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1026653124" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1055486656" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_wind_04_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="128444358" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="152048782" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="283170588" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="632934752" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="737206276" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="847753901" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_dog_05_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-					<AuxBusSends>
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
@@ -1562,15 +962,6 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3587937017" Name="AudioEvent_AM_T05_Shack" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Shack" GUID="{CD93FF83-3AD8-4C14-99B9-85EEF3E97A3E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="4127894533" Name="AudioEvent_REV_int_05_suburbs_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AM_Reverb_05_Suburbs\AudioEvent_REV_int_05_suburbs_SmallRoom" GUID="{01D0E164-CC01-4544-B55E-A5D34B0CA60B}"/>
-					</ActionPostEvent>
-					<ActionSetState>
-						<ActionSetStateEntry Id="1482700619" Name="AudioStateIndoor_05_Suburbs_Shed" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateIndoor_05_Suburbs\AudioStateIndoor_05_Suburbs_Shed" GUID="{F8F184DA-8646-492E-970E-58107A1048FD}"/>
-						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
-					</ActionSetState>
-				</Event>
 				<Event Id="1440251869" Name="AudioEvent_AM_T05_Shed" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AudioEvent_AM_T05_Shed" GUID="{12114FF2-306A-40F2-A89A-BB721BB278D1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="4127894533" Name="AudioEvent_REV_int_05_suburbs_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AM_Reverb_05_Suburbs\AudioEvent_REV_int_05_suburbs_SmallRoom" GUID="{01D0E164-CC01-4544-B55E-A5D34B0CA60B}"/>
@@ -1855,19 +1246,24 @@
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{F4926E01-5CE3-4C44-AC2D-2CEAC2BC4B67}">
 							<Media>
-								<File Id="570577353"/>
 								<File Id="151287443"/>
+								<File Id="570577353"/>
 								<File Id="751415499"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{75E1FD45-C50C-4A55-BD91-A15A4B6B0091}">
+						<SwitchContainer SwitchValue="{F640C906-0989-45C5-BA93-90DD41477B92}">
 							<Media>
-								<File Id="182509006"/>
+								<File Id="104906279"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{EF9003F9-3E05-432D-8FB9-F1D115EFFB78}">
+						<SwitchContainer SwitchValue="{F48E8F19-8353-4EE6-943B-07A020156E93}">
 							<Media>
-								<File Id="483844140"/>
+								<File Id="777130480"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E5227F22-701D-4E27-9E6B-606D9F40F685}">
+							<Media>
+								<File Id="721137456"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{6CA63C2A-F733-4CD4-BE28-4B33AA273453}">
@@ -1877,29 +1273,9 @@
 								<File Id="751415499"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{EA9B8ACC-DBAB-4528-8343-7B5D3ADBDE08}">
+						<SwitchContainer SwitchValue="{75E1FD45-C50C-4A55-BD91-A15A4B6B0091}">
 							<Media>
-								<File Id="986083133"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{3C37FDAD-2EBE-4079-9FF0-3A1DE4838DA1}">
-							<Media>
-								<File Id="999337029"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{89E59EFA-2186-4E25-8235-2EA38AF25B57}">
-							<Media>
-								<File Id="733329514"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{3915C6CD-FB5D-4698-913F-6816AAA4AA9E}">
-							<Media>
-								<File Id="656370606"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{F640C906-0989-45C5-BA93-90DD41477B92}">
-							<Media>
-								<File Id="104906279"/>
+								<File Id="182509006"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BDA1B44F-96DD-46E0-9460-247D3F41EE1D}">
@@ -1907,9 +1283,29 @@
 								<File Id="1016837089"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{0899CBFC-A7ED-4789-A665-C4E99C1B735A}">
+						<SwitchContainer SwitchValue="{21EDCD6F-F231-4742-995A-2CA4D900199F}">
 							<Media>
-								<File Id="807087586"/>
+								<File Id="748945835"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4B31C187-1EB0-4D39-9663-5CB408C15AE7}">
+							<Media>
+								<File Id="182509006"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3C37FDAD-2EBE-4079-9FF0-3A1DE4838DA1}">
+							<Media>
+								<File Id="999337029"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EA9B8ACC-DBAB-4528-8343-7B5D3ADBDE08}">
+							<Media>
+								<File Id="986083133"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3915C6CD-FB5D-4698-913F-6816AAA4AA9E}">
+							<Media>
+								<File Id="656370606"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{B0D044D1-A5AD-45E0-B676-2A6072B5258F}">
@@ -1917,9 +1313,9 @@
 								<File Id="476327726"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{F48E8F19-8353-4EE6-943B-07A020156E93}">
+						<SwitchContainer SwitchValue="{F8F184DA-8646-492E-970E-58107A1048FD}">
 							<Media>
-								<File Id="777130480"/>
+								<File Id="182509006"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{69B17BE7-ED5E-474A-BA01-06691D9FB912}">
@@ -1927,14 +1323,19 @@
 								<File Id="615407083"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{21EDCD6F-F231-4742-995A-2CA4D900199F}">
+						<SwitchContainer SwitchValue="{EF9003F9-3E05-432D-8FB9-F1D115EFFB78}">
 							<Media>
-								<File Id="748945835"/>
+								<File Id="483844140"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{E5227F22-701D-4E27-9E6B-606D9F40F685}">
+						<SwitchContainer SwitchValue="{89E59EFA-2186-4E25-8235-2EA38AF25B57}">
 							<Media>
-								<File Id="721137456"/>
+								<File Id="733329514"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0899CBFC-A7ED-4789-A665-C4E99C1B735A}">
+							<Media>
+								<File Id="807087586"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{0CF5B866-7868-4627-843A-D428BCF1D66A}">
@@ -1942,9 +1343,20 @@
 								<File Id="168777433"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6A5856C7-A221-49A3-9AD6-F8953D35826B}">
+							<Media>
+								<File Id="168777433"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{63790BDA-B307-44FC-9A0F-98DD0EC01FAC}">
 							<Media>
 								<File Id="131164469"/>
+								<File Id="168777433"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5C8DB3DB-32FD-406B-9A63-456C55223E13}">
+							<Media>
+								<File Id="168777433"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2070,8 +1482,8 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2269891649" Name="AudioEvent_T05_Emitter_Police" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_EMITTER\AudioEvent_T05_Emitter_Police" GUID="{AF06823A-8211-481B-9C1A-3F2AF4FD4C92}" MaxAttenuation="850.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+				<Event Id="2269891649" Name="AudioEvent_T05_Emitter_Police" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_EMITTER\AudioEvent_T05_Emitter_Police" GUID="{AF06823A-8211-481B-9C1A-3F2AF4FD4C92}" MaxAttenuation="1700.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
 						<File Id="241180774" Language="SFX">
 							<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_02_7FA8D501.wem</Path>
@@ -2088,7 +1500,7 @@
 							<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_04_7FA8D501.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="518668028" Name="AudioEvent_T05_Emitter_SingleCricket" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_EMITTER\AudioEvent_T05_Emitter_SingleCricket" GUID="{F6B7978C-1E91-4A58-A050-6C6685E46C41}" MaxAttenuation="1200.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -2131,10 +1543,6 @@
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_tile_house_largeroom_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_tile_house_largeroom_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="241180774" Language="SFX">
-					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="266118729" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_weather_wind_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_weather_wind_03_256CDB0F.wem</Path>
@@ -2142,10 +1550,6 @@
 				<File Id="368566478" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_theme_quad_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_theme_quad_03_256CDB0F.wem</Path>
-				</File>
-				<File Id="461898868" Language="SFX">
-					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_03.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="476327726" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_tile_house_mediumroom_01.wav</ShortName>
@@ -2191,14 +1595,6 @@
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_tile_strodehouse_smallroom_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_tile_strodehouse_smallroom_01_94426D0A.wem</Path>
 				</File>
-				<File Id="876218173" Language="SFX">
-					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="966405381" Language="SFX">
-					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_04.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="986083133" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_tile_myershouse_largeroom_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_tile_myershouse_largeroom_01_256CDB0F.wem</Path>
@@ -2237,6 +1633,10 @@
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_playground_roundabout_05.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_playground_roundabout_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="241180774" Language="SFX">
+					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="310115283" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_playground_roundabout_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_playground_roundabout_03_7FA8D501.wem</Path>
@@ -2252,6 +1652,10 @@
 				<File Id="456283640" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_leavestrail_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_leavestrail_02_256CDB0F.wem</Path>
+				</File>
+				<File Id="461898868" Language="SFX">
+					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="468825832" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_rdm_insectzapper_01.wav</ShortName>
@@ -2285,9 +1689,17 @@
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_rdm_insectzapper_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_rdm_insectzapper_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="876218173" Language="SFX">
+					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="889718092" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_freezer_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_freezer_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="966405381" Language="SFX">
+					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_04.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T05_Suburb\am_t05_suburb_emt_policeradio_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="1017515852" Language="SFX">
 					<ShortName>Ambience\Themes\T05_Suburb\am_t05_suburbs_emt_insectzapper_01.wav</ShortName>

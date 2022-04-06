@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970218" GUID="{0A4332AD-9D23-41E3-A0F3-21B0E042F5B2}" Language="SFX">
+		<SoundBank Id="2215970218" GUID="{0A4332AD-9D23-41E3-A0F3-21B0E042F5B2}" Language="SFX" Hash="769867585">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_17</ObjectPath>
 			<ShortName>AMB_17</ShortName>
 			<Path>AMB_17.bnk</Path>
 			<IncludedEvents>
 				<Event Id="219383344" Name="AudioEvent_AM_Intro_17_Eclipse" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AudioEvent_AM_Intro_17_Eclipse" GUID="{9608022A-BA7A-489D-AF9A-4A72692D2DC9}" DurationType="OneShot" DurationMin="7.333938" DurationMax="7.333938">
 					<ExcludedMemoryFiles>
-						<File Id="504561620" Language="SFX">
-							<ShortName>am_t17_eclipse_intro.wav</ShortName>
-							<Path>SFX\am_t17_eclipse_intro_7FA8D501.wem</Path>
+						<File Id="536256398" Language="SFX">
+							<ShortName>Ambience\Intros\am_t17_eclipse_intro.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t17_eclipse_intro_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -2785,21 +2785,12 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{3D72389F-8576-4473-BA32-97D15B44E569}">
-							<Media>
-								<File Id="513139319"/>
-								<File Id="599414506"/>
-								<File Id="256641092"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{789694AD-4781-4DEB-8F28-0EAD802F4ED4}">
-							<Media>
-								<File Id="599414506"/>
-								<File Id="256641092"/>
-								<File Id="513139319"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{733CB403-93E5-4D7D-B467-14F72A17B821}">
+							<Media>
+								<File Id="797414846"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2BE29629-992F-46CE-B669-EA3B7E8458BB}">
 							<Media>
 								<File Id="797414846"/>
 							</Media>
@@ -2809,19 +2800,22 @@
 								<File Id="988438301"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{A32E4780-2CC5-43DC-8521-C41FB4B2D5A0}">
-							<Media>
-								<File Id="175044898"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5C4F707D-F2FC-4265-B887-12E3312A01CF}">
 							<Media>
 								<File Id="334168479"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{27111CE2-39B8-4368-9143-E6A221911956}">
+						<SwitchContainer SwitchValue="{A32E4780-2CC5-43DC-8521-C41FB4B2D5A0}">
 							<Media>
-								<File Id="757139910"/>
+								<File Id="175044898"/>
+								<File Id="307201512"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D72389F-8576-4473-BA32-97D15B44E569}">
+							<Media>
+								<File Id="256641092"/>
+								<File Id="513139319"/>
+								<File Id="599414506"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{A7B47DA6-6D3C-40D7-82E4-0E6AD8286EDE}">
@@ -2829,12 +2823,34 @@
 								<File Id="43388117"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{A32E4780-2CC5-43DC-8521-C41FB4B2D5A0}">
+						<SwitchContainer SwitchValue="{789694AD-4781-4DEB-8F28-0EAD802F4ED4}">
 							<Media>
-								<File Id="307201512"/>
+								<File Id="256641092"/>
+								<File Id="513139319"/>
+								<File Id="599414506"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FD85F1DE-88D1-4679-A705-4FCC353EF382}">
+							<Media>
+								<File Id="797414846"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A2D6A3DF-BA9E-4425-84D0-F4E5518EB571}">
+							<Media>
+								<File Id="175044898"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{27111CE2-39B8-4368-9143-E6A221911956}">
+							<Media>
+								<File Id="757139910"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C6908D2F-3E80-464A-A2AE-2F93F9D79FC1}">
+							<Media>
+								<File Id="293834556"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32150174-574F-45AB-A10D-C3A767638116}">
 							<Media>
 								<File Id="293834556"/>
 							</Media>
@@ -3357,10 +3373,6 @@
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_zombiehittingwindow_grunts_09.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_zombiehittingwindow_grunts_09_7FA8D501.wem</Path>
 				</File>
-				<File Id="504561620" Language="SFX">
-					<ShortName>am_t17_eclipse_intro.wav</ShortName>
-					<Path>SFX\am_t17_eclipse_intro_7FA8D501.wem</Path>
-				</File>
 				<File Id="511361060" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowmainhall_metal_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowmainhall_metal_03_7FA8D501.wem</Path>
@@ -3380,6 +3392,10 @@
 				<File Id="535209117" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_mainhall_creak_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_mainhall_creak_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="536256398" Language="SFX">
+					<ShortName>Ambience\Intros\am_t17_eclipse_intro.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t17_eclipse_intro_7FA8D501.wem</Path>
 				</File>
 				<File Id="537876366" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_creak_06.wav</ShortName>

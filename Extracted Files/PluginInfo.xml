@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PluginInfo Project="DeadByDaylight_2019_2_5_Kepler" Platform="Windows" BasePlatform="Windows">
+<PluginInfo Project="DeadByDaylight_2021_1_5_Libra" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
-		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator"/>
-		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
-		<Plugin Name="Wwise Delay" ID="6946819" DLL="AkDelay"/>
-		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor"/>
-		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter"/>
-		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
-		<Plugin Name="Wwise Guitar Distortion" ID="8257539" DLL="AkGuitarDistortion"/>
-		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL"/>
-		<Plugin Name="Wwise Tremolo" ID="8585219" DLL="AkTremolo"/>
-		<Plugin Name="Wwise Stereo Delay" ID="8847363" DLL="AkStereoDelay"/>
-		<Plugin Name="Wwise Pitch Shifter" ID="8912899" DLL="AkPitchShifter"/>
-		<Plugin Name="Wwise Harmonizer" ID="9043971" DLL="AkHarmonizer"/>
-		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
-		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
+		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
+		<Plugin Name="Wwise Delay" ID="6946819" DLL="AkDelay" StaticLib="AkDelayFX"/>
+		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor" StaticLib="AkCompressorFX"/>
+		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter" StaticLib="AkPeakLimiterFX"/>
+		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
+		<Plugin Name="Wwise Guitar Distortion" ID="8257539" DLL="AkGuitarDistortion" StaticLib="AkGuitarDistortionFX"/>
+		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL" StaticLib="AkMeterFX"/>
+		<Plugin Name="Wwise Tremolo" ID="8585219" DLL="AkTremolo" StaticLib="AkTremoloFX"/>
+		<Plugin Name="Wwise Stereo Delay" ID="8847363" DLL="AkStereoDelay" StaticLib="AkStereoDelayFX"/>
+		<Plugin Name="Wwise Pitch Shifter" ID="8912899" DLL="AkPitchShifter" StaticLib="AkPitchShifterFX"/>
+		<Plugin Name="Wwise Harmonizer" ID="9043971" DLL="AkHarmonizer" StaticLib="AkHarmonizerFX"/>
+		<Plugin Name="System" ID="11403271"/>
+		<Plugin Name="No Output" ID="11862023"/>
+		<Plugin Name="Wwise Motion" ID="33226759" DLL="AkMotion" StaticLib="AkMotionSink"/>
 	</Plugins>
 </PluginInfo>

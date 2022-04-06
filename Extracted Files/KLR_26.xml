@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560509" GUID="{25BF88DE-7FAF-4609-966F-201E526FD098}" Language="SFX">
+		<SoundBank Id="1457560509" GUID="{25BF88DE-7FAF-4609-966F-201E526FD098}" Language="SFX" Hash="77804735">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_26</ObjectPath>
 			<ShortName>KLR_26</ShortName>
 			<Path>KLR_26.bnk</Path>
@@ -69,7 +69,20 @@
 				<Event Id="341463413" Name="AudioEvent_K26_WPN_Cooldown_Hit" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_WEAPON\AudioEvent_K26_WPN_Cooldown_Hit" GUID="{01EEAE3F-7540-4BFC-8C0A-8932FB61741D}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.972000" DurationMax="4.200000"/>
 				<Event Id="914970698" Name="AudioEvent_K26_WPN_Cooldown_Miss" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_WEAPON\AudioEvent_K26_WPN_Cooldown_Miss" GUID="{3FCF2758-8DE9-4DF9-963D-EE2CDACE76FC}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.633333" DurationMax="1.916000"/>
 				<Event Id="3878916677" Name="AudioEvent_K26_WPN_Default_Ink_Arm" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_WEAPON\AudioEvent_K26_WPN_Default_Ink_Arm" GUID="{A5AF3EB5-A487-45EA-BC51-8F515B1C8AF9}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.789271" DurationMax="1.371646"/>
-				<Event Id="2538371229" Name="AudioEvent_K26_WPN_Default_Ink_Attack" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_WEAPON\AudioEvent_K26_WPN_Default_Ink_Attack" GUID="{954DE9AD-D7F0-4E39-B308-13F35C4BD006}" DurationType="OneShot" DurationMin="2.844271" DurationMax="3.662812"/>
+				<Event Id="2538371229" Name="AudioEvent_K26_WPN_Default_Ink_Attack" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_WEAPON\AudioEvent_K26_WPN_Default_Ink_Attack" GUID="{954DE9AD-D7F0-4E39-B308-13F35C4BD006}" DurationType="OneShot" DurationMin="2.844271" DurationMax="3.662812">
+					<DefaultSwitchValue>{41FB00D7-7F8A-4DBD-BBB6-B4734E5E6597}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C98A583A-7B78-4309-9B9F-76C976EC2919}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F481B1CE-AC7C-42E8-B0C2-841ECFE95AF6}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41FB00D7-7F8A-4DBD-BBB6-B4734E5E6597}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3464726103" Name="AudioEvent_K26_WPN_Default_Ink_Impact" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_WEAPON\AudioEvent_K26_WPN_Default_Ink_Impact" GUID="{BC2E1227-47C3-4EB0-961C-E0A82AD8505E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.737333" DurationMax="0.941333"/>
 				<Event Id="1628576742" Name="AudioEvent_K26_WPN_LookAt" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_WEAPON\AudioEvent_K26_WPN_LookAt" GUID="{0CFCCFE4-47B7-48BE-B7AF-4148EE71603C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.380664" DurationMax="3.380664"/>
 			</IncludedEvents>

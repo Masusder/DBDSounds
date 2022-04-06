@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2876380527">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -16,12 +16,14 @@
 				<AuxBus Id="229891603" Name="MENU_SVR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_SURVIVOR\MENU_SVR_00_COMMON" GUID="{7E1358B8-E1A5-483B-B604-95A9AABE605C}"/>
 				<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 				<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+				<AuxBus Id="408711820" Name="PWR_K27_WPN_DuckingBoost" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\POWER\PWR_K27_WPN_DuckingBoost" GUID="{64B8AA5B-E22D-4654-9C63-3767275790A0}"/>
 				<AuxBus Id="556738536" Name="PWR_K26_CrowAttack" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\POWER\PWR_K26_CrowAttack" GUID="{F54D465E-3F50-42AA-BC79-0FE70C95F56C}"/>
 				<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 				<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
 				<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
 				<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 				<AuxBus Id="2688912796" Name="K15_Mali_State_Effect" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\CHARACTER\KILLER\K15_Mali_State_Effect" GUID="{5A39BDDB-3F3B-43D8-B470-918501636814}"/>
+				<AuxBus Id="2998194842" Name="Motion_Aux_OBJECTS_PLANTS" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MOTION_BUS\Motion_Aux_OBJECTS_PLANTS" GUID="{6F3F16CC-7E9C-4153-B6BA-89432605458B}"/>
 				<AuxBus Id="3659677231" Name="K15_Mali_Grunt_Effect" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\CHARACTER\KILLER\K15_Mali_Grunt_Effect" GUID="{8B595F2A-3AFE-43E1-85E7-24FE1DEFA2CD}"/>
 			</IncludedAuxBusses>
 			<GameParameters>
@@ -47,6 +49,7 @@
 				<GameParameter Id="2189304669" Name="AudioRTPC_Effect_Common_Focus" ObjectPath="\Game Parameters\RTPC_EFFECT\AudioRTPC_Effect_Common_Focus" GUID="{F2C2BAAA-20A7-4A65-B4BA-A2AD73ECED55}"/>
 				<GameParameter Id="2258770673" Name="AudioRTPC_VOL_KLR_Chase" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_Chase" GUID="{7C5BFA1D-10A5-40DA-BDA2-BF19B609D4E6}"/>
 				<GameParameter Id="2292444427" Name="AudioRTPC_Intro_Menu" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Intro_Menu" GUID="{DCF28482-83FF-45BF-9878-B8CB05B3AEEE}"/>
+				<GameParameter Id="2429403369" Name="AudioRTPC_VOL_StartGame" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_StartGame" GUID="{77D413F5-0415-4691-9260-A1323ADCF0BF}"/>
 				<GameParameter Id="2539975050" Name="AudioRTPC_Effect_Common_BubbleEffect" ObjectPath="\Game Parameters\RTPC_EFFECT\AudioRTPC_Effect_Common_BubbleEffect" GUID="{24B39414-2106-402C-BB44-A6B4FCB82930}"/>
 				<GameParameter Id="2549342427" Name="AudioRTPC_K23_SRV_FocusState" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K23_Comet\AudioRTPC_K23_SRV_FocusState" GUID="{1CF1B5AF-E2A4-4996-A686-B3A99B23C98A}"/>
 				<GameParameter Id="2565625757" Name="AudioRTPC_Crows_AggravationLevel" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_Crows_AggravationLevel" GUID="{BFF90468-FEE1-40C1-A5DB-03F6DE529244}"/>

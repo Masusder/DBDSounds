@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1879568873" GUID="{8EBB366A-D49D-47A8-90F1-DFC5B2476FA7}" Language="SFX">
+		<SoundBank Id="1879568873" GUID="{8EBB366A-D49D-47A8-90F1-DFC5B2476FA7}" Language="SFX" Hash="4074010025">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Hatch</ObjectPath>
 			<ShortName>Hatch</ShortName>
 			<Path>Hatch.bnk</Path>
 			<IncludedEvents>
+				<Event Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<ExcludedMemoryFiles>
+						<File Id="981772705" Language="SFX">
+							<ShortName>Haptic\sfx_haptic_killer_kick_metal.wav</ShortName>
+							<Path>SFX\Haptic\sfx_haptic_killer_kick_metal_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="604822105" Name="AudioEvent_Hatch_Close" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Hatch\AudioEvent_Hatch_Close" GUID="{BCF7A03B-0A65-400A-B61E-7B29E7F4BFAF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.770745" DurationMax="0.865132">
 					<ExcludedMemoryFiles>
 						<File Id="513756691" Language="SFX">
@@ -76,6 +84,9 @@
 							<Path>SFX\Objects\Obj_Gameplay\Hatch\sfx_hatch_close_impact_03_67368C31.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="2562983528" Name="AudioEvent_Hatch_Loop_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Hatch\AudioEvent_Hatch_Loop_Start" GUID="{EF0B0A45-5325-4423-8882-5727C4F9A7F3}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>

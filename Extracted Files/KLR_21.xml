@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560506" GUID="{1FA2F8A1-27C6-4ACC-8604-E3AD17F9DC1E}" Language="SFX">
+		<SoundBank Id="1457560506" GUID="{1FA2F8A1-27C6-4ACC-8604-E3AD17F9DC1E}" Language="SFX" Hash="1969120697">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_21</ObjectPath>
 			<ShortName>KLR_21</ShortName>
 			<Path>KLR_21.bnk</Path>
@@ -62,11 +62,79 @@
 				<Event Id="3563332629" Name="AudioEvent_K21_SPEC_Syringe_Bounce" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_SPECIFIC\AudioEvent_K21_SPEC_Syringe_Bounce" GUID="{392A8257-AA0C-4DB9-9C23-8A1489206FA4}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.175102" DurationMax="0.224127"/>
 				<Event Id="3543488167" Name="AudioEvent_K21_SPEC_Syringe_Grab" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_SPECIFIC\AudioEvent_K21_SPEC_Syringe_Grab" GUID="{BE3EEF40-A178-46E5-A3D9-15461C1632FB}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.594667" DurationMax="0.745862"/>
 				<Event Id="3318643684" Name="AudioEvent_K21_SPEC_Syringe_Injection" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_SPECIFIC\AudioEvent_K21_SPEC_Syringe_Injection" GUID="{A2889065-4B66-4EF6-89BF-E4965F12F754}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.222509" DurationMax="2.643024"/>
-				<Event Id="2961801322" Name="AudioEvent_K21_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_STATUS\AudioEvent_K21_Status_Start" GUID="{14B53C6C-769E-4EF6-B44C-A43FC1D9D730}" MaxAttenuation="2500.000000" DurationType="Infinite"/>
+				<Event Id="2961801322" Name="AudioEvent_K21_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_STATUS\AudioEvent_K21_Status_Start" GUID="{14B53C6C-769E-4EF6-B44C-A43FC1D9D730}" MaxAttenuation="2500.000000" DurationType="Infinite">
+					<DefaultSwitchValue>{965881D7-B79B-4E1A-84CA-3422D7CB19F6}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{965881D7-B79B-4E1A-84CA-3422D7CB19F6}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3935788627" Name="AudioEvent_K21_WPN_Default_Cane_Arm" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_WEAPON\AudioEvent_K21_WPN_Default_Cane_Arm" GUID="{AD91F1E2-3D9B-4D59-BBF5-F54813DEC2E4}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="2162817483" Name="AudioEvent_K21_WPN_Default_Cane_Attack" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_WEAPON\AudioEvent_K21_WPN_Default_Cane_Attack" GUID="{FABF3324-2E41-4DBD-BB93-12BF86CA41CA}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.471937" DurationMax="0.529732"/>
 				<Event Id="2192679286" Name="AudioEvent_K21_WPN_Default_Cane_Clean" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_WEAPON\AudioEvent_K21_WPN_Default_Cane_Clean" GUID="{34E90FEF-9C71-4F19-878D-06DDE04AB2FC}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.577333" DurationMax="0.772000"/>
-				<Event Id="3109996777" Name="AudioEvent_K21_WPN_Default_Cane_Impact" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_WEAPON\AudioEvent_K21_WPN_Default_Cane_Impact" GUID="{F6A6E8E6-A70A-4EB2-BBBC-62FA9A5E1222}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.388000" DurationMax="1.000000"/>
+				<Event Id="3109996777" Name="AudioEvent_K21_WPN_Default_Cane_Impact" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_WEAPON\AudioEvent_K21_WPN_Default_Cane_Impact" GUID="{F6A6E8E6-A70A-4EB2-BBBC-62FA9A5E1222}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.388000" DurationMax="1.000000">
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{46A7CC2C-1CCD-4037-9FB7-52AD43498872}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{220AA47D-7E65-4864-A865-719DAC7D0078}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{646F7389-CAE6-4F36-AEB3-BA5883FFBC7A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{425080A3-52A3-4900-B570-E5014B94C732}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{131534FE-9431-446B-854D-1E81BA3C77E7}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1082788826" Name="AudioEvent_K21_WPN_Default_Cane_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K21_Yemen\K21_WEAPON\AudioEvent_K21_WPN_Default_Cane_PullOut" GUID="{587BFA4D-191C-402A-971E-D5B7B25DC94D}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>

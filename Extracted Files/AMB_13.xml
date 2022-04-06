@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970222" GUID="{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}" Language="SFX">
+		<SoundBank Id="2215970222" GUID="{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}" Language="SFX" Hash="2508897962">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_13</ObjectPath>
 			<ShortName>AMB_13</ShortName>
 			<Path>AMB_13.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}" DurationType="OneShot" DurationMin="7.707292" DurationMax="7.707292">
 					<ExcludedMemoryFiles>
-						<File Id="44162469" Language="SFX">
-							<ShortName>am_t13_kenya_intro.wav</ShortName>
-							<Path>SFX\am_t13_kenya_intro_7FA8D501.wem</Path>
+						<File Id="247603368" Language="SFX">
+							<ShortName>Ambience\Intros\am_t13_kenya_intro.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t13_kenya_intro_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -450,18 +450,6 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{C0973F5E-A510-4B1E-9A8D-35C7280E3CFB}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{CD04ADD2-54DB-4C07-A31A-535C11E2ED89}">
-							<Media>
-								<File Id="620243574"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{4F8BD68D-09C3-4875-A34A-E83411222F6D}">
-							<Media>
-								<File Id="1028317661"/>
-								<File Id="1065774881"/>
-								<File Id="983680486"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{CB8D952B-8AC6-489B-AC30-1BE3C99BA12B}">
 							<Media>
 								<File Id="1004035937"/>
@@ -469,12 +457,34 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D994047D-DFF3-420C-85EF-928E3B78A026}">
 							<Media>
+								<File Id="983680486"/>
 								<File Id="1028317661"/>
 								<File Id="1065774881"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4F8BD68D-09C3-4875-A34A-E83411222F6D}">
+							<Media>
 								<File Id="983680486"/>
+								<File Id="1028317661"/>
+								<File Id="1065774881"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CD04ADD2-54DB-4C07-A31A-535C11E2ED89}">
+							<Media>
+								<File Id="620243574"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A329C1DB-6719-419E-A8AA-D46A4D41BE0D}">
+							<Media>
+								<File Id="1004035937"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C0973F5E-A510-4B1E-9A8D-35C7280E3CFB}">
+							<Media>
+								<File Id="253194471"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2619F9F9-5180-4439-852A-4FD85E11FCED}">
 							<Media>
 								<File Id="253194471"/>
 							</Media>
@@ -521,9 +531,9 @@
 				</File>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="44162469" Language="SFX">
-					<ShortName>am_t13_kenya_intro.wav</ShortName>
-					<Path>SFX\am_t13_kenya_intro_7FA8D501.wem</Path>
+				<File Id="247603368" Language="SFX">
+					<ShortName>Ambience\Intros\am_t13_kenya_intro.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t13_kenya_intro_7FA8D501.wem</Path>
 				</File>
 				<File Id="983680486" Language="SFX">
 					<ShortName>Ambience\Themes\T13_Kenya\am_t13_kenya_tile_killerbasement_background_01.wav</ShortName>

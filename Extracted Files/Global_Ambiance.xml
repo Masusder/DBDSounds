@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX">
+		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX" Hash="1368932785">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Ambiance</ObjectPath>
 			<ShortName>Global_Ambiance</ShortName>
 			<Path>Global_Ambiance.bnk</Path>
@@ -993,30 +993,6 @@
 						<ActionSetStateEntry Id="4150973728" Name="AudioStateIndoor_14_Qatar_Tank" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_14_Qatar\AudioStateIndoor_14_Qatar\AudioStateIndoor_14_Qatar_Tank" GUID="{3845974E-D125-45F6-BBDC-3E8A644927FF}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3890550838" Name="AudioEvent_AM_Suburbs_House" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_Suburbs_House" GUID="{A9A77BD4-0F62-4A12-A982-7458B487C734}" DurationType="Infinite">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3779853239" Name="AudioEvent_REV_int_05_suburbs_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AM_Reverb_05_Suburbs\AudioEvent_REV_int_05_suburbs_MediumRoom" GUID="{9E1A59A4-F82E-4AF5-931A-A86BCAD04A9A}"/>
-					</ActionPostEvent>
-					<ActionSetState>
-						<ActionSetStateEntry Id="2591748574" Name="AudioStateIndoor_05_Suburbs_House_MediumRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateIndoor_05_Suburbs\AudioStateIndoor_05_Suburbs_House_MediumRoom" GUID="{B0D044D1-A5AD-45E0-B676-2A6072B5258F}"/>
-						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1844392638" Name="AudioEvent_AM_Suburbs_House_Basement" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_Suburbs_House_Basement" GUID="{D8381627-4FE4-4E82-88D3-707A466BB434}" DurationType="Infinite">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="984236243" Name="AudioEvent_REV_int_05_suburbs_House_Basement" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AM_Reverb_05_Suburbs\AudioEvent_REV_int_05_suburbs_House_Basement" GUID="{B66347B5-B5F2-40D5-A016-7AA2E892085B}"/>
-					</ActionPostEvent>
-					<ActionSetState>
-						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
-						<ActionSetStateEntry Id="2828341517" Name="AudioStateIndoor_05_Suburbs_House_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateIndoor_05_Suburbs\AudioStateIndoor_05_Suburbs_House_Basement" GUID="{EF9003F9-3E05-432D-8FB9-F1D115EFFB78}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1350592674" Name="AudioEvent_AM_Suburbs_Neighborhood" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_Suburbs_Neighborhood" GUID="{C52457FD-A717-4411-A5BF-54A1018972D2}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-				</Event>
 				<Event Id="3100249721" Name="AudioEvent_AM_Swamp_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_Swamp_BigCabin" GUID="{F33A9164-503A-4522-9C50-4BFB73D087BD}" DurationType="Infinite">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="2918180113" Name="AudioEvent_Rev_Int_06_Swamp_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_BigCabin" GUID="{334C8F2A-88F7-4DBA-B796-F3FE0B55723B}"/>
@@ -1436,36 +1412,6 @@
 					</ActionSetState>
 				</Event>
 				<Event Id="4190386778" Name="AudioEvent_AM_T05_Fence" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\AMB_T05_TILE\AudioEvent_AM_T05_Fence" GUID="{D7A6D1A0-E62D-4A8B-B071-B07A41B0423E}" DurationType="Infinite">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="4215300560" Name="AudioEvent_AM_T05_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Fence_NoTree" GUID="{432E323C-ABBC-48FC-AB90-D1D577B637FB}" DurationType="Infinite">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="3082858941" Name="AudioEvent_AM_T05_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Fence_WithTree" GUID="{63AB9019-0DCD-42B6-A8EC-17F15745BEB3}" DurationType="Infinite">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="210557983" Name="AudioEvent_AM_T05_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Forest_High" GUID="{F6EF298D-FC06-4C34-B6DA-6C1F2E6367C9}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="424850315" Name="AudioEvent_AM_T05_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Forest_Low" GUID="{D9FF39FE-CE8B-4909-A1BC-0DF231951EC9}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
-					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="4283452435" Name="AudioEvent_AM_T05_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_T05_Suburbs\OLD\AudioEvent_AM_T05_Forest_Med" GUID="{4C5BD98B-5615-4737-A7F5-895AC9B50542}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 						<ActionSetStateEntry Id="1491489496" Name="AudioStateOutdoor_05_Suburbs_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateOutdoor_05_Suburbs\AudioStateOutdoor_05_Suburbs_Outdoor" GUID="{0CF5B866-7868-4627-843A-D428BCF1D66A}"/>
@@ -2428,7 +2374,6 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2793918271" Name="AudioEvent_Lobby_Ion_Emitter_Crypt" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Lobby\AudioEvent_Lobby_Ion_Emitter_Crypt" GUID="{08F58523-F493-4FBF-9EED-AA49DF4B8CF3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3895306974" Name="AudioEvent_Rev_Int_00_Common_Basement" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_Common_Basement" GUID="{F17D7500-F674-413B-A713-4B61C26F8953}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="85566087" Name="AudioEvent_Rev_Int_00_Common_Shack" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_Common_Shack" GUID="{A8132D4E-C776-44AF-B375-EFC8584F353A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3744645643" Name="AudioEvent_Rev_Int_00_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_SmallRoom" GUID="{044B5C6B-C8D5-423C-AB0A-5A2809A10068}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

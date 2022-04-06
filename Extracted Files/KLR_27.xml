@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560508" GUID="{21DC851D-9CF3-46CF-B4F9-DE96036F7807}" Language="SFX">
+		<SoundBank Id="1457560508" GUID="{21DC851D-9CF3-46CF-B4F9-DE96036F7807}" Language="SFX" Hash="833876876">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_27</ObjectPath>
 			<ShortName>KLR_27</ShortName>
 			<Path>KLR_27.bnk</Path>
@@ -33,7 +33,23 @@
 				<Event Id="4219038401" Name="AudioEvent_K27_PWR_Blink_In" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Blink_In" GUID="{A0B5E2AC-9514-47A6-97AE-E9EAB7EA66AE}" MaxAttenuation="1600.000000" DurationType="OneShot" DurationMin="1.252792" DurationMax="1.403354"/>
 				<Event Id="3055464896" Name="AudioEvent_K27_PWR_Blink_Out" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Blink_Out" GUID="{162833DF-B0AE-485F-B5E5-FEEF4ACC5962}" MaxAttenuation="1600.000000" DurationType="OneShot" DurationMin="1.588948" DurationMax="1.824598"/>
 				<Event Id="2721755796" Name="AudioEvent_K27_PWR_Close_Hatch" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Close_Hatch" GUID="{667B7A3D-DF51-4C14-A0EA-EEF94029136D}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="2.958125" DurationMax="2.958125"/>
-				<Event Id="3297028051" Name="AudioEvent_K27_PWR_Condemned_StackGained" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Condemned_StackGained" GUID="{9622B4CC-8418-4108-B7CF-64C010AEA9B4}" DurationType="OneShot" DurationMin="1.398542" DurationMax="1.398542"/>
+				<Event Id="3297028051" Name="AudioEvent_K27_PWR_Condemned_StackGained" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Condemned_StackGained" GUID="{9622B4CC-8418-4108-B7CF-64C010AEA9B4}" DurationType="OneShot" DurationMin="1.398542" DurationMax="1.398542">
+					<DefaultSwitchValue>{C90E52F4-3CD8-430F-9639-1F9544A3C5FF}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DA9C0B67-43AF-4BC2-A042-C01C72F47AA7}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{835E38C9-B7CA-4752-9DFD-3AD57BB4D3F4}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5A5EEFD4-3453-4A74-8CE7-9B693932950A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B19C92D8-20BB-47CC-A71C-E3C5622AF056}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2674301590" Name="AudioEvent_K27_PWR_Condemned_StacksMax" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Condemned_StacksMax" GUID="{F4371B8A-4053-4019-88C7-5DD34D0CDB2C}" DurationType="Infinite"/>
 				<Event Id="2174270752" Name="AudioEvent_K27_PWR_Condemned_StacksRemoved" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Condemned_StacksRemoved" GUID="{C6ACD68D-7477-48F6-99B4-6D1F80AC6969}" DurationType="OneShot" DurationMin="1.963354" DurationMax="1.963354"/>
 				<Event Id="1391916680" Name="AudioEvent_K27_PWR_Damage_Generator" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Generator" GUID="{5C6D96A0-1C3D-4027-A1D7-46FC78E22EA2}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.828542" DurationMax="3.828542"/>
@@ -47,6 +63,7 @@
 				<Event Id="471811886" Name="AudioEvent_K27_PWR_Grab_Locker" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Grab_Locker" GUID="{293A5695-A44B-4DCF-86A7-B83C12819A79}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="6.533333" DurationMax="6.533333"/>
 				<Event Id="2089930662" Name="AudioEvent_K27_PWR_Grab_PickUp" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Grab_PickUp" GUID="{93993346-B98F-427D-980F-1CD177C263DC}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="4.693333" DurationMax="4.960000"/>
 				<Event Id="2580973768" Name="AudioEvent_K27_PWR_Hook" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Hook" GUID="{62BF66CC-DDD5-4F0F-BE60-0DFFA11BC635}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.445333" DurationMax="3.445333"/>
+				<Event Id="1574980011" Name="AudioEvent_K27_PWR_Locker_Empty" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Locker_Empty" GUID="{9AD1C745-FC07-4664-8269-51398CD23989}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.626667" DurationMax="3.978667"/>
 				<Event Id="742368574" Name="AudioEvent_K27_PWR_Manifest_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Manifest_Charge_Cancel" GUID="{3B7F159E-CF33-41F7-94D1-793647470803}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4161935533" Name="AudioEvent_K27_PWR_Manifest_Charge_Complete" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Manifest_Charge_Complete" GUID="{739F90C5-6893-43D6-8626-711F0A24F464}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="0.964938" DurationMax="1.100000"/>
 				<Event Id="2040610388" Name="AudioEvent_K27_PWR_Manifest_Charge_Start" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Manifest_Charge_Start" GUID="{60F508E2-9EA2-494D-8842-13642A97247A}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="7.265954" DurationMax="7.868180"/>
@@ -149,6 +166,10 @@
 				<File Id="174971766" Language="SFX">
 					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_state_spiritworld_08.wav</ShortName>
 					<Path>SFX\Characters\KLR_27\K27_PWR\sfx_k27_pwr_state_spiritworld_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="181393413" Language="SFX">
+					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="182863778" Language="SFX">
 					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_teleport_2d_02.wav</ShortName>
@@ -326,6 +347,10 @@
 					<ShortName>Characters\KLR_27\K27_MENU\sfx_k27_menu_jumpscare_01.wav</ShortName>
 					<Path>SFX\Characters\KLR_27\K27_MENU\sfx_k27_menu_jumpscare_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="537866622" Language="SFX">
+					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="540467503" Language="SFX">
 					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_teleport_02.wav</ShortName>
 					<Path>SFX\Characters\KLR_27\K27_PWR\sfx_k27_pwr_teleport_02_7FA8D501.wem</Path>
@@ -429,6 +454,10 @@
 				<File Id="713600795" Language="SFX">
 					<ShortName>Characters\KLR_27\K27_PRESENCE\sfx_k26_pwr_presence_04.wav</ShortName>
 					<Path>SFX\Characters\KLR_27\K27_PRESENCE\sfx_k26_pwr_presence_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="718775510" Language="SFX">
+					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="724819550" Language="SFX">
 					<ShortName>Characters\KLR_27\K27_PRESENCE\sfx_k26_pwr_presence_06.wav</ShortName>
@@ -589,6 +618,10 @@
 				<File Id="1052808547" Language="SFX">
 					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_state_spiritworld_02.wav</ShortName>
 					<Path>SFX\Characters\KLR_27\K27_PWR\sfx_k27_pwr_state_spiritworld_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1055147325" Language="SFX">
+					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_27\K27_PWR\sfx_k27_pwr_locker_empty_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="1056665196" Language="SFX">
 					<ShortName>Characters\KLR_27\K27_PWR\sfx_k27_pwr_manifest_complete_01.wav</ShortName>

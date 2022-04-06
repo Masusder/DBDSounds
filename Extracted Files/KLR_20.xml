@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Kepler_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Libra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2019_2_5_Kepler\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560507" GUID="{712E0B1B-B724-4F74-9A1B-3F108434E43F}" Language="SFX">
+		<SoundBank Id="1457560507" GUID="{712E0B1B-B724-4F74-9A1B-3F108434E43F}" Language="SFX" Hash="3867395514">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_20</ObjectPath>
 			<ShortName>KLR_20</ShortName>
 			<Path>KLR_20.bnk</Path>
 			<IncludedEvents>
-				<Event Id="598896019" Name="AudioEvent_K00_WPN_Attack_Stop" ObjectPath="\Events\IMPACT\IMPACT\AudioEvent_K00_WPN_Attack_Stop" GUID="{AAA7D380-188D-49BE-B7FD-54FD00E3A014}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="598896019" Name="AudioEvent_K00_WPN_Attack_Stop" ObjectPath="\Events\IMPACT\AudioEvent_K00_WPN_Attack_Stop" GUID="{AAA7D380-188D-49BE-B7FD-54FD00E3A014}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1952637852" Name="AudioEvent_K20_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_CLOTH\AudioEvent_K20_CLOTH_Default_Land" GUID="{4A623621-E887-419C-8A44-67DD897B9460}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="533207812" Name="AudioEvent_K20_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_CLOTH\AudioEvent_K20_CLOTH_Default_Move" GUID="{7D077D58-4284-4BF2-92B1-AA40E7A6593F}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.170667" DurationMax="1.834667"/>
 				<Event Id="1406133858" Name="AudioEvent_K20_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_CLOTH\AudioEvent_K20_CLOTH_Default_ShuffleHigh" GUID="{D28B1B3E-36B5-42CA-8D9B-819DD4E59658}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
@@ -45,20 +45,262 @@
 				<Event Id="3857077105" Name="AudioEvent_K20_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_STATUS\AudioEvent_K20_Status_Start" GUID="{0D0362D7-64B9-41DB-A6A9-64066714C408}" MaxAttenuation="1900.000000" DurationType="Infinite"/>
 				<Event Id="2755638078" Name="AudioEvent_K20_WPN_COMMON_Sword_Down_left" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_COMMON_Sword_Down_left" GUID="{B8883BCF-FA4E-4A1F-BC31-9A6F148D64D3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.786667" DurationMax="1.093375">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="598896019" Name="AudioEvent_K00_WPN_Attack_Stop" ObjectPath="\Events\IMPACT\IMPACT\AudioEvent_K00_WPN_Attack_Stop" GUID="{AAA7D380-188D-49BE-B7FD-54FD00E3A014}"/>
+						<ActionPostEventEntry Id="598896019" Name="AudioEvent_K00_WPN_Attack_Stop" ObjectPath="\Events\IMPACT\AudioEvent_K00_WPN_Attack_Stop" GUID="{AAA7D380-188D-49BE-B7FD-54FD00E3A014}"/>
 					</ActionPostEvent>
 				</Event>
 				<Event Id="3591377373" Name="AudioEvent_K20_WPN_COMMON_Sword_Down_Right" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_COMMON_Sword_Down_Right" GUID="{14FD8B25-FF1E-40D2-9060-26F949C2CA71}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.786667" DurationMax="1.093375">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="598896019" Name="AudioEvent_K00_WPN_Attack_Stop" ObjectPath="\Events\IMPACT\IMPACT\AudioEvent_K00_WPN_Attack_Stop" GUID="{AAA7D380-188D-49BE-B7FD-54FD00E3A014}"/>
+						<ActionPostEventEntry Id="598896019" Name="AudioEvent_K00_WPN_Attack_Stop" ObjectPath="\Events\IMPACT\AudioEvent_K00_WPN_Attack_Stop" GUID="{AAA7D380-188D-49BE-B7FD-54FD00E3A014}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="1234801033" Name="AudioEvent_K20_WPN_COMMON_Sword_Scrap" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_COMMON_Sword_Scrap" GUID="{7ACCC8B6-AA0C-407C-B15E-92997E0BAE36}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.022917"/>
+				<Event Id="1234801033" Name="AudioEvent_K20_WPN_COMMON_Sword_Scrap" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_COMMON_Sword_Scrap" GUID="{7ACCC8B6-AA0C-407C-B15E-92997E0BAE36}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.022917">
+					<DefaultSwitchValue>{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1974DF19-3EAC-4718-94A9-7C7895513BA6}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F167B121-F497-496D-A248-9FF4BF749539}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{83EDD421-A376-401D-9D56-3CC8596D4C20}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{46A7CC2C-1CCD-4037-9FB7-52AD43498872}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{834AF73E-2FDA-4B1F-ABF8-7E926EA04F5E}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{33C94342-DC4C-4551-AE18-3B244ECA0689}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A941FD53-8C7E-4702-8A7E-95B4CFB4DE52}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{38536567-1A12-4FD1-8DCF-06603790A598}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{15062674-8B2F-4664-AEB6-B4178F782C33}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{220AA47D-7E65-4864-A865-719DAC7D0078}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{978DAF7D-37D9-4EB1-BF47-9FAE7D88E73D}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{646F7389-CAE6-4F36-AEB3-BA5883FFBC7A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{01B02E8C-F215-4C55-A4A7-703EC37B779F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{425080A3-52A3-4900-B570-E5014B94C732}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41A7F3B6-4B78-421A-BAD3-16E485BDB8D0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6F4878BC-2C2D-4042-BC8E-03B16078145B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{61C0A8D2-F421-465E-A55C-823BB4931283}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{175357DC-ECFA-4355-93E2-1A75AFA11C43}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{48A06FE5-D77E-440C-BC12-44D3DFE248E2}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A602BDEB-16F8-46CD-BB54-CFE585D15F02}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F8694AFD-F385-4983-A2F5-5B159E8ED9D2}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{131534FE-9431-446B-854D-1E81BA3C77E7}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="968769375" Name="AudioEvent_K20_WPN_COMMON_Sword_Trail_Start" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_COMMON_Sword_Trail_Start" GUID="{7B617FF5-4469-4899-9904-9E4E00536F4C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.071561" DurationMax="1.281588"/>
 				<Event Id="1516627620" Name="AudioEvent_K20_WPN_Default_Sword_Arm" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_Default_Sword_Arm" GUID="{54C0F68E-7BDC-4DF2-A551-50CD4E9671A6}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="1.006968" DurationMax="1.006968"/>
 				<Event Id="4250957074" Name="AudioEvent_K20_WPN_Default_Sword_Attack" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_Default_Sword_Attack" GUID="{D97C90D1-EF8D-4D8A-9308-4D88ED3E4A57}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.705470" DurationMax="0.880259"/>
 				<Event Id="2502695053" Name="AudioEvent_K20_WPN_Default_Sword_Clean" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_Default_Sword_Clean" GUID="{4D920439-F643-4737-AF72-8A02E6171A34}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.660719" DurationMax="0.660719"/>
-				<Event Id="2901083312" Name="AudioEvent_K20_WPN_Default_Sword_Impact" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_Default_Sword_Impact" GUID="{3BB5637A-05D1-4420-A08A-7403B52F8555}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.363833" DurationMax="0.880000"/>
+				<Event Id="2901083312" Name="AudioEvent_K20_WPN_Default_Sword_Impact" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_Default_Sword_Impact" GUID="{3BB5637A-05D1-4420-A08A-7403B52F8555}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.363833" DurationMax="0.880000">
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1974DF19-3EAC-4718-94A9-7C7895513BA6}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F167B121-F497-496D-A248-9FF4BF749539}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{83EDD421-A376-401D-9D56-3CC8596D4C20}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{46A7CC2C-1CCD-4037-9FB7-52AD43498872}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{834AF73E-2FDA-4B1F-ABF8-7E926EA04F5E}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{33C94342-DC4C-4551-AE18-3B244ECA0689}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A941FD53-8C7E-4702-8A7E-95B4CFB4DE52}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{38536567-1A12-4FD1-8DCF-06603790A598}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{15062674-8B2F-4664-AEB6-B4178F782C33}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{220AA47D-7E65-4864-A865-719DAC7D0078}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{978DAF7D-37D9-4EB1-BF47-9FAE7D88E73D}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{646F7389-CAE6-4F36-AEB3-BA5883FFBC7A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{01B02E8C-F215-4C55-A4A7-703EC37B779F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{425080A3-52A3-4900-B570-E5014B94C732}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41A7F3B6-4B78-421A-BAD3-16E485BDB8D0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6F4878BC-2C2D-4042-BC8E-03B16078145B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{61C0A8D2-F421-465E-A55C-823BB4931283}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{175357DC-ECFA-4355-93E2-1A75AFA11C43}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{48A06FE5-D77E-440C-BC12-44D3DFE248E2}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A602BDEB-16F8-46CD-BB54-CFE585D15F02}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F8694AFD-F385-4983-A2F5-5B159E8ED9D2}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{131534FE-9431-446B-854D-1E81BA3C77E7}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="4265775017" Name="AudioEvent_K20_WPN_Default_Sword_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K20_Wales\K20_WEAPON\AudioEvent_K20_WPN_Default_Sword_PullOut" GUID="{3E15A478-778F-4CFE-B2D5-104CF7242885}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.230913" DurationMax="1.230913"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -82,14 +324,6 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_wood_07.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_wood_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="54568869" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_grunt_a_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_grunt_a_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="59923633" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="63521640" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_02_7FA8D501.wem</Path>
@@ -102,9 +336,9 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpm_k20_wales_attack_B_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpm_k20_wales_attack_B_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="107419497" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_01_7FA8D501.wem</Path>
+				<File Id="107623108" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="108376972" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_05.wav</ShortName>
@@ -114,13 +348,13 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="114255427" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_mori_barbedwire_open_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_mori_barbedwire_open_01_7FA8D501.wem</Path>
+				<File Id="114255428" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_mori_barbedwire_open_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_mori_barbedwire_open_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="114767618" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_08.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_08_7FA8D501.wem</Path>
+				<File Id="114767619" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_08.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="114795935" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_01.wav</ShortName>
@@ -146,9 +380,9 @@
 					<ShortName>Music\mu_terrorradius_k20_layer_04.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k20_layer_04_256CDB0F.wem</Path>
 				</File>
-				<File Id="139056690" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_stunned_b_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_stunned_b_02_7FA8D501.wem</Path>
+				<File Id="139056691" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_stunned_b_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_stunned_b_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="139472822" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_wood_05.wav</ShortName>
@@ -158,13 +392,13 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpm_k20_wales_attack_C_Impact_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpm_k20_wales_attack_C_Impact_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="148852574" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_01_7FA8D501.wem</Path>
+				<File Id="148852575" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="155253063" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_01_7FA8D501.wem</Path>
+				<File Id="158277301" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="160007250" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_projectile_01.wav</ShortName>
@@ -177,6 +411,10 @@
 				<File Id="169431548" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_17.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_17_7FA8D501.wem</Path>
+				</File>
+				<File Id="169607076" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_09.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="171510677" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_14.wav</ShortName>
@@ -198,10 +436,6 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_wales_clean_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_wales_clean_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="185331326" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_11.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_11_7FA8D501.wem</Path>
-				</File>
 				<File Id="186891162" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_agony_start_b_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_agony_start_b_02_7FA8D501.wem</Path>
@@ -214,9 +448,9 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_wales_pullout_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_wales_pullout_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="197431594" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_01_7FA8D501.wem</Path>
+				<File Id="197431595" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="206470488" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_12.wav</ShortName>
@@ -230,9 +464,9 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_soft_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_soft_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="226875670" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_06_7FA8D501.wem</Path>
+				<File Id="226875671" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="230206482" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_open_bend_01.wav</ShortName>
@@ -242,17 +476,17 @@
 					<ShortName>Music\mu_terrorradius_k20_layer_03.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k20_layer_03_256CDB0F.wem</Path>
 				</File>
-				<File Id="231682742" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="240962548" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_11.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_11_7FA8D501.wem</Path>
+				<File Id="233752480" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_10.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="243150391" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_arm_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_arm_01_A6D11F5D.wem</Path>
+				</File>
+				<File Id="243887670" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="246342557" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_emitter_loop_01.wav</ShortName>
@@ -282,10 +516,6 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_hard_07.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_hard_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="282093260" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="284228830" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_10.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_10_7FA8D501.wem</Path>
@@ -306,13 +536,9 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="306446179" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_stunned_b_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_stunned_b_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="328855382" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_09.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_09_7FA8D501.wem</Path>
+				<File Id="306446180" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_stunned_b_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_stunned_b_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="329931730" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_wood_08.wav</ShortName>
@@ -322,21 +548,21 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_10.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_10_7FA8D501.wem</Path>
 				</File>
-				<File Id="338394451" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="347317292" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_crack_appear.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_crack_appear_7FA8D501.wem</Path>
+				</File>
+				<File Id="351799684" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_11.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="362509630" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_trail_start_b_02.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_trail_start_b_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="363062404" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_grunt_a_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_grunt_a_03_7FA8D501.wem</Path>
+				<File Id="363062405" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_grunt_a_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_grunt_a_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="364594036" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_01.wav</ShortName>
@@ -378,13 +604,21 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="440839305" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_10.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_10_7FA8D501.wem</Path>
-				</File>
 				<File Id="448240839" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_03.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="451099385" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_09.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="453420947" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="458912680" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_grunt_a_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_grunt_a_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="460662443" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_hard_09.wav</ShortName>
@@ -398,29 +632,33 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_open_bend_03.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_open_bend_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="484239117" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_mori_barbedwire_close_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_mori_barbedwire_close_01_7FA8D501.wem</Path>
+				<File Id="480955432" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="484239118" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_mori_barbedwire_close_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_mori_barbedwire_close_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="490669572" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_hit_confirmation_stg_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_hit_confirmation_stg_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="491115095" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_grunt_a_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_grunt_a_05_7FA8D501.wem</Path>
+				<File Id="492214930" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="512376643" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_hard_05.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_hard_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="523770448" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="534351328" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_08.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_08_7AC0F2BF.wem</Path>
-				</File>
-				<File Id="534672386" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_10.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="545010480" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_07.wav</ShortName>
@@ -434,17 +672,13 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_gravel_05.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_gravel_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="576156848" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_06_7FA8D501.wem</Path>
+				<File Id="575288624" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_11.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="588597432" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_trail_start_b_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_trail_start_b_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="592581905" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="594037135" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_rescue_dissolve_02.wav</ShortName>
@@ -458,21 +692,21 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_gravel_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_gravel_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="606793767" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_08.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_08_7FA8D501.wem</Path>
+				<File Id="606793768" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_08.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="609462577" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_07.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_07_7FA8D501.wem</Path>
 				</File>
+				<File Id="612890161" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="620035400" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_16.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="629276965" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="631463066" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_09.wav</ShortName>
@@ -485,6 +719,14 @@
 				<File Id="633357992" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_projectile_03_c.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_attack2_projectile_03_c_7FA8D501.wem</Path>
+				</File>
+				<File Id="634572620" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="639238855" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="653031648" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k20_layer_02.wav</ShortName>
@@ -518,37 +760,37 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="687160277" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_09.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_09_7FA8D501.wem</Path>
-				</File>
 				<File Id="687833449" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_11.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="689684306" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_grunt_a_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_grunt_a_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="689882268" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="690221786" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_06.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="693120686" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_05_7FA8D501.wem</Path>
+				<File Id="693120687" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="696863187" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_15.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_15_7FA8D501.wem</Path>
 				</File>
-				<File Id="715913001" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="726783964" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_05.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="739768844" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_stunned_b_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_stunned_b_05_7FA8D501.wem</Path>
+				<File Id="739768845" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_stunned_b_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_stunned_b_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="742124219" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_04.wav</ShortName>
@@ -557,6 +799,10 @@
 				<File Id="763913854" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_11.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_11_3A9C91AC.wem</Path>
+				</File>
+				<File Id="767143637" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_grunt_a_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_grunt_a_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="769872597" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_agony_start_a_01.wav</ShortName>
@@ -570,25 +816,17 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_12.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_12_5E579854.wem</Path>
 				</File>
-				<File Id="781073151" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_grunt_a_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_grunt_a_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="788336267" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_gravel_04.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_gravel_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="790345999" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_shuffle_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="796279462" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_15.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_15_7FA8D501.wem</Path>
 				</File>
-				<File Id="803646609" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_02_7FA8D501.wem</Path>
+				<File Id="803646610" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="803933617" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_gravel_07.wav</ShortName>
@@ -602,17 +840,17 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="820381585" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_04_7FA8D501.wem</Path>
+				<File Id="820381586" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="820756736" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_06.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="824586549" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_mori_metalbeam_spawn_01.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_mori_metalbeam_spawn_01_7FA8D501.wem</Path>
+				<File Id="824586550" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_mori_metalbeam_spawn_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_mori_metalbeam_spawn_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="825151950" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_02.wav</ShortName>
@@ -642,9 +880,9 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_03.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="867125055" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_stunned_b_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_stunned_b_03_7FA8D501.wem</Path>
+				<File Id="867125056" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_stunned_b_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_stunned_b_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="871223500" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_05.wav</ShortName>
@@ -654,29 +892,29 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_03.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="883796864" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_grunt_a_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_grunt_a_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="884189139" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_15.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_15_445EC802.wem</Path>
 				</File>
-				<File Id="884779177" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_03_7FA8D501.wem</Path>
+				<File Id="884779178" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="886454225" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_03.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_03_7FA8D501.wem</Path>
+				<File Id="886454226" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="898246296" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_move_14.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_move_14_7FA8D501.wem</Path>
 				</File>
 				<File Id="899306645" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_07.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="900099185" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_07.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_07_7FA8D501.wem</Path>
+				<File Id="900099186" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="902108222" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpm_k20_wales_attack_a_03.wav</ShortName>
@@ -690,21 +928,21 @@
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_soft_02.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_ukraine_impact_hit_soft_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="910758931" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_07.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_07_7FA8D501.wem</Path>
+				<File Id="910758932" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="923835578" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_projectile_03_b.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_attack2_projectile_03_b_7FA8D501.wem</Path>
 				</File>
-				<File Id="924958312" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_k20_wales_stunned_b_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_k20_wales_stunned_b_04_7FA8D501.wem</Path>
+				<File Id="924958313" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_k20_wales_stunned_b_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_k20_wales_stunned_b_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="927015364" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_09.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_09_7FA8D501.wem</Path>
+				<File Id="927015365" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_09.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="929246737" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_deathbed_appear_stinger_01.wav</ShortName>
@@ -714,21 +952,21 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_deathbed_appear_stinger_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_deathbed_appear_stinger_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="943333494" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="950650672" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_attack2_hit_confirmation_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="952891751" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_02.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_02_7FA8D501.wem</Path>
+				<File Id="952891752" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="953162948" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_rescue_dissolve_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_deathbed_rescue_dissolve_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="960710308" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_10.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="969704456" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_rock_06.wav</ShortName>
@@ -737,6 +975,10 @@
 				<File Id="973325910" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_16.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="979821524" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_killer_k20_body_shuffle_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_killer_k20_body_shuffle_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="982964762" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_trail_start_b_03.wav</ShortName>
@@ -749,10 +991,6 @@
 				<File Id="984255218" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_dirt_01.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_dirt_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="988923409" Language="SFX">
-					<ShortName>Characters\Killer_Sweden\sfx_killer_k20_body_move_14.wav</ShortName>
-					<Path>SFX\Characters\Killer_Sweden\sfx_killer_k20_body_move_14_7FA8D501.wem</Path>
 				</File>
 				<File Id="994093661" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_trail_draw_rock_single_disto_13.wav</ShortName>
@@ -770,13 +1008,17 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_attack2_projectile_03_a.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_power_k20_attack2_projectile_03_a_7FA8D501.wem</Path>
 				</File>
+				<File Id="1014563573" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_grunt_a_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_grunt_a_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="1016627027" Language="SFX">
 					<ShortName>Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_wood_06.wav</ShortName>
 					<Path>SFX\Weapons\K20_Wales_Sword\sfx_wpn_k20_friction_common_wood_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="1016849159" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_05.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_05_7FA8D501.wem</Path>
+				<File Id="1016849160" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="1019748496" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_agony_start_b_03.wav</ShortName>
@@ -798,17 +1040,17 @@
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_05.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="1048509918" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_out_04.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_out_04_7FA8D501.wem</Path>
+				<File Id="1048509919" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_out_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_out_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="1059060445" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_03.wav</ShortName>
 					<Path>SFX\Powers\PWR_20_Wales\sfx_pwr_k20_agony_barbedwire_spawn_single_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="1061147700" Language="SFX">
-					<ShortName>Characters\Killer_Wales\sfx_killer_wales_status_breath_in_06.wav</ShortName>
-					<Path>SFX\Characters\Killer_Wales\sfx_killer_wales_status_breath_in_06_7FA8D501.wem</Path>
+				<File Id="1061147701" Language="SFX">
+					<ShortName>Characters\KLR_20\sfx_killer_wales_status_breath_in_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_20\sfx_killer_wales_status_breath_in_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="1062394367" Language="SFX">
 					<ShortName>Powers\PWR_20_Wales\sfx_power_k20_agony_start_a_02.wav</ShortName>
