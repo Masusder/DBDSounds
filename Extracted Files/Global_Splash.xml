@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Libra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="2422195438">
+		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="1711312907">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Splash</ObjectPath>
 			<ShortName>Global_Splash</ShortName>
 			<Path>Global_Splash.bnk</Path>
@@ -124,7 +124,7 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="221602290" Name="Menu_In" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_In" GUID="{B7F78586-11AA-4BC5-AE82-29C019933B3C}"/>
 						<ActionSetStateEntry Id="2298552922" Name="Offline" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Offline" GUID="{D957D890-75F0-4286-996C-282F6E6BAC95}"/>
-						<ActionSetStateEntry Id="3590830768" Name="ArchivesRewards" ObjectPath="\States\STATES_MENU\AudioStateGameflow\ArchivesRewards" GUID="{3C49501B-7BC6-4F32-AB84-B0C6793D0C4F}"/>
+						<ActionSetStateEntry Id="2584366991" Name="ArchivesPastStory" ObjectPath="\States\STATES_MENU\AudioStateGameflow\ArchivesPastStory" GUID="{D1B40FE1-978A-47BC-9F62-8F34949B7238}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -2420,6 +2420,7 @@
 				<Event Id="276221052" Name="AudioEvent_Master_Mute_ON" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Mute_ON" GUID="{9E6C5499-FEA2-4417-B56E-95CC3B31FEB6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="692218234" Name="AudioEvent_Master_Reset_RTPC" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Reset_RTPC" GUID="{5C71EA60-E02B-4C1F-A117-B3D617F27EBB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\STATES_KILLER\STATE_K14_Kenya\AudioState_K14_MixTape_SlotOne\None" GUID="{8256255F-66C7-482C-8C05-47BCAFF9B54C}"/>
 						<ActionSetStateEntry Id="1081215356" Name="Video_OFF" ObjectPath="\States\STATES_MENU\AudioStateVideo\Video_OFF" GUID="{3D35BBA0-F527-4A87-B07C-B5176A367CAE}"/>
 						<ActionSetStateEntry Id="2153531492" Name="OmanSurvivorExposed_Off" ObjectPath="\States\STATES_KILLER\STATE_K16_Oman\AudioStateOmanSurvivorExposed\OmanSurvivorExposed_Off" GUID="{1F182794-D0CD-4784-9E2F-6DBD308FCFA5}"/>
 						<ActionSetStateEntry Id="2605893650" Name="FinlandStealth_Off" ObjectPath="\States\STATES_KILLER\STATE_K11_Finland\AudioStateKillerFinlandStealth\FinlandStealth_Off" GUID="{77DA0D1E-827C-40F3-97EC-F5BB29AAAA1D}"/>
@@ -4238,6 +4239,9 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2516092264" Name="Online" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Online" GUID="{AAFAD8E0-A103-4141-95DA-B5E768C0134B}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2584366991" Name="ArchivesPastStory" ObjectPath="\States\STATES_MENU\AudioStateGameflow\ArchivesPastStory" GUID="{D1B40FE1-978A-47BC-9F62-8F34949B7238}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2605893650" Name="FinlandStealth_Off" ObjectPath="\States\STATES_KILLER\STATE_K11_Finland\AudioStateKillerFinlandStealth\FinlandStealth_Off" GUID="{77DA0D1E-827C-40F3-97EC-F5BB29AAAA1D}">
