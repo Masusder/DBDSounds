@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Meteor_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970219" GUID="{59B7E52F-0A9A-4604-8423-1C8BCDEE02AB}" Language="SFX" Hash="2031023232">
+		<SoundBank Id="2215970219" GUID="{59B7E52F-0A9A-4604-8423-1C8BCDEE02AB}" Language="SFX" Hash="2063766781">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_16</ObjectPath>
 			<ShortName>AMB_16</ShortName>
 			<Path>AMB_16.bnk</Path>
@@ -203,10 +203,6 @@
 				</Event>
 				<Event Id="3978724401" Name="AudioEvent_AM_Theme_16_Wales" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AudioEvent_AM_Theme_16_Wales" GUID="{67EA2DC4-5E14-4A73-9C91-61DDB988B73D}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="208698783" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_low_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_low_01_256CDB0F.wem</Path>
-						</File>
 						<File Id="344783649" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_bathroom_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_bathroom_01_256CDB0F.wem</Path>
@@ -214,14 +210,6 @@
 						<File Id="360332340" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_theme_noise_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_theme_noise_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="417895314" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_med_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_med_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="434141984" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_shack_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_shack_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="513989522" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_02.wav</ShortName>
@@ -238,10 +226,6 @@
 						<File Id="891636337" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_outdoor_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_outdoor_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="903072920" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_high_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_high_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="943194966" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_theme_01.wav</ShortName>
@@ -278,11 +262,6 @@
 								<File Id="344783649"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{60B55875-492A-4E3B-A63C-8DA5446C6270}">
-							<Media>
-								<File Id="434141984"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{AAFA5977-408C-45EA-8EBB-AA45E4CE3BB5}">
 							<Media>
 								<File Id="26471541"/>
@@ -297,7 +276,7 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{70BF7997-6626-4FBE-A196-EEDF40E71610}">
 							<Media>
-								<File Id="434141984"/>
+								<File Id="513989522"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{76F4739F-C4EF-41EE-979D-FC804BF3EB5E}">
@@ -317,21 +296,6 @@
 								<File Id="891636337"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{84D65F81-7327-423F-BB93-97FE69704883}">
-							<Media>
-								<File Id="208698783"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{1CA2E088-ACA0-4E54-8C58-B86D5399D04E}">
-							<Media>
-								<File Id="417895314"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{099B16C2-9AD7-4C17-AB12-6B8E889F32D3}">
-							<Media>
-								<File Id="903072920"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{EDC593E7-2370-43F9-921A-31C155B5B678}">
 							<Media>
 								<File Id="891636337"/>
@@ -349,14 +313,6 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="130390459" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
-						</File>
-						<File Id="143601693" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="221962473" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
@@ -365,6 +321,28 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="130390459" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="143601693" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="342494231" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
@@ -372,10 +350,6 @@
 						<File Id="385259950" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="402813766" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="408062294" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
@@ -393,10 +367,6 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
 						</File>
-						<File Id="949972497" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
-						</File>
 						<File Id="968791772" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04_7FA8D501.wem</Path>
@@ -409,11 +379,7 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="1030383367" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="3835943303" Name="AudioEvent_Rev_Int_16_Wales_BrightRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_BrightRooms" GUID="{AFD646A8-B031-4CA7-9769-1CB42E753832}"/>
 					</ActionPostEvent>
@@ -432,14 +398,6 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="130390459" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
-						</File>
-						<File Id="143601693" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="221962473" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
@@ -448,17 +406,47 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="130390459" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="143601693" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="192475389" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="275980052" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="342494231" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
 						</File>
+						<File Id="364025775" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="385259950" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="402813766" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="408062294" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
@@ -472,13 +460,13 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="829215786" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_04.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_04_7FA8D501.wem</Path>
+						</File>
 						<File Id="846771203" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="949972497" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="968791772" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04.wav</ShortName>
@@ -491,28 +479,6 @@
 						<File Id="975100215" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="1030383367" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-					<ExcludedMemoryFiles>
-						<File Id="192475389" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="275980052" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="364025775" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="829215786" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_04_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
@@ -534,14 +500,6 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="130390459" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
-						</File>
-						<File Id="143601693" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="221962473" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
@@ -550,6 +508,28 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="130390459" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="143601693" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="342494231" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
@@ -557,10 +537,6 @@
 						<File Id="385259950" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="402813766" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="408062294" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
@@ -578,10 +554,6 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
 						</File>
-						<File Id="949972497" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
-						</File>
 						<File Id="968791772" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04_7FA8D501.wem</Path>
@@ -594,14 +566,10 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="1030383367" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="1015281404" Name="AudioStateOutdoor_16_Wales_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Exterior" GUID="{EDC593E7-2370-43F9-921A-31C155B5B678}"/>
+						<ActionSetStateEntry Id="2274065114" Name="AudioStateOutdoor_16_Wales_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Outdoor" GUID="{EDC593E7-2370-43F9-921A-31C155B5B678}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -614,14 +582,6 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="130390459" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
-						</File>
-						<File Id="143601693" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="221962473" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
@@ -630,6 +590,28 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="130390459" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="143601693" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="342494231" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
@@ -637,10 +619,6 @@
 						<File Id="385259950" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="402813766" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="408062294" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
@@ -658,10 +636,6 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
 						</File>
-						<File Id="949972497" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
-						</File>
 						<File Id="968791772" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04_7FA8D501.wem</Path>
@@ -674,11 +648,7 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="1030383367" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="4183139677" Name="AudioEvent_Rev_Int_16_Wales_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_TinyRooms" GUID="{21E7AA5A-25F7-4716-901C-D55B92F3776C}"/>
 					</ActionPostEvent>
@@ -697,10 +667,6 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="130390459" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
-						</File>
 						<File Id="221962473" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
@@ -709,41 +675,13 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="342494231" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
-						</File>
-						<File Id="385259950" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
-						</File>
 						<File Id="402813766" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="408062294" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="655741696" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_13.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_13_7FA8D501.wem</Path>
-						</File>
-						<File Id="789134387" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="846771203" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
-						</File>
 						<File Id="949972497" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="970492437" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="1030383367" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
@@ -770,6 +708,10 @@
 						<File Id="105910136" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_26.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_26_72559BD9.wem</Path>
+						</File>
+						<File Id="130390459" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
 						</File>
 						<File Id="157714905" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_19.wav</ShortName>
@@ -803,9 +745,21 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_09.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_09_72559BD9.wem</Path>
 						</File>
+						<File Id="342494231" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="364025775" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="385259950" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="408062294" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01_7FA8D501.wem</Path>
 						</File>
 						<File Id="415663133" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_13.wav</ShortName>
@@ -843,6 +797,10 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_21.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_21_72559BD9.wem</Path>
 						</File>
+						<File Id="655741696" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_13.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_13_7FA8D501.wem</Path>
+						</File>
 						<File Id="669003117" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_18.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_18_72559BD9.wem</Path>
@@ -855,9 +813,17 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_22.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_22_72559BD9.wem</Path>
 						</File>
+						<File Id="789134387" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04_7FA8D501.wem</Path>
+						</File>
 						<File Id="829215786" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_fallingobjects_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="846771203" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
 						</File>
 						<File Id="860364050" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_27.wav</ShortName>
@@ -882,6 +848,10 @@
 						<File Id="949689621" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_25.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_25_72559BD9.wem</Path>
+						</File>
+						<File Id="970492437" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="976943867" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_waterdrops_30.wav</ShortName>
@@ -915,14 +885,6 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="130390459" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
-						</File>
-						<File Id="143601693" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="221962473" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_02_7FA8D501.wem</Path>
@@ -931,6 +893,28 @@
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="402813766" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="949972497" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030383367" Language="SFX">
+							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="130390459" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="143601693" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="342494231" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
@@ -938,10 +922,6 @@
 						<File Id="385259950" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="402813766" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="408062294" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
@@ -959,10 +939,6 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
 						</File>
-						<File Id="949972497" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_07_7FA8D501.wem</Path>
-						</File>
 						<File Id="968791772" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04_7FA8D501.wem</Path>
@@ -975,11 +951,7 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="1030383367" Language="SFX">
-							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_01_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="4171944585" Name="AudioEvent_Rev_Int_16_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_WoodyRooms" GUID="{F133C8DA-6B78-4DB3-AC17-8E6C7A2E4816}"/>
 					</ActionPostEvent>
@@ -993,12 +965,6 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="2659905625" Name="AudioEvent_Emitter_Wales_BigFan" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_BigFan" GUID="{2E052A5A-6A1A-47A5-8B5F-E1E4136D3A7E}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
-						<File Id="716985758" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_02_256CDB0F.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
 						<File Id="78144327" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_03.wav</ShortName>
@@ -1008,17 +974,9 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="270517016" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="283183020" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="400532490" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_02_7FA8D501.wem</Path>
+						<File Id="716985758" Language="SFX">
+							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_02_256CDB0F.wem</Path>
 						</File>
 						<File Id="751775768" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_05.wav</ShortName>
@@ -1035,7 +993,7 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="2230552123" Name="AudioEvent_Emitter_Wales_Courtyard_Chain" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Courtyard_Chain" GUID="{27E2873D-E810-4130-A45D-3E7A4D01F0C2}" MaxAttenuation="9900.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
 						<File Id="954419" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_04_7FA8D501.wem</Path>
@@ -1047,10 +1005,6 @@
 						<File Id="174103634" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="342374278" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="501961942" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_07.wav</ShortName>
@@ -1064,17 +1018,9 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="562176654" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="573409962" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="635342006" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_06.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="730334406" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_03.wav</ShortName>
@@ -1088,17 +1034,13 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="1023745475" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_05_7FA8D501.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="854432360" Name="AudioEvent_Emitter_Wales_Girl_Crying_Start" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Girl_Crying_Start" GUID="{E32A4319-15BC-4BD4-A3C6-389F62B216B7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="14.205334" DurationMax="19.893333">
-					<ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
 						<File Id="133286711" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_04_7FA8D501.wem</Path>
@@ -1135,29 +1077,21 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_07.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_07_7FA8D501.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="4197751477" Name="AudioEvent_Emitter_Wales_GorePile" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_GorePile" GUID="{81CA1E8B-A1D4-4B8E-A9CA-6A58D2FBFCF9}" MaxAttenuation="850.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
 						<File Id="486365704" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_gorepile_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_gorepile_01_256CDB0F.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3741556994" Name="AudioEvent_Emitter_Wales_GroundHoles" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_GroundHoles" GUID="{FB3E8F82-8673-4DE6-8EA7-DE8B1C994C7B}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="190770977" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_04.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="351350374" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="444505660" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_08.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_08_7FA8D501.wem</Path>
 						</File>
 						<File Id="587786596" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_01.wav</ShortName>
@@ -1167,17 +1101,9 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_05.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="773672884" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_09.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="795543190" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="842404433" Language="SFX">
-							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_07.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="1017679821" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_06.wav</ShortName>
@@ -1185,16 +1111,24 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1514157653" Name="AudioEvent_Emitter_Wales_Radio" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Radio" GUID="{E65E3A2F-A552-4595-9520-3E0000B1647A}" MaxAttenuation="450.000000" DurationType="Infinite">
+				<Event Id="1514157653" Name="AudioEvent_Emitter_Wales_Radio" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Radio" GUID="{E65E3A2F-A552-4595-9520-3E0000B1647A}" MaxAttenuation="450.000000" DurationType="Mixed" DurationMin="1.000000" DurationMax="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="221992770" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_radio_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_radio_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{B587905F-84F9-48F9-AAC2-A2013303D6AA}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B587905F-84F9-48F9-AAC2-A2013303D6AA}">
+							<Media>
+								<File Id="221992770"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3392058554" Name="AudioEvent_Emitter_Wales_RainOpening" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_RainOpening" GUID="{EBF56A69-2135-474E-AB1E-2DB658590ABB}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
 						<File Id="200725359" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_outside_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_outside_01_256CDB0F.wem</Path>
@@ -1203,7 +1137,7 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_rain_opening_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_rain_opening_01_256CDB0F.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
@@ -1243,7 +1177,7 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="1457251059" Name="AudioEvent_T16_Emitter_WaterPipes" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_T16_Emitter_WaterPipes" GUID="{FDCC66BB-FA0A-4A73-882D-E53640FF2E30}" MaxAttenuation="1700.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
 						<File Id="92863886" Language="SFX">
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_03_256CDB0F.wem</Path>
@@ -1256,10 +1190,40 @@
 							<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_02_256CDB0F.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
+				<File Id="344783649" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_bathroom_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_bathroom_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="360332340" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_theme_noise_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_theme_noise_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="513989522" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_02_256CDB0F.wem</Path>
+				</File>
+				<File Id="561191781" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_corridors_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_corridors_02_256CDB0F.wem</Path>
+				</File>
+				<File Id="832930419" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_weather_rain_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_weather_rain_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="891636337" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_outdoor_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_outdoor_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="943194966" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_theme_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_theme_01_256CDB0F.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
 				<File Id="954419" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_04.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_04_7FA8D501.wem</Path>
@@ -1267,6 +1231,18 @@
 				<File Id="3737533" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="26471541" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_theentity_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="78144327" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="89925290" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="92863886" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_03.wav</ShortName>
@@ -1292,45 +1268,41 @@
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="190770977" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_04.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="200725359" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_outside_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_outside_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="208698783" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_low_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_low_01_256CDB0F.wem</Path>
+				<File Id="221992770" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_radio_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_radio_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="342374278" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_05.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_05_7FA8D501.wem</Path>
+				<File Id="267532442" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_drops_10.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_drops_10_256CDB0F.wem</Path>
+				</File>
+				<File Id="268707413" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_02_256CDB0F.wem</Path>
 				</File>
 				<File Id="342494231" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_11_7FA8D501.wem</Path>
 				</File>
-				<File Id="344783649" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_bathroom_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_bathroom_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="360332340" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_theme_noise_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_theme_noise_01_256CDB0F.wem</Path>
-				</File>
 				<File Id="385259950" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_12_7FA8D501.wem</Path>
 				</File>
+				<File Id="405915903" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_03_256CDB0F.wem</Path>
+				</File>
 				<File Id="408062294" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_high_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="417895314" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_med_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_med_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="434141984" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_shack_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_shack_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="460894452" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_01.wav</ShortName>
@@ -1344,37 +1316,33 @@
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_07.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="513989522" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_roomtone_02_256CDB0F.wem</Path>
-				</File>
 				<File Id="523897114" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="561191781" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_corridors_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_corridors_02_256CDB0F.wem</Path>
+				<File Id="559831559" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_intro_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_intro_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="561671020" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="562176654" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_06.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="573409962" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_04.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="587786596" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="610191341" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="635342006" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_06.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_06_7FA8D501.wem</Path>
+				<File Id="643240523" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_background_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_background_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="655741696" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_13.wav</ShortName>
@@ -1392,13 +1360,25 @@
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_creak_low_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="751775768" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_05.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="757456720" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_06.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="772636670" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_05.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="789134387" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="795543190" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_02.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="802043831" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_05.wav</ShortName>
@@ -1412,10 +1392,6 @@
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_09.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_09_7FA8D501.wem</Path>
 				</File>
-				<File Id="832930419" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_weather_rain_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_weather_rain_01_256CDB0F.wem</Path>
-				</File>
 				<File Id="846771203" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_metal_friction_low_12_7FA8D501.wem</Path>
@@ -1428,6 +1404,10 @@
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="863925742" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_06.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="878913436" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_07.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_girlcrying_07_7FA8D501.wem</Path>
@@ -1435,18 +1415,6 @@
 				<File Id="887671609" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_waterpipes_loop_02_256CDB0F.wem</Path>
-				</File>
-				<File Id="891636337" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_outdoor_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_outdoor_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="903072920" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_high_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_forest_high_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="943194966" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_theme_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_theme_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="968791772" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_04.wav</ShortName>
@@ -1460,104 +1428,6 @@
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_rdm_wales_noises_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="1017781775" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_rain_opening_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_rain_opening_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="1023745475" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_05.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_courtyard_chain_05_7FA8D501.wem</Path>
-				</File>
-			</ReferencedStreamedFiles>
-			<IncludedMemoryFiles>
-				<File Id="26471541" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_theentity_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="78144327" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_03.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="89925290" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="190770977" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_04.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="221992770" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_radio_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_radio_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="267532442" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_drops_10.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_drops_10_256CDB0F.wem</Path>
-				</File>
-				<File Id="268707413" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_02_256CDB0F.wem</Path>
-				</File>
-				<File Id="270517016" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_07.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="283183020" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_08.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="351350374" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_03.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="400532490" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="405915903" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_03.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_03_256CDB0F.wem</Path>
-				</File>
-				<File Id="444505660" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_08.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="559831559" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_intro_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_intro_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="587786596" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="643240523" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_background_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_tile_killerbasement_background_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="751775768" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_05.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="772636670" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_05.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="773672884" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_09.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="795543190" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="842404433" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_07.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="863925742" Language="SFX">
-					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_06.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="978091205" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_01_256CDB0F.wem</Path>
@@ -1569,6 +1439,10 @@
 				<File Id="1017679821" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_06.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_groundhole_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="1017781775" Language="SFX">
+					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_rain_opening_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T16_Wales\am_t16_wales_emt_rain_opening_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="1043553195" Language="SFX">
 					<ShortName>Ambience\Themes\T16_Wales\am_t16_wales_emt_fan_squeaks_04.wav</ShortName>
@@ -1582,15 +1456,44 @@
 				<StateGroup Id="918417020" Name="AudioStateIndoor_16_Wales_Corridors" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_Corridors" GUID="{76F4739F-C4EF-41EE-979D-FC804BF3EB5E}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="1015281404" Name="AudioStateOutdoor_16_Wales_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Exterior" GUID="{EDC593E7-2370-43F9-921A-31C155B5B678}">
-					<States/>
+				<StateGroup Id="1087282632" Name="AudioStateKillers" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers" GUID="{1746F1E7-8DA2-4D05-85A6-CCE9E3DBBDDA}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\None" GUID="{B836E668-0A51-4325-AC2E-75BC1A6671B3}"/>
+						<State Id="1429619164" Name="K01_ID_Trapper" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K01_ID_Trapper" GUID="{5831B4F7-6615-461B-B533-9E11F4C276EE}"/>
+						<State Id="216457054" Name="K04_ID_Nurse" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K04_ID_Nurse" GUID="{90362590-B17B-4FBA-AA2C-7C74F25A3F99}"/>
+						<State Id="2151892881" Name="K07_ID_Doctor" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K07_ID_Doctor" GUID="{5FC1BABA-DCCD-46C2-A5B1-2EA5D3B5D718}"/>
+						<State Id="208635013" Name="K08_ID_Huntress" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K08_ID_Huntress" GUID="{2FC2184E-D128-4537-91B3-39D96E7ED699}"/>
+						<State Id="926778667" Name="K03_ID_HillBilly" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K03_ID_HillBilly" GUID="{78480612-0E00-4C02-BD15-53B464C1603D}"/>
+						<State Id="682942827" Name="K06_ID_Stalker" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K06_ID_Stalker" GUID="{9BFEE30A-FC0E-44B7-96E4-907776CA542C}"/>
+						<State Id="4039907003" Name="K05_ID_Witch" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K05_ID_Witch" GUID="{7497CBD4-352C-4AB3-8313-BD668E7E5814}"/>
+						<State Id="842569200" Name="K02_ID_Wraith" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K02_ID_Wraith" GUID="{C5283108-9859-47A6-AF01-EA7EDD5404B6}"/>
+						<State Id="1392584736" Name="K09_ID_Cannibal" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K09_ID_Cannibal" GUID="{2C7A7FAF-695E-4C63-BAA2-78891BEFDD1D}"/>
+						<State Id="2974467775" Name="K11_ID_Finland" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K11_ID_Finland" GUID="{7C9462CA-88BD-4A1A-BC7E-E457A9806934}"/>
+						<State Id="1394274236" Name="K14_ID_Kenya" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K14_ID_Kenya" GUID="{4D0B8C21-7177-4B8A-B826-D456D46D3859}"/>
+						<State Id="143627574" Name="K15_ID_Mali" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K15_ID_Mali" GUID="{B917C3C3-5E30-4720-BB30-F2832C561B67}"/>
+						<State Id="1023351378" Name="K13_ID_Haiti" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K13_ID_Haiti" GUID="{35BDF0D4-61BC-4FBD-B648-3F4EC138E917}"/>
+						<State Id="1914320932" Name="K12_ID_Guam" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K12_ID_Guam" GUID="{0AD0E611-4492-447F-8F6E-ECEEEF732499}"/>
+						<State Id="2079930483" Name="K16_ID_Oman" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K16_ID_Oman" GUID="{13074959-0CF0-4AAD-A38D-E5C218F7E961}"/>
+						<State Id="3531236394" Name="K17_ID_Qatar" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K17_ID_Qatar" GUID="{79195674-1313-4C42-8412-15DB8C34BA2B}"/>
+						<State Id="2751821390" Name="K10_ID_Sandman" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K10_ID_Sandman" GUID="{B0C39E94-4D64-4550-A59E-865995C5FEF1}"/>
+						<State Id="2227308432" Name="K18_ID_Sweden" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K18_ID_Sweden" GUID="{9B8B4361-D3ED-45DE-8FF8-CAF19680B58D}"/>
+						<State Id="3404793360" Name="K19_ID_Ukraine" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K19_ID_Ukraine" GUID="{ED1D7FFD-485B-408B-AF58-0EEFDC0A788D}"/>
+						<State Id="2618246255" Name="K20_ID_Wales" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K20_ID_Wales" GUID="{B587905F-84F9-48F9-AAC2-A2013303D6AA}"/>
+						<State Id="383817702" Name="K21_ID_Yemen" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K21_ID_Yemen" GUID="{1D127F50-77C4-44A1-86EC-7ACEE70E9A0E}"/>
+						<State Id="175497331" Name="K22_ID_Aurora" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K22_ID_Aurora" GUID="{45C519B0-8695-4F0E-A1DF-EEA17905078B}"/>
+						<State Id="2295688134" Name="K23_ID_Comet" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K23_ID_Comet" GUID="{BED8ED22-D372-4B95-B9DB-BB072144375E}"/>
+						<State Id="3192246540" Name="K24_ID_Eclipse" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K24_ID_Eclipse" GUID="{BFE764B3-1EFB-4DEA-8215-708BBABA3D57}"/>
+						<State Id="941516329" Name="K25_ID_Gemini" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K25_ID_Gemini" GUID="{407838BD-2CB6-4F58-A07A-7F63E9EAEF93}"/>
+						<State Id="1992808187" Name="K26_ID_Ion" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K26_ID_Ion" GUID="{8423CC97-EF52-49D2-9967-B66686724E5A}"/>
+						<State Id="3720215239" Name="K27_ID_Kepler" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K27_ID_Kepler" GUID="{18BBFF90-3192-47F7-894F-52B85E31834F}"/>
+						<State Id="260477269" Name="K28_ID_Meteor" ObjectPath="\States\STATES_KILLER\STATE_K00_COMMON\AudioStateKillers\K28_ID_Meteor" GUID="{71A4CC9E-2761-499C-8745-42B00EDB2FB4}"/>
+					</States>
 				</StateGroup>
 				<StateGroup Id="1190562688" Name="AudioStateIndoor_16_Wales" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales" GUID="{41233139-BD1B-436B-885C-8DE852E1351F}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\None" GUID="{70BF7997-6626-4FBE-A196-EEDF40E71610}"/>
 						<State Id="3181290329" Name="AudioStateIndoor_16_Wales_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_KillerBasement" GUID="{9BDDDCDF-5E79-40A0-AF15-65330458D37A}"/>
 						<State Id="3792840902" Name="AudioStateIndoor_16_Wales_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_KillerBasement_Stairs" GUID="{AAFA5977-408C-45EA-8EBB-AA45E4CE3BB5}"/>
-						<State Id="2261177801" Name="AudioStateIndoor_16_Wales_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_Shack" GUID="{60B55875-492A-4E3B-A63C-8DA5446C6270}"/>
 						<State Id="918417020" Name="AudioStateIndoor_16_Wales_Corridors" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_Corridors" GUID="{76F4739F-C4EF-41EE-979D-FC804BF3EB5E}"/>
 						<State Id="2404241852" Name="AudioStateIndoor_16_Wales_TinyRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_TinyRoom" GUID="{EF12886B-0621-433D-AEB1-02AEF01E49C2}"/>
 						<State Id="1506237041" Name="AudioStateIndoor_16_Wales_StandardRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_StandardRoom" GUID="{8902A596-DE93-4F78-B612-9887649CFC2A}"/>
@@ -1600,16 +1503,16 @@
 				<StateGroup Id="1348962375" Name="AudioStateOutdoor_16_Wales" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales" GUID="{1041FC41-71C6-430A-ADE3-E31E4ADB2F33}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\None" GUID="{3F3AB504-55EB-48AE-ADB0-9FE23212F672}"/>
-						<State Id="1015281404" Name="AudioStateOutdoor_16_Wales_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Exterior" GUID="{EDC593E7-2370-43F9-921A-31C155B5B678}"/>
-						<State Id="2863686220" Name="AudioStateOutdoor_16_Wales_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Forest_High" GUID="{099B16C2-9AD7-4C17-AB12-6B8E889F32D3}"/>
-						<State Id="2765755210" Name="AudioStateOutdoor_16_Wales_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Forest_Med" GUID="{1CA2E088-ACA0-4E54-8C58-B86D5399D04E}"/>
-						<State Id="2060947982" Name="AudioStateOutdoor_16_Wales_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Forest_Low" GUID="{84D65F81-7327-423F-BB93-97FE69704883}"/>
+						<State Id="2274065114" Name="AudioStateOutdoor_16_Wales_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Outdoor" GUID="{EDC593E7-2370-43F9-921A-31C155B5B678}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="1506237041" Name="AudioStateIndoor_16_Wales_StandardRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_StandardRoom" GUID="{8902A596-DE93-4F78-B612-9887649CFC2A}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2274065114" Name="AudioStateOutdoor_16_Wales_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateOutdoor_16_Wales\AudioStateOutdoor_16_Wales_Outdoor" GUID="{EDC593E7-2370-43F9-921A-31C155B5B678}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2404241852" Name="AudioStateIndoor_16_Wales_TinyRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_TinyRoom" GUID="{EF12886B-0621-433D-AEB1-02AEF01E49C2}">

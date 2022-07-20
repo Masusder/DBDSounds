@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Meteor_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2277168142" GUID="{D1EBDF9B-2717-45C3-BC53-9ADE764205D9}" Language="SFX" Hash="592900646">
+		<SoundBank Id="2277168142" GUID="{D1EBDF9B-2717-45C3-BC53-9ADE764205D9}" Language="SFX" Hash="3968811219">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Bookshelf</ObjectPath>
 			<ShortName>Bookshelf</ShortName>
 			<Path>Bookshelf.bnk</Path>
@@ -101,7 +101,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}"/>
+						<ActionPostEventEntry Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}"/>
 					</ActionPostEvent>
 				</Event>
 				<Event Id="2439859385" Name="AudioEvent_Bookshelf_Killer_Hit" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Killer_Hit" GUID="{0052D27A-E1B3-4905-9089-0E0B3C4E3423}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.264825" DurationMax="0.589280">
@@ -153,7 +153,7 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="2917585444" Name="AudioEvent_Bookshelf_Shake" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Bookshelf\AudioEvent_Bookshelf_Shake" GUID="{49FCCBC8-7D7A-4ACC-8C16-81E7B9F2F445}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
-				<Event Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+				<Event Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
 					<ExcludedMemoryFiles>
 						<File Id="269314220" Language="SFX">
 							<ShortName>Haptic\sfx_haptic_killer_kick_breakable.wav</ShortName>
@@ -281,7 +281,6 @@
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="1578741416" Name="AudioRTPC_K28_VOL_Villagers_Grunts" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K28_Meteor\AudioRTPC_K28_VOL_Villagers_Grunts" GUID="{297DF2AF-C11B-4ACF-8E9F-F57F5B002AED}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 		</SoundBank>

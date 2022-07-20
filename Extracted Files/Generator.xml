@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Meteor_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="334231652" GUID="{B167D504-F8AE-47B1-AF9F-4C6C54368D3D}" Language="SFX" Hash="3988291042">
+		<SoundBank Id="334231652" GUID="{B167D504-F8AE-47B1-AF9F-4C6C54368D3D}" Language="SFX" Hash="126954533">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Generator</ObjectPath>
 			<ShortName>Generator</ShortName>
 			<Path>Generator.bnk</Path>
@@ -73,7 +73,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3420801287" Name="AudioEvent_HAPTIC_Generator_Explode" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_Generator_Explode" GUID="{BA0D09EA-4DB6-49EC-9702-6B32457B11FE}"/>
+						<ActionPostEventEntry Id="3420801287" Name="AudioEvent_HAPTIC_Generator_Explode" ObjectPath="\Events\HAPTIC\OBJ\AudioEvent_HAPTIC_Generator_Explode" GUID="{BA0D09EA-4DB6-49EC-9702-6B32457B11FE}"/>
 					</ActionPostEvent>
 				</Event>
 				<Event Id="1254827418" Name="AudioEvent_Generator_Kick" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Generator\AudioEvent_Generator_Kick" GUID="{D1F4DE0F-CF3B-46A4-988A-0DE81D85198D}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.537792" DurationMax="0.771165">
@@ -88,7 +88,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}"/>
+						<ActionPostEventEntry Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}"/>
 					</ActionPostEvent>
 				</Event>
 				<Event Id="2524935974" Name="AudioEvent_Generator_LunarEvent_Indoor" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Generator\AudioEvent_Generator_LunarEvent_Indoor" GUID="{0AEA971C-AA71-4ED7-A1AD-96980B025CF8}" MaxAttenuation="6400.000000" DurationType="OneShot" DurationMin="1.166654" DurationMax="1.848954">
@@ -663,7 +663,7 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="126593371" Name="AudioEvent_Generator_Start_Fail" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Generator\AudioEvent_Generator_Start_Fail" GUID="{8C6A49ED-9E73-47C4-B6C0-18D8A949CC4B}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3420801287" Name="AudioEvent_HAPTIC_Generator_Explode" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_Generator_Explode" GUID="{BA0D09EA-4DB6-49EC-9702-6B32457B11FE}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+				<Event Id="3420801287" Name="AudioEvent_HAPTIC_Generator_Explode" ObjectPath="\Events\HAPTIC\OBJ\AudioEvent_HAPTIC_Generator_Explode" GUID="{BA0D09EA-4DB6-49EC-9702-6B32457B11FE}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
 					<ExcludedMemoryFiles>
 						<File Id="165690208" Language="SFX">
 							<ShortName>Haptic\sfx_haptic_generator_explose.wav</ShortName>
@@ -671,7 +671,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+				<Event Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
 					<ExcludedMemoryFiles>
 						<File Id="981772705" Language="SFX">
 							<ShortName>Haptic\sfx_haptic_killer_kick_metal.wav</ShortName>
@@ -1100,7 +1100,6 @@
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1061379423" Name="AudioRTPC_Generator_Piston_Rate" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_Generator_Piston_Rate" GUID="{ADE5ED72-001E-4501-B3C5-44433191BB76}"/>
-				<GameParameter Id="1578741416" Name="AudioRTPC_K28_VOL_Villagers_Grunts" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K28_Meteor\AudioRTPC_K28_VOL_Villagers_Grunts" GUID="{297DF2AF-C11B-4ACF-8E9F-F57F5B002AED}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 		</SoundBank>

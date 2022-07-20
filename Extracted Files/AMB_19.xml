@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Meteor_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970212" GUID="{00BD0D69-BD44-4785-8A77-C39D2BC10195}" Language="SFX" Hash="1195213071">
+		<SoundBank Id="2215970212" GUID="{00BD0D69-BD44-4785-8A77-C39D2BC10195}" Language="SFX" Hash="1682584312">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_19</ObjectPath>
 			<ShortName>AMB_19</ShortName>
 			<Path>AMB_19.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1088892183" Name="AudioEvent_AM_Intro_19_Meteor" ObjectPath="\Events\AMBIENCE\AMB_T19_Meteor\AudioEvent_AM_Intro_19_Meteor" GUID="{A106444D-6E08-44CF-9726-12C8265BC6D5}" DurationType="OneShot" DurationMin="9.500000" DurationMax="9.500000">
+					<ExcludedMemoryFiles>
+						<File Id="51988531" Language="SFX">
+							<ShortName>Ambience\Intros\am_t19_meteor_intro_01.wav</ShortName>
+							<Path>SFX\Ambience\Intros\am_t19_meteor_intro_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="888713615" Name="AudioEvent_AM_T19_Escape" ObjectPath="\Events\AMBIENCE\AMB_T19_Meteor\AMB_T19_TILE\AudioEvent_AM_T19_Escape" GUID="{309814B8-B60D-4E33-8DB8-3179DAA51935}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768791" Language="SFX">
@@ -2034,6 +2042,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1088892183" Name="AudioEvent_AM_Intro_19_Meteor" ObjectPath="\Events\AMBIENCE\AMB_T19_Meteor\AudioEvent_AM_Intro_19_Meteor" GUID="{A106444D-6E08-44CF-9726-12C8265BC6D5}"/>
+					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
@@ -2550,6 +2561,10 @@
 				<File Id="45485526" Language="SFX">
 					<ShortName>Ambience\Themes\T19_Meteor\am_t19_meteor_rdm_house_doorslam_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T19_Meteor\am_t19_meteor_rdm_house_doorslam_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="51988531" Language="SFX">
+					<ShortName>Ambience\Intros\am_t19_meteor_intro_01.wav</ShortName>
+					<Path>SFX\Ambience\Intros\am_t19_meteor_intro_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="52164805" Language="SFX">
 					<ShortName>Ambience\Themes\T19_Meteor\am_t19_meteor_rdm_house_horror_02.wav</ShortName>

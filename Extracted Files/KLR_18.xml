@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Meteor_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Meteor\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338086" GUID="{4C7CC283-45BB-4205-B37F-7A1231FB7A38}" Language="SFX" Hash="3361935081">
+		<SoundBank Id="1474338086" GUID="{4C7CC283-45BB-4205-B37F-7A1231FB7A38}" Language="SFX" Hash="1456009713">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_18</ObjectPath>
 			<ShortName>KLR_18</ShortName>
 			<Path>KLR_18.bnk</Path>
@@ -296,6 +296,290 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="1970266691" Name="AudioEvent_K18_WPN_Default_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_WEAPON\AudioEvent_K18_WPN_Default_Katana_PullOut" GUID="{BA9ECFAD-E8B5-4459-B948-264E8D8D9C9D}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.831081" DurationMax="0.932857">
+					<IncludedMemoryFiles>
+						<File Id="114538549" Language="SFX">
+							<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_pullout_01.wav</ShortName>
+							<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_pullout_01_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3813406573" Name="AudioEvent_K18_WPN_Outfit012_Katana_Arm" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_WEAPON\AudioEvent_K18_WPN_Outfit012_Katana_Arm" GUID="{5F0AD909-F974-4133-9A8A-2F9594A3ACD2}" MaxAttenuation="1250.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="105156905" Language="SFX">
+							<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_04.wav</ShortName>
+							<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="217540830" Language="SFX">
+							<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_05.wav</ShortName>
+							<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="336889655" Language="SFX">
+							<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_02.wav</ShortName>
+							<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="456723581" Language="SFX">
+							<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_03.wav</ShortName>
+							<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="630301913" Language="SFX">
+							<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_01.wav</ShortName>
+							<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_01_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2092970325" Name="AudioEvent_K18_WPN_Outfit012_Katana_Attack" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_WEAPON\AudioEvent_K18_WPN_Outfit012_Katana_Attack" GUID="{E955FA55-4052-48AF-9B01-C6DC487CAF31}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.846688" DurationMax="1.890563">
+					<IncludedMemoryFiles>
+						<File Id="36688070" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="402332074" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="434761405" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="605945255" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="775188193" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_01_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1253646452" Name="AudioEvent_K18_WPN_Outfit012_Katana_Clean" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_WEAPON\AudioEvent_K18_WPN_Outfit012_Katana_Clean" GUID="{1872CE0B-5C2B-4949-9831-D6FB056349F3}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.152375">
+					<IncludedMemoryFiles>
+						<File Id="222957942" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="290433503" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="296389216" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="356953668" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="364311665" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_01_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="736548831" Name="AudioEvent_K18_WPN_Outfit012_Katana_Impact" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_WEAPON\AudioEvent_K18_WPN_Outfit012_Katana_Impact" GUID="{85042856-27E4-4FC2-B327-6341E45C53E1}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.500000">
+					<IncludedMemoryFiles>
+						<File Id="612515788" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_05.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="701834136" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_02.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="844743636" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_03.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="996021092" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_04.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1014664088" Language="SFX">
+							<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_01.wav</ShortName>
+							<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_01_7FA8D501.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{38536567-1A12-4FD1-8DCF-06603790A598}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{48A06FE5-D77E-440C-BC12-44D3DFE248E2}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media>
+								<File Id="612515788"/>
+								<File Id="701834136"/>
+								<File Id="844743636"/>
+								<File Id="996021092"/>
+								<File Id="1014664088"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4271312564" Name="AudioEvent_K18_WPN_Outfit012_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_WEAPON\AudioEvent_K18_WPN_Outfit012_Katana_PullOut" GUID="{670FCA72-1274-4C55-B3E3-8B80C39DE992}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.831081" DurationMax="0.932857">
 					<IncludedMemoryFiles>
 						<File Id="114538549" Language="SFX">
 							<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_pullout_01.wav</ShortName>
@@ -684,11 +968,17 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="3511468689" Name="AudioEvent_KLR_18_Status_Set_Crazy" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_STATUS\AudioEvent_KLR_18_Status_Set_Crazy" GUID="{355600BD-2391-42BF-8FB0-D01923421022}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1651971902" Name="On" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\On" GUID="{C0FB0CB3-D129-4DDA-92E6-348A173E46BF}"/>
+					</ActionSetState>
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="2930662992" Name="Crazy" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus\Crazy" GUID="{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}"/>
 					</ActionSetSwitch>
 				</Event>
 				<Event Id="2082143255" Name="AudioEvent_KLR_18_Status_Set_Normal" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_STATUS\AudioEvent_KLR_18_Status_Set_Normal" GUID="{4B4155B0-4979-4CFB-998C-1B4B28DD58DD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\Off" GUID="{384EFF3F-DA44-4F7C-997F-9E684D20A819}"/>
+					</ActionSetState>
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="1160234136" Name="Normal" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus\Normal" GUID="{965881D7-B79B-4E1A-84CA-3422D7CB19F6}"/>
 					</ActionSetSwitch>
@@ -902,6 +1192,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\Off" GUID="{384EFF3F-DA44-4F7C-997F-9E684D20A819}"/>
+					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
@@ -1246,6 +1539,10 @@
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_stun_normal_03.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_stun_normal_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="36688070" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="41069018" Language="SFX">
 					<ShortName>Powers\PWR_18_Sweden\sfx_sweden_power_abs_loop_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_18_Sweden\sfx_sweden_power_abs_loop_02_256CDB0F.wem</Path>
@@ -1394,6 +1691,10 @@
 					<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_05.wav</ShortName>
 					<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_arm_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="222957942" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="260786669" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_state_normal_out_05.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_state_normal_out_05_7FA8D501.wem</Path>
@@ -1409,6 +1710,14 @@
 				<File Id="268060075" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_k18_bodymove_custom_fur_05.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_k18_bodymove_custom_fur_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="290433503" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="296389216" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="311579565" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_k18_bodymove_custom_fur_01.wav</ShortName>
@@ -1446,6 +1755,10 @@
 					<ShortName>Powers\PWR_18_Sweden\sfx_sweden_power_abs_single_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_18_Sweden\sfx_sweden_power_abs_single_04_543143D4.wem</Path>
 				</File>
+				<File Id="356953668" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="359214145" Language="SFX">
 					<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_appear_01.wav</ShortName>
 					<Path>SFX\Weapons\Sweden_Weapon\sfx_wpn_sweden_appear_01_7FA8D501.wem</Path>
@@ -1457,6 +1770,10 @@
 				<File Id="362162868" Language="SFX">
 					<ShortName>Powers\PWR_18_Sweden\PWR_Sweden_Mod_Ready_Bounce.wav</ShortName>
 					<Path>SFX\Powers\PWR_18_Sweden\PWR_Sweden_Mod_Ready_Bounce_7FA8D501.wem</Path>
+				</File>
+				<File Id="364311665" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_clean_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_clean_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="381689181" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_state_crazy_out_02.wav</ShortName>
@@ -1470,6 +1787,10 @@
 					<ShortName>Powers\PWR_18_Sweden\sfx_sweden_power_clu_impact_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_18_Sweden\sfx_sweden_power_clu_impact_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="402332074" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="424643324" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_state_crazy_out_03.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_state_crazy_out_03_7FA8D501.wem</Path>
@@ -1481,6 +1802,10 @@
 				<File Id="427053749" Language="SFX">
 					<ShortName>Powers\PWR_18_Sweden\sfx_sweden_power_mod_start_B_04.wav</ShortName>
 					<Path>SFX\Powers\PWR_18_Sweden\sfx_sweden_power_mod_start_B_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="434761405" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="436679564" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_attack_small_03.wav</ShortName>
@@ -1558,6 +1883,14 @@
 					<ShortName>Powers\PWR_18_Sweden\sfx_sweden_power_mod_loop_01.wav</ShortName>
 					<Path>SFX\Powers\PWR_18_Sweden\sfx_sweden_power_mod_loop_01_256CDB0F.wem</Path>
 				</File>
+				<File Id="605945255" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="612515788" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="613831969" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_state_normal_out_03.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_state_normal_out_03_7FA8D501.wem</Path>
@@ -1622,6 +1955,10 @@
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_state_normal_out_04.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_state_normal_out_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="701834136" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="702141472" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_state_normal_in_03.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_state_normal_in_03_7FA8D501.wem</Path>
@@ -1657,6 +1994,10 @@
 				<File Id="772738665" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_grunt_mod_start_07.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_grunt_mod_start_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="775188193" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="776118871" Language="SFX">
 					<ShortName>Weapons\Sweden_Weapon\sfx_wpn_sweden_clean_01.wav</ShortName>
@@ -1717,6 +2058,10 @@
 				<File Id="837907994" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_attack_big_06.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_attack_big_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="844743636" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="851475598" Language="SFX">
 					<ShortName>Powers\PWR_18_Sweden\sfx_sweden_power_mod_start_B_03.wav</ShortName>
@@ -1806,9 +2151,17 @@
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_state_crazy_in_07.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_state_crazy_in_07_7FA8D501.wem</Path>
 				</File>
+				<File Id="996021092" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="1002051267" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_attack_small_06.wav</ShortName>
 					<Path>SFX\Characters\KLR_18\sfx_killer_sweden_attack_small_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="1014664088" Language="SFX">
+					<ShortName>Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_18\sfx_k19_outfit012_wpn_attack_impact_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="1019354244" Language="SFX">
 					<ShortName>Characters\KLR_18\sfx_killer_sweden_attack_small_04.wav</ShortName>
@@ -1862,6 +2215,14 @@
 				<GameParameter Id="2935614212" Name="AudioRTPC_Chase_Survivor" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Chase_Survivor" GUID="{173C4D0D-11E9-4F47-871B-1284E8907774}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="930712164" Name="Off" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\Off" GUID="{384EFF3F-DA44-4F7C-997F-9E684D20A819}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1651971902" Name="On" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\On" GUID="{C0FB0CB3-D129-4DDA-92E6-348A173E46BF}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="567149230" Name="AudioSwitchKillerStatus" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus" GUID="{5E0E1C0C-CB8F-41D8-BA3B-513852C61BE1}">
 					<Switches>
