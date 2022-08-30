@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338086" GUID="{4C7CC283-45BB-4205-B37F-7A1231FB7A38}" Language="SFX" Hash="1456009713">
+		<SoundBank Id="1474338086" GUID="{4C7CC283-45BB-4205-B37F-7A1231FB7A38}" Language="SFX" Hash="3461644181">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_18</ObjectPath>
 			<ShortName>KLR_18</ShortName>
 			<Path>KLR_18.bnk</Path>
@@ -968,17 +968,11 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="3511468689" Name="AudioEvent_KLR_18_Status_Set_Crazy" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_STATUS\AudioEvent_KLR_18_Status_Set_Crazy" GUID="{355600BD-2391-42BF-8FB0-D01923421022}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1651971902" Name="On" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\On" GUID="{C0FB0CB3-D129-4DDA-92E6-348A173E46BF}"/>
-					</ActionSetState>
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="2930662992" Name="Crazy" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus\Crazy" GUID="{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}"/>
 					</ActionSetSwitch>
 				</Event>
 				<Event Id="2082143255" Name="AudioEvent_KLR_18_Status_Set_Normal" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_STATUS\AudioEvent_KLR_18_Status_Set_Normal" GUID="{4B4155B0-4979-4CFB-998C-1B4B28DD58DD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetState>
-						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\Off" GUID="{384EFF3F-DA44-4F7C-997F-9E684D20A819}"/>
-					</ActionSetState>
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="1160234136" Name="Normal" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus\Normal" GUID="{965881D7-B79B-4E1A-84CA-3422D7CB19F6}"/>
 					</ActionSetSwitch>
@@ -1192,9 +1186,6 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
-					<ActionSetState>
-						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\Off" GUID="{384EFF3F-DA44-4F7C-997F-9E684D20A819}"/>
-					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
@@ -1466,6 +1457,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1538712058" Name="AudioEvent_PWR_Sweden_Mod_Stop_Menu" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_POWER\AudioEvent_PWR_Sweden_Mod_Stop_Menu" GUID="{52B078EF-77E6-4712-B2A9-80D1A3803E2F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1395717966" Name="AudioEvent_WPN_Sweden_Appear" ObjectPath="\Events\CHARACTER\KILLER\K18_Sweden\K18_WEAPON\AudioEvent_WPN_Sweden_Appear" GUID="{44E3E5F8-AD2D-4CE4-8017-8380A3E6B0F5}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.437333" DurationMax="1.437333">
 					<IncludedMemoryFiles>
 						<File Id="359214145" Language="SFX">
@@ -2215,14 +2207,6 @@
 				<GameParameter Id="2935614212" Name="AudioRTPC_Chase_Survivor" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Chase_Survivor" GUID="{173C4D0D-11E9-4F47-871B-1284E8907774}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
-			<StateGroups>
-				<StateGroup Id="930712164" Name="Off" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\Off" GUID="{384EFF3F-DA44-4F7C-997F-9E684D20A819}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="1651971902" Name="On" ObjectPath="\States\STATES_KILLER\STATE_K18_Sweden\AudioStateKillerSwedenDemon\On" GUID="{C0FB0CB3-D129-4DDA-92E6-348A173E46BF}">
-					<States/>
-				</StateGroup>
-			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="567149230" Name="AudioSwitchKillerStatus" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus" GUID="{5E0E1C0C-CB8F-41D8-BA3B-513852C61BE1}">
 					<Switches>

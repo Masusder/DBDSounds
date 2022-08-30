@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970218" GUID="{0A4332AD-9D23-41E3-A0F3-21B0E042F5B2}" Language="SFX" Hash="2841067746">
+		<SoundBank Id="2215970218" GUID="{0A4332AD-9D23-41E3-A0F3-21B0E042F5B2}" Language="SFX" Hash="3282565841">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_17</ObjectPath>
 			<ShortName>AMB_17</ShortName>
 			<Path>AMB_17.bnk</Path>
@@ -179,6 +179,18 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="854873246" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="960744307" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001725051" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
 						<File Id="53937288" Language="SFX">
@@ -217,10 +229,6 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="854873246" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="882371046" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02_7FA8D501.wem</Path>
@@ -228,14 +236,6 @@
 						<File Id="902503328" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="960744307" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="1001725051" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
@@ -347,7 +347,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
+						<ActionSetStateEntry Id="3535830391" Name="AudioStateIndoor_17_Eclipse_Corridor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Corridor" GUID="{A7B47DA6-6D3C-40D7-82E4-0E6AD8286EDE}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3094848613" Name="AudioEvent_AM_T17_CorridorEast2F" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_CorridorEast2F" GUID="{6C23D8C9-7E0A-43BB-8355-7B1B21BA2C01}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
@@ -711,11 +711,23 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2035705221" Name="AudioEvent_AM_T17_Escape_Back" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_Escape_Back" GUID="{C859962D-5E9F-44CB-AE1C-EAB933E5F05A}" DurationType="Infinite">
+				<Event Id="749643889" Name="AudioEvent_AM_T17_Escape" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_Escape" GUID="{C859962D-5E9F-44CB-AE1C-EAB933E5F05A}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="56348823" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="854873246" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="960744307" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001725051" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -755,10 +767,6 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="854873246" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="882371046" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02_7FA8D501.wem</Path>
@@ -767,17 +775,10 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="960744307" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="1001725051" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
-						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="1885676076" Name="AudioStateIndoor_17_Eclipse_Escape" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Escape" GUID="{6D1A4D69-09E3-480E-98DA-70520F261B91}"/>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
 					</ActionSetState>
 					<AuxBusSends>
@@ -785,11 +786,23 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3544590602" Name="AudioEvent_AM_T17_Escape_MainHall" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_Escape_MainHall" GUID="{B68500FA-E419-448A-98F4-1A5995F822F8}" DurationType="Infinite">
+				<Event Id="2584574275" Name="AudioEvent_AM_T17_Fence" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_Fence" GUID="{567C7F29-B346-41BE-9F3C-DC4723AF4785}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="56348823" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="854873246" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="960744307" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001725051" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -829,10 +842,6 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="854873246" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="882371046" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02_7FA8D501.wem</Path>
@@ -841,18 +850,10 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="960744307" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="1001725051" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
-						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
+						<ActionSetStateEntry Id="953350907" Name="AudioStateOutdoor_17_Eclipse_Fence" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Fence" GUID="{38F37F2D-7E44-400F-8A06-53C42053C0C3}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -865,6 +866,18 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="854873246" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="960744307" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001725051" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
 						<File Id="53937288" Language="SFX">
@@ -903,10 +916,6 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="854873246" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="882371046" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02_7FA8D501.wem</Path>
@@ -915,6 +924,26 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
+					</ExcludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
+						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2996089229" Name="AudioEvent_AM_T17_FrontYard" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_FrontYard" GUID="{49EBBAE4-B9F2-4C11-BDBA-DEED78F4B408}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="56348823" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="854873246" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
+						</File>
 						<File Id="960744307" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
@@ -922,6 +951,52 @@
 						<File Id="1001725051" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="53937288" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_04.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="87369998" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_09.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="131236579" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="150843565" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="180157614" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_08.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="222710650" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="401481721" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_07.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_explosion_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="604239919" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="698100218" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="882371046" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="902503328" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
@@ -1117,7 +1192,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491504" Name="AudioStateIndoor_17_Eclipse_Roomtone_03" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_03" GUID="{9ACAC825-3108-4C2F-A476-A58FCCECDBBA}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3867745021" Name="AudioEvent_AM_T17_LockerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_LockerRoom" GUID="{0EFA1E95-7E85-4B01-BE41-0D2FA8B23F05}" DurationType="Infinite">
@@ -1190,11 +1265,11 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
+						<ActionPostEventEntry Id="1405370630" Name="AudioEvent_Rev_Int_17_Eclipse_LockerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_LockerRoom" GUID="{B35AF84C-E196-45A7-B0CA-244E581BAB1C}"/>
 					</ActionPostEvent>
 					<ActionSetState>
+						<ActionSetStateEntry Id="2007309418" Name="AudioStateIndoor_17_Eclipse_ShowerRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_ShowerRoom" GUID="{FE716EEA-B97A-4E12-BE58-66C7832C546D}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -1275,7 +1350,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -1891,7 +1966,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -1999,6 +2074,18 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="854873246" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="960744307" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001725051" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
 						<File Id="53937288" Language="SFX">
@@ -2037,10 +2124,6 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="854873246" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="882371046" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02_7FA8D501.wem</Path>
@@ -2048,14 +2131,6 @@
 						<File Id="902503328" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_explosion_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="960744307" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="1001725051" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
@@ -2099,10 +2174,10 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2438308428" Name="AudioEvent_AM_T17_ShowersRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_ShowersRoom" GUID="{76A60F65-4DD0-4C2C-9A37-629556B5B95C}" DurationType="Infinite">
+				<Event Id="4067484219" Name="AudioEvent_AM_T17_ShowerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_ShowerRoom" GUID="{A8CECE4A-A7BE-4C5B-95BD-E9087BE15925}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768791" Language="SFX">
 							<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -2175,8 +2250,8 @@
 						<ActionPostEventEntry Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}"/>
 					</ActionPostEvent>
 					<ActionSetState>
+						<ActionSetStateEntry Id="2007309418" Name="AudioStateIndoor_17_Eclipse_ShowerRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_ShowerRoom" GUID="{FE716EEA-B97A-4E12-BE58-66C7832C546D}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\2D\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
@@ -2718,7 +2793,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2415084935" Name="AudioEvent_Rev_Int_17_Eclipse_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_TinyRooms" GUID="{96051F08-3A99-4C4E-BCDC-99B9F523AA78}"/>
+						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -2731,9 +2806,9 @@
 				</Event>
 				<Event Id="2379039975" Name="AudioEvent_AM_Theme_17_Eclipse" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AudioEvent_AM_Theme_17_Eclipse" GUID="{83B50DE1-BED0-4416-9817-25E0E5318703}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
-						<File Id="21566629" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_02_256CDB0F.wem</Path>
+						<File Id="660518" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_03_1CA7F9F2.wem</Path>
 						</File>
 						<File Id="43388117" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_corridor_01.wav</ShortName>
@@ -2759,6 +2834,14 @@
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_creepy_02.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_creepy_02_256CDB0F.wem</Path>
 						</File>
+						<File Id="366491651" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_lockerroom_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_lockerroom_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="482854202" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_03.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_03_256CDB0F.wem</Path>
+						</File>
 						<File Id="513139319" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_killerbasement_background01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_killerbasement_background01_256CDB0F.wem</Path>
@@ -2769,15 +2852,19 @@
 						</File>
 						<File Id="757139910" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_mainhall_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_mainhall_01_9675377F.wem</Path>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_mainhall_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="797414846" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_01.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_01_5E28402B.wem</Path>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="950330401" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_escape_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_escape_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="988438301" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_02_992616F5.wem</Path>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_02_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -2792,6 +2879,11 @@
 								<File Id="797414846"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9ACAC825-3108-4C2F-A476-A58FCCECDBBA}">
+							<Media>
+								<File Id="482854202"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{2BE29629-992F-46CE-B669-EA3B7E8458BB}">
 							<Media>
 								<File Id="797414846"/>
@@ -2802,8 +2894,14 @@
 								<File Id="988438301"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6D1A4D69-09E3-480E-98DA-70520F261B91}">
+							<Media>
+								<File Id="950330401"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5C4F707D-F2FC-4265-B887-12E3312A01CF}">
 							<Media>
+								<File Id="43388117"/>
 								<File Id="334168479"/>
 							</Media>
 						</SwitchContainer>
@@ -2839,12 +2937,23 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{A2D6A3DF-BA9E-4425-84D0-F4E5518EB571}">
 							<Media>
+								<File Id="43388117"/>
 								<File Id="175044898"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{27111CE2-39B8-4368-9143-E6A221911956}">
 							<Media>
 								<File Id="757139910"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FE716EEA-B97A-4E12-BE58-66C7832C546D}">
+							<Media>
+								<File Id="366491651"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{38F37F2D-7E44-400F-8A06-53C42053C0C3}">
+							<Media>
+								<File Id="293834556"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C6908D2F-3E80-464A-A2AE-2F93F9D79FC1}">
@@ -2872,6 +2981,7 @@
 				</Event>
 				<Event Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1405370630" Name="AudioEvent_Rev_Int_17_Eclipse_LockerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_LockerRoom" GUID="{B35AF84C-E196-45A7-B0CA-244E581BAB1C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2552625369" Name="AudioEvent_Rev_Int_17_Eclipse_MainHall" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MainHall" GUID="{1095FC2B-DDF0-4D6D-BE8D-42DE455964B6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2415084935" Name="AudioEvent_Rev_Int_17_Eclipse_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_TinyRooms" GUID="{96051F08-3A99-4C4E-BCDC-99B9F523AA78}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -2882,6 +2992,9 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_bathroom_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2268160850" Name="AudioEvent_T17_Emitter_Clock" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_Clock" GUID="{9E81F8D1-7C36-45DD-B782-437292E071D6}" MaxAttenuation="2500.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -2894,15 +3007,15 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2280520943" Name="AudioEvent_T17_Emitter_HelicopterFire" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_HelicopterFire" GUID="{34DB31E9-F93D-41EC-BEBF-08D40798997A}" MaxAttenuation="450.000000" DurationType="Infinite">
+				<Event Id="2440139794" Name="AudioEvent_T17_Emitter_EntitySurface" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_EntitySurface" GUID="{6BC01C9C-E5A7-4F5A-91E5-AF7A5935D45E}" MaxAttenuation="450.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
-						<File Id="631448382" Language="SFX">
-							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_helicopterfire_02.wav</ShortName>
-							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_helicopterfire_02_256CDB0F.wem</Path>
+						<File Id="308772319" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_entitysurface_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_entitysurface_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1017631414" Name="AudioEvent_T17_Emitter_HelicopterFire_Close" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_HelicopterFire_Close" GUID="{9CDCC81D-98A8-433A-AD66-823BDFCC487B}" MaxAttenuation="450.000000" DurationType="Infinite">
+				<Event Id="1017631414" Name="AudioEvent_T17_Emitter_HelicopterFire_Close" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_HelicopterFire_Close" GUID="{9CDCC81D-98A8-433A-AD66-823BDFCC487B}" MaxAttenuation="550.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="631448382" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_helicopterfire_02.wav</ShortName>
@@ -2918,15 +3031,34 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="463457403" Name="AudioEvent_T17_Emitter_PCNoiseScreen" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_PCNoiseScreen" GUID="{5287AEE5-FD1F-4AFF-AD6E-F8CFA3076DB2}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="4248165228" Name="AudioEvent_T17_Emitter_HelicopterFire_Mid" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_HelicopterFire_Mid" GUID="{74313F36-2955-484C-A1CB-B9C7D6CC42EF}" MaxAttenuation="1700.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="631448382" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_helicopterfire_02.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_helicopterfire_02_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3827390921" Name="AudioEvent_T17_Emitter_LimitPoint" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_LimitPoint" GUID="{A97AD9B8-D65C-45A7-AFFC-B8FC91AA61A0}" MaxAttenuation="800.000000" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="49740176" Language="SFX">
+							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_limitpoint_01.wav</ShortName>
+							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_limitpoint_01_256CDB0F.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="463457403" Name="AudioEvent_T17_Emitter_PCNoiseScreen" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_PCNoiseScreen" GUID="{5287AEE5-FD1F-4AFF-AD6E-F8CFA3076DB2}" MaxAttenuation="450.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="1066553287" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_pcnoisescreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_pcnoisescreen_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="370052547" Name="AudioEvent_T17_Emitter_Rain_Entrance" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_Rain_Entrance" GUID="{1E92B274-A641-4E72-B061-5FA784966B62}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="370052547" Name="AudioEvent_T17_Emitter_Rain_Entrance" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_Rain_Entrance" GUID="{1E92B274-A641-4E72-B061-5FA784966B62}" MaxAttenuation="1200.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="376347935" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_rainentrance_01.wav</ShortName>
@@ -2941,14 +3073,20 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_sodamachine_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="1591657033" Name="AudioEvent_T17_Emitter_ToiletOverflow" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_ToiletOverflow" GUID="{92A794BA-976C-47F9-80CF-BE0C25D5A878}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="1591657033" Name="AudioEvent_T17_Emitter_ToiletOverflow" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_ToiletOverflow" GUID="{92A794BA-976C-47F9-80CF-BE0C25D5A878}" MaxAttenuation="450.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="186609463" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_toiletoverflow_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_toiletoverflow_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1967862297" Name="AudioEvent_T17_Emitter_Ventilation" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_Ventilation" GUID="{F29F80AD-189D-447D-954A-800FCB2A6D56}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -2957,6 +3095,9 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_ventilation_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1169751334" Name="AudioEvent_T17_Emitter_WindowRain" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_WindowRain" GUID="{AC4A8492-540C-4E2F-8C22-05257D9A0163}" MaxAttenuation="850.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -2965,14 +3106,20 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowrain_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3712338046" Name="AudioEvent_T17_Emitter_WindowRainOpen" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_WindowRainOpen" GUID="{51FB57BE-90E1-4E02-AFC4-CA40B84A99F5}" MaxAttenuation="850.000000" DurationType="Infinite">
-					<ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
 						<File Id="376347935" Language="SFX">
 							<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_rainentrance_01.wav</ShortName>
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_rainentrance_01_256CDB0F.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3837149601" Name="AudioEvent_T17_Emitter_WindowsRainBig" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_WindowsRainBig" GUID="{4219BA28-956B-4FB7-8AAD-15B2AB8E70CB}" MaxAttenuation="1700.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -3041,6 +3188,9 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowmainhall_hits_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="551013395" Name="AudioEvent_T17_Emitter_ZombieHittingWindow_Hit" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_ZombieHittingWindow_Hit" GUID="{F8D9C181-5E38-48CC-8C8F-FB43CC842074}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.550000" DurationMax="1.209146">
 					<ExcludedMemoryFiles>
@@ -3128,16 +3278,23 @@
 							<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_zombiehittingwindow_grunts_10_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
-				<File Id="21566629" Language="SFX">
-					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_02_256CDB0F.wem</Path>
+				<File Id="660518" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_theme_quad_03_1CA7F9F2.wem</Path>
 				</File>
 				<File Id="43388117" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_corridor_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_corridor_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="49740176" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_limitpoint_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_limitpoint_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="56348823" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_helicopter_02.wav</ShortName>
@@ -3163,9 +3320,13 @@
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_creepy_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_creepy_02_256CDB0F.wem</Path>
 				</File>
-				<File Id="376347935" Language="SFX">
-					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_rainentrance_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_rainentrance_01_256CDB0F.wem</Path>
+				<File Id="366491651" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_lockerroom_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_lockerroom_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="482854202" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_03_256CDB0F.wem</Path>
 				</File>
 				<File Id="513139319" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_killerbasement_background01.wav</ShortName>
@@ -3177,15 +3338,31 @@
 				</File>
 				<File Id="757139910" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_mainhall_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_mainhall_01_9675377F.wem</Path>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_mainhall_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="797414846" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_01_5E28402B.wem</Path>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="854873246" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="950330401" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_escape_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_escape_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="960744307" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="988438301" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_02.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_02_992616F5.wem</Path>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_roomtone_02_256CDB0F.wem</Path>
+				</File>
+				<File Id="1001725051" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
 				</File>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
@@ -3280,6 +3457,10 @@
 				<File Id="307201512" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_bathroom_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_tile_bathroom_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="308772319" Language="SFX">
+					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_entitysurface_01.wav</ShortName>
+					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_entitysurface_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="316685440" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_mainhall_creak_10.wav</ShortName>
@@ -3481,10 +3662,6 @@
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowrain_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowrain_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="854873246" Language="SFX">
-					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="882371046" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_gunshot_02_7FA8D501.wem</Path>
@@ -3521,10 +3698,6 @@
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowmainhall_hits_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_windowmainhall_hits_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="960744307" Language="SFX">
-					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="976658057" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_zombiehittingwindow_impact_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_zombiehittingwindow_impact_01_7FA8D501.wem</Path>
@@ -3536,10 +3709,6 @@
 				<File Id="981832858" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_clock_01.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_clock_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="1001725051" Language="SFX">
-					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01.wav</ShortName>
-					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_outside_police_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="1014534181" Language="SFX">
 					<ShortName>Ambience\Themes\T17_Eclipse\am_t17_eclipse_rdm_mainhall_creak_12.wav</ShortName>
@@ -3554,14 +3723,26 @@
 					<Path>SFX\Ambience\Themes\T17_Eclipse\am_t17_eclipse_emt_pcnoisescreen_01_256CDB0F.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1218225334" Name="AudioRTPC_Amb_RainLeaves" ObjectPath="\Game Parameters\RTPC_AMBIENCE\AudioRTPC_Amb_RainLeaves" GUID="{3C805E77-E44A-4B70-88E6-CDEB0C61CA60}"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="953350907" Name="AudioStateOutdoor_17_Eclipse_Fence" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Fence" GUID="{38F37F2D-7E44-400F-8A06-53C42053C0C3}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1174546211" Name="AudioStateInOut_Top" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Top" GUID="{3B94DFE1-2DC3-4A3F-80AE-03CB1E9AB387}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1394601607" Name="AudioStateIndoor_17_Eclipse_SafeRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_SafeRoom" GUID="{2BE29629-992F-46CE-B669-EA3B7E8458BB}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1885676076" Name="AudioStateIndoor_17_Eclipse_Escape" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Escape" GUID="{6D1A4D69-09E3-480E-98DA-70520F261B91}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2007309418" Name="AudioStateIndoor_17_Eclipse_ShowerRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_ShowerRoom" GUID="{FE716EEA-B97A-4E12-BE58-66C7832C546D}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2105267649" Name="AudioStateIndoor_17_Eclipse_Creepy_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Creepy_01" GUID="{A2D6A3DF-BA9E-4425-84D0-F4E5518EB571}">
@@ -3574,6 +3755,9 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3032491504" Name="AudioStateIndoor_17_Eclipse_Roomtone_03" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_03" GUID="{9ACAC825-3108-4C2F-A476-A58FCCECDBBA}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}">
@@ -3599,6 +3783,7 @@
 						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\None" GUID="{C6908D2F-3E80-464A-A2AE-2F93F9D79FC1}"/>
 						<State Id="4208631474" Name="AudioStateOutdoor_17_Eclipse_Roof" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Roof" GUID="{3C3DA9E2-F0F2-490C-9904-7CF153F68CE0}"/>
 						<State Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
+						<State Id="953350907" Name="AudioStateOutdoor_17_Eclipse_Fence" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Fence" GUID="{38F37F2D-7E44-400F-8A06-53C42053C0C3}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="4208631474" Name="AudioStateOutdoor_17_Eclipse_Roof" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Roof" GUID="{3C3DA9E2-F0F2-490C-9904-7CF153F68CE0}">
@@ -3617,6 +3802,9 @@
 						<State Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 						<State Id="1394601607" Name="AudioStateIndoor_17_Eclipse_SafeRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_SafeRoom" GUID="{2BE29629-992F-46CE-B669-EA3B7E8458BB}"/>
 						<State Id="3435766995" Name="AudioStateIndoor_17_Eclipse_Bathroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Bathroom" GUID="{A32E4780-2CC5-43DC-8521-C41FB4B2D5A0}"/>
+						<State Id="1885676076" Name="AudioStateIndoor_17_Eclipse_Escape" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Escape" GUID="{6D1A4D69-09E3-480E-98DA-70520F261B91}"/>
+						<State Id="2007309418" Name="AudioStateIndoor_17_Eclipse_ShowerRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_ShowerRoom" GUID="{FE716EEA-B97A-4E12-BE58-66C7832C546D}"/>
+						<State Id="3032491504" Name="AudioStateIndoor_17_Eclipse_Roomtone_03" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_03" GUID="{9ACAC825-3108-4C2F-A476-A58FCCECDBBA}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

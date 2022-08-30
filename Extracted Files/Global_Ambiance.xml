@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX" Hash="2058080473">
+		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX" Hash="2265956936">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Ambiance</ObjectPath>
 			<ShortName>Global_Ambiance</ShortName>
 			<Path>Global_Ambiance.bnk</Path>
@@ -2061,7 +2061,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
+						<ActionSetStateEntry Id="3535830391" Name="AudioStateIndoor_17_Eclipse_Corridor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Corridor" GUID="{A7B47DA6-6D3C-40D7-82E4-0E6AD8286EDE}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3094848613" Name="AudioEvent_AM_T17_CorridorEast2F" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_CorridorEast2F" GUID="{6C23D8C9-7E0A-43BB-8355-7B1B21BA2C01}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
@@ -2133,16 +2133,16 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491504" Name="AudioStateIndoor_17_Eclipse_Roomtone_03" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_03" GUID="{9ACAC825-3108-4C2F-A476-A58FCCECDBBA}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3867745021" Name="AudioEvent_AM_T17_LockerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_LockerRoom" GUID="{0EFA1E95-7E85-4B01-BE41-0D2FA8B23F05}" DurationType="Infinite">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
+						<ActionPostEventEntry Id="1405370630" Name="AudioEvent_Rev_Int_17_Eclipse_LockerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_LockerRoom" GUID="{B35AF84C-E196-45A7-B0CA-244E581BAB1C}"/>
 					</ActionPostEvent>
 					<ActionSetState>
+						<ActionSetStateEntry Id="2007309418" Name="AudioStateIndoor_17_Eclipse_ShowerRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_ShowerRoom" GUID="{FE716EEA-B97A-4E12-BE58-66C7832C546D}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3325143382" Name="AudioEvent_AM_T17_Lounge" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_Lounge" GUID="{C413C23B-C8B0-4E14-90C0-805C3D76DCD3}" DurationType="Infinite">
@@ -2151,7 +2151,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="1859111566" Name="AudioEvent_AM_T17_MainHall" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_MainHall" GUID="{441300A8-6F72-4C01-BC1C-12DB6168AE1B}" DurationType="Infinite">
@@ -2196,7 +2196,7 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3910818457" Name="AudioEvent_AM_T17_SafetyDepositRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_SafetyDepositRoom" GUID="{44729361-21C6-4353-AD1B-71E6778AEEA3}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
@@ -2205,16 +2205,16 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
+						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2438308428" Name="AudioEvent_AM_T17_ShowersRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_ShowersRoom" GUID="{76A60F65-4DD0-4C2C-9A37-629556B5B95C}" DurationType="Infinite">
+				<Event Id="4067484219" Name="AudioEvent_AM_T17_ShowerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_ShowerRoom" GUID="{A8CECE4A-A7BE-4C5B-95BD-E9087BE15925}" DurationType="Infinite">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}"/>
 					</ActionPostEvent>
 					<ActionSetState>
+						<ActionSetStateEntry Id="2007309418" Name="AudioStateIndoor_17_Eclipse_ShowerRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_ShowerRoom" GUID="{FE716EEA-B97A-4E12-BE58-66C7832C546D}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
-						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="1493626920" Name="AudioEvent_AM_T17_WaitingRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_WaitingRoom" GUID="{061CBBB8-E675-4903-A780-A6CFF04D5521}" DurationType="Infinite">
@@ -2237,7 +2237,7 @@
 				</Event>
 				<Event Id="1829927149" Name="AudioEvent_AM_T17_WestOffice_SmallOffice" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_WestOffice_SmallOffice" GUID="{432CA2F4-D004-451E-8146-820C216C1A1D}" DurationType="Infinite">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2415084935" Name="AudioEvent_Rev_Int_17_Eclipse_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_TinyRooms" GUID="{96051F08-3A99-4C4E-BCDC-99B9F523AA78}"/>
+						<ActionPostEventEntry Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -2441,6 +2441,17 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3105660774" Name="AudioEvent_Emitter_Lobby_EntitySurface" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Lobby\AudioEvent_Emitter_Lobby_EntitySurface" GUID="{BDABF886-2BDA-4D10-B16F-4FA668C16577}" MaxAttenuation="450.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="839876022" Language="SFX">
+							<ShortName>Ambience\Menus\am_lobby_orion_emt_entitysurface_01.wav</ShortName>
+							<Path>SFX\Ambience\Menus\am_lobby_orion_emt_entitysurface_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="3895306974" Name="AudioEvent_Rev_Int_00_Common_Basement" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_Common_Basement" GUID="{F17D7500-F674-413B-A713-4B61C26F8953}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="85566087" Name="AudioEvent_Rev_Int_00_Common_Shack" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_Common_Shack" GUID="{A8132D4E-C776-44AF-B375-EFC8584F353A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3744645643" Name="AudioEvent_Rev_Int_00_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_SmallRoom" GUID="{044B5C6B-C8D5-423C-AB0A-5A2809A10068}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -2521,6 +2532,7 @@
 				<Event Id="4171944585" Name="AudioEvent_Rev_Int_16_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_WoodyRooms" GUID="{F133C8DA-6B78-4DB3-AC17-8E6C7A2E4816}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1932527996" Name="AudioEvent_Rev_Int_17_Eclipse_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Corridors" GUID="{1ED2104A-F67D-451C-AA6A-23AE7EE3B99D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1405370630" Name="AudioEvent_Rev_Int_17_Eclipse_LockerRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_LockerRoom" GUID="{B35AF84C-E196-45A7-B0CA-244E581BAB1C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2552625369" Name="AudioEvent_Rev_Int_17_Eclipse_MainHall" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MainHall" GUID="{1095FC2B-DDF0-4D6D-BE8D-42DE455964B6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3393303367" Name="AudioEvent_Rev_Int_17_Eclipse_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_MediumRoom" GUID="{DC140CFD-0833-4E55-8B26-97A30AC0B7FE}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2415084935" Name="AudioEvent_Rev_Int_17_Eclipse_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_TinyRooms" GUID="{96051F08-3A99-4C4E-BCDC-99B9F523AA78}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -3199,6 +3211,10 @@
 					<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="839876022" Language="SFX">
+					<ShortName>Ambience\Menus\am_lobby_orion_emt_entitysurface_01.wav</ShortName>
+					<Path>SFX\Ambience\Menus\am_lobby_orion_emt_entitysurface_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="847267806" Language="SFX">
 					<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_storehouse_creak_03.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_storehouse_creak_03_7FA8D501.wem</Path>
@@ -3599,6 +3615,9 @@
 				<StateGroup Id="2006515611" Name="AudioStateIndoor_09_England_BadHouse_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_09_England\AudioStateIndoor_09_England\AudioStateIndoor_09_England_BadHouse_Basement" GUID="{1010444D-A46D-42B0-BC04-17E696F94F89}">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="2007309418" Name="AudioStateIndoor_17_Eclipse_ShowerRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_ShowerRoom" GUID="{FE716EEA-B97A-4E12-BE58-66C7832C546D}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="2042991884" Name="AudioStateIndoor_06_Swamp_FerryBoat" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateIndoor_06_Swamp\AudioStateIndoor_06_Swamp_FerryBoat" GUID="{A6B77126-98B9-46C6-9CF1-E043B55493F0}">
 					<States/>
 				</StateGroup>
@@ -3723,6 +3742,9 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2984571332" Name="AudioStateIndoor_03_Farm_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_03_Farm\AudioStateIndoor_03_Farm\AudioStateIndoor_03_Farm_KillerBasement_Stairs" GUID="{386C7FA5-2FCE-45FC-8F37-32C3262169C5}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3032491504" Name="AudioStateIndoor_17_Eclipse_Roomtone_03" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_03" GUID="{9ACAC825-3108-4C2F-A476-A58FCCECDBBA}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}">

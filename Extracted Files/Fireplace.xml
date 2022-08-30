@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1404152342" GUID="{5A535951-9EFD-4A43-BAEA-772257B207CE}" Language="SFX" Hash="4109933464">
+		<SoundBank Id="1404152342" GUID="{5A535951-9EFD-4A43-BAEA-772257B207CE}" Language="SFX" Hash="2898290445">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Fireplace</ObjectPath>
 			<ShortName>Fireplace</ShortName>
 			<Path>Fireplace.bnk</Path>
@@ -22,6 +22,9 @@
 					</ReferencedStreamedFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2803472840" GUID="{8AD9436E-F0E5-49CF-A601-9BEEE2ECEDB8}" Language="SFX" Hash="3146536520">
+		<SoundBank Id="2803472840" GUID="{8AD9436E-F0E5-49CF-A601-9BEEE2ECEDB8}" Language="SFX" Hash="775888746">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_DECO\Tree_Leaves</ObjectPath>
 			<ShortName>Tree_Leaves</ShortName>
 			<Path>Tree_Leaves.bnk</Path>
@@ -19,7 +19,32 @@
 							<ShortName>Objects\Obj_Deco\Trees\sfx_tree_leaves_02.wav</ShortName>
 							<Path>SFX\Objects\Obj_Deco\Trees\sfx_tree_leaves_02_256CDB0F.wem</Path>
 						</File>
+						<File Id="925673672" Language="SFX">
+							<ShortName>Objects\Obj_Deco\Trees\sfx_tree_leaves_rain_01.wav</ShortName>
+							<Path>SFX\Objects\Obj_Deco\Trees\sfx_tree_leaves_rain_01_256CDB0F.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{392D48D3-A439-49FD-A660-02EECA04B588}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0B357E2A-2208-4807-8B0C-989322D1E564}">
+							<Media>
+								<File Id="183069567"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E666E02D-26CB-4485-879A-04307792AB79}">
+							<Media>
+								<File Id="925673672"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{392D48D3-A439-49FD-A660-02EECA04B588}">
+							<Media>
+								<File Id="183069567"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="691220562" Name="MENU_OBJECT_TreeLeaves_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_TreeLeaves_AUX" GUID="{FB30977F-6665-43C8-BB04-E8E2E6C207B8}"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -27,10 +52,20 @@
 					<ShortName>Objects\Obj_Deco\Trees\sfx_tree_leaves_02.wav</ShortName>
 					<Path>SFX\Objects\Obj_Deco\Trees\sfx_tree_leaves_02_256CDB0F.wem</Path>
 				</File>
+				<File Id="925673672" Language="SFX">
+					<ShortName>Objects\Obj_Deco\Trees\sfx_tree_leaves_rain_01.wav</ShortName>
+					<Path>SFX\Objects\Obj_Deco\Trees\sfx_tree_leaves_rain_01_256CDB0F.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
-			<GameParameters>
-				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
-			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3604948880" Name="AudioStateWeather" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather" GUID="{5A37C84E-42A2-4BF7-9173-263FBE28B45A}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\None" GUID="{0B357E2A-2208-4807-8B0C-989322D1E564}"/>
+						<State Id="2829968073" Name="AudioStateWeather_Rain" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\AudioStateWeather_Rain" GUID="{E666E02D-26CB-4485-879A-04307792AB79}"/>
+						<State Id="3039144286" Name="AudioStateWeather_Clear" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateWeather\AudioStateWeather_Clear" GUID="{392D48D3-A439-49FD-A660-02EECA04B588}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

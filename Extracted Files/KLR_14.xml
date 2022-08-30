@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Nova_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
+		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Nova\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338090" GUID="{44CB628A-31FB-4AFF-B6FD-C750792B5727}" Language="SFX" Hash="389417148">
+		<SoundBank Id="1474338090" GUID="{44CB628A-31FB-4AFF-B6FD-C750792B5727}" Language="SFX" Hash="193329037">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_14</ObjectPath>
 			<ShortName>KLR_14</ShortName>
 			<Path>KLR_14.bnk</Path>
@@ -26,6 +26,8 @@
 				<Event Id="3087003195" Name="AudioEvent_K14_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_CLOTH\AudioEvent_K14_CLOTH_Default_Move" GUID="{915A11F8-E5AB-4891-BAA6-33FA4FB25939}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.169660" DurationMax="1.691338"/>
 				<Event Id="2756317751" Name="AudioEvent_K14_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_CLOTH\AudioEvent_K14_CLOTH_Default_ShuffleHigh" GUID="{61EC92DF-70BD-483E-A02A-178A51D9E983}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
 				<Event Id="4237542755" Name="AudioEvent_K14_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_CLOTH\AudioEvent_K14_CLOTH_Default_ShuffleLow" GUID="{113817CE-E666-4256-B66E-AA550E3D70AE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
+				<Event Id="1890976199" Name="AudioEvent_K14_MENU_Outfit_023_Attack_Hard" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_MENU\AudioEvent_K14_MENU_Outfit_023_Attack_Hard" GUID="{ADD1FF43-49BB-4E54-AE25-1EBC50878D48}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.763542" DurationMax="0.860438"/>
+				<Event Id="1210379460" Name="AudioEvent_K14_MENU_Outfit_023_Attack_Light" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_MENU\AudioEvent_K14_MENU_Outfit_023_Attack_Light" GUID="{E8E2AEB9-D5EB-4C9E-960D-262322F14B21}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.403104" DurationMax="0.590604"/>
 				<Event Id="3496524976" Name="AudioEvent_K14_WPN_Default_ShortBlade_Arm" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Arm" GUID="{F97CE7E1-6DA0-41DE-902C-113D239F2D05}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.163109" DurationMax="0.283471"/>
 				<Event Id="4000526734" Name="AudioEvent_K14_WPN_Default_ShortBlade_Attack" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Attack" GUID="{A9254778-2E13-43F3-8034-48C09CE1736C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.247076" DurationMax="0.304093"/>
 				<Event Id="3314879993" Name="AudioEvent_K14_WPN_Default_ShortBlade_Clean" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_Clean" GUID="{398B6436-B6E8-45A2-9C96-CBE1475D4CD9}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.254362" DurationMax="0.433333"/>
@@ -80,13 +82,16 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1138640109" Name="AudioEvent_K14_WPN_Default_ShortBlade_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_WEAPON\AudioEvent_K14_WPN_Default_ShortBlade_PullOut" GUID="{2E3D6EE9-62E9-434B-A970-A3B9D4449823}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186"/>
-				<Event Id="2271790143" Name="AudioEvent_Killer_Kenya_Attack_Hard" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Hard" GUID="{C14C1792-A084-4190-85F2-AE318DC4CC55}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.409229" DurationMax="0.791917">
+				<Event Id="2271790143" Name="AudioEvent_Killer_Kenya_Attack_Hard" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Hard" GUID="{C14C1792-A084-4190-85F2-AE318DC4CC55}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.409229" DurationMax="0.860438">
 					<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
 							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 							<Children>
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 									<Media/>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -104,6 +109,9 @@
 							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 							<Children>
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 									<Media/>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -113,13 +121,16 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="344133644" Name="AudioEvent_Killer_Kenya_Attack_Light" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Light" GUID="{960E0780-33B1-4B97-BD38-BFA46A19D4F8}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.150000" DurationMax="0.555896">
+				<Event Id="344133644" Name="AudioEvent_Killer_Kenya_Attack_Light" ObjectPath="\Events\CHARACTER\KILLER\K14_Kenya\K14_GRUNT\AudioEvent_Killer_Kenya_Attack_Light" GUID="{960E0780-33B1-4B97-BD38-BFA46A19D4F8}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.150000" DurationMax="0.590604">
 					<DefaultSwitchValue>{724CF113-6112-4AC7-8A5C-5A761909C70E}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{724CF113-6112-4AC7-8A5C-5A761909C70E}">
 							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 							<Children>
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 									<Media/>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -137,6 +148,9 @@
 							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 							<Children>
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 									<Media/>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -155,6 +169,9 @@
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
 									<Media/>
 								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
+									<Media/>
+								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
 									<Media/>
 								</SwitchContainer>
@@ -170,6 +187,9 @@
 							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 							<Children>
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 									<Media/>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -188,6 +208,9 @@
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
 									<Media/>
 								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
+									<Media/>
+								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
 									<Media/>
 								</SwitchContainer>
@@ -203,6 +226,9 @@
 							<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 							<Children>
 								<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 									<Media/>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -224,6 +250,9 @@
 										<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
 											<Media/>
 										</SwitchContainer>
+										<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
+											<Media/>
+										</SwitchContainer>
 										<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
 											<Media/>
 										</SwitchContainer>
@@ -239,6 +268,9 @@
 									<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 									<Children>
 										<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+											<Media/>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 											<Media/>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -257,6 +289,9 @@
 										<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
 											<Media/>
 										</SwitchContainer>
+										<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
+											<Media/>
+										</SwitchContainer>
 										<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
 											<Media/>
 										</SwitchContainer>
@@ -272,6 +307,9 @@
 									<DefaultSwitchValue>{2AC42163-FB50-4EE9-862E-67D512FD6CEA}</DefaultSwitchValue>
 									<Children>
 										<SwitchContainer SwitchValue="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}">
+											<Media/>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{69C865B9-98C5-4C2C-9837-57FA31FA8848}">
 											<Media/>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{58F5E4FB-62AC-489B-B728-906FA12D85F7}">
@@ -305,6 +343,10 @@
 					<ShortName>Characters\KLR_14\vo_kenya_male_breath_05.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male_breath_05_67368C31.wem</Path>
 				</File>
+				<File Id="30709586" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="34030477" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_08.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_08_67368C31.wem</Path>
@@ -325,6 +367,18 @@
 					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask20_normal_04.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask20_normal_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="64992427" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="65668166" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="67218677" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="73869333" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_21.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male_crazy_21_67368C31.wem</Path>
@@ -336,6 +390,14 @@
 				<File Id="102034841" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Attack_Light_05.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Attack_Light_05_67368C31.wem</Path>
+				</File>
+				<File Id="105081551" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="105485517" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="109327094" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_breath_09.wav</ShortName>
@@ -349,6 +411,14 @@
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_19.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male_crazy_19_67368C31.wem</Path>
 				</File>
+				<File Id="114090922" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="118924171" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="152759352" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask20_crazy_11.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask20_crazy_11_7FA8D501.wem</Path>
@@ -357,9 +427,17 @@
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_03.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_03_67368C31.wem</Path>
 				</File>
+				<File Id="154955590" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_13.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_13_7FA8D501.wem</Path>
+				</File>
 				<File Id="160734624" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k14_addon_05_fuming.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k14_addon_05_fuming_256CDB0F.wem</Path>
+				</File>
+				<File Id="164152534" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="165034962" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male01_attack_light_07.wav</ShortName>
@@ -368,6 +446,10 @@
 				<File Id="167547956" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male01_attack_hard_19.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male01_attack_hard_19_67368C31.wem</Path>
+				</File>
+				<File Id="182802532" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_14.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_14_7FA8D501.wem</Path>
 				</File>
 				<File Id="187575419" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male01_attack_hard_03.wav</ShortName>
@@ -401,9 +483,17 @@
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_016.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_016_67368C31.wem</Path>
 				</File>
+				<File Id="214921319" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_16.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_16_7FA8D501.wem</Path>
+				</File>
 				<File Id="223377106" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male01_hurt_17.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male01_hurt_17_67368C31.wem</Path>
+				</File>
+				<File Id="224689027" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="226676210" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_014.wav</ShortName>
@@ -428,6 +518,10 @@
 				<File Id="230139960" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_09.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_09_67368C31.wem</Path>
+				</File>
+				<File Id="230535238" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_09.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="246148503" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_29.wav</ShortName>
@@ -465,6 +559,10 @@
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_04.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_04_67368C31.wem</Path>
 				</File>
+				<File Id="268438258" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_08.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="276197003" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_breath_07.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male_breath_07_67368C31.wem</Path>
@@ -477,6 +575,10 @@
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_ Attack_Hard_05.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_ Attack_Hard_05_67368C31.wem</Path>
 				</File>
+				<File Id="292447742" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="296621391" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_05.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_05_67368C31.wem</Path>
@@ -488,6 +590,10 @@
 				<File Id="298865789" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Attack_Light_010.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Attack_Light_010_67368C31.wem</Path>
+				</File>
+				<File Id="300597511" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_11.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="303146294" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_017.wav</ShortName>
@@ -524,6 +630,14 @@
 				<File Id="344313384" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask20_attack_light_08.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask20_attack_light_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="345685490" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="349894613" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_15.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_15_7FA8D501.wem</Path>
 				</File>
 				<File Id="350351077" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask20_normal_03.wav</ShortName>
@@ -589,6 +703,10 @@
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Attack_Light_06.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Attack_Light_06_67368C31.wem</Path>
 				</File>
+				<File Id="386385935" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="389625387" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_25.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male_crazy_25_67368C31.wem</Path>
@@ -600,6 +718,10 @@
 				<File Id="397954825" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask20_attack_light_03.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask20_attack_light_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="405206797" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="408870986" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_breath_01.wav</ShortName>
@@ -613,9 +735,21 @@
 					<ShortName>Music\mu_terrorradius_k14_addon_03_susie.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k14_addon_03_susie_256CDB0F.wem</Path>
 				</File>
+				<File Id="417599310" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="425151032" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="435823184" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_bodymove_default_leather_01.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_bodymove_default_leather_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="436475758" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="439328257" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_23.wav</ShortName>
@@ -637,6 +771,18 @@
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Attack_Light_07.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Attack_Light_07_67368C31.wem</Path>
 				</File>
+				<File Id="450298229" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="451476774" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="460812081" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="461326249" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_05.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male_crazy_05_67368C31.wem</Path>
@@ -649,13 +795,25 @@
 					<ShortName>Characters\KLR_14\sfx_k14_bodymove_default_leather_06.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_bodymove_default_leather_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="492972904" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_08.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="506854088" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_09.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_09_7FA8D501.wem</Path>
 				</File>
+				<File Id="508628903" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_02.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="509515167" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_06.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="520281142" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="531724371" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k14_addon_04_frank.wav</ShortName>
@@ -676,6 +834,10 @@
 				<File Id="570272390" Language="SFX">
 					<ShortName>Music\mu_terrorradius_k14_layer_01.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k14_layer_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="573177271" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_12.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_12_7FA8D501.wem</Path>
 				</File>
 				<File Id="573363772" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male01_attack_light_15.wav</ShortName>
@@ -701,6 +863,10 @@
 					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01.wav</ShortName>
 					<Path>SFX\Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_arm_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="590014716" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="594658327" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_07.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_07_7FA8D501.wem</Path>
@@ -721,9 +887,21 @@
 					<ShortName>Powers\PWR_14_Bolt\sfx_bolt_activate_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_activate_02_67368C31.wem</Path>
 				</File>
+				<File Id="622513583" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="635298169" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Attack_Light.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Attack_Light_67368C31.wem</Path>
+				</File>
+				<File Id="636399020" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_07.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="639590365" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_08.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="643187686" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_13.wav</ShortName>
@@ -732,6 +910,10 @@
 				<File Id="646556432" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Breath_07.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Breath_07_67368C31.wem</Path>
+				</File>
+				<File Id="650858384" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_09.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="662716133" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask20_crazy_01.wav</ShortName>
@@ -817,6 +999,10 @@
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_015.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_015_67368C31.wem</Path>
 				</File>
+				<File Id="751369507" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_01.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_hurt_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="762195025" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male_crazy_47.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_kenya_male_crazy_47_67368C31.wem</Path>
@@ -840,6 +1026,10 @@
 				<File Id="798989786" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Hurt_07.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Hurt_07_67368C31.wem</Path>
+				</File>
+				<File Id="802958663" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_10.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_crazy_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="812663087" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_kenya_male01_attack_hard_11.wav</ShortName>
@@ -893,9 +1083,17 @@
 					<ShortName>Music\mu_terrorradius_k14_addon_01_julie.wav</ShortName>
 					<Path>SFX\Music\mu_terrorradius_k14_addon_01_julie_256CDB0F.wem</Path>
 				</File>
+				<File Id="876323788" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_05.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="883181009" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_013.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\vo_KK_Emilie_Crazy_013_67368C31.wem</Path>
+				</File>
+				<File Id="889251213" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_04.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="890431858" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy_06.wav</ShortName>
@@ -904,6 +1102,10 @@
 				<File Id="897028605" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_08.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_bodymove_default_leather_equipement_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="897305090" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask23_breath_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask23_breath_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="905559912" Language="SFX">
 					<ShortName>Weapons\K14_Kenya_ShortBlade\sfx_k14_default_shortblade_impact_01.wav</ShortName>
@@ -953,6 +1155,10 @@
 					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask20_attack_hard_01.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask20_attack_hard_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="950675754" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_06.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_light_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="954436974" Language="SFX">
 					<ShortName>Powers\PWR_14_Bolt\sfx_bolt_deepwound_02.wav</ShortName>
 					<Path>SFX\Powers\PWR_14_Bolt\sfx_bolt_deepwound_02_67368C31.wem</Path>
@@ -984,6 +1190,10 @@
 				<File Id="988785620" Language="SFX">
 					<ShortName>Characters\KLR_14\sfx_k14_status_male01_mask20_normal_01.wav</ShortName>
 					<Path>SFX\Characters\KLR_14\sfx_k14_status_male01_mask20_normal_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="991085015" Language="SFX">
+					<ShortName>Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_03.wav</ShortName>
+					<Path>SFX\Characters\KLR_14\sfx_k14_grunt_male01_mask23_attack_hard_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="991373489" Language="SFX">
 					<ShortName>Characters\KLR_14\vo_KK_Emilie_Crazy.wav</ShortName>
@@ -1077,6 +1287,7 @@
 					<Switches>
 						<Switch Id="2025076213" Name="K14_HEAD_Mask20" ObjectPath="\Switches\SWITCH_KILLER\K14\AudioSwitchKillerHead_K14Mask\K14_HEAD_Mask20" GUID="{58F5E4FB-62AC-489B-B728-906FA12D85F7}"/>
 						<Switch Id="646293274" Name="K14_HEAD_MaskDefault" ObjectPath="\Switches\SWITCH_KILLER\K14\AudioSwitchKillerHead_K14Mask\K14_HEAD_MaskDefault" GUID="{2AC42163-FB50-4EE9-862E-67D512FD6CEA}"/>
+						<Switch Id="2025076214" Name="K14_HEAD_Mask23" ObjectPath="\Switches\SWITCH_KILLER\K14\AudioSwitchKillerHead_K14Mask\K14_HEAD_Mask23" GUID="{69C865B9-98C5-4C2C-9837-57FA31FA8848}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1168819874" Name="AudioSwitchSurface" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface" GUID="{371C038E-C81E-4B1E-BEF0-AC9809AE0B13}">
