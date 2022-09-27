@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560511" GUID="{11006D46-13C9-40AE-AFCB-E208D6BCBC59}" Language="SFX" Hash="3057609448">
+		<SoundBank Id="1457560511" GUID="{11006D46-13C9-40AE-AFCB-E208D6BCBC59}" Language="SFX" Hash="3287732594">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_24</ObjectPath>
 			<ShortName>KLR_24</ShortName>
 			<Path>KLR_24.bnk</Path>
 			<IncludedEvents>
-				<Event Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="2541501744" Name="AudioEvent_K24_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_CLOTH\AudioEvent_K24_CLOTH_Default_Land" GUID="{13838777-7979-46C8-8775-E46D7AB91F08}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.751333" DurationMax="1.325333"/>
 				<Event Id="357042704" Name="AudioEvent_K24_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_CLOTH\AudioEvent_K24_CLOTH_Default_Move" GUID="{FA7602C2-2C93-453C-84E0-5E0D74865BA6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.989333" DurationMax="1.689333"/>
 				<Event Id="652484502" Name="AudioEvent_K24_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_CLOTH\AudioEvent_K24_CLOTH_Default_ShuffleHigh" GUID="{1D6882A6-39B7-4EAA-969D-DCD34C317D8C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.905333" DurationMax="1.512000"/>
@@ -46,11 +45,7 @@
 				<Event Id="2242180032" Name="AudioEvent_K24_PWR_Contaminated_Stinger" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Contaminated_Stinger" GUID="{E76A17D1-C815-4CE7-B6C3-4A92F3A87516}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="3.711827" DurationMax="3.711827"/>
 				<Event Id="3948688249" Name="AudioEvent_K24_PWR_Contaminated_Survivor_Start" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Contaminated_Survivor_Start" GUID="{DA83A800-E9D8-48E7-8B68-49CB5BE5B588}" DurationType="Infinite"/>
 				<Event Id="3176023763" Name="AudioEvent_K24_PWR_Contaminated_Survivor_Stop" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Contaminated_Survivor_Stop" GUID="{015364A7-0EA3-47EC-8700-640C0A5B96D6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2303699205" Name="AudioEvent_K24_PWR_Damage_Generator" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Damage_Generator" GUID="{2C9571A8-51AD-4675-98E3-29D5978D5307}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.896100" DurationMax="2.362944">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}"/>
-					</ActionPostEvent>
-				</Event>
+				<Event Id="2303699205" Name="AudioEvent_K24_PWR_Damage_Generator" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Damage_Generator" GUID="{2C9571A8-51AD-4675-98E3-29D5978D5307}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.896100" DurationMax="2.362944"/>
 				<Event Id="3853642248" Name="AudioEvent_K24_PWR_Increase_Level_02" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Increase_Level_02" GUID="{3208D67C-4EB9-48CF-82E1-EAAABE36D660}" DurationType="OneShot" DurationMin="6.075558" DurationMax="6.075558"/>
 				<Event Id="3853642249" Name="AudioEvent_K24_PWR_Increase_Level_03" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Increase_Level_03" GUID="{3129E996-8808-450C-85D9-1F35B8D87825}" DurationType="OneShot" DurationMin="5.684119" DurationMax="5.684119"/>
 				<Event Id="2447085225" Name="AudioEvent_K24_PWR_Whip_Arm" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_POWER\AudioEvent_K24_PWR_Whip_Arm" GUID="{9B6C1439-B468-4A95-838C-E77651FF8433}" MaxAttenuation="2400.000000" DurationType="OneShot" DurationMin="1.426667" DurationMax="2.266667"/>

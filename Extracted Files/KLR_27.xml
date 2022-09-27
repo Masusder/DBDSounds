@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560508" GUID="{21DC851D-9CF3-46CF-B4F9-DE96036F7807}" Language="SFX" Hash="251701209">
+		<SoundBank Id="1457560508" GUID="{21DC851D-9CF3-46CF-B4F9-DE96036F7807}" Language="SFX" Hash="1246477254">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_27</ObjectPath>
 			<ShortName>KLR_27</ShortName>
 			<Path>KLR_27.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
-				<Event Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="384806895" Name="AudioEvent_K27_ADDON_IridescentVideotape" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_ADDONS\AudioEvent_K27_ADDON_IridescentVideotape" GUID="{9F53B6DF-DB5C-44B6-B3C6-69DB728F120E}" DurationType="OneShot" DurationMin="4.302208" DurationMax="4.302208"/>
 				<Event Id="2900611627" Name="AudioEvent_K27_ADDON_RicketyPinwheel" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_ADDONS\AudioEvent_K27_ADDON_RicketyPinwheel" GUID="{2D8582FF-3703-4417-8F34-77183D9F3B0E}" DurationType="OneShot" DurationMin="3.570958" DurationMax="3.570958"/>
 				<Event Id="4266985431" Name="AudioEvent_K27_ADDON_VCR" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_ADDONS\AudioEvent_K27_ADDON_VCR" GUID="{371E08E3-7F3C-4809-9CBF-1A61F440E4A7}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.542229" DurationMax="4.502785"/>
@@ -54,22 +52,10 @@
 				</Event>
 				<Event Id="2674301590" Name="AudioEvent_K27_PWR_Condemned_StacksMax" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Condemned_StacksMax" GUID="{F4371B8A-4053-4019-88C7-5DD34D0CDB2C}" DurationType="Infinite"/>
 				<Event Id="2174270752" Name="AudioEvent_K27_PWR_Condemned_StacksRemoved" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Condemned_StacksRemoved" GUID="{C6ACD68D-7477-48F6-99B4-6D1F80AC6969}" DurationType="OneShot" DurationMin="1.963354" DurationMax="1.963354"/>
-				<Event Id="1391916680" Name="AudioEvent_K27_PWR_Damage_Generator" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Generator" GUID="{5C6D96A0-1C3D-4027-A1D7-46FC78E22EA2}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.828542" DurationMax="3.828542">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}"/>
-					</ActionPostEvent>
-				</Event>
+				<Event Id="1391916680" Name="AudioEvent_K27_PWR_Damage_Generator" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Generator" GUID="{5C6D96A0-1C3D-4027-A1D7-46FC78E22EA2}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.828542" DurationMax="3.828542"/>
 				<Event Id="3548380761" Name="AudioEvent_K27_PWR_Damage_Generator_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Generator_Cancel" GUID="{EF767089-ECD5-4E97-9036-3EE36D690730}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="927803979" Name="AudioEvent_K27_PWR_Damage_Pallet" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Pallet" GUID="{0A319098-958A-4A8B-996E-5038CDE90207}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.300000" DurationMax="3.300000">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}"/>
-					</ActionPostEvent>
-				</Event>
-				<Event Id="1153491917" Name="AudioEvent_K27_PWR_Damage_Wall" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Wall" GUID="{F5FD9773-B44C-4721-A993-65CC51E0E88A}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="2.148479" DurationMax="2.148479">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}"/>
-					</ActionPostEvent>
-				</Event>
+				<Event Id="927803979" Name="AudioEvent_K27_PWR_Damage_Pallet" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Pallet" GUID="{0A319098-958A-4A8B-996E-5038CDE90207}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="3.300000" DurationMax="3.300000"/>
+				<Event Id="1153491917" Name="AudioEvent_K27_PWR_Damage_Wall" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Damage_Wall" GUID="{F5FD9773-B44C-4721-A993-65CC51E0E88A}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="2.148479" DurationMax="2.148479"/>
 				<Event Id="203384043" Name="AudioEvent_K27_PWR_Demanifest_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Demanifest_Charge_Cancel" GUID="{E4DA5A3C-49E3-41B7-962D-4830A6FC9944}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="262480316" Name="AudioEvent_K27_PWR_Demanifest_Charge_Complete" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Demanifest_Charge_Complete" GUID="{E08CA0E4-BC7E-4135-BA43-684AC0E30359}" MaxAttenuation="2000.000000" DurationType="OneShot" DurationMin="4.320443" DurationMax="4.320443"/>
 				<Event Id="952758383" Name="AudioEvent_K27_PWR_Demanifest_Charge_Start" ObjectPath="\Events\CHARACTER\KILLER\K27_Kepler\K27_POWER\AudioEvent_K27_PWR_Demanifest_Charge_Start" GUID="{9456E3BB-38CA-4AEC-AC33-E57FB708292A}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.400000" DurationMax="2.561375"/>

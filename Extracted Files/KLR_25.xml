@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560510" GUID="{7CCBA1BD-C14D-4792-BD5B-E1475B344BBB}" Language="SFX" Hash="2416467007">
+		<SoundBank Id="1457560510" GUID="{7CCBA1BD-C14D-4792-BD5B-E1475B344BBB}" Language="SFX" Hash="1094894865">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_25</ObjectPath>
 			<ShortName>KLR_25</ShortName>
 			<Path>KLR_25.bnk</Path>
@@ -80,8 +80,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
-				<Event Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="3283037983" Name="AudioEvent_K25_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_CLOTH\AudioEvent_K25_CLOTH_Default_Land" GUID="{ED5DAC2B-4298-4B8D-A91B-E97786703A36}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.751333" DurationMax="1.325333"/>
 				<Event Id="376266679" Name="AudioEvent_K25_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_CLOTH\AudioEvent_K25_CLOTH_Default_Move" GUID="{D892BE5C-1A52-4DDC-9B4B-3C215D71A1BB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.989333" DurationMax="1.689333"/>
 				<Event Id="3968971051" Name="AudioEvent_K25_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_CLOTH\AudioEvent_K25_CLOTH_Default_ShuffleHigh" GUID="{E9A05B9A-C732-49BC-A147-12AC2061DEB2}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.650425" DurationMax="1.314122"/>
@@ -178,24 +176,12 @@
 						<ActionSetStateEntry Id="2440315466" Name="AudioState_K25_Possessing_Off" ObjectPath="\States\STATES_KILLER\STATE_K25_Gemini\AudioState_K25_Possessing\AudioState_K25_Possessing_Off" GUID="{2D5E9850-CF38-4E07-8EFD-EE1B5F616CB1}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2447858954" Name="AudioEvent_K25_PWR_Damage_Generator" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Damage_Generator" GUID="{6BA5C485-D36C-490A-8376-B6BA12C9D7EB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.992167" DurationMax="2.992167">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="794414576" Name="AudioEvent_HAPTIC_KILLER_Kick_Metal" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Metal" GUID="{7FE72236-B700-4B21-BAA7-1FC3E8F741A7}"/>
-					</ActionPostEvent>
-				</Event>
+				<Event Id="2447858954" Name="AudioEvent_K25_PWR_Damage_Generator" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Damage_Generator" GUID="{6BA5C485-D36C-490A-8376-B6BA12C9D7EB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.992167" DurationMax="2.992167"/>
 				<Event Id="582489559" Name="AudioEvent_K25_PWR_Damage_Generator_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Damage_Generator_Cancel" GUID="{FCBAF400-4C5C-4C50-AD4C-636A96F21A90}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2491450472" Name="AudioEvent_K25_PWR_Destroy_Pallet_BreakSweetener" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Destroy_Pallet_BreakSweetener" GUID="{74CC720A-186C-488C-8693-B3AD712B2882}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.421167" DurationMax="2.421167"/>
-				<Event Id="2543920296" Name="AudioEvent_K25_PWR_Destroy_Pallet_Magic" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Destroy_Pallet_Magic" GUID="{D92D190D-7D97-42E1-BFE8-46819744D9A7}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.800000" DurationMax="3.800000">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}"/>
-					</ActionPostEvent>
-				</Event>
+				<Event Id="2543920296" Name="AudioEvent_K25_PWR_Destroy_Pallet_Magic" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Destroy_Pallet_Magic" GUID="{D92D190D-7D97-42E1-BFE8-46819744D9A7}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.800000" DurationMax="3.800000"/>
 				<Event Id="957834121" Name="AudioEvent_K25_PWR_Destroy_Pallet_Rattle" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Destroy_Pallet_Rattle" GUID="{A492091C-A1CE-4A6F-A3B0-F273D66B19F4}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.373333" DurationMax="1.373333"/>
-				<Event Id="149166796" Name="AudioEvent_K25_PWR_Destroy_Wall_ChainShot" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Destroy_Wall_ChainShot" GUID="{5C28DB45-5F13-4985-81B9-2C219EECE9EE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.189667" DurationMax="1.726667">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1550134084" Name="AudioEvent_HAPTIC_KILLER_Kick_Breakable" ObjectPath="\Events\HAPTIC\KLR\AudioEvent_HAPTIC_KILLER_Kick_Breakable" GUID="{A6562482-3ED6-488C-8003-DA4E8173F887}"/>
-					</ActionPostEvent>
-				</Event>
+				<Event Id="149166796" Name="AudioEvent_K25_PWR_Destroy_Wall_ChainShot" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\K25_Interact\AudioEvent_K25_PWR_Destroy_Wall_ChainShot" GUID="{5C28DB45-5F13-4985-81B9-2C219EECE9EE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.189667" DurationMax="1.726667"/>
 				<Event Id="1222574767" Name="AudioEvent_K25_PWR_Gateway_Close_Controlled" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\AudioEvent_K25_PWR_Gateway_Close_Controlled" GUID="{9B15C386-6A86-4168-BEF4-BB84B18B3A9F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1330440150" Name="AudioEvent_K25_PWR_Gateway_Close_Uncontrolled" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\AudioEvent_K25_PWR_Gateway_Close_Uncontrolled" GUID="{059101F0-FDE6-4235-BD18-CB9D5B4416AA}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3689389339" Name="AudioEvent_K25_PWR_Gateway_Open_Controlled" ObjectPath="\Events\CHARACTER\KILLER\K25_Gemini\K25_POWER\AudioEvent_K25_PWR_Gateway_Open_Controlled" GUID="{DFC7357F-83CD-4DEF-AEE7-360A7AEED4C6}" MaxAttenuation="800.000000" DurationType="Infinite"/>

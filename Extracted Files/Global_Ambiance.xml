@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX" Hash="2265956936">
+		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX" Hash="3486440703">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Ambiance</ObjectPath>
 			<ShortName>Global_Ambiance</ShortName>
 			<Path>Global_Ambiance.bnk</Path>
@@ -2441,17 +2441,6 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3105660774" Name="AudioEvent_Emitter_Lobby_EntitySurface" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Lobby\AudioEvent_Emitter_Lobby_EntitySurface" GUID="{BDABF886-2BDA-4D10-B16F-4FA668C16577}" MaxAttenuation="450.000000" DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="839876022" Language="SFX">
-							<ShortName>Ambience\Menus\am_lobby_orion_emt_entitysurface_01.wav</ShortName>
-							<Path>SFX\Ambience\Menus\am_lobby_orion_emt_entitysurface_01_256CDB0F.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
-					</AuxBusSends>
-				</Event>
 				<Event Id="3895306974" Name="AudioEvent_Rev_Int_00_Common_Basement" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_Common_Basement" GUID="{F17D7500-F674-413B-A713-4B61C26F8953}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="85566087" Name="AudioEvent_Rev_Int_00_Common_Shack" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_Common_Shack" GUID="{A8132D4E-C776-44AF-B375-EFC8584F353A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3744645643" Name="AudioEvent_Rev_Int_00_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_T00_Common\AM_Reverb_00_Common\AudioEvent_Rev_Int_00_SmallRoom" GUID="{044B5C6B-C8D5-423C-AB0A-5A2809A10068}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -3210,10 +3199,6 @@
 				<File Id="837085540" Language="SFX">
 					<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05.wav</ShortName>
 					<Path>SFX\Ambience\Themes\T00_Common\Random\am_t00_common_rdm_crow_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="839876022" Language="SFX">
-					<ShortName>Ambience\Menus\am_lobby_orion_emt_entitysurface_01.wav</ShortName>
-					<Path>SFX\Ambience\Menus\am_lobby_orion_emt_entitysurface_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="847267806" Language="SFX">
 					<ShortName>Ambience\Themes\T00_Common\Random\am_t00_common_rdm_storehouse_creak_03.wav</ShortName>

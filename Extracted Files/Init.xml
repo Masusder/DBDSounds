@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\</ProjectRoot>
-		<SourceFilesRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Orion_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DBD_Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Orion\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3363561932">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3842256656">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
+				<AuxBus Id="159379947" Name="HAPTIC_SRV_HOOK_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_SURVIVOR\HAPTIC_SRV_HOOK_AUX" GUID="{7326A1A2-4B3D-4C84-A973-D3D6CF494181}"/>
 				<AuxBus Id="229891603" Name="MENU_SVR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_SURVIVOR\MENU_SVR_00_COMMON" GUID="{7E1358B8-E1A5-483B-B604-95A9AABE605C}"/>
 				<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 				<AuxBus Id="358672932" Name="PWR_K28_Villagers" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\POWER\PWR_K28_Villagers" GUID="{014C2E76-A183-4B43-B5A2-F36580E626E0}"/>
@@ -22,11 +23,21 @@
 				<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 				<AuxBus Id="691220562" Name="MENU_OBJECT_TreeLeaves_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_TreeLeaves_AUX" GUID="{FB30977F-6665-43C8-BB04-E8E2E6C207B8}"/>
 				<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+				<AuxBus Id="1126172032" Name="HAPTIC_OBJ_PLANTS_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_OBJECT\HAPTIC_OBJ_PLANTS_AUX" GUID="{6F3F16CC-7E9C-4153-B6BA-89432605458B}"/>
+				<AuxBus Id="1207210760" Name="HAPTIC_SRV_RUSH_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_SURVIVOR\HAPTIC_SRV_RUSH_AUX" GUID="{82711252-591A-4DA3-8B5E-D656FFA04FD4}"/>
 				<AuxBus Id="1271754253" Name="MENU_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MENU\MENU_OBJECT\MENU_OBJECT_AUX" GUID="{DD8E4190-4DDE-48E2-9D3C-148F503A4966}"/>
+				<AuxBus Id="1554861768" Name="HAPTIC_OBJ_GENERATORS_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_OBJECT\HAPTIC_OBJ_GENERATORS_AUX" GUID="{1C99529A-CF87-4E37-B8F4-38A9629D371C}"/>
 				<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+				<AuxBus Id="2014563511" Name="HAPTIC_SRV_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_SURVIVOR\HAPTIC_SRV_OBJECT_AUX" GUID="{BAA1C000-39AA-4DD4-B737-55EC784FCA03}"/>
+				<AuxBus Id="2071968311" Name="HAPTIC_SRV_FS_LAND_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_SURVIVOR\HAPTIC_SRV_FS_LAND_AUX" GUID="{18F30E4B-B35F-4962-AD63-4F20B53B9E57}"/>
+				<AuxBus Id="2104653037" Name="HAPTIC_KLR_OBJECT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_KILLER\HAPTIC_KLR_OBJECT_AUX" GUID="{39E1210A-C38A-4C02-93F0-70BAAFAED9AB}"/>
 				<AuxBus Id="2688912796" Name="K15_Mali_State_Effect" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\CHARACTER\KILLER\K15_Mali_State_Effect" GUID="{5A39BDDB-3F3B-43D8-B470-918501636814}"/>
-				<AuxBus Id="2998194842" Name="Motion_Aux_OBJECTS_PLANTS" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MOTION_BUS\Motion_Aux_OBJECTS_PLANTS" GUID="{6F3F16CC-7E9C-4153-B6BA-89432605458B}"/>
+				<AuxBus Id="2863794526" Name="HAPTIC_OBJ_HATCH_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_OBJECT\HAPTIC_OBJ_HATCH_AUX" GUID="{F974FB0E-1EA9-4506-9A36-19FE84B39D17}"/>
+				<AuxBus Id="3084460091" Name="HAPTIC_SRV_ENTITY_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_SURVIVOR\HAPTIC_SRV_ENTITY_AUX" GUID="{17F1C55C-05AA-4C64-AD57-3701927E5D41}"/>
+				<AuxBus Id="3590893850" Name="HAPTIC_KLR_IMPACT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_KILLER\HAPTIC_KLR_IMPACT_AUX" GUID="{C9118841-56EA-4AC3-B11C-5A64C8740F9D}"/>
 				<AuxBus Id="3659677231" Name="K15_Mali_Grunt_Effect" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\CHARACTER\KILLER\K15_Mali_Grunt_Effect" GUID="{8B595F2A-3AFE-43E1-85E7-24FE1DEFA2CD}"/>
+				<AuxBus Id="3922150424" Name="HAPTIC_SRV_IMPACT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_SURVIVOR\HAPTIC_SRV_IMPACT_AUX" GUID="{327236ED-F283-4D1E-B096-E424E4DB0C2E}"/>
+				<AuxBus Id="3995360985" Name="HAPTIC_KLR_FS_LAND_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC_BUS\HAPTIC_KILLER\HAPTIC_KLR_FS_LAND_AUX" GUID="{6B2E77DB-52A5-4013-A2F0-635B6CEC8AE3}"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="95316312" Name="AudioRTPC_Addons_KLR_13_ActivePhasing_Range" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K13_Haiti\AudioRTPC_Addons_KLR_13_ActivePhasing_Range" GUID="{623E844E-9FA2-4B85-AB2E-7A60C2C364E8}"/>
@@ -58,7 +69,7 @@
 				<GameParameter Id="2570637541" Name="AudioRTPC_VOL_MUS_STINGER" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_MUS_STINGER" GUID="{EB1B33CA-4C01-4B3F-A470-B9C948B1AA5D}"/>
 				<GameParameter Id="2640173796" Name="AudioRTPC_Endgame_Pourcentage" ObjectPath="\Game Parameters\RTPC_ENDGAME\AudioRTPC_Endgame_Pourcentage" GUID="{DB67ED9A-042D-4022-97BD-7FF5378EA7F8}"/>
 				<GameParameter Id="2680091383" Name="AudioRTPC_Volume_Master_Lobby_Music" ObjectPath="\Game Parameters\RTPC_SYSTEM\AudioRTPC_Volume_Master_Lobby_Music" GUID="{2B89BC29-952E-4EC2-8224-E2CC677A3433}"/>
-				<GameParameter Id="2703626474" Name="AudioRTPC_Volume_Motion" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_Volume_Motion" GUID="{C811C6CD-10AD-40E9-80BD-8A5CF762DB52}"/>
+				<GameParameter Id="2703626474" Name="AudioRTPC_Volume_Motion" ObjectPath="\Game Parameters\RTPC_HAPTIC\AudioRTPC_Volume_Motion" GUID="{C811C6CD-10AD-40E9-80BD-8A5CF762DB52}"/>
 				<GameParameter Id="2728291283" Name="AudioRTPC_Effect_Common_Deaf" ObjectPath="\Game Parameters\RTPC_EFFECT\AudioRTPC_Effect_Common_Deaf" GUID="{8F604B6A-AD64-455A-8018-29148EF89F21}"/>
 				<GameParameter Id="2737370138" Name="AudioRTPC_Killer_Time_Stop_Moving" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Killer_Time_Stop_Moving" GUID="{E4AD2F38-6292-46AD-B0B4-3DBDEF6A3F4A}"/>
 				<GameParameter Id="2928784814" Name="AudioRTPC_REVERB_IN_HFDamping" ObjectPath="\Game Parameters\RTPC_REVERB\AudioRTPC_REVERB_IN_HFDamping" GUID="{03D64F98-43FB-4DD2-B39F-8C541DA2DE26}"/>
@@ -67,6 +78,7 @@
 				<GameParameter Id="3113970193" Name="AudioRTPC_VOL_WEAPON" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_WEAPON" GUID="{F7B20E16-2442-47E2-B077-561860FE70B4}"/>
 				<GameParameter Id="3148766088" Name="AudioRTPC_VOL_Entity_DaddyFinger" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_Entity_DaddyFinger" GUID="{0D674FF2-D122-4816-82C2-E13CFBDA8751}"/>
 				<GameParameter Id="3174188651" Name="AudioRTPC_Effect_KLR_10_Dream_v2" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K10_Sandman\AudioRTPC_Effect_KLR_10_Dream_v2" GUID="{7DF6D767-BEEF-441F-BCA3-EAEF06C8D8E9}"/>
+				<GameParameter Id="3344485437" Name="AudioRTPC_Finisher_Mori" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Finisher_Mori" GUID="{87722CCD-9C3C-473C-B04F-5E16B5137041}"/>
 				<GameParameter Id="3398981259" Name="AudioRTPC_REVERB_IN_Diffusion" ObjectPath="\Game Parameters\RTPC_REVERB\AudioRTPC_REVERB_IN_Diffusion" GUID="{DD47E706-44A4-40F1-A730-F287988397D0}"/>
 				<GameParameter Id="3454581848" Name="AudioRTPC_VOL_HUD" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_HUD" GUID="{7C32F96A-DBE9-4C4B-86AA-49513D69EA2C}"/>
 				<GameParameter Id="3771411281" Name="AudioRTPC_Addons_InvisibilityBell_Range" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K02_Wraith\AudioRTPC_Addons_InvisibilityBell_Range" GUID="{010F2274-FF6B-42DE-BBC9-8AB64BE11252}"/>
