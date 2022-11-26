@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Pluto_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3012222961" GUID="{28B1C015-0D77-4838-9E8E-77B8A96D265C}" Language="SFX" Hash="1012238000">
+		<SoundBank Id="3012222961" GUID="{28B1C015-0D77-4838-9E8E-77B8A96D265C}" Language="SFX" Hash="2230805801">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Closet</ObjectPath>
 			<ShortName>Closet</ShortName>
 			<Path>Closet.bnk</Path>
@@ -16,6 +16,7 @@
 				<Event Id="739571416" Name="AudioEvent_Closet_Close_Fast" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Close_Fast" GUID="{7B4B6241-426B-4C24-AD44-72000E68B6E6}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.583129" DurationMax="0.583129"/>
 				<Event Id="3353803681" Name="AudioEvent_Closet_Close_Slow" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Close_Slow" GUID="{6A32D7B1-1FCD-4553-965E-CE89E0FE41A5}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.586576" DurationMax="0.586576"/>
 				<Event Id="439042391" Name="AudioEvent_Closet_Fight_Shaking_Small" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Fight_Shaking_Small" GUID="{F23434C3-ABCF-4369-A567-766632F3E207}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.719014" DurationMax="2.134591"/>
+				<Event Id="2273712339" Name="AudioEvent_Closet_Impact" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Impact" GUID="{D28F83E4-399B-4189-B95B-D2EBA716B707}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.788000" DurationMax="1.033292"/>
 				<Event Id="3159799244" Name="AudioEvent_Closet_Impact_Big" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Impact_Big" GUID="{95F5B2FE-B9E3-4491-A112-129407EE75FF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.692524" DurationMax="2.363916"/>
 				<Event Id="2002907799" Name="AudioEvent_Closet_Machete_Impact" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Machete_Impact" GUID="{F735EE60-76FE-4C5F-9D85-540256950F8F}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.330667" DurationMax="0.458667"/>
 				<Event Id="3686490337" Name="AudioEvent_Closet_Machete_Remove" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Machete_Remove" GUID="{DBC45B6E-4335-4B10-8268-E3A18FF8221D}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.477846" DurationMax="0.477846"/>
@@ -25,104 +26,117 @@
 				<Event Id="3537586541" Name="AudioEvent_Closet_Squeak_Slow" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Closet\AudioEvent_Closet_Squeak_Slow" GUID="{9CA39F9E-ABDB-485D-ACCE-493BF09EE33D}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.515782" DurationMax="0.810567"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="1147530" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_squeak_04.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_squeak_04_67368C31.wem</Path>
+				<File Id="1147531" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_squeak_04.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_squeak_04_67368C31.wem</Path>
 				</File>
-				<File Id="64409652" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_05.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_05_7FA8D501.wem</Path>
+				<File Id="52324103" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_impact_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_impact_03_67368C31.wem</Path>
 				</File>
-				<File Id="90729783" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_02.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_02_67368C31.wem</Path>
+				<File Id="64409651" Language="SFX">
+					<ShortName>Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_05.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="110028737" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_squeak_02.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_squeak_02_67368C31.wem</Path>
+				<File Id="90729784" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_02_67368C31.wem</Path>
 				</File>
-				<File Id="113642545" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_01_67368C31.wem</Path>
+				<File Id="110028738" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_squeak_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_squeak_02_67368C31.wem</Path>
 				</File>
-				<File Id="125868777" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_04.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_04_67368C31.wem</Path>
+				<File Id="113642546" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="174233123" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_PWR\sfx_closet_impact_big_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_PWR\sfx_closet_impact_big_03_7FA8D501.wem</Path>
+				<File Id="125868778" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_04.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_04_67368C31.wem</Path>
 				</File>
-				<File Id="350973611" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_open_fast_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_open_fast_01_67368C31.wem</Path>
+				<File Id="174233122" Language="SFX">
+					<ShortName>Character\KLR_28\K28_PWR\sfx_closet_impact_big_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_PWR\sfx_closet_impact_big_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="359157809" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_03_7FA8D501.wem</Path>
+				<File Id="350973612" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_open_fast_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_open_fast_01_67368C31.wem</Path>
 				</File>
-				<File Id="399371219" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_01_7FA8D501.wem</Path>
+				<File Id="359157808" Language="SFX">
+					<ShortName>Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="399585156" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_04_7FA8D501.wem</Path>
+				<File Id="399371218" Language="SFX">
+					<ShortName>Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="408331319" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_PWR\sfx_closet_impact_big_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_PWR\sfx_closet_impact_big_04_7FA8D501.wem</Path>
+				<File Id="399585155" Language="SFX">
+					<ShortName>Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="417984211" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_close_fast_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_close_fast_01_67368C31.wem</Path>
+				<File Id="408331318" Language="SFX">
+					<ShortName>Character\KLR_28\K28_PWR\sfx_closet_impact_big_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_PWR\sfx_closet_impact_big_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="424748937" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_squeak_03.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_squeak_03_67368C31.wem</Path>
+				<File Id="417984212" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_close_fast_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_close_fast_01_67368C31.wem</Path>
 				</File>
-				<File Id="494598163" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_OBJ\sfx_closet_door_struggle_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_OBJ\sfx_closet_door_struggle_01_7FA8D501.wem</Path>
+				<File Id="424748938" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_squeak_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_squeak_03_67368C31.wem</Path>
 				</File>
-				<File Id="502174196" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_02_7FA8D501.wem</Path>
+				<File Id="445164940" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_impact_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_impact_02_67368C31.wem</Path>
 				</File>
-				<File Id="534521764" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_03.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_03_67368C31.wem</Path>
+				<File Id="494598162" Language="SFX">
+					<ShortName>Character\KLR_28\K28_OBJ\sfx_closet_door_struggle_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_closet_door_struggle_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="653578491" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_open_slow_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_open_slow_01_67368C31.wem</Path>
+				<File Id="502174195" Language="SFX">
+					<ShortName>Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_closet_fight_shaking_small_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="667543860" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_remove_machete_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_remove_machete_01_67368C31.wem</Path>
+				<File Id="534521765" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\Closet_Impact_Machete_Bounce_03_67368C31.wem</Path>
 				</File>
-				<File Id="707019439" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_PWR\sfx_closet_impact_big_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_PWR\sfx_closet_impact_big_02_7FA8D501.wem</Path>
+				<File Id="641026584" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_impact_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_impact_01_67368C31.wem</Path>
 				</File>
-				<File Id="861869888" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_squeak_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_squeak_01_67368C31.wem</Path>
+				<File Id="653578492" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_open_slow_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_open_slow_01_67368C31.wem</Path>
 				</File>
-				<File Id="1007628788" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_OBJ\sfx_closet_door_struggle_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_OBJ\sfx_closet_door_struggle_02_7FA8D501.wem</Path>
+				<File Id="667543861" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_remove_machete_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_remove_machete_01_67368C31.wem</Path>
 				</File>
-				<File Id="1056971149" Language="SFX">
-					<ShortName>Characters\KLR_28\K28_PWR\sfx_closet_impact_big_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_28\K28_PWR\sfx_closet_impact_big_01_7FA8D501.wem</Path>
+				<File Id="707019438" Language="SFX">
+					<ShortName>Character\KLR_28\K28_PWR\sfx_closet_impact_big_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_PWR\sfx_closet_impact_big_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="1072150443" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Closet\sfx_closet_close_slow_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Closet\sfx_closet_close_slow_01_67368C31.wem</Path>
+				<File Id="861869889" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_squeak_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_squeak_01_67368C31.wem</Path>
+				</File>
+				<File Id="1007628787" Language="SFX">
+					<ShortName>Character\KLR_28\K28_OBJ\sfx_closet_door_struggle_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_closet_door_struggle_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1056971148" Language="SFX">
+					<ShortName>Character\KLR_28\K28_PWR\sfx_closet_impact_big_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_PWR\sfx_closet_impact_big_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="1072150444" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Closet\sfx_closet_close_slow_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Closet\sfx_closet_close_slow_01_67368C31.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="1011022547" Name="AudioRTPC_HAPTIC_IsLocallyObserved" ObjectPath="\Game Parameters\RTPC_HAPTIC\AudioRTPC_HAPTIC_IsLocallyObserved" GUID="{AACF7924-DAAD-4D46-8C70-CF2769CDF381}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 		</SoundBank>

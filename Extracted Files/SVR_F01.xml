@@ -1,1008 +1,2428 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2247489254" GUID="{9710BC40-911A-4C5E-8AB7-2A7887710919}" Language="SFX" Hash="1531770268">
+		<SoundBank Id="2247489254" GUID="{9710BC40-911A-4C5E-8AB7-2A7887710919}" Language="SFX" Hash="1422793616">
 			<ObjectPath>\SoundBanks\CHARACTER\SURVIVOR\SVR_F01</ObjectPath>
 			<ShortName>SVR_F01</ShortName>
 			<Path>SVR_F01.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3045422204" Name="AudioEvent_SVR_F01_Dead" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Dead" GUID="{FF806683-9A9B-4588-8296-A0BDBA2DE36C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="810606520" Name="AudioEvent_SVR_F01_GameStart_NotControlled" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GameStart\AudioEvent_SVR_F01_GameStart_NotControlled" GUID="{FA8C3B1F-D075-46D5-83A2-20F77182B59E}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="2621522" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="7839344" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="18965413" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="23138405" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="38741351" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_14.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="39886981" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="56917968" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="66502043" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="70265123" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_15.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="109164812" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="124050165" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="127671829" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="136739305" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="191838026" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="200075665" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="202391150" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="203363155" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="223958113" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="226890934" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="246149442" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="246684599" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="247336172" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="252093331" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="267329491" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="267577026" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="268509796" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="272506131" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="296748058" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="296827853" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="306952646" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="313374411" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_13.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="333557476" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_normal_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="340516707" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="350445217" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="350809644" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="352564134" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_normal_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="362048398" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="372788735" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="382116544" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="385117343" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="391532133" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="451536701" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_normal_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="462960984" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="467335159" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="472537513" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_16.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="472799957" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="494675012" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="496061851" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="497887554" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="516191505" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="523890301" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_17.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="532959369" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="541778566" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="547820946" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="554746720" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="556657737" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="563238665" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="568133793" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="574881694" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="580550398" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="588958141" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="591444988" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="614836485" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="615113285" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="617434472" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="627218408" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="633060307" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="641043935" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="643346102" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="660531042" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_18.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="664742183" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="667563058" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="670179642" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="679304058" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="679892637" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="703425711" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="716063942" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="720648648" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="739318082" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="740491507" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="748168199" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="765987082" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="768131826" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="772218116" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="791671492" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="800124228" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_normal_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="802654253" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="805397768" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="811107087" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_13.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="814251334" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="816107761" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="818743522" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_normal_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="819362524" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="819662266" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="823944413" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="835196488" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="835674592" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="844189682" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_14.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="850941773" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="854803066" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="859437600" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="863074422" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="867434999" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_normal_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="871037208" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="884764841" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_normal_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="897177248" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="905957412" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="907413078" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="908260370" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="908415899" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="921550235" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="921905985" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="922843731" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="934679160" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="939098941" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="948305773" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="966817874" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="983223379" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="997292739" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1011685408" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1013728994" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="1013916687" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_15.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="1015722622" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1021346441" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1039243121" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1039447997" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1042793234" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_13.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="1045443763" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1045703596" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="1048529015" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1063599247" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_running_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_running_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="1070042377" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{4634728D-A6EC-463F-98B7-88625AA203FB}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{C122D54D-7534-40F3-9278-C4B3885FC8A1}">
-							<Media/>
+							<Media>
+								<File Id="38741351"/>
+								<File Id="56917968"/>
+								<File Id="70265123"/>
+								<File Id="306952646"/>
+								<File Id="340516707"/>
+								<File Id="391532133"/>
+								<File Id="541778566"/>
+								<File Id="554746720"/>
+								<File Id="568133793"/>
+								<File Id="660531042"/>
+								<File Id="667563058"/>
+								<File Id="850941773"/>
+								<File Id="921550235"/>
+								<File Id="1048529015"/>
+								<File Id="1063599247"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C6A55A58-493C-4921-A35A-7A4B7296A933}">
-							<Media/>
+							<Media>
+								<File Id="7839344"/>
+								<File Id="124050165"/>
+								<File Id="200075665"/>
+								<File Id="202391150"/>
+								<File Id="247336172"/>
+								<File Id="252093331"/>
+								<File Id="267329491"/>
+								<File Id="362048398"/>
+								<File Id="372788735"/>
+								<File Id="462960984"/>
+								<File Id="494675012"/>
+								<File Id="516191505"/>
+								<File Id="574881694"/>
+								<File Id="588958141"/>
+								<File Id="591444988"/>
+								<File Id="614836485"/>
+								<File Id="617434472"/>
+								<File Id="627218408"/>
+								<File Id="633060307"/>
+								<File Id="664742183"/>
+								<File Id="679892637"/>
+								<File Id="703425711"/>
+								<File Id="740491507"/>
+								<File Id="768131826"/>
+								<File Id="814251334"/>
+								<File Id="819362524"/>
+								<File Id="819662266"/>
+								<File Id="897177248"/>
+								<File Id="905957412"/>
+								<File Id="908415899"/>
+								<File Id="921905985"/>
+								<File Id="934679160"/>
+								<File Id="939098941"/>
+								<File Id="983223379"/>
+								<File Id="1011685408"/>
+								<File Id="1013728994"/>
+								<File Id="1042793234"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{87ED9576-D64C-486B-80A5-29160DA2BBC0}">
-							<Media/>
+							<Media>
+								<File Id="23138405"/>
+								<File Id="39886981"/>
+								<File Id="109164812"/>
+								<File Id="127671829"/>
+								<File Id="136739305"/>
+								<File Id="203363155"/>
+								<File Id="246684599"/>
+								<File Id="267577026"/>
+								<File Id="296748058"/>
+								<File Id="385117343"/>
+								<File Id="467335159"/>
+								<File Id="472537513"/>
+								<File Id="523890301"/>
+								<File Id="556657737"/>
+								<File Id="563238665"/>
+								<File Id="615113285"/>
+								<File Id="670179642"/>
+								<File Id="679304058"/>
+								<File Id="716063942"/>
+								<File Id="720648648"/>
+								<File Id="748168199"/>
+								<File Id="765987082"/>
+								<File Id="791671492"/>
+								<File Id="811107087"/>
+								<File Id="835196488"/>
+								<File Id="844189682"/>
+								<File Id="854803066"/>
+								<File Id="859437600"/>
+								<File Id="863074422"/>
+								<File Id="871037208"/>
+								<File Id="908260370"/>
+								<File Id="1013916687"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{4B05EE76-2F40-47BF-B51C-3D49C36C540B}">
-							<Media/>
+							<Media>
+								<File Id="7839344"/>
+								<File Id="200075665"/>
+								<File Id="202391150"/>
+								<File Id="226890934"/>
+								<File Id="252093331"/>
+								<File Id="362048398"/>
+								<File Id="462960984"/>
+								<File Id="494675012"/>
+								<File Id="547820946"/>
+								<File Id="574881694"/>
+								<File Id="591444988"/>
+								<File Id="617434472"/>
+								<File Id="627218408"/>
+								<File Id="664742183"/>
+								<File Id="703425711"/>
+								<File Id="740491507"/>
+								<File Id="768131826"/>
+								<File Id="819362524"/>
+								<File Id="819662266"/>
+								<File Id="905957412"/>
+								<File Id="908415899"/>
+								<File Id="921905985"/>
+								<File Id="934679160"/>
+								<File Id="939098941"/>
+								<File Id="1013728994"/>
+								<File Id="1042793234"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}">
-							<Media/>
+							<Media>
+								<File Id="2621522"/>
+								<File Id="66502043"/>
+								<File Id="191838026"/>
+								<File Id="223958113"/>
+								<File Id="246149442"/>
+								<File Id="268509796"/>
+								<File Id="272506131"/>
+								<File Id="296827853"/>
+								<File Id="313374411"/>
+								<File Id="350445217"/>
+								<File Id="350809644"/>
+								<File Id="382116544"/>
+								<File Id="472799957"/>
+								<File Id="496061851"/>
+								<File Id="497887554"/>
+								<File Id="532959369"/>
+								<File Id="580550398"/>
+								<File Id="641043935"/>
+								<File Id="643346102"/>
+								<File Id="739318082"/>
+								<File Id="772218116"/>
+								<File Id="802654253"/>
+								<File Id="805397768"/>
+								<File Id="816107761"/>
+								<File Id="823944413"/>
+								<File Id="835674592"/>
+								<File Id="907413078"/>
+								<File Id="922843731"/>
+								<File Id="948305773"/>
+								<File Id="966817874"/>
+								<File Id="997292739"/>
+								<File Id="1015722622"/>
+								<File Id="1021346441"/>
+								<File Id="1039243121"/>
+								<File Id="1039447997"/>
+								<File Id="1045443763"/>
+								<File Id="1045703596"/>
+								<File Id="1070042377"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{05374D88-4159-48FB-9221-5804D3776A9D}">
-							<Media/>
+							<Media>
+								<File Id="2621522"/>
+								<File Id="66502043"/>
+								<File Id="191838026"/>
+								<File Id="223958113"/>
+								<File Id="246149442"/>
+								<File Id="268509796"/>
+								<File Id="272506131"/>
+								<File Id="296827853"/>
+								<File Id="313374411"/>
+								<File Id="350445217"/>
+								<File Id="350809644"/>
+								<File Id="382116544"/>
+								<File Id="472799957"/>
+								<File Id="496061851"/>
+								<File Id="497887554"/>
+								<File Id="532959369"/>
+								<File Id="580550398"/>
+								<File Id="641043935"/>
+								<File Id="643346102"/>
+								<File Id="739318082"/>
+								<File Id="772218116"/>
+								<File Id="802654253"/>
+								<File Id="805397768"/>
+								<File Id="816107761"/>
+								<File Id="823944413"/>
+								<File Id="835674592"/>
+								<File Id="907413078"/>
+								<File Id="922843731"/>
+								<File Id="948305773"/>
+								<File Id="966817874"/>
+								<File Id="997292739"/>
+								<File Id="1015722622"/>
+								<File Id="1021346441"/>
+								<File Id="1039243121"/>
+								<File Id="1039447997"/>
+								<File Id="1045443763"/>
+								<File Id="1045703596"/>
+								<File Id="1070042377"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{4634728D-A6EC-463F-98B7-88625AA203FB}">
-							<Media/>
+							<Media>
+								<File Id="333557476"/>
+								<File Id="352564134"/>
+								<File Id="451536701"/>
+								<File Id="800124228"/>
+								<File Id="818743522"/>
+								<File Id="867434999"/>
+								<File Id="884764841"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}">
-							<Media/>
+							<Media>
+								<File Id="18965413"/>
+								<File Id="39886981"/>
+								<File Id="109164812"/>
+								<File Id="615113285"/>
+								<File Id="854803066"/>
+								<File Id="863074422"/>
+							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1367758915" Name="AudioEvent_SVR_F01_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Cough" GUID="{626E0F76-8B9D-40A3-8C60-F0D3F197E71C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.309206" DurationMax="1.013016"/>
-				<Event Id="733303879" Name="AudioEvent_SVR_F01_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Effort_Hard" GUID="{392FB213-27ED-42EB-AA9C-340465FCD898}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.458095" DurationMax="1.072880"/>
-				<Event Id="672386116" Name="AudioEvent_SVR_F01_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Effort_Light" GUID="{1BD59AFA-9B64-4991-8E1F-4C9E9C1A027B}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.308685" DurationMax="0.523401"/>
-				<Event Id="1105694768" Name="AudioEvent_SVR_F01_Grunt_Falling" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Falling" GUID="{548B2ECE-AAA2-44B0-B8BC-01A345DCE34C}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.725510" DurationMax="1.017732"/>
-				<Event Id="1109234332" Name="AudioEvent_SVR_F01_Grunt_Hurt_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Hurt_Hard" GUID="{1CFFAE0D-E287-4E94-A2B0-9F719F996570}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.026667" DurationMax="4.666236"/>
-				<Event Id="2514097837" Name="AudioEvent_SVR_F01_Grunt_Hurt_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Hurt_Light" GUID="{DA2DD73E-AFEE-4B33-AE11-FC9F013EE6BA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.398209" DurationMax="0.941134"/>
-				<Event Id="3054054328" Name="AudioEvent_SVR_F01_Grunt_Insanity" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Insanity" GUID="{3E1DBBAE-6798-4755-8448-AC97BBB7FEBE}" DurationType="OneShot" DurationMin="3.198753" DurationMax="4.524852"/>
-				<Event Id="2337720831" Name="AudioEvent_SVR_F01_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Insanity_SnapOfIt" GUID="{7F493A78-BF61-4185-895E-F98597513369}" DurationType="OneShot" DurationMin="3.419971" DurationMax="3.838788"/>
-				<Event Id="18001360" Name="AudioEvent_SVR_F01_Grunt_Land_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Land_Hard" GUID="{D9072CE5-476C-44DA-9B9E-F6C8A3227A49}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.720045" DurationMax="0.989796"/>
-				<Event Id="892137881" Name="AudioEvent_SVR_F01_Grunt_Land_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Land_Light" GUID="{449BF85C-2E98-4C63-99DF-F426F04C31F5}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.421678" DurationMax="0.610000"/>
-				<Event Id="351228626" Name="AudioEvent_SVR_F01_Grunt_Scream_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Hit" GUID="{6B394CEE-AE42-4EED-A014-473A4D288FFE}" DurationType="OneShot" DurationMin="0.469138" DurationMax="0.753719"/>
-				<Event Id="2084293414" Name="AudioEvent_SVR_F01_Grunt_Scream_Hit_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Hit_Mori" GUID="{3329E38B-71DC-4308-BACF-AD3E6D98F2CB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.469138" DurationMax="0.753719"/>
-				<Event Id="1907390837" Name="AudioEvent_SVR_F01_Grunt_Scream_Long" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Long" GUID="{82B4E8EC-9202-4A92-871E-2994E27E33CA}" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852"/>
-				<Event Id="3984337303" Name="AudioEvent_SVR_F01_Grunt_Scream_Long_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Long_Mori" GUID="{B66254EB-36F7-403F-A719-846A31D444F4}" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852"/>
-				<Event Id="2261537631" Name="AudioEvent_SVR_F01_Grunt_Scream_Long_Mori_K28" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Long_Mori_K28" GUID="{C8A30A53-E22B-46FB-A550-52E027AB07FF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852"/>
-				<Event Id="3603052069" Name="AudioEvent_SVR_F01_Grunt_Scream_Mori_K25" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Mori_K25" GUID="{8D5B982C-08AF-47BA-9B52-F0F3AB1DDEEB}" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852"/>
-				<Event Id="2565729778" Name="AudioEvent_SVR_F01_Grunt_Scream_Qatar_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Qatar_Mori" GUID="{E9746F7B-29AA-46F6-A50F-C4D05EE01C0D}" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852"/>
-				<Event Id="1214408659" Name="AudioEvent_SVR_F01_Grunt_Scream_Short" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Short" GUID="{DEE25A96-4F2A-4E6E-A06E-F3B82D7D9BED}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.369456" DurationMax="0.753719"/>
-				<Event Id="2189611425" Name="AudioEvent_SVR_F01_Grunt_Scream_Short_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Short_Hit" GUID="{3CB7BBB0-B3E5-482F-B39C-69C430849A34}" DurationType="OneShot" DurationMin="0.469138" DurationMax="0.753719"/>
+				<Event Id="1367758915" Name="AudioEvent_SVR_F01_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Cough" GUID="{626E0F76-8B9D-40A3-8C60-F0D3F197E71C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.309206" DurationMax="1.013016">
+					<ExcludedMemoryFiles>
+						<File Id="76327188" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="146590062" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="439174593" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="453797735" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="708940515" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="744784699" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1016860733" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1047537800" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1070200630" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_10_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="733303879" Name="AudioEvent_SVR_F01_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Effort_Hard" GUID="{392FB213-27ED-42EB-AA9C-340465FCD898}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.458095" DurationMax="1.072880">
+					<ExcludedMemoryFiles>
+						<File Id="62935725" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="96839201" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="256650056" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="315876554" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="464115526" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_14.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="474428098" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="593513163" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="647015149" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="694663297" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="897735923" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="978271598" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_13.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_13_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="672386116" Name="AudioEvent_SVR_F01_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Effort_Light" GUID="{1BD59AFA-9B64-4991-8E1F-4C9E9C1A027B}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.308685" DurationMax="0.523401">
+					<ExcludedMemoryFiles>
+						<File Id="76296226" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="82567158" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="115902878" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="339628589" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="465710896" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="500628735" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="537380852" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="651371410" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="681564083" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="795658596" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1011760567" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="1063322146" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_06_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1105694768" Name="AudioEvent_SVR_F01_Grunt_Falling" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Falling" GUID="{548B2ECE-AAA2-44B0-B8BC-01A345DCE34C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.725510" DurationMax="1.017732">
+					<ExcludedMemoryFiles>
+						<File Id="15356445" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_falling_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="55564426" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_falling_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="220772563" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_falling_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="494117171" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_falling_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="712548786" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_falling_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="756600980" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_falling_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_06_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1109234332" Name="AudioEvent_SVR_F01_Grunt_Hurt_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Hurt_Hard" GUID="{1CFFAE0D-E287-4E94-A2B0-9F719F996570}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.026667" DurationMax="4.666236">
+					<ExcludedMemoryFiles>
+						<File Id="6409064" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="26146422" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_14.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="62550711" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_23.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_23_7FA8D501.wem</Path>
+						</File>
+						<File Id="71645539" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="156937463" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="205782007" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="373969926" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="498656001" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_16.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="515172509" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="614247005" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="707042499" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="863662454" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_13.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="972945727" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_22.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_22_7FA8D501.wem</Path>
+						</File>
+						<File Id="1025100499" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_15.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="1039335136" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_12_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2514097837" Name="AudioEvent_SVR_F01_Grunt_Hurt_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Hurt_Light" GUID="{DA2DD73E-AFEE-4B33-AE11-FC9F013EE6BA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.398209" DurationMax="0.941134">
+					<ExcludedMemoryFiles>
+						<File Id="157129296" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="258691821" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="259934799" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_22.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_22_7FA8D501.wem</Path>
+						</File>
+						<File Id="281759921" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_20.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_20_7FA8D501.wem</Path>
+						</File>
+						<File Id="335848307" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_21.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_21_7FA8D501.wem</Path>
+						</File>
+						<File Id="336663436" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="366541853" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="387896549" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_17.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="457099569" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_19.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_19_7FA8D501.wem</Path>
+						</File>
+						<File Id="606142444" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="637101818" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_14.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="680035521" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_23.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_23_7FA8D501.wem</Path>
+						</File>
+						<File Id="696791511" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_10.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="710152659" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_15.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="831628905" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_11.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="834258426" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_16.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="932497004" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_13.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="978576800" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_18.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="982309433" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_12.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="994399839" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_08.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_08_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3054054328" Name="AudioEvent_SVR_F01_Grunt_Insanity" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Insanity" GUID="{3E1DBBAE-6798-4755-8448-AC97BBB7FEBE}" DurationType="OneShot" DurationMin="3.198753" DurationMax="4.524852">
+					<ExcludedMemoryFiles>
+						<File Id="278306115" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="281195372" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="336787243" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="566338631" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="883095160" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1041221055" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2337720831" Name="AudioEvent_SVR_F01_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Insanity_SnapOfIt" GUID="{7F493A78-BF61-4185-895E-F98597513369}" DurationType="OneShot" DurationMin="3.419971" DurationMax="3.838788">
+					<ExcludedMemoryFiles>
+						<File Id="158644168" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="173236910" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="222540673" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="374175673" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="693402795" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="758210742" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="780175586" Language="SFX">
+							<ShortName>Character\KLR_07\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01.wav</ShortName>
+							<Path>SFX\Character\KLR_07\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01_67368C31.wem</Path>
+						</File>
+						<File Id="783690441" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="18001360" Name="AudioEvent_SVR_F01_Grunt_Land_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Land_Hard" GUID="{D9072CE5-476C-44DA-9B9E-F6C8A3227A49}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.720045" DurationMax="0.989796">
+					<ExcludedMemoryFiles>
+						<File Id="158644168" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="173236910" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="222540673" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="374175673" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="693402795" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="758210742" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_07.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="783690441" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="892137881" Name="AudioEvent_SVR_F01_Grunt_Land_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Land_Light" GUID="{449BF85C-2E98-4C63-99DF-F426F04C31F5}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.421678" DurationMax="0.610000">
+					<ExcludedMemoryFiles>
+						<File Id="396720312" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="552561232" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_light_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="599017888" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_light_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="615654107" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="965880653" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_light_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="976601107" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_land_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="351228626" Name="AudioEvent_SVR_F01_Grunt_Scream_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Hit" GUID="{6B394CEE-AE42-4EED-A014-473A4D288FFE}" DurationType="OneShot" DurationMin="0.469138" DurationMax="0.753719">
+					<ExcludedMemoryFiles>
+						<File Id="90654633" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="149324063" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="477200947" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="798118839" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994450507" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_09_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2084293414" Name="AudioEvent_SVR_F01_Grunt_Scream_Hit_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Hit_Mori" GUID="{3329E38B-71DC-4308-BACF-AD3E6D98F2CB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.469138" DurationMax="0.753719">
+					<ExcludedMemoryFiles>
+						<File Id="90654633" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="149324063" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="477200947" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="798118839" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994450507" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_09_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1907390837" Name="AudioEvent_SVR_F01_Grunt_Scream_Long" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Long" GUID="{82B4E8EC-9202-4A92-871E-2994E27E33CA}" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852">
+					<ExcludedMemoryFiles>
+						<File Id="278306115" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="281195372" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="336787243" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="566338631" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="883095160" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1041221055" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3984337303" Name="AudioEvent_SVR_F01_Grunt_Scream_Long_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Long_Mori" GUID="{B66254EB-36F7-403F-A719-846A31D444F4}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852">
+					<ExcludedMemoryFiles>
+						<File Id="278306115" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="281195372" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="336787243" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="566338631" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="883095160" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1041221055" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2261537631" Name="AudioEvent_SVR_F01_Grunt_Scream_Long_Mori_K28" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Long_Mori_K28" GUID="{C8A30A53-E22B-46FB-A550-52E027AB07FF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852">
+					<ExcludedMemoryFiles>
+						<File Id="278306115" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="281195372" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="336787243" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="566338631" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="883095160" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1041221055" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3603052069" Name="AudioEvent_SVR_F01_Grunt_Scream_Mori_K25" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Mori_K25" GUID="{8D5B982C-08AF-47BA-9B52-F0F3AB1DDEEB}" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852">
+					<ExcludedMemoryFiles>
+						<File Id="278306115" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="281195372" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="336787243" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="566338631" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="883095160" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1041221055" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2565729778" Name="AudioEvent_SVR_F01_Grunt_Scream_Qatar_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Qatar_Mori" GUID="{E9746F7B-29AA-46F6-A50F-C4D05EE01C0D}" DurationType="OneShot" DurationMin="2.998753" DurationMax="4.324852">
+					<ExcludedMemoryFiles>
+						<File Id="278306115" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="281195372" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="336787243" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="566338631" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="883095160" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1041221055" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1214408659" Name="AudioEvent_SVR_F01_Grunt_Scream_Short" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Short" GUID="{DEE25A96-4F2A-4E6E-A06E-F3B82D7D9BED}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.369456" DurationMax="0.753719">
+					<ExcludedMemoryFiles>
+						<File Id="90654633" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="149324063" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="177144654" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_01.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="477200947" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="798118839" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994450507" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="1014784948" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_02.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2189611425" Name="AudioEvent_SVR_F01_Grunt_Scream_Short_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Scream_Short_Hit" GUID="{3CB7BBB0-B3E5-482F-B39C-69C430849A34}" DurationType="OneShot" DurationMin="0.469138" DurationMax="0.753719">
+					<ExcludedMemoryFiles>
+						<File Id="90654633" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_03.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="149324063" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_06.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="477200947" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_05.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="798118839" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_04.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="994450507" Language="SFX">
+							<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_09.wav</ShortName>
+							<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_09_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="3848802175" Name="AudioEvent_SVR_F01_Grunt_Stop" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_F01\SVR_F01_GRUNT\AudioEvent_SVR_F01_Grunt_Stop" GUID="{B7D18983-D5CD-4669-AF73-E76EA5F460F8}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="9339637" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_short_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_short_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="14043968" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="14748175" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="21335492" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="26125376" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_hurt_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_hurt_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="30155198" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_hard_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_hard_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="32064505" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="33061420" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="34435564" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="35346633" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="41415645" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="46059897" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="51278173" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="62265949" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="64801313" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="65070855" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="76219523" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="79925333" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="81203724" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="84232825" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="92673942" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cry_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cry_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="93202543" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="96345249" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="106596239" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_16.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="107521702" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="115404289" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="115659779" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_22.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_22_7FA8D501.wem</Path>
-				</File>
-				<File Id="118530617" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_normal_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_normal_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="119268892" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cry_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cry_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="130364287" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="132279391" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="134768770" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cough_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cough_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="135358822" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="137020313" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_light_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_light_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="147018230" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_normal_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_normal_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="150402007" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="151296190" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="154869352" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_normal_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_normal_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="155061113" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_falling_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_falling_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="165515342" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_17.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_17_7FA8D501.wem</Path>
-				</File>
-				<File Id="166553409" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="174225651" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="176886025" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="182837355" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="184725276" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="184756780" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="191503651" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="202003760" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="204974840" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="207618625" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cough_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cough_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="212481538" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="215767392" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="215822370" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="219646197" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="219913101" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="232752785" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_16.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="233687196" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cry_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cry_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="234239850" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="238586040" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="247543068" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="250237540" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="250383225" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="259581352" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_normal_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_normal_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="261531828" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="262028304" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_light_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_light_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="266612070" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_20.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_20_7FA8D501.wem</Path>
-				</File>
-				<File Id="273079203" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_hurt_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_hurt_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="273160308" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="273532359" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_23.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_23_7FA8D501.wem</Path>
-				</File>
-				<File Id="282163575" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="288446576" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_short_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_short_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="300776150" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_falling_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_falling_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="301265417" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_17.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_17_7FA8D501.wem</Path>
-				</File>
-				<File Id="308488294" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="317410421" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cry_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cry_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="323278352" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="327813552" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="337745490" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="340540558" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_light_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_light_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="344510901" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_22.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_22_7FA8D501.wem</Path>
-				</File>
-				<File Id="348829379" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="353320470" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="355527555" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="357482950" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="369260545" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="373162095" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="378367691" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="386338432" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="388386231" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="390646457" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cry_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cry_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="398295869" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="405149811" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_hurt_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_hurt_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="413408618" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="414972517" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="420508442" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="422642164" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="430844778" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="431877654" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="434852013" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cough_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cough_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="435167399" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cough_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cough_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="439409488" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_short_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_short_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="439922199" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="444599222" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="446446965" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="450902634" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="460429377" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cough_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cough_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="461023503" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cry_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cry_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="462215593" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="469249884" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="475494642" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="475822813" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="483910001" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_hard_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_hard_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="484125131" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="488749927" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cough_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cough_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="493355073" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="504131829" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_short_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_short_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="512768746" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="515490304" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="523543778" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="525476753" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="528227111" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="538706396" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_hard_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_hard_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="539376782" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="546579074" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="556987704" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_short_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_short_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="559944511" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="562923694" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="564537908" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="569615567" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="570573753" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="571918503" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="573626765" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_normal_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_normal_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="574754249" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="579265744" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_18.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_18_7FA8D501.wem</Path>
-				</File>
-				<File Id="579319784" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="584468809" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="585774958" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="593786222" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_16.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="597678713" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="602943083" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="608462110" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_hurt_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_hurt_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="612300984" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="616099980" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="619239795" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="623997730" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="624596600" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cough_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cough_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="626420000" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_hurt_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_hurt_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="633498208" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="633522766" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cough_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cough_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="636685717" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cough_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cough_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="637419105" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_normal_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_normal_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="643726041" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_short_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_short_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="647780927" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_21.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_21_7FA8D501.wem</Path>
-				</File>
-				<File Id="650228124" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_hard_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_hard_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="652997830" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="654437999" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_falling_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_falling_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="655955510" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="662988743" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="679424379" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="681748537" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="688833156" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="692455516" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_19.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_19_7FA8D501.wem</Path>
-				</File>
-				<File Id="712215597" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="716003859" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="723100484" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_hurt_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_hurt_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="724100916" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="750158739" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="757580938" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_hurt_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_hurt_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="770816428" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_23.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_23_7FA8D501.wem</Path>
-				</File>
-				<File Id="771118582" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="779937703" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="786896576" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="796560534" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="797539367" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_normal_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_normal_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="804087766" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_grunt_cough_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_grunt_cough_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="814708652" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="815001407" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="826829232" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="828639067" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="833316900" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="838898910" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="841639657" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="843369366" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="843962854" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_light_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_light_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="851358176" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="862940782" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="866730367" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="868560165" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="870457356" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_light_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_light_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="872752536" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="877625945" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_breath_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_breath_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="879352981" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="882152561" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="885271655" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_18.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_18_7FA8D501.wem</Path>
-				</File>
-				<File Id="886318117" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="892383645" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="895555157" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cough_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cough_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="895815476" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="912132547" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cough_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cough_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="913048674" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="913424773" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_hurt_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_hurt_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="914731219" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_light_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_light_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="928488155" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="928508834" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_cry_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_cry_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="943733219" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="948254244" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="949847583" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_hard_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_hard_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="957385350" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_falling_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_falling_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="970096013" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_hard_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_hard_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="971920458" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_light_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_light_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="975293198" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_falling_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_falling_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="975319714" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="981154557" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_hurt_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_hurt_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="998676638" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="998826013" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cough_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cough_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1002736843" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hooked_effort_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hooked_effort_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="1003974479" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_cry_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_cry_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="1005617186" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="1007148713" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_short_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_short_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1013521035" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_running_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_running_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="1014346689" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_hard_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_hard_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="1044920530" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_effort_hard_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_effort_hard_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="1045925995" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="1050064019" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_falling_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_falling_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="1050533371" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_hurt_light_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_hurt_light_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="1057104872" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cry_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cry_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="1058454230" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1062005536" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_breath_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_breath_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="1062418083" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_land_hard_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_land_hard_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="1064760905" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_dying_cough_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_dying_cough_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="1071782904" Language="SFX">
-					<ShortName>Characters\SVR_F01\vo_svr_f01_injured_breath_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_F01\vo_svr_f01_injured_breath_08_7FA8D501.wem</Path>
+				<File Id="2621522" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="6409064" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="7839344" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="15356445" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_falling_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="18965413" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="23138405" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="26146422" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_14.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="38741351" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_14.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="39886981" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="55564426" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_falling_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="56917968" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="62550711" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_23.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_23_7FA8D501.wem</Path>
+				</File>
+				<File Id="62935725" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="66502043" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="70265123" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_15.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="71645539" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="76296226" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="76327188" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="82567158" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="90654633" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="96839201" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="109164812" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="115902878" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="124050165" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="127671829" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="136739305" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="146590062" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="149324063" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="156937463" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="157129296" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="158644168" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="173236910" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="177144654" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="191838026" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="200075665" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="202391150" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="203363155" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="205782007" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="220772563" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_falling_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="222540673" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="223958113" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="226890934" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="246149442" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="246684599" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="247336172" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="252093331" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="256650056" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="258691821" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="259934799" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_22.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_22_7FA8D501.wem</Path>
+				</File>
+				<File Id="267329491" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="267577026" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="268509796" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="272506131" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="278306115" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="281195372" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="281759921" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_20.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_20_7FA8D501.wem</Path>
+				</File>
+				<File Id="296748058" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="296827853" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="306952646" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="313374411" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_13.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="315876554" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="333557476" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_normal_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="335848307" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_21.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_21_7FA8D501.wem</Path>
+				</File>
+				<File Id="336663436" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="336787243" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="339628589" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="340516707" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="350445217" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="350809644" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="352564134" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_normal_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="362048398" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="366541853" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="372788735" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="373969926" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="374175673" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="382116544" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="385117343" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="387896549" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_17.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_17_7FA8D501.wem</Path>
+				</File>
+				<File Id="391532133" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="396720312" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_light_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="439174593" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="451536701" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_normal_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="453797735" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="457099569" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_19.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_19_7FA8D501.wem</Path>
+				</File>
+				<File Id="462960984" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="464115526" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_14.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="465710896" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="467335159" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="472537513" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_16.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="472799957" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="474428098" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="477200947" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="494117171" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_falling_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="494675012" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="496061851" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="497887554" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="498656001" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_16.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="500628735" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="515172509" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="516191505" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="523890301" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_17.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_17_7FA8D501.wem</Path>
+				</File>
+				<File Id="532959369" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="537380852" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="541778566" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="547820946" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="552561232" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_light_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="554746720" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="556657737" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="563238665" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="566338631" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="568133793" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="574881694" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="580550398" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="588958141" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="591444988" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="593513163" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="599017888" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_light_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="606142444" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="614247005" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="614836485" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="615113285" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="615654107" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_light_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="617434472" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="627218408" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="633060307" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="637101818" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_14.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="641043935" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="643346102" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="647015149" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="651371410" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="660531042" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_18.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_18_7FA8D501.wem</Path>
+				</File>
+				<File Id="664742183" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="667563058" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="670179642" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="679304058" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="679892637" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="680035521" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_23.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_23_7FA8D501.wem</Path>
+				</File>
+				<File Id="681564083" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="693402795" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="694663297" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="696791511" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="703425711" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="707042499" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="708940515" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="710152659" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_15.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="712548786" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_falling_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="716063942" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="720648648" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="739318082" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="740491507" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="744784699" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="748168199" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="756600980" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_falling_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_falling_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="758210742" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="765987082" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="768131826" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="772218116" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="783690441" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_hard_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_hard_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="791671492" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="795658596" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="798118839" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="800124228" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_normal_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="802654253" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="805397768" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="811107087" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_13.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="814251334" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="816107761" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="818743522" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_normal_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="819362524" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="819662266" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="823944413" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="831628905" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="834258426" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_16.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="835196488" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="835674592" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_11.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="844189682" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_14.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="850941773" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="854803066" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="859437600" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_hurt_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_hurt_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="863074422" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cough_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cough_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="863662454" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_13.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="867434999" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_normal_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="871037208" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="883095160" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="884764841" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_normal_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_normal_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="897177248" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="897735923" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="905957412" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="907413078" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="908260370" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_cry_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_cry_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="908415899" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="921550235" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="921905985" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="922843731" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="932497004" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_13.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="934679160" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="939098941" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="948305773" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="965880653" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_light_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="966817874" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="972945727" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_22.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_22_7FA8D501.wem</Path>
+				</File>
+				<File Id="976601107" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_land_light_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_land_light_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="978271598" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_hard_13.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_hard_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="978576800" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_18.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_18_7FA8D501.wem</Path>
+				</File>
+				<File Id="982309433" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="983223379" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cough_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cough_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="994399839" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_light_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_light_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="994450507" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_09.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="997292739" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_breath_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_breath_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="1011685408" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_hurt_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_hurt_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1011760567" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="1013728994" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_cry_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_cry_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="1013916687" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_dying_breath_15.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_dying_breath_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="1014784948" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_short_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_short_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1015722622" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_01.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="1016860733" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_07.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="1021346441" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_03.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1025100499" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_15.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="1039243121" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_effort_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_effort_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="1039335136" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hurt_hard_12.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hurt_hard_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="1039447997" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="1041221055" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_scream_long_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_scream_long_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="1042793234" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_injured_breath_13.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_injured_breath_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="1045443763" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_08.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="1045703596" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_hurt_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_hurt_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="1047537800" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_02.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1048529015" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_05.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="1063322146" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_effort_light_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_effort_light_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="1063599247" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_running_06.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_running_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="1070042377" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_hooked_cry_04.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_hooked_cry_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="1070200630" Language="SFX">
+					<ShortName>Character\SVR_F01\vo_svr_f01_grunt_cough_10.wav</ShortName>
+					<Path>SFX\Character\SVR_F01\vo_svr_f01_grunt_cough_10_7FA8D501.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="379311847" Name="AudioRTPC_Survivor_Time_Stop_Moving" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Survivor_Time_Stop_Moving" GUID="{879A231E-2653-440D-976D-53F57B2C0D11}"/>
+				<GameParameter Id="379311847" Name="AudioRTPC_Survivor_Time_Stop_Moving" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Survivor_Time_Stop_Moving" GUID="{879A231E-2653-440D-976D-53F57B2C0D11}"/>
 				<GameParameter Id="842905171" Name="AudioRTPC_VOL_SVR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_SVR_GRUNT" GUID="{DEC3D784-475D-476E-B2BF-0B730C2576AD}"/>
 				<GameParameter Id="1242206108" Name="AudioRTPC_Perk_Volume_Dying_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Dying_State" GUID="{E4C408A0-3EB2-45EF-84AE-269B386AB5EC}"/>
-				<GameParameter Id="2190398698" Name="AudioRTPC_Character_Survivor_Status_Injured_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Hiding" GUID="{4D2CE684-3942-4711-921C-553193BEF00F}"/>
-				<GameParameter Id="2512409509" Name="AudioRTPC_Character_Survivor_Status_Normal_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Crouch" GUID="{706F913C-F65D-47B2-BDBC-37265D577FC2}"/>
+				<GameParameter Id="2190398698" Name="AudioRTPC_Character_Survivor_Status_Injured_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Hiding" GUID="{4D2CE684-3942-4711-921C-553193BEF00F}"/>
+				<GameParameter Id="2512409509" Name="AudioRTPC_Character_Survivor_Status_Normal_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Crouch" GUID="{706F913C-F65D-47B2-BDBC-37265D577FC2}"/>
 				<GameParameter Id="2847211100" Name="AudioRTPC_Perk_Volume_Normal_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Normal_State" GUID="{1559F02B-CBCD-4A69-9EEA-1E154C343F86}"/>
 				<GameParameter Id="3074411056" Name="AudioRTPC_SM_SVR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_SM_SVR_Attenuation" GUID="{2F84B5A8-CF0F-4ACE-9FFC-2047C948057D}"/>
 				<GameParameter Id="3750954478" Name="AudioRTPC_Perk_Volume_Global" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Global" GUID="{69F05DBC-1C31-4E41-AAF1-42887629F737}"/>
-				<GameParameter Id="3878507702" Name="AudioRTPC_Character_Survivor_Status_Normal_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Hiding" GUID="{11A5E8A6-5A37-467B-BCAC-95923283F57F}"/>
-				<GameParameter Id="4046646071" Name="AudioRTPC_Survivor_Status_Dead" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Survivor_Status_Dead" GUID="{F5A93109-8CE3-4D68-A190-D99FBD7E5532}"/>
+				<GameParameter Id="3878507702" Name="AudioRTPC_Character_Survivor_Status_Normal_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Hiding" GUID="{11A5E8A6-5A37-467B-BCAC-95923283F57F}"/>
+				<GameParameter Id="4046646071" Name="AudioRTPC_Survivor_Status_Dead" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Survivor_Status_Dead" GUID="{F5A93109-8CE3-4D68-A190-D99FBD7E5532}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
-				<GameParameter Id="4125754129" Name="AudioRTPC_Character_Survivor_Status_Injured_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Crouch" GUID="{AFF464E3-9682-4DEE-B826-E03DE4742985}"/>
+				<GameParameter Id="4125754129" Name="AudioRTPC_Character_Survivor_Status_Injured_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Crouch" GUID="{AFF464E3-9682-4DEE-B826-E03DE4742985}"/>
 				<GameParameter Id="4294706380" Name="AudioRTPC_Perk_Volume_Injured_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Injured_State" GUID="{19EDAF7F-21CC-4A39-B81B-D8FD71224345}"/>
 			</GameParameters>
 			<SwitchGroups>

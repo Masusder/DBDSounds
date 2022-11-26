@@ -1,1032 +1,2378 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="64677517" GUID="{20B2F73A-F9B8-4512-B67E-633ADC167745}" Language="SFX" Hash="3838180316">
+		<SoundBank Id="64677517" GUID="{20B2F73A-F9B8-4512-B67E-633ADC167745}" Language="SFX" Hash="277119907">
 			<ObjectPath>\SoundBanks\CHARACTER\SURVIVOR\SVR_M09</ObjectPath>
 			<ShortName>SVR_M09</ShortName>
 			<Path>SVR_M09.bnk</Path>
 			<IncludedEvents>
 				<Event Id="718649105" Name="AudioEvent_SVR_M09_Dead" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Dead" GUID="{9AFFA3DA-72FA-4260-AA74-BC0B0A70DFE9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="312675935" Name="AudioEvent_SVR_M09_GameStart_NotControlled" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GameStart\AudioEvent_SVR_M09_GameStart_NotControlled" GUID="{D4CBDC27-787E-4320-AF18-F4CA0E3D86DD}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="4812091" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="20116086" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="22904048" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="26279959" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="34046871" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_15.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="36943857" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="51678293" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="54344762" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="58829682" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="82375308" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="82969464" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="121664040" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="140238304" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="178168393" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="179176858" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="183330122" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="187617694" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="191232585" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="194325312" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="221288780" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="224749610" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="228354005" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="231201937" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_17.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="235862305" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="238829608" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="239877968" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="244843397" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="263290359" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="268965557" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="273959118" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="275147921" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="283080925" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="299006066" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="301661756" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="323700498" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_15.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="328142217" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="352891220" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_27.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_27_7FA8D501.wem</Path>
+						</File>
+						<File Id="366345329" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_26.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_26_7FA8D501.wem</Path>
+						</File>
+						<File Id="382784963" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="389364886" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="401595442" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="405327705" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="419912231" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="422655783" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_16.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="439565346" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_16.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="442027942" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="442121714" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="445293819" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_15.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="453111319" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_20.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_20_7FA8D501.wem</Path>
+						</File>
+						<File Id="454013509" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="455075023" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="470942477" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="476415248" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="482751975" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="509096157" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_15.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="510449443" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="526966625" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="551158839" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="575187545" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="578185616" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="595987683" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="600531484" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="601997572" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="604983885" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="605949783" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="619889288" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="638711448" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="642963911" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="646509486" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="664567817" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="691486380" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="694372308" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="723203468" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="745107812" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="766501599" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="774664268" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="782004635" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="782896222" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="784583230" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="792237149" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="792546824" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_19.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_19_7FA8D501.wem</Path>
+						</File>
+						<File Id="801841832" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="811931031" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="824444303" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="830141486" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="840878854" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="844534092" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_18.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="869537118" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="869616905" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="876974992" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="887406538" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="918908835" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_running_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="924054642" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="925372214" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="985154506" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="997419658" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001806468" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1007218190" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1014974511" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1031698158" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1059592483" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_10_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{4634728D-A6EC-463F-98B7-88625AA203FB}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{C122D54D-7534-40F3-9278-C4B3885FC8A1}">
-							<Media/>
+							<Media>
+								<File Id="82969464"/>
+								<File Id="231201937"/>
+								<File Id="283080925"/>
+								<File Id="389364886"/>
+								<File Id="439565346"/>
+								<File Id="442121714"/>
+								<File Id="453111319"/>
+								<File Id="509096157"/>
+								<File Id="510449443"/>
+								<File Id="575187545"/>
+								<File Id="604983885"/>
+								<File Id="723203468"/>
+								<File Id="792546824"/>
+								<File Id="844534092"/>
+								<File Id="918908835"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C6A55A58-493C-4921-A35A-7A4B7296A933}">
-							<Media/>
+							<Media>
+								<File Id="4812091"/>
+								<File Id="34046871"/>
+								<File Id="58829682"/>
+								<File Id="140238304"/>
+								<File Id="268965557"/>
+								<File Id="299006066"/>
+								<File Id="419912231"/>
+								<File Id="422655783"/>
+								<File Id="442027942"/>
+								<File Id="551158839"/>
+								<File Id="578185616"/>
+								<File Id="601997572"/>
+								<File Id="782004635"/>
+								<File Id="830141486"/>
+								<File Id="997419658"/>
+								<File Id="1007218190"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{87ED9576-D64C-486B-80A5-29160DA2BBC0}">
-							<Media/>
+							<Media>
+								<File Id="22904048"/>
+								<File Id="36943857"/>
+								<File Id="228354005"/>
+								<File Id="235862305"/>
+								<File Id="238829608"/>
+								<File Id="263290359"/>
+								<File Id="352891220"/>
+								<File Id="366345329"/>
+								<File Id="445293819"/>
+								<File Id="482751975"/>
+								<File Id="595987683"/>
+								<File Id="600531484"/>
+								<File Id="605949783"/>
+								<File Id="766501599"/>
+								<File Id="925372214"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{4B05EE76-2F40-47BF-B51C-3D49C36C540B}">
-							<Media/>
+							<Media>
+								<File Id="54344762"/>
+								<File Id="239877968"/>
+								<File Id="328142217"/>
+								<File Id="401595442"/>
+								<File Id="646509486"/>
+								<File Id="664567817"/>
+								<File Id="694372308"/>
+								<File Id="745107812"/>
+								<File Id="784583230"/>
+								<File Id="792237149"/>
+								<File Id="801841832"/>
+								<File Id="1001806468"/>
+								<File Id="1031698158"/>
+								<File Id="1059592483"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}">
-							<Media/>
+							<Media>
+								<File Id="20116086"/>
+								<File Id="26279959"/>
+								<File Id="82375308"/>
+								<File Id="121664040"/>
+								<File Id="178168393"/>
+								<File Id="179176858"/>
+								<File Id="191232585"/>
+								<File Id="275147921"/>
+								<File Id="323700498"/>
+								<File Id="405327705"/>
+								<File Id="454013509"/>
+								<File Id="824444303"/>
+								<File Id="840878854"/>
+								<File Id="876974992"/>
+								<File Id="887406538"/>
+								<File Id="985154506"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{05374D88-4159-48FB-9221-5804D3776A9D}">
-							<Media/>
+							<Media>
+								<File Id="20116086"/>
+								<File Id="26279959"/>
+								<File Id="82375308"/>
+								<File Id="121664040"/>
+								<File Id="178168393"/>
+								<File Id="179176858"/>
+								<File Id="191232585"/>
+								<File Id="275147921"/>
+								<File Id="323700498"/>
+								<File Id="405327705"/>
+								<File Id="454013509"/>
+								<File Id="824444303"/>
+								<File Id="840878854"/>
+								<File Id="876974992"/>
+								<File Id="887406538"/>
+								<File Id="985154506"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{4634728D-A6EC-463F-98B7-88625AA203FB}">
-							<Media/>
+							<Media>
+								<File Id="183330122"/>
+								<File Id="194325312"/>
+								<File Id="273959118"/>
+								<File Id="382784963"/>
+								<File Id="455075023"/>
+								<File Id="476415248"/>
+								<File Id="526966625"/>
+								<File Id="691486380"/>
+								<File Id="869537118"/>
+								<File Id="869616905"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}">
-							<Media/>
+							<Media>
+								<File Id="51678293"/>
+								<File Id="187617694"/>
+								<File Id="221288780"/>
+								<File Id="224749610"/>
+								<File Id="244843397"/>
+								<File Id="301661756"/>
+								<File Id="470942477"/>
+								<File Id="619889288"/>
+								<File Id="638711448"/>
+								<File Id="642963911"/>
+								<File Id="774664268"/>
+								<File Id="782896222"/>
+								<File Id="811931031"/>
+								<File Id="924054642"/>
+								<File Id="1014974511"/>
+							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1791862032" Name="AudioEvent_SVR_M09_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Cough" GUID="{2057376F-155F-42B0-AC58-6F7D0DC1B094}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.451500" DurationMax="1.460680"/>
-				<Event Id="863276336" Name="AudioEvent_SVR_M09_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Effort_Hard" GUID="{7DB61E4C-27D9-4F82-9BEC-AC6E46068DFA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.980544" DurationMax="1.811678"/>
-				<Event Id="3421692281" Name="AudioEvent_SVR_M09_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Effort_Light" GUID="{891AD94B-B437-4154-874D-1BCAC9BB663D}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.539252" DurationMax="1.413220"/>
-				<Event Id="2462357751" Name="AudioEvent_SVR_M09_Grunt_Falling" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Falling" GUID="{F75F450A-6EED-40A2-A8A0-657CDD9C5807}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.586372" DurationMax="0.813900"/>
-				<Event Id="2746710539" Name="AudioEvent_SVR_M09_Grunt_Hurt_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Hurt_Hard" GUID="{A9E13E11-52EB-4844-94EC-60CA1622AC75}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.310862" DurationMax="3.013832"/>
-				<Event Id="3867079168" Name="AudioEvent_SVR_M09_Grunt_Hurt_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Hurt_Light" GUID="{B302194C-32E4-47B0-B859-5D00F7ACA11E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.421927" DurationMax="0.631474"/>
-				<Event Id="3175548021" Name="AudioEvent_SVR_M09_Grunt_Insanity" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Insanity" GUID="{3DD4F0AB-3AFE-4340-9C7A-8155E3B233EF}" DurationType="OneShot" DurationMin="3.920930" DurationMax="5.628140"/>
-				<Event Id="1894506976" Name="AudioEvent_SVR_M09_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Insanity_SnapOfIt" GUID="{EA5C83FF-3653-4D3F-94F2-914BD301BBAD}" DurationType="OneShot" DurationMin="3.419971" DurationMax="3.838788"/>
-				<Event Id="4185674023" Name="AudioEvent_SVR_M09_Grunt_Land_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Land_Hard" GUID="{9145079C-527B-4F94-BFE9-7EB585A3785F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.203696" DurationMax="1.581769"/>
-				<Event Id="295839908" Name="AudioEvent_SVR_M09_Grunt_Land_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Land_Light" GUID="{B425035E-FD50-4855-9C9B-195F1A55F293}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.303492" DurationMax="0.485329"/>
-				<Event Id="1160824147" Name="AudioEvent_SVR_M09_Grunt_Scream_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Hit" GUID="{AC739B32-4366-4550-8C95-C048C532221C}" DurationType="OneShot" DurationMin="0.394807" DurationMax="0.460499"/>
-				<Event Id="53183557" Name="AudioEvent_SVR_M09_Grunt_Scream_Hit_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Hit_Mori" GUID="{0B4B177A-4B9C-4C4F-87BA-CE55D7530CDF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.394807" DurationMax="0.460499"/>
-				<Event Id="2186269398" Name="AudioEvent_SVR_M09_Grunt_Scream_Long" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Long" GUID="{0F1DB3C3-0577-4568-82F0-C7CBFCEE1D19}" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141"/>
-				<Event Id="2957242346" Name="AudioEvent_SVR_M09_Grunt_Scream_Long_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Long_Mori" GUID="{143F8B3C-EE3A-40ED-9793-C1E1F370E30C}" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141"/>
-				<Event Id="3757086614" Name="AudioEvent_SVR_M09_Grunt_Scream_Long_Mori_K28" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Long_Mori_K28" GUID="{3D9975D3-623F-4AE8-A13F-E596980447EE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141"/>
-				<Event Id="4057273406" Name="AudioEvent_SVR_M09_Grunt_Scream_Mori_K25" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Mori_K25" GUID="{492E73A5-15A4-4037-892C-7FF83CE35B60}" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141"/>
-				<Event Id="614352341" Name="AudioEvent_SVR_M09_Grunt_Scream_Qatar_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Qatar_Mori" GUID="{56C5964D-CB71-4846-B6DD-344DAF7A58CF}" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141"/>
-				<Event Id="4157607994" Name="AudioEvent_SVR_M09_Grunt_Scream_Short" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Short" GUID="{59554A29-13DA-41EB-9A89-4A4E647E81E7}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.468163" DurationMax="0.669751"/>
-				<Event Id="747857148" Name="AudioEvent_SVR_M09_Grunt_Scream_Short_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Short_Hit" GUID="{BCC14B9A-620D-4CB8-BD02-7DA87EDF41A2}" DurationType="OneShot" DurationMin="0.394807" DurationMax="0.460499"/>
+				<Event Id="1791862032" Name="AudioEvent_SVR_M09_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Cough" GUID="{2057376F-155F-42B0-AC58-6F7D0DC1B094}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.451500" DurationMax="1.460680">
+					<ExcludedMemoryFiles>
+						<File Id="103137870" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="131735650" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="183421742" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="307720572" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="315158591" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="381671665" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="411802871" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="471963941" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="534647778" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_15.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="542562811" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="731256241" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="909821173" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="930813170" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="976736351" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1016960894" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="1066912972" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="863276336" Name="AudioEvent_SVR_M09_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Effort_Hard" GUID="{7DB61E4C-27D9-4F82-9BEC-AC6E46068DFA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.980544" DurationMax="1.811678">
+					<ExcludedMemoryFiles>
+						<File Id="225012558" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_012.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_012_7FA8D501.wem</Path>
+						</File>
+						<File Id="237357323" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_015.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_015_7FA8D501.wem</Path>
+						</File>
+						<File Id="243535150" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_016.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_016_7FA8D501.wem</Path>
+						</File>
+						<File Id="250687267" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_019.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_019_7FA8D501.wem</Path>
+						</File>
+						<File Id="273768313" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="333658432" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="358259281" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_017.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_017_7FA8D501.wem</Path>
+						</File>
+						<File Id="428748673" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="434726927" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_013.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_013_7FA8D501.wem</Path>
+						</File>
+						<File Id="507829636" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_014.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_014_7FA8D501.wem</Path>
+						</File>
+						<File Id="518878987" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="545596765" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="569528430" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="655087088" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_018.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_018_7FA8D501.wem</Path>
+						</File>
+						<File Id="680390182" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="794403555" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_011.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_011_7FA8D501.wem</Path>
+						</File>
+						<File Id="825171311" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="877409359" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="969873185" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1073400197" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_010.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_010_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3421692281" Name="AudioEvent_SVR_M09_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Effort_Light" GUID="{891AD94B-B437-4154-874D-1BCAC9BB663D}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.539252" DurationMax="1.413220">
+					<ExcludedMemoryFiles>
+						<File Id="37548385" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="61364028" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="303201252" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="308041665" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="482606872" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="497020880" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="609655922" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="619731995" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="701835124" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="738159437" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="821308896" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="947925357" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="979795912" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="992521933" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2462357751" Name="AudioEvent_SVR_M09_Grunt_Falling" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Falling" GUID="{F75F450A-6EED-40A2-A8A0-657CDD9C5807}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.586372" DurationMax="0.813900">
+					<ExcludedMemoryFiles>
+						<File Id="146727746" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="167621093" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="317003368" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="359683751" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="483527767" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="510897259" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="652499552" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="760052571" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="844289636" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="943641196" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2746710539" Name="AudioEvent_SVR_M09_Grunt_Hurt_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Hurt_Hard" GUID="{A9E13E11-52EB-4844-94EC-60CA1622AC75}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.310862" DurationMax="3.013832">
+					<ExcludedMemoryFiles>
+						<File Id="15739364" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="74219832" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_18.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="116653018" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="133609446" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="181841574" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_15.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="182193511" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="199488563" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="330865273" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="449027242" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="475612546" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_19.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_19_7FA8D501.wem</Path>
+						</File>
+						<File Id="490680832" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="522030851" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_17.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_17_7FA8D501.wem</Path>
+						</File>
+						<File Id="554290806" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="619891744" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_13.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="710144744" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_16.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="766006313" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="773788056" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="961957513" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_06_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3867079168" Name="AudioEvent_SVR_M09_Grunt_Hurt_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Hurt_Light" GUID="{B302194C-32E4-47B0-B859-5D00F7ACA11E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.421927" DurationMax="0.631474">
+					<ExcludedMemoryFiles>
+						<File Id="46700919" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="173415726" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="212837423" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="240517569" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="270683422" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="319414123" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="643685825" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="696111331" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="816986425" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="828266797" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="832760805" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="979043377" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1048681799" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3175548021" Name="AudioEvent_SVR_M09_Grunt_Insanity" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Insanity" GUID="{3DD4F0AB-3AFE-4340-9C7A-8155E3B233EF}" DurationType="OneShot" DurationMin="3.920930" DurationMax="5.628140">
+					<ExcludedMemoryFiles>
+						<File Id="220222774" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="371638229" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="483019319" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="533246853" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991592816" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1894506976" Name="AudioEvent_SVR_M09_Grunt_Insanity_SnapOfIt" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Insanity_SnapOfIt" GUID="{EA5C83FF-3653-4D3F-94F2-914BD301BBAD}" DurationType="OneShot" DurationMin="3.419971" DurationMax="3.838788">
+					<ExcludedMemoryFiles>
+						<File Id="47464101" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="134657450" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="274567268" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="421866597" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="518683383" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="582437749" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="612046724" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="780175586" Language="SFX">
+							<ShortName>Character\KLR_07\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01.wav</ShortName>
+							<Path>SFX\Character\KLR_07\ShockTherapy\sfx_shocktherapy_insanity_snapofit_01_67368C31.wem</Path>
+						</File>
+						<File Id="848913583" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="914217288" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_08_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="4185674023" Name="AudioEvent_SVR_M09_Grunt_Land_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Land_Hard" GUID="{9145079C-527B-4F94-BFE9-7EB585A3785F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.203696" DurationMax="1.581769">
+					<ExcludedMemoryFiles>
+						<File Id="47464101" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="134657450" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="274567268" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="421866597" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="518683383" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="582437749" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="612046724" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="848913583" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="914217288" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_08_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="295839908" Name="AudioEvent_SVR_M09_Grunt_Land_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Land_Light" GUID="{B425035E-FD50-4855-9C9B-195F1A55F293}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.303492" DurationMax="0.485329">
+					<ExcludedMemoryFiles>
+						<File Id="128095256" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_20.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_20_7FA8D501.wem</Path>
+						</File>
+						<File Id="152525358" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="355227863" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="492616306" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="506525903" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="664439433" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="744951136" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="814848728" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_23.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_23_7FA8D501.wem</Path>
+						</File>
+						<File Id="825845753" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="839248077" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_21.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_21_7FA8D501.wem</Path>
+						</File>
+						<File Id="872990608" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="944494873" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_22.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_22_7FA8D501.wem</Path>
+						</File>
+						<File Id="1004092387" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_00_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1160824147" Name="AudioEvent_SVR_M09_Grunt_Scream_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Hit" GUID="{AC739B32-4366-4550-8C95-C048C532221C}" DurationType="OneShot" DurationMin="0.394807" DurationMax="0.460499">
+					<ExcludedMemoryFiles>
+						<File Id="283391680" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="327905858" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="523828722" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="816113986" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="898390817" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="969002814" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="1043816979" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="53183557" Name="AudioEvent_SVR_M09_Grunt_Scream_Hit_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Hit_Mori" GUID="{0B4B177A-4B9C-4C4F-87BA-CE55D7530CDF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.394807" DurationMax="0.460499">
+					<ExcludedMemoryFiles>
+						<File Id="283391680" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="327905858" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="523828722" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="816113986" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="898390817" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="969002814" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="1043816979" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2186269398" Name="AudioEvent_SVR_M09_Grunt_Scream_Long" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Long" GUID="{0F1DB3C3-0577-4568-82F0-C7CBFCEE1D19}" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141">
+					<ExcludedMemoryFiles>
+						<File Id="220222774" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="371638229" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="483019319" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="533246853" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991592816" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2957242346" Name="AudioEvent_SVR_M09_Grunt_Scream_Long_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Long_Mori" GUID="{143F8B3C-EE3A-40ED-9793-C1E1F370E30C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141">
+					<ExcludedMemoryFiles>
+						<File Id="220222774" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="371638229" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="483019319" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="533246853" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991592816" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3757086614" Name="AudioEvent_SVR_M09_Grunt_Scream_Long_Mori_K28" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Long_Mori_K28" GUID="{3D9975D3-623F-4AE8-A13F-E596980447EE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141">
+					<ExcludedMemoryFiles>
+						<File Id="220222774" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="371638229" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="483019319" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="533246853" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991592816" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="4057273406" Name="AudioEvent_SVR_M09_Grunt_Scream_Mori_K25" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Mori_K25" GUID="{492E73A5-15A4-4037-892C-7FF83CE35B60}" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141">
+					<ExcludedMemoryFiles>
+						<File Id="220222774" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="371638229" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="483019319" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="533246853" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991592816" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="614352341" Name="AudioEvent_SVR_M09_Grunt_Scream_Qatar_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Qatar_Mori" GUID="{56C5964D-CB71-4846-B6DD-344DAF7A58CF}" DurationType="OneShot" DurationMin="3.720930" DurationMax="5.428141">
+					<ExcludedMemoryFiles>
+						<File Id="220222774" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="371638229" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="483019319" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="533246853" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="991592816" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4157607994" Name="AudioEvent_SVR_M09_Grunt_Scream_Short" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Short" GUID="{59554A29-13DA-41EB-9A89-4A4E647E81E7}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.468163" DurationMax="0.669751">
+					<ExcludedMemoryFiles>
+						<File Id="65753478" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="276763041" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="484243640" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="500555036" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="581856349" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="692144249" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="808646684" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="818800471" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="835828552" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="1033793944" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="1058497640" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_09_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="747857148" Name="AudioEvent_SVR_M09_Grunt_Scream_Short_Hit" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Scream_Short_Hit" GUID="{BCC14B9A-620D-4CB8-BD02-7DA87EDF41A2}" DurationType="OneShot" DurationMin="0.394807" DurationMax="0.460499">
+					<ExcludedMemoryFiles>
+						<File Id="283391680" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00_7FA8D501.wem</Path>
+						</File>
+						<File Id="327905858" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="523828722" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="816113986" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="898390817" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="969002814" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="1043816979" Language="SFX">
+							<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16.wav</ShortName>
+							<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="1105343882" Name="AudioEvent_SVR_M09_Grunt_Stop" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M09\SVR_M09_GRUNT\AudioEvent_SVR_M09_Grunt_Stop" GUID="{79FD1BD0-85D9-48BA-BBDA-8851420451DD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="1086252" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1821694" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="3380435" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="10586966" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="21516734" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="29003506" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="33387901" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="34737175" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="35275944" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="36165884" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="47367792" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="53341647" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="68788367" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="73339733" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="80069387" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="88048296" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="92317878" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="94433844" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="98765201" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_26.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_26_7FA8D501.wem</Path>
-				</File>
-				<File Id="98892994" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="99269646" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="104369945" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="105611989" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_21.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_21_7FA8D501.wem</Path>
-				</File>
-				<File Id="106258180" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="106648946" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="112298624" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="112655743" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="114579622" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_17.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_17_7FA8D501.wem</Path>
-				</File>
-				<File Id="123986246" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="124619294" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="125468354" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="127390834" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="128772205" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="135406170" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="139213257" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="143339166" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="148508480" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="150794044" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="150972756" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="152131112" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="155897022" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="157859333" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_017.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_017_7FA8D501.wem</Path>
-				</File>
-				<File Id="166590570" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="171472954" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="179552665" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="186562072" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="195222008" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_19.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_19_7FA8D501.wem</Path>
-				</File>
-				<File Id="204258763" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="215892343" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_16.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="217038470" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="220832653" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_18.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_18_7FA8D501.wem</Path>
-				</File>
-				<File Id="223352673" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_18.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_18_7FA8D501.wem</Path>
-				</File>
-				<File Id="228714813" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="229478358" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="229488557" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="242519726" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="261181125" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="278874711" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_019.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_019_7FA8D501.wem</Path>
-				</File>
-				<File Id="281080196" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="283260210" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="283786039" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="294443584" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="299784385" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="301248965" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="305235128" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="308451907" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="316059157" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_23.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_23_7FA8D501.wem</Path>
-				</File>
-				<File Id="317401451" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="322911159" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="343061056" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="351666869" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="362698068" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="364316625" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="373250006" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="385204138" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="385825589" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="386534195" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="387183449" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="408569026" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="412185925" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="421980104" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="428446339" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="433217312" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="433862625" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="434726711" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="440104746" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="449933584" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_016.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_016_7FA8D501.wem</Path>
-				</File>
-				<File Id="452116605" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="455131332" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="456790990" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="459353937" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="462588403" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="462839420" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="470638514" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="471521060" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="479430037" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="479562203" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="486039751" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="490152911" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="495965593" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="496518915" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="497752785" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_16.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="498494081" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="520052306" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="521821924" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="527061450" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="539363671" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="541600162" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="547105387" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="547263792" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="550062748" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="551346286" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="561775976" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="561987279" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="562994658" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="569870545" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="570834610" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="576860939" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="581801940" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="584581822" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="587599391" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="589897372" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="590448445" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="602220594" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="604549409" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="615298056" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="620507057" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="626455632" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="634372876" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="650069538" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_015.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_015_7FA8D501.wem</Path>
-				</File>
-				<File Id="654082308" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="655478166" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="662160777" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="664858862" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="665267444" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="671798153" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="679407978" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="680761923" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="683019099" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="686546359" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="689605968" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="689891082" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="691181816" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="696404989" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="696867519" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="709996491" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="712733946" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="714745702" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="715488120" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_20.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_20_7FA8D501.wem</Path>
-				</File>
-				<File Id="720282749" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="721506278" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="721567674" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="728757639" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="730753495" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="733253689" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="738043344" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="738236118" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="738390832" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="741714645" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_013.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_013_7FA8D501.wem</Path>
-				</File>
-				<File Id="749026866" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="750869454" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="751487794" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_14.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="755553814" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_19.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_19_7FA8D501.wem</Path>
-				</File>
-				<File Id="755708476" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="757624958" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="758632459" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="758977402" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="761743888" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="765576005" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="772044808" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="776470235" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_010.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_010_7FA8D501.wem</Path>
-				</File>
-				<File Id="776690809" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="782110385" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_27.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_27_7FA8D501.wem</Path>
-				</File>
-				<File Id="782129586" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="783325008" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="791874629" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="793838401" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_011.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_011_7FA8D501.wem</Path>
-				</File>
-				<File Id="794707527" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="798588644" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_17.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_17_7FA8D501.wem</Path>
-				</File>
-				<File Id="798651845" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="800036908" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="803031653" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_014.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_014_7FA8D501.wem</Path>
-				</File>
-				<File Id="804022959" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="816997223" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="825588462" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="829631194" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="832909447" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="833174258" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="835992315" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="850433224" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="857112132" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_cough_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_cough_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="865315872" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="869963283" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="872520841" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="874217749" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="875813231" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_10.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="876328049" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="881881731" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="883127360" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="886392233" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="891551186" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_falling_00.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_falling_00_7FA8D501.wem</Path>
-				</File>
-				<File Id="896066827" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="905593687" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="907186731" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="912224674" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="920124479" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="922602878" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_012.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_012_7FA8D501.wem</Path>
-				</File>
-				<File Id="924958848" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_choked_04.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_choked_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="931983516" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_13.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="943402718" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="947669778" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="949219404" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="955885141" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_light_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="964139659" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_light_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_light_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="976942337" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_running_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_running_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="986631660" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_11.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_11_7FA8D501.wem</Path>
-				</File>
-				<File Id="989048321" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_dying_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_dying_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="993581861" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="994163987" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_12.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="998084826" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="999355223" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1000358707" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_hooked_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_hooked_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1002722068" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_20.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_20_7FA8D501.wem</Path>
-				</File>
-				<File Id="1004113538" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_07.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="1006706013" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="1010208695" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_03.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1012673795" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_hard_06.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_hard_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="1016167872" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_15.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_15_7FA8D501.wem</Path>
-				</File>
-				<File Id="1020860389" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_injured_16.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_injured_16_7FA8D501.wem</Path>
-				</File>
-				<File Id="1024883898" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_22.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_22_7FA8D501.wem</Path>
-				</File>
-				<File Id="1049745017" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="1058202262" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_018.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_effort_hard_018_7FA8D501.wem</Path>
-				</File>
-				<File Id="1058804060" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_land_light_01.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_land_light_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="1062500656" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_scream_short_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_scream_short_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="1070216551" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_captured_08.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_captured_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="1072407220" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_status_normal_05.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_status_normal_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="1073104650" Language="SFX">
-					<ShortName>Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_02.wav</ShortName>
-					<Path>SFX\Characters\SVR_M09\vo_svr_m09_grunt_hurt_hard_02_7FA8D501.wem</Path>
+				<File Id="4812091" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="15739364" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="20116086" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="22904048" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="26279959" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="34046871" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_15.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="36943857" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="37548385" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="46700919" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="47464101" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="51678293" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="54344762" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="58829682" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="61364028" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="65753478" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="74219832" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_18.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_18_7FA8D501.wem</Path>
+				</File>
+				<File Id="82375308" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="82969464" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="103137870" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="116653018" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="121664040" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="128095256" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_20.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_20_7FA8D501.wem</Path>
+				</File>
+				<File Id="131735650" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="133609446" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="134657450" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="140238304" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="146727746" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="152525358" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="167621093" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="173415726" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="178168393" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="179176858" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="181841574" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_15.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="182193511" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="183330122" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="183421742" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="187617694" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="191232585" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="194325312" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="199488563" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="212837423" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="220222774" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="221288780" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="224749610" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="225012558" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_012.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_012_7FA8D501.wem</Path>
+				</File>
+				<File Id="228354005" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_14.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="231201937" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_17.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_17_7FA8D501.wem</Path>
+				</File>
+				<File Id="235862305" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="237357323" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_015.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_015_7FA8D501.wem</Path>
+				</File>
+				<File Id="238829608" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="239877968" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="240517569" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="243535150" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_016.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_016_7FA8D501.wem</Path>
+				</File>
+				<File Id="244843397" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_14.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="250687267" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_019.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_019_7FA8D501.wem</Path>
+				</File>
+				<File Id="263290359" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="268965557" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="270683422" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="273768313" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="273959118" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="274567268" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="275147921" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="276763041" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="283080925" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="283391680" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="299006066" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="301661756" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="303201252" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="307720572" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="308041665" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="315158591" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_14.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="317003368" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="319414123" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="323700498" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_15.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="327905858" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="328142217" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="330865273" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="333658432" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="352891220" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_27.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_27_7FA8D501.wem</Path>
+				</File>
+				<File Id="355227863" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="358259281" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_017.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_017_7FA8D501.wem</Path>
+				</File>
+				<File Id="359683751" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="366345329" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_26.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_26_7FA8D501.wem</Path>
+				</File>
+				<File Id="371638229" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="381671665" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="382784963" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="389364886" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="401595442" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="405327705" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="411802871" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="419912231" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="421866597" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="422655783" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_16.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="428748673" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="434726927" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_013.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_013_7FA8D501.wem</Path>
+				</File>
+				<File Id="439565346" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_16.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="442027942" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="442121714" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="445293819" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_15.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="449027242" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="453111319" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_20.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_20_7FA8D501.wem</Path>
+				</File>
+				<File Id="454013509" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="455075023" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="470942477" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="471963941" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="475612546" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_19.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_19_7FA8D501.wem</Path>
+				</File>
+				<File Id="476415248" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="482606872" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="482751975" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="483019319" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="483527767" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="484243640" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="490680832" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="492616306" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="497020880" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="500555036" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="506525903" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="507829636" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_014.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_014_7FA8D501.wem</Path>
+				</File>
+				<File Id="509096157" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_15.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="510449443" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="510897259" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="518683383" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="518878987" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="522030851" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_17.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_17_7FA8D501.wem</Path>
+				</File>
+				<File Id="523828722" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="526966625" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="533246853" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="534647778" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_15.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_15_7FA8D501.wem</Path>
+				</File>
+				<File Id="542562811" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="545596765" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="551158839" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="554290806" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_14.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="569528430" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="575187545" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="578185616" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="581856349" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="582437749" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="595987683" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="600531484" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="601997572" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="604983885" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="605949783" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="609655922" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="612046724" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="619731995" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="619889288" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="619891744" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="638711448" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="642963911" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="643685825" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="646509486" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="652499552" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="655087088" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_018.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_018_7FA8D501.wem</Path>
+				</File>
+				<File Id="664439433" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="664567817" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="680390182" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="691486380" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="692144249" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="694372308" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="696111331" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="701835124" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="710144744" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_16.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="723203468" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_14.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="731256241" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="738159437" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="744951136" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="745107812" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="760052571" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="766006313" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="766501599" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="773788056" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="774664268" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="782004635" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="782896222" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="784583230" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="792237149" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="792546824" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_19.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_19_7FA8D501.wem</Path>
+				</File>
+				<File Id="794403555" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_011.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_011_7FA8D501.wem</Path>
+				</File>
+				<File Id="801841832" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="808646684" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="811931031" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="814848728" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_23.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_23_7FA8D501.wem</Path>
+				</File>
+				<File Id="816113986" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="816986425" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="818800471" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="821308896" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="824444303" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_14.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="825171311" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="825845753" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="828266797" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="830141486" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="832760805" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="835828552" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="839248077" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_21.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_21_7FA8D501.wem</Path>
+				</File>
+				<File Id="840878854" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="844289636" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="844534092" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_18.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_18_7FA8D501.wem</Path>
+				</File>
+				<File Id="848913583" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="869537118" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="869616905" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_normal_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_normal_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="872990608" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="876974992" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="877409359" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="887406538" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_13.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="898390817" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="909821173" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="914217288" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_hard_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_hard_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="918908835" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_running_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_running_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="924054642" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="925372214" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_dying_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_dying_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="930813170" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="943641196" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_falling_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_falling_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="944494873" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_22.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_22_7FA8D501.wem</Path>
+				</File>
+				<File Id="947925357" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="961957513" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_hard_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="969002814" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="969873185" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="976736351" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="979043377" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="979795912" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="985154506" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_hooked_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_hooked_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="991592816" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_long_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_long_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="992521933" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_light_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_light_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="997419658" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_14.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_14_7FA8D501.wem</Path>
+				</File>
+				<File Id="1001806468" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="1004092387" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_land_light_00.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_land_light_00_7FA8D501.wem</Path>
+				</File>
+				<File Id="1007218190" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_injured_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_injured_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="1014974511" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_choked_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_choked_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="1016960894" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="1031698158" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="1033793944" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="1043816979" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_hit_16_7FA8D501.wem</Path>
+				</File>
+				<File Id="1048681799" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_hurt_light_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_hurt_light_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1058497640" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_scream_short_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_scream_short_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="1059592483" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_status_captured_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_status_captured_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="1066912972" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_cough_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_cough_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1073400197" Language="SFX">
+					<ShortName>Character\SVR_M09\vo_svr_m09_grunt_effort_hard_010.wav</ShortName>
+					<Path>SFX\Character\SVR_M09\vo_svr_m09_grunt_effort_hard_010_7FA8D501.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="379311847" Name="AudioRTPC_Survivor_Time_Stop_Moving" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Survivor_Time_Stop_Moving" GUID="{879A231E-2653-440D-976D-53F57B2C0D11}"/>
+				<GameParameter Id="379311847" Name="AudioRTPC_Survivor_Time_Stop_Moving" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Survivor_Time_Stop_Moving" GUID="{879A231E-2653-440D-976D-53F57B2C0D11}"/>
 				<GameParameter Id="842905171" Name="AudioRTPC_VOL_SVR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_SVR_GRUNT" GUID="{DEC3D784-475D-476E-B2BF-0B730C2576AD}"/>
 				<GameParameter Id="1242206108" Name="AudioRTPC_Perk_Volume_Dying_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Dying_State" GUID="{E4C408A0-3EB2-45EF-84AE-269B386AB5EC}"/>
-				<GameParameter Id="2190398698" Name="AudioRTPC_Character_Survivor_Status_Injured_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Hiding" GUID="{4D2CE684-3942-4711-921C-553193BEF00F}"/>
-				<GameParameter Id="2512409509" Name="AudioRTPC_Character_Survivor_Status_Normal_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Crouch" GUID="{706F913C-F65D-47B2-BDBC-37265D577FC2}"/>
+				<GameParameter Id="2190398698" Name="AudioRTPC_Character_Survivor_Status_Injured_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Hiding" GUID="{4D2CE684-3942-4711-921C-553193BEF00F}"/>
+				<GameParameter Id="2512409509" Name="AudioRTPC_Character_Survivor_Status_Normal_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Crouch" GUID="{706F913C-F65D-47B2-BDBC-37265D577FC2}"/>
 				<GameParameter Id="2847211100" Name="AudioRTPC_Perk_Volume_Normal_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Normal_State" GUID="{1559F02B-CBCD-4A69-9EEA-1E154C343F86}"/>
 				<GameParameter Id="3074411056" Name="AudioRTPC_SM_SVR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_SM_SVR_Attenuation" GUID="{2F84B5A8-CF0F-4ACE-9FFC-2047C948057D}"/>
 				<GameParameter Id="3750954478" Name="AudioRTPC_Perk_Volume_Global" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Global" GUID="{69F05DBC-1C31-4E41-AAF1-42887629F737}"/>
-				<GameParameter Id="3878507702" Name="AudioRTPC_Character_Survivor_Status_Normal_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Hiding" GUID="{11A5E8A6-5A37-467B-BCAC-95923283F57F}"/>
-				<GameParameter Id="4046646071" Name="AudioRTPC_Survivor_Status_Dead" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Survivor_Status_Dead" GUID="{F5A93109-8CE3-4D68-A190-D99FBD7E5532}"/>
+				<GameParameter Id="3878507702" Name="AudioRTPC_Character_Survivor_Status_Normal_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Hiding" GUID="{11A5E8A6-5A37-467B-BCAC-95923283F57F}"/>
+				<GameParameter Id="4046646071" Name="AudioRTPC_Survivor_Status_Dead" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Survivor_Status_Dead" GUID="{F5A93109-8CE3-4D68-A190-D99FBD7E5532}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
-				<GameParameter Id="4125754129" Name="AudioRTPC_Character_Survivor_Status_Injured_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Crouch" GUID="{AFF464E3-9682-4DEE-B826-E03DE4742985}"/>
+				<GameParameter Id="4125754129" Name="AudioRTPC_Character_Survivor_Status_Injured_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Crouch" GUID="{AFF464E3-9682-4DEE-B826-E03DE4742985}"/>
 				<GameParameter Id="4294706380" Name="AudioRTPC_Perk_Volume_Injured_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Injured_State" GUID="{19EDAF7F-21CC-4A39-B81B-D8FD71224345}"/>
 			</GameParameters>
 			<SwitchGroups>

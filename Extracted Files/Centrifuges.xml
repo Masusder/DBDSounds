@@ -1,123 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Pluto_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3583953170" GUID="{E8E5CECC-3DD5-4696-94F4-1A11C55EBE28}" Language="SFX" Hash="1812236850">
+		<SoundBank Id="3583953170" GUID="{E8E5CECC-3DD5-4696-94F4-1A11C55EBE28}" Language="SFX" Hash="3550965006">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Centrifuges</ObjectPath>
 			<ShortName>Centrifuges</ShortName>
 			<Path>Centrifuges.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3951085275" Name="AudioEvent_Generator_Centrifuge_Loop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Centrifuge\AudioEvent_Generator_Centrifuge_Loop" GUID="{1329B71F-8097-4254-9677-83D570A9FDAC}" MaxAttenuation="450.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
-						<File Id="391041921" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02_4D783D6C.wem</Path>
+						<File Id="391041919" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02_4D783D6C.wem</Path>
 						</File>
-						<File Id="761542546" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01_256CDB0F.wem</Path>
+						<File Id="761542545" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1062663793" Name="Reverb_UnstableRift" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_UnstableRift" GUID="{9307AD55-4EDF-4559-94E0-8C420637F067}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="3186524219" Name="AudioEvent_Generator_Centrifuge_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Centrifuge\AudioEvent_Generator_Centrifuge_Start" GUID="{3BD10730-2CD8-41B7-8463-74E2F334C9BF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.448625" DurationMax="2.500000">
 					<ExcludedMemoryFiles>
-						<File Id="644875656" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07_7FA8D501.wem</Path>
+						<File Id="644875655" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="661265310" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09_7FA8D501.wem</Path>
+						<File Id="661265309" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3667958681" Name="AudioEvent_Generator_Centrifuge_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Centrifuge\AudioEvent_Generator_Centrifuge_Stop" GUID="{F8B54898-E78F-471F-8E75-4BD75C3A4172}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1052080880" Name="AudioEvent_Meathook_Centrifuge_Loop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Centrifuge\AudioEvent_Meathook_Centrifuge_Loop" GUID="{0ABD571D-6EFB-44A6-8E15-BD613777B539}" MaxAttenuation="450.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
-						<File Id="391041921" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02_4D783D6C.wem</Path>
+						<File Id="391041919" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02_4D783D6C.wem</Path>
 						</File>
-						<File Id="761542546" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01_256CDB0F.wem</Path>
+						<File Id="761542545" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1062663793" Name="Reverb_UnstableRift" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\WORLD\REVERB\Reverb_UnstableRift" GUID="{9307AD55-4EDF-4559-94E0-8C420637F067}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="3939252366" Name="AudioEvent_Meathook_Centrifuge_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Centrifuge\AudioEvent_Meathook_Centrifuge_Start" GUID="{5D75A2E6-9C7E-485C-B021-1B3F4B3E68BC}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.252396" DurationMax="2.771771">
 					<ExcludedMemoryFiles>
-						<File Id="652334412" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07_7FA8D501.wem</Path>
+						<File Id="652334411" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="695483974" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10_7FA8D501.wem</Path>
+						<File Id="695483973" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10_7FA8D501.wem</Path>
 						</File>
-						<File Id="779297884" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08_7FA8D501.wem</Path>
+						<File Id="779297883" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08_7FA8D501.wem</Path>
 						</File>
-						<File Id="919397332" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09_7FA8D501.wem</Path>
+						<File Id="919397333" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09_7FA8D501.wem</Path>
 						</File>
-						<File Id="1063760052" Language="SFX">
-							<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06.wav</ShortName>
-							<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06_7FA8D501.wem</Path>
+						<File Id="1063760051" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3911250158" Name="AudioEvent_Meathook_Centrifuge_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Centrifuge\AudioEvent_Meathook_Centrifuge_Stop" GUID="{572EC762-1C65-4F8A-B559-6F59CD8A2A67}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="391041921" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02_4D783D6C.wem</Path>
+				<File Id="391041919" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_blackhole_02_4D783D6C.wem</Path>
 				</File>
-				<File Id="644875656" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07_7FA8D501.wem</Path>
+				<File Id="644875655" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="652334412" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07_7FA8D501.wem</Path>
+				<File Id="652334411" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="661265310" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09_7FA8D501.wem</Path>
+				<File Id="661265309" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_generator_start_09_7FA8D501.wem</Path>
 				</File>
-				<File Id="695483974" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10_7FA8D501.wem</Path>
+				<File Id="695483973" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_10_7FA8D501.wem</Path>
 				</File>
-				<File Id="761542546" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01_256CDB0F.wem</Path>
+				<File Id="761542545" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_loop_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="779297884" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08_7FA8D501.wem</Path>
+				<File Id="779297883" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_08_7FA8D501.wem</Path>
 				</File>
-				<File Id="919397332" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09_7FA8D501.wem</Path>
+				<File Id="919397333" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_09_7FA8D501.wem</Path>
 				</File>
-				<File Id="1063760052" Language="SFX">
-					<ShortName>Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06.wav</ShortName>
-					<Path>SFX\Objects\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06_7FA8D501.wem</Path>
+				<File Id="1063760051" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\Centrifuge\sfx_centrifuge_meathook_start_06_7FA8D501.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>

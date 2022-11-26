@@ -1,148 +1,1102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Feat_FinisherMori_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
+		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Pluto_PTB\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338093" GUID="{A71F8380-AC19-4C3B-8E74-B3E14C5E6DF3}" Language="SFX" Hash="3197587987">
+		<SoundBank Id="1474338093" GUID="{A71F8380-AC19-4C3B-8E74-B3E14C5E6DF3}" Language="SFX" Hash="3059070285">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_13</ObjectPath>
 			<ShortName>KLR_13</ShortName>
 			<Path>KLR_13.bnk</Path>
 			<IncludedEvents>
-				<Event Id="156510380" Name="AudioEvent_ActivatePhasing_Radius_Survivor_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivatePhasing_Radius_Survivor_Start" GUID="{D8367B5A-0EC8-4BC7-955C-823AC35DE066}" MaxAttenuation="2500.000000" DurationType="Infinite"/>
+				<Event Id="156510380" Name="AudioEvent_ActivatePhasing_Radius_Survivor_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivatePhasing_Radius_Survivor_Start" GUID="{D8367B5A-0EC8-4BC7-955C-823AC35DE066}" MaxAttenuation="2500.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="393864107" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce_0BC91DCF.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="2389574848" Name="AudioEvent_ActivatePhasing_Radius_Survivor_Stop" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivatePhasing_Radius_Survivor_Stop" GUID="{ADEF8EAC-EF36-49AD-AB4C-DDAF49F7E8A8}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="166016396" Name="AudioEvent_ActivePhasing_Activate" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Activate" GUID="{007344F0-9B7F-4B83-8491-7ECDAC2D24CF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.242874" DurationMax="1.544379"/>
-				<Event Id="950373584" Name="AudioEvent_ActivePhasing_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Appear" GUID="{477DAD78-40C4-4438-A605-B744D926EAEF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.884063" DurationMax="1.123750"/>
-				<Event Id="3259291662" Name="AudioEvent_ActivePhasing_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Desactivate" GUID="{872FADE2-C3A9-4D58-A6B1-BEACE3FB33FC}" MaxAttenuation="1900.000000" DurationType="Infinite"/>
-				<Event Id="3675915314" Name="AudioEvent_ActivePhasing_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Disappear" GUID="{9E9AE1E3-BF43-4B46-A6B4-959E0112CDD6}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.428519" DurationMax="2.039256"/>
-				<Event Id="3739153019" Name="AudioEvent_ActivePhasing_Radius_2D_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Radius_2D_Start" GUID="{48F1C54B-6878-460D-8EE8-81BB5AC62DF5}" DurationType="Infinite"/>
+				<Event Id="166016396" Name="AudioEvent_ActivePhasing_Activate" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Activate" GUID="{007344F0-9B7F-4B83-8491-7ECDAC2D24CF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.242874" DurationMax="1.544379">
+					<ExcludedMemoryFiles>
+						<File Id="111166693" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_03_67368C31.wem</Path>
+						</File>
+						<File Id="179686731" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_01_67368C31.wem</Path>
+						</File>
+						<File Id="521620129" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_02_67368C31.wem</Path>
+						</File>
+						<File Id="639529946" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04_67368C31.wem</Path>
+						</File>
+						<File Id="684171845" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_flash_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_flash_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="950373584" Name="AudioEvent_ActivePhasing_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Appear" GUID="{477DAD78-40C4-4438-A605-B744D926EAEF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.884063" DurationMax="1.123750">
+					<ExcludedMemoryFiles>
+						<File Id="529847379" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02_67368C31.wem</Path>
+						</File>
+						<File Id="536806593" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03_67368C31.wem</Path>
+						</File>
+						<File Id="663708369" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04_67368C31.wem</Path>
+						</File>
+						<File Id="684171845" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_flash_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_flash_01_67368C31.wem</Path>
+						</File>
+						<File Id="1022928452" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3259291662" Name="AudioEvent_ActivePhasing_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Desactivate" GUID="{872FADE2-C3A9-4D58-A6B1-BEACE3FB33FC}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="24764919" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_01_67368C31.wem</Path>
+						</File>
+						<File Id="28931199" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_03_67368C31.wem</Path>
+						</File>
+						<File Id="44737044" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_12.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_12_67368C31.wem</Path>
+						</File>
+						<File Id="124664608" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
+						</File>
+						<File Id="246966283" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_flash_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_flash_02_67368C31.wem</Path>
+						</File>
+						<File Id="420516342" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_11.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_11_67368C31.wem</Path>
+						</File>
+						<File Id="453330023" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_01_0BC91DCF.wem</Path>
+						</File>
+						<File Id="495636983" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_10.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_10_67368C31.wem</Path>
+						</File>
+						<File Id="529847379" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02_67368C31.wem</Path>
+						</File>
+						<File Id="531902888" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_02_0BC91DCF.wem</Path>
+						</File>
+						<File Id="536806593" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03_67368C31.wem</Path>
+						</File>
+						<File Id="586130910" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
+						</File>
+						<File Id="635426960" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
+						</File>
+						<File Id="663708369" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04_67368C31.wem</Path>
+						</File>
+						<File Id="742431796" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
+						</File>
+						<File Id="793065478" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
+						</File>
+						<File Id="867465681" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_13.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_13_67368C31.wem</Path>
+						</File>
+						<File Id="870586629" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
+						</File>
+						<File Id="1022928452" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01_67368C31.wem</Path>
+						</File>
+						<File Id="1026724649" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_09.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_09_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3675915314" Name="AudioEvent_ActivePhasing_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Disappear" GUID="{9E9AE1E3-BF43-4B46-A6B4-959E0112CDD6}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.428519" DurationMax="2.039256">
+					<ExcludedMemoryFiles>
+						<File Id="111166693" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_03_67368C31.wem</Path>
+						</File>
+						<File Id="179686731" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_01_67368C31.wem</Path>
+						</File>
+						<File Id="246966283" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_flash_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_flash_02_67368C31.wem</Path>
+						</File>
+						<File Id="328340621" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02_67368C31.wem</Path>
+						</File>
+						<File Id="521620129" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_02_67368C31.wem</Path>
+						</File>
+						<File Id="639529946" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04_67368C31.wem</Path>
+						</File>
+						<File Id="663435127" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_03_67368C31.wem</Path>
+						</File>
+						<File Id="860334267" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_04_67368C31.wem</Path>
+						</File>
+						<File Id="1073229763" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3739153019" Name="AudioEvent_ActivePhasing_Radius_2D_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Radius_2D_Start" GUID="{48F1C54B-6878-460D-8EE8-81BB5AC62DF5}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="393864107" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce_0BC91DCF.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="3144448985" Name="AudioEvent_ActivePhasing_Radius_2D_Stop" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Radius_2D_Stop" GUID="{FF58BFB7-6317-42CC-8AA7-FEC978150784}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="767273852" Name="AudioEvent_ActivePhasing_Radius_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Radius_Start" GUID="{0FEC73FC-44C6-46D0-9A23-017B5B024A15}" MaxAttenuation="2500.000000" DurationType="Infinite"/>
+				<Event Id="767273852" Name="AudioEvent_ActivePhasing_Radius_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Radius_Start" GUID="{0FEC73FC-44C6-46D0-9A23-017B5B024A15}" MaxAttenuation="2500.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="393864107" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce_0BC91DCF.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2987065172" Name="HAPTIC_K13_PHASING_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K13_PHASING_AUX" GUID="{D1A93D35-D5FE-4F6F-ABDE-60653AAFB5A0}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="1559140304" Name="AudioEvent_ActivePhasing_Radius_Stop" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Radius_Stop" GUID="{CC579D50-CE6E-475D-A859-4AB3E8F983D7}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2056588096" Name="AudioEvent_ActivePhasing_Ready" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Ready" GUID="{527C1F7D-BEB7-4819-A882-1683AC2A88DD}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.888015" DurationMax="2.997037"/>
-				<Event Id="3948007470" Name="AudioEvent_K13_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_Land" GUID="{E63C79C1-FB2B-44DA-9442-CF73886DA72E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
-				<Event Id="2255604122" Name="AudioEvent_K13_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_Move" GUID="{3674FE14-247A-4A1B-B0BE-02FEC79E37AD}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.350772" DurationMax="1.701866"/>
+				<Event Id="2056588096" Name="AudioEvent_ActivePhasing_Ready" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_ActivePhasing_Ready" GUID="{527C1F7D-BEB7-4819-A882-1683AC2A88DD}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.888015" DurationMax="2.997037">
+					<ExcludedMemoryFiles>
+						<File Id="295439933" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_ready_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_ready_01_67368C31.wem</Path>
+						</File>
+						<File Id="328340621" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02_67368C31.wem</Path>
+						</File>
+						<File Id="663435127" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_03_67368C31.wem</Path>
+						</File>
+						<File Id="860334267" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_04_67368C31.wem</Path>
+						</File>
+						<File Id="1073229763" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3948007470" Name="AudioEvent_K13_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_Land" GUID="{E63C79C1-FB2B-44DA-9442-CF73886DA72E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2255604122" Name="AudioEvent_K13_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_Move" GUID="{3674FE14-247A-4A1B-B0BE-02FEC79E37AD}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.350772" DurationMax="1.701866">
+					<ExcludedMemoryFiles>
+						<File Id="550882514" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_killer_k13_body_move_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_killer_k13_body_move_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="704778204" Name="AudioEvent_K13_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_ShuffleHigh" GUID="{C3389AF0-3826-4793-80B8-EC204A2BACDA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
 				<Event Id="3609482526" Name="AudioEvent_K13_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_ShuffleLow" GUID="{02E80914-849F-4DDD-887D-19FC072FF727}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
-				<Event Id="785021727" Name="AudioEvent_K13_WPN_Default_Katana_Arm" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Arm" GUID="{7A06CF0F-3ED1-4017-A411-28E27B827021}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186"/>
-				<Event Id="2977877703" Name="AudioEvent_K13_WPN_Default_Katana_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Attack" GUID="{1C6D4C92-F3F2-4A10-827C-F78183D6E655}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.906119" DurationMax="1.254404"/>
-				<Event Id="1910729506" Name="AudioEvent_K13_WPN_Default_Katana_Clean" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Clean" GUID="{8772A7E7-B097-48D1-A8E9-BC58D1F0616A}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="785021727" Name="AudioEvent_K13_WPN_Default_Katana_Arm" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Arm" GUID="{7A06CF0F-3ED1-4017-A411-28E27B827021}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186">
+					<ExcludedMemoryFiles>
+						<File Id="154354503" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_arm_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_01_67368C31.wem</Path>
+						</File>
+						<File Id="255390280" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_arm_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_02_67368C31.wem</Path>
+						</File>
+						<File Id="513141723" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_arm_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2977877703" Name="AudioEvent_K13_WPN_Default_Katana_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Attack" GUID="{1C6D4C92-F3F2-4A10-827C-F78183D6E655}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.906119" DurationMax="1.254404">
+					<ExcludedMemoryFiles>
+						<File Id="375341923" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_01_67368C31.wem</Path>
+						</File>
+						<File Id="406145375" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_04_67368C31.wem</Path>
+						</File>
+						<File Id="445995899" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_03_67368C31.wem</Path>
+						</File>
+						<File Id="575159043" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_05_67368C31.wem</Path>
+						</File>
+						<File Id="587720463" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_02_67368C31.wem</Path>
+						</File>
+						<File Id="972027587" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_06_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1910729506" Name="AudioEvent_K13_WPN_Default_Katana_Clean" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Clean" GUID="{8772A7E7-B097-48D1-A8E9-BC58D1F0616A}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="3707201173" Name="AudioEvent_K13_WPN_Default_Katana_Impact" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Impact" GUID="{4F7EFAB8-8876-407E-AC2B-A855838F1EF0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.297330" DurationMax="1.000000">
+					<ExcludedMemoryFiles>
+						<File Id="286564712" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_impact_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="369593270" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_impact_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="513512265" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_impact_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="749494551" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_impact_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1050778577" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_impact_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
-							<Media/>
+							<Media>
+								<File Id="286564712"/>
+								<File Id="369593270"/>
+								<File Id="513512265"/>
+								<File Id="749494551"/>
+								<File Id="1050778577"/>
+							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="3231302750" Name="AudioEvent_K13_WPN_Default_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_PullOut" GUID="{6326A24F-4EC5-413E-9AB1-77110E4C8512}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249"/>
-				<Event Id="1259806400" Name="AudioEvent_K13_WPN_Outfit016_Katana_Arm" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Arm" GUID="{7DC6AAB2-6B9D-4A30-8860-A602CE38C514}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186"/>
-				<Event Id="1699815774" Name="AudioEvent_K13_WPN_Outfit016_Katana_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Attack" GUID="{0D5FCBC8-4485-463F-A8F4-88334E205CF7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
-				<Event Id="2032172201" Name="AudioEvent_K13_WPN_Outfit016_Katana_Clean" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Clean" GUID="{F47E409F-F871-4E33-ABA7-4CD9F723BF22}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3231302750" Name="AudioEvent_K13_WPN_Default_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_PullOut" GUID="{6326A24F-4EC5-413E-9AB1-77110E4C8512}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249">
+					<ExcludedMemoryFiles>
+						<File Id="439093222" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_03_67368C31.wem</Path>
+						</File>
+						<File Id="481417647" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_01_67368C31.wem</Path>
+						</File>
+						<File Id="785036353" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_02_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1259806400" Name="AudioEvent_K13_WPN_Outfit016_Katana_Arm" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Arm" GUID="{7DC6AAB2-6B9D-4A30-8860-A602CE38C514}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186">
+					<ExcludedMemoryFiles>
+						<File Id="154354503" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_arm_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_01_67368C31.wem</Path>
+						</File>
+						<File Id="255390280" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_arm_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_02_67368C31.wem</Path>
+						</File>
+						<File Id="513141723" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_arm_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1699815774" Name="AudioEvent_K13_WPN_Outfit016_Katana_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Attack" GUID="{0D5FCBC8-4485-463F-A8F4-88334E205CF7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<ExcludedMemoryFiles>
+						<File Id="88892555" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="223570712" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="620553226" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="806487877" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="947532756" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1036248933" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2032172201" Name="AudioEvent_K13_WPN_Outfit016_Katana_Clean" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Clean" GUID="{F47E409F-F871-4E33-ABA7-4CD9F723BF22}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="1239939372" Name="AudioEvent_K13_WPN_Outfit016_Katana_Impact" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Impact" GUID="{3D3E4FF4-D5A6-4844-8FB8-A69855527122}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.552000">
+					<ExcludedMemoryFiles>
+						<File Id="37112827" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="188007638" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="297804225" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="338158030" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="396309526" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="731834387" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
-							<Media/>
+							<Media>
+								<File Id="37112827"/>
+								<File Id="188007638"/>
+								<File Id="297804225"/>
+								<File Id="338158030"/>
+								<File Id="396309526"/>
+								<File Id="731834387"/>
+							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="1767244637" Name="AudioEvent_K13_WPN_Outfit016_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_PullOut" GUID="{BB03C35A-8ECB-4918-9990-7B1EF7AD1B09}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249"/>
-				<Event Id="2103201896" Name="AudioEvent_Killer_Haiti_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Attack" GUID="{D6AFBA4F-EB25-422A-9F4D-34DAA456A2C5}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.558138" DurationMax="0.824284"/>
-				<Event Id="2039192174" Name="AudioEvent_Killer_Haiti_Crack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_Crack" GUID="{19FFC540-EBEA-4DB3-A4A1-2AC152BF6526}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.743065" DurationMax="1.205244"/>
-				<Event Id="2666344654" Name="AudioEvent_Killer_Haiti_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Grunt_Hurt" GUID="{243B9662-2BE4-472A-A34E-51B8AF1A7930}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.718435" DurationMax="2.337936"/>
-				<Event Id="2709471965" Name="AudioEvent_Killer_Haiti_Ha" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Ha" GUID="{755425BF-08B1-4876-AEFF-3DC3F3B6BBD2}" MaxAttenuation="450.000000" DurationType="OneShot" DurationMin="1.283816" DurationMax="1.646044"/>
-				<Event Id="3813352035" Name="AudioEvent_Killer_Haiti_Jerky" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Jerky" GUID="{30F172EF-BCB1-48F1-880B-E5F3D6E24CA9}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.264535" DurationMax="1.815390"/>
-				<Event Id="3294683490" Name="AudioEvent_Killer_Haiti_Mori_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Mori_Attack" GUID="{D3A00127-4041-4370-8670-6042F63AB632}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.558138" DurationMax="0.824284"/>
-				<Event Id="2024752125" Name="AudioEvent_Killer_Haiti_Mori_Scream" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Mori_Scream" GUID="{3C2E1A6E-2FF7-4B93-B0D8-8CB4B43052A6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.482667" DurationMax="1.824000"/>
-				<Event Id="407467408" Name="AudioEvent_Killer_Haiti_Sad" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Sad" GUID="{0B4B8637-1294-48DE-AD0E-59BF7CFCA2C5}" MaxAttenuation="450.000000" DurationType="OneShot" DurationMin="3.202478" DurationMax="3.384270"/>
-				<Event Id="1479178150" Name="AudioEvent_Killer_Haiti_Wince" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Wince" GUID="{B3A8B724-A476-422E-9031-C5AAEE901EB0}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="2.010825" DurationMax="2.533680"/>
-				<Event Id="1245902875" Name="AudioEvent_Killer_Haiti_WPN_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_WPN_Appear" GUID="{6E24F5F5-8B15-4B8B-9133-BB086A3DC0AA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.385293" DurationMax="1.598840"/>
-				<Event Id="990051869" Name="AudioEvent_Killer_Haiti_WPN_Break" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_WPN_Break" GUID="{87F10BA7-D587-4881-8E89-7FFF812C1507}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.912918" DurationMax="2.610517"/>
-				<Event Id="1563509023" Name="AudioEvent_Killer_Haiti_WPN_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_WPN_Disappear" GUID="{F82FF7EB-42B9-4B5E-88D2-CE942C5B3FAB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.219486" DurationMax="1.483248"/>
+				<Event Id="1767244637" Name="AudioEvent_K13_WPN_Outfit016_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_PullOut" GUID="{BB03C35A-8ECB-4918-9990-7B1EF7AD1B09}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249">
+					<ExcludedMemoryFiles>
+						<File Id="439093222" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_03_67368C31.wem</Path>
+						</File>
+						<File Id="481417647" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_01_67368C31.wem</Path>
+						</File>
+						<File Id="785036353" Language="SFX">
+							<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_02_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2103201896" Name="AudioEvent_Killer_Haiti_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Attack" GUID="{D6AFBA4F-EB25-422A-9F4D-34DAA456A2C5}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.558138" DurationMax="0.824284">
+					<ExcludedMemoryFiles>
+						<File Id="415174490" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_04_67368C31.wem</Path>
+						</File>
+						<File Id="559719922" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_01_67368C31.wem</Path>
+						</File>
+						<File Id="698947711" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_03_67368C31.wem</Path>
+						</File>
+						<File Id="833456924" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_02_67368C31.wem</Path>
+						</File>
+						<File Id="948646433" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_05_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2039192174" Name="AudioEvent_Killer_Haiti_Crack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_Crack" GUID="{19FFC540-EBEA-4DB3-A4A1-2AC152BF6526}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.743065" DurationMax="1.205244">
+					<ExcludedMemoryFiles>
+						<File Id="395407523" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_02_67368C31.wem</Path>
+						</File>
+						<File Id="477782839" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_01_67368C31.wem</Path>
+						</File>
+						<File Id="479710388" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_06_67368C31.wem</Path>
+						</File>
+						<File Id="529847379" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02_67368C31.wem</Path>
+						</File>
+						<File Id="536806593" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03_67368C31.wem</Path>
+						</File>
+						<File Id="663708369" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04_67368C31.wem</Path>
+						</File>
+						<File Id="708725216" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_05_67368C31.wem</Path>
+						</File>
+						<File Id="947438545" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_04_67368C31.wem</Path>
+						</File>
+						<File Id="970750477" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_03_67368C31.wem</Path>
+						</File>
+						<File Id="1022928452" Language="SFX">
+							<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2666344654" Name="AudioEvent_Killer_Haiti_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Grunt_Hurt" GUID="{243B9662-2BE4-472A-A34E-51B8AF1A7930}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.718435" DurationMax="2.337936">
+					<ExcludedMemoryFiles>
+						<File Id="174675373" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_01_67368C31.wem</Path>
+						</File>
+						<File Id="181486275" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_04_67368C31.wem</Path>
+						</File>
+						<File Id="714469488" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_02_67368C31.wem</Path>
+						</File>
+						<File Id="942221418" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2709471965" Name="AudioEvent_Killer_Haiti_Ha" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Ha" GUID="{755425BF-08B1-4876-AEFF-3DC3F3B6BBD2}" MaxAttenuation="450.000000" DurationType="OneShot" DurationMin="1.283816" DurationMax="1.646044">
+					<ExcludedMemoryFiles>
+						<File Id="47448433" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_ha_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_ha_01_67368C31.wem</Path>
+						</File>
+						<File Id="470559803" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_ha_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_ha_02_67368C31.wem</Path>
+						</File>
+						<File Id="1029133709" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_ha_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_ha_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3813352035" Name="AudioEvent_Killer_Haiti_Jerky" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Jerky" GUID="{30F172EF-BCB1-48F1-880B-E5F3D6E24CA9}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.264535" DurationMax="1.815390">
+					<ExcludedMemoryFiles>
+						<File Id="275570666" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_01_67368C31.wem</Path>
+						</File>
+						<File Id="312245655" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_02_67368C31.wem</Path>
+						</File>
+						<File Id="488005853" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_03_67368C31.wem</Path>
+						</File>
+						<File Id="636323506" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_04_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3294683490" Name="AudioEvent_Killer_Haiti_Mori_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Mori_Attack" GUID="{D3A00127-4041-4370-8670-6042F63AB632}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.558138" DurationMax="0.824284">
+					<ExcludedMemoryFiles>
+						<File Id="415174490" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_04_67368C31.wem</Path>
+						</File>
+						<File Id="559719922" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_01_67368C31.wem</Path>
+						</File>
+						<File Id="698947711" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_03_67368C31.wem</Path>
+						</File>
+						<File Id="833456924" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_02_67368C31.wem</Path>
+						</File>
+						<File Id="948646433" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_05_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2024752125" Name="AudioEvent_Killer_Haiti_Mori_Scream" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Mori_Scream" GUID="{3C2E1A6E-2FF7-4B93-B0D8-8CB4B43052A6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.482667" DurationMax="1.824000">
+					<ExcludedMemoryFiles>
+						<File Id="662843845" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_scream_fx_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_scream_fx_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="791439614" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_scream_fx_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_scream_fx_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="997300032" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_scream_fx_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_scream_fx_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="407467408" Name="AudioEvent_Killer_Haiti_Sad" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Sad" GUID="{0B4B8637-1294-48DE-AD0E-59BF7CFCA2C5}" MaxAttenuation="450.000000" DurationType="OneShot" DurationMin="3.202478" DurationMax="3.384270">
+					<ExcludedMemoryFiles>
+						<File Id="282103192" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_sad_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_sad_02_67368C31.wem</Path>
+						</File>
+						<File Id="657676336" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_sad_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_sad_03_67368C31.wem</Path>
+						</File>
+						<File Id="832570298" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_sad_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_sad_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1479178150" Name="AudioEvent_Killer_Haiti_Wince" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_Killer_Haiti_Wince" GUID="{B3A8B724-A476-422E-9031-C5AAEE901EB0}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="2.010825" DurationMax="2.533680">
+					<ExcludedMemoryFiles>
+						<File Id="103992478" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_01_67368C31.wem</Path>
+						</File>
+						<File Id="601997570" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_03_67368C31.wem</Path>
+						</File>
+						<File Id="812864228" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_04_67368C31.wem</Path>
+						</File>
+						<File Id="871663798" Language="SFX">
+							<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_02_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1245902875" Name="AudioEvent_Killer_Haiti_WPN_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_WPN_Appear" GUID="{6E24F5F5-8B15-4B8B-9133-BB086A3DC0AA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.385293" DurationMax="1.598840">
+					<ExcludedMemoryFiles>
+						<File Id="280377728" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_01_67368C31.wem</Path>
+						</File>
+						<File Id="286083011" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_02_67368C31.wem</Path>
+						</File>
+						<File Id="686929011" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="990051869" Name="AudioEvent_Killer_Haiti_WPN_Break" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_WPN_Break" GUID="{87F10BA7-D587-4881-8E89-7FFF812C1507}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.912918" DurationMax="2.610517">
+					<ExcludedMemoryFiles>
+						<File Id="83744025" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_04_67368C31.wem</Path>
+						</File>
+						<File Id="375930393" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_03_67368C31.wem</Path>
+						</File>
+						<File Id="435042083" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_01_67368C31.wem</Path>
+						</File>
+						<File Id="779275087" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_02_67368C31.wem</Path>
+						</File>
+						<File Id="1019618721" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_05_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1563509023" Name="AudioEvent_Killer_Haiti_WPN_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_WPN_Disappear" GUID="{F82FF7EB-42B9-4B5E-88D2-CE942C5B3FAB}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.219486" DurationMax="1.483248">
+					<ExcludedMemoryFiles>
+						<File Id="443273355" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_04_67368C31.wem</Path>
+						</File>
+						<File Id="522270211" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_02_67368C31.wem</Path>
+						</File>
+						<File Id="834620388" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_01_67368C31.wem</Path>
+						</File>
+						<File Id="1045472625" Language="SFX">
+							<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="2813949058" Name="AudioEvent_KLR_13_Husk_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_KLR_13_Husk_Status_Start" GUID="{01D33216-DA28-4865-B672-1FEB6F83D1A5}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="24764919" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_01_67368C31.wem</Path>
+						</File>
+						<File Id="28931199" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_03_67368C31.wem</Path>
+						</File>
+						<File Id="44737044" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_12.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_12_67368C31.wem</Path>
+						</File>
+						<File Id="124664608" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
+						</File>
+						<File Id="420516342" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_11.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_11_67368C31.wem</Path>
+						</File>
+						<File Id="453330023" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_01_0BC91DCF.wem</Path>
+						</File>
+						<File Id="495636983" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_10.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_10_67368C31.wem</Path>
+						</File>
+						<File Id="531902888" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_02_0BC91DCF.wem</Path>
+						</File>
+						<File Id="586130910" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
+						</File>
+						<File Id="635426960" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
+						</File>
+						<File Id="742431796" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
+						</File>
+						<File Id="793065478" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
+						</File>
+						<File Id="867465681" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_13.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_13_67368C31.wem</Path>
+						</File>
+						<File Id="870586629" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
+						</File>
+						<File Id="1026724649" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_09.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_09_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="88353268" Name="MoriKill_Off" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchMoriKill\MoriKill_Off" GUID="{C9BDC321-8562-4AB2-BC59-82B648E05A63}"/>
 						<ActionSetSwitchEntry Id="1160234136" Name="Normal" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus\Normal" GUID="{965881D7-B79B-4E1A-84CA-3422D7CB19F6}"/>
@@ -151,588 +1105,812 @@
 				</Event>
 				<Event Id="306396922" Name="AudioEvent_KLR_13_Husk_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_KLR_13_Husk_Status_Stop" GUID="{A8BB1B64-1B96-4130-AC23-99FF82FE703D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2183941102" Name="AudioEvent_KLR_13_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_KLR_13_Status_Start" GUID="{78833D4C-8394-4D79-9B30-4EEB99D1A364}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="24764919" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_01_67368C31.wem</Path>
+						</File>
+						<File Id="28931199" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_03_67368C31.wem</Path>
+						</File>
+						<File Id="44737044" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_12.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_12_67368C31.wem</Path>
+						</File>
+						<File Id="118670211" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="124664608" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
+						</File>
+						<File Id="174685623" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="420516342" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_11.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_11_67368C31.wem</Path>
+						</File>
+						<File Id="437002768" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="453330023" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_01_0BC91DCF.wem</Path>
+						</File>
+						<File Id="495636983" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_10.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_10_67368C31.wem</Path>
+						</File>
+						<File Id="507392670" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="531902888" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_02_0BC91DCF.wem</Path>
+						</File>
+						<File Id="586130910" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
+						</File>
+						<File Id="635426960" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
+						</File>
+						<File Id="742431796" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
+						</File>
+						<File Id="793065478" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
+						</File>
+						<File Id="867465681" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_13.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_13_67368C31.wem</Path>
+						</File>
+						<File Id="870586629" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
+						</File>
+						<File Id="1014119933" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026724649" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_09.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_09_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{D076A5EA-63B7-49D7-8790-5C78D0724A03}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{935A71B5-DF49-416D-A374-DB953A943D5F}">
-							<Media/>
+							<Media>
+								<File Id="118670211"/>
+								<File Id="174685623"/>
+								<File Id="437002768"/>
+								<File Id="507392670"/>
+								<File Id="1014119933"/>
+							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="2687465728" Name="AudioEvent_KLR_13_Status_Start_Menu" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_KLR_13_Status_Start_Menu" GUID="{DAA622FD-ADDD-4ACE-B1A4-83979970DB23}" MaxAttenuation="1900.000000" DurationType="Infinite"/>
-				<Event Id="549216988" Name="AudioEvent_MenuIdle_Haiti_Crack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Crack" GUID="{97DACFB1-5AB6-41C6-9546-4C1C311DE042}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.755538" DurationMax="1.205244"/>
-				<Event Id="3338182567" Name="AudioEvent_MenuIdle_Haiti_Ha" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Ha" GUID="{9D989CF4-F2F8-47DE-9C59-EDA9E4ACB572}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.441035" DurationMax="1.847622"/>
-				<Event Id="322148301" Name="AudioEvent_MenuIdle_Haiti_Jerky" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Jerky" GUID="{07CA56DB-05DE-4BBE-80FF-536BB5D6E2CC}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.264535" DurationMax="1.815390"/>
-				<Event Id="144435978" Name="AudioEvent_MenuIdle_Haiti_Sad" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Sad" GUID="{77F496CB-1493-4A45-8F81-96EBDE78D99B}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.202478" DurationMax="3.384270"/>
-				<Event Id="2962780568" Name="AudioEvent_MenuIdle_Haiti_Wince" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Wince" GUID="{F5D03FA3-1EDB-4412-A332-8DFF65485502}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.010825" DurationMax="2.533680"/>
-				<Event Id="2607346253" Name="AudioEvent_MenuIdle_Haiti_WPN_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_WPN_Appear" GUID="{04BDEBB5-ADB0-4011-9B7F-7C4F57508794}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.778667" DurationMax="0.917333"/>
-				<Event Id="722423137" Name="AudioEvent_MenuIdle_Haiti_WPN_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_WPN_Disappear" GUID="{A9A72330-BB4E-49F5-B398-765DC568D5F6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.013333" DurationMax="1.365333"/>
+				<Event Id="2687465728" Name="AudioEvent_KLR_13_Status_Start_Menu" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_KLR_13_Status_Start_Menu" GUID="{DAA622FD-ADDD-4ACE-B1A4-83979970DB23}" MaxAttenuation="1900.000000" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="24764919" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_01_67368C31.wem</Path>
+						</File>
+						<File Id="28931199" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_03_67368C31.wem</Path>
+						</File>
+						<File Id="44737044" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_12.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_12_67368C31.wem</Path>
+						</File>
+						<File Id="118670211" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="124664608" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
+						</File>
+						<File Id="174685623" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="420516342" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_11.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_11_67368C31.wem</Path>
+						</File>
+						<File Id="437002768" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="453330023" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_01_0BC91DCF.wem</Path>
+						</File>
+						<File Id="495636983" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_10.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_10_67368C31.wem</Path>
+						</File>
+						<File Id="507392670" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="531902888" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_02_0BC91DCF.wem</Path>
+						</File>
+						<File Id="586130910" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
+						</File>
+						<File Id="635426960" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
+						</File>
+						<File Id="742431796" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
+						</File>
+						<File Id="793065478" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
+						</File>
+						<File Id="867465681" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_13.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_13_67368C31.wem</Path>
+						</File>
+						<File Id="870586629" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
+						</File>
+						<File Id="1014119933" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026724649" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_haiti_normal_09.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_haiti_normal_09_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="549216988" Name="AudioEvent_MenuIdle_Haiti_Crack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Crack" GUID="{97DACFB1-5AB6-41C6-9546-4C1C311DE042}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.755538" DurationMax="1.205244">
+					<ExcludedMemoryFiles>
+						<File Id="22211379" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_03_67368C31.wem</Path>
+						</File>
+						<File Id="133700064" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_glass_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_glass_01_67368C31.wem</Path>
+						</File>
+						<File Id="180968818" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_glass_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_glass_04_67368C31.wem</Path>
+						</File>
+						<File Id="381452543" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04_67368C31.wem</Path>
+						</File>
+						<File Id="621807144" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02_67368C31.wem</Path>
+						</File>
+						<File Id="670061797" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_glass_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_glass_02_67368C31.wem</Path>
+						</File>
+						<File Id="888772109" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3338182567" Name="AudioEvent_MenuIdle_Haiti_Ha" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Ha" GUID="{9D989CF4-F2F8-47DE-9C59-EDA9E4ACB572}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.441035" DurationMax="1.847622">
+					<ReferencedStreamedFiles>
+						<File Id="184856257" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_ha_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_ha_02_67368C31.wem</Path>
+						</File>
+						<File Id="761702646" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_ha_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_ha_01_67368C31.wem</Path>
+						</File>
+						<File Id="844904420" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_ha_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_ha_03_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="322148301" Name="AudioEvent_MenuIdle_Haiti_Jerky" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Jerky" GUID="{07CA56DB-05DE-4BBE-80FF-536BB5D6E2CC}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.264535" DurationMax="1.815390">
+					<ReferencedStreamedFiles>
+						<File Id="302828268" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_03_67368C31.wem</Path>
+						</File>
+						<File Id="311812422" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_02_67368C31.wem</Path>
+						</File>
+						<File Id="499362190" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_01_67368C31.wem</Path>
+						</File>
+						<File Id="1008957540" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_04_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="144435978" Name="AudioEvent_MenuIdle_Haiti_Sad" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Sad" GUID="{77F496CB-1493-4A45-8F81-96EBDE78D99B}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.202478" DurationMax="3.384270">
+					<ReferencedStreamedFiles>
+						<File Id="557189455" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_sad_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_sad_01_67368C31.wem</Path>
+						</File>
+						<File Id="625170390" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_sad_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_sad_03_67368C31.wem</Path>
+						</File>
+						<File Id="857415224" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_sad_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_sad_02_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2962780568" Name="AudioEvent_MenuIdle_Haiti_Wince" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_Wince" GUID="{F5D03FA3-1EDB-4412-A332-8DFF65485502}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.010825" DurationMax="2.533680">
+					<ReferencedStreamedFiles>
+						<File Id="261608507" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_02_67368C31.wem</Path>
+						</File>
+						<File Id="329777467" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_04_67368C31.wem</Path>
+						</File>
+						<File Id="732440725" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_03_67368C31.wem</Path>
+						</File>
+						<File Id="970902299" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\vo_menuidle_haiti_idle_wince_01_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2607346253" Name="AudioEvent_MenuIdle_Haiti_WPN_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_WPN_Appear" GUID="{04BDEBB5-ADB0-4011-9B7F-7C4F57508794}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.778667" DurationMax="0.917333">
+					<ReferencedStreamedFiles>
+						<File Id="223632182" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_02_67368C31.wem</Path>
+						</File>
+						<File Id="503678168" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_01_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="722423137" Name="AudioEvent_MenuIdle_Haiti_WPN_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_MenuIdle_Haiti_WPN_Disappear" GUID="{A9A72330-BB4E-49F5-B398-765DC568D5F6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.013333" DurationMax="1.365333">
+					<ReferencedStreamedFiles>
+						<File Id="56724274" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_01_67368C31.wem</Path>
+						</File>
+						<File Id="206586051" Language="SFX">
+							<ShortName>Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_02_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
 			</IncludedEvents>
-			<ReferencedStreamedFiles>
-				<File Id="56724275" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_01_67368C31.wem</Path>
-				</File>
-				<File Id="184856258" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_ha_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_ha_02_67368C31.wem</Path>
-				</File>
-				<File Id="206586052" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Disappear_Bounce_02_67368C31.wem</Path>
-				</File>
-				<File Id="223632183" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_02_67368C31.wem</Path>
-				</File>
-				<File Id="261608508" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_02_67368C31.wem</Path>
-				</File>
-				<File Id="302828269" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_03_67368C31.wem</Path>
-				</File>
-				<File Id="311812423" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_02_67368C31.wem</Path>
-				</File>
-				<File Id="329777468" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_04_67368C31.wem</Path>
-				</File>
-				<File Id="499362191" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_01_67368C31.wem</Path>
-				</File>
-				<File Id="503678169" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\MenuIdle_Haiti_WPN_Appear_Bounce_01_67368C31.wem</Path>
-				</File>
-				<File Id="557189456" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_sad_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_sad_01_67368C31.wem</Path>
-				</File>
-				<File Id="625170391" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_sad_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_sad_03_67368C31.wem</Path>
-				</File>
-				<File Id="732440726" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_03_67368C31.wem</Path>
-				</File>
-				<File Id="761702647" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_ha_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_ha_01_67368C31.wem</Path>
-				</File>
-				<File Id="844904421" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_ha_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_ha_03_67368C31.wem</Path>
-				</File>
-				<File Id="857415225" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_sad_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_sad_02_67368C31.wem</Path>
-				</File>
-				<File Id="970902300" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_wince_01_67368C31.wem</Path>
-				</File>
-				<File Id="1008957541" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\vo_menuidle_haiti_idle_jerky_04_67368C31.wem</Path>
-				</File>
-			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="10221668" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_03.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_03_67368C31.wem</Path>
+				<File Id="22211379" Language="SFX">
+					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_03_67368C31.wem</Path>
 				</File>
-				<File Id="22211380" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_03_67368C31.wem</Path>
+				<File Id="24764919" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_01_67368C31.wem</Path>
 				</File>
-				<File Id="24764918" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_01_67368C31.wem</Path>
+				<File Id="26497007" Language="SFX">
+					<ShortName>Music\TerrorRadius\mu_terrorradius_k13_layer_02.wav</ShortName>
+					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k13_layer_02_256CDB0F.wem</Path>
 				</File>
-				<File Id="26497006" Language="SFX">
-					<ShortName>Music\mu_terrorradius_k13_layer_02.wav</ShortName>
-					<Path>SFX\Music\mu_terrorradius_k13_layer_02_256CDB0F.wem</Path>
+				<File Id="28931199" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_03_67368C31.wem</Path>
 				</File>
-				<File Id="28931198" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_03_67368C31.wem</Path>
+				<File Id="37112827" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="37112828" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_01_7FA8D501.wem</Path>
+				<File Id="44737044" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_12.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_12_67368C31.wem</Path>
 				</File>
-				<File Id="44737043" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_12.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_12_67368C31.wem</Path>
+				<File Id="47448433" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_ha_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_ha_01_67368C31.wem</Path>
 				</File>
-				<File Id="47448434" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_ha_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_ha_01_67368C31.wem</Path>
+				<File Id="83744025" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_04_67368C31.wem</Path>
 				</File>
-				<File Id="53474130" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_04.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_04_67368C31.wem</Path>
+				<File Id="88892555" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="83744023" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Break_Bounce_04.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Break_Bounce_04_67368C31.wem</Path>
+				<File Id="103992478" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_01_67368C31.wem</Path>
 				</File>
-				<File Id="88892554" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_05.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_05_7FA8D501.wem</Path>
+				<File Id="111166693" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_03_67368C31.wem</Path>
 				</File>
-				<File Id="103992479" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_wince_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_wince_01_67368C31.wem</Path>
+				<File Id="118670211" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="118670212" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_custom_bubbles_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_custom_bubbles_03_7FA8D501.wem</Path>
+				<File Id="124664608" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
 				</File>
-				<File Id="124664607" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
-				</File>
-				<File Id="129838596" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_03.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_03_67368C31.wem</Path>
-				</File>
-				<File Id="133700065" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\sfx_menuidle_haiti_glass_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\sfx_menuidle_haiti_glass_01_67368C31.wem</Path>
+				<File Id="133700064" Language="SFX">
+					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_glass_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_glass_01_67368C31.wem</Path>
 				</File>
 				<File Id="154354503" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_arm_01.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_arm_01_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_arm_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_01_67368C31.wem</Path>
 				</File>
-				<File Id="171711260" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_01.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_01_67368C31.wem</Path>
+				<File Id="174675373" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_01_67368C31.wem</Path>
 				</File>
-				<File Id="174675374" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_grunt_hurt_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_grunt_hurt_01_67368C31.wem</Path>
+				<File Id="174685623" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="174685624" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_custom_bubbles_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_custom_bubbles_01_7FA8D501.wem</Path>
+				<File Id="179686731" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_01_67368C31.wem</Path>
 				</File>
-				<File Id="180968817" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\sfx_menuidle_haiti_glass_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\sfx_menuidle_haiti_glass_04_67368C31.wem</Path>
+				<File Id="180968818" Language="SFX">
+					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_glass_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_glass_04_67368C31.wem</Path>
 				</File>
-				<File Id="181486276" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_grunt_hurt_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_grunt_hurt_04_67368C31.wem</Path>
+				<File Id="181486275" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_04_67368C31.wem</Path>
 				</File>
-				<File Id="188007639" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_05.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_05_7FA8D501.wem</Path>
+				<File Id="188007638" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="223570711" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_06.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_06_7FA8D501.wem</Path>
+				<File Id="223570712" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_06.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="246966282" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_activephasing_flash_02.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_activephasing_flash_02_67368C31.wem</Path>
+				<File Id="246966283" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_flash_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_flash_02_67368C31.wem</Path>
 				</File>
 				<File Id="255390280" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_arm_02.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_arm_02_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_arm_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_02_67368C31.wem</Path>
 				</File>
-				<File Id="275570667" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_jerky_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_jerky_01_67368C31.wem</Path>
+				<File Id="275570666" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_01_67368C31.wem</Path>
 				</File>
-				<File Id="280377726" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Appear_Bounce_01.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Appear_Bounce_01_67368C31.wem</Path>
+				<File Id="280377728" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="282103193" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_sad_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_sad_02_67368C31.wem</Path>
+				<File Id="282103192" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_sad_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_sad_02_67368C31.wem</Path>
 				</File>
-				<File Id="286083009" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Appear_Bounce_02.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Appear_Bounce_02_67368C31.wem</Path>
+				<File Id="286083011" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_02_67368C31.wem</Path>
 				</File>
 				<File Id="286564712" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_impact_05.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_impact_05_7FA8D501.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_impact_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="295439932" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_activephasing_ready_01.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_activephasing_ready_01_67368C31.wem</Path>
+				<File Id="295439933" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_ready_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_ready_01_67368C31.wem</Path>
 				</File>
-				<File Id="297804226" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_04_7FA8D501.wem</Path>
+				<File Id="297804225" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="312245656" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_jerky_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_jerky_02_67368C31.wem</Path>
+				<File Id="312245655" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_02_67368C31.wem</Path>
 				</File>
-				<File Id="328340620" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_02.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_taiko_02_67368C31.wem</Path>
+				<File Id="328340621" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02_67368C31.wem</Path>
 				</File>
-				<File Id="338158031" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_06.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_06_7FA8D501.wem</Path>
+				<File Id="330328294" Language="SFX">
+					<ShortName>Music\TerrorRadius\mu_terrorradius_k13_layer_04.wav</ShortName>
+					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k13_layer_04_256CDB0F.wem</Path>
+				</File>
+				<File Id="338158030" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_06.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="369593270" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_impact_04.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_impact_04_7FA8D501.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_impact_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="375341923" Language="SFX">
-					<ShortName>Weapons\Katana\Katana_Attack_Bounce_01.wav</ShortName>
-					<Path>SFX\Weapons\Katana\Katana_Attack_Bounce_01_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="375930391" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Break_Bounce_03.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Break_Bounce_03_67368C31.wem</Path>
+				<File Id="375930393" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_03_67368C31.wem</Path>
 				</File>
-				<File Id="381452544" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04_67368C31.wem</Path>
+				<File Id="381452543" Language="SFX">
+					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04_67368C31.wem</Path>
 				</File>
-				<File Id="395407524" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_fingers_crack_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_fingers_crack_02_67368C31.wem</Path>
+				<File Id="393864107" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce_0BC91DCF.wem</Path>
 				</File>
-				<File Id="396309527" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_03_7FA8D501.wem</Path>
+				<File Id="395407523" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_02_67368C31.wem</Path>
+				</File>
+				<File Id="396309526" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="406145375" Language="SFX">
-					<ShortName>Weapons\Katana\Katana_Attack_Bounce_04.wav</ShortName>
-					<Path>SFX\Weapons\Katana\Katana_Attack_Bounce_04_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_04_67368C31.wem</Path>
 				</File>
-				<File Id="415174491" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_attack_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_attack_04_67368C31.wem</Path>
+				<File Id="415174490" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_attack_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_04_67368C31.wem</Path>
 				</File>
-				<File Id="420516343" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_11.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_11_67368C31.wem</Path>
+				<File Id="420516342" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_11.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_11_67368C31.wem</Path>
 				</File>
-				<File Id="435042081" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Break_Bounce_01.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Break_Bounce_01_67368C31.wem</Path>
+				<File Id="435042083" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="437002769" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_custom_bubbles_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_custom_bubbles_04_7FA8D501.wem</Path>
+				<File Id="437002768" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="439093222" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_pull_out_03.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_pull_out_03_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_03_67368C31.wem</Path>
 				</File>
-				<File Id="443273353" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Disappear_Bounce_04.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Disappear_Bounce_04_67368C31.wem</Path>
+				<File Id="443273355" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_04_67368C31.wem</Path>
 				</File>
 				<File Id="445995899" Language="SFX">
-					<ShortName>Weapons\Katana\Katana_Attack_Bounce_03.wav</ShortName>
-					<Path>SFX\Weapons\Katana\Katana_Attack_Bounce_03_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_03_67368C31.wem</Path>
 				</File>
-				<File Id="453330024" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_loop_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_loop_01_0BC91DCF.wem</Path>
+				<File Id="453330023" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_loop_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_01_0BC91DCF.wem</Path>
 				</File>
-				<File Id="470559804" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_ha_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_ha_02_67368C31.wem</Path>
+				<File Id="470559803" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_ha_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_ha_02_67368C31.wem</Path>
 				</File>
-				<File Id="477782840" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_fingers_crack_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_fingers_crack_01_67368C31.wem</Path>
+				<File Id="477782839" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_01_67368C31.wem</Path>
 				</File>
-				<File Id="479710389" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_fingers_crack_06.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_fingers_crack_06_67368C31.wem</Path>
+				<File Id="479710388" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_06.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_06_67368C31.wem</Path>
 				</File>
 				<File Id="481417647" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_pull_out_01.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_pull_out_01_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_01_67368C31.wem</Path>
 				</File>
-				<File Id="488005854" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_jerky_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_jerky_03_67368C31.wem</Path>
+				<File Id="488005853" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_03_67368C31.wem</Path>
 				</File>
-				<File Id="495636984" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_10.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_10_67368C31.wem</Path>
+				<File Id="495636983" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_10.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_10_67368C31.wem</Path>
 				</File>
-				<File Id="507392671" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_custom_bubbles_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_custom_bubbles_02_7FA8D501.wem</Path>
+				<File Id="507392670" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="513141723" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_arm_03.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_arm_03_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_arm_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_arm_03_67368C31.wem</Path>
 				</File>
 				<File Id="513512265" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_impact_01.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_impact_01_7FA8D501.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_impact_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="521620128" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_02.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_02_67368C31.wem</Path>
+				<File Id="521620129" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_02_67368C31.wem</Path>
 				</File>
-				<File Id="522270209" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Disappear_Bounce_02.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Disappear_Bounce_02_67368C31.wem</Path>
+				<File Id="522270211" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_02_67368C31.wem</Path>
 				</File>
-				<File Id="529847378" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_02.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_02_67368C31.wem</Path>
+				<File Id="529847379" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_02_67368C31.wem</Path>
 				</File>
-				<File Id="531902889" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_loop_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_loop_02_0BC91DCF.wem</Path>
+				<File Id="531902888" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_loop_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_loop_02_0BC91DCF.wem</Path>
 				</File>
-				<File Id="550882513" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_killer_k13_body_move_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_killer_k13_body_move_01_7FA8D501.wem</Path>
+				<File Id="536806593" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_03_67368C31.wem</Path>
 				</File>
-				<File Id="559719923" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_attack_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_attack_01_67368C31.wem</Path>
+				<File Id="550882514" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_killer_k13_body_move_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_killer_k13_body_move_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="559719922" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_attack_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_01_67368C31.wem</Path>
 				</File>
 				<File Id="575159043" Language="SFX">
-					<ShortName>Weapons\Katana\Katana_Attack_Bounce_05.wav</ShortName>
-					<Path>SFX\Weapons\Katana\Katana_Attack_Bounce_05_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_05_67368C31.wem</Path>
 				</File>
-				<File Id="586130909" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_06.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
+				<File Id="586130910" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_06.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
 				</File>
 				<File Id="587720463" Language="SFX">
-					<ShortName>Weapons\Katana\Katana_Attack_Bounce_02.wav</ShortName>
-					<Path>SFX\Weapons\Katana\Katana_Attack_Bounce_02_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_02_67368C31.wem</Path>
 				</File>
-				<File Id="599451174" Language="SFX">
-					<ShortName>Music\mu_terrorradius_k13_layer_01.wav</ShortName>
-					<Path>SFX\Music\mu_terrorradius_k13_layer_01_256CDB0F.wem</Path>
+				<File Id="599451175" Language="SFX">
+					<ShortName>Music\TerrorRadius\mu_terrorradius_k13_layer_01.wav</ShortName>
+					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k13_layer_01_256CDB0F.wem</Path>
 				</File>
-				<File Id="601997571" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_wince_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_wince_03_67368C31.wem</Path>
+				<File Id="601997570" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_03_67368C31.wem</Path>
 				</File>
-				<File Id="620553225" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_03_7FA8D501.wem</Path>
+				<File Id="620553226" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="621807145" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02_67368C31.wem</Path>
+				<File Id="621807144" Language="SFX">
+					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02_67368C31.wem</Path>
 				</File>
-				<File Id="624898406" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_01.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_01_67368C31.wem</Path>
+				<File Id="635426960" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
 				</File>
-				<File Id="635426959" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_08.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
+				<File Id="636323506" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_04_67368C31.wem</Path>
 				</File>
-				<File Id="636323507" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_jerky_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_jerky_04_67368C31.wem</Path>
+				<File Id="639529946" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04_67368C31.wem</Path>
 				</File>
-				<File Id="638921456" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_04.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_04_67368C31.wem</Path>
+				<File Id="657676336" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_sad_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_sad_03_67368C31.wem</Path>
 				</File>
-				<File Id="639529945" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_04.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_04_67368C31.wem</Path>
+				<File Id="662843845" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_scream_fx_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_scream_fx_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="657676337" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_sad_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_sad_03_67368C31.wem</Path>
+				<File Id="663435127" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_03_67368C31.wem</Path>
 				</File>
-				<File Id="662843846" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_scream_fx_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_scream_fx_01_7FA8D501.wem</Path>
+				<File Id="663708369" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_04_67368C31.wem</Path>
 				</File>
-				<File Id="670061796" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\sfx_menuidle_haiti_glass_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\sfx_menuidle_haiti_glass_02_67368C31.wem</Path>
+				<File Id="670061797" Language="SFX">
+					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_glass_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_glass_02_67368C31.wem</Path>
 				</File>
-				<File Id="684171844" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_activephasing_flash_01.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_activephasing_flash_01_67368C31.wem</Path>
+				<File Id="684171845" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_activephasing_flash_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_activephasing_flash_01_67368C31.wem</Path>
 				</File>
-				<File Id="686929009" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Appear_Bounce_03.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Appear_Bounce_03_67368C31.wem</Path>
+				<File Id="686929011" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Appear_Bounce_03_67368C31.wem</Path>
 				</File>
-				<File Id="698947712" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_attack_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_attack_03_67368C31.wem</Path>
+				<File Id="698947711" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_attack_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_03_67368C31.wem</Path>
 				</File>
-				<File Id="708725217" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_fingers_crack_05.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_fingers_crack_05_67368C31.wem</Path>
+				<File Id="708725216" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_05_67368C31.wem</Path>
 				</File>
-				<File Id="714469489" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_grunt_hurt_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_grunt_hurt_02_67368C31.wem</Path>
+				<File Id="714469488" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_02_67368C31.wem</Path>
 				</File>
-				<File Id="731834388" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_impact_02_7FA8D501.wem</Path>
+				<File Id="731834387" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_impact_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_impact_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="742431795" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_05.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
+				<File Id="742431796" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
 				</File>
 				<File Id="749494551" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_impact_02.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_impact_02_7FA8D501.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_impact_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="779275085" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Break_Bounce_02.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Break_Bounce_02_67368C31.wem</Path>
+				<File Id="779275087" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_02_67368C31.wem</Path>
 				</File>
 				<File Id="785036353" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_pull_out_02.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_pull_out_02_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_02_67368C31.wem</Path>
 				</File>
-				<File Id="791439615" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_scream_fx_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_scream_fx_03_7FA8D501.wem</Path>
+				<File Id="791439614" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_scream_fx_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_scream_fx_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="793065479" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_07.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
+				<File Id="793065478" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
 				</File>
-				<File Id="802720753" Language="SFX">
-					<ShortName>Music\mu_terrorradius_k13_layer_04.wav</ShortName>
-					<Path>SFX\Music\mu_terrorradius_k13_layer_04_256CDB0F.wem</Path>
+				<File Id="806487877" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="806487876" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_04_7FA8D501.wem</Path>
+				<File Id="812864228" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_04_67368C31.wem</Path>
 				</File>
-				<File Id="812864229" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_wince_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_wince_04_67368C31.wem</Path>
+				<File Id="832570298" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_sad_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_sad_01_67368C31.wem</Path>
 				</File>
-				<File Id="832570299" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_sad_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_sad_01_67368C31.wem</Path>
+				<File Id="833456924" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_attack_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_02_67368C31.wem</Path>
 				</File>
-				<File Id="833456925" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_attack_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_attack_02_67368C31.wem</Path>
+				<File Id="834620388" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_01_67368C31.wem</Path>
 				</File>
-				<File Id="834093976" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_03.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_smoke_03_67368C31.wem</Path>
+				<File Id="860334267" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_04_67368C31.wem</Path>
 				</File>
-				<File Id="834620386" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Disappear_Bounce_01.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Disappear_Bounce_01_67368C31.wem</Path>
+				<File Id="867465681" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_13.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_13_67368C31.wem</Path>
 				</File>
-				<File Id="867465680" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_13.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_13_67368C31.wem</Path>
+				<File Id="870586629" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
 				</File>
-				<File Id="870586630" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
+				<File Id="871663798" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_02_67368C31.wem</Path>
 				</File>
-				<File Id="871663799" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_wince_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_wince_02_67368C31.wem</Path>
+				<File Id="879359741" Language="SFX">
+					<ShortName>Music\TerrorRadius\mu_terrorradius_k13_layer_03.wav</ShortName>
+					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k13_layer_03_256CDB0F.wem</Path>
 				</File>
-				<File Id="879359740" Language="SFX">
-					<ShortName>Music\mu_terrorradius_k13_layer_03.wav</ShortName>
-					<Path>SFX\Music\mu_terrorradius_k13_layer_03_256CDB0F.wem</Path>
+				<File Id="888772109" Language="SFX">
+					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01_67368C31.wem</Path>
 				</File>
-				<File Id="888772110" Language="SFX">
-					<ShortName>Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01_67368C31.wem</Path>
+				<File Id="942221418" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_grunt_hurt_03_67368C31.wem</Path>
 				</File>
-				<File Id="942221419" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_grunt_hurt_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_grunt_hurt_03_67368C31.wem</Path>
+				<File Id="947438545" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_04_67368C31.wem</Path>
 				</File>
-				<File Id="947438546" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_fingers_crack_04.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_fingers_crack_04_67368C31.wem</Path>
+				<File Id="947532756" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="947532755" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_02_7FA8D501.wem</Path>
+				<File Id="948646433" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_attack_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_attack_05_67368C31.wem</Path>
 				</File>
-				<File Id="948646432" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_attack_05.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_attack_05_67368C31.wem</Path>
-				</File>
-				<File Id="970750478" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_fingers_crack_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_fingers_crack_03_67368C31.wem</Path>
+				<File Id="970750477" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_fingers_crack_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_fingers_crack_03_67368C31.wem</Path>
 				</File>
 				<File Id="972027587" Language="SFX">
-					<ShortName>Weapons\Katana\Katana_Attack_Bounce_06.wav</ShortName>
-					<Path>SFX\Weapons\Katana\Katana_Attack_Bounce_06_67368C31.wem</Path>
+					<ShortName>Character\KLR_13\Katana\Katana_Attack_Bounce_06.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\Katana_Attack_Bounce_06_67368C31.wem</Path>
 				</File>
-				<File Id="997300033" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_scream_fx_02.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_scream_fx_02_7FA8D501.wem</Path>
+				<File Id="997300032" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_scream_fx_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_scream_fx_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="1000652105" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_01.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\sfx_pwr_haiti_glass_01_67368C31.wem</Path>
+				<File Id="1014119933" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="1014119934" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_custom_bubbles_05.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_custom_bubbles_05_7FA8D501.wem</Path>
+				<File Id="1019618721" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Break_Bounce_05_67368C31.wem</Path>
 				</File>
-				<File Id="1019618719" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Break_Bounce_05.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Break_Bounce_05_67368C31.wem</Path>
+				<File Id="1022928452" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_glass_01_67368C31.wem</Path>
 				</File>
-				<File Id="1026724648" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_haiti_normal_09.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_haiti_normal_09_67368C31.wem</Path>
+				<File Id="1026724649" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_haiti_normal_09.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_haiti_normal_09_67368C31.wem</Path>
 				</File>
-				<File Id="1029133710" Language="SFX">
-					<ShortName>Characters\KLR_13\vo_killer_haiti_idle_ha_03.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\vo_killer_haiti_idle_ha_03_67368C31.wem</Path>
+				<File Id="1029133709" Language="SFX">
+					<ShortName>Character\KLR_13\vo_killer_haiti_idle_ha_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_ha_03_67368C31.wem</Path>
 				</File>
-				<File Id="1036248932" Language="SFX">
-					<ShortName>Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_01.wav</ShortName>
-					<Path>SFX\Characters\KLR_13\sfx_k13_outfit_016_wpn_attack_01_7FA8D501.wem</Path>
+				<File Id="1036248933" Language="SFX">
+					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="1043095130" Language="SFX">
-					<ShortName>Powers\PWR_13_ActivePhasing\ActivePhasing_Radius_Mix_Bounce.wav</ShortName>
-					<Path>SFX\Powers\PWR_13_ActivePhasing\ActivePhasing_Radius_Mix_Bounce_0BC91DCF.wem</Path>
-				</File>
-				<File Id="1045472623" Language="SFX">
-					<ShortName>Weapons\Haiti\Haiti_WPN_Disappear_Bounce_03.wav</ShortName>
-					<Path>SFX\Weapons\Haiti\Haiti_WPN_Disappear_Bounce_03_67368C31.wem</Path>
+				<File Id="1045472625" Language="SFX">
+					<ShortName>Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Weapon\Haiti_WPN_Disappear_Bounce_03_67368C31.wem</Path>
 				</File>
 				<File Id="1050778577" Language="SFX">
-					<ShortName>Weapons\Katana\sfx_katana_impact_03.wav</ShortName>
-					<Path>SFX\Weapons\Katana\sfx_katana_impact_03_7FA8D501.wem</Path>
+					<ShortName>Character\KLR_13\Katana\sfx_katana_impact_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\Katana\sfx_katana_impact_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1073229763" Language="SFX">
+					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_01_67368C31.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="95316312" Name="AudioRTPC_Addons_KLR_13_ActivePhasing_Range" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K13_Haiti\AudioRTPC_Addons_KLR_13_ActivePhasing_Range" GUID="{623E844E-9FA2-4B85-AB2E-7A60C2C364E8}"/>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
-				<GameParameter Id="2444086592" Name="AudioRTPC_Proximity_Terror_Radius" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Proximity_Terror_Radius" GUID="{B90C8BF7-27D1-46A0-8417-5EA7C60184A3}"/>
+				<GameParameter Id="2444086592" Name="AudioRTPC_Proximity_Terror_Radius" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Proximity_Terror_Radius" GUID="{B90C8BF7-27D1-46A0-8417-5EA7C60184A3}"/>
 				<GameParameter Id="2720757776" Name="AudioRTPC_Effect_KLR_13_ActivePhasing" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K13_Haiti\AudioRTPC_Effect_KLR_13_ActivePhasing" GUID="{47849948-BA71-4F71-86DF-37E932E596C9}"/>
-				<GameParameter Id="2935614212" Name="AudioRTPC_Chase_Survivor" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_00_COMMON\AudioRTPC_Chase_Survivor" GUID="{173C4D0D-11E9-4F47-871B-1284E8907774}"/>
+				<GameParameter Id="2935614212" Name="AudioRTPC_Chase_Survivor" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Chase_Survivor" GUID="{173C4D0D-11E9-4F47-871B-1284E8907774}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -839,6 +2017,11 @@
 						<Switch Id="2605755275" Name="K28_CLOTH_Custom_SkeletonMass" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_SkeletonMass" GUID="{79A76B3F-7636-46D9-A973-0115DF295A6E}"/>
 						<Switch Id="507559864" Name="K29_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Default" GUID="{5A74A9A3-72DB-413A-9B4A-234E56C38A9C}"/>
 						<Switch Id="202068782" Name="K29_CLOTH_Custom_Stars" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Custom_Stars" GUID="{B94B102D-235A-43F4-96E5-2EE40E7081FC}"/>
+						<Switch Id="3395721558" Name="K30_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default" GUID="{10717295-6CE4-4024-A2AB-8E1DD27E6D1E}"/>
+						<Switch Id="4271573973" Name="K30_CLOTH_Default_TheAssassin" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheAssassin" GUID="{824848EA-13DD-4F24-9BB7-A68A58018D92}"/>
+						<Switch Id="3257950157" Name="K30_CLOTH_Default_TheExecutioner" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheExecutioner" GUID="{571A1577-771B-4FD5-8313-19C8B587E1ED}"/>
+						<Switch Id="1741194691" Name="K30_CLOTH_Default_TheJailer" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheJailer" GUID="{7B9F14E5-29D9-450A-A39D-FA7A9FBE6FAE}"/>
+						<Switch Id="320279088" Name="K30_CLOTH_Custom_EnchantedPlates" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Custom_EnchantedPlates" GUID="{047E2196-6E44-4A65-B02D-09D934AE1618}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3548994684" Name="AudioSwitchProximity" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchProximity" GUID="{A238147F-8756-470E-AC66-0AFAF133FD8A}">
