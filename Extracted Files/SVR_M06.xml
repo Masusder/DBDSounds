@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="64677506" GUID="{EBB53137-589F-4B4E-A080-BC4D0AAB9F11}" Language="SFX" Hash="2868060508">
+		<SoundBank Id="64677506" GUID="{EBB53137-589F-4B4E-A080-BC4D0AAB9F11}" Language="SFX" Hash="1592682609">
 			<ObjectPath>\SoundBanks\CHARACTER\SURVIVOR\SVR_M06</ObjectPath>
 			<ShortName>SVR_M06</ShortName>
 			<Path>SVR_M06.bnk</Path>
@@ -972,6 +972,46 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="2344475243" Name="AudioEvent_SVR_M06_Grunt_Hurt_Light_Wiggle" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M06\SVR_M06_GRUNT\AudioEvent_SVR_M06_Grunt_Hurt_Light_Wiggle" GUID="{F3BE3827-CB02-48C3-BD68-5CF70BA0FBF2}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.220000" DurationMax="0.465292">
+					<ExcludedMemoryFiles>
+						<File Id="46867770" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="103496475" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="157682852" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="157696095" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="306514457" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="465859719" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="481074550" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="491063642" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="669812590" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_hurt_light_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_hurt_light_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="4056614292" Name="AudioEvent_SVR_M06_Grunt_Insanity" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M06\SVR_M06_GRUNT\AudioEvent_SVR_M06_Grunt_Insanity" GUID="{ED3778E3-47E1-4F9D-847D-19B57A107248}" DurationType="OneShot" DurationMin="3.020000" DurationMax="4.520000">
 					<ExcludedMemoryFiles>
 						<File Id="58433954" Language="SFX">
@@ -1417,53 +1457,53 @@
 				</Event>
 				<Event Id="3184181743" Name="AudioEvent_SVR_M06_Grunt_Scream_Short" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M06\SVR_M06_GRUNT\AudioEvent_SVR_M06_Grunt_Scream_Short" GUID="{DE35C473-99B5-43E8-AC8E-2B599BE44697}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.420000" DurationMax="0.620000">
 					<ExcludedMemoryFiles>
-						<File Id="95888423" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_08.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_08_7FA8D501.wem</Path>
+						<File Id="95888424" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_08_7FA8D501.wem</Path>
 						</File>
-						<File Id="129777515" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_05.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_05_7FA8D501.wem</Path>
+						<File Id="129777516" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="204209109" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_03.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_03_7FA8D501.wem</Path>
+						<File Id="204209110" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="229930520" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_10.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_10_7FA8D501.wem</Path>
+						<File Id="229930521" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_10.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_10_7FA8D501.wem</Path>
 						</File>
-						<File Id="279077866" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_09.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_09_7FA8D501.wem</Path>
+						<File Id="279077867" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_09.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_09_7FA8D501.wem</Path>
 						</File>
-						<File Id="329857015" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_04.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_04_7FA8D501.wem</Path>
+						<File Id="329857016" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="424308374" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_11.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_11_7FA8D501.wem</Path>
+						<File Id="424308375" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_11.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_11_7FA8D501.wem</Path>
 						</File>
-						<File Id="449817431" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_07.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_07_7FA8D501.wem</Path>
+						<File Id="449817432" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="528549682" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_02.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_02_7FA8D501.wem</Path>
+						<File Id="528549683" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="629028164" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_12.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_12_7FA8D501.wem</Path>
+						<File Id="629028165" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_12_7FA8D501.wem</Path>
 						</File>
-						<File Id="724060442" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_06.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_06_7FA8D501.wem</Path>
+						<File Id="724060443" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="884561521" Language="SFX">
-							<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_01.wav</ShortName>
-							<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_01_7FA8D501.wem</Path>
+						<File Id="884561522" Language="SFX">
+							<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -1593,9 +1633,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_effort_light_51.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_effort_light_51_7FA8D501.wem</Path>
 				</File>
-				<File Id="95888423" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_08.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_08_7FA8D501.wem</Path>
+				<File Id="95888424" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_08.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="96950903" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_land_light_05.wav</ShortName>
@@ -1633,9 +1673,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_falling_13.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_falling_13_7FA8D501.wem</Path>
 				</File>
-				<File Id="129777515" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_05.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_05_7FA8D501.wem</Path>
+				<File Id="129777516" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_05.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="144838248" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_hooked_23.wav</ShortName>
@@ -1709,9 +1749,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_captured_24.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_captured_24_7FA8D501.wem</Path>
 				</File>
-				<File Id="204209109" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_03.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_03_7FA8D501.wem</Path>
+				<File Id="204209110" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_03.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="208560674" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_effort_hard_41.wav</ShortName>
@@ -1725,9 +1765,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_effort_light_09.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_effort_light_09_7FA8D501.wem</Path>
 				</File>
-				<File Id="229930520" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_10.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_10_7FA8D501.wem</Path>
+				<File Id="229930521" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_10.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="230099710" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_running_11.wav</ShortName>
@@ -1765,9 +1805,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_captured_05.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_captured_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="279077866" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_09.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_09_7FA8D501.wem</Path>
+				<File Id="279077867" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_09.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="281709004" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_falling_17.wav</ShortName>
@@ -1801,9 +1841,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_scream_long_04.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_long_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="329857015" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_04.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_04_7FA8D501.wem</Path>
+				<File Id="329857016" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_04.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="331933024" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_effort_hard_45.wav</ShortName>
@@ -1913,17 +1953,17 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_land_hard_54.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_land_hard_54_7FA8D501.wem</Path>
 				</File>
-				<File Id="424308374" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_11.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_11_7FA8D501.wem</Path>
+				<File Id="424308375" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_11.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="448550586" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_status_choked_19.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_status_choked_19_7FA8D501.wem</Path>
 				</File>
-				<File Id="449817431" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_07.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_07_7FA8D501.wem</Path>
+				<File Id="449817432" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_07.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="464986893" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_land_light_13.wav</ShortName>
@@ -1985,9 +2025,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_effort_hard_43.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_effort_hard_43_7FA8D501.wem</Path>
 				</File>
-				<File Id="528549682" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_02.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_02_7FA8D501.wem</Path>
+				<File Id="528549683" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_02.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="529192178" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_hurt_hard_30.wav</ShortName>
@@ -2065,9 +2105,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_effort_hard_28.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_effort_hard_28_7FA8D501.wem</Path>
 				</File>
-				<File Id="629028164" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_12.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_12_7FA8D501.wem</Path>
+				<File Id="629028165" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_12.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_12_7FA8D501.wem</Path>
 				</File>
 				<File Id="630162693" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_nurse_03.wav</ShortName>
@@ -2165,9 +2205,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_nurse_08.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_nurse_08_7FA8D501.wem</Path>
 				</File>
-				<File Id="724060442" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_06.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_06_7FA8D501.wem</Path>
+				<File Id="724060443" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_06.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="734003270" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_nurse_07.wav</ShortName>
@@ -2321,9 +2361,9 @@
 					<ShortName>Character\SVR_M06\vo_svr_m06_effort_light_38.wav</ShortName>
 					<Path>SFX\Character\SVR_M06\vo_svr_m06_effort_light_38_7FA8D501.wem</Path>
 				</File>
-				<File Id="884561521" Language="SFX">
-					<ShortName>Character\SVR_M06\vo_svr_m06_scream_short_01.wav</ShortName>
-					<Path>SFX\Character\SVR_M06\vo_svr_m06_scream_short_01_7FA8D501.wem</Path>
+				<File Id="884561522" Language="SFX">
+					<ShortName>Character\SVR_M06\vo_svr_m06_grunt_scream_scare_01.wav</ShortName>
+					<Path>SFX\Character\SVR_M06\vo_svr_m06_grunt_scream_scare_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="893647204" Language="SFX">
 					<ShortName>Character\SVR_M06\vo_svr_m06_falling_14.wav</ShortName>
@@ -2452,8 +2492,8 @@
 				<GameParameter Id="1242206108" Name="AudioRTPC_Perk_Volume_Dying_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Dying_State" GUID="{E4C408A0-3EB2-45EF-84AE-269B386AB5EC}"/>
 				<GameParameter Id="2190398698" Name="AudioRTPC_Character_Survivor_Status_Injured_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Injured_Hiding" GUID="{4D2CE684-3942-4711-921C-553193BEF00F}"/>
 				<GameParameter Id="2512409509" Name="AudioRTPC_Character_Survivor_Status_Normal_Crouch" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Crouch" GUID="{706F913C-F65D-47B2-BDBC-37265D577FC2}"/>
+				<GameParameter Id="2559021961" Name="AudioRTPC_Snowman_SVR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_Snowman_SVR_Attenuation" GUID="{2F84B5A8-CF0F-4ACE-9FFC-2047C948057D}"/>
 				<GameParameter Id="2847211100" Name="AudioRTPC_Perk_Volume_Normal_State" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Normal_State" GUID="{1559F02B-CBCD-4A69-9EEA-1E154C343F86}"/>
-				<GameParameter Id="3074411056" Name="AudioRTPC_SM_SVR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_SM_SVR_Attenuation" GUID="{2F84B5A8-CF0F-4ACE-9FFC-2047C948057D}"/>
 				<GameParameter Id="3750954478" Name="AudioRTPC_Perk_Volume_Global" ObjectPath="\Game Parameters\RTPC_PERK\AudioRTPC_Perk_Volume_Global" GUID="{69F05DBC-1C31-4E41-AAF1-42887629F737}"/>
 				<GameParameter Id="3878507702" Name="AudioRTPC_Character_Survivor_Status_Normal_Hiding" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Survivor_Status_Normal_Hiding" GUID="{11A5E8A6-5A37-467B-BCAC-95923283F57F}"/>
 				<GameParameter Id="4046646071" Name="AudioRTPC_Survivor_Status_Dead" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Survivor_Status_Dead" GUID="{F5A93109-8CE3-4D68-A190-D99FBD7E5532}"/>
@@ -2466,7 +2506,6 @@
 					<Switches>
 						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Normal" GUID="{4634728D-A6EC-463F-98B7-88625AA203FB}"/>
 						<Switch Id="3863236874" Name="Running" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Running" GUID="{C122D54D-7534-40F3-9278-C4B3885FC8A1}"/>
-						<Switch Id="2044049779" Name="Dead" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dead" GUID="{3AAC6EB5-396F-445C-9C9B-7F35A2688A75}"/>
 						<Switch Id="3413347345" Name="Healing" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Healing" GUID="{23B62077-3C78-4A2C-9ED3-6207E562EFB0}"/>
 						<Switch Id="1848633330" Name="Hooked_Part1" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Hooked_Part1" GUID="{05374D88-4159-48FB-9221-5804D3776A9D}"/>
 						<Switch Id="559827443" Name="Captured" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Captured" GUID="{4B05EE76-2F40-47BF-B51C-3D49C36C540B}"/>

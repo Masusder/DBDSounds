@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338094" GUID="{EA980972-8EFF-45CA-9F4D-71F5F0AB4080}" Language="SFX" Hash="996829722">
+		<SoundBank Id="1474338094" GUID="{EA980972-8EFF-45CA-9F4D-71F5F0AB4080}" Language="SFX" Hash="3511701784">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_10</ObjectPath>
 			<ShortName>KLR_10</ShortName>
 			<Path>KLR_10.bnk</Path>
@@ -93,11 +93,6 @@
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}">
-							<Media>
-								<File Id="919362676"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{3AAC6EB5-396F-445C-9C9B-7F35A2688A75}">
 							<Media>
 								<File Id="919362676"/>
 							</Media>
@@ -1741,7 +1736,7 @@
 				<GameParameter Id="1264094883" Name="AudioRTPC_Chase_Killer" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Chase_Killer" GUID="{4771F806-0A14-4917-83EB-EC7E98879116}"/>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
 				<GameParameter Id="1488839951" Name="AudioRTPC_Proximity_Survivor_Killer" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Proximity_Survivor_Killer" GUID="{DDFD515E-1AF8-4012-96A5-AE9851788E16}"/>
-				<GameParameter Id="2755124522" Name="AudioRTPC_SM_KLR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_SM_KLR_Attenuation" GUID="{E03A94D6-189E-4C55-8FF8-DCCB020DFB2F}"/>
+				<GameParameter Id="3539671151" Name="AudioRTPC_Snowman_KLR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_Snowman_KLR_Attenuation" GUID="{E03A94D6-189E-4C55-8FF8-DCCB020DFB2F}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 			<StateGroups>
@@ -1806,7 +1801,6 @@
 					<Switches>
 						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Normal" GUID="{4634728D-A6EC-463F-98B7-88625AA203FB}"/>
 						<Switch Id="3863236874" Name="Running" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Running" GUID="{C122D54D-7534-40F3-9278-C4B3885FC8A1}"/>
-						<Switch Id="2044049779" Name="Dead" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dead" GUID="{3AAC6EB5-396F-445C-9C9B-7F35A2688A75}"/>
 						<Switch Id="3413347345" Name="Healing" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Healing" GUID="{23B62077-3C78-4A2C-9ED3-6207E562EFB0}"/>
 						<Switch Id="1848633330" Name="Hooked_Part1" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Hooked_Part1" GUID="{05374D88-4159-48FB-9221-5804D3776A9D}"/>
 						<Switch Id="559827443" Name="Captured" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Captured" GUID="{4B05EE76-2F40-47BF-B51C-3D49C36C540B}"/>

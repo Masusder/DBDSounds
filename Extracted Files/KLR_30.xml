@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\</ProjectRoot>
-		<SourceFilesRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Quantum_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\DeadByDaylight_Unreal\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Quantum\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1440782792" GUID="{18A81B25-37C1-477F-835B-674C14594E73}" Language="SFX" Hash="3915531421">
+		<SoundBank Id="1440782792" GUID="{18A81B25-37C1-477F-835B-674C14594E73}" Language="SFX" Hash="136027655">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_30</ObjectPath>
 			<ShortName>KLR_30</ShortName>
 			<Path>KLR_30.bnk</Path>
@@ -3005,19 +3005,23 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3899567441" Name="AudioEvent_K30_PWR_Guards_GetSlowed_Stop" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Guards_GetSlowed_Stop" GUID="{D9B9EF6B-A38B-4C5F-A9D5-1EABCD905F16}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3714675955" Name="AudioEvent_K30_PWR_Guards_Spawn" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Guards_Spawn" GUID="{F0DBC0D9-6246-43FA-A5BD-B6F799C84E30}" DurationType="OneShot" DurationMin="2.487192" DurationMax="2.487192">
+				<Event Id="3714675955" Name="AudioEvent_K30_PWR_Guards_Spawn" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Guards_Spawn" GUID="{F0DBC0D9-6246-43FA-A5BD-B6F799C84E30}" DurationType="OneShot" DurationMin="2.280765" DurationMax="2.280765">
 					<ExcludedMemoryFiles>
+						<File Id="233011552" Language="SFX">
+							<ShortName>Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_despawn_03.wav</ShortName>
+							<Path>SFX\Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_despawn_03_E05559B0.wem</Path>
+						</File>
 						<File Id="250053775" Language="SFX">
 							<ShortName>Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_01.wav</ShortName>
 							<Path>SFX\Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_01_FA512565.wem</Path>
 						</File>
 						<File Id="264490289" Language="SFX">
 							<ShortName>Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_02.wav</ShortName>
-							<Path>SFX\Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_02_5982B108.wem</Path>
+							<Path>SFX\Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_02_A87B117A.wem</Path>
 						</File>
 						<File Id="906317235" Language="SFX">
 							<ShortName>Character\KLR_30\K30_WPN\sfx_k30_pwr_guards_spawning_mn_01.wav</ShortName>
-							<Path>SFX\Character\KLR_30\K30_WPN\sfx_k30_pwr_guards_spawning_mn_01_517336F9.wem</Path>
+							<Path>SFX\Character\KLR_30\K30_WPN\sfx_k30_pwr_guards_spawning_mn_01_FDC73C4F.wem</Path>
 						</File>
 						<File Id="1002760542" Language="SFX">
 							<ShortName>Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_02.wav</ShortName>
@@ -3034,7 +3038,6 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="3234540707" Name="AudioEvent_K30_PWR_Guards_Status_Stop" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Guards_Status_Stop" GUID="{4414AFBE-508E-4075-A2A2-378FA994B9A5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1580255295" Name="AudioEvent_K30_PWR_Power_Charge" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Power_Charge" GUID="{E124F518-4C1D-43E9-BFC0-047D77C24F3C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="117940692" Name="AudioEvent_K30_PWR_Power_Charge_TheAssassin" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Power_Charge_TheAssassin" GUID="{8A0D0743-E09A-42BE-88B0-8BDCBCE75E8A}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.103427" DurationMax="2.103427">
 					<ExcludedMemoryFiles>
 						<File Id="93145585" Language="SFX">
@@ -3091,11 +3094,11 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="2398124946" Name="AudioEvent_K30_PWR_Sword_GreenSmoke_Start" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Sword_GreenSmoke_Start" GUID="{ABBD4536-CE65-4B53-AFB9-B711BBA762A3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="6.255479" DurationMax="6.255479">
+				<Event Id="2398124946" Name="AudioEvent_K30_PWR_Sword_GreenSmoke_Start" ObjectPath="\Events\CHARACTER\KILLER\K30_Quantum\K30_TheKnight\K30_PWR\AudioEvent_K30_PWR_Sword_GreenSmoke_Start" GUID="{ABBD4536-CE65-4B53-AFB9-B711BBA762A3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.278007" DurationMax="2.278007">
 					<ExcludedMemoryFiles>
 						<File Id="117850205" Language="SFX">
 							<ShortName>Character\KLR_30\K30_MENU\sfx_k30_menu_pwr_greensmoke_02.wav</ShortName>
-							<Path>SFX\Character\KLR_30\K30_MENU\sfx_k30_menu_pwr_greensmoke_02_347F467E.wem</Path>
+							<Path>SFX\Character\KLR_30\K30_MENU\sfx_k30_menu_pwr_greensmoke_02_6421A593.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -7765,7 +7768,7 @@
 				</File>
 				<File Id="117850205" Language="SFX">
 					<ShortName>Character\KLR_30\K30_MENU\sfx_k30_menu_pwr_greensmoke_02.wav</ShortName>
-					<Path>SFX\Character\KLR_30\K30_MENU\sfx_k30_menu_pwr_greensmoke_02_347F467E.wem</Path>
+					<Path>SFX\Character\KLR_30\K30_MENU\sfx_k30_menu_pwr_greensmoke_02_6421A593.wem</Path>
 				</File>
 				<File Id="118232739" Language="SFX">
 					<ShortName>Character\KLR_30\K30_CLOTH\EnchantedPlates\sfx_k30_body_enchanted_plates_shuffle_high_04.wav</ShortName>
@@ -8457,7 +8460,7 @@
 				</File>
 				<File Id="264490289" Language="SFX">
 					<ShortName>Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_02.wav</ShortName>
-					<Path>SFX\Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_02_5982B108.wem</Path>
+					<Path>SFX\Character\KLR_30\K30_PWR\sfx_k30_pwr_guards_spawning_02_A87B117A.wem</Path>
 				</File>
 				<File Id="267024900" Language="SFX">
 					<ShortName>Character\KLR_30\K30_TheASSASSIN\vo_k30_theAssassin_grunt_hunt_activate_01.wav</ShortName>
@@ -11385,7 +11388,7 @@
 				</File>
 				<File Id="906317235" Language="SFX">
 					<ShortName>Character\KLR_30\K30_WPN\sfx_k30_pwr_guards_spawning_mn_01.wav</ShortName>
-					<Path>SFX\Character\KLR_30\K30_WPN\sfx_k30_pwr_guards_spawning_mn_01_517336F9.wem</Path>
+					<Path>SFX\Character\KLR_30\K30_WPN\sfx_k30_pwr_guards_spawning_mn_01_FDC73C4F.wem</Path>
 				</File>
 				<File Id="906850448" Language="SFX">
 					<ShortName>Character\KLR_30\K30_CLOTH\sfx_k30_body_default_shuffle_high_l2_08.wav</ShortName>
@@ -12203,7 +12206,6 @@
 					<Switches>
 						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Normal" GUID="{4634728D-A6EC-463F-98B7-88625AA203FB}"/>
 						<Switch Id="3863236874" Name="Running" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Running" GUID="{C122D54D-7534-40F3-9278-C4B3885FC8A1}"/>
-						<Switch Id="2044049779" Name="Dead" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dead" GUID="{3AAC6EB5-396F-445C-9C9B-7F35A2688A75}"/>
 						<Switch Id="3413347345" Name="Healing" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Healing" GUID="{23B62077-3C78-4A2C-9ED3-6207E562EFB0}"/>
 						<Switch Id="1848633330" Name="Hooked_Part1" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Hooked_Part1" GUID="{05374D88-4159-48FB-9221-5804D3776A9D}"/>
 						<Switch Id="559827443" Name="Captured" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Captured" GUID="{4B05EE76-2F40-47BF-B51C-3D49C36C540B}"/>
