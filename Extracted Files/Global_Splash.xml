@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="835998851">
+		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="4072103384">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Splash</ObjectPath>
 			<ShortName>Global_Splash</ShortName>
 			<Path>Global_Splash.bnk</Path>
@@ -1172,6 +1172,10 @@
 							<ShortName>Music\Theme\mu_menu_lobby_k19.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_k19_256CDB0F.wem</Path>
 						</File>
+						<File Id="450156871" Language="SFX">
+							<ShortName>Music\SpecialEvent\mu_menu_special_lunarevent_02.wav</ShortName>
+							<Path>SFX\Music\SpecialEvent\mu_menu_special_lunarevent_02_256CDB0F.wem</Path>
+						</File>
 						<File Id="471218563" Language="SFX">
 							<ShortName>Music\SpecialEvent\mu_menu_special_halloween_01.wav</ShortName>
 							<Path>SFX\Music\SpecialEvent\mu_menu_special_halloween_01_0BC91DCF.wem</Path>
@@ -1191,10 +1195,6 @@
 						<File Id="521781538" Language="SFX">
 							<ShortName>Music\Theme\mu_menu_lobby_k15.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_k15_0BC91DCF.wem</Path>
-						</File>
-						<File Id="537153401" Language="SFX">
-							<ShortName>Music\SpecialEvent\mu_menu_special_lunarevent_01.wav</ShortName>
-							<Path>SFX\Music\SpecialEvent\mu_menu_special_lunarevent_01_0BC91DCF.wem</Path>
 						</File>
 						<File Id="561850831" Language="SFX">
 							<ShortName>Music\Theme\mu_menu_lobby_k28.wav</ShortName>
@@ -1862,7 +1862,7 @@
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 											<Media>
-												<File Id="537153401"/>
+												<File Id="450156871"/>
 											</Media>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}">
@@ -4213,6 +4213,14 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="4067354102" Name="AudioEvent_Splashscreen_Lunar" ObjectPath="\Events\MENU\Splashscreen\AudioEvent_Splashscreen_Lunar" GUID="{6E33B935-B77F-4418-88FA-BCB80F9E5873}" DurationType="OneShot" DurationMin="10.442125" DurationMax="10.442125">
+					<ExcludedMemoryFiles>
+						<File Id="585551300" Language="SFX">
+							<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_lunar_01.wav</ShortName>
+							<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_lunar_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="4227451479" Name="AudioEvent_Splashscreen_Press_Key" ObjectPath="\Events\MENU\Splashscreen\AudioEvent_Splashscreen_Press_Key" GUID="{A9DF7BE7-5778-42FF-997A-4B5F225F4816}" DurationType="OneShot" DurationMin="2.122462" DurationMax="2.122462">
 					<ExcludedMemoryFiles>
 						<File Id="38977421" Language="SFX">
@@ -4971,6 +4979,10 @@
 					<ShortName>Music\Theme\mu_menu_lobby_k19.wav</ShortName>
 					<Path>SFX\Music\Theme\mu_menu_lobby_k19_256CDB0F.wem</Path>
 				</File>
+				<File Id="450156871" Language="SFX">
+					<ShortName>Music\SpecialEvent\mu_menu_special_lunarevent_02.wav</ShortName>
+					<Path>SFX\Music\SpecialEvent\mu_menu_special_lunarevent_02_256CDB0F.wem</Path>
+				</File>
 				<File Id="471218563" Language="SFX">
 					<ShortName>Music\SpecialEvent\mu_menu_special_halloween_01.wav</ShortName>
 					<Path>SFX\Music\SpecialEvent\mu_menu_special_halloween_01_0BC91DCF.wem</Path>
@@ -4982,10 +4994,6 @@
 				<File Id="521781538" Language="SFX">
 					<ShortName>Music\Theme\mu_menu_lobby_k15.wav</ShortName>
 					<Path>SFX\Music\Theme\mu_menu_lobby_k15_0BC91DCF.wem</Path>
-				</File>
-				<File Id="537153401" Language="SFX">
-					<ShortName>Music\SpecialEvent\mu_menu_special_lunarevent_01.wav</ShortName>
-					<Path>SFX\Music\SpecialEvent\mu_menu_special_lunarevent_01_0BC91DCF.wem</Path>
 				</File>
 				<File Id="561850831" Language="SFX">
 					<ShortName>Music\Theme\mu_menu_lobby_k28.wav</ShortName>
@@ -5089,6 +5097,10 @@
 					<ShortName>Ambience\Menu\sfx_burning_high_05.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_05_67368C31.wem</Path>
 				</File>
+				<File Id="5423552" Language="SFX">
+					<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_winter_snow_loop_01.wav</ShortName>
+					<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_winter_snow_loop_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="10307676" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_01.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_01_67368C31.wem</Path>
@@ -5112,6 +5124,10 @@
 				<File Id="73937806" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
+				</File>
+				<File Id="81631426" Language="SFX">
+					<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_winter_snow_start_01.wav</ShortName>
+					<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_winter_snow_start_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="91317479" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_12.wav</ShortName>
@@ -5176,6 +5192,10 @@
 				<File Id="324587091" Language="SFX">
 					<ShortName>Ambience\Menu\am_lobby_rdm_coldsweeteners_02.wav</ShortName>
 					<Path>SFX\Ambience\Menu\am_lobby_rdm_coldsweeteners_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="334274905" Language="SFX">
+					<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_winter_logo_01.wav</ShortName>
+					<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_winter_logo_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="339503727" Language="SFX">
 					<ShortName>Music\Theme\mu_menu_lobby_k04.wav</ShortName>
@@ -5248,6 +5268,10 @@
 				<File Id="580170142" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_19.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_19_67368C31.wem</Path>
+				</File>
+				<File Id="585551300" Language="SFX">
+					<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_lunar_01.wav</ShortName>
+					<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_lunar_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="587880695" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
