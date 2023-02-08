@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="4072103384">
+		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="64817721">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Splash</ObjectPath>
 			<ShortName>Global_Splash</ShortName>
 			<Path>Global_Splash.bnk</Path>
@@ -1136,6 +1136,10 @@
 							<ShortName>Ambience\Menu\am_archives_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_archives_01_256CDB0F.wem</Path>
 						</File>
+						<File Id="340199043" Language="SFX">
+							<ShortName>Music\Collection\mu_collection_hoy_01.wav</ShortName>
+							<Path>SFX\Music\Collection\mu_collection_hoy_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="377432510" Language="SFX">
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
@@ -1836,6 +1840,11 @@
 													</Media>
 												</SwitchContainer>
 											</Children>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{3496B094-5CDC-485E-A9D3-841A8C045613}">
+											<Media>
+												<File Id="340199043"/>
+											</Media>
 										</SwitchContainer>
 									</Children>
 								</SwitchContainer>
@@ -4951,6 +4960,10 @@
 					<ShortName>Music\Theme\mu_menu_lobby_k20.wav</ShortName>
 					<Path>SFX\Music\Theme\mu_menu_lobby_k20_256CDB0F.wem</Path>
 				</File>
+				<File Id="340199043" Language="SFX">
+					<ShortName>Music\Collection\mu_collection_hoy_01.wav</ShortName>
+					<Path>SFX\Music\Collection\mu_collection_hoy_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="379497164" Language="SFX">
 					<ShortName>Music\Menu\mu_menu_lobby_k30.wav</ShortName>
 					<Path>SFX\Music\Menu\mu_menu_lobby_k30_256CDB0F.wem</Path>
@@ -5615,6 +5628,7 @@
 						<State Id="956702116" Name="ModernTale" ObjectPath="\States\STATES_MENU\AudioStateCollection\ModernTale" GUID="{32A90EA8-1AA9-4021-82C3-E83D6417ECF6}"/>
 						<State Id="1083976219" Name="AoT" ObjectPath="\States\STATES_MENU\AudioStateCollection\AoT" GUID="{6B11E4AE-EA83-4FCE-95D0-1D81C0E4FC07}"/>
 						<State Id="1601639154" Name="RE" ObjectPath="\States\STATES_MENU\AudioStateCollection\RE" GUID="{426A8AF7-89BE-4B60-BB09-5186B5B7AB8C}"/>
+						<State Id="1082843447" Name="HoY" ObjectPath="\States\STATES_MENU\AudioStateCollection\HoY" GUID="{3496B094-5CDC-485E-A9D3-841A8C045613}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="4268632856" Name="AudioStateGameplay" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay" GUID="{135FF12B-3DE1-46E5-9343-8B3639D03D55}">

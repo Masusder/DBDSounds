@@ -1,0 +1,2539 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Rocket_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2199192626",
+    "GUID": "{FAE768C6-D50B-412B-AB34-FD4430B9ED36}",
+    "Language": "SFX",
+    "Hash": "4137755195",
+    "ObjectPath": "\\SoundBanks\\AMBIANCE\\AMB_08",
+    "ShortName": "AMB_08",
+    "Path": "AMB_08.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2433193273",
+      "Name": "AudioEvent_AM_Boreal_Arch",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AudioEvent_AM_Boreal_Arch",
+      "GUID": "{EA6771A7-AEFA-43C5-A76C-C290B8ADD1B7}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "ActionPostEvent": [
+       {
+        "Id": "960464586",
+        "Name": "AudioEvent_Rev_Int_08_Boreal_Default",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Default",
+        "GUID": "{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "1650442345",
+        "Name": "AudioStateIndoor_08_Boreal_Arch",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Arch",
+        "GUID": "{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}"
+       },
+       {
+        "Id": "2700327433",
+        "Name": "AudioStateInOut_Middle",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Middle",
+        "GUID": "{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"
+       }
+      ]
+     },
+     {
+      "Id": "997586895",
+      "Name": "AudioEvent_AM_Boreal_Forest_Rain",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AudioEvent_AM_Boreal_Forest_Rain",
+      "GUID": "{15B083A9-B0F9-4AAC-A93C-184207DC8A06}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "ActionSetState": [
+       {
+        "Id": "756166810",
+        "Name": "AudioStateInOut_Outdoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+        "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}"
+       },
+       {
+        "Id": "1661292232",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_High",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_High",
+        "GUID": "{F64E33F8-438C-4680-8D76-7805967EBB2D}"
+       }
+      ]
+     },
+     {
+      "Id": "3546852042",
+      "Name": "AudioEvent_AM_Boreal_MainHouse",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AudioEvent_AM_Boreal_MainHouse",
+      "GUID": "{EFDCAA13-0E57-4C65-BCE9-4C30D161BC26}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "47937974",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_04_7FA8D501.wem"
+       },
+       {
+        "Id": "153392836",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_02_7FA8D501.wem"
+       },
+       {
+        "Id": "245110276",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_04_7FA8D501.wem"
+       },
+       {
+        "Id": "438831836",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_06_7FA8D501.wem"
+       },
+       {
+        "Id": "639965887",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_07_7FA8D501.wem"
+       },
+       {
+        "Id": "696748297",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_05_7FA8D501.wem"
+       },
+       {
+        "Id": "765479018",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_01_7FA8D501.wem"
+       },
+       {
+        "Id": "789956060",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_05_7FA8D501.wem"
+       },
+       {
+        "Id": "882488604",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_03_7FA8D501.wem"
+       },
+       {
+        "Id": "991496045",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_03_7FA8D501.wem"
+       },
+       {
+        "Id": "1010468824",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_02_7FA8D501.wem"
+       },
+       {
+        "Id": "1040845008",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_01_7FA8D501.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1259973652",
+        "Name": "AudioEvent_Rev_Int_08_Boreal_MainHouse",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_MainHouse",
+        "GUID": "{C8A00CB3-4665-4EEA-AA9F-FCC1CB017B00}"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "567096506",
+        "Name": "AudioStateIndoor_08_Boreal_MainHouse",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_MainHouse",
+        "GUID": "{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}"
+       },
+       {
+        "Id": "2843566831",
+        "Name": "AudioStateInOut_Indoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Indoor",
+        "GUID": "{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       },
+       {
+        "Id": "603224157",
+        "Name": "Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
+       }
+      ]
+     },
+     {
+      "Id": "1894818519",
+      "Name": "AudioEvent_AM_Boreal_MainHouse_UnderRain",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AudioEvent_AM_Boreal_MainHouse_UnderRain",
+      "GUID": "{90F996A1-649F-4412-8E49-776047EECE13}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "15.249047",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "80768792",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_05_7FA8D501.wem"
+       },
+       {
+        "Id": "221962474",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_02_7FA8D501.wem"
+       },
+       {
+        "Id": "313169382",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_04_7FA8D501.wem"
+       },
+       {
+        "Id": "402813767",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_06_7FA8D501.wem"
+       },
+       {
+        "Id": "949972498",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_07_7FA8D501.wem"
+       },
+       {
+        "Id": "1030383368",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_01_7FA8D501.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "960464586",
+        "Name": "AudioEvent_Rev_Int_08_Boreal_Default",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Default",
+        "GUID": "{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2700327433",
+        "Name": "AudioStateInOut_Middle",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Middle",
+        "GUID": "{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"
+       },
+       {
+        "Id": "4206111882",
+        "Name": "AudioStateOutdoor_08_Boreal_MainHouse_UnderRain",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_MainHouse_UnderRain",
+        "GUID": "{0ED9656B-CDB0-4670-A3F0-049A691E5D20}"
+       }
+      ]
+     },
+     {
+      "Id": "318481600",
+      "Name": "AudioEvent_AM_Boreal_SmokedHouse",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AudioEvent_AM_Boreal_SmokedHouse",
+      "GUID": "{566277A8-2592-48FA-882A-4DA4C628EAA5}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "47937974",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_04_7FA8D501.wem"
+       },
+       {
+        "Id": "153392836",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_02_7FA8D501.wem"
+       },
+       {
+        "Id": "245110276",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_04_7FA8D501.wem"
+       },
+       {
+        "Id": "438831836",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_06_7FA8D501.wem"
+       },
+       {
+        "Id": "639965887",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_07_7FA8D501.wem"
+       },
+       {
+        "Id": "696748297",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_05_7FA8D501.wem"
+       },
+       {
+        "Id": "765479018",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_01_7FA8D501.wem"
+       },
+       {
+        "Id": "789956060",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_05_7FA8D501.wem"
+       },
+       {
+        "Id": "882488604",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_03_7FA8D501.wem"
+       },
+       {
+        "Id": "991496045",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_03_7FA8D501.wem"
+       },
+       {
+        "Id": "1010468824",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_warehouse_creak_02_7FA8D501.wem"
+       },
+       {
+        "Id": "1040845008",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_mainhouse_creak_01_7FA8D501.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3881326034",
+        "Name": "AudioEvent_Rev_Int_08_Boreal_SmokedHouse",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_SmokedHouse",
+        "GUID": "{3D3D289C-F8C9-4033-A861-A3AAA706F2EA}"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2563879436",
+        "Name": "AudioStateIndoor_08_Boreal_SmokeHouse",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_SmokeHouse",
+        "GUID": "{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}"
+       },
+       {
+        "Id": "2843566831",
+        "Name": "AudioStateInOut_Indoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Indoor",
+        "GUID": "{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       },
+       {
+        "Id": "603224157",
+        "Name": "Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
+       }
+      ]
+     },
+     {
+      "Id": "3907644203",
+      "Name": "AudioEvent_AM_Boreal_Temple_MainRoom",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AudioEvent_AM_Boreal_Temple_MainRoom",
+      "GUID": "{D3EBA9F9-C5C5-4696-8369-CFAD501A9127}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "279334502",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_03_7FA8D501.wem"
+       },
+       {
+        "Id": "437223632",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_01_7FA8D501.wem"
+       },
+       {
+        "Id": "723848119",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_04_7FA8D501.wem"
+       },
+       {
+        "Id": "792304374",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_02_7FA8D501.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "489408612",
+        "Name": "AudioEvent_Rev_Int_08_Boreal_Temple_Main",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Temple_Main",
+        "GUID": "{ACB2DD57-98A1-4DA7-9D46-D2692F9FDD54}"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2843566831",
+        "Name": "AudioStateInOut_Indoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Indoor",
+        "GUID": "{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"
+       },
+       {
+        "Id": "4262432795",
+        "Name": "AudioStateIndoor_08_Boreal_Temple_MainRoom",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Temple_MainRoom",
+        "GUID": "{BC34FC3B-73C3-405E-97FF-21AB27E776E2}"
+       }
+      ]
+     },
+     {
+      "Id": "1605186856",
+      "Name": "AudioEvent_AM_Boreal_Temple_Underground",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AudioEvent_AM_Boreal_Temple_Underground",
+      "GUID": "{1F0EDB66-5B11-4623-8138-0B6ECF4AB5A5}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "3133700",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_33.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_33_2A15638C.wem"
+       },
+       {
+        "Id": "45012631",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_14.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_14_2A15638C.wem"
+       },
+       {
+        "Id": "144750192",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_13.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_13_2A15638C.wem"
+       },
+       {
+        "Id": "188446697",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_23.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_23_2A15638C.wem"
+       },
+       {
+        "Id": "209871843",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_34.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_34_2A15638C.wem"
+       },
+       {
+        "Id": "250553508",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_01_2A15638C.wem"
+       },
+       {
+        "Id": "258959282",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_08.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_08_2A15638C.wem"
+       },
+       {
+        "Id": "278280266",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_20.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_20_2A15638C.wem"
+       },
+       {
+        "Id": "279334502",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_03_7FA8D501.wem"
+       },
+       {
+        "Id": "297193586",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_19.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_19_2A15638C.wem"
+       },
+       {
+        "Id": "305473492",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_09.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_09_2A15638C.wem"
+       },
+       {
+        "Id": "388544054",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_26.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_26_2A15638C.wem"
+       },
+       {
+        "Id": "403574034",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_22.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_22_2A15638C.wem"
+       },
+       {
+        "Id": "426697660",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_32.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_32_2A15638C.wem"
+       },
+       {
+        "Id": "437223632",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_01_7FA8D501.wem"
+       },
+       {
+        "Id": "457338212",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_11.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_11_2A15638C.wem"
+       },
+       {
+        "Id": "476430561",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_31.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_31_2A15638C.wem"
+       },
+       {
+        "Id": "486555047",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_17.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_17_2A15638C.wem"
+       },
+       {
+        "Id": "502882111",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_28.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_28_2A15638C.wem"
+       },
+       {
+        "Id": "548576764",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_24.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_24_2A15638C.wem"
+       },
+       {
+        "Id": "567926496",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_21.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_21_2A15638C.wem"
+       },
+       {
+        "Id": "632833987",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_29.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_29_2A15638C.wem"
+       },
+       {
+        "Id": "669003118",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_18.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_18_2A15638C.wem"
+       },
+       {
+        "Id": "700225954",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_15.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_15_2A15638C.wem"
+       },
+       {
+        "Id": "723848119",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_04_7FA8D501.wem"
+       },
+       {
+        "Id": "728787132",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_10.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_10_2A15638C.wem"
+       },
+       {
+        "Id": "792304374",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_drama_woosh_02_7FA8D501.wem"
+       },
+       {
+        "Id": "860364051",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_27.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_27_2A15638C.wem"
+       },
+       {
+        "Id": "877418511",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_12.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_12_2A15638C.wem"
+       },
+       {
+        "Id": "893690461",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_04_2A15638C.wem"
+       },
+       {
+        "Id": "921217688",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_16.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_16_2A15638C.wem"
+       },
+       {
+        "Id": "949689622",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_25.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_25_2A15638C.wem"
+       },
+       {
+        "Id": "963527335",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_06_2A15638C.wem"
+       },
+       {
+        "Id": "976943868",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_30.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_30_2A15638C.wem"
+       },
+       {
+        "Id": "1013342674",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_02_2A15638C.wem"
+       },
+       {
+        "Id": "1028426591",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_waterdrops_07_2A15638C.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "95954190",
+        "Name": "AudioEvent_Rev_Int_08_Boreal_Temple_Underground",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Temple_Underground",
+        "GUID": "{ED51E322-F45E-4630-B43C-9E289F28D116}"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2046511725",
+        "Name": "AudioStateInOut_Basement",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Basement",
+        "GUID": "{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"
+       },
+       {
+        "Id": "4058111832",
+        "Name": "AudioStateIndoor_08_Boreal_Temple_Underground",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Temple_Underground",
+        "GUID": "{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       },
+       {
+        "Id": "603224157",
+        "Name": "Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
+       }
+      ]
+     },
+     {
+      "Id": "4081038936",
+      "Name": "AudioEvent_AM_Intro_08_Boreal",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AudioEvent_AM_Intro_08_Boreal",
+      "GUID": "{8999C5AD-21D7-4A69-9A62-18524CBB3BCC}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.500000",
+      "DurationMax": "7.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "619272897",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_intro.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_intro_7FA8D501.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2305054249",
+      "Name": "AudioEvent_AM_T08_Escape",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Tile_08_Common_WIP\\AudioEvent_AM_T08_Escape",
+      "GUID": "{DE81DE8F-AF21-4E9C-A0B0-C88A17E24CB4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "15.249047",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "80768792",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_05_7FA8D501.wem"
+       },
+       {
+        "Id": "221962474",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_02_7FA8D501.wem"
+       },
+       {
+        "Id": "313169382",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_04_7FA8D501.wem"
+       },
+       {
+        "Id": "402813767",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_06_7FA8D501.wem"
+       },
+       {
+        "Id": "949972498",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_07_7FA8D501.wem"
+       },
+       {
+        "Id": "1030383368",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_01_7FA8D501.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "756166810",
+        "Name": "AudioStateInOut_Outdoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+        "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}"
+       },
+       {
+        "Id": "1150282450",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_Low",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Low",
+        "GUID": "{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"
+       }
+      ]
+     },
+     {
+      "Id": "3399740635",
+      "Name": "AudioEvent_AM_T08_Fence_NoTree",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Tile_08_Common_WIP\\AudioEvent_AM_T08_Fence_NoTree",
+      "GUID": "{1FD582F6-E045-438F-A611-80B6D7EC9AE1}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "26153180",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_07_7FA8D501.wem"
+       },
+       {
+        "Id": "35815451",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_05_7FA8D501.wem"
+       },
+       {
+        "Id": "51394176",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_10.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_10_7FA8D501.wem"
+       },
+       {
+        "Id": "64158962",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_09.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_09_7FA8D501.wem"
+       },
+       {
+        "Id": "77267082",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_08.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_08_7FA8D501.wem"
+       },
+       {
+        "Id": "207364410",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_01_7FA8D501.wem"
+       },
+       {
+        "Id": "366260418",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_05_7FA8D501.wem"
+       },
+       {
+        "Id": "403304137",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_06_7FA8D501.wem"
+       },
+       {
+        "Id": "497599598",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_02_7FA8D501.wem"
+       },
+       {
+        "Id": "538900691",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_06_7FA8D501.wem"
+       },
+       {
+        "Id": "550987103",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_03_7FA8D501.wem"
+       },
+       {
+        "Id": "567259559",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_04_7FA8D501.wem"
+       },
+       {
+        "Id": "601732869",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_09.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_09_7FA8D501.wem"
+       },
+       {
+        "Id": "689674157",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_07_7FA8D501.wem"
+       },
+       {
+        "Id": "786198188",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_03_7FA8D501.wem"
+       },
+       {
+        "Id": "810684230",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_01_7FA8D501.wem"
+       },
+       {
+        "Id": "905010887",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_02_7FA8D501.wem"
+       },
+       {
+        "Id": "1026653125",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_08.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_08_7FA8D501.wem"
+       },
+       {
+        "Id": "1055486657",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_04_7FA8D501.wem"
+       }
+      ],
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "182076670",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01_7FA8D501.wem"
+       },
+       {
+        "Id": "245011169",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02_7FA8D501.wem"
+       },
+       {
+        "Id": "651608341",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03_7FA8D501.wem"
+       },
+       {
+        "Id": "837085541",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05_7FA8D501.wem"
+       },
+       {
+        "Id": "924554965",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04_7FA8D501.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "756166810",
+        "Name": "AudioStateInOut_Outdoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+        "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}"
+       },
+       {
+        "Id": "1150282450",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_Low",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Low",
+        "GUID": "{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       },
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "1536609998",
+      "Name": "AudioEvent_AM_T08_Fence_WithTree",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Tile_08_Common_WIP\\AudioEvent_AM_T08_Fence_WithTree",
+      "GUID": "{314DE655-CA54-4415-85EF-CDC1E7392461}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "35815451",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_05_7FA8D501.wem"
+       },
+       {
+        "Id": "51394176",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_10.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_10_7FA8D501.wem"
+       },
+       {
+        "Id": "77267082",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_08.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_08_7FA8D501.wem"
+       },
+       {
+        "Id": "207364410",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_01_7FA8D501.wem"
+       },
+       {
+        "Id": "538900691",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_06_7FA8D501.wem"
+       },
+       {
+        "Id": "550987103",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_03_7FA8D501.wem"
+       },
+       {
+        "Id": "567259559",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_04_7FA8D501.wem"
+       },
+       {
+        "Id": "601732869",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_09.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_09_7FA8D501.wem"
+       },
+       {
+        "Id": "689674157",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_07_7FA8D501.wem"
+       },
+       {
+        "Id": "905010887",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_limitpoint_voice_02_7FA8D501.wem"
+       }
+      ],
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "182076670",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01_7FA8D501.wem"
+       },
+       {
+        "Id": "245011169",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02_7FA8D501.wem"
+       },
+       {
+        "Id": "651608341",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03_7FA8D501.wem"
+       },
+       {
+        "Id": "837085541",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05_7FA8D501.wem"
+       },
+       {
+        "Id": "924554965",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04_7FA8D501.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "756166810",
+        "Name": "AudioStateInOut_Outdoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+        "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}"
+       },
+       {
+        "Id": "1661292232",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_High",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_High",
+        "GUID": "{F64E33F8-438C-4680-8D76-7805967EBB2D}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       },
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "654324518",
+      "Name": "AudioEvent_AM_T08_Forest_High",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Tile_08_Common_WIP\\AudioEvent_AM_T08_Forest_High",
+      "GUID": "{98170ACB-D43C-499E-9403-7DD9B9414AD8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "11.326944",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "182076670",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01_7FA8D501.wem"
+       },
+       {
+        "Id": "245011169",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02_7FA8D501.wem"
+       },
+       {
+        "Id": "651608341",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03_7FA8D501.wem"
+       },
+       {
+        "Id": "837085541",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05_7FA8D501.wem"
+       },
+       {
+        "Id": "924554965",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04_7FA8D501.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "756166810",
+        "Name": "AudioStateInOut_Outdoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+        "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}"
+       },
+       {
+        "Id": "1661292232",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_High",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_High",
+        "GUID": "{F64E33F8-438C-4680-8D76-7805967EBB2D}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "777055184",
+      "Name": "AudioEvent_AM_T08_Forest_Low",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Tile_08_Common_WIP\\AudioEvent_AM_T08_Forest_Low",
+      "GUID": "{9550D252-B4EF-4E3A-B710-2D55A08CD58C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "16.592697",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "26153180",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_07_7FA8D501.wem"
+       },
+       {
+        "Id": "64158962",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_09.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_09_7FA8D501.wem"
+       },
+       {
+        "Id": "366260418",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_05_7FA8D501.wem"
+       },
+       {
+        "Id": "403304137",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_06_7FA8D501.wem"
+       },
+       {
+        "Id": "497599598",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_02_7FA8D501.wem"
+       },
+       {
+        "Id": "786198188",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_03_7FA8D501.wem"
+       },
+       {
+        "Id": "810684230",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_01_7FA8D501.wem"
+       },
+       {
+        "Id": "1026653125",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_08.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_08_7FA8D501.wem"
+       },
+       {
+        "Id": "1055486657",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_04_7FA8D501.wem"
+       }
+      ],
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "182076670",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01_7FA8D501.wem"
+       },
+       {
+        "Id": "245011169",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02_7FA8D501.wem"
+       },
+       {
+        "Id": "651608341",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03_7FA8D501.wem"
+       },
+       {
+        "Id": "837085541",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05_7FA8D501.wem"
+       },
+       {
+        "Id": "924554965",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04_7FA8D501.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "756166810",
+        "Name": "AudioStateInOut_Outdoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+        "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}"
+       },
+       {
+        "Id": "1150282450",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_Low",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Low",
+        "GUID": "{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "72645444",
+      "Name": "AudioEvent_AM_T08_Forest_Med",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Tile_08_Common_WIP\\AudioEvent_AM_T08_Forest_Med",
+      "GUID": "{BBE128C1-BC16-4818-A44A-A6FA8FF2F392}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "16.592697",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "26153180",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_07_7FA8D501.wem"
+       },
+       {
+        "Id": "64158962",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_09.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_09_7FA8D501.wem"
+       },
+       {
+        "Id": "366260418",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_05_7FA8D501.wem"
+       },
+       {
+        "Id": "403304137",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_06_7FA8D501.wem"
+       },
+       {
+        "Id": "497599598",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_02_7FA8D501.wem"
+       },
+       {
+        "Id": "786198188",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_03_7FA8D501.wem"
+       },
+       {
+        "Id": "810684230",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_01_7FA8D501.wem"
+       },
+       {
+        "Id": "1026653125",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_08.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_08_7FA8D501.wem"
+       },
+       {
+        "Id": "1055486657",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_wind_04_7FA8D501.wem"
+       }
+      ],
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "182076670",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_01_7FA8D501.wem"
+       },
+       {
+        "Id": "245011169",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_02_7FA8D501.wem"
+       },
+       {
+        "Id": "651608341",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_03_7FA8D501.wem"
+       },
+       {
+        "Id": "837085541",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_05_7FA8D501.wem"
+       },
+       {
+        "Id": "924554965",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_crow_04_7FA8D501.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "756166810",
+        "Name": "AudioStateInOut_Outdoor",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+        "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}"
+       },
+       {
+        "Id": "1855089470",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_Med",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Med",
+        "GUID": "{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "2617617228",
+      "Name": "AudioEvent_AM_T08_Shack",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Tile_08_Common_WIP\\AudioEvent_AM_T08_Shack",
+      "GUID": "{5C7DFC8F-5E62-4ABF-AEBD-0A291C04A90B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "15.249047",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "80768792",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_05_7FA8D501.wem"
+       },
+       {
+        "Id": "221962474",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_02_7FA8D501.wem"
+       },
+       {
+        "Id": "313169382",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_04_7FA8D501.wem"
+       },
+       {
+        "Id": "402813767",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_06_7FA8D501.wem"
+       },
+       {
+        "Id": "949972498",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_07_7FA8D501.wem"
+       },
+       {
+        "Id": "1030383368",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T00_Common\\Random\\am_t00_common_rdm_horror_01_7FA8D501.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3691418881",
+        "Name": "AudioEvent_Rev_Int_08_Boreal_Shack",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Shack",
+        "GUID": "{24811208-00CA-44FE-BCF8-E609CE448125}"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2700327433",
+        "Name": "AudioStateInOut_Middle",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Middle",
+        "GUID": "{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"
+       },
+       {
+        "Id": "3829197823",
+        "Name": "AudioStateIndoor_08_Boreal_Shack",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Shack",
+        "GUID": "{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}"
+       }
+      ]
+     },
+     {
+      "Id": "1120069921",
+      "Name": "AudioEvent_AM_Theme_08_Boreal",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AudioEvent_AM_Theme_08_Boreal",
+      "GUID": "{A8DE4632-55EC-4458-9265-E792FC8B1176}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "55919656",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_weather_rain_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_weather_rain_01_256CDB0F.wem"
+       },
+       {
+        "Id": "92026314",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_med_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_med_01_256CDB0F.wem"
+       },
+       {
+        "Id": "321868351",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_middle_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_middle_01_256CDB0F.wem"
+       },
+       {
+        "Id": "455378844",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_shack_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_shack_01_256CDB0F.wem"
+       },
+       {
+        "Id": "530783484",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_01_256CDB0F.wem"
+       },
+       {
+        "Id": "583176535",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_high_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_high_01_256CDB0F.wem"
+       },
+       {
+        "Id": "669406765",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_arch_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_arch_01_256CDB0F.wem"
+       },
+       {
+        "Id": "699831425",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_templeunderground_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_templeunderground_01_256CDB0F.wem"
+       },
+       {
+        "Id": "777860043",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_low_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_low_01_256CDB0F.wem"
+       },
+       {
+        "Id": "865475177",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_smokehouse_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_smokehouse_01_256CDB0F.wem"
+       },
+       {
+        "Id": "907609449",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_theme_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_theme_01_256CDB0F.wem"
+       }
+      ],
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "523351202",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_background_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_background_01_256CDB0F.wem"
+       },
+       {
+        "Id": "678838908",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_theentity_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_theentity_01_256CDB0F.wem"
+       },
+       {
+        "Id": "1030858513",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_drops_10.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_drops_10_256CDB0F.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{BEB4F446-FED3-4A3D-8777-9C6A108635C3}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}",
+        "Media": [
+         {
+          "Id": "455378844"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}",
+        "Media": [
+         {
+          "Id": "530783484"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A9481437-A25B-438E-847C-D8A4587E1D1F}",
+        "Media": [
+         {
+          "Id": "530783484"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BC34FC3B-73C3-405E-97FF-21AB27E776E2}",
+        "Media": [
+         {
+          "Id": "530783484"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{85E06043-91ED-40E8-9E52-A58FB7B03263}",
+        "Media": [
+         {
+          "Id": "523351202"
+         },
+         {
+          "Id": "678838908"
+         },
+         {
+          "Id": "1030858513"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}",
+        "Media": [
+         {
+          "Id": "699831425"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}",
+        "Media": [
+         {
+          "Id": "669406765"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F21BE3C3-7EDE-4FDE-A65A-B49232CBB182}",
+        "Media": [
+         {
+          "Id": "523351202"
+         },
+         {
+          "Id": "678838908"
+         },
+         {
+          "Id": "1030858513"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}",
+        "Media": [
+         {
+          "Id": "865475177"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BEB4F446-FED3-4A3D-8777-9C6A108635C3}",
+        "Media": [
+         {
+          "Id": "777860043"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0ED9656B-CDB0-4670-A3F0-049A691E5D20}",
+        "Media": [
+         {
+          "Id": "321868351"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C0A47BCC-9AA4-483F-BFA3-97FE4E3FD124}",
+        "Media": [
+         {
+          "Id": "321868351"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}",
+        "Media": [
+         {
+          "Id": "92026314"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F64E33F8-438C-4680-8D76-7805967EBB2D}",
+        "Media": [
+         {
+          "Id": "583176535"
+         }
+        ]
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "4081038936",
+        "Name": "AudioEvent_AM_Intro_08_Boreal",
+        "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AudioEvent_AM_Intro_08_Boreal",
+        "GUID": "{8999C5AD-21D7-4A69-9A62-18524CBB3BCC}"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "603224157",
+        "Name": "Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
+       }
+      ]
+     },
+     {
+      "Id": "675045446",
+      "Name": "AudioEvent_Emitter_Boreal_Temple",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_EMITTER\\AudioEvent_Emitter_Boreal_Temple",
+      "GUID": "{2E001302-0B96-4BEF-9316-C4E028C51B83}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "547885654",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_temple_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_temple_01_256CDB0F.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "603224157",
+        "Name": "Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
+       }
+      ]
+     },
+     {
+      "Id": "2005917161",
+      "Name": "AudioEvent_Emitter_Boreal_Temple_Bats",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_EMITTER\\AudioEvent_Emitter_Boreal_Temple_Bats",
+      "GUID": "{7AF66BC5-D9AB-422F-9378-750BF21DAEA4}",
+      "MaxAttenuation": "3400.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "48366721",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_02_7FA8D501.wem"
+       },
+       {
+        "Id": "166999313",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_07.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_07_7FA8D501.wem"
+       },
+       {
+        "Id": "238873241",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_04_7FA8D501.wem"
+       },
+       {
+        "Id": "278104987",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_05_7FA8D501.wem"
+       },
+       {
+        "Id": "312362537",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_06.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_06_7FA8D501.wem"
+       },
+       {
+        "Id": "585289123",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_01_7FA8D501.wem"
+       },
+       {
+        "Id": "586325848",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_03_7FA8D501.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "603224157",
+        "Name": "Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
+       }
+      ]
+     },
+     {
+      "Id": "3926189888",
+      "Name": "AudioEvent_Emitter_MainHouse_Center",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_EMITTER\\AudioEvent_Emitter_MainHouse_Center",
+      "GUID": "{137A9221-51B0-4386-9FE6-A7D62665148B}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "217552005",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_01_7FA8D501.wem"
+       },
+       {
+        "Id": "393087639",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_04.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_04_7FA8D501.wem"
+       },
+       {
+        "Id": "913976742",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_05.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_05_7FA8D501.wem"
+       },
+       {
+        "Id": "952662037",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_03.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_03_7FA8D501.wem"
+       },
+       {
+        "Id": "990291991",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_02.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_02_7FA8D501.wem"
+       },
+       {
+        "Id": "1045570814",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_mainhouse_center_candles_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_mainhouse_center_candles_01_256CDB0F.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "960464586",
+      "Name": "AudioEvent_Rev_Int_08_Boreal_Default",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Default",
+      "GUID": "{49D7E36B-0EAB-4E45-B5B6-D09D1D6DDC21}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1259973652",
+      "Name": "AudioEvent_Rev_Int_08_Boreal_MainHouse",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_MainHouse",
+      "GUID": "{C8A00CB3-4665-4EEA-AA9F-FCC1CB017B00}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1640055104",
+      "Name": "AudioEvent_Rev_Int_08_Boreal_MainHouse_SmallRooms",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_MainHouse_SmallRooms",
+      "GUID": "{B9816746-B217-4367-96E9-A05554F0217B}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3691418881",
+      "Name": "AudioEvent_Rev_Int_08_Boreal_Shack",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Shack",
+      "GUID": "{24811208-00CA-44FE-BCF8-E609CE448125}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3881326034",
+      "Name": "AudioEvent_Rev_Int_08_Boreal_SmokedHouse",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_SmokedHouse",
+      "GUID": "{3D3D289C-F8C9-4033-A861-A3AAA706F2EA}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "489408612",
+      "Name": "AudioEvent_Rev_Int_08_Boreal_Temple_Main",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Temple_Main",
+      "GUID": "{ACB2DD57-98A1-4DA7-9D46-D2692F9FDD54}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "95954190",
+      "Name": "AudioEvent_Rev_Int_08_Boreal_Temple_Underground",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_TILE\\AM_Reverb_08_Boreal\\AudioEvent_Rev_Int_08_Boreal_Temple_Underground",
+      "GUID": "{ED51E322-F45E-4630-B43C-9E289F28D116}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2167642864",
+      "Name": "AudioEvent_T08_Emitter_RainDrops",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_EMITTER\\AudioEvent_T08_Emitter_RainDrops",
+      "GUID": "{8DFE25E2-B716-423E-9E7A-201CDAB86B93}",
+      "MaxAttenuation": "850.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "29095913",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_raindrops_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_raindrops_01_256CDB0F.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "1097691772",
+      "Name": "AudioEvent_T08_Emitter_RainRoof",
+      "ObjectPath": "\\Events\\AMBIENCE\\AMB_T08_Boreal\\AMB_T08_EMITTER\\AudioEvent_T08_Emitter_RainRoof",
+      "GUID": "{15215268-29B0-4AD4-84C4-E5AD83B2108F}",
+      "MaxAttenuation": "1700.000000",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "654097066",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_rainroof_01.wav",
+        "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_rainroof_01_256CDB0F.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     }
+    ],
+    "ReferencedStreamedFiles": [
+     {
+      "Id": "55919656",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_weather_rain_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_weather_rain_01_256CDB0F.wem"
+     },
+     {
+      "Id": "92026314",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_med_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_med_01_256CDB0F.wem"
+     },
+     {
+      "Id": "321868351",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_middle_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_middle_01_256CDB0F.wem"
+     },
+     {
+      "Id": "455378844",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_shack_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_shack_01_256CDB0F.wem"
+     },
+     {
+      "Id": "530783484",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_mainhouse_01_256CDB0F.wem"
+     },
+     {
+      "Id": "547885654",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_temple_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_temple_01_256CDB0F.wem"
+     },
+     {
+      "Id": "583176535",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_high_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_high_01_256CDB0F.wem"
+     },
+     {
+      "Id": "654097066",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_rainroof_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_rainroof_01_256CDB0F.wem"
+     },
+     {
+      "Id": "669406765",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_arch_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_arch_01_256CDB0F.wem"
+     },
+     {
+      "Id": "699831425",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_templeunderground_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_templeunderground_01_256CDB0F.wem"
+     },
+     {
+      "Id": "777860043",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_low_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_forest_low_01_256CDB0F.wem"
+     },
+     {
+      "Id": "865475177",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_smokehouse_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_smokehouse_01_256CDB0F.wem"
+     },
+     {
+      "Id": "907609449",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_theme_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_theme_01_256CDB0F.wem"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "10273718",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_28.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_28_F03EBB80.wem"
+     },
+     {
+      "Id": "29095913",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_raindrops_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_raindrops_01_256CDB0F.wem"
+     },
+     {
+      "Id": "48366721",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_02.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_02_7FA8D501.wem"
+     },
+     {
+      "Id": "83666586",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_24.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_24_F03EBB80.wem"
+     },
+     {
+      "Id": "96145262",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_09.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_09_F03EBB80.wem"
+     },
+     {
+      "Id": "97346164",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_27.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_27_F03EBB80.wem"
+     },
+     {
+      "Id": "166999313",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_07.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_07_7FA8D501.wem"
+     },
+     {
+      "Id": "167317588",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_17.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_17_F03EBB80.wem"
+     },
+     {
+      "Id": "217552005",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_01_7FA8D501.wem"
+     },
+     {
+      "Id": "238873241",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_04.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_04_7FA8D501.wem"
+     },
+     {
+      "Id": "251467745",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_07.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_07_F03EBB80.wem"
+     },
+     {
+      "Id": "278104987",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_05.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_05_7FA8D501.wem"
+     },
+     {
+      "Id": "312362537",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_06.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_06_7FA8D501.wem"
+     },
+     {
+      "Id": "357248030",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_20.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_20_F03EBB80.wem"
+     },
+     {
+      "Id": "393079995",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_18.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_18_F03EBB80.wem"
+     },
+     {
+      "Id": "393087639",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_04.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_04_7FA8D501.wem"
+     },
+     {
+      "Id": "430585401",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_16.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_16_F03EBB80.wem"
+     },
+     {
+      "Id": "440339352",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_01_F03EBB80.wem"
+     },
+     {
+      "Id": "488102737",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_04.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_04_F03EBB80.wem"
+     },
+     {
+      "Id": "523351202",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_background_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_background_01_256CDB0F.wem"
+     },
+     {
+      "Id": "549461115",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_08.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_08_F03EBB80.wem"
+     },
+     {
+      "Id": "583302954",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_31.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_31_F03EBB80.wem"
+     },
+     {
+      "Id": "585289123",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_01_7FA8D501.wem"
+     },
+     {
+      "Id": "586325848",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_03.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_batscream_03_7FA8D501.wem"
+     },
+     {
+      "Id": "619272897",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_intro.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_intro_7FA8D501.wem"
+     },
+     {
+      "Id": "653805098",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_33.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_33_F03EBB80.wem"
+     },
+     {
+      "Id": "668273803",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_34.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_34_F03EBB80.wem"
+     },
+     {
+      "Id": "678838908",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_theentity_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_theentity_01_256CDB0F.wem"
+     },
+     {
+      "Id": "715569388",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_32.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_32_F03EBB80.wem"
+     },
+     {
+      "Id": "781650161",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_25.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_25_F03EBB80.wem"
+     },
+     {
+      "Id": "794098649",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_19.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_19_F03EBB80.wem"
+     },
+     {
+      "Id": "800344373",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_21.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_21_F03EBB80.wem"
+     },
+     {
+      "Id": "809989973",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_13.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_13_F03EBB80.wem"
+     },
+     {
+      "Id": "825937589",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_14.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_14_F03EBB80.wem"
+     },
+     {
+      "Id": "841521941",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_23.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_23_F03EBB80.wem"
+     },
+     {
+      "Id": "856371568",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_26.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_26_F03EBB80.wem"
+     },
+     {
+      "Id": "858321975",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_02.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_02_F03EBB80.wem"
+     },
+     {
+      "Id": "879680959",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_22.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_22_F03EBB80.wem"
+     },
+     {
+      "Id": "913976742",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_05.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_05_7FA8D501.wem"
+     },
+     {
+      "Id": "920353348",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_15.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_15_F03EBB80.wem"
+     },
+     {
+      "Id": "952662037",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_03.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_03_7FA8D501.wem"
+     },
+     {
+      "Id": "990215335",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_29.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_29_F03EBB80.wem"
+     },
+     {
+      "Id": "990291991",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_02.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_lumberpile_creaks_02_7FA8D501.wem"
+     },
+     {
+      "Id": "995404667",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_06.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_06_F03EBB80.wem"
+     },
+     {
+      "Id": "1023750867",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_11.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_11_F03EBB80.wem"
+     },
+     {
+      "Id": "1023768389",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_12.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_12_F03EBB80.wem"
+     },
+     {
+      "Id": "1030858513",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_drops_10.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_tile_killerbasement_drops_10_256CDB0F.wem"
+     },
+     {
+      "Id": "1032493604",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_30.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_30_F03EBB80.wem"
+     },
+     {
+      "Id": "1045570814",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_mainhouse_center_candles_01.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_emt_mainhouse_center_candles_01_256CDB0F.wem"
+     },
+     {
+      "Id": "1055837149",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_10.wav",
+      "Path": "SFX\\Ambience\\Theme\\T08_Boreal\\am_t08_boreal_rdm_waterdrops_10_F03EBB80.wem"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "567096506",
+      "Name": "AudioStateIndoor_08_Boreal_MainHouse",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_MainHouse",
+      "GUID": "{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}",
+      "States": []
+     },
+     {
+      "Id": "756166810",
+      "Name": "AudioStateInOut_Outdoor",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Outdoor",
+      "GUID": "{99364DC0-6C1A-4665-B7AC-51F820296BC2}",
+      "States": []
+     },
+     {
+      "Id": "1150282450",
+      "Name": "AudioStateOutdoor_08_Boreal_Forest_Low",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Low",
+      "GUID": "{BEB4F446-FED3-4A3D-8777-9C6A108635C3}",
+      "States": []
+     },
+     {
+      "Id": "1152963390",
+      "Name": "AudioStateIndoor_08_Boreal",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal",
+      "GUID": "{9E0D4112-427B-4E58-BE75-078F52A1AC06}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\None",
+        "GUID": "{A9481437-A25B-438E-847C-D8A4587E1D1F}"
+       },
+       {
+        "Id": "2580179395",
+        "Name": "AudioStateIndoor_08_Boreal_KillerBasement",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_KillerBasement",
+        "GUID": "{F21BE3C3-7EDE-4FDE-A65A-B49232CBB182}"
+       },
+       {
+        "Id": "4081386148",
+        "Name": "AudioStateIndoor_08_Boreal_KillerBasement_Stairs",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_KillerBasement_Stairs",
+        "GUID": "{85E06043-91ED-40E8-9E52-A58FB7B03263}"
+       },
+       {
+        "Id": "3829197823",
+        "Name": "AudioStateIndoor_08_Boreal_Shack",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Shack",
+        "GUID": "{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}"
+       },
+       {
+        "Id": "2563879436",
+        "Name": "AudioStateIndoor_08_Boreal_SmokeHouse",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_SmokeHouse",
+        "GUID": "{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}"
+       },
+       {
+        "Id": "567096506",
+        "Name": "AudioStateIndoor_08_Boreal_MainHouse",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_MainHouse",
+        "GUID": "{F7008E32-848A-4AE1-AA2E-E9676CA9BFEB}"
+       },
+       {
+        "Id": "1650442345",
+        "Name": "AudioStateIndoor_08_Boreal_Arch",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Arch",
+        "GUID": "{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}"
+       },
+       {
+        "Id": "4262432795",
+        "Name": "AudioStateIndoor_08_Boreal_Temple_MainRoom",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Temple_MainRoom",
+        "GUID": "{BC34FC3B-73C3-405E-97FF-21AB27E776E2}"
+       },
+       {
+        "Id": "4058111832",
+        "Name": "AudioStateIndoor_08_Boreal_Temple_Underground",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Temple_Underground",
+        "GUID": "{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}"
+       }
+      ]
+     },
+     {
+      "Id": "1650442345",
+      "Name": "AudioStateIndoor_08_Boreal_Arch",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Arch",
+      "GUID": "{1EA3C6A2-DC66-4DE1-86A3-0363AE37FAB7}",
+      "States": []
+     },
+     {
+      "Id": "1661292232",
+      "Name": "AudioStateOutdoor_08_Boreal_Forest_High",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_High",
+      "GUID": "{F64E33F8-438C-4680-8D76-7805967EBB2D}",
+      "States": []
+     },
+     {
+      "Id": "1855089470",
+      "Name": "AudioStateOutdoor_08_Boreal_Forest_Med",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Med",
+      "GUID": "{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}",
+      "States": []
+     },
+     {
+      "Id": "2046511725",
+      "Name": "AudioStateInOut_Basement",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Basement",
+      "GUID": "{83F0DC21-ED8F-4609-AC30-CF9CFB300944}",
+      "States": []
+     },
+     {
+      "Id": "2563879436",
+      "Name": "AudioStateIndoor_08_Boreal_SmokeHouse",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_SmokeHouse",
+      "GUID": "{E45088D6-4BCD-4D11-9D2B-988EDC04ABED}",
+      "States": []
+     },
+     {
+      "Id": "2700327433",
+      "Name": "AudioStateInOut_Middle",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Middle",
+      "GUID": "{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}",
+      "States": []
+     },
+     {
+      "Id": "2843566831",
+      "Name": "AudioStateInOut_Indoor",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateInOut\\AudioStateInOut_Indoor",
+      "GUID": "{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}",
+      "States": []
+     },
+     {
+      "Id": "3829197823",
+      "Name": "AudioStateIndoor_08_Boreal_Shack",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Shack",
+      "GUID": "{0723402C-9E00-40D0-8CF9-F956DCAC1FE9}",
+      "States": []
+     },
+     {
+      "Id": "4058111832",
+      "Name": "AudioStateIndoor_08_Boreal_Temple_Underground",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Temple_Underground",
+      "GUID": "{0C18B9A0-9C80-479B-B086-34D5BDDB8FDE}",
+      "States": []
+     },
+     {
+      "Id": "4157533803",
+      "Name": "AudioStateOutdoor_08_Boreal",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal",
+      "GUID": "{413AAC8A-954F-4175-AA11-DB764E5D6911}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\None",
+        "GUID": "{C0A47BCC-9AA4-483F-BFA3-97FE4E3FD124}"
+       },
+       {
+        "Id": "1661292232",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_High",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_High",
+        "GUID": "{F64E33F8-438C-4680-8D76-7805967EBB2D}"
+       },
+       {
+        "Id": "1150282450",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_Low",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Low",
+        "GUID": "{BEB4F446-FED3-4A3D-8777-9C6A108635C3}"
+       },
+       {
+        "Id": "1855089470",
+        "Name": "AudioStateOutdoor_08_Boreal_Forest_Med",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_Forest_Med",
+        "GUID": "{9A25D1E7-1BD1-460E-AB10-4E186567E9EA}"
+       },
+       {
+        "Id": "4206111882",
+        "Name": "AudioStateOutdoor_08_Boreal_MainHouse_UnderRain",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_MainHouse_UnderRain",
+        "GUID": "{0ED9656B-CDB0-4670-A3F0-049A691E5D20}"
+       }
+      ]
+     },
+     {
+      "Id": "4206111882",
+      "Name": "AudioStateOutdoor_08_Boreal_MainHouse_UnderRain",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateOutdoor_08_Boreal\\AudioStateOutdoor_08_Boreal_MainHouse_UnderRain",
+      "GUID": "{0ED9656B-CDB0-4670-A3F0-049A691E5D20}",
+      "States": []
+     },
+     {
+      "Id": "4262432795",
+      "Name": "AudioStateIndoor_08_Boreal_Temple_MainRoom",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_08_Boreal\\AudioStateIndoor_08_Boreal\\AudioStateIndoor_08_Boreal_Temple_MainRoom",
+      "GUID": "{BC34FC3B-73C3-405E-97FF-21AB27E776E2}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}
