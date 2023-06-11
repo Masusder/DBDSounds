@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970221" GUID="{7F216364-F88A-4FA4-A8C2-293528A3EDA5}" Language="SFX" Hash="3616378401">
+		<SoundBank Id="2215970221" GUID="{7F216364-F88A-4FA4-A8C2-293528A3EDA5}" Language="SFX" Hash="18888079">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_10</ObjectPath>
 			<ShortName>AMB_10</ShortName>
 			<Path>AMB_10.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1277450372" Name="AudioEvent_AM_Intro_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AudioEvent_AM_Intro_10_Finland" GUID="{5F7E87A2-48BA-4308-9F8F-16370F429DBB}" DurationType="OneShot" DurationMin="9.500000" DurationMax="9.500000">
+				<Event Id="1277450372" Name="AudioEvent_AM_Intro_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AudioEvent_AM_Intro_10_Finland" GUID="{5F7E87A2-48BA-4308-9F8F-16370F429DBB}" DurationType="OneShot" DurationMin="9.5" DurationMax="9.5">
 					<ExcludedMemoryFiles>
 						<File Id="93100800" Language="SFX">
 							<ShortName>Ambience\Theme\T10_Finland\am_t10_finland_intro.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3787796404" Name="AudioEvent_AM_T10_Escape" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Escape" GUID="{CEBC6B55-27E9-4F89-B364-6F66FF397038}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="3787796404" Name="AudioEvent_AM_T10_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Escape" GUID="{CEBC6B55-27E9-4F89-B364-6F66FF397038}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -53,7 +53,7 @@
 						<ActionSetStateEntry Id="1783830377" Name="AudioStateOutdoor_10_Finland_Escape" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateOutdoor_10_Finland\AudioStateOutdoor_10_Finland_Escape" GUID="{BF5AEB74-A257-4986-ADFC-F8534EC56BCF}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2913829948" Name="AudioEvent_AM_T10_Floor_Down" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Floor_Down" GUID="{B9ABD8F9-D14C-4D14-A63B-DC20BA5FCE3F}" DurationType="Infinite">
+				<Event Id="2913829948" Name="AudioEvent_AM_T10_Floor_Down" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Floor_Down" GUID="{B9ABD8F9-D14C-4D14-A63B-DC20BA5FCE3F}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="279334502" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_drama_woosh_03.wav</ShortName>
@@ -73,23 +73,23 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="861128798" Name="AudioEvent_Rev_Int_10_Finland_Floor_Down" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Down" GUID="{E8E208A7-0FAE-47D0-9165-532C793C73F5}"/>
+						<ActionPostEventEntry Id="861128798" Name="AudioEvent_Rev_Int_10_Finland_Floor_Down" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Down" GUID="{E8E208A7-0FAE-47D0-9165-532C793C73F5}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 						<ActionSetStateEntry Id="3254717288" Name="AudioStateIndoor_10_Finland_Floor_Down" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Floor_Down" GUID="{0E1A8721-3A36-435C-A2F7-E1363281303C}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4216699601" Name="AudioEvent_AM_T10_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Floor_Top" GUID="{6A58FD8C-A578-481C-BED3-D690FD21A735}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="4216699601" Name="AudioEvent_AM_T10_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Floor_Top" GUID="{6A58FD8C-A578-481C-BED3-D690FD21A735}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
+						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="170402197" Name="AudioStateIndoor_10_Finland_Floor_Top" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Floor_Top" GUID="{D89A2DBD-13C4-48F8-A267-CB398B1FA368}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1545049054" Name="AudioEvent_AM_T10_Freezer" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Freezer" GUID="{EE92E45E-D862-4408-A9F0-02C5D81354FB}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1545049054" Name="AudioEvent_AM_T10_Freezer" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Freezer" GUID="{EE92E45E-D862-4408-A9F0-02C5D81354FB}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -117,14 +117,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2123144747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Freezer" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Freezer" GUID="{30DFE240-72BD-4294-AD73-43F4C099DA62}"/>
+						<ActionPostEventEntry Id="2123144747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Freezer" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Freezer" GUID="{30DFE240-72BD-4294-AD73-43F4C099DA62}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2536863626" Name="AudioStateIndoor_10_Finland_Freezer" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Freezer" GUID="{5D326FB4-7CC0-48EE-9AF5-9B8EBD43C72C}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3086435660" Name="AudioEvent_AM_T10_Rack" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Rack" GUID="{8BF67B4E-AFF9-490A-81EA-B204C5C9763E}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="3086435660" Name="AudioEvent_AM_T10_Rack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_Rack" GUID="{8BF67B4E-AFF9-490A-81EA-B204C5C9763E}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -152,14 +152,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1593908747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Rack" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Rack" GUID="{C885BACC-A8D4-482C-B299-FC011E610AF0}"/>
+						<ActionPostEventEntry Id="1593908747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Rack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Rack" GUID="{C885BACC-A8D4-482C-B299-FC011E610AF0}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="54959136" Name="AudioStateIndoor_10_Finland_Rack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_Rack" GUID="{91E3D31A-5E51-4E90-B624-80208EA84577}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3470379947" Name="AudioEvent_AM_T10_VatRoom" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_VatRoom" GUID="{4AE58FDE-BF6A-4634-A15F-627F221F63F2}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="3470379947" Name="AudioEvent_AM_T10_VatRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AudioEvent_AM_T10_VatRoom" GUID="{4AE58FDE-BF6A-4634-A15F-627F221F63F2}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -187,14 +187,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
+						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 						<ActionSetStateEntry Id="4225729231" Name="AudioStateIndoor_10_Finland_VatRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_10_Finland\AudioStateIndoor_10_Finland\AudioStateIndoor_10_Finland_VatRoom" GUID="{257A3A33-8A30-4D34-AAC5-03525F85357C}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4133090055" Name="AudioEvent_AM_Theme_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AudioEvent_AM_Theme_10_Finland" GUID="{4DE6AA58-BCE6-44EC-BFBC-CD942F30FFE1}" DurationType="Infinite">
+				<Event Id="4133090055" Name="AudioEvent_AM_Theme_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AudioEvent_AM_Theme_10_Finland" GUID="{4DE6AA58-BCE6-44EC-BFBC-CD942F30FFE1}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="58108717" Language="SFX">
 							<ShortName>Ambience\Theme\T10_Finland\am_t10_finland_tile_valroom_01.wav</ShortName>
@@ -310,8 +310,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
-						<ActionPostEventEntry Id="1277450372" Name="AudioEvent_AM_Intro_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AudioEvent_AM_Intro_10_Finland" GUID="{5F7E87A2-48BA-4308-9F8F-16370F429DBB}"/>
+						<ActionPostEventEntry Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}"/>
+						<ActionPostEventEntry Id="1277450372" Name="AudioEvent_AM_Intro_10_Finland" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AudioEvent_AM_Intro_10_Finland" GUID="{5F7E87A2-48BA-4308-9F8F-16370F429DBB}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -320,7 +320,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1829049560" Name="AudioEvent_Emitter_Freezer" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_EMITTER\AudioEvent_Emitter_Freezer" GUID="{6E5C37CF-2FF4-4E2E-B4EE-4935101E213C}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="1829049560" Name="AudioEvent_Emitter_Freezer" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_EMITTER\AudioEvent_Emitter_Freezer" GUID="{6E5C37CF-2FF4-4E2E-B4EE-4935101E213C}" MaxAttenuation="1700." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="595812181" Language="SFX">
 							<ShortName>Ambience\Theme\T10_Finland\am_t10_finland_emt_freezer_01.wav</ShortName>
@@ -331,7 +331,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1800282556" Name="AudioEvent_Emitter_WaterJet_Start" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_EMITTER\AudioEvent_Emitter_WaterJet_Start" GUID="{BD8F3569-CCE1-497D-B4F7-85536BF7FB60}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="1800282556" Name="AudioEvent_Emitter_WaterJet_Start" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_EMITTER\AudioEvent_Emitter_WaterJet_Start" GUID="{BD8F3569-CCE1-497D-B4F7-85536BF7FB60}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="141781464" Language="SFX">
 							<ShortName>Ambience\Theme\T10_Finland\am_t10_finland_emt_water_jet_water_03.wav</ShortName>
@@ -362,11 +362,11 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2837937680" Name="AudioEvent_Emitter_WaterJet_Stop" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_EMITTER\AudioEvent_Emitter_WaterJet_Stop" GUID="{0393A2F1-BB39-4319-A906-EE54AA675BC5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="861128798" Name="AudioEvent_Rev_Int_10_Finland_Floor_Down" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Down" GUID="{E8E208A7-0FAE-47D0-9165-532C793C73F5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2123144747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Freezer" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Freezer" GUID="{30DFE240-72BD-4294-AD73-43F4C099DA62}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1593908747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Rack" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Rack" GUID="{C885BACC-A8D4-482C-B299-FC011E610AF0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2837937680" Name="AudioEvent_Emitter_WaterJet_Stop" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_EMITTER\AudioEvent_Emitter_WaterJet_Stop" GUID="{0393A2F1-BB39-4319-A906-EE54AA675BC5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="861128798" Name="AudioEvent_Rev_Int_10_Finland_Floor_Down" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Down" GUID="{E8E208A7-0FAE-47D0-9165-532C793C73F5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2123144747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Freezer" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Freezer" GUID="{30DFE240-72BD-4294-AD73-43F4C099DA62}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1593908747" Name="AudioEvent_Rev_Int_10_Finland_Floor_Rack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Rack" GUID="{C885BACC-A8D4-482C-B299-FC011E610AF0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="575525383" Name="AudioEvent_Rev_Int_10_Finland_Floor_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T10_Finland\AMB_T10_TILE\AM_Reverb_10_Finland\AudioEvent_Rev_Int_10_Finland_Floor_Top" GUID="{6EF896E8-0427-4A58-87C5-050F7632A77E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="58108717" Language="SFX">

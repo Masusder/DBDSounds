@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970219" GUID="{59B7E52F-0A9A-4604-8423-1C8BCDEE02AB}" Language="SFX" Hash="410902634">
+		<SoundBank Id="2215970219" GUID="{59B7E52F-0A9A-4604-8423-1C8BCDEE02AB}" Language="SFX" Hash="576772995">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_16</ObjectPath>
 			<ShortName>AMB_16</ShortName>
 			<Path>AMB_16.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3463482982" Name="AudioEvent_AM_T16_Basement_Killer" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_T16_Basement_Killer" GUID="{99C2595C-B6C6-4878-BCB5-B36B123E73A0}" DurationType="Infinite">
+				<Event Id="3463482982" Name="AudioEvent_AM_T16_Basement_Killer" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_T16_Basement_Killer" GUID="{99C2595C-B6C6-4878-BCB5-B36B123E73A0}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815451" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
@@ -155,7 +155,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2187197126" Name="AudioEvent_Rev_Int_16_Wales_Basement" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Basement" GUID="{3EF3DB8B-1135-484C-AABA-6E3D62ECE091}"/>
+						<ActionPostEventEntry Id="2187197126" Name="AudioEvent_Rev_Int_16_Wales_Basement" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Basement" GUID="{3EF3DB8B-1135-484C-AABA-6E3D62ECE091}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
@@ -166,7 +166,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="754688399" Name="AudioEvent_AM_T16_Basement_Killer_Stairs" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_T16_Basement_Killer_Stairs" GUID="{C9E9E0B2-F628-45B6-A42E-F72A55A9F517}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="754688399" Name="AudioEvent_AM_T16_Basement_Killer_Stairs" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_T16_Basement_Killer_Stairs" GUID="{C9E9E0B2-F628-45B6-A42E-F72A55A9F517}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -194,14 +194,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3383429159" Name="AudioEvent_Rev_Int_16_Wales_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_SmallRoom" GUID="{1AEAF4AA-E93C-4443-85EE-6B5014E25FA1}"/>
+						<ActionPostEventEntry Id="3383429159" Name="AudioEvent_Rev_Int_16_Wales_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_SmallRoom" GUID="{1AEAF4AA-E93C-4443-85EE-6B5014E25FA1}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
 						<ActionSetStateEntry Id="3792840902" Name="AudioStateIndoor_16_Wales_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_KillerBasement_Stairs" GUID="{AAFA5977-408C-45EA-8EBB-AA45E4CE3BB5}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3978724401" Name="AudioEvent_AM_Theme_16_Wales" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AudioEvent_AM_Theme_16_Wales" GUID="{67EA2DC4-5E14-4A73-9C91-61DDB988B73D}" DurationType="Infinite">
+				<Event Id="3978724401" Name="AudioEvent_AM_Theme_16_Wales" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AudioEvent_AM_Theme_16_Wales" GUID="{67EA2DC4-5E14-4A73-9C91-61DDB988B73D}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="344783650" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_tile_roomtone_bathroom_01.wav</ShortName>
@@ -307,7 +307,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="840829684" Name="AudioEvent_AM_Wales_BrightRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_BrightRooms" GUID="{BBFC8ED8-985A-4401-9A66-B7B80B60BC22}" DurationType="OneShot" DurationMin="0.000000" DurationMax="17.062569">
+				<Event Id="840829684" Name="AudioEvent_AM_Wales_BrightRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_BrightRooms" GUID="{BBFC8ED8-985A-4401-9A66-B7B80B60BC22}" DurationType="OneShot" DurationMin="0." DurationMax="17.062569">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -381,7 +381,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3835943303" Name="AudioEvent_Rev_Int_16_Wales_BrightRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_BrightRooms" GUID="{AFD646A8-B031-4CA7-9769-1CB42E753832}"/>
+						<ActionPostEventEntry Id="3835943303" Name="AudioEvent_Rev_Int_16_Wales_BrightRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_BrightRooms" GUID="{AFD646A8-B031-4CA7-9769-1CB42E753832}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1506237041" Name="AudioStateIndoor_16_Wales_StandardRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_StandardRoom" GUID="{8902A596-DE93-4F78-B612-9887649CFC2A}"/>
@@ -392,7 +392,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="557897417" Name="AudioEvent_AM_Wales_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_Corridors" GUID="{F3888F9D-1704-4072-9EA5-60DCE13A97DE}" DurationType="OneShot" DurationMin="0.000000" DurationMax="19.211853">
+				<Event Id="557897417" Name="AudioEvent_AM_Wales_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_Corridors" GUID="{F3888F9D-1704-4072-9EA5-60DCE13A97DE}" DurationType="OneShot" DurationMin="0." DurationMax="19.211853">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -482,7 +482,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2387976634" Name="AudioEvent_Rev_Int_16_Wales_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Corridors" GUID="{00F3E5FB-9060-4F5B-BFFC-4B462B8A35FA}"/>
+						<ActionPostEventEntry Id="2387976634" Name="AudioEvent_Rev_Int_16_Wales_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Corridors" GUID="{00F3E5FB-9060-4F5B-BFFC-4B462B8A35FA}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="918417020" Name="AudioStateIndoor_16_Wales_Corridors" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_Corridors" GUID="{76F4739F-C4EF-41EE-979D-FC804BF3EB5E}"/>
@@ -494,7 +494,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="462562094" Name="AudioEvent_AM_Wales_Exterior" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_Exterior" GUID="{815B5EB9-1457-458D-BE65-8CCF4A0BFE5A}" DurationType="OneShot" DurationMin="0.000000" DurationMax="17.062569">
+				<Event Id="462562094" Name="AudioEvent_AM_Wales_Exterior" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_Exterior" GUID="{815B5EB9-1457-458D-BE65-8CCF4A0BFE5A}" DurationType="OneShot" DurationMin="0." DurationMax="17.062569">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -576,7 +576,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1807588342" Name="AudioEvent_AM_Wales_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_TinyRooms" GUID="{C0E36F98-B974-4E09-A8E4-9E90E6A2D510}" DurationType="OneShot" DurationMin="0.000000" DurationMax="17.062569">
+				<Event Id="1807588342" Name="AudioEvent_AM_Wales_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_TinyRooms" GUID="{C0E36F98-B974-4E09-A8E4-9E90E6A2D510}" DurationType="OneShot" DurationMin="0." DurationMax="17.062569">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -650,7 +650,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="4183139677" Name="AudioEvent_Rev_Int_16_Wales_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_TinyRooms" GUID="{21E7AA5A-25F7-4716-901C-D55B92F3776C}"/>
+						<ActionPostEventEntry Id="4183139677" Name="AudioEvent_Rev_Int_16_Wales_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_TinyRooms" GUID="{21E7AA5A-25F7-4716-901C-D55B92F3776C}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2404241852" Name="AudioStateIndoor_16_Wales_TinyRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_TinyRoom" GUID="{EF12886B-0621-433D-AEB1-02AEF01E49C2}"/>
@@ -661,7 +661,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2414033766" Name="AudioEvent_AM_Wales_Toilets" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_Toilets" GUID="{66720B63-97B5-4625-AF07-ECCAC0FC9C82}" DurationType="Infinite">
+				<Event Id="2414033766" Name="AudioEvent_AM_Wales_Toilets" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_Toilets" GUID="{66720B63-97B5-4625-AF07-ECCAC0FC9C82}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -867,7 +867,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1183218429" Name="AudioEvent_Rev_Int_16_Wales_Toilets" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Toilets" GUID="{2FA62E82-FCAC-4369-A998-FE4D2B32ABA7}"/>
+						<ActionPostEventEntry Id="1183218429" Name="AudioEvent_Rev_Int_16_Wales_Toilets" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Toilets" GUID="{2FA62E82-FCAC-4369-A998-FE4D2B32ABA7}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -879,7 +879,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2717806748" Name="AudioEvent_AM_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_WoodyRooms" GUID="{E4E8BC03-3C36-4B55-991E-933AE38A1313}" DurationType="OneShot" DurationMin="0.000000" DurationMax="17.062569">
+				<Event Id="2717806748" Name="AudioEvent_AM_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AudioEvent_AM_Wales_WoodyRooms" GUID="{E4E8BC03-3C36-4B55-991E-933AE38A1313}" DurationType="OneShot" DurationMin="0." DurationMax="17.062569">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -953,7 +953,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="4171944585" Name="AudioEvent_Rev_Int_16_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_WoodyRooms" GUID="{F133C8DA-6B78-4DB3-AC17-8E6C7A2E4816}"/>
+						<ActionPostEventEntry Id="4171944585" Name="AudioEvent_Rev_Int_16_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_WoodyRooms" GUID="{F133C8DA-6B78-4DB3-AC17-8E6C7A2E4816}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1506237041" Name="AudioStateIndoor_16_Wales_StandardRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_16_Wales\AudioStateIndoor_16_Wales\AudioStateIndoor_16_Wales_StandardRoom" GUID="{8902A596-DE93-4F78-B612-9887649CFC2A}"/>
@@ -964,7 +964,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2659905625" Name="AudioEvent_Emitter_Wales_BigFan" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_BigFan" GUID="{2E052A5A-6A1A-47A5-8B5F-E1E4136D3A7E}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="2659905625" Name="AudioEvent_Emitter_Wales_BigFan" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_BigFan" GUID="{2E052A5A-6A1A-47A5-8B5F-E1E4136D3A7E}" MaxAttenuation="1700." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="78144328" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_fan_squeaks_03.wav</ShortName>
@@ -992,7 +992,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2230552123" Name="AudioEvent_Emitter_Wales_Courtyard_Chain" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Courtyard_Chain" GUID="{27E2873D-E810-4130-A45D-3E7A4D01F0C2}" MaxAttenuation="9900.000000" DurationType="Infinite">
+				<Event Id="2230552123" Name="AudioEvent_Emitter_Wales_Courtyard_Chain" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Courtyard_Chain" GUID="{27E2873D-E810-4130-A45D-3E7A4D01F0C2}" MaxAttenuation="9900." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="954420" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_courtyard_chain_04.wav</ShortName>
@@ -1039,7 +1039,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="854432360" Name="AudioEvent_Emitter_Wales_Girl_Crying_Start" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Girl_Crying_Start" GUID="{E32A4319-15BC-4BD4-A3C6-389F62B216B7}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="14.205334" DurationMax="19.893333">
+				<Event Id="854432360" Name="AudioEvent_Emitter_Wales_Girl_Crying_Start" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Girl_Crying_Start" GUID="{E32A4319-15BC-4BD4-A3C6-389F62B216B7}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="14.205334" DurationMax="19.893333">
 					<ExcludedMemoryFiles>
 						<File Id="133286712" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_girlcrying_04.wav</ShortName>
@@ -1079,7 +1079,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4197751477" Name="AudioEvent_Emitter_Wales_GorePile" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_GorePile" GUID="{81CA1E8B-A1D4-4B8E-A9CA-6A58D2FBFCF9}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="4197751477" Name="AudioEvent_Emitter_Wales_GorePile" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_GorePile" GUID="{81CA1E8B-A1D4-4B8E-A9CA-6A58D2FBFCF9}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="486365705" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_gorepile_01.wav</ShortName>
@@ -1087,7 +1087,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3741556994" Name="AudioEvent_Emitter_Wales_GroundHoles" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_GroundHoles" GUID="{FB3E8F82-8673-4DE6-8EA7-DE8B1C994C7B}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="3741556994" Name="AudioEvent_Emitter_Wales_GroundHoles" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_GroundHoles" GUID="{FB3E8F82-8673-4DE6-8EA7-DE8B1C994C7B}" MaxAttenuation="1700." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="190770978" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_groundhole_04.wav</ShortName>
@@ -1111,7 +1111,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1514157653" Name="AudioEvent_Emitter_Wales_Radio" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Radio" GUID="{E65E3A2F-A552-4595-9520-3E0000B1647A}" MaxAttenuation="450.000000" DurationType="Infinite">
+				<Event Id="1514157653" Name="AudioEvent_Emitter_Wales_Radio" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_Radio" GUID="{E65E3A2F-A552-4595-9520-3E0000B1647A}" MaxAttenuation="450." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="221992771" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_radio_01.wav</ShortName>
@@ -1119,7 +1119,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3392058554" Name="AudioEvent_Emitter_Wales_RainOpening" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_RainOpening" GUID="{EBF56A69-2135-474E-AB1E-2DB658590ABB}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="3392058554" Name="AudioEvent_Emitter_Wales_RainOpening" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_Emitter_Wales_RainOpening" GUID="{EBF56A69-2135-474E-AB1E-2DB658590ABB}" MaxAttenuation="1700." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="200725360" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_outside_01.wav</ShortName>
@@ -1134,14 +1134,14 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2187197126" Name="AudioEvent_Rev_Int_16_Wales_Basement" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Basement" GUID="{3EF3DB8B-1135-484C-AABA-6E3D62ECE091}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3835943303" Name="AudioEvent_Rev_Int_16_Wales_BrightRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_BrightRooms" GUID="{AFD646A8-B031-4CA7-9769-1CB42E753832}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2387976634" Name="AudioEvent_Rev_Int_16_Wales_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Corridors" GUID="{00F3E5FB-9060-4F5B-BFFC-4B462B8A35FA}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3383429159" Name="AudioEvent_Rev_Int_16_Wales_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_SmallRoom" GUID="{1AEAF4AA-E93C-4443-85EE-6B5014E25FA1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4183139677" Name="AudioEvent_Rev_Int_16_Wales_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_TinyRooms" GUID="{21E7AA5A-25F7-4716-901C-D55B92F3776C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1183218429" Name="AudioEvent_Rev_Int_16_Wales_Toilets" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Toilets" GUID="{2FA62E82-FCAC-4369-A998-FE4D2B32ABA7}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4171944585" Name="AudioEvent_Rev_Int_16_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_WoodyRooms" GUID="{F133C8DA-6B78-4DB3-AC17-8E6C7A2E4816}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1267351383" Name="AudioEvent_T16_Emitter_DrainGurgle" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_T16_Emitter_DrainGurgle" GUID="{DD98CD00-F6D7-48D0-BEC8-9211A14757C8}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="2187197126" Name="AudioEvent_Rev_Int_16_Wales_Basement" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Basement" GUID="{3EF3DB8B-1135-484C-AABA-6E3D62ECE091}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3835943303" Name="AudioEvent_Rev_Int_16_Wales_BrightRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_BrightRooms" GUID="{AFD646A8-B031-4CA7-9769-1CB42E753832}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2387976634" Name="AudioEvent_Rev_Int_16_Wales_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Corridors" GUID="{00F3E5FB-9060-4F5B-BFFC-4B462B8A35FA}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3383429159" Name="AudioEvent_Rev_Int_16_Wales_SmallRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_SmallRoom" GUID="{1AEAF4AA-E93C-4443-85EE-6B5014E25FA1}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4183139677" Name="AudioEvent_Rev_Int_16_Wales_TinyRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_TinyRooms" GUID="{21E7AA5A-25F7-4716-901C-D55B92F3776C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1183218429" Name="AudioEvent_Rev_Int_16_Wales_Toilets" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_Toilets" GUID="{2FA62E82-FCAC-4369-A998-FE4D2B32ABA7}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4171944585" Name="AudioEvent_Rev_Int_16_Wales_WoodyRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_TILE\AM_Reverb_16_Wales\AudioEvent_Rev_Int_16_Wales_WoodyRooms" GUID="{F133C8DA-6B78-4DB3-AC17-8E6C7A2E4816}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1267351383" Name="AudioEvent_T16_Emitter_DrainGurgle" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_T16_Emitter_DrainGurgle" GUID="{DD98CD00-F6D7-48D0-BEC8-9211A14757C8}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="268707414" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_drain_gurgle_loop_02.wav</ShortName>
@@ -1157,7 +1157,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1172318605" Name="AudioEvent_T16_Emitter_RainDrops" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_T16_Emitter_RainDrops" GUID="{F9A4AD3B-5DD7-4469-81D9-35FA9FC19022}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="1172318605" Name="AudioEvent_T16_Emitter_RainDrops" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_T16_Emitter_RainDrops" GUID="{F9A4AD3B-5DD7-4469-81D9-35FA9FC19022}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="999690595" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_raindrops_01.wav</ShortName>
@@ -1168,7 +1168,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1457251059" Name="AudioEvent_T16_Emitter_WaterPipes" ObjectPath="\Events\AMBIENCE\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_T16_Emitter_WaterPipes" GUID="{FDCC66BB-FA0A-4A73-882D-E53640FF2E30}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="1457251059" Name="AudioEvent_T16_Emitter_WaterPipes" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T16_Wales\AMB_T16_EMITTER\AudioEvent_T16_Emitter_WaterPipes" GUID="{FDCC66BB-FA0A-4A73-882D-E53640FF2E30}" MaxAttenuation="1700." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="92863887" Language="SFX">
 							<ShortName>Ambience\Theme\T16_Wales\am_t16_wales_emt_waterpipes_loop_03.wav</ShortName>

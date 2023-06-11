@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="81455217" GUID="{D1869CD2-11F8-4871-BEAD-1FF0E27889F8}" Language="SFX" Hash="3866846389">
+		<SoundBank Id="81455217" GUID="{D1869CD2-11F8-4871-BEAD-1FF0E27889F8}" Language="SFX" Hash="3407071399">
 			<ObjectPath>\SoundBanks\CHARACTER\SURVIVOR\SVR_M16</ObjectPath>
 			<ShortName>SVR_M16</ShortName>
 			<Path>SVR_M16.bnk</Path>
 			<IncludedEvents>
-				<Event Id="662987209" Name="AudioEvent_SVR_M16_Dead" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Dead" GUID="{18DE8630-A44B-4276-AF37-5946E1B9BA10}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3876240503" Name="AudioEvent_SVR_M16_GameStart_NotControlled" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GameStart\AudioEvent_SVR_M16_GameStart_NotControlled" GUID="{A1157BA6-D069-4231-AD10-8BE9CA08E619}" MaxAttenuation="1900.000000" DurationType="Infinite">
+				<Event Id="662987209" Name="AudioEvent_SVR_M16_Dead" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Dead" GUID="{18DE8630-A44B-4276-AF37-5946E1B9BA10}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3876240503" Name="AudioEvent_SVR_M16_GameStart_NotControlled" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GameStart\AudioEvent_SVR_M16_GameStart_NotControlled" GUID="{A1157BA6-D069-4231-AD10-8BE9CA08E619}" MaxAttenuation="1900." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="1830986" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_status_running_10.wav</ShortName>
@@ -801,7 +801,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2847674200" Name="AudioEvent_SVR_M16_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Cough" GUID="{1509BB84-2A2B-44DF-8EC7-D1864FE2C476}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.399250" DurationMax="1.018771">
+				<Event Id="2847674200" Name="AudioEvent_SVR_M16_Grunt_Cough" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Cough" GUID="{1509BB84-2A2B-44DF-8EC7-D1864FE2C476}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.39925" DurationMax="1.018771">
 					<ExcludedMemoryFiles>
 						<File Id="16281995" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_cough_14.wav</ShortName>
@@ -873,7 +873,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4180625480" Name="AudioEvent_SVR_M16_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Effort_Hard" GUID="{45DB93BC-3C0E-421C-97BA-FB24FBB19279}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.291229" DurationMax="2.173208">
+				<Event Id="4180625480" Name="AudioEvent_SVR_M16_Grunt_Effort_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Effort_Hard" GUID="{45DB93BC-3C0E-421C-97BA-FB24FBB19279}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.291229" DurationMax="2.173208">
 					<ExcludedMemoryFiles>
 						<File Id="56144585" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_effort_hard_05.wav</ShortName>
@@ -953,7 +953,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2748896865" Name="AudioEvent_SVR_M16_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Effort_Light" GUID="{ABD05063-375B-41CE-8A06-8CE57FB60261}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.560313" DurationMax="1.096625">
+				<Event Id="2748896865" Name="AudioEvent_SVR_M16_Grunt_Effort_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Effort_Light" GUID="{ABD05063-375B-41CE-8A06-8CE57FB60261}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.560313" DurationMax="1.096625">
 					<ExcludedMemoryFiles>
 						<File Id="6822502" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_effort_light_16.wav</ShortName>
@@ -1029,7 +1029,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1711441183" Name="AudioEvent_SVR_M16_Grunt_Falling" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Falling" GUID="{C84AF225-22F1-4A2D-8C19-7E6D9B18A2B3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.728625" DurationMax="1.063667">
+				<Event Id="1711441183" Name="AudioEvent_SVR_M16_Grunt_Falling" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Falling" GUID="{C84AF225-22F1-4A2D-8C19-7E6D9B18A2B3}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.728625" DurationMax="1.063667">
 					<ExcludedMemoryFiles>
 						<File Id="218542176" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_falling_07.wav</ShortName>
@@ -1089,7 +1089,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3705151907" Name="AudioEvent_SVR_M16_Grunt_Hurt_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Hurt_Hard" GUID="{683FEA0C-A179-4644-A8B0-339291F03D7F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.043208" DurationMax="1.532208">
+				<Event Id="3705151907" Name="AudioEvent_SVR_M16_Grunt_Hurt_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Hurt_Hard" GUID="{683FEA0C-A179-4644-A8B0-339291F03D7F}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.043208" DurationMax="1.532208">
 					<ExcludedMemoryFiles>
 						<File Id="124078935" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_hurt_hard_13.wav</ShortName>
@@ -1145,7 +1145,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2471661608" Name="AudioEvent_SVR_M16_Grunt_Hurt_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Hurt_Light" GUID="{8EFEB871-198B-4DD5-B1EA-A95046F65364}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.393250" DurationMax="0.855750">
+				<Event Id="2471661608" Name="AudioEvent_SVR_M16_Grunt_Hurt_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Hurt_Light" GUID="{8EFEB871-198B-4DD5-B1EA-A95046F65364}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.39325" DurationMax="0.85575">
 					<ExcludedMemoryFiles>
 						<File Id="265429791" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_hurt_light_10.wav</ShortName>
@@ -1221,7 +1221,63 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="617094768" Name="AudioEvent_SVR_M16_Grunt_Hurt_Light_Wiggle" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Hurt_Light_Wiggle" GUID="{C05C1777-E9ED-4F78-9885-2D0F8EE09F07}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.393250" DurationMax="0.855750">
+				<Event Id="2555779033" Name="AudioEvent_SVR_M16_Grunt_Hurt_Light_Hooked" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Hurt_Light_Hooked" GUID="{730346B3-C665-4EF2-B1DE-ED0DFCC52F1F}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.576813" DurationMax="1.135646">
+					<ExcludedMemoryFiles>
+						<File Id="75170228" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_18.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="107342646" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_12.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="193114545" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_15.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_15_7FA8D501.wem</Path>
+						</File>
+						<File Id="256397075" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="263619070" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_08.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="450419050" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="469638572" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_16.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="528026741" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="536023804" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="591011211" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="653543568" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="670872891" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_14.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="941495716" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_17.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_land_light_17_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="617094768" Name="AudioEvent_SVR_M16_Grunt_Hurt_Light_Wiggle" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Hurt_Light_Wiggle" GUID="{C05C1777-E9ED-4F78-9885-2D0F8EE09F07}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.39325" DurationMax="0.85575">
 					<ExcludedMemoryFiles>
 						<File Id="265429791" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_hurt_light_10.wav</ShortName>
@@ -1389,7 +1445,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1310351119" Name="AudioEvent_SVR_M16_Grunt_Land_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Land_Hard" GUID="{B40EDE22-911D-492F-B78F-93368B4486F1}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.793562" DurationMax="1.313000">
+				<Event Id="1310351119" Name="AudioEvent_SVR_M16_Grunt_Land_Hard" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Land_Hard" GUID="{B40EDE22-911D-492F-B78F-93368B4486F1}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.793562" DurationMax="1.313">
 					<ExcludedMemoryFiles>
 						<File Id="59412054" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_hard_06.wav</ShortName>
@@ -1449,7 +1505,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2586990268" Name="AudioEvent_SVR_M16_Grunt_Land_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Land_Light" GUID="{53A71F70-62F0-49B4-869F-4B3A823A9E74}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.476813" DurationMax="1.035646">
+				<Event Id="2586990268" Name="AudioEvent_SVR_M16_Grunt_Land_Light" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Land_Light" GUID="{53A71F70-62F0-49B4-869F-4B3A823A9E74}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.476813" DurationMax="1.035646">
 					<ExcludedMemoryFiles>
 						<File Id="75170228" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_land_light_18.wav</ShortName>
@@ -1569,7 +1625,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1575330477" Name="AudioEvent_SVR_M16_Grunt_Scream_Hit_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Hit_Mori" GUID="{7EFFF4D7-E746-40A8-AA24-BC3142FFE416}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.695534" DurationMax="1.048687">
+				<Event Id="1575330477" Name="AudioEvent_SVR_M16_Grunt_Scream_Hit_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Hit_Mori" GUID="{7EFFF4D7-E746-40A8-AA24-BC3142FFE416}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.695534" DurationMax="1.048687">
 					<ExcludedMemoryFiles>
 						<File Id="45582967" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_hit_03.wav</ShortName>
@@ -1633,7 +1689,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3498520178" Name="AudioEvent_SVR_M16_Grunt_Scream_Long_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Long_Mori" GUID="{75DC41D0-8C5F-4FC6-A815-24DE90DD858E}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.814875" DurationMax="5.502375">
+				<Event Id="3498520178" Name="AudioEvent_SVR_M16_Grunt_Scream_Long_Mori" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Long_Mori" GUID="{75DC41D0-8C5F-4FC6-A815-24DE90DD858E}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="3.814875" DurationMax="5.502375">
 					<ExcludedMemoryFiles>
 						<File Id="3143941" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_long_06.wav</ShortName>
@@ -1661,7 +1717,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1584317678" Name="AudioEvent_SVR_M16_Grunt_Scream_Long_Mori_K28" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Long_Mori_K28" GUID="{0F5B430F-3C52-40C2-A42C-9CB88034260F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.814875" DurationMax="5.502375">
+				<Event Id="1584317678" Name="AudioEvent_SVR_M16_Grunt_Scream_Long_Mori_K28" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Long_Mori_K28" GUID="{0F5B430F-3C52-40C2-A42C-9CB88034260F}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="3.814875" DurationMax="5.502375">
 					<ExcludedMemoryFiles>
 						<File Id="3143941" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_long_06.wav</ShortName>
@@ -1745,7 +1801,39 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="506484338" Name="AudioEvent_SVR_M16_Grunt_Scream_Short" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Short" GUID="{9ABBD919-D497-4C30-B692-17A7E3F0477A}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.615208" DurationMax="0.727083">
+				<Event Id="4080499228" Name="AudioEvent_SVR_M16_Grunt_Scream_Scare" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Scare" GUID="{9ABBD919-D497-4C30-B692-17A7E3F0477A}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.615208" DurationMax="0.727083">
+					<ExcludedMemoryFiles>
+						<File Id="57559933" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_05.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_scream_scare_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="65180489" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_07.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_scream_scare_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="140140632" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_01.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_scream_scare_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="464714752" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_04.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_scream_scare_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="553803255" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_06.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_scream_scare_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="787328414" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_02.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_scream_scare_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="942266067" Language="SFX">
+							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_03.wav</ShortName>
+							<Path>SFX\Character\SVR_M16\vo_svr_m16_grunt_scream_scare_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3310535549" Name="AudioEvent_SVR_M16_Grunt_Scream_Scare_2d" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Scream_Scare_2d" GUID="{FDA0C2C5-64B8-46A5-8B31-D4E63AB25F8E}" DurationType="OneShot" DurationMin="0.615208" DurationMax="0.727083">
 					<ExcludedMemoryFiles>
 						<File Id="57559933" Language="SFX">
 							<ShortName>Character\SVR_M16\vo_svr_m16_grunt_scream_scare_05.wav</ShortName>
@@ -1821,7 +1909,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="650402162" Name="AudioEvent_SVR_M16_Grunt_Stop" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Stop" GUID="{B4D34A97-D345-461D-A4C0-4A036B63079E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="650402162" Name="AudioEvent_SVR_M16_Grunt_Stop" ObjectPath="\Events\CHARACTER\SURVIVOR\SVR_M16\SVR_M16_GRUNT\AudioEvent_SVR_M16_Grunt_Stop" GUID="{B4D34A97-D345-461D-A4C0-4A036B63079E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="1830986" Language="SFX">
@@ -3060,6 +3148,7 @@
 						<Switch Id="3328495488" Name="Dying" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dying" GUID="{87ED9576-D64C-486B-80A5-29160DA2BBC0}"/>
 						<Switch Id="1848633329" Name="Hooked_Part2" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Hooked_Part2" GUID="{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}"/>
 						<Switch Id="3200746917" Name="Choked" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Choked" GUID="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}"/>
+						<Switch Id="2044049779" Name="Dead" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dead" GUID="{85C1C061-8B93-4513-BEF2-DAD54CFF9DC0}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

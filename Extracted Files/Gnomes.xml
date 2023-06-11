@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1265364722" GUID="{24A09AEE-B6F3-45B7-A623-A90B2941F4AA}" Language="SFX" Hash="920619037">
+		<SoundBank Id="1265364722" GUID="{24A09AEE-B6F3-45B7-A623-A90B2941F4AA}" Language="SFX" Hash="1102475468">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Gnomes</ObjectPath>
 			<ShortName>Gnomes</ShortName>
 			<Path>Gnomes.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3460946774" Name="AudioEvent_Gnome_Appear" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Appear" GUID="{AECE0996-C81F-427B-9FA9-153275ADBBFD}" DurationType="OneShot" DurationMin="6.102750" DurationMax="6.463708">
+				<Event Id="3460946774" Name="AudioEvent_Gnome_Appear" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Appear" GUID="{AECE0996-C81F-427B-9FA9-153275ADBBFD}" DurationType="OneShot" DurationMin="6.10275" DurationMax="6.463708">
 					<IncludedMemoryFiles>
 						<File Id="90283642" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Gnomes\sfx_gnome_appear_vo_2d_04.wav</ShortName>
@@ -61,7 +61,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3166645413" Name="AudioEvent_Gnome_Hidden" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Hidden" GUID="{E084F9D8-B78B-4B3A-974A-7C5602A6AA9D}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.486794" DurationMax="3.367680">
+				<Event Id="3166645413" Name="AudioEvent_Gnome_Hidden" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Hidden" GUID="{E084F9D8-B78B-4B3A-974A-7C5602A6AA9D}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.486794" DurationMax="3.36768">
 					<IncludedMemoryFiles>
 						<File Id="16857577" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Gnomes\sfx_gnome_hidden_02.wav</ShortName>
@@ -77,8 +77,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="389630980" Name="AudioEvent_Gnome_Interaction_Cancel" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Cancel" GUID="{DE773552-708D-4BDE-87F2-E581C56B89F5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2961269069" Name="AudioEvent_Gnome_Interaction_Disappear" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Disappear" GUID="{CA436E31-2873-42B2-8AF7-ABA9BB082C0A}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="5.760403" DurationMax="6.194838">
+				<Event Id="389630980" Name="AudioEvent_Gnome_Interaction_Cancel" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Cancel" GUID="{DE773552-708D-4BDE-87F2-E581C56B89F5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2961269069" Name="AudioEvent_Gnome_Interaction_Disappear" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Disappear" GUID="{CA436E31-2873-42B2-8AF7-ABA9BB082C0A}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="5.760403" DurationMax="6.194838">
 					<IncludedMemoryFiles>
 						<File Id="19230585" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Gnomes\sfx_gnome_disappear_04.wav</ShortName>
@@ -102,7 +102,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="298488773" Name="AudioEvent_Gnome_Interaction_Killer_Stomp" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Killer_Stomp" GUID="{9BDF44E5-26E4-439D-A44E-7055E05A9FB0}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="3.068515" DurationMax="4.530995">
+				<Event Id="298488773" Name="AudioEvent_Gnome_Interaction_Killer_Stomp" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Killer_Stomp" GUID="{9BDF44E5-26E4-439D-A44E-7055E05A9FB0}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.068515" DurationMax="4.530995">
 					<IncludedMemoryFiles>
 						<File Id="196376671" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Gnomes\sfx_gnome_interaction_klr_impact_02.wav</ShortName>
@@ -138,7 +138,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1568502741" Name="AudioEvent_Gnome_Interaction_Survivor_Kick" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Survivor_Kick" GUID="{7552774B-E8C4-4C54-B081-4986D4F66FF9}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="3.068515" DurationMax="4.530995">
+				<Event Id="1568502741" Name="AudioEvent_Gnome_Interaction_Survivor_Kick" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_Gnome_Interaction_Survivor_Kick" GUID="{7552774B-E8C4-4C54-B081-4986D4F66FF9}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.068515" DurationMax="4.530995">
 					<IncludedMemoryFiles>
 						<File Id="106964591" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Gnomes\sfx_gnome_interaction_svr_impact_04.wav</ShortName>
@@ -174,7 +174,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2334595452" Name="AudioEvent_HUD_Received_Gnome_Charm" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_HUD_Received_Gnome_Charm" GUID="{50155F45-A700-4CCE-9926-B0BF8380E3AA}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2334595452" Name="AudioEvent_HUD_Received_Gnome_Charm" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Gnomes\AudioEvent_HUD_Received_Gnome_Charm" GUID="{50155F45-A700-4CCE-9926-B0BF8380E3AA}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="16857577" Language="SFX">

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970213" GUID="{B26C45AB-9B8B-4720-8B35-40F11F4CF28D}" Language="SFX" Hash="268559947">
+		<SoundBank Id="2215970213" GUID="{B26C45AB-9B8B-4720-8B35-40F11F4CF28D}" Language="SFX" Hash="2129246206">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_18</ObjectPath>
 			<ShortName>AMB_18</ShortName>
 			<Path>AMB_18.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}" DurationType="OneShot" DurationMin="9.000000" DurationMax="9.000000">
+				<Event Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}" DurationType="OneShot" DurationMin="9." DurationMax="9.">
 					<ExcludedMemoryFiles>
 						<File Id="471046714" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_intro.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="960301968" Name="AudioEvent_AM_T18_Basement_Killer" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Basement_Killer" GUID="{1FA2ED49-FC08-46C9-BEA6-60EA88526707}" DurationType="Infinite">
+				<Event Id="960301968" Name="AudioEvent_AM_T18_Basement_Killer" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Basement_Killer" GUID="{1FA2ED49-FC08-46C9-BEA6-60EA88526707}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815451" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
@@ -163,7 +163,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1477708546" Name="AudioEvent_Rev_Int_18_Ion_Basement" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Basement" GUID="{9DC4B769-B1FB-4589-B64C-9EBA4DB1BF8F}"/>
+						<ActionPostEventEntry Id="1477708546" Name="AudioEvent_Rev_Int_18_Ion_Basement" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Basement" GUID="{9DC4B769-B1FB-4589-B64C-9EBA4DB1BF8F}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
@@ -174,7 +174,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2681026797" Name="AudioEvent_AM_T18_Basement_Killer_Stairs" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Basement_Killer_Stairs" GUID="{299DAF11-3476-4B6C-9096-D9DFFF3CC66D}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="2681026797" Name="AudioEvent_AM_T18_Basement_Killer_Stairs" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Basement_Killer_Stairs" GUID="{299DAF11-3476-4B6C-9096-D9DFFF3CC66D}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -202,14 +202,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3033409227" Name="AudioEvent_Rev_Int_18_Ion_Shack" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Shack" GUID="{96FE6ECB-3E60-4B04-BA3F-30107BE67CFC}"/>
+						<ActionPostEventEntry Id="3033409227" Name="AudioEvent_Rev_Int_18_Ion_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Shack" GUID="{96FE6ECB-3E60-4B04-BA3F-30107BE67CFC}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1409903206" Name="AudioStateIndoor_18_Ion_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateIndoor_18_Ion\AudioStateIndoor_18_Ion_KillerBasement_Stairs" GUID="{63F11A37-A003-46A1-BCAA-156760E02A38}"/>
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1926731638" Name="AudioEvent_AM_T18_Clocktower_1F" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_1F" GUID="{F43F3DA5-4A2E-4406-8F60-0E250FD39A62}" DurationType="Infinite">
+				<Event Id="1926731638" Name="AudioEvent_AM_T18_Clocktower_1F" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_1F" GUID="{F43F3DA5-4A2E-4406-8F60-0E250FD39A62}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="36576295" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
@@ -257,7 +257,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}"/>
+						<ActionPostEventEntry Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -269,16 +269,16 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1977064367" Name="AudioEvent_AM_T18_Clocktower_2F" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_2F" GUID="{993BBC2F-4698-44BD-B40D-AD3A72C6B955}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="1977064367" Name="AudioEvent_AM_T18_Clocktower_2F" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_2F" GUID="{993BBC2F-4698-44BD-B40D-AD3A72C6B955}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}"/>
+						<ActionPostEventEntry Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 						<ActionSetStateEntry Id="3693972681" Name="AudioStateIndoor_18_Ion_Clocktower_2F" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateIndoor_18_Ion\AudioStateIndoor_18_Ion_Clocktower_2F" GUID="{E0514038-DAF7-4A8E-AB1E-321BD8493F4B}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="720905331" Name="AudioEvent_AM_T18_Clocktower_Mid" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_Mid" GUID="{2F126D4C-BE15-40F0-8266-B726205CD196}" DurationType="Infinite">
+				<Event Id="720905331" Name="AudioEvent_AM_T18_Clocktower_Mid" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Clocktower_Mid" GUID="{2F126D4C-BE15-40F0-8266-B726205CD196}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="36576295" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
@@ -326,7 +326,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="698383119" Name="AudioEvent_Rev_Int_18_Ion_Corridor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Corridor" GUID="{03FD465E-D36C-437B-BBEF-5999C0CB89C6}"/>
+						<ActionPostEventEntry Id="698383119" Name="AudioEvent_Rev_Int_18_Ion_Corridor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Corridor" GUID="{03FD465E-D36C-437B-BBEF-5999C0CB89C6}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2163943089" Name="AudioStateIndoor_18_Ion_Clocktower_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateIndoor_18_Ion\AudioStateIndoor_18_Ion_Clocktower_Mid" GUID="{C12401EF-11FB-4FBD-9D11-8C132FD28959}"/>
@@ -338,7 +338,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2140956460" Name="AudioEvent_AM_T18_Fence" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Fence" GUID="{5A6D4CBD-292D-4623-9D27-ECCA7E15BC37}" DurationType="Infinite">
+				<Event Id="2140956460" Name="AudioEvent_AM_T18_Fence" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Fence" GUID="{5A6D4CBD-292D-4623-9D27-ECCA7E15BC37}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815451" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
@@ -457,7 +457,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1747107600" Name="AudioEvent_AM_T18_Hill" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Hill" GUID="{0C012700-0698-45DB-AD14-31489D4326FD}" DurationType="Infinite">
+				<Event Id="1747107600" Name="AudioEvent_AM_T18_Hill" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Hill" GUID="{0C012700-0698-45DB-AD14-31489D4326FD}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="36576295" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
@@ -514,7 +514,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2653601348" Name="AudioEvent_AM_T18_Maze" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Maze" GUID="{939FEBB8-D045-4F3D-ABB2-DE95C9CA8855}" DurationType="Infinite">
+				<Event Id="2653601348" Name="AudioEvent_AM_T18_Maze" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Maze" GUID="{939FEBB8-D045-4F3D-ABB2-DE95C9CA8855}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="36576295" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
@@ -571,7 +571,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3317589267" Name="AudioEvent_AM_T18_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Outdoor" GUID="{0A672DF7-4C27-49F1-ABC2-2EA8B6FFAF0D}" DurationType="Infinite">
+				<Event Id="3317589267" Name="AudioEvent_AM_T18_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Outdoor" GUID="{0A672DF7-4C27-49F1-ABC2-2EA8B6FFAF0D}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="36576295" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
@@ -628,7 +628,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3891397031" Name="AudioEvent_AM_T18_Outdoor_Top" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Outdoor_Top" GUID="{B736B0A6-5CB8-45EA-B009-7F472BAB688A}" DurationType="Infinite">
+				<Event Id="3891397031" Name="AudioEvent_AM_T18_Outdoor_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Outdoor_Top" GUID="{B736B0A6-5CB8-45EA-B009-7F472BAB688A}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="36576295" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_rdm_ink_07.wav</ShortName>
@@ -685,7 +685,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3489376707" Name="AudioEvent_AM_T18_Shack" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Shack" GUID="{ACCCEC9B-042D-4BE5-9EED-75939AA14F00}" DurationType="Infinite">
+				<Event Id="3489376707" Name="AudioEvent_AM_T18_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AudioEvent_AM_T18_Shack" GUID="{ACCCEC9B-042D-4BE5-9EED-75939AA14F00}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="4419560" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_rdm_sand_06.wav</ShortName>
@@ -785,7 +785,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3033409227" Name="AudioEvent_Rev_Int_18_Ion_Shack" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Shack" GUID="{96FE6ECB-3E60-4B04-BA3F-30107BE67CFC}"/>
+						<ActionPostEventEntry Id="3033409227" Name="AudioEvent_Rev_Int_18_Ion_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Shack" GUID="{96FE6ECB-3E60-4B04-BA3F-30107BE67CFC}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="920539433" Name="AudioStateIndoor_18_Ion_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_18_Ion\AudioStateIndoor_18_Ion\AudioStateIndoor_18_Ion_Shack" GUID="{1C475DA0-9A7E-4D50-9462-C8068F7D2DFE}"/>
@@ -797,7 +797,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="982053433" Name="AudioEvent_AM_Theme_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AudioEvent_AM_Theme_18_Ion" GUID="{463439CB-FE58-493F-96D8-06CDD1AD8C2E}" DurationType="Infinite">
+				<Event Id="982053433" Name="AudioEvent_AM_Theme_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AudioEvent_AM_Theme_18_Ion" GUID="{463439CB-FE58-493F-96D8-06CDD1AD8C2E}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="237244955" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_theme_quad_01.wav</ShortName>
@@ -892,18 +892,18 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}"/>
+						<ActionPostEventEntry Id="1114999378" Name="AudioEvent_AM_Intro_18_Ion" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AudioEvent_AM_Intro_18_Ion" GUID="{A9AB0B27-F362-4E24-86B8-87DB038CBC27}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1477708546" Name="AudioEvent_Rev_Int_18_Ion_Basement" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Basement" GUID="{9DC4B769-B1FB-4589-B64C-9EBA4DB1BF8F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="698383119" Name="AudioEvent_Rev_Int_18_Ion_Corridor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Corridor" GUID="{03FD465E-D36C-437B-BBEF-5999C0CB89C6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3033409227" Name="AudioEvent_Rev_Int_18_Ion_Shack" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Shack" GUID="{96FE6ECB-3E60-4B04-BA3F-30107BE67CFC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="60726462" Name="AudioEvent_T18_Emitter_ClockTowerDrone" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_ClockTowerDrone" GUID="{2F9A3CED-F7FB-4749-B9DC-4D1A1E21903E}" MaxAttenuation="5000.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="266447965" Name="AudioEvent_T18_Emitter_Mausoleum" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_Mausoleum" GUID="{17DBD112-2BB5-4741-88FB-0BCDCEF74A4B}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="1477708546" Name="AudioEvent_Rev_Int_18_Ion_Basement" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Basement" GUID="{9DC4B769-B1FB-4589-B64C-9EBA4DB1BF8F}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1229944644" Name="AudioEvent_Rev_Int_18_Ion_ClockTower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_ClockTower" GUID="{A8DA0DAC-B2F4-48AF-B1BF-3DEB825FF38C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="698383119" Name="AudioEvent_Rev_Int_18_Ion_Corridor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Corridor" GUID="{03FD465E-D36C-437B-BBEF-5999C0CB89C6}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3033409227" Name="AudioEvent_Rev_Int_18_Ion_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_TILE\AM_Reverb_18_Ion\AudioEvent_Rev_Int_18_Ion_Shack" GUID="{96FE6ECB-3E60-4B04-BA3F-30107BE67CFC}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="60726462" Name="AudioEvent_T18_Emitter_ClockTowerDrone" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_ClockTowerDrone" GUID="{2F9A3CED-F7FB-4749-B9DC-4D1A1E21903E}" MaxAttenuation="5000." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="266447965" Name="AudioEvent_T18_Emitter_Mausoleum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_Mausoleum" GUID="{17DBD112-2BB5-4741-88FB-0BCDCEF74A4B}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="18212944" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_emt_darkvoices_03.wav</ShortName>
@@ -934,7 +934,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="326083489" Name="AudioEvent_T18_Emitter_SwarmCrows_Indoor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_SwarmCrows_Indoor" GUID="{E09D6C6B-0E0F-4200-BB89-3D2BEE9B875D}" MaxAttenuation="6400.000000" DurationType="Infinite">
+				<Event Id="326083489" Name="AudioEvent_T18_Emitter_SwarmCrows_Indoor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_SwarmCrows_Indoor" GUID="{E09D6C6B-0E0F-4200-BB89-3D2BEE9B875D}" MaxAttenuation="6400." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="1070607476" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_emt_swarncrows_indoor_03.wav</ShortName>
@@ -942,7 +942,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2173340080" Name="AudioEvent_T18_Emitter_SwarmCrows_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_SwarmCrows_Outdoor" GUID="{A2426335-18BD-461D-84C9-496748CF19CD}" MaxAttenuation="6400.000000" DurationType="Infinite">
+				<Event Id="2173340080" Name="AudioEvent_T18_Emitter_SwarmCrows_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T18_Ion\AMB_T18_EMITTER\AudioEvent_T18_Emitter_SwarmCrows_Outdoor" GUID="{A2426335-18BD-461D-84C9-496748CF19CD}" MaxAttenuation="6400." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="472455832" Language="SFX">
 							<ShortName>Ambience\Theme\T18_Ion\am_t18_ion_emt_swarmcrows_outdoor_01.wav</ShortName>

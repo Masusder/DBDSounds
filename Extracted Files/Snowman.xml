@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3259139368" GUID="{97EF1AF7-AFED-4105-A194-91B7177B0B63}" Language="SFX" Hash="2931743907">
+		<SoundBank Id="3259139368" GUID="{97EF1AF7-AFED-4105-A194-91B7177B0B63}" Language="SFX" Hash="2287831837">
 			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Snowman</ObjectPath>
 			<ShortName>Snowman</ShortName>
 			<Path>Snowman.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4114446033" Name="AudioEvent_Snowman_Destroyed" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Destroyed" GUID="{F154C169-6024-4C69-BEAE-A08EF14AEDBE}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="3.023731" DurationMax="4.767728">
+				<Event Id="4114446033" Name="AudioEvent_Snowman_Destroyed" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Destroyed" GUID="{F154C169-6024-4C69-BEAE-A08EF14AEDBE}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.023731" DurationMax="4.767728">
 					<ExcludedMemoryFiles>
 						<File Id="311456101" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Snowman\sfx_snowman_destroyed_explosion_03.wav</ShortName>
@@ -29,8 +29,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2072335358" Name="AudioEvent_Snowman_Killer_CancelInteraction" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Killer_CancelInteraction" GUID="{F0D6350A-8EB5-4E33-87B6-F6810128D62D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3113207339" Name="AudioEvent_Snowman_Shuffle" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Shuffle" GUID="{AB9A6983-425F-452F-80D4-869522FFF83F}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.860154" DurationMax="1.017807">
+				<Event Id="2072335358" Name="AudioEvent_Snowman_Killer_CancelInteraction" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Killer_CancelInteraction" GUID="{F0D6350A-8EB5-4E33-87B6-F6810128D62D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3113207339" Name="AudioEvent_Snowman_Shuffle" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Shuffle" GUID="{AB9A6983-425F-452F-80D4-869522FFF83F}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.860154" DurationMax="1.017807">
 					<ExcludedMemoryFiles>
 						<File Id="19614233" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Snowman\sfx_snowman_shuffle_06.wav</ShortName>
@@ -66,7 +66,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2162717079" Name="AudioEvent_Snowman_Shuffle_In" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Shuffle_In" GUID="{73EDEC92-D17B-4522-A029-DCACE593C2DD}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.224292" DurationMax="1.671587">
+				<Event Id="2162717079" Name="AudioEvent_Snowman_Shuffle_In" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Shuffle_In" GUID="{73EDEC92-D17B-4522-A029-DCACE593C2DD}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1.224292" DurationMax="1.671587">
 					<ExcludedMemoryFiles>
 						<File Id="372463268" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Snowman\sfx_snowman_shuffle_in_01.wav</ShortName>
@@ -86,7 +86,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3206338733" Name="AudioEvent_Snowman_Spawn" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Spawn" GUID="{B288954F-61E8-48A8-A0E1-7DBDA33D3B9B}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.803429" DurationMax="3.235954">
+				<Event Id="3206338733" Name="AudioEvent_Snowman_Spawn" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Snowman\AudioEvent_Snowman_Spawn" GUID="{B288954F-61E8-48A8-A0E1-7DBDA33D3B9B}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1.803429" DurationMax="3.235954">
 					<ExcludedMemoryFiles>
 						<File Id="143467012" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Snowman\sfx_snowman_spwan_02.wav</ShortName>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192636" GUID="{5DA09FE3-D0A7-454B-AED2-0BA2ECD52F96}" Language="SFX" Hash="1617624705">
+		<SoundBank Id="2199192636" GUID="{5DA09FE3-D0A7-454B-AED2-0BA2ECD52F96}" Language="SFX" Hash="610523969">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_06</ObjectPath>
 			<ShortName>AMB_06</ShortName>
 			<Path>AMB_06.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3526029329" Name="AudioEvent_AM_Intro_06_Swamp" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AudioEvent_AM_Intro_06_Swamp" GUID="{35CD415A-72DF-4A84-A551-BDC54B42070E}" DurationType="OneShot" DurationMin="9.670521" DurationMax="9.670521">
+				<Event Id="3526029329" Name="AudioEvent_AM_Intro_06_Swamp" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AudioEvent_AM_Intro_06_Swamp" GUID="{35CD415A-72DF-4A84-A551-BDC54B42070E}" DurationType="OneShot" DurationMin="9.670521" DurationMax="9.670521">
 					<ExcludedMemoryFiles>
 						<File Id="1021197910" Language="SFX">
 							<ShortName>Ambience\Theme\T06_Swamp\am_t06_swamp_intro.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="749894871" Name="AudioEvent_AM_T06_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_BigCabin" GUID="{F33A9164-503A-4522-9C50-4BFB73D087BD}" DurationType="Infinite">
+				<Event Id="749894871" Name="AudioEvent_AM_T06_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_BigCabin" GUID="{F33A9164-503A-4522-9C50-4BFB73D087BD}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -95,7 +95,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2918180113" Name="AudioEvent_Rev_Int_06_Swamp_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_BigCabin" GUID="{334C8F2A-88F7-4DBA-B796-F3FE0B55723B}"/>
+						<ActionPostEventEntry Id="2918180113" Name="AudioEvent_Rev_Int_06_Swamp_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_BigCabin" GUID="{334C8F2A-88F7-4DBA-B796-F3FE0B55723B}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
@@ -106,7 +106,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1960214241" Name="AudioEvent_AM_T06_Cabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Cabin" GUID="{72A09E93-30EC-4EAB-8425-FDC745573EFF}" DurationType="Infinite">
+				<Event Id="1960214241" Name="AudioEvent_AM_T06_Cabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Cabin" GUID="{72A09E93-30EC-4EAB-8425-FDC745573EFF}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -180,7 +180,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2966957751" Name="AudioEvent_Rev_Int_06_Swamp_Cabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Cabin" GUID="{E7D5B593-9F73-4B4C-BB51-9A441FBBA81C}"/>
+						<ActionPostEventEntry Id="2966957751" Name="AudioEvent_Rev_Int_06_Swamp_Cabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Cabin" GUID="{E7D5B593-9F73-4B4C-BB51-9A441FBBA81C}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -191,7 +191,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1951625655" Name="AudioEvent_AM_T06_Escape" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Escape" GUID="{1EB60FAC-0460-42DB-93B3-F55282BA01A1}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1951625655" Name="AudioEvent_AM_T06_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Escape" GUID="{1EB60FAC-0460-42DB-93B3-F55282BA01A1}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -223,7 +223,7 @@
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2664285781" Name="AudioEvent_AM_T06_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Fence_NoTree" GUID="{16C7DEDD-1C93-425D-AA0C-75FC8E742EC2}" DurationType="Infinite">
+				<Event Id="2664285781" Name="AudioEvent_AM_T06_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Fence_NoTree" GUID="{16C7DEDD-1C93-425D-AA0C-75FC8E742EC2}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -333,7 +333,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="94654356" Name="AudioEvent_AM_T06_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Fence_WithTree" GUID="{8A2FEC01-0CC1-4610-A6C5-D97C36057031}" DurationType="Infinite">
+				<Event Id="94654356" Name="AudioEvent_AM_T06_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Fence_WithTree" GUID="{8A2FEC01-0CC1-4610-A6C5-D97C36057031}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815451" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
@@ -407,7 +407,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="381125580" Name="AudioEvent_AM_T06_FerryBoat" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_FerryBoat" GUID="{ACE19F24-1912-4A7A-AC9F-50E5D29A006D}" DurationType="Infinite">
+				<Event Id="381125580" Name="AudioEvent_AM_T06_FerryBoat" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_FerryBoat" GUID="{ACE19F24-1912-4A7A-AC9F-50E5D29A006D}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -453,14 +453,14 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1571970442" Name="AudioEvent_Rev_Int_06_Swamp_FerryBoat" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_FerryBoat" GUID="{BE44F893-EFDD-4D02-A417-9DB983531FB3}"/>
+						<ActionPostEventEntry Id="1571970442" Name="AudioEvent_Rev_Int_06_Swamp_FerryBoat" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_FerryBoat" GUID="{BE44F893-EFDD-4D02-A417-9DB983531FB3}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2042991884" Name="AudioStateIndoor_06_Swamp_FerryBoat" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateIndoor_06_Swamp\AudioStateIndoor_06_Swamp_FerryBoat" GUID="{A6B77126-98B9-46C6-9CF1-E043B55493F0}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1087042384" Name="AudioEvent_AM_T06_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_High" GUID="{14E1B460-3AA5-4BE4-BCC1-1B76B7EACCC3}" DurationType="OneShot" DurationMin="0.000000" DurationMax="11.326944">
+				<Event Id="1087042384" Name="AudioEvent_AM_T06_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_High" GUID="{14E1B460-3AA5-4BE4-BCC1-1B76B7EACCC3}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
 					<ExcludedMemoryFiles>
 						<File Id="182076670" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_crow_01.wav</ShortName>
@@ -491,7 +491,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4019398010" Name="AudioEvent_AM_T06_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_Low" GUID="{24721F6A-BE25-4F27-B03F-9867B46FC410}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="4019398010" Name="AudioEvent_AM_T06_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_Low" GUID="{24721F6A-BE25-4F27-B03F-9867B46FC410}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -560,7 +560,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3381995446" Name="AudioEvent_AM_T06_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_Med" GUID="{7AC7F4F4-5B34-4BB6-AF2B-0D686554DDA9}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="3381995446" Name="AudioEvent_AM_T06_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_Med" GUID="{7AC7F4F4-5B34-4BB6-AF2B-0D686554DDA9}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -629,7 +629,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1581198895" Name="AudioEvent_AM_T06_Maze" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Maze" GUID="{4DF981F3-4047-49F8-BE04-822460C13CE3}" DurationType="Infinite">
+				<Event Id="1581198895" Name="AudioEvent_AM_T06_Maze" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Maze" GUID="{4DF981F3-4047-49F8-BE04-822460C13CE3}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -703,7 +703,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1119847171" Name="AudioEvent_Rev_Int_06_Swamp_Default" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Default" GUID="{7B6B2221-DFD6-4C2C-9A34-DFF07055057B}"/>
+						<ActionPostEventEntry Id="1119847171" Name="AudioEvent_Rev_Int_06_Swamp_Default" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Default" GUID="{7B6B2221-DFD6-4C2C-9A34-DFF07055057B}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1895593071" Name="AudioStateIndoor_06_Swamp_Maze" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateIndoor_06_Swamp\AudioStateIndoor_06_Swamp_Maze" GUID="{879A4782-0A79-402E-A980-6CD9807D839A}"/>
@@ -714,7 +714,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="424089774" Name="AudioEvent_AM_T06_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Outdoor" GUID="{AF99F0F1-1BD1-4FB4-B4D7-6BA8294A2BA5}" DurationType="OneShot" DurationMin="0.000000" DurationMax="11.326944">
+				<Event Id="424089774" Name="AudioEvent_AM_T06_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Outdoor" GUID="{AF99F0F1-1BD1-4FB4-B4D7-6BA8294A2BA5}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
 					<ExcludedMemoryFiles>
 						<File Id="182076670" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_crow_01.wav</ShortName>
@@ -745,7 +745,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1805440514" Name="AudioEvent_AM_T06_Shack" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Shack" GUID="{19EAE677-B84D-4782-901F-BF3689E2FA4E}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1805440514" Name="AudioEvent_AM_T06_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Shack" GUID="{19EAE677-B84D-4782-901F-BF3689E2FA4E}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -773,14 +773,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="67307176" Name="AudioEvent_Rev_Int_06_Swamp_Shack" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Shack" GUID="{0CB3485C-98B3-4ACF-85AD-86B962ADA8F9}"/>
+						<ActionPostEventEntry Id="67307176" Name="AudioEvent_Rev_Int_06_Swamp_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Shack" GUID="{0CB3485C-98B3-4ACF-85AD-86B962ADA8F9}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="306559042" Name="AudioStateIndoor_06_Swamp_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateIndoor_06_Swamp\AudioStateIndoor_06_Swamp_Shack" GUID="{47636E89-9318-4FEA-9A59-FEADB472433E}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3416733346" Name="AudioEvent_AM_Theme_06_Swamp" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AudioEvent_AM_Theme_06_Swamp" GUID="{977AB1E5-0295-49AB-AC26-F8BB873BEC1B}" DurationType="Infinite">
+				<Event Id="3416733346" Name="AudioEvent_AM_Theme_06_Swamp" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AudioEvent_AM_Theme_06_Swamp" GUID="{977AB1E5-0295-49AB-AC26-F8BB873BEC1B}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="118720597" Language="SFX">
 							<ShortName>Ambience\Theme\T06_Swamp\am_t06_swamp_tile_forest_low_01.wav</ShortName>
@@ -905,13 +905,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3526029329" Name="AudioEvent_AM_Intro_06_Swamp" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AudioEvent_AM_Intro_06_Swamp" GUID="{35CD415A-72DF-4A84-A551-BDC54B42070E}"/>
+						<ActionPostEventEntry Id="3526029329" Name="AudioEvent_AM_Intro_06_Swamp" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AudioEvent_AM_Intro_06_Swamp" GUID="{35CD415A-72DF-4A84-A551-BDC54B42070E}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1632763408" Name="AudioEvent_Emitter_Swamp_Tree" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_EMITTER\AudioEvent_Emitter_Swamp_Tree" GUID="{1941B5CB-4DBB-4A5C-9728-496FB4ADE082}" MaxAttenuation="2500.000000" DurationType="Infinite">
+				<Event Id="1632763408" Name="AudioEvent_Emitter_Swamp_Tree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_EMITTER\AudioEvent_Emitter_Swamp_Tree" GUID="{1941B5CB-4DBB-4A5C-9728-496FB4ADE082}" MaxAttenuation="2500." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="241926069" Language="SFX">
 							<ShortName>Ambience\Theme\T06_Swamp\am_t06_swamp_emt_slaughtertree_scream_02.wav</ShortName>
@@ -938,11 +938,11 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2918180113" Name="AudioEvent_Rev_Int_06_Swamp_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_BigCabin" GUID="{334C8F2A-88F7-4DBA-B796-F3FE0B55723B}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2966957751" Name="AudioEvent_Rev_Int_06_Swamp_Cabin" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Cabin" GUID="{E7D5B593-9F73-4B4C-BB51-9A441FBBA81C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1119847171" Name="AudioEvent_Rev_Int_06_Swamp_Default" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Default" GUID="{7B6B2221-DFD6-4C2C-9A34-DFF07055057B}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1571970442" Name="AudioEvent_Rev_Int_06_Swamp_FerryBoat" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_FerryBoat" GUID="{BE44F893-EFDD-4D02-A417-9DB983531FB3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="67307176" Name="AudioEvent_Rev_Int_06_Swamp_Shack" ObjectPath="\Events\AMBIENCE\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Shack" GUID="{0CB3485C-98B3-4ACF-85AD-86B962ADA8F9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2918180113" Name="AudioEvent_Rev_Int_06_Swamp_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_BigCabin" GUID="{334C8F2A-88F7-4DBA-B796-F3FE0B55723B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2966957751" Name="AudioEvent_Rev_Int_06_Swamp_Cabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Cabin" GUID="{E7D5B593-9F73-4B4C-BB51-9A441FBBA81C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1119847171" Name="AudioEvent_Rev_Int_06_Swamp_Default" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Default" GUID="{7B6B2221-DFD6-4C2C-9A34-DFF07055057B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1571970442" Name="AudioEvent_Rev_Int_06_Swamp_FerryBoat" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_FerryBoat" GUID="{BE44F893-EFDD-4D02-A417-9DB983531FB3}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="67307176" Name="AudioEvent_Rev_Int_06_Swamp_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_Shack" GUID="{0CB3485C-98B3-4ACF-85AD-86B962ADA8F9}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="118720597" Language="SFX">

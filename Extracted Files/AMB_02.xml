@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192632" GUID="{737A4061-EE21-41D7-A682-55F58A8BB4DC}" Language="SFX" Hash="908482374">
+		<SoundBank Id="2199192632" GUID="{737A4061-EE21-41D7-A682-55F58A8BB4DC}" Language="SFX" Hash="3272836897">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_02</ObjectPath>
 			<ShortName>AMB_02</ShortName>
 			<Path>AMB_02.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3501555617" Name="AudioEvent_AM_Intro_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AudioEvent_AM_Intro_02_Junkyard" GUID="{7E4ECD6A-7859-4D97-B736-348DBB185B6C}" DurationType="OneShot" DurationMin="9.500000" DurationMax="9.500000">
+				<Event Id="3501555617" Name="AudioEvent_AM_Intro_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AudioEvent_AM_Intro_02_Junkyard" GUID="{7E4ECD6A-7859-4D97-B736-348DBB185B6C}" DurationType="OneShot" DurationMin="9.5" DurationMax="9.5">
 					<ExcludedMemoryFiles>
 						<File Id="876796370" Language="SFX">
 							<ShortName>Ambience\Theme\T02_Junkyard\am_t02_junkyard_intro.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2413780727" Name="AudioEvent_AM_T02_BigGarage" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_BigGarage" GUID="{A0543D94-8E21-4BF5-8D21-B919169DFDBF}" DurationType="Infinite">
+				<Event Id="2413780727" Name="AudioEvent_AM_T02_BigGarage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_BigGarage" GUID="{A0543D94-8E21-4BF5-8D21-B919169DFDBF}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -87,7 +87,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="987707867" Name="AudioEvent_Rev_Int_02_Junkyard_Garage" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Garage" GUID="{60FBBB62-A8D9-4B39-A0C4-A3EDC3A9EB90}"/>
+						<ActionPostEventEntry Id="987707867" Name="AudioEvent_Rev_Int_02_Junkyard_Garage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Garage" GUID="{60FBBB62-A8D9-4B39-A0C4-A3EDC3A9EB90}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -98,34 +98,34 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2393051068" Name="AudioEvent_AM_T02_CarCrusher" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_CarCrusher" GUID="{FBEC6053-E73D-421C-A220-2D70EF4C01E0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="2393051068" Name="AudioEvent_AM_T02_CarCrusher" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_CarCrusher" GUID="{FBEC6053-E73D-421C-A220-2D70EF4C01E0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3208710230" Name="AudioEvent_Rev_Int_02_Junkyard_CarCrusher" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CarCrusher" GUID="{81308FD9-772A-4688-AFE8-1A590B9724CB}"/>
+						<ActionPostEventEntry Id="3208710230" Name="AudioEvent_Rev_Int_02_Junkyard_CarCrusher" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CarCrusher" GUID="{81308FD9-772A-4688-AFE8-1A590B9724CB}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="3893224948" Name="AudioStateIndoor_02_Junkyard_CarCrusher" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_CarCrusher" GUID="{A857A1EC-F882-49E9-B6AB-677B8B33695B}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2461594111" Name="AudioEvent_AM_T02_CraneMagnet" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_CraneMagnet" GUID="{91EE7437-596F-4E7D-8A52-720B3D90BC7F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="2461594111" Name="AudioEvent_AM_T02_CraneMagnet" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_CraneMagnet" GUID="{91EE7437-596F-4E7D-8A52-720B3D90BC7F}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="65513833" Name="AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" GUID="{D32C4B2B-6444-4B96-81FE-C1B3798F67B9}"/>
+						<ActionPostEventEntry Id="65513833" Name="AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" GUID="{D32C4B2B-6444-4B96-81FE-C1B3798F67B9}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2647062897" Name="AudioStateIndoor_02_Junkyard_Crane" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_Crane" GUID="{10767929-0AB8-4D55-95C9-48BA56EFEE3E}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="831589018" Name="AudioEvent_AM_T02_CrashedBus" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_CrashedBus" GUID="{952C6D66-FC5F-4003-BFB0-0C32CAE8A064}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="831589018" Name="AudioEvent_AM_T02_CrashedBus" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_CrashedBus" GUID="{952C6D66-FC5F-4003-BFB0-0C32CAE8A064}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3930671936" Name="AudioEvent_Rev_Int_02_Junkyard_CrashedBus" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CrashedBus" GUID="{18B58810-2BC9-49BB-9E75-DCDD4ACA6C2C}"/>
+						<ActionPostEventEntry Id="3930671936" Name="AudioEvent_Rev_Int_02_Junkyard_CrashedBus" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CrashedBus" GUID="{18B58810-2BC9-49BB-9E75-DCDD4ACA6C2C}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="2869495992" Name="AudioStateIndoor_02_Junkyard_Bus" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_Bus" GUID="{2BD2345B-831E-4720-9D37-4A4ABABC579D}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2503147275" Name="AudioEvent_AM_T02_Escape" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Escape" GUID="{41BBA4A3-4C21-4F65-A966-59AB00EFFC0F}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="2503147275" Name="AudioEvent_AM_T02_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Escape" GUID="{41BBA4A3-4C21-4F65-A966-59AB00EFFC0F}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -157,7 +157,7 @@
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3299837196" Name="AudioEvent_AM_T02_Exterior_Main" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Exterior_Main" GUID="{4A8CCB68-DB45-4EDB-A165-57EB6A565CA1}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="3299837196" Name="AudioEvent_AM_T02_Exterior_Main" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Exterior_Main" GUID="{4A8CCB68-DB45-4EDB-A165-57EB6A565CA1}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -250,7 +250,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2406220333" Name="AudioEvent_AM_T02_Fence" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Fence" GUID="{A4714ECE-AE2E-413F-A0A4-0FA418BFFFC0}" DurationType="Infinite">
+				<Event Id="2406220333" Name="AudioEvent_AM_T02_Fence" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Fence" GUID="{A4714ECE-AE2E-413F-A0A4-0FA418BFFFC0}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -360,7 +360,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1885845261" Name="AudioEvent_AM_T02_GasStation_Garage" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_GasStation_Garage" GUID="{8C533E0C-00E0-4259-8C1F-24F4122087B3}" DurationType="Infinite">
+				<Event Id="1885845261" Name="AudioEvent_AM_T02_GasStation_Garage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_GasStation_Garage" GUID="{8C533E0C-00E0-4259-8C1F-24F4122087B3}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="279334502" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_drama_woosh_03.wav</ShortName>
@@ -380,14 +380,14 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3075001615" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" GUID="{7AFE5C29-B3D5-4953-855B-575F9EAB31D4}"/>
+						<ActionPostEventEntry Id="3075001615" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" GUID="{7AFE5C29-B3D5-4953-855B-575F9EAB31D4}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 						<ActionSetStateEntry Id="4159319269" Name="AudioStateIndoor_02_Junkyard_Garage" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_Garage" GUID="{712947FA-A659-46C9-B500-A22740A40BA9}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1282401286" Name="AudioEvent_AM_T02_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_GasStation_Shop" GUID="{39BA82DB-F884-4D7C-902F-2E4758A75453}" DurationType="Infinite">
+				<Event Id="1282401286" Name="AudioEvent_AM_T02_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_GasStation_Shop" GUID="{39BA82DB-F884-4D7C-902F-2E4758A75453}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="279334502" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_drama_woosh_03.wav</ShortName>
@@ -407,14 +407,14 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1878501564" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" GUID="{B7680677-1282-48B6-98F9-E027AF690EBD}"/>
+						<ActionPostEventEntry Id="1878501564" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" GUID="{B7680677-1282-48B6-98F9-E027AF690EBD}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 						<ActionSetStateEntry Id="4159319269" Name="AudioStateIndoor_02_Junkyard_Garage" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_Garage" GUID="{712947FA-A659-46C9-B500-A22740A40BA9}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1954962510" Name="AudioEvent_AM_T02_Shack" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Shack" GUID="{31709AE7-F869-4448-843C-07090411CE3E}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1954962510" Name="AudioEvent_AM_T02_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_Shack" GUID="{31709AE7-F869-4448-843C-07090411CE3E}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -442,14 +442,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="482552024" Name="AudioEvent_Rev_Int_02_Junkyard_Shack" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Shack" GUID="{7D8478DE-B9E0-4793-BA2B-6D3FF3CFE701}"/>
+						<ActionPostEventEntry Id="482552024" Name="AudioEvent_Rev_Int_02_Junkyard_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Shack" GUID="{7D8478DE-B9E0-4793-BA2B-6D3FF3CFE701}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="974384486" Name="AudioStateIndoor_02_Junkyard_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_Shack" GUID="{48DB7EFC-4987-4537-8976-060FF53B5501}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1271791616" Name="AudioEvent_AM_T02_SmallLodge" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_SmallLodge" GUID="{A6A4FBD4-2F18-4386-BD13-FAA57AB42DB7}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1271791616" Name="AudioEvent_AM_T02_SmallLodge" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_SmallLodge" GUID="{A6A4FBD4-2F18-4386-BD13-FAA57AB42DB7}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -477,14 +477,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="181498942" Name="AudioEvent_Rev_Int_02_Junkyard_SmallLodge" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_SmallLodge" GUID="{A1C3B06A-836F-434B-AF20-8EF1366231DB}"/>
+						<ActionPostEventEntry Id="181498942" Name="AudioEvent_Rev_Int_02_Junkyard_SmallLodge" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_SmallLodge" GUID="{A1C3B06A-836F-434B-AF20-8EF1366231DB}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1654677240" Name="AudioStateIndoor_02_Junkyard_SmallLodge" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_SmallLodge" GUID="{955B5C38-4457-4874-A281-F125679E0202}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2108143507" Name="AudioEvent_AM_T02_SmallOffice" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_SmallOffice" GUID="{91126FA2-7A2F-4032-864D-C4E1ED7046F1}" DurationType="Infinite">
+				<Event Id="2108143507" Name="AudioEvent_AM_T02_SmallOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AudioEvent_AM_T02_SmallOffice" GUID="{91126FA2-7A2F-4032-864D-C4E1ED7046F1}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="279334502" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_drama_woosh_03.wav</ShortName>
@@ -504,14 +504,14 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1878501564" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" GUID="{B7680677-1282-48B6-98F9-E027AF690EBD}"/>
+						<ActionPostEventEntry Id="1878501564" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" GUID="{B7680677-1282-48B6-98F9-E027AF690EBD}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="3709065266" Name="AudioStateIndoor_02_Junkyard_Office" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_02_Junkyard\AudioStateIndoor_02_Junkyard\AudioStateIndoor_02_Junkyard_Office" GUID="{B07DD1B0-F4BB-4871-B56F-F419512B07F1}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1768332152" Name="AudioEvent_AM_Theme_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AudioEvent_AM_Theme_02_Junkyard" GUID="{FE0AFF2B-4882-45C2-B08F-48C53734C4CC}" DurationType="Infinite">
+				<Event Id="1768332152" Name="AudioEvent_AM_Theme_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AudioEvent_AM_Theme_02_Junkyard" GUID="{FE0AFF2B-4882-45C2-B08F-48C53734C4CC}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="150969545" Language="SFX">
 							<ShortName>Ambience\Theme\T02_Junkyard\am_t02_junkyard_tile_garage_01.wav</ShortName>
@@ -635,13 +635,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3501555617" Name="AudioEvent_AM_Intro_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AudioEvent_AM_Intro_02_Junkyard" GUID="{7E4ECD6A-7859-4D97-B736-348DBB185B6C}"/>
+						<ActionPostEventEntry Id="3501555617" Name="AudioEvent_AM_Intro_02_Junkyard" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AudioEvent_AM_Intro_02_Junkyard" GUID="{7E4ECD6A-7859-4D97-B736-348DBB185B6C}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2068926218" Name="AudioEvent_Emitter_DrivewaySignal" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_EMITTER\AudioEvent_Emitter_DrivewaySignal" GUID="{23CC0036-16FE-4CCD-80C1-5280AA69FFC5}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="1.974036" DurationMax="1.974036">
+				<Event Id="2068926218" Name="AudioEvent_Emitter_DrivewaySignal" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_EMITTER\AudioEvent_Emitter_DrivewaySignal" GUID="{23CC0036-16FE-4CCD-80C1-5280AA69FFC5}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1.974036" DurationMax="1.974036">
 					<ExcludedMemoryFiles>
 						<File Id="35822859" Language="SFX">
 							<ShortName>Ambience\Theme\T02_Junkyard\am_t02_junkyard_emt_drivewaysignal_ring_01.wav</ShortName>
@@ -649,15 +649,15 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3208710230" Name="AudioEvent_Rev_Int_02_Junkyard_CarCrusher" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CarCrusher" GUID="{81308FD9-772A-4688-AFE8-1A590B9724CB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="65513833" Name="AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" GUID="{D32C4B2B-6444-4B96-81FE-C1B3798F67B9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3930671936" Name="AudioEvent_Rev_Int_02_Junkyard_CrashedBus" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CrashedBus" GUID="{18B58810-2BC9-49BB-9E75-DCDD4ACA6C2C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="987707867" Name="AudioEvent_Rev_Int_02_Junkyard_Garage" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Garage" GUID="{60FBBB62-A8D9-4B39-A0C4-A3EDC3A9EB90}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3075001615" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" GUID="{7AFE5C29-B3D5-4953-855B-575F9EAB31D4}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1878501564" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" GUID="{B7680677-1282-48B6-98F9-E027AF690EBD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3635128460" Name="AudioEvent_Rev_Int_02_Junkyard_Office" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Office" GUID="{AE041627-0A84-4FA6-A250-01AEB7C2C03A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="482552024" Name="AudioEvent_Rev_Int_02_Junkyard_Shack" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Shack" GUID="{7D8478DE-B9E0-4793-BA2B-6D3FF3CFE701}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="181498942" Name="AudioEvent_Rev_Int_02_Junkyard_SmallLodge" ObjectPath="\Events\AMBIENCE\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_SmallLodge" GUID="{A1C3B06A-836F-434B-AF20-8EF1366231DB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3208710230" Name="AudioEvent_Rev_Int_02_Junkyard_CarCrusher" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CarCrusher" GUID="{81308FD9-772A-4688-AFE8-1A590B9724CB}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="65513833" Name="AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CraneMagnet" GUID="{D32C4B2B-6444-4B96-81FE-C1B3798F67B9}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3930671936" Name="AudioEvent_Rev_Int_02_Junkyard_CrashedBus" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_CrashedBus" GUID="{18B58810-2BC9-49BB-9E75-DCDD4ACA6C2C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="987707867" Name="AudioEvent_Rev_Int_02_Junkyard_Garage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Garage" GUID="{60FBBB62-A8D9-4B39-A0C4-A3EDC3A9EB90}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3075001615" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Garage" GUID="{7AFE5C29-B3D5-4953-855B-575F9EAB31D4}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1878501564" Name="AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_GasStation_Shop" GUID="{B7680677-1282-48B6-98F9-E027AF690EBD}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3635128460" Name="AudioEvent_Rev_Int_02_Junkyard_Office" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Office" GUID="{AE041627-0A84-4FA6-A250-01AEB7C2C03A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="482552024" Name="AudioEvent_Rev_Int_02_Junkyard_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_Shack" GUID="{7D8478DE-B9E0-4793-BA2B-6D3FF3CFE701}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="181498942" Name="AudioEvent_Rev_Int_02_Junkyard_SmallLodge" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T02_Junkyard\AMB_T02_TILE\AM_Reverb_02_Junkyard\AudioEvent_Rev_Int_02_Junkyard_SmallLodge" GUID="{A1C3B06A-836F-434B-AF20-8EF1366231DB}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="150969545" Language="SFX">

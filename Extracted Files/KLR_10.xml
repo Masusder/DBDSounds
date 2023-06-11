@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338094" GUID="{EA980972-8EFF-45CA-9F4D-71F5F0AB4080}" Language="SFX" Hash="4192097033">
+		<SoundBank Id="1474338094" GUID="{EA980972-8EFF-45CA-9F4D-71F5F0AB4080}" Language="SFX" Hash="2173165691">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_10</ObjectPath>
 			<ShortName>KLR_10</ShortName>
 			<Path>KLR_10.bnk</Path>
@@ -58,6 +58,11 @@
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C6A55A58-493C-4921-A35A-7A4B7296A933}">
+							<Media>
+								<File Id="919362676"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{85C1C061-8B93-4513-BEF2-DAD54CFF9DC0}">
 							<Media>
 								<File Id="919362676"/>
 							</Media>
@@ -141,7 +146,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3524532108" Name="AudioEvent_Dream_v2_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Desactivate" GUID="{88FEF80E-B20A-4844-A22D-084A61B659EC}" DurationType="OneShot" DurationMin="4.672000" DurationMax="4.672000">
+				<Event Id="3524532108" Name="AudioEvent_Dream_v2_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Desactivate" GUID="{88FEF80E-B20A-4844-A22D-084A61B659EC}" DurationType="OneShot" DurationMin="4.672" DurationMax="4.672">
 					<ExcludedMemoryFiles>
 						<File Id="55833064" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\Dream_v2_Desactivate_MixBounce.wav</ShortName>
@@ -152,7 +157,7 @@
 						<ActionSetStateEntry Id="3716403342" Name="AudioStateDream_v2_Off" ObjectPath="\States\STATES_KILLER\STATE_K10_Sandman\AudioStateDream_v2\AudioStateDream_v2_Off" GUID="{679B685C-56E7-4338-BE00-D01C70B51A8E}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1763286900" Name="AudioEvent_Dream_v2_Killer_Appear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Killer_Appear" GUID="{E6B86CCD-AF05-4D81-AEF7-028456ED813D}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.042756" DurationMax="1.313790">
+				<Event Id="1763286900" Name="AudioEvent_Dream_v2_Killer_Appear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Killer_Appear" GUID="{E6B86CCD-AF05-4D81-AEF7-028456ED813D}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.042756" DurationMax="1.31379">
 					<ExcludedMemoryFiles>
 						<File Id="9806403" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_k10_power_spawn_02.wav</ShortName>
@@ -168,7 +173,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2880464422" Name="AudioEvent_Dream_v2_Killer_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Killer_Disappear" GUID="{3C504750-7748-4CB7-883B-51C23AF2F751}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.984230" DurationMax="1.391912">
+				<Event Id="2880464422" Name="AudioEvent_Dream_v2_Killer_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Killer_Disappear" GUID="{3C504750-7748-4CB7-883B-51C23AF2F751}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.98423" DurationMax="1.391912">
 					<ExcludedMemoryFiles>
 						<File Id="9806403" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_k10_power_spawn_02.wav</ShortName>
@@ -224,7 +229,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3680587226" Name="AudioEvent_Dream_v2_Pallets_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Pallets_Charge_Cancel" GUID="{0AD14785-0E2A-4D5B-A384-A77109B3108A}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.883810" DurationMax="0.883810">
+				<Event Id="3680587226" Name="AudioEvent_Dream_v2_Pallets_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Pallets_Charge_Cancel" GUID="{0AD14785-0E2A-4D5B-A384-A77109B3108A}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.88381" DurationMax="0.88381">
 					<ExcludedMemoryFiles>
 						<File Id="291087668" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_killer_10_power_hand_stop_01.wav</ShortName>
@@ -232,7 +237,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2072414720" Name="AudioEvent_Dream_v2_Pallets_Charge_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Pallets_Charge_Start" GUID="{EA1A0304-4C4C-431C-9C5A-EE8A5ECC4F79}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.192676" DurationMax="1.192676">
+				<Event Id="2072414720" Name="AudioEvent_Dream_v2_Pallets_Charge_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Pallets_Charge_Start" GUID="{EA1A0304-4C4C-431C-9C5A-EE8A5ECC4F79}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.192676" DurationMax="1.192676">
 					<ExcludedMemoryFiles>
 						<File Id="433691539" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_killer_10_power_hand_stop_02.wav</ShortName>
@@ -252,7 +257,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="273567476" Name="AudioEvent_Dream_v2_Snare_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Snare_Charge_Cancel" GUID="{FF9D6B93-C38C-4340-9F8F-13CCDB0B268A}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.515105" DurationMax="1.346954">
+				<Event Id="273567476" Name="AudioEvent_Dream_v2_Snare_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Snare_Charge_Cancel" GUID="{FF9D6B93-C38C-4340-9F8F-13CCDB0B268A}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.515105" DurationMax="1.346954">
 					<ExcludedMemoryFiles>
 						<File Id="148553473" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_killer_10_power_hand_start_01.wav</ShortName>
@@ -268,7 +273,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2100019138" Name="AudioEvent_Dream_v2_Snare_Charge_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Snare_Charge_Start" GUID="{431C77EF-BE0B-4DD5-90B4-3109AA787267}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.205333" DurationMax="1.205333">
+				<Event Id="2100019138" Name="AudioEvent_Dream_v2_Snare_Charge_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Snare_Charge_Start" GUID="{431C77EF-BE0B-4DD5-90B4-3109AA787267}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.205333" DurationMax="1.205333">
 					<ExcludedMemoryFiles>
 						<File Id="742389175" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\Dream_v2_Snare_Charge_Start_MixBounce.wav</ShortName>
@@ -279,7 +284,7 @@
 						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1226018669" Name="AudioEvent_Dream_v2_Snare_Set" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Snare_Set" GUID="{BBE4B5AC-78D8-4765-BEA3-0B26FA732150}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
+				<Event Id="1226018669" Name="AudioEvent_Dream_v2_Snare_Set" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Snare_Set" GUID="{BBE4B5AC-78D8-4765-BEA3-0B26FA732150}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
 				<Event Id="590982384" Name="AudioEvent_Dream_v2_Snare_Survivor_Trigger" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Snare_Survivor_Trigger" GUID="{5F8E1059-0569-4B9B-B737-83A1CF24BC94}" DurationType="OneShot" DurationMin="3.146104" DurationMax="3.146104">
 					<ExcludedMemoryFiles>
 						<File Id="927781181" Language="SFX">
@@ -288,7 +293,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="514193121" Name="AudioEvent_Dream_v2_Survivor_Appear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Survivor_Appear" GUID="{CC62ADEB-5A26-4D4A-81DA-E1E195E3D71C}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.104761" DurationMax="1.240052">
+				<Event Id="514193121" Name="AudioEvent_Dream_v2_Survivor_Appear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Survivor_Appear" GUID="{CC62ADEB-5A26-4D4A-81DA-E1E195E3D71C}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.104761" DurationMax="1.240052">
 					<ExcludedMemoryFiles>
 						<File Id="9806403" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_k10_power_spawn_02.wav</ShortName>
@@ -304,7 +309,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="97531509" Name="AudioEvent_Dream_v2_Survivor_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Survivor_Disappear" GUID="{28B335F8-F3F5-4322-B012-620F1DF0016F}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.104761" DurationMax="1.240052">
+				<Event Id="97531509" Name="AudioEvent_Dream_v2_Survivor_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Survivor_Disappear" GUID="{28B335F8-F3F5-4322-B012-620F1DF0016F}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.104761" DurationMax="1.240052">
 					<ExcludedMemoryFiles>
 						<File Id="9806403" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_k10_power_spawn_02.wav</ShortName>
@@ -320,7 +325,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2754692076" Name="AudioEvent_Dream_v2_Teleport_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Teleport_Charge_Cancel" GUID="{BA3BB7F2-D08B-49F8-9A86-8E58EB782D20}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.883810" DurationMax="0.883810">
+				<Event Id="2754692076" Name="AudioEvent_Dream_v2_Teleport_Charge_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_POWER\AudioEvent_Dream_v2_Teleport_Charge_Cancel" GUID="{BA3BB7F2-D08B-49F8-9A86-8E58EB782D20}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.88381" DurationMax="0.88381">
 					<ExcludedMemoryFiles>
 						<File Id="291087668" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_killer_10_power_hand_stop_01.wav</ShortName>
@@ -392,7 +397,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="247327397" Name="AudioEvent_DreamClock_BubbleIn" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_BubbleIn" GUID="{2B1C044E-341D-47F2-9B8E-BA63E7C098EF}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.846089" DurationMax="1.235909">
+				<Event Id="247327397" Name="AudioEvent_DreamClock_BubbleIn" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_BubbleIn" GUID="{2B1C044E-341D-47F2-9B8E-BA63E7C098EF}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.846089" DurationMax="1.235909">
 					<ExcludedMemoryFiles>
 						<File Id="39222859" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_dreamclock_bubble_04.wav</ShortName>
@@ -416,7 +421,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="102389700" Name="AudioEvent_DreamClock_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Cancel" GUID="{A3FB12D6-8403-4295-87BE-6D42BDBF3F09}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.768458" DurationMax="0.931792">
+				<Event Id="102389700" Name="AudioEvent_DreamClock_Cancel" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Cancel" GUID="{A3FB12D6-8403-4295-87BE-6D42BDBF3F09}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.768458" DurationMax="0.931792">
 					<ExcludedMemoryFiles>
 						<File Id="92462486" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_dreamclock_pull_02.wav</ShortName>
@@ -440,7 +445,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="750858852" Name="AudioEvent_DreamClock_Grab" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Grab" GUID="{84AC2F8E-98CF-45B9-8C54-0CB332B0AE00}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.768458" DurationMax="0.931792">
+				<Event Id="750858852" Name="AudioEvent_DreamClock_Grab" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Grab" GUID="{84AC2F8E-98CF-45B9-8C54-0CB332B0AE00}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.768458" DurationMax="0.931792">
 					<ExcludedMemoryFiles>
 						<File Id="92462486" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_dreamclock_pull_02.wav</ShortName>
@@ -464,7 +469,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2979823260" Name="AudioEvent_DreamClock_Ring_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Ring_Loop_Start" GUID="{87B00FF9-0B19-4EA4-8E55-737FB4F6E688}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="2979823260" Name="AudioEvent_DreamClock_Ring_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Ring_Loop_Start" GUID="{87B00FF9-0B19-4EA4-8E55-737FB4F6E688}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="196693635" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_dreamclock_ringing_loop.wav</ShortName>
@@ -472,8 +477,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1792434288" Name="AudioEvent_DreamClock_Ring_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Ring_Loop_Stop" GUID="{B9B153F9-0EB7-4CE5-AAE6-5A95904E858D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="218719303" Name="AudioEvent_DreamClock_Tick_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Tick_Loop_Start" GUID="{32CDEC37-2D3C-4D10-8199-3E4B49922727}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="1792434288" Name="AudioEvent_DreamClock_Ring_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Ring_Loop_Stop" GUID="{B9B153F9-0EB7-4CE5-AAE6-5A95904E858D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="218719303" Name="AudioEvent_DreamClock_Tick_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Tick_Loop_Start" GUID="{32CDEC37-2D3C-4D10-8199-3E4B49922727}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="981600948" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_dreamclock_ticking_loop.wav</ShortName>
@@ -481,8 +486,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="258034925" Name="AudioEvent_DreamClock_Tick_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Tick_Loop_Stop" GUID="{0C6CD615-4020-48AF-A76C-85DDA7F33443}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2525957762" Name="AudioEvent_DreamClock_WakeUpSuccess" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_WakeUpSuccess" GUID="{565A9BC6-3BAC-4675-9B18-FFAF9FE56C4E}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.213917" DurationMax="1.235125">
+				<Event Id="258034925" Name="AudioEvent_DreamClock_Tick_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Tick_Loop_Stop" GUID="{0C6CD615-4020-48AF-A76C-85DDA7F33443}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2525957762" Name="AudioEvent_DreamClock_WakeUpSuccess" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_WakeUpSuccess" GUID="{565A9BC6-3BAC-4675-9B18-FFAF9FE56C4E}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.213917" DurationMax="1.235125">
 					<ExcludedMemoryFiles>
 						<File Id="534296015" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_dreamclock_wakeup_02.wav</ShortName>
@@ -497,7 +502,7 @@
 						<ActionPostEventEntry Id="1792434288" Name="AudioEvent_DreamClock_Ring_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamWaker\AudioEvent_DreamClock_Ring_Loop_Stop" GUID="{B9B153F9-0EB7-4CE5-AAE6-5A95904E858D}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="514273322" Name="AudioEvent_DreamPallet_Destroy" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamPallet\AudioEvent_DreamPallet_Destroy" GUID="{658F8DDB-47F2-43B9-8BB3-E176F60122BF}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.500000" DurationMax="2.500000">
+				<Event Id="514273322" Name="AudioEvent_DreamPallet_Destroy" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamPallet\AudioEvent_DreamPallet_Destroy" GUID="{658F8DDB-47F2-43B9-8BB3-E176F60122BF}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
 					<ExcludedMemoryFiles>
 						<File Id="690671574" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_dreampallet_destroy_02.wav</ShortName>
@@ -513,7 +518,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2877203580" Name="AudioEvent_DreamPallet_Set" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamPallet\AudioEvent_DreamPallet_Set" GUID="{15E74659-1ECD-4091-8697-55091C6823BB}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="1.347969" DurationMax="1.455543">
+				<Event Id="2877203580" Name="AudioEvent_DreamPallet_Set" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamPallet\AudioEvent_DreamPallet_Set" GUID="{15E74659-1ECD-4091-8697-55091C6823BB}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.347969" DurationMax="1.455543">
 					<ExcludedMemoryFiles>
 						<File Id="127407541" Language="SFX">
 							<ShortName>Character\KLR_10\Dream\sfx_DreamPallet_Set_02.wav</ShortName>
@@ -545,7 +550,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="355098826" Name="AudioEvent_DreamSnare_Spawn" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamSnare\AudioEvent_DreamSnare_Spawn" GUID="{D1CCFA62-9A8F-4FF9-98F5-EC869ECBEFFB}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="355098826" Name="AudioEvent_DreamSnare_Spawn" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_OBJECT\DreamSnare\AudioEvent_DreamSnare_Spawn" GUID="{D1CCFA62-9A8F-4FF9-98F5-EC869ECBEFFB}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="85613793" Language="SFX">
 							<ShortName>Object\Obj_Killer\DreamSnare\sfx_dreamsnare_bloodmovement_05.wav</ShortName>
@@ -632,12 +637,12 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4148854191" Name="AudioEvent_K10_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_Land" GUID="{DB4A5C3C-DEF5-4915-AA9E-BBE753FE69F6}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000">
+				<Event Id="4148854191" Name="AudioEvent_K10_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_Land" GUID="{DB4A5C3C-DEF5-4915-AA9E-BBE753FE69F6}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1768624039" Name="AudioEvent_K10_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_Move" GUID="{F40D9640-BE30-4A7E-8770-79DA96A70E73}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
+				<Event Id="1768624039" Name="AudioEvent_K10_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_Move" GUID="{F40D9640-BE30-4A7E-8770-79DA96A70E73}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
 					<ExcludedMemoryFiles>
 						<File Id="164770349" Language="SFX">
 							<ShortName>Character\KLR_10\sfx_k10_bodymove_default_04.wav</ShortName>
@@ -681,9 +686,9 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4158511899" Name="AudioEvent_K10_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_ShuffleHigh" GUID="{E10FC624-86CF-4119-8C74-3AD8E3EE2338}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
-				<Event Id="2897976031" Name="AudioEvent_K10_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_ShuffleLow" GUID="{353B19BC-C35C-4F87-89A4-8FE2EB6BB69C}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.001000" DurationMax="0.001000"/>
-				<Event Id="3825645179" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Arm" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Arm" GUID="{E302EAA3-8B58-4159-97D2-4B2F648E52E0}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.487322" DurationMax="0.853843">
+				<Event Id="4158511899" Name="AudioEvent_K10_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_ShuffleHigh" GUID="{E10FC624-86CF-4119-8C74-3AD8E3EE2338}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
+				<Event Id="2897976031" Name="AudioEvent_K10_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_CLOTH\AudioEvent_K10_CLOTH_Default_ShuffleLow" GUID="{353B19BC-C35C-4F87-89A4-8FE2EB6BB69C}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
+				<Event Id="3825645179" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Arm" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Arm" GUID="{E302EAA3-8B58-4159-97D2-4B2F648E52E0}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.487322" DurationMax="0.853843">
 					<ExcludedMemoryFiles>
 						<File Id="192771169" Language="SFX">
 							<ShortName>Character\KLR_10\Weapon\sfx_killer_10_weapon_arm_03.wav</ShortName>
@@ -702,7 +707,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2162752355" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Attack" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Attack" GUID="{BA7BE07A-5EF7-46A5-AFF7-7A35FD7ECDE8}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.729250" DurationMax="1.000563">
+				<Event Id="2162752355" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Attack" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Attack" GUID="{BA7BE07A-5EF7-46A5-AFF7-7A35FD7ECDE8}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.72925" DurationMax="1.000563">
 					<ExcludedMemoryFiles>
 						<File Id="94030651" Language="SFX">
 							<ShortName>Character\KLR_05\Weapon\ClawedGlove_Attack_Bounce_08.wav</ShortName>
@@ -741,7 +746,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3450319150" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Clean" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Clean" GUID="{B5BB0994-C816-45E2-91F6-3EBAB18E8FA9}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.708732" DurationMax="0.876198">
+				<Event Id="3450319150" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Clean" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Clean" GUID="{B5BB0994-C816-45E2-91F6-3EBAB18E8FA9}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.708732" DurationMax="0.876198">
 					<ExcludedMemoryFiles>
 						<File Id="30351068" Language="SFX">
 							<ShortName>Character\KLR_10\Weapon\ClawedGlove\sfx_clawedglove_idle_01.wav</ShortName>
@@ -764,7 +769,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3683098929" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Impact" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Impact" GUID="{15C9603E-9B27-4648-A4D5-2F67E58E1F47}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.394667" DurationMax="1.000000">
+				<Event Id="3683098929" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Impact" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Impact" GUID="{15C9603E-9B27-4648-A4D5-2F67E58E1F47}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.394667" DurationMax="1.">
 					<ExcludedMemoryFiles>
 						<File Id="315028550" Language="SFX">
 							<ShortName>Character\KLR_10\Weapon\ClawedGlove\sfx_clawedglove_impact_01.wav</ShortName>
@@ -948,12 +953,71 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3887635714" Name="AudioEvent_K10_WPN_Default_ClawedGlove_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_PullOut" GUID="{92F6E656-13AB-461A-A7F6-DBF30208750C}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="1038307130" Name="AudioEvent_K10_WPN_Default_ClawedGlove_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_Impact_Survivor" GUID="{74135A16-EB4F-454B-BCAB-90D83504243F}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
+					<ExcludedMemoryFiles>
+						<File Id="199602399" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_08.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="227782780" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_09.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="251345265" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_04.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_04_67368C31.wem</Path>
+						</File>
+						<File Id="286185922" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_03.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_03_67368C31.wem</Path>
+						</File>
+						<File Id="301119717" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_01.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="402790911" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_01.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_01_67368C31.wem</Path>
+						</File>
+						<File Id="443597301" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_07.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="514655077" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_10.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="578695436" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_02.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_02_67368C31.wem</Path>
+						</File>
+						<File Id="721685072" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_04.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="767922082" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_06.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="860485565" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_03.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="960499802" Language="SFX">
+							<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_02.wav</ShortName>
+							<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="162549109" Name="AudioEvent_Killer_Sandman_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_GRUNT\AudioEvent_Killer_Sandman_Grunt_Hurt" GUID="{8ECA1BC5-BD6F-40E0-8547-B24CA817D443}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.837625" DurationMax="2.062625">
+				<Event Id="3887635714" Name="AudioEvent_K10_WPN_Default_ClawedGlove_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_WEAPON\AudioEvent_K10_WPN_Default_ClawedGlove_PullOut" GUID="{92F6E656-13AB-461A-A7F6-DBF30208750C}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="162549109" Name="AudioEvent_Killer_Sandman_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_GRUNT\AudioEvent_Killer_Sandman_Grunt_Hurt" GUID="{8ECA1BC5-BD6F-40E0-8547-B24CA817D443}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.837625" DurationMax="2.062625">
 					<ExcludedMemoryFiles>
 						<File Id="69303202" Language="SFX">
 							<ShortName>Character\KLR_10\vo_killer_sandman_grunt_hurt_04.wav</ShortName>
@@ -980,7 +1044,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="189816856" Name="AudioEvent_Killer_Sandman_Husk_Appearing" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Husk_Appearing" GUID="{0377A37A-4369-4E80-80E3-B9DE4AE050CB}" MaxAttenuation="1700.000000" DurationType="OneShot" DurationMin="2.843750" DurationMax="2.843750">
+				<Event Id="189816856" Name="AudioEvent_Killer_Sandman_Husk_Appearing" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Husk_Appearing" GUID="{0377A37A-4369-4E80-80E3-B9DE4AE050CB}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.84375" DurationMax="2.84375">
 					<ExcludedMemoryFiles>
 						<File Id="246289681" Language="SFX">
 							<ShortName>Character\KLR_10\sfx_killer_10_husk_appearing.wav</ShortName>
@@ -991,7 +1055,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3305795809" Name="AudioEvent_Killer_Sandman_Idle" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Idle" GUID="{1D4ABC66-F888-4B84-9B9D-8156E783F9C9}" MaxAttenuation="450.000000" DurationType="OneShot" DurationMin="0.708732" DurationMax="0.876198">
+				<Event Id="3305795809" Name="AudioEvent_Killer_Sandman_Idle" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Idle" GUID="{1D4ABC66-F888-4B84-9B9D-8156E783F9C9}" MaxAttenuation="450." DurationType="OneShot" DurationMin="0.708732" DurationMax="0.876198">
 					<ExcludedMemoryFiles>
 						<File Id="401288293" Language="SFX">
 							<ShortName>Character\KLR_10\Weapon\sfx_killer_10_weapon_idle_02.wav</ShortName>
@@ -1014,7 +1078,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="463448889" Name="AudioEvent_Killer_Sandman_Idle_Menu" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_STATUS\AudioEvent_Killer_Sandman_Idle_Menu" GUID="{F343C98E-B238-40E2-908C-7B9D0BF3A198}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.331893" DurationMax="0.858703">
+				<Event Id="463448889" Name="AudioEvent_Killer_Sandman_Idle_Menu" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_STATUS\AudioEvent_Killer_Sandman_Idle_Menu" GUID="{F343C98E-B238-40E2-908C-7B9D0BF3A198}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.331893" DurationMax="0.858703">
 					<ReferencedStreamedFiles>
 						<File Id="161650005" Language="SFX">
 							<ShortName>Character\KLR_10\Weapon\sfx_killer_10_weapon_idle_menu_02.wav</ShortName>
@@ -1057,7 +1121,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2790808610" Name="AudioEvent_Killer_Sandman_Weapon_Locker" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Weapon_Locker" GUID="{EF1B5545-3641-4529-BD02-32714EF48019}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="0.565333" DurationMax="0.672000">
+				<Event Id="2790808610" Name="AudioEvent_Killer_Sandman_Weapon_Locker" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Weapon_Locker" GUID="{EF1B5545-3641-4529-BD02-32714EF48019}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.565333" DurationMax="0.672">
 					<ExcludedMemoryFiles>
 						<File Id="36712572" Language="SFX">
 							<ShortName>Character\KLR_10\Weapon\Sandman_Weapon_Locker_Bounce_03.wav</ShortName>
@@ -1076,7 +1140,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2275066486" Name="AudioEvent_Killer_Sandman_Weapon_Miss" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Weapon_Miss" GUID="{52F8A9FA-FB03-40FC-BA5A-EE96E76E16EB}" MaxAttenuation="850.000000" DurationType="OneShot" DurationMin="2.768163" DurationMax="2.768163">
+				<Event Id="2275066486" Name="AudioEvent_Killer_Sandman_Weapon_Miss" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_SPECIFIC\AudioEvent_Killer_Sandman_Weapon_Miss" GUID="{52F8A9FA-FB03-40FC-BA5A-EE96E76E16EB}" MaxAttenuation="850." DurationType="OneShot" DurationMin="2.768163" DurationMax="2.768163">
 					<ExcludedMemoryFiles>
 						<File Id="158045301" Language="SFX">
 							<ShortName>Character\KLR_10\Weapon\sfx_killer_10_weapon_miss_02.wav</ShortName>
@@ -1115,7 +1179,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="1798481751" Name="AudioEvent_KLR_10_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_STATUS\AudioEvent_KLR_10_Status_Start" GUID="{A7391E2A-B2E0-47ED-8AF2-681D08F9D3E0}" MaxAttenuation="1900.000000" DurationType="Infinite">
+				<Event Id="1798481751" Name="AudioEvent_KLR_10_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K10_Sandman\K10_STATUS\AudioEvent_KLR_10_Status_Start" GUID="{A7391E2A-B2E0-47ED-8AF2-681D08F9D3E0}" MaxAttenuation="1900." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="26405389" Language="SFX">
 							<ShortName>Character\KLR_10\vo_killer_sandman_crazy_03.wav</ShortName>
@@ -1295,6 +1359,10 @@
 					<ShortName>Character\KLR_10\Dream\sfx_dreamclock_ringing_loop.wav</ShortName>
 					<Path>SFX\Character\KLR_10\Dream\sfx_dreamclock_ringing_loop_0BC91DCF.wem</Path>
 				</File>
+				<File Id="199602399" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_08.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="216135393" Language="SFX">
 					<ShortName>Character\KLR_10\Dream\sfx_dreamclock_pull_04.wav</ShortName>
 					<Path>SFX\Character\KLR_10\Dream\sfx_dreamclock_pull_04_64DEB7A1.wem</Path>
@@ -1302,6 +1370,10 @@
 				<File Id="218878933" Language="SFX">
 					<ShortName>Character\KLR_10\vo_killer_sandman_breath_01.wav</ShortName>
 					<Path>SFX\Character\KLR_10\vo_killer_sandman_breath_01_3B1153AC.wem</Path>
+				</File>
+				<File Id="227782780" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_09.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="229890980" Language="SFX">
 					<ShortName>Character\KLR_10\vo_killer_sandman_breath_06.wav</ShortName>
@@ -1342,6 +1414,10 @@
 				<File Id="298857000" Language="SFX">
 					<ShortName>Object\Obj_Killer\DreamSnare\sfx_dreamsnare_spawn_loop_Bounce_01.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\DreamSnare\sfx_dreamsnare_spawn_loop_Bounce_01_0BC91DCF.wem</Path>
+				</File>
+				<File Id="301119717" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_01.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="303032474" Language="SFX">
 					<ShortName>Character\KLR_10\vo_killer_sandman_grunt_hurt_05.wav</ShortName>
@@ -1419,6 +1495,10 @@
 					<ShortName>Character\KLR_10\sfx_k10_bodymove_default_03.wav</ShortName>
 					<Path>SFX\Character\KLR_10\sfx_k10_bodymove_default_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="443597301" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_07.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="446903206" Language="SFX">
 					<ShortName>Character\KLR_10\Dream\sfx_killer_10_power_appear_01.wav</ShortName>
 					<Path>SFX\Character\KLR_10\Dream\sfx_killer_10_power_appear_01_67368C31.wem</Path>
@@ -1450,6 +1530,10 @@
 				<File Id="513850203" Language="SFX">
 					<ShortName>Character\KLR_10\vo_killer_sandman_tag_02.wav</ShortName>
 					<Path>SFX\Character\KLR_10\vo_killer_sandman_tag_02_67368C31.wem</Path>
+				</File>
+				<File Id="514655077" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_10.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="532273122" Language="SFX">
 					<ShortName>Object\Obj_Killer\DreamSnare\sfx_dreamsnare_bloodmovement_02.wav</ShortName>
@@ -1555,6 +1639,10 @@
 					<ShortName>Character\KLR_10\vo_killer_sandman_crazy_01.wav</ShortName>
 					<Path>SFX\Character\KLR_10\vo_killer_sandman_crazy_01_67368C31.wem</Path>
 				</File>
+				<File Id="721685072" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_04.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="733558329" Language="SFX">
 					<ShortName>Character\KLR_10\sfx_k10_bodymove_default_02.wav</ShortName>
 					<Path>SFX\Character\KLR_10\sfx_k10_bodymove_default_02_7FA8D501.wem</Path>
@@ -1566,6 +1654,10 @@
 				<File Id="742389175" Language="SFX">
 					<ShortName>Character\KLR_10\Dream\Dream_v2_Snare_Charge_Start_MixBounce.wav</ShortName>
 					<Path>SFX\Character\KLR_10\Dream\Dream_v2_Snare_Charge_Start_MixBounce_67368C31.wem</Path>
+				</File>
+				<File Id="767922082" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_06.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="772311456" Language="SFX">
 					<ShortName>Character\KLR_10\Weapon\ClawedGlove\sfx_clawedglove_idle_02.wav</ShortName>
@@ -1623,6 +1715,10 @@
 					<ShortName>Character\KLR_10\Dream\sfx_killer_10_power_tag_01.wav</ShortName>
 					<Path>SFX\Character\KLR_10\Dream\sfx_killer_10_power_tag_01_67368C31.wem</Path>
 				</File>
+				<File Id="860485565" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_03.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="887619019" Language="SFX">
 					<ShortName>Character\KLR_10\Dream\sfx_dreampallet_destroy_01.wav</ShortName>
 					<Path>SFX\Character\KLR_10\Dream\sfx_dreampallet_destroy_01_67368C31.wem</Path>
@@ -1670,6 +1766,10 @@
 				<File Id="958637810" Language="SFX">
 					<ShortName>Character\KLR_10\Dream\sfx_dreamsnare_triggered_scream_03.wav</ShortName>
 					<Path>SFX\Character\KLR_10\Dream\sfx_dreamsnare_triggered_scream_03_2E241A12.wem</Path>
+				</File>
+				<File Id="960499802" Language="SFX">
+					<ShortName>Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_02.wav</ShortName>
+					<Path>SFX\Character\KLR_10\Weapon\sfx_k10_wpn_default_impact_survivor_cut_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="967525606" Language="SFX">
 					<ShortName>Object\Obj_Killer\DreamSnare\sfx_dreamsnare_bloodmovement_06.wav</ShortName>
@@ -1795,6 +1895,7 @@
 						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Leaves" GUID="{6F4878BC-2C2D-4042-BC8E-03B16078145B}"/>
 						<Switch Id="3598975185" Name="HardWood" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\HardWood" GUID="{425080A3-52A3-4900-B570-E5014B94C732}"/>
 						<Switch Id="1968058251" Name="Ceramic" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Ceramic" GUID="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}"/>
+						<Switch Id="2063536503" Name="Mannequin" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Mannequin" GUID="{8279CE4B-BBF1-451B-AD23-36B443858ECC}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2003718045" Name="AudioSwitchStatesSurvivor" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor" GUID="{A172B188-385A-4B2F-9B5B-01C1D0763E22}">
@@ -1808,6 +1909,7 @@
 						<Switch Id="3328495488" Name="Dying" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dying" GUID="{87ED9576-D64C-486B-80A5-29160DA2BBC0}"/>
 						<Switch Id="1848633329" Name="Hooked_Part2" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Hooked_Part2" GUID="{474E2D86-48C4-4A2B-B5ED-A2D234E85A86}"/>
 						<Switch Id="3200746917" Name="Choked" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Choked" GUID="{1C4E6EB1-25A8-4755-BDBA-D8E79CCFD3CE}"/>
+						<Switch Id="2044049779" Name="Dead" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchStatesSurvivor\Dead" GUID="{85C1C061-8B93-4513-BEF2-DAD54CFF9DC0}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

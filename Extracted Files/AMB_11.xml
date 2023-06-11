@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970220" GUID="{25829AFC-E638-4D7F-830F-9ECFE0238F32}" Language="SFX" Hash="57576465">
+		<SoundBank Id="2215970220" GUID="{25829AFC-E638-4D7F-830F-9ECFE0238F32}" Language="SFX" Hash="894148330">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_11</ObjectPath>
 			<ShortName>AMB_11</ShortName>
 			<Path>AMB_11.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1278981703" Name="AudioEvent_AM_T11_Escape" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Escape" GUID="{2331DA91-4B08-42B1-A72E-4E2594549785}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1278981703" Name="AudioEvent_AM_T11_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Escape" GUID="{2331DA91-4B08-42B1-A72E-4E2594549785}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -45,7 +45,7 @@
 						<ActionSetStateEntry Id="3959476925" Name="AudioStateOutdoor_11_Tutorial_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_Low" GUID="{9DA059D9-53F5-4DC6-B690-CED440CA6F5D}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2008763077" Name="AudioEvent_AM_T11_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Fence_NoTree" GUID="{D76C18E4-FF74-4462-BAFB-A3A950C1E373}" DurationType="Infinite">
+				<Event Id="2008763077" Name="AudioEvent_AM_T11_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Fence_NoTree" GUID="{D76C18E4-FF74-4462-BAFB-A3A950C1E373}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -155,7 +155,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3162259268" Name="AudioEvent_AM_T11_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Fence_WithTree" GUID="{30ABE2C1-26AA-4070-9AEA-D1839DCFD1ED}" DurationType="Infinite">
+				<Event Id="3162259268" Name="AudioEvent_AM_T11_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Fence_WithTree" GUID="{30ABE2C1-26AA-4070-9AEA-D1839DCFD1ED}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815451" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
@@ -229,7 +229,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2460706176" Name="AudioEvent_AM_T11_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_High" GUID="{BD391A05-EBC0-41FE-86E4-CDF717F2EF69}" DurationType="OneShot" DurationMin="0.000000" DurationMax="11.326944">
+				<Event Id="2460706176" Name="AudioEvent_AM_T11_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_High" GUID="{BD391A05-EBC0-41FE-86E4-CDF717F2EF69}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
 					<ExcludedMemoryFiles>
 						<File Id="182076670" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_crow_01.wav</ShortName>
@@ -260,7 +260,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1949156074" Name="AudioEvent_AM_T11_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_Low" GUID="{AE7CD03E-4D03-40D6-8E7A-588087CB26AD}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="1949156074" Name="AudioEvent_AM_T11_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_Low" GUID="{AE7CD03E-4D03-40D6-8E7A-588087CB26AD}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -329,7 +329,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2385521222" Name="AudioEvent_AM_T11_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_Med" GUID="{AB890FB4-422D-4985-B41F-4CAD3BB401AE}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="2385521222" Name="AudioEvent_AM_T11_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_Med" GUID="{AB890FB4-422D-4985-B41F-4CAD3BB401AE}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -398,7 +398,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="198774482" Name="AudioEvent_AM_T11_Shack" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Shack" GUID="{C7B32F3B-ADCC-4960-B9F3-9D84F79E7EA1}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="198774482" Name="AudioEvent_AM_T11_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Shack" GUID="{C7B32F3B-ADCC-4960-B9F3-9D84F79E7EA1}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -426,14 +426,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2100992856" Name="AudioEvent_Rev_Int_11_Tutorial_Shack" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Reverb_11_Tutorial\AudioEvent_Rev_Int_11_Tutorial_Shack" GUID="{96C33306-183E-41A8-9424-7DF88FE84657}"/>
+						<ActionPostEventEntry Id="2100992856" Name="AudioEvent_Rev_Int_11_Tutorial_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Reverb_11_Tutorial\AudioEvent_Rev_Int_11_Tutorial_Shack" GUID="{96C33306-183E-41A8-9424-7DF88FE84657}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1373116370" Name="AudioStateIndoor_11_Tutorial_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateIndoor_11_Tutorial\AudioStateIndoor_11_Tutorial_Shack" GUID="{543645DC-91BA-451A-8A3B-91CB516C667A}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1887706219" Name="AudioEvent_AM_Theme_11_GYM" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AudioEvent_AM_Theme_11_GYM" GUID="{FBD19279-0AAC-4F7B-8EE2-8A92CAAED707}" DurationType="Infinite">
+				<Event Id="1887706219" Name="AudioEvent_AM_Theme_11_GYM" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AudioEvent_AM_Theme_11_GYM" GUID="{FBD19279-0AAC-4F7B-8EE2-8A92CAAED707}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="8175262" Language="SFX">
 							<ShortName>Ambience\Theme\T11_Tutorial\am_t11_tutorial_tile_forest_med_01.wav</ShortName>
@@ -504,7 +504,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4204114908" Name="AudioEvent_AM_Tutorial_Yard" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AudioEvent_AM_Tutorial_Yard" GUID="{9924C4E1-FF3A-4C81-B015-27C30BE1420B}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="4204114908" Name="AudioEvent_AM_Tutorial_Yard" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AudioEvent_AM_Tutorial_Yard" GUID="{9924C4E1-FF3A-4C81-B015-27C30BE1420B}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -597,7 +597,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2100992856" Name="AudioEvent_Rev_Int_11_Tutorial_Shack" ObjectPath="\Events\AMBIENCE\AMB_T11_Tutorial\AMB_T11_TILE\AM_Reverb_11_Tutorial\AudioEvent_Rev_Int_11_Tutorial_Shack" GUID="{96C33306-183E-41A8-9424-7DF88FE84657}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2100992856" Name="AudioEvent_Rev_Int_11_Tutorial_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Reverb_11_Tutorial\AudioEvent_Rev_Int_11_Tutorial_Shack" GUID="{96C33306-183E-41A8-9424-7DF88FE84657}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="8175262" Language="SFX">

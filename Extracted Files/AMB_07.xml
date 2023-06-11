@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192637" GUID="{9DAB0741-E4E0-4557-B6BC-3743E249BE3E}" Language="SFX" Hash="249570354">
+		<SoundBank Id="2199192637" GUID="{9DAB0741-E4E0-4557-B6BC-3743E249BE3E}" Language="SFX" Hash="900142042">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_07</ObjectPath>
 			<ShortName>AMB_07</ShortName>
 			<Path>AMB_07.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3075821226" Name="AudioEvent_AM_Hospital_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_Bathroom" GUID="{9C62FE4F-269C-42BB-BB7B-E37B6CDFE609}" DurationType="Infinite">
+				<Event Id="3075821226" Name="AudioEvent_AM_Hospital_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_Bathroom" GUID="{9C62FE4F-269C-42BB-BB7B-E37B6CDFE609}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -187,7 +187,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="69790371" Name="AudioEvent_Rev_Int_07_Hospital_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Bathroom" GUID="{F2B6F074-7D3C-4A1C-A421-FA6F3A0E686E}"/>
+						<ActionPostEventEntry Id="69790371" Name="AudioEvent_Rev_Int_07_Hospital_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Bathroom" GUID="{F2B6F074-7D3C-4A1C-A421-FA6F3A0E686E}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
@@ -199,7 +199,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2431272288" Name="AudioEvent_AM_Hospital_BedRoom" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_BedRoom" GUID="{CB12BCEA-EABD-4856-9715-8A598F131C18}" DurationType="Infinite">
+				<Event Id="2431272288" Name="AudioEvent_AM_Hospital_BedRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_BedRoom" GUID="{CB12BCEA-EABD-4856-9715-8A598F131C18}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -341,7 +341,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="4063539355" Name="AudioEvent_Rev_Int_07_Hospital_OtherRooms" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_OtherRooms" GUID="{895B020F-08C3-44B6-B9D3-3F12AE3934ED}"/>
+						<ActionPostEventEntry Id="4063539355" Name="AudioEvent_Rev_Int_07_Hospital_OtherRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_OtherRooms" GUID="{895B020F-08C3-44B6-B9D3-3F12AE3934ED}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="14953167" Name="AudioStateIndoor_07_Hospital_StandardRroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_StandardRroom" GUID="{FA364713-75CB-4131-9A70-21FE3E83292E}"/>
@@ -353,7 +353,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3163958153" Name="AudioEvent_AM_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_Corridors" GUID="{53F1B4E1-4C47-48A4-ABDE-9BAE0E35CBFD}" DurationType="Infinite">
+				<Event Id="3163958153" Name="AudioEvent_AM_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_Corridors" GUID="{53F1B4E1-4C47-48A4-ABDE-9BAE0E35CBFD}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -515,7 +515,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}"/>
+						<ActionPostEventEntry Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1335811036" Name="AudioStateIndoor_07_Hospital_Corridors" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_Corridors" GUID="{512217E2-7173-45E2-9806-5F5B496E93A9}"/>
@@ -527,7 +527,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1651566045" Name="AudioEvent_AM_Hospital_DoctorOffice" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_DoctorOffice" GUID="{8C87BE9D-5EC0-4F37-B0E8-D2F9C3B91162}" DurationType="Infinite">
+				<Event Id="1651566045" Name="AudioEvent_AM_Hospital_DoctorOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_DoctorOffice" GUID="{8C87BE9D-5EC0-4F37-B0E8-D2F9C3B91162}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -573,14 +573,14 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1884509936" Name="AudioEvent_Rev_Int_07_Hospital_DoctorOffice" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_DoctorOffice" GUID="{F23A226D-D81A-44F6-9D4D-8D1D86558233}"/>
+						<ActionPostEventEntry Id="1884509936" Name="AudioEvent_Rev_Int_07_Hospital_DoctorOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_DoctorOffice" GUID="{F23A226D-D81A-44F6-9D4D-8D1D86558233}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="14953167" Name="AudioStateIndoor_07_Hospital_StandardRroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_StandardRroom" GUID="{FA364713-75CB-4131-9A70-21FE3E83292E}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1804141844" Name="AudioEvent_AM_Hospital_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_Outdoor" GUID="{CBF2F0D8-6E6A-457F-81E0-1ABDE0396B20}" DurationType="Infinite">
+				<Event Id="1804141844" Name="AudioEvent_AM_Hospital_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_Outdoor" GUID="{CBF2F0D8-6E6A-457F-81E0-1ABDE0396B20}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -630,7 +630,7 @@
 						<ActionSetStateEntry Id="1634794016" Name="AudioStateOutdoor_07_Hospital_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateOutdoor_07_Hospital\AudioStateOutdoor_07_Hospital_Outdoor" GUID="{BB97F02D-4B4A-4BB9-BDAF-BFF2D1589980}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1550565021" Name="AudioEvent_AM_Hospital_ShockRoom_Center" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_ShockRoom_Center" GUID="{16416FAF-315E-4EA5-9247-340874E08D43}" DurationType="Infinite">
+				<Event Id="1550565021" Name="AudioEvent_AM_Hospital_ShockRoom_Center" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_ShockRoom_Center" GUID="{16416FAF-315E-4EA5-9247-340874E08D43}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -700,7 +700,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}"/>
+						<ActionPostEventEntry Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="47491554" Name="AudioStateIndoor_07_Hospital_Shockroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_Shockroom" GUID="{BF6EA214-D8D1-4250-A3D1-CB71223DDC29}"/>
@@ -711,7 +711,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2156442168" Name="AudioEvent_AM_Hospital_ShockRoom_Surround" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_ShockRoom_Surround" GUID="{F43C8617-45A3-4A9D-9E3B-3BBE8CCF95CA}" DurationType="Infinite">
+				<Event Id="2156442168" Name="AudioEvent_AM_Hospital_ShockRoom_Surround" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_ShockRoom_Surround" GUID="{F43C8617-45A3-4A9D-9E3B-3BBE8CCF95CA}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -761,7 +761,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}"/>
+						<ActionPostEventEntry Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="47491554" Name="AudioStateIndoor_07_Hospital_Shockroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_Shockroom" GUID="{BF6EA214-D8D1-4250-A3D1-CB71223DDC29}"/>
@@ -772,7 +772,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="533832824" Name="AudioEvent_AM_Hospital_WaitingRoom" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_WaitingRoom" GUID="{622AE788-174B-46FF-A2FA-86F74E32B586}" DurationType="Infinite">
+				<Event Id="533832824" Name="AudioEvent_AM_Hospital_WaitingRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_WaitingRoom" GUID="{622AE788-174B-46FF-A2FA-86F74E32B586}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -914,7 +914,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="4063539355" Name="AudioEvent_Rev_Int_07_Hospital_OtherRooms" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_OtherRooms" GUID="{895B020F-08C3-44B6-B9D3-3F12AE3934ED}"/>
+						<ActionPostEventEntry Id="4063539355" Name="AudioEvent_Rev_Int_07_Hospital_OtherRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_OtherRooms" GUID="{895B020F-08C3-44B6-B9D3-3F12AE3934ED}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="14953167" Name="AudioStateIndoor_07_Hospital_StandardRroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_StandardRroom" GUID="{FA364713-75CB-4131-9A70-21FE3E83292E}"/>
@@ -926,7 +926,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3995876026" Name="AudioEvent_AM_Intro_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AudioEvent_AM_Intro_07_Hospital" GUID="{2B7FA682-EC32-4EC0-B86D-56ABFD35D906}" DurationType="OneShot" DurationMin="8.832854" DurationMax="8.832854">
+				<Event Id="3995876026" Name="AudioEvent_AM_Intro_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AudioEvent_AM_Intro_07_Hospital" GUID="{2B7FA682-EC32-4EC0-B86D-56ABFD35D906}" DurationType="OneShot" DurationMin="8.832854" DurationMax="8.832854">
 					<ExcludedMemoryFiles>
 						<File Id="423447118" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_intro.wav</ShortName>
@@ -934,7 +934,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3667375140" Name="AudioEvent_AM_T07_Escape" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Escape" GUID="{D440965D-CA1D-48DA-B444-F99DDA78A352}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="3667375140" Name="AudioEvent_AM_T07_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Escape" GUID="{D440965D-CA1D-48DA-B444-F99DDA78A352}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -966,7 +966,7 @@
 						<ActionSetStateEntry Id="3456844892" Name="AudioStateOutdoor_07_Hospital_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateOutdoor_07_Hospital\AudioStateOutdoor_07_Hospital_Forest_Low" GUID="{58646E2B-02A9-4664-ABCB-8F24C0B72AF6}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3909894118" Name="AudioEvent_AM_T07_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Fence_NoTree" GUID="{17FA12E6-307A-400C-9FB5-BCC5F1AF4E85}" DurationType="Infinite">
+				<Event Id="3909894118" Name="AudioEvent_AM_T07_Fence_NoTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Fence_NoTree" GUID="{17FA12E6-307A-400C-9FB5-BCC5F1AF4E85}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -1076,7 +1076,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3679173167" Name="AudioEvent_AM_T07_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Fence_WithTree" GUID="{AEAC1325-96AC-40D4-9D9E-0461A663DB6D}" DurationType="Infinite">
+				<Event Id="3679173167" Name="AudioEvent_AM_T07_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Fence_WithTree" GUID="{AEAC1325-96AC-40D4-9D9E-0461A663DB6D}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="35815451" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_limitpoint_voice_05.wav</ShortName>
@@ -1150,7 +1150,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3834001469" Name="AudioEvent_AM_T07_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_High" GUID="{69D8BA88-E00E-461D-93D8-48D3D5A16752}" DurationType="OneShot" DurationMin="0.000000" DurationMax="11.326944">
+				<Event Id="3834001469" Name="AudioEvent_AM_T07_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_High" GUID="{69D8BA88-E00E-461D-93D8-48D3D5A16752}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
 					<ExcludedMemoryFiles>
 						<File Id="182076670" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_crow_01.wav</ShortName>
@@ -1181,7 +1181,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3608220425" Name="AudioEvent_AM_T07_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_Low" GUID="{6B19C6A9-8D44-4E4A-968D-BA2905F57571}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="3608220425" Name="AudioEvent_AM_T07_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_Low" GUID="{6B19C6A9-8D44-4E4A-968D-BA2905F57571}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -1250,7 +1250,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4044291505" Name="AudioEvent_AM_T07_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_Med" GUID="{83C7B122-DC0F-4870-AF06-EEE05A26F6C2}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="4044291505" Name="AudioEvent_AM_T07_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_Med" GUID="{83C7B122-DC0F-4870-AF06-EEE05A26F6C2}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -1319,7 +1319,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="235456795" Name="AudioEvent_AM_T07_Shack" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Shack" GUID="{DF60BD34-3CA2-4F54-8F6C-D828F5AED9B5}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="235456795" Name="AudioEvent_AM_T07_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Shack" GUID="{DF60BD34-3CA2-4F54-8F6C-D828F5AED9B5}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -1347,14 +1347,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3432615875" Name="AudioEvent_Rev_Int_07_Hospital_Shack" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Shack" GUID="{9953C948-3727-476A-8DBC-6861CE5FB8AD}"/>
+						<ActionPostEventEntry Id="3432615875" Name="AudioEvent_Rev_Int_07_Hospital_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Shack" GUID="{9953C948-3727-476A-8DBC-6861CE5FB8AD}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="3264187945" Name="AudioStateIndoor_07_Hospital_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_Shack" GUID="{4A2EE2BB-52CA-441A-8D65-1D4DAA286D41}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2857131247" Name="AudioEvent_AM_Theme_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AudioEvent_AM_Theme_07_Hospital" GUID="{06C99C52-B9B0-44BE-80B7-226432C3F6E1}" DurationType="Infinite">
+				<Event Id="2857131247" Name="AudioEvent_AM_Theme_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AudioEvent_AM_Theme_07_Hospital" GUID="{06C99C52-B9B0-44BE-80B7-226432C3F6E1}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="154477990" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_tile_forest_low_01.wav</ShortName>
@@ -1500,13 +1500,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3995876026" Name="AudioEvent_AM_Intro_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AudioEvent_AM_Intro_07_Hospital" GUID="{2B7FA682-EC32-4EC0-B86D-56ABFD35D906}"/>
+						<ActionPostEventEntry Id="3995876026" Name="AudioEvent_AM_Intro_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AudioEvent_AM_Intro_07_Hospital" GUID="{2B7FA682-EC32-4EC0-B86D-56ABFD35D906}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3615930555" Name="AudioEvent_Emitter_Electric_TeslaCoil" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_Electric_TeslaCoil" GUID="{B018C926-22E9-49EB-88E9-D5F8388D1771}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="3615930555" Name="AudioEvent_Emitter_Electric_TeslaCoil" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_Electric_TeslaCoil" GUID="{B018C926-22E9-49EB-88E9-D5F8388D1771}" MaxAttenuation="1700." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="879748575" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_electrical_tesla_coil_loop_01.wav</ShortName>
@@ -1514,7 +1514,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="2103638265" Name="AudioEvent_Emitter_Hos_Computer_Ventilation" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_Hos_Computer_Ventilation" GUID="{5F2DDCE3-B581-4266-845D-5803072D065E}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="2103638265" Name="AudioEvent_Emitter_Hos_Computer_Ventilation" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_Hos_Computer_Ventilation" GUID="{5F2DDCE3-B581-4266-845D-5803072D065E}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="10990713" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_computer_loop_03.wav</ShortName>
@@ -1530,7 +1530,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2508628814" Name="AudioEvent_Emitter_Hos_Computer_Vintage" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_Hos_Computer_Vintage" GUID="{B2969008-7940-4004-8D5A-147D0467106E}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="2508628814" Name="AudioEvent_Emitter_Hos_Computer_Vintage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_Hos_Computer_Vintage" GUID="{B2969008-7940-4004-8D5A-147D0467106E}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="411754872" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_computer_vintage_random_B_02.wav</ShortName>
@@ -1546,7 +1546,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3864319499" Name="AudioEvent_Emitter_VendingMachine_Broken" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_VendingMachine_Broken" GUID="{167F17C7-1E7A-4E33-A99D-2EEEDF662660}" MaxAttenuation="450.000000" DurationType="Infinite">
+				<Event Id="3864319499" Name="AudioEvent_Emitter_VendingMachine_Broken" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_VendingMachine_Broken" GUID="{167F17C7-1E7A-4E33-A99D-2EEEDF662660}" MaxAttenuation="450." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="738173088" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_vendingmachine_broken_loop_01.wav</ShortName>
@@ -1554,7 +1554,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="2181170211" Name="AudioEvent_Emitter_XRayViewer_Broken" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_XRayViewer_Broken" GUID="{76DE7B96-1B4B-415B-B340-6707A3DAA987}" MaxAttenuation="450.000000" DurationType="Infinite">
+				<Event Id="2181170211" Name="AudioEvent_Emitter_XRayViewer_Broken" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_XRayViewer_Broken" GUID="{76DE7B96-1B4B-415B-B340-6707A3DAA987}" MaxAttenuation="450." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="784077012" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_xrayviewer_broken_loop_01.wav</ShortName>
@@ -1562,12 +1562,12 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="69790371" Name="AudioEvent_Rev_Int_07_Hospital_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Bathroom" GUID="{F2B6F074-7D3C-4A1C-A421-FA6F3A0E686E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1884509936" Name="AudioEvent_Rev_Int_07_Hospital_DoctorOffice" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_DoctorOffice" GUID="{F23A226D-D81A-44F6-9D4D-8D1D86558233}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4063539355" Name="AudioEvent_Rev_Int_07_Hospital_OtherRooms" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_OtherRooms" GUID="{895B020F-08C3-44B6-B9D3-3F12AE3934ED}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3432615875" Name="AudioEvent_Rev_Int_07_Hospital_Shack" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Shack" GUID="{9953C948-3727-476A-8DBC-6861CE5FB8AD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3347429737" Name="AudioEvent_T07_Emitter_DrainGurgle" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_T07_Emitter_DrainGurgle" GUID="{181A7D4D-C908-47CA-918C-E69DC4882830}" MaxAttenuation="850.000000" DurationType="Infinite">
+				<Event Id="69790371" Name="AudioEvent_Rev_Int_07_Hospital_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Bathroom" GUID="{F2B6F074-7D3C-4A1C-A421-FA6F3A0E686E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2803233686" Name="AudioEvent_Rev_Int_07_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Corridors" GUID="{2847BA5F-FC68-4EF9-BF3F-BB35863527B0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1884509936" Name="AudioEvent_Rev_Int_07_Hospital_DoctorOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_DoctorOffice" GUID="{F23A226D-D81A-44F6-9D4D-8D1D86558233}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4063539355" Name="AudioEvent_Rev_Int_07_Hospital_OtherRooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_OtherRooms" GUID="{895B020F-08C3-44B6-B9D3-3F12AE3934ED}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3432615875" Name="AudioEvent_Rev_Int_07_Hospital_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Reverb_07_Hospital\AudioEvent_Rev_Int_07_Hospital_Shack" GUID="{9953C948-3727-476A-8DBC-6861CE5FB8AD}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3347429737" Name="AudioEvent_T07_Emitter_DrainGurgle" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_T07_Emitter_DrainGurgle" GUID="{181A7D4D-C908-47CA-918C-E69DC4882830}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="526891257" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_drain_gurgle_loop_01.wav</ShortName>
@@ -1583,7 +1583,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="254977798" Name="AudioEvent_T07_Emitter_ShowerDrip" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_T07_Emitter_ShowerDrip" GUID="{DCFDBA32-9F23-4610-98F5-7996E3201887}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="254977798" Name="AudioEvent_T07_Emitter_ShowerDrip" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_T07_Emitter_ShowerDrip" GUID="{DCFDBA32-9F23-4610-98F5-7996E3201887}" MaxAttenuation="1700." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="663595525" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_showerdripping_loop_01.wav</ShortName>
@@ -1594,7 +1594,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3485814705" Name="AudioEvent_T07_Emitter_WaterPipes" ObjectPath="\Events\AMBIENCE\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_T07_Emitter_WaterPipes" GUID="{383A8215-41BC-4172-AD44-27531C52FEAC}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="3485814705" Name="AudioEvent_T07_Emitter_WaterPipes" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_T07_Emitter_WaterPipes" GUID="{383A8215-41BC-4172-AD44-27531C52FEAC}" MaxAttenuation="1700." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="770320987" Language="SFX">
 							<ShortName>Ambience\Theme\T07_Hospital\am_t07_hospital_emt_waterpipes_loop_03.wav</ShortName>

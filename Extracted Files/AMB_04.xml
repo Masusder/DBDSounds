@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192638" GUID="{95254806-2C30-4167-BAD6-7FD004D1810B}" Language="SFX" Hash="679649616">
+		<SoundBank Id="2199192638" GUID="{95254806-2C30-4167-BAD6-7FD004D1810B}" Language="SFX" Hash="2288564920">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_04</ObjectPath>
 			<ShortName>AMB_04</ShortName>
 			<Path>AMB_04.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1672866908" Name="AudioEvent_AM_Intro_04_Asylum" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AudioEvent_AM_Intro_04_Asylum" GUID="{72F8CB50-4D4C-4412-AFC5-26CB275C877D}" DurationType="OneShot" DurationMin="8.134833" DurationMax="8.134833">
+				<Event Id="1672866908" Name="AudioEvent_AM_Intro_04_Asylum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AudioEvent_AM_Intro_04_Asylum" GUID="{72F8CB50-4D4C-4412-AFC5-26CB275C877D}" DurationType="OneShot" DurationMin="8.134833" DurationMax="8.134833">
 					<ExcludedMemoryFiles>
 						<File Id="234451404" Language="SFX">
 							<ShortName>Ambience\Theme\T04_Asylum\am_t04_asylum_intro.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="599126131" Name="AudioEvent_AM_T04_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Asylum_GreenHouse" GUID="{43B577E1-12C3-47F6-ADE1-21FC6CDB4612}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="599126131" Name="AudioEvent_AM_T04_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Asylum_GreenHouse" GUID="{43B577E1-12C3-47F6-ADE1-21FC6CDB4612}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -49,14 +49,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="162082946" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" GUID="{8484269A-6CDA-4B70-9E30-2BE26D482502}"/>
+						<ActionPostEventEntry Id="162082946" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" GUID="{8484269A-6CDA-4B70-9E30-2BE26D482502}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3125614155" Name="AudioEvent_AM_T04_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Asylum_Main" GUID="{773907FB-43FA-4F83-877D-72B049D2C826}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="3125614155" Name="AudioEvent_AM_T04_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Asylum_Main" GUID="{773907FB-43FA-4F83-877D-72B049D2C826}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -84,14 +84,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2439959066" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Main" GUID="{3E769E77-C475-4FF5-ACDA-D4B34EA820D3}"/>
+						<ActionPostEventEntry Id="2439959066" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Main" GUID="{3E769E77-C475-4FF5-ACDA-D4B34EA820D3}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1205573389" Name="AudioEvent_AM_T04_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Asylum_Top" GUID="{F1CE835E-B773-416E-AE31-73FA6DB925A5}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1205573389" Name="AudioEvent_AM_T04_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Asylum_Top" GUID="{F1CE835E-B773-416E-AE31-73FA6DB925A5}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -119,23 +119,23 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3265197610" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Top" GUID="{28F62CAD-DEB2-42C5-B27A-64A50F015E77}"/>
+						<ActionPostEventEntry Id="3265197610" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Top" GUID="{28F62CAD-DEB2-42C5-B27A-64A50F015E77}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2426644160" Name="AudioStateIndoor_04_Asylum_AsylumBuilding" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_AsylumBuilding" GUID="{AAA61EDF-B938-4846-BEFE-FA8DDF8EBCDE}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2699436330" Name="AudioEvent_AM_T04_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_CarnivalWagon" GUID="{15832881-A15F-43B0-BB78-9C26F05B0697}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="2699436330" Name="AudioEvent_AM_T04_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_CarnivalWagon" GUID="{15832881-A15F-43B0-BB78-9C26F05B0697}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2314917271" Name="AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" GUID="{D255543C-7F33-4DCD-8F66-0148322F546F}"/>
+						<ActionPostEventEntry Id="2314917271" Name="AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" GUID="{D255543C-7F33-4DCD-8F66-0148322F546F}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="773994993" Name="AudioStateIndoor_04_Asylum_CarnivalWagon" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_CarnivalWagon" GUID="{EAACC13A-87D1-439B-BE9D-F682C259B786}"/>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2750826901" Name="AudioEvent_AM_T04_Chapel" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Chapel" GUID="{A5E0E250-A833-4418-82A3-399ADD5E004C}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="2750826901" Name="AudioEvent_AM_T04_Chapel" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_Chapel" GUID="{A5E0E250-A833-4418-82A3-399ADD5E004C}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -163,14 +163,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="529366350" Name="AudioEvent_Rev_Int_04_Asylum_Chapel" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Chapel" GUID="{48585EB9-1452-4EB6-84A9-0C60D8F23874}"/>
+						<ActionPostEventEntry Id="529366350" Name="AudioEvent_Rev_Int_04_Asylum_Chapel" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Chapel" GUID="{48585EB9-1452-4EB6-84A9-0C60D8F23874}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="1975983144" Name="AudioStateIndoor_04_Asylum_Chapel" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Chapel" GUID="{2F2880FB-48F6-47CD-AFFD-5E7AD331E68E}"/>
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1501183549" Name="AudioEvent_AM_T04_Escape" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Escape" GUID="{FDDAA154-3C0E-4BF3-A656-5B60957EF1A6}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1501183549" Name="AudioEvent_AM_T04_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Escape" GUID="{FDDAA154-3C0E-4BF3-A656-5B60957EF1A6}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -202,7 +202,7 @@
 						<ActionSetStateEntry Id="3229683470" Name="AudioStateOutdoor_04_Asylum_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateOutdoor_04_Asylum\AudioStateOutdoor_04_Asylum_Forest_Low" GUID="{1942C84A-88DE-4F1E-A8EA-833F47BA6914}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1887227677" Name="AudioEvent_AM_T04_ExteriorMain" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_ExteriorMain" GUID="{F942AE57-0375-4999-A40D-1D9388F55B25}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="1887227677" Name="AudioEvent_AM_T04_ExteriorMain" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AudioEvent_AM_T04_ExteriorMain" GUID="{F942AE57-0375-4999-A40D-1D9388F55B25}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -295,7 +295,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3215549847" Name="AudioEvent_AM_T04_Fence" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Fence" GUID="{5FA8B8D9-1822-43AB-AE45-8521D3AFB49C}" DurationType="Infinite">
+				<Event Id="3215549847" Name="AudioEvent_AM_T04_Fence" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Fence" GUID="{5FA8B8D9-1822-43AB-AE45-8521D3AFB49C}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -405,7 +405,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3662027288" Name="AudioEvent_AM_T04_Shack" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Shack" GUID="{D6AADBA8-1EAE-489E-8A35-A4CC3EB76F18}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="3662027288" Name="AudioEvent_AM_T04_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Tile_04_Common_WIP\AudioEvent_AM_T04_Shack" GUID="{D6AADBA8-1EAE-489E-8A35-A4CC3EB76F18}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -433,14 +433,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1442068973" Name="AudioEvent_Rev_Int_04_Asylum_Shack" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Shack" GUID="{51AC78F9-9F5B-464B-91A5-BF759872F2DC}"/>
+						<ActionPostEventEntry Id="1442068973" Name="AudioEvent_Rev_Int_04_Asylum_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Shack" GUID="{51AC78F9-9F5B-464B-91A5-BF759872F2DC}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="3200683547" Name="AudioStateIndoor_04_Asylum_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_Shack" GUID="{AAE70F16-F248-4A22-8D07-27813AFB5BBD}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2846124933" Name="AudioEvent_AM_Theme_04_Asylum" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AudioEvent_AM_Theme_04_Asylum" GUID="{4F3D860A-4707-45A0-B7AD-E9A9882DEDA4}" DurationType="Infinite">
+				<Event Id="2846124933" Name="AudioEvent_AM_Theme_04_Asylum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AudioEvent_AM_Theme_04_Asylum" GUID="{4F3D860A-4707-45A0-B7AD-E9A9882DEDA4}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="37729726" Language="SFX">
 							<ShortName>Ambience\Theme\T04_Asylum\am_t04_asylum_tile_asylum_01.wav</ShortName>
@@ -538,13 +538,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1672866908" Name="AudioEvent_AM_Intro_04_Asylum" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AudioEvent_AM_Intro_04_Asylum" GUID="{72F8CB50-4D4C-4412-AFC5-26CB275C877D}"/>
+						<ActionPostEventEntry Id="1672866908" Name="AudioEvent_AM_Intro_04_Asylum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AudioEvent_AM_Intro_04_Asylum" GUID="{72F8CB50-4D4C-4412-AFC5-26CB275C877D}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="245486570" Name="AudioEvent_Emitter_Asylum" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_EMITTER\AudioEvent_Emitter_Asylum" GUID="{31B9F94E-6C09-405F-B500-5A33C08BE052}" MaxAttenuation="1700.000000" DurationType="Infinite">
+				<Event Id="245486570" Name="AudioEvent_Emitter_Asylum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_EMITTER\AudioEvent_Emitter_Asylum" GUID="{31B9F94E-6C09-405F-B500-5A33C08BE052}" MaxAttenuation="1700." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="515903441" Language="SFX">
 							<ShortName>Ambience\Theme\T04_Asylum\am_t04_asylum_emt_top_01.wav</ShortName>
@@ -555,12 +555,12 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="162082946" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" GUID="{8484269A-6CDA-4B70-9E30-2BE26D482502}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2439959066" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Main" GUID="{3E769E77-C475-4FF5-ACDA-D4B34EA820D3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3265197610" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Top" GUID="{28F62CAD-DEB2-42C5-B27A-64A50F015E77}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2314917271" Name="AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" GUID="{D255543C-7F33-4DCD-8F66-0148322F546F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="529366350" Name="AudioEvent_Rev_Int_04_Asylum_Chapel" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Chapel" GUID="{48585EB9-1452-4EB6-84A9-0C60D8F23874}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1442068973" Name="AudioEvent_Rev_Int_04_Asylum_Shack" ObjectPath="\Events\AMBIENCE\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Shack" GUID="{51AC78F9-9F5B-464B-91A5-BF759872F2DC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="162082946" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_GreenHouse" GUID="{8484269A-6CDA-4B70-9E30-2BE26D482502}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2439959066" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Main" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Main" GUID="{3E769E77-C475-4FF5-ACDA-D4B34EA820D3}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3265197610" Name="AudioEvent_Rev_Int_04_Asylum_Asylum_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Asylum_Top" GUID="{28F62CAD-DEB2-42C5-B27A-64A50F015E77}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2314917271" Name="AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_CarnivalWagon" GUID="{D255543C-7F33-4DCD-8F66-0148322F546F}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="529366350" Name="AudioEvent_Rev_Int_04_Asylum_Chapel" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Chapel" GUID="{48585EB9-1452-4EB6-84A9-0C60D8F23874}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1442068973" Name="AudioEvent_Rev_Int_04_Asylum_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T04_Asylum\AMB_T04_TILE\AM_Reverb_04_Asylum\AudioEvent_Rev_Int_04_Asylum_Shack" GUID="{51AC78F9-9F5B-464B-91A5-BF759872F2DC}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="37729726" Language="SFX">

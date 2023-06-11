@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Rocket_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Rocket\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970222" GUID="{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}" Language="SFX" Hash="785591763">
+		<SoundBank Id="2215970222" GUID="{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}" Language="SFX" Hash="3148970776">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_13</ObjectPath>
 			<ShortName>AMB_13</ShortName>
 			<Path>AMB_13.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}" DurationType="OneShot" DurationMin="7.707292" DurationMax="7.707292">
+				<Event Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}" DurationType="OneShot" DurationMin="7.707292" DurationMax="7.707292">
 					<ExcludedMemoryFiles>
 						<File Id="1018143520" Language="SFX">
 							<ShortName>Ambience\Theme\T13_Kenya\am_t13_kenya_intro.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2553368489" Name="AudioEvent_AM_T13_Chalet" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Chalet" GUID="{B20D0887-4363-4D17-A208-FEBF4307792C}" DurationType="Infinite">
+				<Event Id="2553368489" Name="AudioEvent_AM_T13_Chalet" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Chalet" GUID="{B20D0887-4363-4D17-A208-FEBF4307792C}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -95,7 +95,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="1456284583" Name="AudioEvent_Rev_Int_13_Kenya_Chalet" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet" GUID="{B1DDB6CE-F4D4-4DDA-A1F7-178D02B6E316}"/>
+						<ActionPostEventEntry Id="1456284583" Name="AudioEvent_Rev_Int_13_Kenya_Chalet" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet" GUID="{B1DDB6CE-F4D4-4DDA-A1F7-178D02B6E316}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2113781485" Name="AudioStateIndoor_13_Kenya_Chalet" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateIndoor_13_Kenya\AudioStateIndoor_13_Kenya_Chalet" GUID="{A329C1DB-6719-419E-A8AA-D46A4D41BE0D}"/>
@@ -106,7 +106,7 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2580191501" Name="AudioEvent_AM_T13_Escape" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Escape" GUID="{3DEE7FA7-B9A5-4199-957B-7CA6A065FBCA}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="2580191501" Name="AudioEvent_AM_T13_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Escape" GUID="{3DEE7FA7-B9A5-4199-957B-7CA6A065FBCA}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -138,7 +138,7 @@
 						<ActionSetStateEntry Id="2125666817" Name="AudioStateOutdoor_13_Kenya_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateOutdoor_13_Kenya\AudioStateOutdoor_13_Kenya_Forest_Low" GUID="{C0973F5E-A510-4B1E-9A8D-35C7280E3CFB}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1317291126" Name="AudioEvent_AM_T13_Exterior_Main" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Exterior_Main" GUID="{552DA96D-ADEC-4EBB-B302-D5FBAD354B64}" DurationType="OneShot" DurationMin="0.000000" DurationMax="16.592697">
+				<Event Id="1317291126" Name="AudioEvent_AM_T13_Exterior_Main" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Exterior_Main" GUID="{552DA96D-ADEC-4EBB-B302-D5FBAD354B64}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -231,7 +231,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1004874951" Name="AudioEvent_AM_T13_Fence" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Fence" GUID="{4657987E-5707-4E6D-BEDC-44C58E66D8C5}" DurationType="Infinite">
+				<Event Id="1004874951" Name="AudioEvent_AM_T13_Fence" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Fence" GUID="{4657987E-5707-4E6D-BEDC-44C58E66D8C5}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="26153180" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_wind_07.wav</ShortName>
@@ -341,7 +341,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="661868136" Name="AudioEvent_AM_T13_Shack" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Shack" GUID="{68B9041F-EE53-43A4-9B8E-5795C93EE5E6}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="661868136" Name="AudioEvent_AM_T13_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Shack" GUID="{68B9041F-EE53-43A4-9B8E-5795C93EE5E6}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -369,14 +369,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3161055266" Name="AudioEvent_Rev_Int_13_Kenya_Shack" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Shack" GUID="{428F45D3-8FF9-4F38-821C-C5F6AF2EBABE}"/>
+						<ActionPostEventEntry Id="3161055266" Name="AudioEvent_Rev_Int_13_Kenya_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Shack" GUID="{428F45D3-8FF9-4F38-821C-C5F6AF2EBABE}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="3679035212" Name="AudioStateIndoor_13_Kenya_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateIndoor_13_Kenya\AudioStateIndoor_13_Kenya_Shack" GUID="{CD04ADD2-54DB-4C07-A31A-535C11E2ED89}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1815444952" Name="AudioEvent_AM_T13_SmallCabin" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_SmallCabin" GUID="{45455ACC-F27F-483D-9338-8D535CD0D48A}" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.249047">
+				<Event Id="1815444952" Name="AudioEvent_AM_T13_SmallCabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_SmallCabin" GUID="{45455ACC-F27F-483D-9338-8D535CD0D48A}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
 							<ShortName>Ambience\Theme\T00_Common\Random\am_t00_common_rdm_horror_05.wav</ShortName>
@@ -404,14 +404,14 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2792890554" Name="AudioEvent_Rev_Int_13_Kenya_SmallCabin" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_SmallCabin" GUID="{BE02DFA7-715A-48E5-86ED-A2BCF83F7C92}"/>
+						<ActionPostEventEntry Id="2792890554" Name="AudioEvent_Rev_Int_13_Kenya_SmallCabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_SmallCabin" GUID="{BE02DFA7-715A-48E5-86ED-A2BCF83F7C92}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 						<ActionSetStateEntry Id="3679035212" Name="AudioStateIndoor_13_Kenya_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateIndoor_13_Kenya\AudioStateIndoor_13_Kenya_Shack" GUID="{CD04ADD2-54DB-4C07-A31A-535C11E2ED89}"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3083773772" Name="AudioEvent_AM_Theme_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AudioEvent_AM_Theme_13_Kenya" GUID="{7925416B-A133-4246-BEDA-7C3938F1E057}" DurationType="Infinite">
+				<Event Id="3083773772" Name="AudioEvent_AM_Theme_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AudioEvent_AM_Theme_13_Kenya" GUID="{7925416B-A133-4246-BEDA-7C3938F1E057}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="126735154" Language="SFX">
 							<ShortName>Ambience\Theme\T13_Kenya\am_t13_kenya_weather_wind_01.wav</ShortName>
@@ -491,7 +491,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}"/>
+						<ActionPostEventEntry Id="2101955299" Name="AudioEvent_AM_Intro_13_Kenya" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AudioEvent_AM_Intro_13_Kenya" GUID="{72D27011-CDEA-4316-9E5E-E9C890E2C714}"/>
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry Id="525978194" Name="AudioStateWind_13_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateWind_13_Kenya\AudioStateWind_13_Low" GUID="{B0207334-196F-492A-9991-4000F1D5DF27}"/>
@@ -500,13 +500,13 @@
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1456284583" Name="AudioEvent_Rev_Int_13_Kenya_Chalet" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet" GUID="{B1DDB6CE-F4D4-4DDA-A1F7-178D02B6E316}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3507163649" Name="AudioEvent_Rev_Int_13_Kenya_Chalet_BigRoom" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet_BigRoom" GUID="{C39676B2-DDE3-49F7-9271-4B148462B840}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3832684016" Name="AudioEvent_Rev_Int_13_Kenya_Chalet_Corridor" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet_Corridor" GUID="{C4926C35-DA4F-41B6-984E-5F1BC01A0E22}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2181384374" Name="AudioEvent_Rev_Int_13_Kenya_Chalet_Rooms" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet_Rooms" GUID="{2779FC29-1B38-425F-849E-528FBD8BC7BB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3161055266" Name="AudioEvent_Rev_Int_13_Kenya_Shack" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Shack" GUID="{428F45D3-8FF9-4F38-821C-C5F6AF2EBABE}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2792890554" Name="AudioEvent_Rev_Int_13_Kenya_SmallCabin" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_SmallCabin" GUID="{BE02DFA7-715A-48E5-86ED-A2BCF83F7C92}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="418243589" Name="AudioEvent_Rev_Int_13_Kenya_SnowCat" ObjectPath="\Events\AMBIENCE\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_SnowCat" GUID="{F16AA885-5404-42F0-B82D-0A1905979F81}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1456284583" Name="AudioEvent_Rev_Int_13_Kenya_Chalet" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet" GUID="{B1DDB6CE-F4D4-4DDA-A1F7-178D02B6E316}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3507163649" Name="AudioEvent_Rev_Int_13_Kenya_Chalet_BigRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet_BigRoom" GUID="{C39676B2-DDE3-49F7-9271-4B148462B840}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3832684016" Name="AudioEvent_Rev_Int_13_Kenya_Chalet_Corridor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet_Corridor" GUID="{C4926C35-DA4F-41B6-984E-5F1BC01A0E22}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2181384374" Name="AudioEvent_Rev_Int_13_Kenya_Chalet_Rooms" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet_Rooms" GUID="{2779FC29-1B38-425F-849E-528FBD8BC7BB}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3161055266" Name="AudioEvent_Rev_Int_13_Kenya_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Shack" GUID="{428F45D3-8FF9-4F38-821C-C5F6AF2EBABE}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2792890554" Name="AudioEvent_Rev_Int_13_Kenya_SmallCabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_SmallCabin" GUID="{BE02DFA7-715A-48E5-86ED-A2BCF83F7C92}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="418243589" Name="AudioEvent_Rev_Int_13_Kenya_SnowCat" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_SnowCat" GUID="{F16AA885-5404-42F0-B82D-0A1905979F81}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="126735154" Language="SFX">
