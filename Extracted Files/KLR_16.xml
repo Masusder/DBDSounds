@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Umbra_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Venus_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_11_Umbra\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338088" GUID="{700D76D8-57A4-4EF2-9788-B8502717D77B}" Language="SFX" Hash="2486030325">
+		<SoundBank Id="1474338088" GUID="{700D76D8-57A4-4EF2-9788-B8502717D77B}" Language="SFX" Hash="785130000">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_16</ObjectPath>
 			<ShortName>KLR_16</ShortName>
 			<Path>KLR_16.bnk</Path>
@@ -64,6 +64,81 @@
 				</Event>
 				<Event Id="3354214085" Name="AudioEvent_K16_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_CLOTH\AudioEvent_K16_CLOTH_Default_ShuffleHigh" GUID="{B0F88BE6-00C4-4DD2-AA87-12FB29D48FE8}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
 				<Event Id="432007889" Name="AudioEvent_K16_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_CLOTH\AudioEvent_K16_CLOTH_Default_ShuffleLow" GUID="{D8765ED8-DD03-4CEB-9BBF-DC1676FBD3FA}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
+				<Event Id="3848239205" Name="AudioEvent_K16_GRUNT_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_GRUNT\AudioEvent_K16_GRUNT_Hurt" GUID="{2254E2AF-257C-47BB-8182-9AE20FA27167}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="2.092875" DurationMax="2.853958">
+					<ExcludedMemoryFiles>
+						<File Id="140891765" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_hurt_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_hurt_01_67368C31.wem</Path>
+						</File>
+						<File Id="206962308" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_hurt_03.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_hurt_03_67368C31.wem</Path>
+						</File>
+						<File Id="331674160" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_hurt_05.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_hurt_05_67368C31.wem</Path>
+						</File>
+						<File Id="697959908" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_hurt_04.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_hurt_04_67368C31.wem</Path>
+						</File>
+						<File Id="1068492024" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_hurt_02.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_hurt_02_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2416539261" Name="AudioEvent_K16_MENU_WPN_Arm" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_K16_MENU_WPN_Arm" GUID="{79AD24C5-CF27-4FA2-8A3A-002C9D5077A0}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.162948" DurationMax="0.283311">
+					<ReferencedStreamedFiles>
+						<File Id="177689719" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\sfx_knife_arm_03_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\sfx_knife_arm_03_interupt_67368C31.wem</Path>
+						</File>
+						<File Id="739124900" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\sfx_knife_arm_01_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\sfx_knife_arm_01_interupt_67368C31.wem</Path>
+						</File>
+						<File Id="790805215" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\sfx_knife_arm_02_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\sfx_knife_arm_02_interupt_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2021517610" Name="AudioEvent_K16_MENU_WPN_Swing_Long" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_K16_MENU_WPN_Swing_Long" GUID="{FF75FA21-ACE4-4369-BF4E-C463E3BCFD44}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.149229" DurationMax="0.226562">
+					<ReferencedStreamedFiles>
+						<File Id="816634433" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_03_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_03_interupt_67368C31.wem</Path>
+						</File>
+						<File Id="895894525" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_01_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_01_interupt_67368C31.wem</Path>
+						</File>
+						<File Id="944206238" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_02_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_02_interupt_67368C31.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2451047462" Name="AudioEvent_K16_MENU_WPN_Swing_Short" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_K16_MENU_WPN_Swing_Short" GUID="{DC25352B-074E-4AB4-A964-D48AA209B4B0}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.085042" DurationMax="0.151646">
+					<ExcludedMemoryFiles>
+						<File Id="556645329" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_03_short_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_03_short_interupt_67368C31.wem</Path>
+						</File>
+						<File Id="622796890" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_01_short_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_01_short_interupt_67368C31.wem</Path>
+						</File>
+						<File Id="1071157725" Language="SFX">
+							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_02_short_interupt.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_02_short_interupt_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="2437501563" Name="AudioEvent_K16_PWR_Spot_KLR_Reveal" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Spot_KLR_Reveal" GUID="{FE5CB7A4-809E-4869-BAAD-1C44742F5E74}" DurationType="OneShot" DurationMin="2.656026" DurationMax="2.656026">
 					<ExcludedMemoryFiles>
 						<File Id="262175144" Language="SFX">
@@ -134,6 +209,213 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="3709840350" Name="AudioEvent_K16_PWR_Spot_SVR_Stop" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Spot_SVR_Stop" GUID="{54C47F0D-B6CC-4CFA-ACF5-7B0DD0F23225}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1124879158" Name="AudioEvent_K16_PWR_Stlk_Start" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlk_Start" GUID="{131283D4-E172-4EDF-8851-3708E80F74A1}" DurationType="OneShot" DurationMin="2.101333" DurationMax="2.101333">
+					<ExcludedMemoryFiles>
+						<File Id="673454369" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_pwr_16_stlk_on_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_pwr_16_stlk_on_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1487341750" Name="AudioEvent_K16_PWR_Stlk_Stop" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlk_Stop" GUID="{0814FD2A-7A10-4DA6-A99B-793F294DBD85}" DurationType="OneShot" DurationMin="1.493333" DurationMax="1.493333">
+					<ExcludedMemoryFiles>
+						<File Id="255979003" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_pwr_16_tlk_off_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_pwr_16_tlk_off_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1268710448" Name="AudioEvent_K16_PWR_Stlk_SVR_Exposed" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlk_SVR_Exposed" GUID="{3581F019-A6AF-47EB-8534-90070B895BF8}" DurationType="OneShot" DurationMin="3.82814" DurationMax="3.82814">
+					<ExcludedMemoryFiles>
+						<File Id="976801206" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlk_svr_exposed_03.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlk_svr_exposed_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1390251017" Name="AudioEvent_K16_PWR_Stlth_Attack_Hit" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlth_Attack_Hit" GUID="{386129F6-40B4-4FBE-92AD-E8B334C0F51D}" DurationType="OneShot" DurationMin="3.004059" DurationMax="3.004059">
+					<ExcludedMemoryFiles>
+						<File Id="387689541" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_oman_spot_start_02.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_spot_start_02_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2890880828" Name="AudioEvent_K16_PWR_Stlth_Available" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlth_Available" GUID="{4CC6BFC3-DCC8-4572-B2B4-1FBDE8E25B15}" DurationType="OneShot" DurationMin="4.389796" DurationMax="4.389796">
+					<ExcludedMemoryFiles>
+						<File Id="532349325" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_oman_spot_start_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_spot_start_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2267000148" Name="AudioEvent_K16_PWR_Stlth_KLR_Activate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlth_KLR_Activate" GUID="{CDCABC81-180B-4833-9C7F-2EAD05DA3795}" DurationType="OneShot" DurationMin="3.287542" DurationMax="3.287542">
+					<ExcludedMemoryFiles>
+						<File Id="769551177" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce_67368C31.wem</Path>
+						</File>
+						<File Id="970494027" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2586502150" Name="AudioEvent_K16_PWR_Stlth_KLR_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlth_KLR_Desactivate" GUID="{0601802B-6778-4CD8-9E26-4ADC1B4E9876}" DurationType="OneShot" DurationMin="3.07675" DurationMax="3.07675">
+					<ExcludedMemoryFiles>
+						<File Id="602660949" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce_67368C31.wem</Path>
+						</File>
+						<File Id="970494027" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3979137386" Name="AudioEvent_K16_PWR_Stlth_SVR_Activate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlth_SVR_Activate" GUID="{7E372F8F-287D-4FA4-B927-D0C88799745A}" DurationType="OneShot" DurationMin="3.287542" DurationMax="3.287542">
+					<ExcludedMemoryFiles>
+						<File Id="769551177" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce_67368C31.wem</Path>
+						</File>
+						<File Id="970494027" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2892373276" Name="AudioEvent_K16_PWR_Stlth_SVR_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_K16_PWR_Stlth_SVR_Desactivate" GUID="{9DC98691-B585-491F-80A3-2B82B709A07F}" DurationType="OneShot" DurationMin="3.07675" DurationMax="3.07675">
+					<ExcludedMemoryFiles>
+						<File Id="602660949" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce_67368C31.wem</Path>
+						</File>
+						<File Id="970494027" Language="SFX">
+							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
+							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="510910688" Name="AudioEvent_K16_SPEC_Camera_Move" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_SPECIFIC\AudioEvent_K16_SPEC_Camera_Move" GUID="{13E9B193-CDB2-41B6-A6E3-A8190DE2A9DE}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.239909" DurationMax="0.630816">
+					<ExcludedMemoryFiles>
+						<File Id="149093179" Language="SFX">
+							<ShortName>Character\KLR_16\sfx_oman_camera_move_02.wav</ShortName>
+							<Path>SFX\Character\KLR_16\sfx_oman_camera_move_02_67368C31.wem</Path>
+						</File>
+						<File Id="278927080" Language="SFX">
+							<ShortName>Character\KLR_16\sfx_oman_camera_move_03.wav</ShortName>
+							<Path>SFX\Character\KLR_16\sfx_oman_camera_move_03_67368C31.wem</Path>
+						</File>
+						<File Id="497604167" Language="SFX">
+							<ShortName>Character\KLR_16\sfx_oman_camera_move_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\sfx_oman_camera_move_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4171068692" Name="AudioEvent_K16_SPEC_Camera_Shoot" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_SPECIFIC\AudioEvent_K16_SPEC_Camera_Shoot" GUID="{3223F75A-90FF-4B1B-B4B9-26CA4B374979}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.428125" DurationMax="0.428125">
+					<ExcludedMemoryFiles>
+						<File Id="354813302" Language="SFX">
+							<ShortName>Character\KLR_16\sfx_oman_camera_shoot_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\sfx_oman_camera_shoot_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2580823428" Name="AudioEvent_K16_SPEC_Flag_Loop" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_SPECIFIC\AudioEvent_K16_SPEC_Flag_Loop" GUID="{DB133EC6-AF12-4D70-9E6C-2DC60889B2C7}" MaxAttenuation="850." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="834701532" Language="SFX">
+							<ShortName>Character\KLR_16\sfx_oman_flag_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\sfx_oman_flag_loop_01_0CFBD8C6.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2104487764" Name="AudioEvent_K16_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_K16_Status_Start" GUID="{60EFA387-99A7-4688-966F-FD018C34A21B}" MaxAttenuation="1900." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="369814017" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_01_67368C31.wem</Path>
+						</File>
+						<File Id="565881894" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_06.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_06_67368C31.wem</Path>
+						</File>
+						<File Id="682620314" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_05.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_05_67368C31.wem</Path>
+						</File>
+						<File Id="811910561" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_02.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_02_67368C31.wem</Path>
+						</File>
+						<File Id="1017725490" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_04.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_04_67368C31.wem</Path>
+						</File>
+						<File Id="1033071440" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_03.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3061757754" Name="AudioEvent_K16_Status_Start_Menu" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_K16_Status_Start_Menu" GUID="{F5B08C4A-4851-46CE-AA9B-0E0F2FC7941B}" MaxAttenuation="1900." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="369814017" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_01.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_01_67368C31.wem</Path>
+						</File>
+						<File Id="565881894" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_06.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_06_67368C31.wem</Path>
+						</File>
+						<File Id="682620314" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_05.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_05_67368C31.wem</Path>
+						</File>
+						<File Id="811910561" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_02.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_02_67368C31.wem</Path>
+						</File>
+						<File Id="1017725490" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_04.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_04_67368C31.wem</Path>
+						</File>
+						<File Id="1033071440" Language="SFX">
+							<ShortName>Character\KLR_16\vo_oman_breath_03.wav</ShortName>
+							<Path>SFX\Character\KLR_16\vo_oman_breath_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="3049032178" Name="AudioEvent_K16_WPN_Default_ShortBlade_Arm" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_WEAPON\AudioEvent_K16_WPN_Default_ShortBlade_Arm" GUID="{99DE2A22-26A0-4785-9531-1F471C08EF32}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.163109" DurationMax="0.283471">
 					<ExcludedMemoryFiles>
 						<File Id="416221116" Language="SFX">
@@ -463,288 +745,6 @@
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="4043107540" Name="AudioEvent_Killer_Oman_Grunt_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_GRUNT\AudioEvent_Killer_Oman_Grunt_Hurt" GUID="{2254E2AF-257C-47BB-8182-9AE20FA27167}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="2.092875" DurationMax="2.853958">
-					<ExcludedMemoryFiles>
-						<File Id="140891765" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_hurt_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_hurt_01_67368C31.wem</Path>
-						</File>
-						<File Id="206962308" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_hurt_03.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_hurt_03_67368C31.wem</Path>
-						</File>
-						<File Id="331674160" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_hurt_05.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_hurt_05_67368C31.wem</Path>
-						</File>
-						<File Id="697959908" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_hurt_04.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_hurt_04_67368C31.wem</Path>
-						</File>
-						<File Id="1068492024" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_hurt_02.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_hurt_02_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="2814313009" Name="AudioEvent_KLR_16_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_KLR_16_Status_Start" GUID="{60EFA387-99A7-4688-966F-FD018C34A21B}" MaxAttenuation="1900." DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="369814017" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_01_67368C31.wem</Path>
-						</File>
-						<File Id="565881894" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_06.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_06_67368C31.wem</Path>
-						</File>
-						<File Id="682620314" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_05.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_05_67368C31.wem</Path>
-						</File>
-						<File Id="811910561" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_02.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_02_67368C31.wem</Path>
-						</File>
-						<File Id="1017725490" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_04.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_04_67368C31.wem</Path>
-						</File>
-						<File Id="1033071440" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_03.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_03_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="398472105" Name="AudioEvent_KLR_16_Status_Start_Menu" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_KLR_16_Status_Start_Menu" GUID="{F5B08C4A-4851-46CE-AA9B-0E0F2FC7941B}" MaxAttenuation="1900." DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="369814017" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_01_67368C31.wem</Path>
-						</File>
-						<File Id="565881894" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_06.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_06_67368C31.wem</Path>
-						</File>
-						<File Id="682620314" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_05.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_05_67368C31.wem</Path>
-						</File>
-						<File Id="811910561" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_02.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_02_67368C31.wem</Path>
-						</File>
-						<File Id="1017725490" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_04.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_04_67368C31.wem</Path>
-						</File>
-						<File Id="1033071440" Language="SFX">
-							<ShortName>Character\KLR_16\vo_oman_breath_03.wav</ShortName>
-							<Path>SFX\Character\KLR_16\vo_oman_breath_03_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="2409044270" Name="AudioEvent_MenuIdle_Oman_WPN_Arm" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_MenuIdle_Oman_WPN_Arm" GUID="{79AD24C5-CF27-4FA2-8A3A-002C9D5077A0}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.162948" DurationMax="0.283311">
-					<ReferencedStreamedFiles>
-						<File Id="177689719" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\sfx_knife_arm_03_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\sfx_knife_arm_03_interupt_67368C31.wem</Path>
-						</File>
-						<File Id="739124900" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\sfx_knife_arm_01_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\sfx_knife_arm_01_interupt_67368C31.wem</Path>
-						</File>
-						<File Id="790805215" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\sfx_knife_arm_02_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\sfx_knife_arm_02_interupt_67368C31.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-				</Event>
-				<Event Id="3255298871" Name="AudioEvent_MenuIdle_Oman_WPN_Swing_Long" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_MenuIdle_Oman_WPN_Swing_Long" GUID="{FF75FA21-ACE4-4369-BF4E-C463E3BCFD44}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.149229" DurationMax="0.226562">
-					<ReferencedStreamedFiles>
-						<File Id="816634433" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_03_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_03_interupt_67368C31.wem</Path>
-						</File>
-						<File Id="895894525" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_01_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_01_interupt_67368C31.wem</Path>
-						</File>
-						<File Id="944206238" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_02_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_02_interupt_67368C31.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-				</Event>
-				<Event Id="4138935433" Name="AudioEvent_MenuIdle_Oman_WPN_Swing_Short" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_STATUS\AudioEvent_MenuIdle_Oman_WPN_Swing_Short" GUID="{DC25352B-074E-4AB4-A964-D48AA209B4B0}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.085042" DurationMax="0.151646">
-					<ExcludedMemoryFiles>
-						<File Id="556645329" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_03_short_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_03_short_interupt_67368C31.wem</Path>
-						</File>
-						<File Id="622796890" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_01_short_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_01_short_interupt_67368C31.wem</Path>
-						</File>
-						<File Id="1071157725" Language="SFX">
-							<ShortName>Character\KLR_16\Menu\Knife_Attack_Bounce_02_short_interupt.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Menu\Knife_Attack_Bounce_02_short_interupt_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="1499296717" Name="AudioEvent_Oman_Camera_Move" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_SPECIFIC\AudioEvent_Oman_Camera_Move" GUID="{13E9B193-CDB2-41B6-A6E3-A8190DE2A9DE}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.239909" DurationMax="0.630816">
-					<ExcludedMemoryFiles>
-						<File Id="149093179" Language="SFX">
-							<ShortName>Character\KLR_16\sfx_oman_camera_move_02.wav</ShortName>
-							<Path>SFX\Character\KLR_16\sfx_oman_camera_move_02_67368C31.wem</Path>
-						</File>
-						<File Id="278927080" Language="SFX">
-							<ShortName>Character\KLR_16\sfx_oman_camera_move_03.wav</ShortName>
-							<Path>SFX\Character\KLR_16\sfx_oman_camera_move_03_67368C31.wem</Path>
-						</File>
-						<File Id="497604167" Language="SFX">
-							<ShortName>Character\KLR_16\sfx_oman_camera_move_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\sfx_oman_camera_move_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3222757283" Name="AudioEvent_Oman_Camera_Shoot" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_SPECIFIC\AudioEvent_Oman_Camera_Shoot" GUID="{3223F75A-90FF-4B1B-B4B9-26CA4B374979}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.428125" DurationMax="0.428125">
-					<ExcludedMemoryFiles>
-						<File Id="354813302" Language="SFX">
-							<ShortName>Character\KLR_16\sfx_oman_camera_shoot_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\sfx_oman_camera_shoot_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="636138317" Name="AudioEvent_Oman_Flag_Loop" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_SPECIFIC\AudioEvent_Oman_Flag_Loop" GUID="{DB133EC6-AF12-4D70-9E6C-2DC60889B2C7}" MaxAttenuation="850." DurationType="Infinite">
-					<ExcludedMemoryFiles>
-						<File Id="834701532" Language="SFX">
-							<ShortName>Character\KLR_16\sfx_oman_flag_loop_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\sfx_oman_flag_loop_01_0CFBD8C6.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3969849341" Name="AudioEvent_Oman_Stlk_Start" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlk_Start" GUID="{131283D4-E172-4EDF-8851-3708E80F74A1}" DurationType="OneShot" DurationMin="2.101333" DurationMax="2.101333">
-					<ExcludedMemoryFiles>
-						<File Id="673454369" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_pwr_16_stlk_on_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_pwr_16_stlk_on_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="890215039" Name="AudioEvent_Oman_Stlk_Stop" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlk_Stop" GUID="{0814FD2A-7A10-4DA6-A99B-793F294DBD85}" DurationType="OneShot" DurationMin="1.493333" DurationMax="1.493333">
-					<ExcludedMemoryFiles>
-						<File Id="255979003" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_pwr_16_tlk_off_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_pwr_16_tlk_off_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="2896118651" Name="AudioEvent_Oman_Stlk_SVR_Exposed" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlk_SVR_Exposed" GUID="{3581F019-A6AF-47EB-8534-90070B895BF8}" DurationType="OneShot" DurationMin="3.82814" DurationMax="3.82814">
-					<ExcludedMemoryFiles>
-						<File Id="976801206" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlk_svr_exposed_03.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlk_svr_exposed_03_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="806137978" Name="AudioEvent_Oman_Stlth_Attack_Hit" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlth_Attack_Hit" GUID="{386129F6-40B4-4FBE-92AD-E8B334C0F51D}" DurationType="OneShot" DurationMin="3.004059" DurationMax="3.004059">
-					<ExcludedMemoryFiles>
-						<File Id="387689541" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_oman_spot_start_02.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_spot_start_02_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="2319824153" Name="AudioEvent_Oman_Stlth_Available" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlth_Available" GUID="{4CC6BFC3-DCC8-4572-B2B4-1FBDE8E25B15}" DurationType="OneShot" DurationMin="4.389796" DurationMax="4.389796">
-					<ExcludedMemoryFiles>
-						<File Id="532349325" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_oman_spot_start_01.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_spot_start_01_67368C31.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
-				<Event Id="3790900475" Name="AudioEvent_Oman_Stlth_KLR_Activate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlth_KLR_Activate" GUID="{CDCABC81-180B-4833-9C7F-2EAD05DA3795}" DurationType="OneShot" DurationMin="3.287542" DurationMax="3.287542">
-					<ExcludedMemoryFiles>
-						<File Id="769551177" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce_67368C31.wem</Path>
-						</File>
-						<File Id="970494027" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="2413993891" Name="AudioEvent_Oman_Stlth_KLR_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlth_KLR_Desactivate" GUID="{0601802B-6778-4CD8-9E26-4ADC1B4E9876}" DurationType="OneShot" DurationMin="3.07675" DurationMax="3.07675">
-					<ExcludedMemoryFiles>
-						<File Id="602660949" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce_67368C31.wem</Path>
-						</File>
-						<File Id="970494027" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="811655069" Name="AudioEvent_Oman_Stlth_SVR_Activate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlth_SVR_Activate" GUID="{7E372F8F-287D-4FA4-B927-D0C88799745A}" DurationType="OneShot" DurationMin="3.287542" DurationMax="3.287542">
-					<ExcludedMemoryFiles>
-						<File Id="769551177" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Activate_KLR_2D_Bounce_67368C31.wem</Path>
-						</File>
-						<File Id="970494027" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="1434467221" Name="AudioEvent_Oman_Stlth_SVR_Desactivate" ObjectPath="\Events\CHARACTER\KILLER\K16_Oman\K16_POWER\AudioEvent_Oman_Stlth_SVR_Desactivate" GUID="{9DC98691-B585-491F-80A3-2B82B709A07F}" DurationType="OneShot" DurationMin="3.07675" DurationMax="3.07675">
-					<ExcludedMemoryFiles>
-						<File Id="602660949" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\Oman_Stlth_Desactivate_KLR_State_Bounce_67368C31.wem</Path>
-						</File>
-						<File Id="970494027" Language="SFX">
-							<ShortName>Character\KLR_16\Stealth\sfx_oman_stlth_activate_06.wav</ShortName>
-							<Path>SFX\Character\KLR_16\Stealth\sfx_oman_stlth_activate_06_F0330FAA.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
