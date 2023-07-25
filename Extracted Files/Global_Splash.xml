@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="1692909007">
+		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="1105393318">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Splash</ObjectPath>
 			<ShortName>Global_Splash</ShortName>
 			<Path>Global_Splash.bnk</Path>
@@ -955,6 +955,10 @@
 							<ShortName>Music\Theme\mu_menu_lobby_killer.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_killer_0BC91DCF.wem</Path>
 						</File>
+						<File Id="772766236" Language="SFX">
+							<ShortName>Music\SpecialEvent\mu_menu_special_summer_01.wav</ShortName>
+							<Path>SFX\Music\SpecialEvent\mu_menu_special_summer_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="775476500" Language="SFX">
 							<ShortName>Music\Collection\mu_collection_aiw_01.wav</ShortName>
 							<Path>SFX\Music\Collection\mu_collection_aiw_01_256CDB0F.wem</Path>
@@ -1585,6 +1589,11 @@
 										<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
 											<Media>
 												<File Id="450156871"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}">
+											<Media>
+												<File Id="772766236"/>
 											</Media>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
@@ -2969,6 +2978,14 @@
 						<ActionSetStateEntry Id="1081215356" Name="Video_OFF" ObjectPath="\States\STATES_MENU\AudioStateVideo\Video_OFF" GUID="{3D35BBA0-F527-4A87-B07C-B5176A367CAE}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3334963404" Name="AudioEvent_Lobby_Emitter_BBQ_Fire" ObjectPath="\Events\AMBIENCE\AMB_MENU\AMB_LOBBY_EMITTER\AudioEvent_Lobby_Emitter_BBQ_Fire" GUID="{C13F80C9-7E9C-4914-B00A-7D1B39E1DFE9}" MaxAttenuation="850." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="179132709" Language="SFX">
+							<ShortName>Ambience\Menu\sfx_lobby_emt_bbq_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\sfx_lobby_emt_bbq_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="2544026964" Name="AudioEvent_MainMenu_Ready_All" ObjectPath="\Events\MENU\Lobby\MainMenu\AudioEvent_MainMenu_Ready_All" GUID="{3980FC53-A859-40FB-B2DB-B3416591FF08}" DurationType="OneShot" DurationMin="8.032" DurationMax="8.032"/>
 				<Event Id="1594088186" Name="AudioEvent_Master_Mute_OFF" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Mute_OFF" GUID="{4CB54436-146E-4112-92F7-91BAAEAA84D6}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="276221052" Name="AudioEvent_Master_Mute_ON" ObjectPath="\Events\SYSTEM\AudioEvent_Master_Mute_ON" GUID="{9E6C5499-FEA2-4417-B56E-95CC3B31FEB6}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -3642,6 +3659,14 @@
 					<AuxBusSends>
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="9745833" Name="AudioEvent_Splashscreen_Summer" ObjectPath="\Events\MENU\Splashscreen\AudioEvent_Splashscreen_Summer" GUID="{EF9A78C1-243F-4DD9-B674-EEE6F2C8A42B}" DurationType="OneShot" DurationMin="11.729688" DurationMax="11.729688">
+					<ExcludedMemoryFiles>
+						<File Id="985183069" Language="SFX">
+							<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01.wav</ShortName>
+							<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="363594019" Name="AudioEvent_STG_KC" ObjectPath="\Events\GAMEPLAY\STINGERS\AudioEvent_STG_KC" GUID="{B075EB3F-7287-4668-911B-AD1B567ED78F}" DurationType="OneShot" DurationMin="7.85678" DurationMax="7.85678">
 					<ReferencedStreamedFiles>
@@ -4422,6 +4447,10 @@
 					<ShortName>Music\Theme\mu_menu_lobby_killer.wav</ShortName>
 					<Path>SFX\Music\Theme\mu_menu_lobby_killer_0BC91DCF.wem</Path>
 				</File>
+				<File Id="772766236" Language="SFX">
+					<ShortName>Music\SpecialEvent\mu_menu_special_summer_01.wav</ShortName>
+					<Path>SFX\Music\SpecialEvent\mu_menu_special_summer_01_0BC91DCF.wem</Path>
+				</File>
 				<File Id="775476500" Language="SFX">
 					<ShortName>Music\Collection\mu_collection_aiw_01.wav</ShortName>
 					<Path>SFX\Music\Collection\mu_collection_aiw_01_256CDB0F.wem</Path>
@@ -4539,6 +4568,10 @@
 				<File Id="155577566" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_thunder_low_08.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_thunder_low_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="179132709" Language="SFX">
+					<ShortName>Ambience\Menu\sfx_lobby_emt_bbq_01.wav</ShortName>
+					<Path>SFX\Ambience\Menu\sfx_lobby_emt_bbq_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="222143679" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
@@ -4703,6 +4736,10 @@
 				<File Id="972846040" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_13.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_13_67368C31.wem</Path>
+				</File>
+				<File Id="985183069" Language="SFX">
+					<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01.wav</ShortName>
+					<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="987066025" Language="SFX">
 					<ShortName>Object\Obj_VFX\Burning_Menu\sfx_burning_menu_12.wav</ShortName>

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560499" GUID="{7983055B-23C9-41C7-9EFD-95CB5AD738A2}" Language="SFX" Hash="2252825702">
+		<SoundBank Id="1457560499" GUID="{7983055B-23C9-41C7-9EFD-95CB5AD738A2}" Language="SFX" Hash="3762903350">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_28</ObjectPath>
 			<ShortName>KLR_28</ShortName>
 			<Path>KLR_28.bnk</Path>
@@ -38,6 +38,11 @@
 				<Event Id="2976472749" Name="AudioEvent_K28_CLOTH_Custom_Outfit009_Move" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit009_Move" GUID="{2D176654-4752-4A26-BF9F-9DD4F066ACD1}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.054" DurationMax="1.444667"/>
 				<Event Id="4174144933" Name="AudioEvent_K28_CLOTH_Custom_Outfit009_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit009_ShuffleHigh" GUID="{ADE33AE8-10AA-408F-94B8-02328DC67E70}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.464578" DurationMax="2.008742"/>
 				<Event Id="1858252337" Name="AudioEvent_K28_CLOTH_Custom_Outfit009_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit009_ShuffleLow" GUID="{BE63B69F-B661-4DAC-9105-887FBCBF26EA}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.098" DurationMax="1.83111"/>
+				<Event Id="4012022887" Name="AudioEvent_K28_CLOTH_Custom_Outfit010_Land" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit010_Land" GUID="{44154221-21B3-4A02-BDDD-E8559C4E168C}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="4.373112" DurationMax="4.373112"/>
+				<Event Id="1376356255" Name="AudioEvent_K28_CLOTH_Custom_Outfit010_Move" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit010_Move" GUID="{45D8723E-0921-4933-B2E8-815AE6215E87}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.283563" DurationMax="1.694104"/>
+				<Event Id="3390167059" Name="AudioEvent_K28_CLOTH_Custom_Outfit010_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit010_ShuffleHigh" GUID="{7099FEB8-D839-4F11-83DD-5EC9764AAD94}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.534083" DurationMax="1.662"/>
+				<Event Id="2051886807" Name="AudioEvent_K28_CLOTH_Custom_Outfit010_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit010_ShuffleLow" GUID="{97EF0E24-D0FB-4E6F-BE29-6A0D48DEAB9E}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.036374" DurationMax="1.728338"/>
+				<Event Id="483766835" Name="AudioEvent_K28_CLOTH_Custom_Outfit010_Spawning" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_Outfit010_Spawning" GUID="{60D3A4E8-3D33-49B6-A085-98B84CCB6AE9}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="5.432333" DurationMax="5.432333"/>
 				<Event Id="3843117342" Name="AudioEvent_K28_CLOTH_Custom_SkeletonMass_Land" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_SkeletonMass_Land" GUID="{A906B292-F7DD-4436-90BB-DFEB49467BB4}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="4.373112" DurationMax="4.373112"/>
 				<Event Id="1655407018" Name="AudioEvent_K28_CLOTH_Custom_SkeletonMass_Move" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_SkeletonMass_Move" GUID="{9905DBA9-AAF4-493E-A69C-41314DD2E341}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="0.99161" DurationMax="1.604339"/>
 				<Event Id="4092087916" Name="AudioEvent_K28_CLOTH_Custom_SkeletonMass_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_BODY\AudioEvent_K28_CLOTH_Custom_SkeletonMass_ShuffleHigh" GUID="{5BB9C3BF-6112-483C-8501-5CA99D5F3960}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.551667" DurationMax="1.896"/>
@@ -5297,6 +5302,131 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FDC8B8B6-5095-4C76-9EB2-F36FA0F8645E}">
+							<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{1974DF19-3EAC-4718-94A9-7C7895513BA6}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F167B121-F497-496D-A248-9FF4BF749539}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{83EDD421-A376-401D-9D56-3CC8596D4C20}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{46A7CC2C-1CCD-4037-9FB7-52AD43498872}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{834AF73E-2FDA-4B1F-ABF8-7E926EA04F5E}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{33C94342-DC4C-4551-AE18-3B244ECA0689}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8279CE4B-BBF1-451B-AD23-36B443858ECC}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A941FD53-8C7E-4702-8A7E-95B4CFB4DE52}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{38536567-1A12-4FD1-8DCF-06603790A598}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{15062674-8B2F-4664-AEB6-B4178F782C33}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{220AA47D-7E65-4864-A865-719DAC7D0078}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{978DAF7D-37D9-4EB1-BF47-9FAE7D88E73D}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{646F7389-CAE6-4F36-AEB3-BA5883FFBC7A}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{01B02E8C-F215-4C55-A4A7-703EC37B779F}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{425080A3-52A3-4900-B570-E5014B94C732}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{41A7F3B6-4B78-421A-BAD3-16E485BDB8D0}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{6F4878BC-2C2D-4042-BC8E-03B16078145B}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{61C0A8D2-F421-465E-A55C-823BB4931283}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{175357DC-ECFA-4355-93E2-1A75AFA11C43}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{48A06FE5-D77E-440C-BC12-44D3DFE248E2}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A602BDEB-16F8-46CD-BB54-CFE585D15F02}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F8694AFD-F385-4983-A2F5-5B159E8ED9D2}">
+									<Media/>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{131534FE-9431-446B-854D-1E81BA3C77E7}">
+									<Media/>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{A94DC4B7-4B96-483E-8CB5-7D7C372735F2}">
 							<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
 							<Children>
@@ -6540,6 +6670,9 @@
 						<SwitchContainer SwitchValue="{ABDB3AB2-164F-409E-BB61-969651379ACC}">
 							<Media/>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FDC8B8B6-5095-4C76-9EB2-F36FA0F8645E}">
+							<Media/>
+						</SwitchContainer>
 					</SwitchContainers>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2534456696" Name="AudioState_K28_DayTime" ObjectPath="\States\STATES_KILLER\STATE_K28_Meteor\AudioState_K28_NightCycle\AudioState_K28_DayTime" GUID="{B0C867A2-1006-4DDD-BE23-9FF7E8338C65}"/>
@@ -6936,6 +7069,86 @@
 				</Event>
 				<Event Id="1731583722" Name="AudioEvent_K28_WPN_Custom_Outfit009_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit009_Impact_Survivor" GUID="{DD57E0BA-D5AC-4DD0-9763-DECA52AFBD3E}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012"/>
 				<Event Id="760612690" Name="AudioEvent_K28_WPN_Custom_Outfit009_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit009_PullOut" GUID="{26F58567-7E71-42C3-9E59-397F2C66E3FB}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1743543449" Name="AudioEvent_K28_WPN_Custom_Outfit010_Arm" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit010_Arm" GUID="{2A9F3D3D-A4D5-4D0E-B6B9-258F54F110F7}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3469340497" Name="AudioEvent_K28_WPN_Custom_Outfit010_Attack" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit010_Attack" GUID="{347E9058-D93F-405B-A274-43A02B4A3F59}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.493083" DurationMax="0.655494"/>
+				<Event Id="2435343856" Name="AudioEvent_K28_WPN_Custom_Outfit010_Clean" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit010_Clean" GUID="{564AA2B4-2B42-42C7-A9A0-D399BADD6D6F}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.081902" DurationMax="3.19927"/>
+				<Event Id="21137994" Name="AudioEvent_K28_WPN_Custom_Outfit010_Cooldown" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit010_Cooldown" GUID="{4BE9451D-4FF7-4D52-B8AB-7573269443FA}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.938135" DurationMax="1.071437"/>
+				<Event Id="2711497515" Name="AudioEvent_K28_WPN_Custom_Outfit010_Impact" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit010_Impact" GUID="{6E9E2D27-CA1D-45FD-ABD7-ABCA5F1EAE8F}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.340385" DurationMax="1.">
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{38536567-1A12-4FD1-8DCF-06603790A598}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{220AA47D-7E65-4864-A865-719DAC7D0078}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{646F7389-CAE6-4F36-AEB3-BA5883FFBC7A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{425080A3-52A3-4900-B570-E5014B94C732}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{48A06FE5-D77E-440C-BC12-44D3DFE248E2}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0A3F18F3-23BA-4260-80B0-6B8B2BE7F164}">
+							<Media/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{131534FE-9431-446B-854D-1E81BA3C77E7}">
+							<Media/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="244341652" Name="AudioEvent_K28_WPN_Custom_Outfit010_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit010_Impact_Survivor" GUID="{0841626C-F443-4EA6-864F-0185F59CD0CF}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012"/>
+				<Event Id="4096965272" Name="AudioEvent_K28_WPN_Custom_Outfit010_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_Outfit010_PullOut" GUID="{D5F17E1E-DBFD-4913-AEE7-326A2DE2C065}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="571063264" Name="AudioEvent_K28_WPN_Custom_SkeletonMass_Arm" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_SkeletonMass_Arm" GUID="{568FAAA7-D649-4C08-8CF9-9A4736DDFFF1}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2913044734" Name="AudioEvent_K28_WPN_Custom_SkeletonMass_Attack" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_SkeletonMass_Attack" GUID="{215C979C-BCA8-438B-9692-BC09D6BEC55A}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.493083" DurationMax="0.655494"/>
 				<Event Id="2034800585" Name="AudioEvent_K28_WPN_Custom_SkeletonMass_Clean" ObjectPath="\Events\CHARACTER\KILLER\K28_Meteor\K28_WEAPON\AudioEvent_K28_WPN_Custom_SkeletonMass_Clean" GUID="{99F23F17-AE15-48EE-83A6-D5463601EA50}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.081902" DurationMax="3.19927"/>
@@ -7305,6 +7518,10 @@
 					<ShortName>Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_13.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_13_7FA8D501.wem</Path>
 				</File>
+				<File Id="3288191" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_spawning_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_spawning_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="7144235" Language="SFX">
 					<ShortName>Character\KLR_28\K28_MORI\sfx_k28_mori_villagers_whispers_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_MORI\sfx_k28_mori_villagers_whispers_01_7FA8D501.wem</Path>
@@ -7333,6 +7550,10 @@
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_exitlocker_07.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_exitlocker_07_7FA8D501.wem</Path>
 				</File>
+				<File Id="14806997" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="15725660" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_50.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_50_7FA8D501.wem</Path>
@@ -7360,6 +7581,10 @@
 				<File Id="22305554" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_32.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_32_7FA8D501.wem</Path>
+				</File>
+				<File Id="24023775" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="25379998" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_30.wav</ShortName>
@@ -7473,6 +7698,10 @@
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_exitlocker_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_exitlocker_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="63426656" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_09.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_09_7FA8D501.wem</Path>
+				</File>
 				<File Id="64176046" Language="SFX">
 					<ShortName>Character\KLR_28\K28_VO\sfx_k28_grunt_hook_v4_07.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_VO\sfx_k28_grunt_hook_v4_07_7FA8D501.wem</Path>
@@ -7536,6 +7765,10 @@
 				<File Id="102485705" Language="SFX">
 					<ShortName>Character\KLR_28\K28_VO\sfx_k28_grunt_grab_v3_02.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_VO\sfx_k28_grunt_grab_v3_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="102849791" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_svr_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_svr_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="107251734" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custo_6thanniversary_lp_03.wav</ShortName>
@@ -7637,6 +7870,10 @@
 					<ShortName>Character\KLR_28\K28_VO\sfx_k28_grunt_hook_v4_03.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_VO\sfx_k28_grunt_hook_v4_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="158497391" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_klr_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_klr_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="158782732" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_45.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_45_7FA8D501.wem</Path>
@@ -7661,6 +7898,10 @@
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_attack_14.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_attack_14_7FA8D501.wem</Path>
 				</File>
+				<File Id="166947638" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_05.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="167864533" Language="SFX">
 					<ShortName>Character\KLR_28\K28_VO\sfx_k28_grunt_grab_v3_04.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_VO\sfx_k28_grunt_grab_v3_04_7FA8D501.wem</Path>
@@ -7669,6 +7910,10 @@
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_default_shufflelow_19.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_default_shufflelow_19_7FA8D501.wem</Path>
 				</File>
+				<File Id="169760088" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="172198026" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_skeletonmass_land_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_skeletonmass_land_01_7FA8D501.wem</Path>
@@ -7676,6 +7921,10 @@
 				<File Id="173458443" Language="SFX">
 					<ShortName>Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_11.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="178236767" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="180167781" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_frosty_impact_04.wav</ShortName>
@@ -7696,6 +7945,10 @@
 				<File Id="186052036" Language="SFX">
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_flesh_smallhand_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_flesh_smallhand_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="186613559" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="189799252" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_shuffle_low_05.wav</ShortName>
@@ -7736,6 +7989,10 @@
 				<File Id="202418486" Language="SFX">
 					<ShortName>Character\KLR_28\K28_WPN\sfx_k28_wpn_default_impact_survivor_blunt_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_WPN\sfx_k28_wpn_default_impact_survivor_blunt_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="203900527" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="206161728" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_villager_lamentation_rdn_35.wav</ShortName>
@@ -7785,9 +8042,21 @@
 					<ShortName>Character\KLR_28\K28_WPN\sfx_k28_wpn_custom_impact_survivor_cut_04.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_WPN\sfx_k28_wpn_custom_impact_survivor_cut_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="217529228" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_10.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_10_7FA8D501.wem</Path>
+				</File>
 				<File Id="218082976" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_6thAnniversary_impact_03.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_6thAnniversary_impact_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="221733334" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_09.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="225532291" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="226341031" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_generalgrab_24.wav</ShortName>
@@ -7833,6 +8102,10 @@
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_generalgrab_04.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_generalgrab_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="255488483" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_08.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="255546805" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_villager_lamentation_rdn_24.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_pwr_villager_lamentation_rdn_24_7FA8D501.wem</Path>
@@ -7852,6 +8125,10 @@
 				<File Id="260395933" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_1s_35.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_1s_35_7FA8D501.wem</Path>
+				</File>
+				<File Id="260421626" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="261270599" Language="SFX">
 					<ShortName>Character\KLR_28\K28_VO\vo_k28_grunt_grab_outfit009_02.wav</ShortName>
@@ -7900,6 +8177,10 @@
 				<File Id="280162957" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_6thanniversary_clean_klr_02.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_6thanniversary_clean_klr_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="282382982" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_07.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="283058780" Language="SFX">
 					<ShortName>Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_01.wav</ShortName>
@@ -7965,6 +8246,10 @@
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_default_shuffle_high_05.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_default_shuffle_high_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="313099865" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_05.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="315689156" Language="SFX">
 					<ShortName>Music\TerrorRadius\mu_terrorradius_k28_layer_04.wav</ShortName>
 					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k28_layer_04_256CDB0F.wem</Path>
@@ -7980,6 +8265,10 @@
 				<File Id="318615009" Language="SFX">
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_default_shuffle_high_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_default_shuffle_high_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="319526757" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="331015670" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_6thanniversary_land_02.wav</ShortName>
@@ -8036,6 +8325,10 @@
 				<File Id="352440746" Language="SFX">
 					<ShortName>Character\KLR_28\K28_MENU\sfx_k28_menu_horse_head_fall_03.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_MENU\sfx_k28_menu_horse_head_fall_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="353458771" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_07.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="354303600" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_locker_killer_reveal_04.wav</ShortName>
@@ -8117,6 +8410,14 @@
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_blacksmoke_default_land_02.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_blacksmoke_default_land_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="392006050" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="392044170" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_klr_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_klr_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="393148068" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_6thanniversary_bodymove_07.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_6thanniversary_bodymove_07_7FA8D501.wem</Path>
@@ -8181,6 +8482,10 @@
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_shuffle_low_09.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_shuffle_low_09_7FA8D501.wem</Path>
 				</File>
+				<File Id="417293844" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="420128084" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_villager_lamentation_rdn_23.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_pwr_villager_lamentation_rdn_23_7FA8D501.wem</Path>
@@ -8216,6 +8521,10 @@
 				<File Id="429677288" Language="SFX">
 					<ShortName>Character\KLR_28\K28_VO\sfx_k28_grunt_attack_v5_03.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_VO\sfx_k28_grunt_attack_v5_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="430492631" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="430956579" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_move_05.wav</ShortName>
@@ -8281,6 +8590,10 @@
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_flesh_rnd_11.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_flesh_rnd_11_7FA8D501.wem</Path>
 				</File>
+				<File Id="452436736" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_svr_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_svr_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="452518754" Language="SFX">
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_flesh_rnd_15.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_flesh_rnd_15_7FA8D501.wem</Path>
@@ -8337,9 +8650,17 @@
 					<ShortName>Character\KLR_28\K28_MORI\sfx_k28_mori_gore_disappear_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_MORI\sfx_k28_mori_gore_disappear_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="466778237" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="467300705" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_generalgrab_06.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_generalgrab_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="467877437" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="469293410" Language="SFX">
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_flesh_smallhand_05.wav</ShortName>
@@ -8372,6 +8693,10 @@
 				<File Id="484456907" Language="SFX">
 					<ShortName>Character\KLR_28\K28_MORI\sfx_k28_mori_pincer_goingin_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_MORI\sfx_k28_mori_pincer_goingin_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="485619130" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="485627789" Language="SFX">
 					<ShortName>Character\KLR_28\K28_MORI\sfx_k28_mori_smallhand_knife_whoosh_01.wav</ShortName>
@@ -8449,6 +8774,10 @@
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_default_bodymove_11.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_default_bodymove_11_1AEF28C1.wem</Path>
 				</File>
+				<File Id="518838884" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="520004119" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_frosty_impact_05.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_frosty_impact_05_7FA8D501.wem</Path>
@@ -8493,9 +8822,17 @@
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_chargeup_completed_04.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_pwr_chargeup_completed_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="529693248" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="529880675" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_dolls_impact_02.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_dolls_impact_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="530508839" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="532975921" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_20.wav</ShortName>
@@ -8601,6 +8938,14 @@
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_shuffle_low_06.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_shuffle_low_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="583107838" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_impact_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="585863531" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_10.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_10_7FA8D501.wem</Path>
+				</File>
 				<File Id="586681140" Language="SFX">
 					<ShortName>Music\TerrorRadius\mu_terrorradius_k28_layer_01.wav</ShortName>
 					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k28_layer_01_256CDB0F.wem</Path>
@@ -8657,6 +9002,10 @@
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_1s_24.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_1s_24_7FA8D501.wem</Path>
 				</File>
+				<File Id="620455799" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="621843042" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_frosty_attack_04.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_frosty_attack_04_7FA8D501.wem</Path>
@@ -8680,6 +9029,10 @@
 				<File Id="635947174" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_custom_outfit009_flies_09.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_custom_outfit009_flies_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="638197604" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_06.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="642371312" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_villager_lamentation_rdn_05.wav</ShortName>
@@ -8853,6 +9206,10 @@
 					<ShortName>Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_34.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_34_7FA8D501.wem</Path>
 				</File>
+				<File Id="714891109" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_klr_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_klr_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="717318013" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_locker_killer_reveal_03.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_pwr_locker_killer_reveal_03_7FA8D501.wem</Path>
@@ -8861,9 +9218,17 @@
 					<ShortName>Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_05.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="725560510" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_lp_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_lp_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="726267741" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_6thanniversary_bodymove_02.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_6thanniversary_bodymove_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="727675225" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_01.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="727876200" Language="SFX">
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_custom_outfit009_flies_06.wav</ShortName>
@@ -9153,6 +9518,10 @@
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_dolls_impact_04.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_dolls_impact_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="827043830" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_08.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="828199303" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_pwr_nightcycle_night_to_day_transtion_04.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_pwr_nightcycle_night_to_day_transtion_04_D64436E9.wem</Path>
@@ -9185,9 +9554,17 @@
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_shuffle_low_10.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_frosty_shuffle_low_10_7FA8D501.wem</Path>
 				</File>
+				<File Id="842074906" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_04.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="846087829" Language="SFX">
 					<ShortName>Character\KLR_28\K28_MENU\sfx_k28_menu_small_hand_06.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_MENU\sfx_k28_menu_small_hand_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="846104097" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="849199431" Language="SFX">
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_default_stunned_out_02.wav</ShortName>
@@ -9324,6 +9701,10 @@
 				<File Id="890368686" Language="SFX">
 					<ShortName>Character\KLR_28\K28_VO\sfx_k28_status_breath_in_v3_05.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_VO\sfx_k28_status_breath_in_v3_05_67D9DF46.wem</Path>
+				</File>
+				<File Id="890491031" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_05.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_land_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="891339280" Language="SFX">
 					<ShortName>Character\KLR_28\K28_VO\vo_k28_grunt_attack_outfit009_02.wav</ShortName>
@@ -9601,6 +9982,14 @@
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_default_shufflelow_22.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_default_shufflelow_22_7FA8D501.wem</Path>
 				</File>
+				<File Id="1004311942" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_06.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_low_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="1004347145" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_05.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_shuffle_high_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="1006576740" Language="SFX">
 					<ShortName>Character\KLR_28\K28_BODY\sfx_k28_body_default_stunned_out_03.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_BODY\sfx_k28_body_default_stunned_out_03_7FA8D501.wem</Path>
@@ -9644,6 +10033,10 @@
 				<File Id="1019732435" Language="SFX">
 					<ShortName>Character\KLR_28\K28_MORI\sfx_k28_mori_smallhand_goingout_02.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_MORI\sfx_k28_mori_smallhand_goingout_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1021945129" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_02.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_attack_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="1023015429" Language="SFX">
 					<ShortName>Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_33.wav</ShortName>
@@ -9697,6 +10090,10 @@
 					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_frosty_impact_01.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_frosty_impact_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="1041246895" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_06.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_body_custom_outfit010_move_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="1042732572" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_lockergrab_15.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_lockergrab_15_7FA8D501.wem</Path>
@@ -9736,6 +10133,10 @@
 				<File Id="1047738901" Language="SFX">
 					<ShortName>Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_29.wav</ShortName>
 					<Path>SFX\Character\KLR_28\K28_OBJ\sfx_k28_obj_remnant_idle_lamentation_rnd_29_7FA8D501.wem</Path>
+				</File>
+				<File Id="1050610803" Language="SFX">
+					<ShortName>Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_svr_03.wav</ShortName>
+					<Path>SFX\Character\KLR_28\K28_CUSTO\sfx_k28_wpn_custom_outfit010_clean_svr_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="1051256848" Language="SFX">
 					<ShortName>Character\KLR_28\K28_PWR\sfx_k28_vo_villagers_whsipers_0.5s_24.wav</ShortName>
@@ -9955,6 +10356,7 @@
 						<Switch Id="3426764220" Name="K32_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K32_CLOTH_Default" GUID="{706C637C-A566-4352-A035-4797EEDF6312}"/>
 						<Switch Id="3020971308" Name="K14_CLOTH_Custom_Outfit020" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit020" GUID="{63647251-0448-4651-9CC8-73065ADC7B57}"/>
 						<Switch Id="3020971300" Name="K14_CLOTH_Custom_Outfit028" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit028" GUID="{3DD9F5DE-AB95-444D-8CED-7DB5BAAB18E5}"/>
+						<Switch Id="2631872382" Name="K28_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit010" GUID="{FDC8B8B6-5095-4C76-9EB2-F36FA0F8645E}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3197778044" Name="AudioSwitchSubKiller_K28" ObjectPath="\Switches\SWITCH_KILLER\K28\AudioSwitchSubKiller_K28" GUID="{7A955EA4-78A1-4E23-BBC7-49AB5C071797}">
