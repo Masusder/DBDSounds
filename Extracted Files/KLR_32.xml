@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Venus_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Venus\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1440782794" GUID="{4EE761A3-A4E7-4DDF-A229-FE8678EBA1AB}" Language="SFX" Hash="3847138849">
+		<SoundBank Id="1440782794" GUID="{4EE761A3-A4E7-4DDF-A229-FE8678EBA1AB}" Language="SFX" Hash="2945143018">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_32</ObjectPath>
 			<ShortName>KLR_32</ShortName>
 			<Path>KLR_32.bnk</Path>
@@ -1461,7 +1461,7 @@
 						</File>
 						<File Id="995599003" Language="SFX">
 							<ShortName>Character\KLR_32\K32_OBJ\sfx_k32_obj_emp_charge_01.wav</ShortName>
-							<Path>SFX\Character\KLR_32\K32_OBJ\sfx_k32_obj_emp_charge_01_3B4C56C4.wem</Path>
+							<Path>SFX\Character\KLR_32\K32_OBJ\sfx_k32_obj_emp_charge_01_7DDC1147.wem</Path>
 						</File>
 						<File Id="1050992527" Language="SFX">
 							<ShortName>Character\KLR_32\K32_OBJ\sfx_k32_obj_emp_charge_start_01.wav</ShortName>
@@ -1625,6 +1625,11 @@
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="3526793652" Name="AudioEvent_K32_MENU_Endgame" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_MENU\AudioEvent_K32_MENU_Endgame" GUID="{D3E71D5A-09CE-4643-8ED9-2885B81A7CD0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1114537132" Name="AudioState_K32_PodInterface_Off" ObjectPath="\States\STATES_KILLER\STATE_K32_Umbra\AudioState_K32_PodInterface\AudioState_K32_PodInterface_Off" GUID="{72842B72-E634-467B-A484-41D102F11424}"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="323938052" Name="AudioEvent_K32_MENU_Exhale" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_MENU\AudioEvent_K32_MENU_Exhale" GUID="{0036CCA2-63A1-42B9-97C5-FF96CD9AB153}" DurationType="OneShot" DurationMin="1.226586" DurationMax="1.402972">
 					<ExcludedMemoryFiles>
@@ -3220,7 +3225,7 @@
 						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="970987783" Name="AudioEvent_K32_PWR_Charge_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_POWER\AudioEvent_K32_PWR_Charge_Loop_Stop" GUID="{FC6D83B7-6567-4E9D-94B5-DF75C51F948C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="970987783" Name="AudioEvent_K32_PWR_Charge_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_POWER\AudioEvent_K32_PWR_Charge_Loop_Stop" GUID="{2A365583-B119-4F01-B214-155897BDA1FA}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2879827059" Name="AudioEvent_K32_PWR_Charge_Shoot" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_POWER\AudioEvent_K32_PWR_Charge_Shoot" GUID="{48CC6225-6A17-4904-9F17-A194B436E2CE}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.870875" DurationMax="2.641583">
 					<ExcludedMemoryFiles>
 						<File Id="184046098" Language="SFX">
@@ -6550,7 +6555,7 @@
 				</File>
 				<File Id="995599003" Language="SFX">
 					<ShortName>Character\KLR_32\K32_OBJ\sfx_k32_obj_emp_charge_01.wav</ShortName>
-					<Path>SFX\Character\KLR_32\K32_OBJ\sfx_k32_obj_emp_charge_01_3B4C56C4.wem</Path>
+					<Path>SFX\Character\KLR_32\K32_OBJ\sfx_k32_obj_emp_charge_01_7DDC1147.wem</Path>
 				</File>
 				<File Id="995871476" Language="SFX">
 					<ShortName>Character\KLR_32\K32_CLOTH\sfx_k32_body_organic_layer_09.wav</ShortName>
