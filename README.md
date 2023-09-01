@@ -10,14 +10,15 @@ You can easily find here any audio that you need without need to look into the f
 
 Extracted Files - raw files extracted from Dead By Daylight<br>
 Converted Files - audio files converted into OGG format with correct structure and names<br>
-Help_Template.txt - additional file to help distinguish IDs
+CharacterDefinitions.md - additional file to help distinguish character audio IDs
 
 
 ## Useful Tools
 
 Collection of useful tools:
+* **[WwiseExtractor](https://github.com/BrandonItaly/WwiseExtractor)** - Converting audio files into OGG format with correct structure and names.
 * **[WEMConverter](https://www.mediafire.com/file/pr0e7w2a0no8oes/WemConverter.rar/file)** - Converting .WEM files to the OGG format.
-* **[WAVConverter](https://audio.online-convert.com/convert-to-wav)** - Converting audio files to the Waveform Audio File Format
+* **[WAVConverter](https://audio.online-convert.com/convert-to-wav)** - Converting audio files to the Waveform Audio File format.
 * **[WWISEUtil](https://github.com/hpxro7/wwiseutil/releases/download/1.1/wwiseutil-gui.exe)** - Extract audio from BNKs.
 
 ## Other
