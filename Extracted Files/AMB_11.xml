@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2215970220" GUID="{25829AFC-E638-4D7F-830F-9ECFE0238F32}" Language="SFX" Hash="894148330">
@@ -151,8 +151,8 @@
 						<ActionSetStateEntry Id="3959476925" Name="AudioStateOutdoor_11_Tutorial_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_Low" GUID="{9DA059D9-53F5-4DC6-B690-CED440CA6F5D}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3162259268" Name="AudioEvent_AM_T11_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Fence_WithTree" GUID="{30ABE2C1-26AA-4070-9AEA-D1839DCFD1ED}" DurationType="Infinite">
@@ -225,8 +225,8 @@
 						<ActionSetStateEntry Id="3832722393" Name="AudioStateOutdoor_11_Tutorial_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_High" GUID="{2D0B7A4F-290C-4AB1-96D5-C84D7BC489BA}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2460706176" Name="AudioEvent_AM_T11_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_High" GUID="{BD391A05-EBC0-41FE-86E4-CDF717F2EF69}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
@@ -257,7 +257,7 @@
 						<ActionSetStateEntry Id="3832722393" Name="AudioStateOutdoor_11_Tutorial_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_High" GUID="{2D0B7A4F-290C-4AB1-96D5-C84D7BC489BA}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1949156074" Name="AudioEvent_AM_T11_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_Low" GUID="{AE7CD03E-4D03-40D6-8E7A-588087CB26AD}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -326,7 +326,7 @@
 						<ActionSetStateEntry Id="3959476925" Name="AudioStateOutdoor_11_Tutorial_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_Low" GUID="{9DA059D9-53F5-4DC6-B690-CED440CA6F5D}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2385521222" Name="AudioEvent_AM_T11_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Forest_Med" GUID="{AB890FB4-422D-4985-B41F-4CAD3BB401AE}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -395,7 +395,7 @@
 						<ActionSetStateEntry Id="4127105941" Name="AudioStateOutdoor_11_Tutorial_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_Med" GUID="{5C8E4141-2E52-4E8E-A4B7-33A8E971AAF0}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="198774482" Name="AudioEvent_AM_T11_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Tile_11_Common_WIP\AudioEvent_AM_T11_Shack" GUID="{C7B32F3B-ADCC-4960-B9F3-9D84F79E7EA1}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -594,7 +594,7 @@
 						<ActionSetStateEntry Id="4127105941" Name="AudioStateOutdoor_11_Tutorial_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_Med" GUID="{5C8E4141-2E52-4E8E-A4B7-33A8E971AAF0}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2100992856" Name="AudioEvent_Rev_Int_11_Tutorial_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T11_Tutorial\AMB_T11_TILE\AM_Reverb_11_Tutorial\AudioEvent_Rev_Int_11_Tutorial_Shack" GUID="{96C33306-183E-41A8-9424-7DF88FE84657}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>

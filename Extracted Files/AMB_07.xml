@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192637" GUID="{9DAB0741-E4E0-4557-B6BC-3743E249BE3E}" Language="SFX" Hash="460823020">
+		<SoundBank Id="2199192637" GUID="{9DAB0741-E4E0-4557-B6BC-3743E249BE3E}" Language="SFX" Hash="548918530">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_07</ObjectPath>
 			<ShortName>AMB_07</ShortName>
 			<Path>AMB_07.bnk</Path>
@@ -194,9 +194,9 @@
 						<ActionSetStateEntry Id="4169098409" Name="AudioStateIndoor_07_Hospital_Bathroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_Bathroom" GUID="{035FBE73-10AC-4DB1-AD9D-270E4AC1C563}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2431272288" Name="AudioEvent_AM_Hospital_BedRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_BedRoom" GUID="{CB12BCEA-EABD-4856-9715-8A598F131C18}" DurationType="Infinite">
@@ -348,9 +348,9 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3163958153" Name="AudioEvent_AM_Hospital_Corridors" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_Corridors" GUID="{53F1B4E1-4C47-48A4-ABDE-9BAE0E35CBFD}" DurationType="Infinite">
@@ -522,9 +522,9 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1651566045" Name="AudioEvent_AM_Hospital_DoctorOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_DoctorOffice" GUID="{8C87BE9D-5EC0-4F37-B0E8-D2F9C3B91162}" DurationType="Infinite">
@@ -707,8 +707,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2156442168" Name="AudioEvent_AM_Hospital_ShockRoom_Surround" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_ShockRoom_Surround" GUID="{F43C8617-45A3-4A9D-9E3B-3BBE8CCF95CA}" DurationType="Infinite">
@@ -768,8 +768,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="533832824" Name="AudioEvent_AM_Hospital_WaitingRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AudioEvent_AM_Hospital_WaitingRoom" GUID="{622AE788-174B-46FF-A2FA-86F74E32B586}" DurationType="Infinite">
@@ -921,9 +921,9 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3995876026" Name="AudioEvent_AM_Intro_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AudioEvent_AM_Intro_07_Hospital" GUID="{2B7FA682-EC32-4EC0-B86D-56ABFD35D906}" DurationType="OneShot" DurationMin="8.832854" DurationMax="8.832854">
@@ -1072,8 +1072,8 @@
 						<ActionSetStateEntry Id="3456844892" Name="AudioStateOutdoor_07_Hospital_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateOutdoor_07_Hospital\AudioStateOutdoor_07_Hospital_Forest_Low" GUID="{58646E2B-02A9-4664-ABCB-8F24C0B72AF6}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3679173167" Name="AudioEvent_AM_T07_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Fence_WithTree" GUID="{AEAC1325-96AC-40D4-9D9E-0461A663DB6D}" DurationType="Infinite">
@@ -1146,8 +1146,8 @@
 						<ActionSetStateEntry Id="1285752122" Name="AudioStateOutdoor_07_Hospital_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateOutdoor_07_Hospital\AudioStateOutdoor_07_Hospital_Forest_High" GUID="{159B146F-0780-4CAB-97FA-ADE684B1F787}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3834001469" Name="AudioEvent_AM_T07_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_High" GUID="{69D8BA88-E00E-461D-93D8-48D3D5A16752}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
@@ -1178,7 +1178,7 @@
 						<ActionSetStateEntry Id="1285752122" Name="AudioStateOutdoor_07_Hospital_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateOutdoor_07_Hospital\AudioStateOutdoor_07_Hospital_Forest_High" GUID="{159B146F-0780-4CAB-97FA-ADE684B1F787}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3608220425" Name="AudioEvent_AM_T07_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_Low" GUID="{6B19C6A9-8D44-4E4A-968D-BA2905F57571}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -1247,7 +1247,7 @@
 						<ActionSetStateEntry Id="3456844892" Name="AudioStateOutdoor_07_Hospital_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateOutdoor_07_Hospital\AudioStateOutdoor_07_Hospital_Forest_Low" GUID="{58646E2B-02A9-4664-ABCB-8F24C0B72AF6}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4044291505" Name="AudioEvent_AM_T07_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Forest_Med" GUID="{83C7B122-DC0F-4870-AF06-EEE05A26F6C2}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -1316,7 +1316,7 @@
 						<ActionSetStateEntry Id="4094541552" Name="AudioStateOutdoor_07_Hospital_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateOutdoor_07_Hospital\AudioStateOutdoor_07_Hospital_Forest_Med" GUID="{228E600B-B5A2-43A3-9AF1-8B3F3DD2BE6E}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="235456795" Name="AudioEvent_AM_T07_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_TILE\AM_Tile_07_Common_WIP\AudioEvent_AM_T07_Shack" GUID="{DF60BD34-3CA2-4F54-8F6C-D828F5AED9B5}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -1503,7 +1503,7 @@
 						<ActionPostEventEntry Id="3995876026" Name="AudioEvent_AM_Intro_07_Hospital" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AudioEvent_AM_Intro_07_Hospital" GUID="{2B7FA682-EC32-4EC0-B86D-56ABFD35D906}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3615930555" Name="AudioEvent_Emitter_Electric_TeslaCoil" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_Emitter_Electric_TeslaCoil" GUID="{B018C926-22E9-49EB-88E9-D5F8388D1771}" MaxAttenuation="1700." DurationType="Infinite">
@@ -1591,7 +1591,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3485814705" Name="AudioEvent_T07_Emitter_WaterPipes" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T07_Hospital\AMB_T07_EMITTER\AudioEvent_T07_Emitter_WaterPipes" GUID="{383A8215-41BC-4172-AD44-27531C52FEAC}" MaxAttenuation="1700." DurationType="Infinite">

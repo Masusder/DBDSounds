@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970216" GUID="{FBF5E375-FD51-46BC-BABA-EE473B44915D}" Language="SFX" Hash="41040608">
+		<SoundBank Id="2215970216" GUID="{FBF5E375-FD51-46BC-BABA-EE473B44915D}" Language="SFX" Hash="532701924">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_15</ObjectPath>
 			<ShortName>AMB_15</ShortName>
 			<Path>AMB_15.bnk</Path>
@@ -170,8 +170,8 @@
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2314564042" Name="AudioEvent_AM_T15_Basement_Killer_Stairs" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AM_Tile_15_Common_WIP\AudioEvent_AM_T15_Basement_Killer_Stairs" GUID="{3075BE40-759F-4877-85C2-4BDABB335866}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -347,8 +347,8 @@
 						<ActionSetStateEntry Id="2860929818" Name="AudioStateOutdoor_15_Ukraine_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Forest_Low" GUID="{D3FB96A3-6CC0-41F0-BE6F-743F2624FD70}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4138928920" Name="AudioEvent_AM_T15_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AM_Tile_15_Common_WIP\AudioEvent_AM_T15_Fence_WithTree" GUID="{FD4FE1B5-8B87-497C-A527-E4EA8CFB7E3B}" DurationType="Infinite">
@@ -421,8 +421,8 @@
 						<ActionSetStateEntry Id="765183600" Name="AudioStateOutdoor_15_Ukraine_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Forest_High" GUID="{0D4ED128-647C-40B4-B4C6-67E1F50DC602}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2315113612" Name="AudioEvent_AM_T15_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AM_Tile_15_Common_WIP\AudioEvent_AM_T15_Forest_High" GUID="{958E9ADA-205B-4163-9B10-16C0BB2D65D9}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
@@ -453,7 +453,7 @@
 						<ActionSetStateEntry Id="765183600" Name="AudioStateOutdoor_15_Ukraine_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Forest_High" GUID="{0D4ED128-647C-40B4-B4C6-67E1F50DC602}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3996482126" Name="AudioEvent_AM_T15_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AM_Tile_15_Common_WIP\AudioEvent_AM_T15_Forest_Low" GUID="{3B01C957-A224-4D3F-88F9-D6A2C27FC5EA}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -522,7 +522,7 @@
 						<ActionSetStateEntry Id="2860929818" Name="AudioStateOutdoor_15_Ukraine_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Forest_Low" GUID="{D3FB96A3-6CC0-41F0-BE6F-743F2624FD70}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="406321802" Name="AudioEvent_AM_T15_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AM_Tile_15_Common_WIP\AudioEvent_AM_T15_Forest_Med" GUID="{2D945D9C-201E-4D95-B953-74CB83EA0F66}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -591,7 +591,7 @@
 						<ActionSetStateEntry Id="2223527510" Name="AudioStateOutdoor_15_Ukraine_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Forest_Med" GUID="{4D318AAA-5C18-4F55-B613-395A4E2D9A47}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="156380429" Name="AudioEvent_AM_Theme_15_Ukraine" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AudioEvent_AM_Theme_15_Ukraine" GUID="{DDAFC558-2A4F-41FE-87E3-CADC3650478A}" DurationType="Infinite">
@@ -704,7 +704,7 @@
 						<ActionPostEventEntry Id="1721534818" Name="AudioEvent_AM_Intro_15_Ukraine" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AudioEvent_AM_Intro_15_Ukraine" GUID="{68DB27D5-DE2D-4FDB-AF16-F84F4AD8E528}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1129971075" Name="AudioEvent_AM_Ukraine_Exterior" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Exterior" GUID="{1CA19B0D-09B1-440E-9277-2851EDC37C90}" DurationType="OneShot" DurationMin="0." DurationMax="12.450354">
@@ -783,8 +783,8 @@
 						<ActionSetStateEntry Id="3875949864" Name="AudioStateOutdoor_15_Ukraine_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Exterior" GUID="{9FE8B8A3-3312-4537-B0B6-6BAB5520DCF0}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2949243617" Name="AudioEvent_AM_Ukraine_Exterior_Desert" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Exterior_Desert" GUID="{AF1A2C34-1FA1-446C-9F38-4A07DA659EC6}" DurationType="OneShot" DurationMin="0." DurationMax="12.450354">
@@ -863,8 +863,8 @@
 						<ActionSetStateEntry Id="3875949864" Name="AudioStateOutdoor_15_Ukraine_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Exterior" GUID="{9FE8B8A3-3312-4537-B0B6-6BAB5520DCF0}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3664066744" Name="AudioEvent_AM_Ukraine_Fence" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Fence" GUID="{2275E899-5C39-443F-B82E-66663FC1B412}" DurationType="Infinite">
@@ -985,9 +985,9 @@
 						<ActionSetStateEntry Id="3875949864" Name="AudioStateOutdoor_15_Ukraine_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Exterior" GUID="{9FE8B8A3-3312-4537-B0B6-6BAB5520DCF0}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2713483336" Name="AudioEvent_AM_Ukraine_Maze" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Maze" GUID="{65D0F67F-6588-494C-9211-404A5BF32CB0}" DurationType="Infinite">
@@ -1099,9 +1099,9 @@
 						<ActionSetStateEntry Id="3875949864" Name="AudioStateOutdoor_15_Ukraine_Exterior" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateOutdoor_15_Ukraine\AudioStateOutdoor_15_Ukraine_Exterior" GUID="{9FE8B8A3-3312-4537-B0B6-6BAB5520DCF0}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3636805492" Name="AudioEvent_AM_Ukraine_Saloon_BedRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Saloon_BedRoom" GUID="{E5BBFA4F-1B72-412C-AF46-D8DBED4FA711}" DurationType="Infinite">
@@ -1205,8 +1205,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="913634271" Name="AudioEvent_AM_Ukraine_Saloon_Gameroom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Saloon_Gameroom" GUID="{B132BD49-E308-46E8-ACEC-333B7FBB76D3}" DurationType="Infinite">
@@ -1330,8 +1330,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4127981442" Name="AudioEvent_AM_Ukraine_Saloon_Mainroom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Saloon_Mainroom" GUID="{BBDD93E0-458A-4F29-AC0A-30EEAD4D1D1C}" DurationType="Infinite">
@@ -1455,8 +1455,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="109821743" Name="AudioEvent_AM_Ukraine_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AudioEvent_AM_Ukraine_Shack" GUID="{BABC24A7-FD76-4B94-AD2A-86BC17203745}" DurationType="Infinite">
@@ -1556,8 +1556,8 @@
 						<ActionSetStateEntry Id="2782855546" Name="AudioStateIndoor_15_Ukraine_Interior_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateIndoor_15_Ukraine\AudioStateIndoor_15_Ukraine_Interior_Shack" GUID="{CA1695D2-A787-4265-92A8-24C3F8133D7F}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3624206400" Name="AudioEvent_Emitter_LowWoodCreak" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_EMITTER\AudioEvent_Emitter_LowWoodCreak" GUID="{D79C679D-191A-4595-B797-109D43DC0F04}" MaxAttenuation="2500." DurationType="Infinite">
@@ -1584,7 +1584,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2974219423" Name="AudioEvent_Emitter_Windmill" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_EMITTER\AudioEvent_Emitter_Windmill" GUID="{BE70F2DD-3CF0-4FB7-A6AE-9A801134FA91}" MaxAttenuation="3400." DurationType="Infinite">
@@ -1595,7 +1595,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="10033106" Name="AudioEvent_Rev_Int_15_Ukraine_Basement" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T15_Ukraine\AMB_T15_TILE\AM_Reverb_15_Ukraine\AudioEvent_Rev_Int_15_Ukraine_Basement" GUID="{9AE8D4B8-F26E-4DAB-B027-D9AD902C79AC}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>

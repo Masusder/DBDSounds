@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970218" GUID="{0A4332AD-9D23-41E3-A0F3-21B0E042F5B2}" Language="SFX" Hash="1298165256">
+		<SoundBank Id="2215970218" GUID="{0A4332AD-9D23-41E3-A0F3-21B0E042F5B2}" Language="SFX" Hash="1923013143">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_17</ObjectPath>
 			<ShortName>AMB_17</ShortName>
 			<Path>AMB_17.bnk</Path>
@@ -134,8 +134,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1553520958" Name="AudioEvent_AM_T17_ArtRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_ArtRoom" GUID="{8717EA22-721B-4172-8DBF-89DC9B9EB457}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -243,8 +243,8 @@
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3401941978" Name="AudioEvent_AM_T17_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_Bathroom" GUID="{4CFDC29C-77D3-415A-99E3-445BBFB52474}" DurationType="OneShot" DurationMin="0." DurationMax="17.927189">
@@ -590,8 +590,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1904346431" Name="AudioEvent_AM_T17_EastOffice_SmallOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_EastOffice_SmallOffice" GUID="{741CDFC5-8A1D-458C-820D-C9F1DE893FDC}" DurationType="Infinite">
@@ -707,8 +707,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="749643889" Name="AudioEvent_AM_T17_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_Escape" GUID="{C859962D-5E9F-44CB-AE1C-EAB933E5F05A}" DurationType="Infinite">
@@ -782,8 +782,8 @@
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2584574275" Name="AudioEvent_AM_T17_Fence" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_Fence" GUID="{567C7F29-B346-41BE-9F3C-DC4723AF4785}" DurationType="Infinite">
@@ -856,8 +856,8 @@
 						<ActionSetStateEntry Id="953350907" Name="AudioStateOutdoor_17_Eclipse_Fence" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Fence" GUID="{38F37F2D-7E44-400F-8A06-53C42053C0C3}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3687630477" Name="AudioEvent_AM_T17_FireEscape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_FireEscape" GUID="{E9F16453-F6ED-452C-9689-6DBD971A99B0}" DurationType="Infinite">
@@ -930,8 +930,8 @@
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2996089229" Name="AudioEvent_AM_T17_FrontYard" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_FrontYard" GUID="{49EBBAE4-B9F2-4C11-BDBA-DEED78F4B408}" DurationType="Infinite">
@@ -1004,8 +1004,8 @@
 						<ActionSetStateEntry Id="3706458972" Name="AudioStateOutdoor_17_Eclipse_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Outdoor" GUID="{32150174-574F-45AB-A10D-C3A767638116}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3241423584" Name="AudioEvent_AM_T17_InterrogationRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_InterrogationRoom" GUID="{07487C40-9B3F-4B10-8D97-6F28BC419D61}" DurationType="Infinite">
@@ -1121,8 +1121,8 @@
 						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1380202962" Name="AudioEvent_AM_T17_LaundryRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_LaundryRoom" GUID="{C76529D7-A08A-4E00-83BE-3453132D2F9B}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -1272,8 +1272,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3325143382" Name="AudioEvent_AM_T17_Lounge" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_Lounge" GUID="{C413C23B-C8B0-4E14-90C0-805C3D76DCD3}" DurationType="Infinite">
@@ -1353,8 +1353,8 @@
 						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1859111566" Name="AudioEvent_AM_T17_MainHall" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\AudioEvent_AM_T17_MainHall" GUID="{441300A8-6F72-4C01-BC1C-12DB6168AE1B}" DurationType="Infinite">
@@ -1442,8 +1442,8 @@
 						<ActionSetStateEntry Id="3047480847" Name="AudioStateIndoor_17_Eclipse_MainHall" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_MainHall" GUID="{27111CE2-39B8-4368-9143-E6A221911956}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="426160019" Name="AudioEvent_AM_T17_ObservationRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_ObservationRoom" GUID="{4DE04450-CCF8-459B-90E1-4CD3B4608F6E}" DurationType="Infinite">
@@ -1559,8 +1559,8 @@
 						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3177659287" Name="AudioEvent_AM_T17_OperationsRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_OperationsRoom" GUID="{6D1C9F3E-8956-4723-A83C-80631D79173B}" DurationType="Infinite">
@@ -1654,8 +1654,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4265197536" Name="AudioEvent_AM_T17_PressRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_PressRoom" GUID="{C1EBD707-DCCA-4905-9390-10D7B3DEE710}" DurationType="Infinite">
@@ -1771,8 +1771,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="287928316" Name="AudioEvent_AM_T17_PrivateCollectionRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_PrivateCollectionRoom" GUID="{9F03BD29-E7E0-49CF-BF9D-EA5C18F51843}" DurationType="Infinite">
@@ -1888,8 +1888,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3862212943" Name="AudioEvent_AM_T17_Reception" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_Reception" GUID="{81E64279-BBDD-45A0-8970-D29469169B35}" DurationType="Infinite">
@@ -1969,8 +1969,8 @@
 						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3508264395" Name="AudioEvent_AM_T17_RecordsRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_RecordsRoom" GUID="{3A374370-C70D-41ED-8808-EA0F6B2EB63A}" DurationType="Infinite">
@@ -2064,8 +2064,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2741895610" Name="AudioEvent_AM_T17_Roof" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_Roof" GUID="{324D5D8E-8A9D-4079-B99C-250F460B33A1}" DurationType="Infinite">
@@ -2138,8 +2138,8 @@
 						<ActionSetStateEntry Id="4208631474" Name="AudioStateOutdoor_17_Eclipse_Roof" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateOutdoor_17_Eclipse\AudioStateOutdoor_17_Eclipse_Roof" GUID="{3C3DA9E2-F0F2-490C-9904-7CF153F68CE0}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3910818457" Name="AudioEvent_AM_T17_SafetyDepositRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_SafetyDepositRoom" GUID="{44729361-21C6-4353-AD1B-71E6778AEEA3}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -2254,8 +2254,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3909185783" Name="AudioEvent_AM_T17_STARSOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_STARSOffice" GUID="{C2B70A62-3314-4271-9B69-0FA677E9380B}" DurationType="Infinite">
@@ -2345,8 +2345,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3358513427" Name="AudioEvent_AM_T17_STARSOffice_SmallOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_STARSOffice_SmallOffice" GUID="{8447FC2A-B15B-4BCB-A81F-6AE44F036BDA}" DurationType="Infinite">
@@ -2436,8 +2436,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1493626920" Name="AudioEvent_AM_T17_WaitingRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_WaitingRoom" GUID="{061CBBB8-E675-4903-A780-A6CFF04D5521}" DurationType="Infinite">
@@ -2553,8 +2553,8 @@
 						<ActionSetStateEntry Id="3032491505" Name="AudioStateIndoor_17_Eclipse_Roomtone_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_02" GUID="{6046723E-B9BE-49DF-B0DE-B0802183C66E}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3996138603" Name="AudioEvent_AM_T17_WatchmansRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\EastWing\AudioEvent_AM_T17_WatchmansRoom" GUID="{943AE4F4-0056-4131-A913-04167D4428C8}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -2683,8 +2683,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1829927149" Name="AudioEvent_AM_T17_WestOffice_SmallOffice" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\WestWing\AudioEvent_AM_T17_WestOffice_SmallOffice" GUID="{432CA2F4-D004-451E-8146-820C216C1A1D}" DurationType="Infinite">
@@ -2800,8 +2800,8 @@
 						<ActionSetStateEntry Id="3032491506" Name="AudioStateIndoor_17_Eclipse_Roomtone_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_17_Eclipse\AudioStateIndoor_17_Eclipse\AudioStateIndoor_17_Eclipse_Roomtone_01" GUID="{733CB403-93E5-4D7D-B467-14F72A17B821}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2379039975" Name="AudioEvent_AM_Theme_17_Eclipse" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AudioEvent_AM_Theme_17_Eclipse" GUID="{83B50DE1-BED0-4416-9817-25E0E5318703}" DurationType="Infinite">
@@ -2976,7 +2976,7 @@
 						<ActionPostEventEntry Id="219383344" Name="AudioEvent_AM_Intro_17_Eclipse" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AudioEvent_AM_Intro_17_Eclipse" GUID="{9608022A-BA7A-489D-AF9A-4A72692D2DC9}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1382521033" Name="AudioEvent_Rev_Int_17_Eclipse_Bathroom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_TILE\AM_Reverb_17_Eclipse\AudioEvent_Rev_Int_17_Eclipse_Bathroom" GUID="{F0827E68-8F6B-4045-820D-93D0CBC6A6CD}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -2993,7 +2993,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2268160850" Name="AudioEvent_T17_Emitter_Clock" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_Clock" GUID="{9E81F8D1-7C36-45DD-B782-437292E071D6}" MaxAttenuation="2500." DurationType="Infinite">
@@ -3004,7 +3004,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2440139794" Name="AudioEvent_T17_Emitter_EntitySurface" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_EntitySurface" GUID="{6BC01C9C-E5A7-4F5A-91E5-AF7A5935D45E}" MaxAttenuation="450." DurationType="Infinite">
@@ -3055,7 +3055,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="370052547" Name="AudioEvent_T17_Emitter_Rain_Entrance" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_Rain_Entrance" GUID="{1E92B274-A641-4E72-B061-5FA784966B62}" MaxAttenuation="1200." DurationType="Infinite">
@@ -3074,7 +3074,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1591657033" Name="AudioEvent_T17_Emitter_ToiletOverflow" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_ToiletOverflow" GUID="{92A794BA-976C-47F9-80CF-BE0C25D5A878}" MaxAttenuation="450." DurationType="Infinite">
@@ -3085,7 +3085,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1967862297" Name="AudioEvent_T17_Emitter_Ventilation" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_Ventilation" GUID="{F29F80AD-189D-447D-954A-800FCB2A6D56}" MaxAttenuation="850." DurationType="Infinite">
@@ -3096,7 +3096,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1169751334" Name="AudioEvent_T17_Emitter_WindowRain" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_WindowRain" GUID="{AC4A8492-540C-4E2F-8C22-05257D9A0163}" MaxAttenuation="850." DurationType="Infinite">
@@ -3107,7 +3107,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3712338046" Name="AudioEvent_T17_Emitter_WindowRainOpen" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_WindowRainOpen" GUID="{51FB57BE-90E1-4E02-AFC4-CA40B84A99F5}" MaxAttenuation="850." DurationType="Infinite">
@@ -3118,7 +3118,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3837149601" Name="AudioEvent_T17_Emitter_WindowsRainBig" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_WindowsRainBig" GUID="{4219BA28-956B-4FB7-8AAD-15B2AB8E70CB}" MaxAttenuation="1700." DurationType="Infinite">
@@ -3189,7 +3189,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="551013395" Name="AudioEvent_T17_Emitter_ZombieHittingWindow_Hit" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_ZombieHittingWindow_Hit" GUID="{F8D9C181-5E38-48CC-8C8F-FB43CC842074}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.55" DurationMax="1.209146">
@@ -3220,7 +3220,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="113679150" Name="AudioEvent_T17_Emitter_ZombieHittingWindow_Loop" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T17_Eclipse\AMB_T17_EMITTER\AudioEvent_T17_Emitter_ZombieHittingWindow_Loop" GUID="{2BAE2941-6B6A-4318-B4A2-2E7096199D3B}" MaxAttenuation="850." DurationType="Infinite">
@@ -3279,7 +3279,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>

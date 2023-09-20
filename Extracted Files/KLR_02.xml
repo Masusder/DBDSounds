@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115651" GUID="{D4C93B70-A39C-4B1E-AA00-8173CAAF1FAB}" Language="SFX" Hash="1612438533">
+		<SoundBank Id="1491115651" GUID="{D4C93B70-A39C-4B1E-AA00-8173CAAF1FAB}" Language="SFX" Hash="3047290427">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_02</ObjectPath>
 			<ShortName>KLR_02</ShortName>
 			<Path>KLR_02.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3053713655" Name="AudioEvent_K02_CLOTH_Custom_Outfit010_Land" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_CLOTH\AudioEvent_K02_CLOTH_Custom_Outfit010_Land" GUID="{7DEC1CBD-2D9A-414E-8AA9-8C239EFD936F}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="944588367" Name="AudioEvent_K02_CLOTH_Custom_Outfit010_Move" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_CLOTH\AudioEvent_K02_CLOTH_Custom_Outfit010_Move" GUID="{584ACF44-C768-484C-BA4D-0B0214FB7847}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
+					<ExcludedMemoryFiles>
+						<File Id="14538281" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="89086329" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="257741734" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_07.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="602262336" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_05.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="631654988" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_10.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="756797141" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_08.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="770499314" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_06.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="781068528" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="827753535" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="900317027" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_k02_bodymove_default_09.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_09_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="545560579" Name="AudioEvent_K02_CLOTH_Custom_Outfit010_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_CLOTH\AudioEvent_K02_CLOTH_Custom_Outfit010_ShuffleHigh" GUID="{9B50E5F7-67D3-4A9F-91A5-C1ECA73A1AE9}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
+				<Event Id="4076974663" Name="AudioEvent_K02_CLOTH_Custom_Outfit010_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_CLOTH\AudioEvent_K02_CLOTH_Custom_Outfit010_ShuffleLow" GUID="{DFF6EDCF-6FC2-46CF-8BE9-B92D20EACE10}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
 				<Event Id="2959624868" Name="AudioEvent_K02_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_CLOTH\AudioEvent_K02_CLOTH_Default_Land" GUID="{4316105E-79B3-4A15-A476-221B7B996D13}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1300324012" Name="AudioEvent_K02_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_CLOTH\AudioEvent_K02_CLOTH_Default_Move" GUID="{275C2FBA-97BD-46FF-8928-E3A49A2D6F52}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
@@ -92,7 +143,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2142545388" Name="AudioEvent_K02_OBJ_HairChain_Loop" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_OBJECT\AudioEvent_K02_OBJ_HairChain_Loop" GUID="{08E0C216-905C-4C86-9478-5C4AF8409591}" MaxAttenuation="450." DurationType="Infinite">
@@ -177,8 +228,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1160782894" Name="AudioEvent_K02_PWR_Invisibility_Burn_Out" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_POWER\AudioEvent_K02_PWR_Invisibility_Burn_Out" GUID="{74DC49C7-097E-47D4-90EE-DCF75D40B705}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.310431" DurationMax="3.335374">
@@ -235,7 +286,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2624000238" Name="AudioEvent_K02_PWR_Invisibility_Stinger_ON" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_POWER\AudioEvent_K02_PWR_Invisibility_Stinger_ON" GUID="{70C100FA-5E76-4026-A900-684A492AAA06}" DurationType="OneShot" DurationMin="3.303628" DurationMax="3.533787">
@@ -254,7 +305,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="385824489" Name="AudioEvent_K02_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_STATUS\AudioEvent_K02_Status_Start" GUID="{6BF3626A-BE80-49C0-9FCE-5178F687708F}" MaxAttenuation="1900." DurationType="Infinite">
@@ -262,6 +313,18 @@
 						<File Id="32250365" Language="SFX">
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_3.wav</ShortName>
 							<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_3_67368C31.wem</Path>
+						</File>
+						<File Id="32948419" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="90445973" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_08.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="167376035" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="236093711" Language="SFX">
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_1.wav</ShortName>
@@ -275,13 +338,33 @@
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_5.wav</ShortName>
 							<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_5_67368C31.wem</Path>
 						</File>
+						<File Id="325728643" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_06.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="458168990" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="458767035" Language="SFX">
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_10.wav</ShortName>
 							<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_10_67368C31.wem</Path>
 						</File>
+						<File Id="490747173" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_07.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_07_7FA8D501.wem</Path>
+						</File>
 						<File Id="491554414" Language="SFX">
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_8.wav</ShortName>
 							<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_8_67368C31.wem</Path>
+						</File>
+						<File Id="508359357" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="648170318" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_05.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="761598393" Language="SFX">
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_2.wav</ShortName>
@@ -295,13 +378,483 @@
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_4.wav</ShortName>
 							<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_4_67368C31.wem</Path>
 						</File>
+						<File Id="878545478" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_09.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="1021469585" Language="SFX">
+							<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_10.wav</ShortName>
+							<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_10_7FA8D501.wem</Path>
+						</File>
 						<File Id="1044781980" Language="SFX">
 							<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_6.wav</ShortName>
 							<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_6_67368C31.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{11DEEF2A-7791-4CC3-9C10-E68B18576D85}">
+							<Media>
+								<File Id="32948419"/>
+								<File Id="90445973"/>
+								<File Id="167376035"/>
+								<File Id="325728643"/>
+								<File Id="458168990"/>
+								<File Id="490747173"/>
+								<File Id="508359357"/>
+								<File Id="648170318"/>
+								<File Id="878545478"/>
+								<File Id="1021469585"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3375675836" Name="AudioEvent_K02_WPN_Custom_W017_Arm" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Custom_W017_Arm" GUID="{056D84FD-BA4B-4F0D-B622-B371D7D0534D}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.202667" DurationMax="0.330667">
+					<ExcludedMemoryFiles>
+						<File Id="16748163" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_01_67368C31.wem</Path>
+						</File>
+						<File Id="207067874" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_08.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_08_67368C31.wem</Path>
+						</File>
+						<File Id="390642144" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_04_67368C31.wem</Path>
+						</File>
+						<File Id="500030796" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_12.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_12_67368C31.wem</Path>
+						</File>
+						<File Id="509584324" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_09.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_09_67368C31.wem</Path>
+						</File>
+						<File Id="534057079" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_02_67368C31.wem</Path>
+						</File>
+						<File Id="545433262" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_03_67368C31.wem</Path>
+						</File>
+						<File Id="567647412" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_06.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_06_67368C31.wem</Path>
+						</File>
+						<File Id="783340093" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_05.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_05_67368C31.wem</Path>
+						</File>
+						<File Id="916395272" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_07.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_07_67368C31.wem</Path>
+						</File>
+						<File Id="932071297" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_10.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_10_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2101494170" Name="AudioEvent_K02_WPN_Custom_W017_Attack" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Custom_W017_Attack" GUID="{56053635-101A-4D17-B896-A305CCAB2B3D}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.620027" DurationMax="0.99829">
+					<ExcludedMemoryFiles>
+						<File Id="21166008" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_07.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="223054537" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="236355464" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_04_67368C31.wem</Path>
+						</File>
+						<File Id="269385524" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_10.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="382808477" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="492465613" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_02_67368C31.wem</Path>
+						</File>
+						<File Id="513390366" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="620163597" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="680822507" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_06.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="826728342" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_03_67368C31.wem</Path>
+						</File>
+						<File Id="838510341" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_attack_add_01_67368C31.wem</Path>
+						</File>
+						<File Id="925948778" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_08.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="949965785" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_09.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="1016081979" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2161447765" Name="AudioEvent_K02_WPN_Custom_W017_Clean" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Custom_W017_Clean" GUID="{7992F8FD-DB8C-4009-B337-6A34A77F90C7}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.347269" DurationMax="0.525903">
+					<ExcludedMemoryFiles>
+						<File Id="10907943" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_01_67368C31.wem</Path>
+						</File>
+						<File Id="93999926" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_02_67368C31.wem</Path>
+						</File>
+						<File Id="252826496" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_02_67368C31.wem</Path>
+						</File>
+						<File Id="621307564" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_03_67368C31.wem</Path>
+						</File>
+						<File Id="717418591" Language="SFX">
+							<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_01_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1027436520" Name="AudioEvent_K02_WPN_Custom_W017_Impact" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Custom_W017_Impact" GUID="{3E68E348-8E3F-42B9-8CA8-5303818346E1}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.437333" DurationMax="1.">
+					<ExcludedMemoryFiles>
+						<File Id="66083039" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="139364789" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="243526327" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_06.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="311891183" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_07.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="686993794" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="802591617" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="991472147" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_05.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{82BAB65C-92F7-4F63-990C-4F5495B4979B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2792490C-9C7E-402A-B630-E1AEE10B67B0}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{816BCA21-2268-4487-BF96-A5B26BCB03FC}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1C58031-724C-47CC-9412-B4B8142690DD}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E7DBB43-636B-4B2D-8A1E-F99FB66D3ACB}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{927B6344-7A96-4DF4-AFE4-4E141E97A81F}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{300CE055-A091-4BE3-A8A0-DE735DDACBE8}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CFDEF5B-7E20-4AA0-95F3-2DEDB396AF1F}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82BAB65C-92F7-4F63-990C-4F5495B4979B}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E10DE96C-22AC-408E-9FC6-443E95F6B542}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5E16CA95-78BB-463D-B626-96B1DCBF0FDD}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32437BA7-BDFA-4FD5-9B9B-D294FFFD6D55}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D1454CB1-47C3-40C2-A2DE-B7D285618338}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9947A5B8-0A0B-4897-BF44-2905F208E8DD}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D024D7D1-8B15-432A-933B-97316C21555A}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A970F4EA-165B-4AC1-A78C-73F51FC9EA9D}">
+							<Media>
+								<File Id="66083039"/>
+								<File Id="139364789"/>
+								<File Id="243526327"/>
+								<File Id="311891183"/>
+								<File Id="686993794"/>
+								<File Id="802591617"/>
+								<File Id="991472147"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1115921733" Name="AudioEvent_K02_WPN_Custom_W017_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Custom_W017_Impact_Survivor" GUID="{2940A611-75A5-4417-942B-18D7AF83E813}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
+					<ExcludedMemoryFiles>
+						<File Id="219903925" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_07.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="251345265" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_04.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_04_67368C31.wem</Path>
+						</File>
+						<File Id="275647920" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_06.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="286185922" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_03.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_03_67368C31.wem</Path>
+						</File>
+						<File Id="336216285" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="349965470" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="402790911" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_01.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_01_67368C31.wem</Path>
+						</File>
+						<File Id="485182026" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_08.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="578695436" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_02.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_02_67368C31.wem</Path>
+						</File>
+						<File Id="712245255" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_09.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="890476764" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_10.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="892871988" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1042828504" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="790404801" Name="AudioEvent_K02_WPN_Custom_W017_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Custom_W017_PullOut" GUID="{6ED3C35C-B89A-4652-8152-44300A3A8629}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.523146" DurationMax="0.665146">
+					<ExcludedMemoryFiles>
+						<File Id="176104982" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_06.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="389405544" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="597890050" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="599424538" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="905590636" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_04.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="942799572" Language="SFX">
+							<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_05.wav</ShortName>
+							<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="37563527" Name="AudioEvent_K02_WPN_Default_MacheteSkull_Arm" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Default_MacheteSkull_Arm" GUID="{400A80FF-3095-4F28-9F67-4A898374EF34}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.202667" DurationMax="0.330667">
@@ -352,7 +905,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3427206175" Name="AudioEvent_K02_WPN_Default_MacheteSkull_Attack" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Default_MacheteSkull_Attack" GUID="{A1BC4089-94E8-4808-9620-0E8C6E66DDEE}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.620027" DurationMax="0.99829">
@@ -415,7 +968,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4241409562" Name="AudioEvent_K02_WPN_Default_MacheteSkull_Clean" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Default_MacheteSkull_Clean" GUID="{EE6D0F48-A29C-46F3-898D-8C3F2D378E3F}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.347269" DurationMax="0.525903">
@@ -442,7 +995,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="67997853" Name="AudioEvent_K02_WPN_Default_MacheteSkull_Impact" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Default_MacheteSkull_Impact" GUID="{3287848D-CE24-4229-8E51-E30E7E0C7648}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.437333" DurationMax="1.">
@@ -676,7 +1229,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="549708822" Name="AudioEvent_K02_WPN_Default_MacheteSkull_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Default_MacheteSkull_Impact_Survivor" GUID="{3FBB9FFC-2EF9-4A1F-A63E-C59C633D360C}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -731,7 +1284,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="791977094" Name="AudioEvent_K02_WPN_Default_MacheteSkull_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_WEAPON\AudioEvent_K02_WPN_Default_MacheteSkull_PullOut" GUID="{0BC99C2C-FACB-41F7-91D4-91FE739E7301}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.202667" DurationMax="0.330667">
@@ -786,7 +1339,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
@@ -802,6 +1355,10 @@
 				<File Id="16748163" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_01.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_01_67368C31.wem</Path>
+				</File>
+				<File Id="21166008" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_07.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="28446994" Language="SFX">
 					<ShortName>Impact\MacheteSkull_Impact_Hit_Bounce_02.wav</ShortName>
@@ -819,6 +1376,10 @@
 					<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_3.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_3_67368C31.wem</Path>
 				</File>
+				<File Id="32948419" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_04.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="59267430" Language="SFX">
 					<ShortName>Haptic\K02\sfx_invisibility_bell_single_03_haptic.wav</ShortName>
 					<Path>SFX\Haptic\K02\sfx_invisibility_bell_single_03_haptic_8729A8D0.wem</Path>
@@ -827,9 +1388,17 @@
 					<ShortName>Impact\MacheteSkull_Impact_Hit_Bounce_06.wav</ShortName>
 					<Path>SFX\Impact\MacheteSkull_Impact_Hit_Bounce_06_67368C31.wem</Path>
 				</File>
+				<File Id="66083039" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_01.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="89086329" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_k02_bodymove_default_04.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="90445973" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_08.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="93999926" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_02.wav</ShortName>
@@ -847,6 +1416,10 @@
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_01.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_01_67368C31.wem</Path>
 				</File>
+				<File Id="139364789" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_03.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="153442851" Language="SFX">
 					<ShortName>Character\KLR_02\vo_killer_banshee_grunt_hurt_06.wav</ShortName>
 					<Path>SFX\Character\KLR_02\vo_killer_banshee_grunt_hurt_06_67368C31.wem</Path>
@@ -855,6 +1428,10 @@
 					<ShortName>Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_2D_Bounce_04.wav</ShortName>
 					<Path>SFX\Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_2D_Bounce_04_67368C31.wem</Path>
 				</File>
+				<File Id="167376035" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_03.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="172767471" Language="SFX">
 					<ShortName>Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_Bounce_02.wav</ShortName>
 					<Path>SFX\Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_Bounce_02_67368C31.wem</Path>
@@ -862,6 +1439,10 @@
 				<File Id="172986262" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_06.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_06_67368C31.wem</Path>
+				</File>
+				<File Id="176104982" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_06.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="184714902" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_invisibility_cracks_02.wav</ShortName>
@@ -879,6 +1460,14 @@
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_08.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_08_67368C31.wem</Path>
 				</File>
+				<File Id="219903925" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_07.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="223054537" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_05.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="236093711" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_1.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_1_67368C31.wem</Path>
@@ -890,6 +1479,10 @@
 				<File Id="238332293" Language="SFX">
 					<ShortName>Haptic\K02\sfx_invisibility_bell_single_04_haptic.wav</ShortName>
 					<Path>SFX\Haptic\K02\sfx_invisibility_bell_single_04_haptic_8B2E6134.wem</Path>
+				</File>
+				<File Id="243526327" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_06.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="252826496" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_02.wav</ShortName>
@@ -907,9 +1500,17 @@
 					<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_9.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_9_67368C31.wem</Path>
 				</File>
+				<File Id="269385524" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_10.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_10_7FA8D501.wem</Path>
+				</File>
 				<File Id="269875360" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_05.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_05_67368C31.wem</Path>
+				</File>
+				<File Id="275647920" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_06.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="281115449" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_5.wav</ShortName>
@@ -923,17 +1524,41 @@
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_04.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_04_67368C31.wem</Path>
 				</File>
+				<File Id="311891183" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_07.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="322541378" Language="SFX">
 					<ShortName>Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_Bounce_01.wav</ShortName>
 					<Path>SFX\Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_Bounce_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="325728643" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_06.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="336216285" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_01.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="349965470" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_03.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="371027384" Language="SFX">
 					<ShortName>Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_2D_Bounce_01.wav</ShortName>
 					<Path>SFX\Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_2D_Bounce_01_67368C31.wem</Path>
 				</File>
+				<File Id="382808477" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_03.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="385356361" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_09.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_09_67368C31.wem</Path>
+				</File>
+				<File Id="389405544" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_02.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="390642144" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_04.wav</ShortName>
@@ -951,6 +1576,10 @@
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_07.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_07_67368C31.wem</Path>
 				</File>
+				<File Id="458168990" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_02.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="458767035" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_10.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_banshee_normal_breath_10_67368C31.wem</Path>
@@ -962,6 +1591,14 @@
 				<File Id="472235350" Language="SFX">
 					<ShortName>Haptic\K02\sfx_invisibility_bell_single_02_haptic.wav</ShortName>
 					<Path>SFX\Haptic\K02\sfx_invisibility_bell_single_02_haptic_6F548E14.wem</Path>
+				</File>
+				<File Id="485182026" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_08.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="490747173" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_07.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="491554414" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_8.wav</ShortName>
@@ -979,9 +1616,17 @@
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_12.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_12_67368C31.wem</Path>
 				</File>
+				<File Id="508359357" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_01.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="509584324" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_09.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_09_67368C31.wem</Path>
+				</File>
+				<File Id="513390366" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_01.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="521306155" Language="SFX">
 					<ShortName>Character\KLR_02\vo_killer_banshee_grunt_hurt_03.wav</ShortName>
@@ -1027,9 +1672,21 @@
 					<ShortName>Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_Bounce_03.wav</ShortName>
 					<Path>SFX\Character\KLR_02\InvisibilityBell\Invisibility_Bell_Single_Bounce_03_67368C31.wem</Path>
 				</File>
+				<File Id="597890050" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_03.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="599424538" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_01.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="602262336" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_k02_bodymove_default_05.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="620163597" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_04.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="621307564" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_metal_03.wav</ShortName>
@@ -1043,9 +1700,21 @@
 					<ShortName>Haptic\K02\sfx_invisibility_bell_single_01_haptic.wav</ShortName>
 					<Path>SFX\Haptic\K02\sfx_invisibility_bell_single_01_haptic_45331A93.wem</Path>
 				</File>
+				<File Id="648170318" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_05.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="652036920" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_02.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Attack_Bounce_02_67368C31.wem</Path>
+				</File>
+				<File Id="680822507" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_06.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="686993794" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_04.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="697210338" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\sfx_k02_wpn_default_impact_survivor_blunt_09.wav</ShortName>
@@ -1058,6 +1727,10 @@
 				<File Id="708908149" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_invisibility_off_ghost_02.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_invisibility_off_ghost_02_67368C31.wem</Path>
+				</File>
+				<File Id="712245255" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_09.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="717418591" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\sfx_macheteskull_clean_01.wav</ShortName>
@@ -1094,6 +1767,10 @@
 				<File Id="783340093" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_05.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_05_67368C31.wem</Path>
+				</File>
+				<File Id="802591617" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_02.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="804795390" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_invisibility_on_ghost_01.wav</ShortName>
@@ -1143,13 +1820,33 @@
 					<ShortName>Character\KLR_02\sfx_killer_invisibility_cracks_01.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_invisibility_cracks_01_67368C31.wem</Path>
 				</File>
+				<File Id="878545478" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_09.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="890476764" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_10.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="892871988" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_04.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="900317027" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_k02_bodymove_default_09.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_k02_bodymove_default_09_7FA8D501.wem</Path>
 				</File>
+				<File Id="905590636" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_04.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="916395272" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_07.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_07_67368C31.wem</Path>
+				</File>
+				<File Id="925948778" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_08.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="932071297" Language="SFX">
 					<ShortName>Character\KLR_02\MacheteSkull\MacheteSkull_Bones_Bounce_10.wav</ShortName>
@@ -1158,6 +1855,14 @@
 				<File Id="936178983" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_invisibility_off_ghost_01.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_invisibility_off_ghost_01_67368C31.wem</Path>
+				</File>
+				<File Id="942799572" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_05.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_pull_out_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="949965785" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_09.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="952245441" Language="SFX">
 					<ShortName>Impact\MacheteSkull_Impact_Hit_Bounce_04.wav</ShortName>
@@ -1183,9 +1888,25 @@
 					<ShortName>Character\KLR_02\MacheteSkull\sfx_k02_wpn_default_impact_survivor_blunt_10.wav</ShortName>
 					<Path>SFX\Character\KLR_02\MacheteSkull\sfx_k02_wpn_default_impact_survivor_blunt_10_7FA8D501.wem</Path>
 				</File>
+				<File Id="991472147" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_05.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_impact_hit_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="1003639127" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_invisibility_cracks_03.wav</ShortName>
 					<Path>SFX\Character\KLR_02\sfx_killer_invisibility_cracks_03_67368C31.wem</Path>
+				</File>
+				<File Id="1016081979" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_02.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_attack_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1021469585" Language="SFX">
+					<ShortName>Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_10.wav</ShortName>
+					<Path>SFX\Character\KLR_02\K02_CUSTO\vo_k02_outfit010_status_dribble_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="1042828504" Language="SFX">
+					<ShortName>Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_02.wav</ShortName>
+					<Path>SFX\Character\KLR_02\W017\sfx_k02_wpn_custom_w017_survivor_impact_cut_flesh_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="1044781980" Language="SFX">
 					<ShortName>Character\KLR_02\sfx_killer_banshee_normal_breath_6.wav</ShortName>
@@ -1247,6 +1968,82 @@
 						<Switch Id="3598975185" Name="HardWood" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\HardWood" GUID="{425080A3-52A3-4900-B570-E5014B94C732}"/>
 						<Switch Id="1968058251" Name="Ceramic" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Ceramic" GUID="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}"/>
 						<Switch Id="2063536503" Name="Mannequin" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Mannequin" GUID="{8279CE4B-BBF1-451B-AD23-36B443858ECC}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2095043200" Name="AudioSwitchKillerClothes" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes" GUID="{60943264-04D0-45BB-8393-3F12D125971D}">
+					<Switches>
+						<Switch Id="1597592862" Name="K01_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01_CLOTH_Default" GUID="{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}"/>
+						<Switch Id="2506588901" Name="K02_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Default" GUID="{852645FB-1A4B-4E68-AE7D-B5532A2B9A8C}"/>
+						<Switch Id="3951992612" Name="K03_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Default" GUID="{52059F07-AD7C-443A-B7CD-408A2DF72A73}"/>
+						<Switch Id="3621773395" Name="K04_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K04_CLOTH_Default" GUID="{FA85B262-676B-4934-9BAA-6EDDFBE2427A}"/>
+						<Switch Id="282547442" Name="K05_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K05_CLOTH_Default" GUID="{85432483-B815-406D-A447-040EBFEB8428}"/>
+						<Switch Id="3595093161" Name="K06_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K06_CLOTH_Default" GUID="{FD15A244-6CCB-4DFA-AB31-7944F0A7BEEB}"/>
+						<Switch Id="3343761752" Name="K07_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K07_CLOTH_Default" GUID="{C7D29F78-C1AA-4C52-8799-B4F037DAC6D0}"/>
+						<Switch Id="1255168151" Name="K08_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K08_CLOTH_Default" GUID="{C1E46461-C9DC-499F-91E9-843456F94804}"/>
+						<Switch Id="1595572390" Name="K09_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K09_CLOTH_Default" GUID="{51672655-BA07-49BF-A8C8-1691D245695F}"/>
+						<Switch Id="1563546100" Name="K10_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K10_CLOTH_Default" GUID="{3E84E6B2-107B-494E-9CBA-A73BCF8B762E}"/>
+						<Switch Id="3568432309" Name="K11_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K11_CLOTH_Default" GUID="{86069E24-7D78-4291-83C1-9E89A0280E9F}"/>
+						<Switch Id="4291052270" Name="K12_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K12_CLOTH_Default" GUID="{4F5286A8-142B-4E54-8C21-C4C5EC8B7D21}"/>
+						<Switch Id="2132863809" Name="K13_CLOTH_Custom_Bubbles" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Custom_Bubbles" GUID="{935A71B5-DF49-416D-A374-DB953A943D5F}"/>
+						<Switch Id="2458719007" Name="K13_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Default" GUID="{D076A5EA-63B7-49D7-8790-5C78D0724A03}"/>
+						<Switch Id="3839687592" Name="K14_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Default" GUID="{C82A353A-6DB7-40AA-B76D-3AA0374D1BD1}"/>
+						<Switch Id="2745510905" Name="K15_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K15_CLOTH_Default" GUID="{E32D5974-A3C3-4B14-BBCA-ACD07AEB6E0A}"/>
+						<Switch Id="3914468034" Name="K16_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K16_CLOTH_Default" GUID="{6801144D-89FD-420D-85C6-F5591AE29FA8}"/>
+						<Switch Id="266073635" Name="K17_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K17_CLOTH_Default" GUID="{F24CE2AF-85D8-40DC-A7DA-368B26EFE0AD}"/>
+						<Switch Id="3464499022" Name="K18_CLOTH_Custom_Fur" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Custom_Fur" GUID="{5743BD22-F8CA-43C2-BACF-06DCA962788F}"/>
+						<Switch Id="1807990108" Name="K18_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Default" GUID="{C1511352-06BA-4963-8BED-996B96F27996}"/>
+						<Switch Id="3300993853" Name="K19_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K19_CLOTH_Default" GUID="{A94DC4B7-4B96-483E-8CB5-7D7C372735F2}"/>
+						<Switch Id="1096780817" Name="K20_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K20_CLOTH_Default" GUID="{C3418A61-9049-46A5-B208-C1A2FB7A7366}"/>
+						<Switch Id="2548824896" Name="K21_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K21_CLOTH_Default" GUID="{B4E52013-C09F-40A5-BD9B-F7E7E572D970}"/>
+						<Switch Id="797234414" Name="K22_CLOTH_Custom_FishAndGuts" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Custom_FishAndGuts" GUID="{846DE21D-B297-4392-99F2-E088E4F49C71}"/>
+						<Switch Id="2210551835" Name="K22_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Default" GUID="{8A657979-01E3-4185-8A68-3A3F7352FAAE}"/>
+						<Switch Id="2951853188" Name="K22_CLOTH_Default_Twin" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Default_Twin" GUID="{B537246C-DEFC-4927-9A9D-55AD22980F1B}"/>
+						<Switch Id="2848922042" Name="K23_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K23_CLOTH_Default" GUID="{6D2C8DCA-1207-49A7-9248-94E767297DAD}"/>
+						<Switch Id="850591949" Name="K24_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K24_CLOTH_Default" GUID="{4811230D-DB0B-42E6-A63A-9E6679B4901C}"/>
+						<Switch Id="924976172" Name="K25_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K25_CLOTH_Default" GUID="{5AE5642C-B420-478F-B5E6-701E17CE413E}"/>
+						<Switch Id="1929999991" Name="K26_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K26_CLOTH_Default" GUID="{B1ED8674-7C0A-4008-BD2B-9433988D7FB7}"/>
+						<Switch Id="2346445888" Name="K23_CLOTH_Custom_Valentines" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K23_CLOTH_Custom_Valentines" GUID="{D5EA5C56-CB06-41B4-9410-BC84CC832F07}"/>
+						<Switch Id="522129414" Name="K27_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default" GUID="{8D5E8A81-E2EE-4497-9351-E5E5041370CC}"/>
+						<Switch Id="3229799049" Name="K28_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Default" GUID="{D5F36BA7-38E7-4230-81D8-589ECDFF396B}"/>
+						<Switch Id="632232018" Name="K28_CLOTH_Custom_6thAnniversary" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_6thAnniversary" GUID="{ABDB3AB2-164F-409E-BB61-969651379ACC}"/>
+						<Switch Id="786316536" Name="K28_CLOTH_Custom_Dolls" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Dolls" GUID="{4D113732-C992-4942-B38D-E9DC2FEC6A5C}"/>
+						<Switch Id="2605755275" Name="K28_CLOTH_Custom_SkeletonMass" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_SkeletonMass" GUID="{79A76B3F-7636-46D9-A973-0115DF295A6E}"/>
+						<Switch Id="507559864" Name="K29_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Default" GUID="{5A74A9A3-72DB-413A-9B4A-234E56C38A9C}"/>
+						<Switch Id="202068782" Name="K29_CLOTH_Custom_Stars" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Custom_Stars" GUID="{B94B102D-235A-43F4-96E5-2EE40E7081FC}"/>
+						<Switch Id="3395721558" Name="K30_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default" GUID="{10717295-6CE4-4024-A2AB-8E1DD27E6D1E}"/>
+						<Switch Id="4271573973" Name="K30_CLOTH_Default_TheAssassin" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheAssassin" GUID="{824848EA-13DD-4F24-9BB7-A68A58018D92}"/>
+						<Switch Id="3257950157" Name="K30_CLOTH_Default_TheExecutioner" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheExecutioner" GUID="{571A1577-771B-4FD5-8313-19C8B587E1ED}"/>
+						<Switch Id="1741194691" Name="K30_CLOTH_Default_TheJailer" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheJailer" GUID="{7B9F14E5-29D9-450A-A39D-FA7A9FBE6FAE}"/>
+						<Switch Id="320279088" Name="K30_CLOTH_Custom_EnchantedPlates" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Custom_EnchantedPlates" GUID="{047E2196-6E44-4A65-B02D-09D934AE1618}"/>
+						<Switch Id="217115922" Name="K23_CLOTH_Custom_Sweets" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K23_CLOTH_Custom_Sweets" GUID="{ADCCE966-A19D-4937-A92F-73E9681CCC26}"/>
+						<Switch Id="3867504989" Name="K28_CLOTH_Custom_Frosty" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Frosty" GUID="{3F9AF9FE-2AEA-482C-9B0F-725EED31644F}"/>
+						<Switch Id="367360899" Name="K21_CLOTH_Custom_Outfit12" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K21_CLOTH_Custom_Outfit12" GUID="{9CA0D4C0-864B-47FF-A015-52281155E188}"/>
+						<Switch Id="3650961415" Name="K31_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K31_CLOTH_Default" GUID="{CB57DC9F-80AC-4FF8-A4A6-1F3298C68457}"/>
+						<Switch Id="2648649944" Name="K28_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit009" GUID="{C5DDEE66-B2C5-43CB-B598-E386486901F7}"/>
+						<Switch Id="3426764220" Name="K32_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K32_CLOTH_Default" GUID="{706C637C-A566-4352-A035-4797EEDF6312}"/>
+						<Switch Id="3020971308" Name="K14_CLOTH_Custom_Outfit020" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit020" GUID="{63647251-0448-4651-9CC8-73065ADC7B57}"/>
+						<Switch Id="3020971300" Name="K14_CLOTH_Custom_Outfit028" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit028" GUID="{3DD9F5DE-AB95-444D-8CED-7DB5BAAB18E5}"/>
+						<Switch Id="2631872382" Name="K28_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit010" GUID="{FDC8B8B6-5095-4C76-9EB2-F36FA0F8645E}"/>
+						<Switch Id="1526034717" Name="K33_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K33_CLOTH_Default" GUID="{3C7BD11A-F5FE-4AB0-9D94-6C29BFE4D633}"/>
+						<Switch Id="2308336598" Name="K01b_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01b_CLOTH_Default" GUID="{AAC22BCC-47DF-4F23-ABD3-C15DAA3C45B8}"/>
+						<Switch Id="2631872383" Name="K28_CLOTH_Custom_Outfit011" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit011" GUID="{8C42735D-E539-4F9E-90A2-3249A9A96AE3}"/>
+						<Switch Id="1419253348" Name="K01_CLOTH_Outfit006" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01_CLOTH_Outfit006" GUID="{9E6C8F4C-2A47-410D-AFD5-91D314690556}"/>
+						<Switch Id="3424114" Name="K18_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Custom_Outfit013" GUID="{A948B31B-9930-4FCD-ABC2-BEC2BCBE3067}"/>
+						<Switch Id="1711454565" Name="K29_CLOTH_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Custom_Outfit007" GUID="{157382E1-22A5-45B9-BB47-0A9DA10563AA}"/>
+						<Switch Id="4028594209" Name="K20_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K20_CLOTH_Custom_Outfit008" GUID="{771FF13A-2472-452E-ACB1-391327A3787C}"/>
+						<Switch Id="3071304173" Name="K14_CLOTH_Custom_Outfit018" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit018" GUID="{CF375B2F-58B5-48C7-B9A3-A110ACF6C447}"/>
+						<Switch Id="2115572893" Name="K16_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K16_CLOTH_Custom_Outfit009" GUID="{A590F9BB-5EF2-48BC-A777-F6CE1AD09A0D}"/>
+						<Switch Id="3820762490" Name="K24_CLOTH_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K24_CLOTH_Custom_Outfit007" GUID="{EA7025E0-DE5F-4C72-BFA5-C413C396FB43}"/>
+						<Switch Id="857836137" Name="K15_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K15_CLOTH_Custom_Outfit008" GUID="{5A418ED5-0DC4-45BE-A284-408E135DF205}"/>
+						<Switch Id="2206340159" Name="K13_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Custom_Outfit008" GUID="{21B9BA7E-9D5E-48A9-B894-8724FEA8A684}"/>
+						<Switch Id="2435638218" Name="K04_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K04_CLOTH_Custom_Outfit009" GUID="{6781905E-C8A5-42F4-A769-83ADA371B190}"/>
+						<Switch Id="4201161644" Name="K05_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K05_CLOTH_Custom_Outfit008" GUID="{EC467EAF-849A-4EE1-8C9F-84D450F07F62}"/>
+						<Switch Id="2328900577" Name="K12_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K12_CLOTH_Custom_Outfit009" GUID="{D29F8891-CC63-4888-9AE6-71FD0E6C241C}"/>
+						<Switch Id="4117447193" Name="K08_CLOTH_Custom_Outfit006" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K08_CLOTH_Custom_Outfit006" GUID="{833C6208-D129-4BDE-A0F7-18AE36743488}"/>
+						<Switch Id="2390126006" Name="K07_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K07_CLOTH_Custom_Outfit013" GUID="{F6607132-365D-4414-B0A9-55359C8E8CA9}"/>
+						<Switch Id="319360873" Name="K03_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Custom_Outfit010" GUID="{23B11BF9-E471-4DE1-ADE4-180DB6788001}"/>
+						<Switch Id="607815762" Name="K02_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Custom_Outfit010" GUID="{11DEEF2A-7791-4CC3-9C10-E68B18576D85}"/>
+						<Switch Id="1355720765" Name="K27_CLOTH_Default_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default_Custom_Outfit007" GUID="{38062467-CE92-4006-93E2-3CBC59C91069}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

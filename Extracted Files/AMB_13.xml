@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970222" GUID="{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}" Language="SFX" Hash="535171481">
+		<SoundBank Id="2215970222" GUID="{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}" Language="SFX" Hash="2596205444">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_13</ObjectPath>
 			<ShortName>AMB_13</ShortName>
 			<Path>AMB_13.bnk</Path>
@@ -102,8 +102,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2580191501" Name="AudioEvent_AM_T13_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Escape" GUID="{3DEE7FA7-B9A5-4199-957B-7CA6A065FBCA}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -228,7 +228,7 @@
 						<ActionSetStateEntry Id="2125666817" Name="AudioStateOutdoor_13_Kenya_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateOutdoor_13_Kenya\AudioStateOutdoor_13_Kenya_Forest_Low" GUID="{C0973F5E-A510-4B1E-9A8D-35C7280E3CFB}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1004874951" Name="AudioEvent_AM_T13_Fence" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Fence" GUID="{4657987E-5707-4E6D-BEDC-44C58E66D8C5}" DurationType="Infinite">
@@ -337,8 +337,8 @@
 						<ActionSetStateEntry Id="2125666817" Name="AudioStateOutdoor_13_Kenya_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateOutdoor_13_Kenya\AudioStateOutdoor_13_Kenya_Forest_Low" GUID="{C0973F5E-A510-4B1E-9A8D-35C7280E3CFB}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="661868136" Name="AudioEvent_AM_T13_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AudioEvent_AM_T13_Shack" GUID="{68B9041F-EE53-43A4-9B8E-5795C93EE5E6}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -497,7 +497,7 @@
 						<ActionSetStateEntry Id="525978194" Name="AudioStateWind_13_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateWind_13_Kenya\AudioStateWind_13_Low" GUID="{B0207334-196F-492A-9991-4000F1D5DF27}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1456284583" Name="AudioEvent_Rev_Int_13_Kenya_Chalet" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T13_Kenya\AMB_T13_TILE\AM_Reverb_13_Kenya\AudioEvent_Rev_Int_13_Kenya_Chalet" GUID="{B1DDB6CE-F4D4-4DDA-A1F7-178D02B6E316}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>

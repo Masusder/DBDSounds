@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1474338093" GUID="{A71F8380-AC19-4C3B-8E74-B3E14C5E6DF3}" Language="SFX" Hash="548199626">
+		<SoundBank Id="1474338093" GUID="{A71F8380-AC19-4C3B-8E74-B3E14C5E6DF3}" Language="SFX" Hash="442481756">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_13</ObjectPath>
 			<ShortName>KLR_13</ShortName>
 			<Path>KLR_13.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2380166052" Name="AudioEvent_K13_CLOTH_Custom_Outfit008_Land" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Custom_Outfit008_Land" GUID="{3CDEECBA-C1D0-4444-9969-F09D9E11BDC4}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="720865196" Name="AudioEvent_K13_CLOTH_Custom_Outfit008_Move" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Custom_Outfit008_Move" GUID="{ACEFC965-C3D0-4AAD-BAA5-90614341B33E}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.350772" DurationMax="1.701866">
+					<ExcludedMemoryFiles>
+						<File Id="550882514" Language="SFX">
+							<ShortName>Character\KLR_13\sfx_killer_k13_body_move_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\sfx_killer_k13_body_move_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3523843178" Name="AudioEvent_K13_CLOTH_Custom_Outfit008_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Custom_Outfit008_ShuffleHigh" GUID="{C48D9128-5DE1-4B67-931C-058AC79AA93B}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
+				<Event Id="1951162380" Name="AudioEvent_K13_CLOTH_Custom_Outfit008_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Custom_Outfit008_ShuffleLow" GUID="{9C5B34CD-4D18-4845-8372-DFBDF577E290}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
 				<Event Id="3948007470" Name="AudioEvent_K13_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_Land" GUID="{E63C79C1-FB2B-44DA-9442-CF73886DA72E}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2255604122" Name="AudioEvent_K13_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_CLOTH\AudioEvent_K13_CLOTH_Default_Move" GUID="{3674FE14-247A-4A1B-B0BE-02FEC79E37AD}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.350772" DurationMax="1.701866">
@@ -52,7 +67,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1925786780" Name="AudioEvent_K13_GRUNT_Ha" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_K13_GRUNT_Ha" GUID="{755425BF-08B1-4876-AEFF-3DC3F3B6BBD2}" MaxAttenuation="450." DurationType="OneShot" DurationMin="1.283816" DurationMax="1.646044">
@@ -71,7 +86,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3469513898" Name="AudioEvent_K13_GRUNT_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_K13_GRUNT_Hurt" GUID="{243B9662-2BE4-472A-A34E-51B8AF1A7930}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.718435" DurationMax="2.337936">
@@ -94,7 +109,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3022384732" Name="AudioEvent_K13_GRUNT_Jerky" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_K13_GRUNT_Jerky" GUID="{30F172EF-BCB1-48F1-880B-E5F3D6E24CA9}" MaxAttenuation="850." DurationType="OneShot" DurationMin="1.264535" DurationMax="1.81539">
@@ -117,7 +132,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1854491177" Name="AudioEvent_K13_GRUNT_Mori_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_K13_GRUNT_Mori_Attack" GUID="{D3A00127-4041-4370-8670-6042F63AB632}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.558138" DurationMax="0.824284">
@@ -144,7 +159,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4056807850" Name="AudioEvent_K13_GRUNT_Mori_Scream" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_K13_GRUNT_Mori_Scream" GUID="{3C2E1A6E-2FF7-4B93-B0D8-8CB4B43052A6}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.482667" DurationMax="1.824">
@@ -163,7 +178,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1321076195" Name="AudioEvent_K13_GRUNT_Sad" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_K13_GRUNT_Sad" GUID="{0B4B8637-1294-48DE-AD0E-59BF7CFCA2C5}" MaxAttenuation="450." DurationType="OneShot" DurationMin="3.202478" DurationMax="3.38427">
@@ -182,7 +197,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1367517921" Name="AudioEvent_K13_GRUNT_Wince" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_GRUNT\AudioEvent_K13_GRUNT_Wince" GUID="{B3A8B724-A476-422E-9031-C5AAEE901EB0}" MaxAttenuation="850." DurationType="OneShot" DurationMin="2.010825" DurationMax="2.53368">
@@ -205,7 +220,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3177886345" Name="AudioEvent_K13_MENU_Ha" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_MENU\AudioEvent_K13_MENU_Ha" GUID="{9D989CF4-F2F8-47DE-9C59-EDA9E4ACB572}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.441035" DurationMax="1.847622">
@@ -360,7 +375,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2095030052" Name="AudioEvent_K13_PWR_ActivePhasing_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_K13_PWR_ActivePhasing_Appear" GUID="{477DAD78-40C4-4438-A605-B744D926EAEF}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.884063" DurationMax="1.12375">
@@ -471,7 +486,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1796601686" Name="AudioEvent_K13_PWR_ActivePhasing_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_K13_PWR_ActivePhasing_Disappear" GUID="{9E9AE1E3-BF43-4B46-A6B4-959E0112CDD6}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1.428519" DurationMax="2.039256">
@@ -531,7 +546,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="2987065172" Name="HAPTIC_K13_PHASING_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K13_PHASING_AUX" GUID="{D1A93D35-D5FE-4F6F-ABDE-60653AAFB5A0}"/>
+						<AuxBus Id="2987065172" Name="HAPTIC_K13_PHASING_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K13_PHASING_AUX" GUID="{D1A93D35-D5FE-4F6F-ABDE-60653AAFB5A0}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="224524700" Name="AudioEvent_K13_PWR_ActivePhasing_Radius_Stop" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_POWER\AudioEvent_K13_PWR_ActivePhasing_Radius_Stop" GUID="{CC579D50-CE6E-475D-A859-4AB3E8F983D7}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -603,7 +618,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3652785795" Name="AudioEvent_K13_SPEC_Wpn_Appear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_K13_SPEC_Wpn_Appear" GUID="{6E24F5F5-8B15-4B8B-9133-BB086A3DC0AA}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.385293" DurationMax="1.59884">
@@ -622,7 +637,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="823782599" Name="AudioEvent_K13_SPEC_Wpn_Disappear" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_K13_SPEC_Wpn_Disappear" GUID="{F82FF7EB-42B9-4B5E-88D2-CE942C5B3FAB}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.219486" DurationMax="1.483248">
@@ -645,7 +660,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1197727059" Name="AudioEvent_K13_Status_Husk_Start" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_K13_Status_Husk_Start" GUID="{01D33216-DA28-4865-B672-1FEB6F83D1A5}" MaxAttenuation="1900." DurationType="Infinite">
@@ -740,9 +755,21 @@
 							<ShortName>Character\KLR_13\sfx_haiti_normal_04.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
 						</File>
+						<File Id="126329366" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="174685623" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_01.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="314319267" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="387495272" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_01_7FA8D501.wem</Path>
 						</File>
 						<File Id="420516342" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_11.wav</ShortName>
@@ -772,17 +799,41 @@
 							<ShortName>Character\KLR_13\sfx_haiti_normal_06.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
 						</File>
+						<File Id="628662270" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_04_7FA8D501.wem</Path>
+						</File>
 						<File Id="635426960" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
+						</File>
+						<File Id="644340900" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="646054730" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="742431796" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_05.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
 						</File>
+						<File Id="790607320" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_08.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_08_7FA8D501.wem</Path>
+						</File>
 						<File Id="793065478" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
+						</File>
+						<File Id="800200088" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_10.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="823457097" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_07.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="867465681" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_13.wav</ShortName>
@@ -791,6 +842,10 @@
 						<File Id="870586629" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_02.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
+						</File>
+						<File Id="936599752" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_09.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="1014119933" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_05.wav</ShortName>
@@ -803,6 +858,20 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{D076A5EA-63B7-49D7-8790-5C78D0724A03}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{21B9BA7E-9D5E-48A9-B894-8724FEA8A684}">
+							<Media>
+								<File Id="126329366"/>
+								<File Id="314319267"/>
+								<File Id="387495272"/>
+								<File Id="628662270"/>
+								<File Id="644340900"/>
+								<File Id="646054730"/>
+								<File Id="790607320"/>
+								<File Id="800200088"/>
+								<File Id="823457097"/>
+								<File Id="936599752"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{935A71B5-DF49-416D-A374-DB953A943D5F}">
 							<Media>
 								<File Id="118670211"/>
@@ -814,7 +883,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2222181307" Name="AudioEvent_K13_Status_Start_Menu" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_STATUS\AudioEvent_K13_Status_Start_Menu" GUID="{DAA622FD-ADDD-4ACE-B1A4-83979970DB23}" MaxAttenuation="1900." DurationType="Infinite">
@@ -839,9 +908,21 @@
 							<ShortName>Character\KLR_13\sfx_haiti_normal_04.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_04_67368C31.wem</Path>
 						</File>
+						<File Id="126329366" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_06.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="174685623" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_01.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_k13_custom_bubbles_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="314319267" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_02.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="387495272" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_01.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_01_7FA8D501.wem</Path>
 						</File>
 						<File Id="420516342" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_11.wav</ShortName>
@@ -871,17 +952,41 @@
 							<ShortName>Character\KLR_13\sfx_haiti_normal_06.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_06_67368C31.wem</Path>
 						</File>
+						<File Id="628662270" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_04.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_04_7FA8D501.wem</Path>
+						</File>
 						<File Id="635426960" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
+						</File>
+						<File Id="644340900" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_03.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="646054730" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_05.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="742431796" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_05.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_05_67368C31.wem</Path>
 						</File>
+						<File Id="790607320" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_08.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_08_7FA8D501.wem</Path>
+						</File>
 						<File Id="793065478" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
+						</File>
+						<File Id="800200088" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_10.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="823457097" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_07.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="867465681" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_13.wav</ShortName>
@@ -890,6 +995,10 @@
 						<File Id="870586629" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_haiti_normal_02.wav</ShortName>
 							<Path>SFX\Character\KLR_13\sfx_haiti_normal_02_67368C31.wem</Path>
+						</File>
+						<File Id="936599752" Language="SFX">
+							<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_09.wav</ShortName>
+							<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="1014119933" Language="SFX">
 							<ShortName>Character\KLR_13\sfx_k13_custom_bubbles_05.wav</ShortName>
@@ -901,7 +1010,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="785021727" Name="AudioEvent_K13_WPN_Default_Katana_Arm" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Arm" GUID="{7A06CF0F-3ED1-4017-A411-28E27B827021}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186">
@@ -920,7 +1029,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2977877703" Name="AudioEvent_K13_WPN_Default_Katana_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Attack" GUID="{1C6D4C92-F3F2-4A10-827C-F78183D6E655}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.906119" DurationMax="1.254404">
@@ -951,12 +1060,12 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1910729506" Name="AudioEvent_K13_WPN_Default_Katana_Clean" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Clean" GUID="{8772A7E7-B097-48D1-A8E9-BC58D1F0616A}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3707201173" Name="AudioEvent_K13_WPN_Default_Katana_Impact" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Impact" GUID="{4F7EFAB8-8876-407E-AC2B-A855838F1EF0}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.29733" DurationMax="1.">
@@ -1112,7 +1221,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3906260494" Name="AudioEvent_K13_WPN_Default_Katana_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_Impact_Survivor" GUID="{BFD7F986-2D60-4EFC-A465-2719C6620236}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -1171,7 +1280,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3231302750" Name="AudioEvent_K13_WPN_Default_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Default_Katana_PullOut" GUID="{6326A24F-4EC5-413E-9AB1-77110E4C8512}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249">
@@ -1190,7 +1299,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1259806400" Name="AudioEvent_K13_WPN_Outfit016_Katana_Arm" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Arm" GUID="{7DC6AAB2-6B9D-4A30-8860-A602CE38C514}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.183084" DurationMax="0.318186">
@@ -1209,7 +1318,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1699815774" Name="AudioEvent_K13_WPN_Outfit016_Katana_Attack" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Attack" GUID="{0D5FCBC8-4485-463F-A8F4-88334E205CF7}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1." DurationMax="1.">
@@ -1240,12 +1349,12 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2032172201" Name="AudioEvent_K13_WPN_Outfit016_Katana_Clean" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Clean" GUID="{F47E409F-F871-4E33-ABA7-4CD9F723BF22}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1239939372" Name="AudioEvent_K13_WPN_Outfit016_Katana_Impact" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Impact" GUID="{3D3E4FF4-D5A6-4844-8FB8-A69855527122}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1." DurationMax="1.552">
@@ -1419,7 +1528,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1612846217" Name="AudioEvent_K13_WPN_Outfit016_Katana_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_Impact_Survivor" GUID="{757067FC-4081-4C2B-BEC6-CBE76C95E3AD}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -1478,7 +1587,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1767244637" Name="AudioEvent_K13_WPN_Outfit016_Katana_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_WEAPON\AudioEvent_K13_WPN_Outfit016_Katana_PullOut" GUID="{BB03C35A-8ECB-4918-9990-7B1EF7AD1B09}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249">
@@ -1497,7 +1606,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="990051869" Name="AudioEvent_Killer_Haiti_WPN_Break" ObjectPath="\Events\CHARACTER\KILLER\K13_Haiti\K13_SPECIFIC\AudioEvent_Killer_Haiti_WPN_Break" GUID="{87F10BA7-D587-4881-8E89-7FFF812C1507}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.912918" DurationMax="2.610517">
@@ -1524,7 +1633,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
@@ -1596,6 +1705,10 @@
 				<File Id="125327266" Language="SFX">
 					<ShortName>Character\KLR_13\Weapon\sfx_k13_wpn_default_impact_survivor_cut_07.wav</ShortName>
 					<Path>SFX\Character\KLR_13\Weapon\sfx_k13_wpn_default_impact_survivor_cut_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="126329366" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_06.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="133700064" Language="SFX">
 					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_glass_01.wav</ShortName>
@@ -1685,6 +1798,10 @@
 					<ShortName>Character\KLR_13\vo_killer_haiti_idle_jerky_02.wav</ShortName>
 					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_jerky_02_67368C31.wem</Path>
 				</File>
+				<File Id="314319267" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_02.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="328340621" Language="SFX">
 					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02.wav</ShortName>
 					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_taiko_02_67368C31.wem</Path>
@@ -1716,6 +1833,10 @@
 				<File Id="381452543" Language="SFX">
 					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04.wav</ShortName>
 					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_04_67368C31.wem</Path>
+				</File>
+				<File Id="387495272" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_01.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="393864107" Language="SFX">
 					<ShortName>Character\KLR_13\ActivePhasing\ActivePhasing_Radius_Mix_Bounce.wav</ShortName>
@@ -1869,6 +1990,10 @@
 					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02.wav</ShortName>
 					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_02_67368C31.wem</Path>
 				</File>
+				<File Id="628662270" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_04.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="635426960" Language="SFX">
 					<ShortName>Character\KLR_13\sfx_haiti_normal_08.wav</ShortName>
 					<Path>SFX\Character\KLR_13\sfx_haiti_normal_08_67368C31.wem</Path>
@@ -1880,6 +2005,14 @@
 				<File Id="639529946" Language="SFX">
 					<ShortName>Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04.wav</ShortName>
 					<Path>SFX\Character\KLR_13\ActivePhasing\sfx_pwr_haiti_smoke_04_67368C31.wem</Path>
+				</File>
+				<File Id="644340900" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_03.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="646054730" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_05.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="657676336" Language="SFX">
 					<ShortName>Character\KLR_13\vo_killer_haiti_sad_03.wav</ShortName>
@@ -1957,6 +2090,10 @@
 					<ShortName>Character\KLR_13\Katana\sfx_katana_pull_out_02.wav</ShortName>
 					<Path>SFX\Character\KLR_13\Katana\sfx_katana_pull_out_02_67368C31.wem</Path>
 				</File>
+				<File Id="790607320" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_08.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="791439614" Language="SFX">
 					<ShortName>Character\KLR_13\vo_killer_haiti_scream_fx_03.wav</ShortName>
 					<Path>SFX\Character\KLR_13\vo_killer_haiti_scream_fx_03_7FA8D501.wem</Path>
@@ -1965,6 +2102,10 @@
 					<ShortName>Character\KLR_13\sfx_haiti_normal_07.wav</ShortName>
 					<Path>SFX\Character\KLR_13\sfx_haiti_normal_07_67368C31.wem</Path>
 				</File>
+				<File Id="800200088" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_10.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_10_7FA8D501.wem</Path>
+				</File>
 				<File Id="806487877" Language="SFX">
 					<ShortName>Character\KLR_13\sfx_k13_outfit_016_wpn_attack_04.wav</ShortName>
 					<Path>SFX\Character\KLR_13\sfx_k13_outfit_016_wpn_attack_04_7FA8D501.wem</Path>
@@ -1972,6 +2113,10 @@
 				<File Id="812864228" Language="SFX">
 					<ShortName>Character\KLR_13\vo_killer_haiti_idle_wince_04.wav</ShortName>
 					<Path>SFX\Character\KLR_13\vo_killer_haiti_idle_wince_04_67368C31.wem</Path>
+				</File>
+				<File Id="823457097" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_07.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="825157996" Language="SFX">
 					<ShortName>Character\KLR_13\Weapon\sfx_k13_wpn_default_impact_survivor_cut_01.wav</ShortName>
@@ -2012,6 +2157,10 @@
 				<File Id="888772109" Language="SFX">
 					<ShortName>Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01.wav</ShortName>
 					<Path>SFX\Character\KLR_13\Menu\sfx_menuidle_haiti_fingers_crack_01_67368C31.wem</Path>
+				</File>
+				<File Id="936599752" Language="SFX">
+					<ShortName>Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_09.wav</ShortName>
+					<Path>SFX\Character\KLR_13\K13_Custo\vo_k13_outfit008_status_dribble_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="942221418" Language="SFX">
 					<ShortName>Character\KLR_13\vo_killer_haiti_grunt_hurt_03.wav</ShortName>
@@ -2215,6 +2364,25 @@
 						<Switch Id="3020971300" Name="K14_CLOTH_Custom_Outfit028" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit028" GUID="{3DD9F5DE-AB95-444D-8CED-7DB5BAAB18E5}"/>
 						<Switch Id="2631872382" Name="K28_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit010" GUID="{FDC8B8B6-5095-4C76-9EB2-F36FA0F8645E}"/>
 						<Switch Id="1526034717" Name="K33_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K33_CLOTH_Default" GUID="{3C7BD11A-F5FE-4AB0-9D94-6C29BFE4D633}"/>
+						<Switch Id="2308336598" Name="K01b_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01b_CLOTH_Default" GUID="{AAC22BCC-47DF-4F23-ABD3-C15DAA3C45B8}"/>
+						<Switch Id="2631872383" Name="K28_CLOTH_Custom_Outfit011" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit011" GUID="{8C42735D-E539-4F9E-90A2-3249A9A96AE3}"/>
+						<Switch Id="1419253348" Name="K01_CLOTH_Outfit006" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01_CLOTH_Outfit006" GUID="{9E6C8F4C-2A47-410D-AFD5-91D314690556}"/>
+						<Switch Id="3424114" Name="K18_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Custom_Outfit013" GUID="{A948B31B-9930-4FCD-ABC2-BEC2BCBE3067}"/>
+						<Switch Id="1711454565" Name="K29_CLOTH_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Custom_Outfit007" GUID="{157382E1-22A5-45B9-BB47-0A9DA10563AA}"/>
+						<Switch Id="4028594209" Name="K20_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K20_CLOTH_Custom_Outfit008" GUID="{771FF13A-2472-452E-ACB1-391327A3787C}"/>
+						<Switch Id="3071304173" Name="K14_CLOTH_Custom_Outfit018" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit018" GUID="{CF375B2F-58B5-48C7-B9A3-A110ACF6C447}"/>
+						<Switch Id="2115572893" Name="K16_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K16_CLOTH_Custom_Outfit009" GUID="{A590F9BB-5EF2-48BC-A777-F6CE1AD09A0D}"/>
+						<Switch Id="3820762490" Name="K24_CLOTH_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K24_CLOTH_Custom_Outfit007" GUID="{EA7025E0-DE5F-4C72-BFA5-C413C396FB43}"/>
+						<Switch Id="857836137" Name="K15_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K15_CLOTH_Custom_Outfit008" GUID="{5A418ED5-0DC4-45BE-A284-408E135DF205}"/>
+						<Switch Id="2206340159" Name="K13_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Custom_Outfit008" GUID="{21B9BA7E-9D5E-48A9-B894-8724FEA8A684}"/>
+						<Switch Id="2435638218" Name="K04_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K04_CLOTH_Custom_Outfit009" GUID="{6781905E-C8A5-42F4-A769-83ADA371B190}"/>
+						<Switch Id="4201161644" Name="K05_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K05_CLOTH_Custom_Outfit008" GUID="{EC467EAF-849A-4EE1-8C9F-84D450F07F62}"/>
+						<Switch Id="2328900577" Name="K12_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K12_CLOTH_Custom_Outfit009" GUID="{D29F8891-CC63-4888-9AE6-71FD0E6C241C}"/>
+						<Switch Id="4117447193" Name="K08_CLOTH_Custom_Outfit006" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K08_CLOTH_Custom_Outfit006" GUID="{833C6208-D129-4BDE-A0F7-18AE36743488}"/>
+						<Switch Id="2390126006" Name="K07_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K07_CLOTH_Custom_Outfit013" GUID="{F6607132-365D-4414-B0A9-55359C8E8CA9}"/>
+						<Switch Id="319360873" Name="K03_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Custom_Outfit010" GUID="{23B11BF9-E471-4DE1-ADE4-180DB6788001}"/>
+						<Switch Id="607815762" Name="K02_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Custom_Outfit010" GUID="{11DEEF2A-7791-4CC3-9C10-E68B18576D85}"/>
+						<Switch Id="1355720765" Name="K27_CLOTH_Default_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default_Custom_Outfit007" GUID="{38062467-CE92-4006-93E2-3CBC59C91069}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3548994684" Name="AudioSwitchProximity" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchProximity" GUID="{A238147F-8756-470E-AC66-0AFAF133FD8A}">

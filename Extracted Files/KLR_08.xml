@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115657" GUID="{E5A332B2-2244-4F7D-B7C6-FDE66B77A93D}" Language="SFX" Hash="3876484111">
+		<SoundBank Id="1491115657" GUID="{E5A332B2-2244-4F7D-B7C6-FDE66B77A93D}" Language="SFX" Hash="251718970">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_08</ObjectPath>
 			<ShortName>KLR_08</ShortName>
 			<Path>KLR_08.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4226705834" Name="AudioEvent_K08_CLOTH_Custom_Outfit006_Land" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_CLOTH\AudioEvent_K08_CLOTH_Custom_Outfit006_Land" GUID="{FB4A28B7-18A0-4856-9CA3-5AD81C0A17C2}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2298374702" Name="AudioEvent_K08_CLOTH_Custom_Outfit006_Move" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_CLOTH\AudioEvent_K08_CLOTH_Custom_Outfit006_Move" GUID="{AFE2C837-539E-4566-8503-721C308C5149}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
+					<ExcludedMemoryFiles>
+						<File Id="85035214" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_06.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="242295506" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_08.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="399742157" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_09.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="493608341" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_03.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="612705892" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_05.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="712360230" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_07.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="760789863" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_10.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="775904310" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_02.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="872310826" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_04.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="898654989" Language="SFX">
+							<ShortName>Character\KLR_08\sfx_k08_bodymove_default_01.wav</ShortName>
+							<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="237161832" Name="AudioEvent_K08_CLOTH_Custom_Outfit006_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_CLOTH\AudioEvent_K08_CLOTH_Custom_Outfit006_ShuffleHigh" GUID="{B0BFED8D-6EBF-452A-B3F5-698128DBABBD}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
+				<Event Id="2541444338" Name="AudioEvent_K08_CLOTH_Custom_Outfit006_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_CLOTH\AudioEvent_K08_CLOTH_Custom_Outfit006_ShuffleLow" GUID="{1E6C3654-FCE0-4D9D-8EAE-9C87884F6E70}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001"/>
 				<Event Id="769774954" Name="AudioEvent_K08_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_CLOTH\AudioEvent_K08_CLOTH_Default_Land" GUID="{CCE28B91-37FC-461C-9E23-86E3B00B8B98}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3136307950" Name="AudioEvent_K08_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_CLOTH\AudioEvent_K08_CLOTH_Default_Move" GUID="{43B1DB9E-D0CF-4622-8D0D-68A6C6CB1346}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.501995" DurationMax="0.995964">
@@ -209,8 +260,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3325045003" Name="AudioEvent_K08_GRUNT_Attack_Mori" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_GRUNT\AudioEvent_K08_GRUNT_Attack_Mori" GUID="{0ADF7E1F-694B-4CE1-91AD-DDA42A22601A}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.649042" DurationMax="1.308128">
@@ -358,7 +409,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2008034801" Name="AudioEvent_K08_GRUNT_Charge" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_GRUNT\AudioEvent_K08_GRUNT_Charge" GUID="{47752343-24F9-4290-A405-C0FA97E36B0E}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.316902" DurationMax="0.832445">
@@ -456,8 +507,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2483296361" Name="AudioEvent_K08_GRUNT_Effort_Mori" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_GRUNT\AudioEvent_K08_GRUNT_Effort_Mori" GUID="{7B87DAF0-C97D-4F5D-88B9-F47CD7FF50B2}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0." DurationMax="2.438667">
@@ -666,7 +717,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1726339975" Name="AudioEvent_k08_GRUNT_Throw" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_GRUNT\AudioEvent_k08_GRUNT_Throw" GUID="{F7B2B50F-9453-45CD-9767-53A4309201BD}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.589662" DurationMax="1.486821">
@@ -774,9 +825,9 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
-						<AuxBus Id="2800821212" Name="HAPTIC_K08_THROW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K08_THROW_AUX" GUID="{C145871E-D6B2-4999-B031-F46251A13086}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="2800821212" Name="HAPTIC_K08_THROW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K08_THROW_AUX" GUID="{C145871E-D6B2-4999-B031-F46251A13086}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="464266192" Name="AudioEvent_K08_MENU_Idle_Hatchet_Flip" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_MENU\AudioEvent_K08_MENU_Idle_Hatchet_Flip" GUID="{660BDD6A-A624-4DEF-969D-A73121A2F05D}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.630337" DurationMax="0.768183">
@@ -874,7 +925,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2546198973" Name="AudioEvent_K08_PWR_Hatchet_Reload" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_POWER\AudioEvent_K08_PWR_Hatchet_Reload" GUID="{34D8FA57-004A-4D8D-84AF-B2C7325876D1}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.165062" DurationMax="2.479229">
@@ -1137,8 +1188,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="729030407" Name="AudioEvent_K08_Status_Start_Menu" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_STATUS\AudioEvent_K08_Status_Start_Menu" GUID="{13FA1C1F-D330-44F5-B487-10B4F51DB8A3}" MaxAttenuation="1900." DurationType="Infinite">
@@ -1163,9 +1214,29 @@
 							<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_11.wav</ShortName>
 							<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_breath_11_7FA8D501.wem</Path>
 						</File>
+						<File Id="90953640" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_01.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="96989612" Language="SFX">
 							<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_04.wav</ShortName>
 							<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_breath_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="161675839" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_10.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="183353172" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_04.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="184101475" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_07.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="219051528" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_09.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="224284388" Language="SFX">
 							<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_01.wav</ShortName>
@@ -1210,6 +1281,14 @@
 						<File Id="403189587" Language="SFX">
 							<ShortName>Character\KLR_08\vo_killer_huntress_breath_04.wav</ShortName>
 							<Path>SFX\Character\KLR_08\vo_killer_huntress_breath_04_67368C31.wem</Path>
+						</File>
+						<File Id="435308487" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_05.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="475089773" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_02.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="488321488" Language="SFX">
 							<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_07.wav</ShortName>
@@ -1259,6 +1338,10 @@
 							<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_16.wav</ShortName>
 							<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_breath_16_7FA8D501.wem</Path>
 						</File>
+						<File Id="829331792" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_06.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_06_7FA8D501.wem</Path>
+						</File>
 						<File Id="876679646" Language="SFX">
 							<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_12.wav</ShortName>
 							<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_breath_12_7FA8D501.wem</Path>
@@ -1271,12 +1354,20 @@
 							<ShortName>Character\KLR_08\vo_killer_huntress_breath_17.wav</ShortName>
 							<Path>SFX\Character\KLR_08\vo_killer_huntress_breath_17_67368C31.wem</Path>
 						</File>
+						<File Id="939815291" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_08.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="942354357" Language="SFX">
+							<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_03.wav</ShortName>
+							<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="1030606822" Language="SFX">
 							<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_10.wav</ShortName>
 							<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_breath_10_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<DefaultSwitchValue>{BA71BC8E-7804-42EC-9E0A-65E0A86EBDE5}</DefaultSwitchValue>
+					<DefaultSwitchValue>{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{BA71BC8E-7804-42EC-9E0A-65E0A86EBDE5}">
 							<Media>
@@ -1319,9 +1410,23 @@
 								<File Id="1030606822"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{833C6208-D129-4BDE-A0F7-18AE36743488}">
+							<Media>
+								<File Id="90953640"/>
+								<File Id="161675839"/>
+								<File Id="183353172"/>
+								<File Id="184101475"/>
+								<File Id="219051528"/>
+								<File Id="435308487"/>
+								<File Id="475089773"/>
+								<File Id="829331792"/>
+								<File Id="939815291"/>
+								<File Id="942354357"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2132948577" Name="AudioEvent_K08_WPN_Default_Axe_Arm" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_WEAPON\AudioEvent_K08_WPN_Default_Axe_Arm" GUID="{39BADC62-F10D-4FF4-AF11-E56B838F223E}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.467619" DurationMax="0.578798">
@@ -1344,7 +1449,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="608218281" Name="AudioEvent_K08_WPN_Default_Axe_Attack" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_WEAPON\AudioEvent_K08_WPN_Default_Axe_Attack" GUID="{02C2FD91-E69D-4924-9717-146BEE5D732F}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.415964" DurationMax="0.859546">
@@ -1371,7 +1476,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3431443880" Name="AudioEvent_K08_WPN_Default_Axe_Clean" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_WEAPON\AudioEvent_K08_WPN_Default_Axe_Clean" GUID="{74A04315-F686-4851-9311-1D855EDA37EE}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.609468" DurationMax="0.887839">
@@ -1398,7 +1503,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="499073587" Name="AudioEvent_K08_WPN_Default_Axe_Impact" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_WEAPON\AudioEvent_K08_WPN_Default_Axe_Impact" GUID="{397B83A0-651C-4307-B0C5-EB632E70BBFB}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.29733" DurationMax="1.">
@@ -1554,7 +1659,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2829945372" Name="AudioEvent_K08_WPN_Default_Axe_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_WEAPON\AudioEvent_K08_WPN_Default_Axe_Impact_Survivor" GUID="{9900FD7B-FA51-4043-833D-EB0E8F6ED1E4}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -1613,7 +1718,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4167887136" Name="AudioEvent_K08_WPN_Default_Axe_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_WEAPON\AudioEvent_K08_WPN_Default_Axe_PullOut" GUID="{419893B1-ACCD-4C4D-96B1-9757E224FAFD}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.308254" DurationMax="0.450249">
@@ -1632,7 +1737,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
@@ -1713,6 +1818,10 @@
 					<ShortName>Character\KLR_08\sfx_k08_bodymove_default_06.wav</ShortName>
 					<Path>SFX\Character\KLR_08\sfx_k08_bodymove_default_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="90953640" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_01.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="96989612" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_breath_04.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_breath_04_7FA8D501.wem</Path>
@@ -1757,6 +1866,10 @@
 					<ShortName>Object\Obj_Gameplay\Hatch\Hatchet_Reload_Mix_Bounce_02.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\Hatch\Hatchet_Reload_Mix_Bounce_02_67368C31.wem</Path>
 				</File>
+				<File Id="161675839" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_10.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_10_7FA8D501.wem</Path>
+				</File>
 				<File Id="167537863" Language="SFX">
 					<ShortName>Character\KLR_08\Weapon\sfx_k08_wpn_default_impact_survivor_cut_10.wav</ShortName>
 					<Path>SFX\Character\KLR_08\Weapon\sfx_k08_wpn_default_impact_survivor_cut_10_7FA8D501.wem</Path>
@@ -1773,6 +1886,14 @@
 					<ShortName>Character\KLR_08\Weapon\sfx_axe_clean_blood_02.wav</ShortName>
 					<Path>SFX\Character\KLR_08\Weapon\sfx_axe_clean_blood_02_67368C31.wem</Path>
 				</File>
+				<File Id="183353172" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_04.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="184101475" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_07.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="193671259" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_attack_17.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_attack_17_7FA8D501.wem</Path>
@@ -1780,6 +1901,10 @@
 				<File Id="208938953" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_throw_09.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_throw_09_121D275E.wem</Path>
+				</File>
+				<File Id="219051528" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_09.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="219080201" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_lullaby_laugh_12.wav</ShortName>
@@ -1965,6 +2090,10 @@
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_throw_05.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_throw_05_5A56B3ED.wem</Path>
 				</File>
+				<File Id="435308487" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_05.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="443439720" Language="SFX">
 					<ShortName>Character\KLR_08\Hatchet\sfx_hatchet_throw_01.wav</ShortName>
 					<Path>SFX\Character\KLR_08\Hatchet\sfx_hatchet_throw_01_67368C31.wem</Path>
@@ -2004,6 +2133,10 @@
 				<File Id="468305021" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_hurt_047.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_hurt_047_67368C31.wem</Path>
+				</File>
+				<File Id="475089773" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_02.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="479969066" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_attack_25.wav</ShortName>
@@ -2305,6 +2438,10 @@
 					<ShortName>Character\KLR_08\vo_killer_huntress_charge_119b.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_charge_119b_67368C31.wem</Path>
 				</File>
+				<File Id="829331792" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_06.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="835455115" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_hurt_15.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_hurt_15_7FA8D501.wem</Path>
@@ -2420,6 +2557,14 @@
 				<File Id="937542945" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_charge_04.wav</ShortName>
 					<Path>SFX\Character\KLR_08\vo_killer_huntress_babayaga_charge_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="939815291" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_08.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="942354357" Language="SFX">
+					<ShortName>Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_03.wav</ShortName>
+					<Path>SFX\Character\KLR_08\K08_CUSTO\vo_k08_outfit006_status_dribble_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="950316526" Language="SFX">
 					<ShortName>Character\KLR_08\vo_killer_huntress_babayaga_lullaby_03.wav</ShortName>
@@ -2559,6 +2704,82 @@
 						<Switch Id="3598975185" Name="HardWood" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\HardWood" GUID="{425080A3-52A3-4900-B570-E5014B94C732}"/>
 						<Switch Id="1968058251" Name="Ceramic" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Ceramic" GUID="{43B2F4CD-CB38-4CED-B47F-F66EED7A2876}"/>
 						<Switch Id="2063536503" Name="Mannequin" ObjectPath="\Switches\SWITCH_COMMON\AudioSwitchSurface\Mannequin" GUID="{8279CE4B-BBF1-451B-AD23-36B443858ECC}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2095043200" Name="AudioSwitchKillerClothes" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes" GUID="{60943264-04D0-45BB-8393-3F12D125971D}">
+					<Switches>
+						<Switch Id="1597592862" Name="K01_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01_CLOTH_Default" GUID="{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}"/>
+						<Switch Id="2506588901" Name="K02_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Default" GUID="{852645FB-1A4B-4E68-AE7D-B5532A2B9A8C}"/>
+						<Switch Id="3951992612" Name="K03_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Default" GUID="{52059F07-AD7C-443A-B7CD-408A2DF72A73}"/>
+						<Switch Id="3621773395" Name="K04_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K04_CLOTH_Default" GUID="{FA85B262-676B-4934-9BAA-6EDDFBE2427A}"/>
+						<Switch Id="282547442" Name="K05_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K05_CLOTH_Default" GUID="{85432483-B815-406D-A447-040EBFEB8428}"/>
+						<Switch Id="3595093161" Name="K06_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K06_CLOTH_Default" GUID="{FD15A244-6CCB-4DFA-AB31-7944F0A7BEEB}"/>
+						<Switch Id="3343761752" Name="K07_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K07_CLOTH_Default" GUID="{C7D29F78-C1AA-4C52-8799-B4F037DAC6D0}"/>
+						<Switch Id="1255168151" Name="K08_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K08_CLOTH_Default" GUID="{C1E46461-C9DC-499F-91E9-843456F94804}"/>
+						<Switch Id="1595572390" Name="K09_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K09_CLOTH_Default" GUID="{51672655-BA07-49BF-A8C8-1691D245695F}"/>
+						<Switch Id="1563546100" Name="K10_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K10_CLOTH_Default" GUID="{3E84E6B2-107B-494E-9CBA-A73BCF8B762E}"/>
+						<Switch Id="3568432309" Name="K11_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K11_CLOTH_Default" GUID="{86069E24-7D78-4291-83C1-9E89A0280E9F}"/>
+						<Switch Id="4291052270" Name="K12_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K12_CLOTH_Default" GUID="{4F5286A8-142B-4E54-8C21-C4C5EC8B7D21}"/>
+						<Switch Id="2132863809" Name="K13_CLOTH_Custom_Bubbles" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Custom_Bubbles" GUID="{935A71B5-DF49-416D-A374-DB953A943D5F}"/>
+						<Switch Id="2458719007" Name="K13_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Default" GUID="{D076A5EA-63B7-49D7-8790-5C78D0724A03}"/>
+						<Switch Id="3839687592" Name="K14_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Default" GUID="{C82A353A-6DB7-40AA-B76D-3AA0374D1BD1}"/>
+						<Switch Id="2745510905" Name="K15_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K15_CLOTH_Default" GUID="{E32D5974-A3C3-4B14-BBCA-ACD07AEB6E0A}"/>
+						<Switch Id="3914468034" Name="K16_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K16_CLOTH_Default" GUID="{6801144D-89FD-420D-85C6-F5591AE29FA8}"/>
+						<Switch Id="266073635" Name="K17_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K17_CLOTH_Default" GUID="{F24CE2AF-85D8-40DC-A7DA-368B26EFE0AD}"/>
+						<Switch Id="3464499022" Name="K18_CLOTH_Custom_Fur" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Custom_Fur" GUID="{5743BD22-F8CA-43C2-BACF-06DCA962788F}"/>
+						<Switch Id="1807990108" Name="K18_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Default" GUID="{C1511352-06BA-4963-8BED-996B96F27996}"/>
+						<Switch Id="3300993853" Name="K19_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K19_CLOTH_Default" GUID="{A94DC4B7-4B96-483E-8CB5-7D7C372735F2}"/>
+						<Switch Id="1096780817" Name="K20_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K20_CLOTH_Default" GUID="{C3418A61-9049-46A5-B208-C1A2FB7A7366}"/>
+						<Switch Id="2548824896" Name="K21_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K21_CLOTH_Default" GUID="{B4E52013-C09F-40A5-BD9B-F7E7E572D970}"/>
+						<Switch Id="797234414" Name="K22_CLOTH_Custom_FishAndGuts" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Custom_FishAndGuts" GUID="{846DE21D-B297-4392-99F2-E088E4F49C71}"/>
+						<Switch Id="2210551835" Name="K22_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Default" GUID="{8A657979-01E3-4185-8A68-3A3F7352FAAE}"/>
+						<Switch Id="2951853188" Name="K22_CLOTH_Default_Twin" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K22_CLOTH_Default_Twin" GUID="{B537246C-DEFC-4927-9A9D-55AD22980F1B}"/>
+						<Switch Id="2848922042" Name="K23_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K23_CLOTH_Default" GUID="{6D2C8DCA-1207-49A7-9248-94E767297DAD}"/>
+						<Switch Id="850591949" Name="K24_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K24_CLOTH_Default" GUID="{4811230D-DB0B-42E6-A63A-9E6679B4901C}"/>
+						<Switch Id="924976172" Name="K25_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K25_CLOTH_Default" GUID="{5AE5642C-B420-478F-B5E6-701E17CE413E}"/>
+						<Switch Id="1929999991" Name="K26_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K26_CLOTH_Default" GUID="{B1ED8674-7C0A-4008-BD2B-9433988D7FB7}"/>
+						<Switch Id="2346445888" Name="K23_CLOTH_Custom_Valentines" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K23_CLOTH_Custom_Valentines" GUID="{D5EA5C56-CB06-41B4-9410-BC84CC832F07}"/>
+						<Switch Id="522129414" Name="K27_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default" GUID="{8D5E8A81-E2EE-4497-9351-E5E5041370CC}"/>
+						<Switch Id="3229799049" Name="K28_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Default" GUID="{D5F36BA7-38E7-4230-81D8-589ECDFF396B}"/>
+						<Switch Id="632232018" Name="K28_CLOTH_Custom_6thAnniversary" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_6thAnniversary" GUID="{ABDB3AB2-164F-409E-BB61-969651379ACC}"/>
+						<Switch Id="786316536" Name="K28_CLOTH_Custom_Dolls" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Dolls" GUID="{4D113732-C992-4942-B38D-E9DC2FEC6A5C}"/>
+						<Switch Id="2605755275" Name="K28_CLOTH_Custom_SkeletonMass" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_SkeletonMass" GUID="{79A76B3F-7636-46D9-A973-0115DF295A6E}"/>
+						<Switch Id="507559864" Name="K29_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Default" GUID="{5A74A9A3-72DB-413A-9B4A-234E56C38A9C}"/>
+						<Switch Id="202068782" Name="K29_CLOTH_Custom_Stars" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Custom_Stars" GUID="{B94B102D-235A-43F4-96E5-2EE40E7081FC}"/>
+						<Switch Id="3395721558" Name="K30_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default" GUID="{10717295-6CE4-4024-A2AB-8E1DD27E6D1E}"/>
+						<Switch Id="4271573973" Name="K30_CLOTH_Default_TheAssassin" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheAssassin" GUID="{824848EA-13DD-4F24-9BB7-A68A58018D92}"/>
+						<Switch Id="3257950157" Name="K30_CLOTH_Default_TheExecutioner" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheExecutioner" GUID="{571A1577-771B-4FD5-8313-19C8B587E1ED}"/>
+						<Switch Id="1741194691" Name="K30_CLOTH_Default_TheJailer" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Default_TheJailer" GUID="{7B9F14E5-29D9-450A-A39D-FA7A9FBE6FAE}"/>
+						<Switch Id="320279088" Name="K30_CLOTH_Custom_EnchantedPlates" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K30_CLOTH_Custom_EnchantedPlates" GUID="{047E2196-6E44-4A65-B02D-09D934AE1618}"/>
+						<Switch Id="217115922" Name="K23_CLOTH_Custom_Sweets" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K23_CLOTH_Custom_Sweets" GUID="{ADCCE966-A19D-4937-A92F-73E9681CCC26}"/>
+						<Switch Id="3867504989" Name="K28_CLOTH_Custom_Frosty" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Frosty" GUID="{3F9AF9FE-2AEA-482C-9B0F-725EED31644F}"/>
+						<Switch Id="367360899" Name="K21_CLOTH_Custom_Outfit12" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K21_CLOTH_Custom_Outfit12" GUID="{9CA0D4C0-864B-47FF-A015-52281155E188}"/>
+						<Switch Id="3650961415" Name="K31_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K31_CLOTH_Default" GUID="{CB57DC9F-80AC-4FF8-A4A6-1F3298C68457}"/>
+						<Switch Id="2648649944" Name="K28_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit009" GUID="{C5DDEE66-B2C5-43CB-B598-E386486901F7}"/>
+						<Switch Id="3426764220" Name="K32_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K32_CLOTH_Default" GUID="{706C637C-A566-4352-A035-4797EEDF6312}"/>
+						<Switch Id="3020971308" Name="K14_CLOTH_Custom_Outfit020" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit020" GUID="{63647251-0448-4651-9CC8-73065ADC7B57}"/>
+						<Switch Id="3020971300" Name="K14_CLOTH_Custom_Outfit028" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit028" GUID="{3DD9F5DE-AB95-444D-8CED-7DB5BAAB18E5}"/>
+						<Switch Id="2631872382" Name="K28_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit010" GUID="{FDC8B8B6-5095-4C76-9EB2-F36FA0F8645E}"/>
+						<Switch Id="1526034717" Name="K33_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K33_CLOTH_Default" GUID="{3C7BD11A-F5FE-4AB0-9D94-6C29BFE4D633}"/>
+						<Switch Id="2308336598" Name="K01b_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01b_CLOTH_Default" GUID="{AAC22BCC-47DF-4F23-ABD3-C15DAA3C45B8}"/>
+						<Switch Id="2631872383" Name="K28_CLOTH_Custom_Outfit011" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit011" GUID="{8C42735D-E539-4F9E-90A2-3249A9A96AE3}"/>
+						<Switch Id="1419253348" Name="K01_CLOTH_Outfit006" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K01_CLOTH_Outfit006" GUID="{9E6C8F4C-2A47-410D-AFD5-91D314690556}"/>
+						<Switch Id="3424114" Name="K18_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K18_CLOTH_Custom_Outfit013" GUID="{A948B31B-9930-4FCD-ABC2-BEC2BCBE3067}"/>
+						<Switch Id="1711454565" Name="K29_CLOTH_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K29_CLOTH_Custom_Outfit007" GUID="{157382E1-22A5-45B9-BB47-0A9DA10563AA}"/>
+						<Switch Id="4028594209" Name="K20_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K20_CLOTH_Custom_Outfit008" GUID="{771FF13A-2472-452E-ACB1-391327A3787C}"/>
+						<Switch Id="3071304173" Name="K14_CLOTH_Custom_Outfit018" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K14_CLOTH_Custom_Outfit018" GUID="{CF375B2F-58B5-48C7-B9A3-A110ACF6C447}"/>
+						<Switch Id="2115572893" Name="K16_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K16_CLOTH_Custom_Outfit009" GUID="{A590F9BB-5EF2-48BC-A777-F6CE1AD09A0D}"/>
+						<Switch Id="3820762490" Name="K24_CLOTH_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K24_CLOTH_Custom_Outfit007" GUID="{EA7025E0-DE5F-4C72-BFA5-C413C396FB43}"/>
+						<Switch Id="857836137" Name="K15_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K15_CLOTH_Custom_Outfit008" GUID="{5A418ED5-0DC4-45BE-A284-408E135DF205}"/>
+						<Switch Id="2206340159" Name="K13_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K13_CLOTH_Custom_Outfit008" GUID="{21B9BA7E-9D5E-48A9-B894-8724FEA8A684}"/>
+						<Switch Id="2435638218" Name="K04_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K04_CLOTH_Custom_Outfit009" GUID="{6781905E-C8A5-42F4-A769-83ADA371B190}"/>
+						<Switch Id="4201161644" Name="K05_CLOTH_Custom_Outfit008" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K05_CLOTH_Custom_Outfit008" GUID="{EC467EAF-849A-4EE1-8C9F-84D450F07F62}"/>
+						<Switch Id="2328900577" Name="K12_CLOTH_Custom_Outfit009" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K12_CLOTH_Custom_Outfit009" GUID="{D29F8891-CC63-4888-9AE6-71FD0E6C241C}"/>
+						<Switch Id="4117447193" Name="K08_CLOTH_Custom_Outfit006" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K08_CLOTH_Custom_Outfit006" GUID="{833C6208-D129-4BDE-A0F7-18AE36743488}"/>
+						<Switch Id="2390126006" Name="K07_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K07_CLOTH_Custom_Outfit013" GUID="{F6607132-365D-4414-B0A9-55359C8E8CA9}"/>
+						<Switch Id="319360873" Name="K03_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Custom_Outfit010" GUID="{23B11BF9-E471-4DE1-ADE4-180DB6788001}"/>
+						<Switch Id="607815762" Name="K02_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Custom_Outfit010" GUID="{11DEEF2A-7791-4CC3-9C10-E68B18576D85}"/>
+						<Switch Id="1355720765" Name="K27_CLOTH_Default_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default_Custom_Outfit007" GUID="{38062467-CE92-4006-93E2-3CBC59C91069}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3231333202" Name="AudioSwitchSubKiller_K08" ObjectPath="\Switches\SWITCH_KILLER\K08\AudioSwitchSubKiller_K08" GUID="{4DF611E7-562B-41F4-814C-8C633177C1CD}">

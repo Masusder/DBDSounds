@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192636" GUID="{5DA09FE3-D0A7-454B-AED2-0BA2ECD52F96}" Language="SFX" Hash="2439488276">
+		<SoundBank Id="2199192636" GUID="{5DA09FE3-D0A7-454B-AED2-0BA2ECD52F96}" Language="SFX" Hash="1913732912">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_06</ObjectPath>
 			<ShortName>AMB_06</ShortName>
 			<Path>AMB_06.bnk</Path>
@@ -102,8 +102,8 @@
 						<ActionSetStateEntry Id="2926398743" Name="AudioStateIndoor_06_Swamp_BigCabin" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateIndoor_06_Swamp\AudioStateIndoor_06_Swamp_BigCabin" GUID="{3EBE8ABD-BC3F-4BCD-8B30-4F2D73742B11}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1960214241" Name="AudioEvent_AM_T06_Cabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Cabin" GUID="{72A09E93-30EC-4EAB-8425-FDC745573EFF}" DurationType="Infinite">
@@ -187,8 +187,8 @@
 						<ActionSetStateEntry Id="2926398743" Name="AudioStateIndoor_06_Swamp_BigCabin" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateIndoor_06_Swamp\AudioStateIndoor_06_Swamp_BigCabin" GUID="{3EBE8ABD-BC3F-4BCD-8B30-4F2D73742B11}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1951625655" Name="AudioEvent_AM_T06_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Escape" GUID="{1EB60FAC-0460-42DB-93B3-F55282BA01A1}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -329,8 +329,8 @@
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="94654356" Name="AudioEvent_AM_T06_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Fence_WithTree" GUID="{8A2FEC01-0CC1-4610-A6C5-D97C36057031}" DurationType="Infinite">
@@ -403,8 +403,8 @@
 						<ActionSetStateEntry Id="763793783" Name="AudioStateOutdoor_06_Swamp_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateOutdoor_06_Swamp\AudioStateOutdoor_06_Swamp_Forest_High" GUID="{9547CA56-B58B-408E-94E1-38CE69A45A38}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="381125580" Name="AudioEvent_AM_T06_FerryBoat" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_FerryBoat" GUID="{ACE19F24-1912-4A7A-AC9F-50E5D29A006D}" DurationType="Infinite">
@@ -488,7 +488,7 @@
 						<ActionSetStateEntry Id="763793783" Name="AudioStateOutdoor_06_Swamp_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateOutdoor_06_Swamp\AudioStateOutdoor_06_Swamp_Forest_High" GUID="{9547CA56-B58B-408E-94E1-38CE69A45A38}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4019398010" Name="AudioEvent_AM_T06_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_Low" GUID="{24721F6A-BE25-4F27-B03F-9867B46FC410}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -557,7 +557,7 @@
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3381995446" Name="AudioEvent_AM_T06_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Tile_06_Common_WIP\AudioEvent_AM_T06_Forest_Med" GUID="{7AC7F4F4-5B34-4BB6-AF2B-0D686554DDA9}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -626,7 +626,7 @@
 						<ActionSetStateEntry Id="4175336827" Name="AudioStateOutdoor_06_Swamp_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateOutdoor_06_Swamp\AudioStateOutdoor_06_Swamp_Forest_Med" GUID="{CAF8C795-88EE-4CBF-BEC0-1642FA549BFB}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1581198895" Name="AudioEvent_AM_T06_Maze" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Maze" GUID="{4DF981F3-4047-49F8-BE04-822460C13CE3}" DurationType="Infinite">
@@ -710,8 +710,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="424089774" Name="AudioEvent_AM_T06_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Outdoor" GUID="{AF99F0F1-1BD1-4FB4-B4D7-6BA8294A2BA5}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
@@ -742,7 +742,7 @@
 						<ActionSetStateEntry Id="3575635941" Name="AudioStateOutdoor_06_Swamp_Out" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateOutdoor_06_Swamp\AudioStateOutdoor_06_Swamp_Out" GUID="{40B44784-3C3E-426C-A74E-657A36980DDE}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1805440514" Name="AudioEvent_AM_T06_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AudioEvent_AM_T06_Shack" GUID="{19EAE677-B84D-4782-901F-BF3689E2FA4E}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -908,7 +908,7 @@
 						<ActionPostEventEntry Id="3526029329" Name="AudioEvent_AM_Intro_06_Swamp" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AudioEvent_AM_Intro_06_Swamp" GUID="{35CD415A-72DF-4A84-A551-BDC54B42070E}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1632763408" Name="AudioEvent_Emitter_Swamp_Tree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_EMITTER\AudioEvent_Emitter_Swamp_Tree" GUID="{1941B5CB-4DBB-4A5C-9728-496FB4ADE082}" MaxAttenuation="2500." DurationType="Infinite">
@@ -935,7 +935,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2918180113" Name="AudioEvent_Rev_Int_06_Swamp_BigCabin" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T06_Swamp\AMB_T06_TILE\AM_Reverb_06_Swamp\AudioEvent_Rev_Int_06_Swamp_BigCabin" GUID="{334C8F2A-88F7-4DBA-B796-F3FE0B55723B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>

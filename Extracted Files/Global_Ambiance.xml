@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX" Hash="3505744700">
+		<SoundBank Id="2278749975" GUID="{E8198F94-5C01-4B4F-BAEC-05098C010CC4}" Language="SFX" Hash="3557082790">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Ambiance</ObjectPath>
 			<ShortName>Global_Ambiance</ShortName>
 			<Path>Global_Ambiance.bnk</Path>
@@ -164,7 +164,6 @@
 						<ActionSetStateEntry Id="712590522" Name="AudioStateIndoor_01_Industrial_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_01_Industrial\AudioStateIndoor_01_Industrial\AudioStateIndoor_01_Industrial_KillerBasement" GUID="{F33561D2-4981-44A5-A283-14C919B111C2}"/>
 						<ActionSetStateEntry Id="731432102" Name="AudioStateIndoor_13_Kenya_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_13_Kenya\AudioStateIndoor_13_Kenya\AudioStateIndoor_13_Kenya_KillerBasement" GUID="{4F8BD68D-09C3-4875-A34A-E83411222F6D}"/>
 						<ActionSetStateEntry Id="1420800224" Name="AudioStateIndoor_09_England_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_09_England\AudioStateIndoor_09_England\AudioStateIndoor_09_England_KillerBasement" GUID="{67B8E248-2DC2-4142-94E6-695C0EA4AF74}"/>
-						<ActionSetStateEntry Id="1877798905" Name="AudioStateIndoor_22_Wormhole_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_22_Wormhole\AudioStateIndoor_22_Wormhole\AudioStateIndoor_22_Wormhole_KillerBasement" GUID="{81E62232-FA8E-47DA-B233-99846CD1EB0F}"/>
 						<ActionSetStateEntry Id="1931366713" Name="AudioStateIndoor_07_Hospital_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_KillerBasement" GUID="{1C3685E6-341E-499C-B792-1EAD9DEE72AA}"/>
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
 						<ActionSetStateEntry Id="2580179395" Name="AudioStateIndoor_08_Boreal_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_08_Boreal\AudioStateIndoor_08_Boreal\AudioStateIndoor_08_Boreal_KillerBasement" GUID="{F21BE3C3-7EDE-4FDE-A65A-B49232CBB182}"/>
@@ -181,8 +180,8 @@
 						<ActionSetStateEntry Id="4210551703" Name="AudioStateIndoor_04_Asylum_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_04_Asylum\AudioStateIndoor_04_Asylum\AudioStateIndoor_04_Asylum_KillerBasement" GUID="{87E1453A-6EA8-49BC-B237-5F1F3DFF5E8E}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2726570515" Name="AudioEvent_AM_Common_Basement_Killer_Stairs" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T00_Common\AM_Tile_00_Common\AudioEvent_AM_Common_Basement_Killer_Stairs" GUID="{96573D63-2C73-431A-B906-6990D86B20EB}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -229,7 +228,6 @@
 						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
 						<ActionSetStateEntry Id="2080630630" Name="AudioStateIndoor_07_Hospital_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_KillerBasement_Stairs" GUID="{CC04A0F4-BDB2-472D-AE69-3D26827E6C9C}"/>
 						<ActionSetStateEntry Id="2149870021" Name="AudioStateIndoor_15_Ukraine_Interior_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_15_Ukraine\AudioStateIndoor_15_Ukraine\AudioStateIndoor_15_Ukraine_Interior_KillerBasement_Stairs" GUID="{0DEC3E03-6B1F-432C-B175-6107D0E960D4}"/>
-						<ActionSetStateEntry Id="2610424358" Name="AudioStateIndoor_22_Wormhole_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_22_Wormhole\AudioStateIndoor_22_Wormhole\AudioStateIndoor_22_Wormhole_KillerBasement_Stairs" GUID="{033FBB9D-382A-438B-B37E-CE3686E5F805}"/>
 						<ActionSetStateEntry Id="2810708295" Name="AudioStateIndoor_14_Qatar_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_14_Qatar\AudioStateIndoor_14_Qatar\AudioStateIndoor_14_Qatar_KillerBasement_Stairs" GUID="{A64B39A9-3AF7-48F9-A6D9-0421D51410D8}"/>
 						<ActionSetStateEntry Id="2984571332" Name="AudioStateIndoor_03_Farm_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_03_Farm\AudioStateIndoor_03_Farm\AudioStateIndoor_03_Farm_KillerBasement_Stairs" GUID="{386C7FA5-2FCE-45FC-8F37-32C3262169C5}"/>
 						<ActionSetStateEntry Id="3227614823" Name="AudioStateIndoor_21_Umbra_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_21_Umbra\AudioStateIndoor_21_Umbra\AudioStateIndoor_21_Umbra_KillerBasement_Stairs" GUID="{E5DCA768-559A-4094-BBCD-AEE86375ACC4}"/>
@@ -394,8 +392,8 @@
 						<ActionSetStateEntry Id="3959476925" Name="AudioStateOutdoor_11_Tutorial_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_Low" GUID="{9DA059D9-53F5-4DC6-B690-CED440CA6F5D}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1007673485" Name="AudioEvent_AM_Common_Fence_WithTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T00_Common\AM_Tile_00_Common\AudioEvent_AM_Common_Fence_WithTree" GUID="{AC3A9AF3-C234-4513-86D7-88A607D2A7A8}" DurationType="Infinite">
@@ -475,8 +473,8 @@
 						<ActionSetStateEntry Id="3866295823" Name="AudioStateOutdoor_12_Haiti_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_High" GUID="{B137F117-07E9-4C0E-A735-520DD72EB907}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1202396719" Name="AudioEvent_AM_Common_Forest_High" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T00_Common\AM_Tile_00_Common\AudioEvent_AM_Common_Forest_High" GUID="{0075B654-BF71-4191-9FFD-2D92240B1213}" DurationType="OneShot" DurationMin="0." DurationMax="11.326944">
@@ -514,7 +512,7 @@
 						<ActionSetStateEntry Id="3866295823" Name="AudioStateOutdoor_12_Haiti_Forest_High" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_High" GUID="{B137F117-07E9-4C0E-A735-520DD72EB907}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3638622747" Name="AudioEvent_AM_Common_Forest_Low" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T00_Common\AM_Tile_00_Common\AudioEvent_AM_Common_Forest_Low" GUID="{3DC0367E-4AFD-452E-8888-48C23575A87C}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -591,7 +589,7 @@
 						<ActionSetStateEntry Id="3959476925" Name="AudioStateOutdoor_11_Tutorial_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_11_Tutorial\AudioStateOutdoor_11_Tutorial\AudioStateOutdoor_11_Tutorial_Forest_Low" GUID="{9DA059D9-53F5-4DC6-B690-CED440CA6F5D}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4275922115" Name="AudioEvent_AM_Common_Forest_Med" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T00_Common\AM_Tile_00_Common\AudioEvent_AM_Common_Forest_Med" GUID="{AB1644AF-0750-42F1-8B0D-EFCD711299C6}" DurationType="OneShot" DurationMin="0." DurationMax="16.592697">
@@ -667,7 +665,7 @@
 						<ActionSetStateEntry Id="4221511073" Name="AudioStateOutdoor_14_Qatar_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_14_Qatar\AudioStateOutdoor_14_Qatar\AudioStateOutdoor_14_Qatar_Forest_Med" GUID="{3ECB15F2-CFB2-41B1-9619-718B82B45716}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3719012841" Name="AudioEvent_AM_Common_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T00_Common\AM_Tile_00_Common\AudioEvent_AM_Common_Shack" GUID="{3454ADFA-BCC3-4ED9-9DB2-62FDB10193A0}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -3487,6 +3485,9 @@
 				<StateGroup Id="37543242" Name="AudioStateIndoor_19_Meteor_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_19_Meteor\AudioStateIndoor_19_Meteor\AudioStateIndoor_19_Meteor_KillerBasement" GUID="{1502B3DB-1CA2-4210-A223-2415E660A84F}">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="37699982" Name="AmbAlt_In" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateAmbienceAlternative\AmbAlt_In" GUID="{E4617087-D581-4302-A290-B6BEAF540662}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="47491554" Name="AudioStateIndoor_07_Hospital_Shockroom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_07_Hospital\AudioStateIndoor_07_Hospital\AudioStateIndoor_07_Hospital_Shockroom" GUID="{BF6EA214-D8D1-4250-A3D1-CB71223DDC29}">
 					<States/>
 				</StateGroup>
@@ -3530,6 +3531,9 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="564240473" Name="AudioStateOutdoor_14_Qatar_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_14_Qatar\AudioStateOutdoor_14_Qatar\AudioStateOutdoor_14_Qatar_Forest_Low" GUID="{026812BF-990D-4800-A451-E962142167C3}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="581127697" Name="AmbAlt_Out" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateAmbienceAlternative\AmbAlt_Out" GUID="{15E0A646-97FC-4AE0-9A8C-F382AE6E1574}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="585176483" Name="AudioStateOutdoor_06_Swamp_Forest_Low" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateOutdoor_06_Swamp\AudioStateOutdoor_06_Swamp_Forest_Low" GUID="{8D2C211A-C0C5-4C57-905F-6EE474126605}">
@@ -3715,9 +3719,6 @@
 				<StateGroup Id="1827416867" Name="AudioStateOutdoor_12_Haiti_Forest_Med" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_12_Haiti\AudioStateOutdoor_12_Haiti\AudioStateOutdoor_12_Haiti_Forest_Med" GUID="{6AD5C445-270C-4CE3-9542-B373DFB5C984}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="1877798905" Name="AudioStateIndoor_22_Wormhole_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_22_Wormhole\AudioStateIndoor_22_Wormhole\AudioStateIndoor_22_Wormhole_KillerBasement" GUID="{81E62232-FA8E-47DA-B233-99846CD1EB0F}">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="1895593071" Name="AudioStateIndoor_06_Swamp_Maze" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_06_Swamp\AudioStateIndoor_06_Swamp\AudioStateIndoor_06_Swamp_Maze" GUID="{879A4782-0A79-402E-A980-6CD9807D839A}">
 					<States/>
 				</StateGroup>
@@ -3821,9 +3822,6 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2591748574" Name="AudioStateIndoor_05_Suburbs_House_MediumRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateIndoor_05_Suburbs\AudioStateIndoor_05_Suburbs_House_MediumRoom" GUID="{B0D044D1-A5AD-45E0-B676-2A6072B5258F}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="2610424358" Name="AudioStateIndoor_22_Wormhole_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_22_Wormhole\AudioStateIndoor_22_Wormhole\AudioStateIndoor_22_Wormhole_KillerBasement_Stairs" GUID="{033FBB9D-382A-438B-B37E-CE3686E5F805}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2656479606" Name="AudioStateIndoor_05_Suburbs_MyersHouse_SmallRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_05_Suburbs\AudioStateIndoor_05_Suburbs\AudioStateIndoor_05_Suburbs_MyersHouse_SmallRoom" GUID="{F640C906-0989-45C5-BA93-90DD41477B92}">

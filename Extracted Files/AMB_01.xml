@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2199192635" GUID="{F16C160E-13CD-48D0-B58B-137DAF554682}" Language="SFX" Hash="226268564">
+		<SoundBank Id="2199192635" GUID="{F16C160E-13CD-48D0-B58B-137DAF554682}" Language="SFX" Hash="134083452">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_01</ObjectPath>
 			<ShortName>AMB_01</ShortName>
 			<Path>AMB_01.bnk</Path>
@@ -119,8 +119,8 @@
 						<ActionSetStateEntry Id="792622132" Name="AudioStateOutdoor_01_Industrial_Camp" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_01_Industrial\AudioStateOutdoor_01_Industrial\AudioStateOutdoor_01_Industrial_Camp" GUID="{B0487996-BD0B-4369-BC22-EEA1F9C9DE02}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3669748564" Name="AudioEvent_AM_T01_Camp_Lab" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Camp_Lab" GUID="{B8FB3BA3-CC7E-4433-B6B2-63EF27BE3013}" DurationType="Infinite">
@@ -184,8 +184,8 @@
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1912323900" Name="AudioEvent_AM_T01_Camp_LivingQuarter" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Camp_LivingQuarter" GUID="{26164A56-380C-4C61-BC6E-2D0A54ED6DED}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -342,8 +342,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4108822517" Name="AudioEvent_AM_T01_CoalTower_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_CoalTower_Top" GUID="{A0CE09BF-C909-4C99-827A-86027DDBBFFB}" DurationType="Infinite">
@@ -385,8 +385,8 @@
 						<ActionSetStateEntry Id="2830902680" Name="AudioStateIndoor_01_Industrial_CoalTower" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_01_Industrial\AudioStateIndoor_01_Industrial\AudioStateIndoor_01_Industrial_CoalTower" GUID="{2B773153-6447-4F54-9E96-F7ACDFD0602A}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="639960702" Name="AudioEvent_AM_T01_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Escape" GUID="{293D970A-05D4-470A-BB97-DA0DD1F7B3FD}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -510,9 +510,9 @@
 						<ActionSetStateEntry Id="3759581848" Name="AudioStateOutdoor_01_Industrial_Forest" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_01_Industrial\AudioStateOutdoor_01_Industrial\AudioStateOutdoor_01_Industrial_Forest" GUID="{1CCF595A-8E39-4394-AC60-21310A353753}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1079781184" Name="AudioEvent_AM_T01_Foundry_1F" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Foundry_1F" GUID="{812B3BF8-13F3-4E43-9B85-385FA663E1B5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -719,8 +719,8 @@
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="455916788" Name="AudioEvent_AM_T01_Mine_Underground" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Mine_Underground" GUID="{DB6A3EFC-F1C0-47D9-9786-F60381CB0B1A}" DurationType="Infinite">
@@ -824,8 +824,8 @@
 						<ActionSetStateEntry Id="2773455579" Name="AudioStateIndoor_01_Industrial_Mine_Underground" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_01_Industrial\AudioStateIndoor_01_Industrial\AudioStateIndoor_01_Industrial_Mine_Underground" GUID="{F5523E6B-8918-41F0-8461-7FED7E993727}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1922070401" Name="AudioEvent_AM_T01_Outdoor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Outdoor" GUID="{4D7B8463-76C9-4239-9C2B-73481A729563}" DurationType="Infinite">
@@ -946,9 +946,9 @@
 						<ActionSetStateEntry Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="435742789" Name="AudioEvent_AM_T01_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Shack" GUID="{745D644A-93CF-4BEE-A90A-C03F783EBB74}" DurationType="Infinite">
@@ -1048,8 +1048,8 @@
 						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1411109398" Name="AudioEvent_AM_T01_StoreHouse" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_StoreHouse" GUID="{565D258B-8B29-413A-AD97-2030E58E0D8B}" DurationType="Infinite">
@@ -1109,8 +1109,8 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3847434552" Name="AudioEvent_AM_T01_Top" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AudioEvent_AM_T01_Top" GUID="{98EE2987-FD81-480C-AE71-C1B9A93C007A}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -1301,7 +1301,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3946129705" Name="AudioEvent_Rev_Int_01_Industrial_Camp_LivingQuarter" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_TILE\AM_Reverb_01_Industrial\AudioEvent_Rev_Int_01_Industrial_Camp_LivingQuarter" GUID="{D729675C-A898-4BCC-90CE-99B5CA744BD0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -1401,8 +1401,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1207638794" Name="AudioEvent_T01_Emitter_Generator" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_EMITTER\AudioEvent_T01_Emitter_Generator" GUID="{D5C39F4D-44CB-4AE4-AB7E-FABC454B93A6}" MaxAttenuation="1700." DurationType="Infinite">
@@ -1457,8 +1457,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="729970713" Name="AudioEvent_T01_Emitter_Spotlight" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_EMITTER\AudioEvent_T01_Emitter_Spotlight" GUID="{FF41860B-53E7-4AA6-8F0D-A73459FD98E5}" MaxAttenuation="850." DurationType="Infinite">
@@ -1493,8 +1493,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1628521908" Name="AudioEvent_T01_Emitter_Ventilation" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T01_Industrial\AMB_T01_EMITTER\AudioEvent_T01_Emitter_Ventilation" GUID="{B23E1DC5-FA1A-4266-A7DD-737DDB2BE9EE}" MaxAttenuation="850." DurationType="Infinite">
@@ -1517,9 +1517,29 @@
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
+						<File Id="95661527" Language="SFX">
+							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="111463481" Language="SFX">
 							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_watertower_creak_03.wav</ShortName>
 							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_watertower_creak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="178022390" Language="SFX">
+							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="271547786" Language="SFX">
+							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="395648950" Language="SFX">
+							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="449389390" Language="SFX">
+							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="508490150" Language="SFX">
 							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_watertower_creak_06.wav</ShortName>
@@ -1533,13 +1553,101 @@
 							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_watertower_creak_05.wav</ShortName>
 							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_watertower_creak_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="813959279" Language="SFX">
+							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_05_7FA8D501.wem</Path>
+						</File>
 						<File Id="873475547" Language="SFX">
 							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_watertower_creak_04.wav</ShortName>
 							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_watertower_creak_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="1068980789" Language="SFX">
+							<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_07_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{7BFB50FB-0E35-4EBC-B0F3-D0D1AAAFC6D4}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+							<Media>
+								<File Id="111463481"/>
+								<File Id="177653496"/>
+								<File Id="281141023"/>
+								<File Id="508490150"/>
+								<File Id="599396707"/>
+								<File Id="730767234"/>
+								<File Id="873475547"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7B2C5A20-E789-4E16-8838-F350790A50C6}">
+							<Media>
+								<File Id="111463481"/>
+								<File Id="177653496"/>
+								<File Id="281141023"/>
+								<File Id="508490150"/>
+								<File Id="599396707"/>
+								<File Id="730767234"/>
+								<File Id="873475547"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
+							<Media>
+								<File Id="95661527"/>
+								<File Id="178022390"/>
+								<File Id="271547786"/>
+								<File Id="395648950"/>
+								<File Id="449389390"/>
+								<File Id="813959279"/>
+								<File Id="1068980789"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}">
+							<Media>
+								<File Id="111463481"/>
+								<File Id="177653496"/>
+								<File Id="281141023"/>
+								<File Id="508490150"/>
+								<File Id="599396707"/>
+								<File Id="730767234"/>
+								<File Id="873475547"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}">
+							<Media>
+								<File Id="111463481"/>
+								<File Id="177653496"/>
+								<File Id="281141023"/>
+								<File Id="508490150"/>
+								<File Id="599396707"/>
+								<File Id="730767234"/>
+								<File Id="873475547"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
+							<Media>
+								<File Id="111463481"/>
+								<File Id="177653496"/>
+								<File Id="281141023"/>
+								<File Id="508490150"/>
+								<File Id="599396707"/>
+								<File Id="730767234"/>
+								<File Id="873475547"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7BFB50FB-0E35-4EBC-B0F3-D0D1AAAFC6D4}">
+							<Media>
+								<File Id="111463481"/>
+								<File Id="177653496"/>
+								<File Id="281141023"/>
+								<File Id="508490150"/>
+								<File Id="599396707"/>
+								<File Id="730767234"/>
+								<File Id="873475547"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
@@ -1610,6 +1718,10 @@
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_rdm_shack_creak_09.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_rdm_shack_creak_09_7FA8D501.wem</Path>
 				</File>
+				<File Id="95661527" Language="SFX">
+					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="108702680" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_lumberpile_creaks_horror_05.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_lumberpile_creaks_horror_05_7FA8D501.wem</Path>
@@ -1649,6 +1761,10 @@
 				<File Id="169742457" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_limitpoint_voice_10.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_limitpoint_voice_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="178022390" Language="SFX">
+					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="179870295" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_limitpoint_voice_08.wav</ShortName>
@@ -1698,6 +1814,10 @@
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_rdm_shack_creak_10.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_rdm_shack_creak_10_7FA8D501.wem</Path>
 				</File>
+				<File Id="271547786" Language="SFX">
+					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="274171572" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_rdm_shack_dust_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_rdm_shack_dust_01_7FA8D501.wem</Path>
@@ -1746,6 +1866,10 @@
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_computer_noises_10.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_computer_noises_10_7FA8D501.wem</Path>
 				</File>
+				<File Id="395648950" Language="SFX">
+					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="397225041" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_computer_noises_07.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_computer_noises_07_7FA8D501.wem</Path>
@@ -1761,6 +1885,10 @@
 				<File Id="439184312" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_computer_noises_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_computer_noises_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="449389390" Language="SFX">
+					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="461862545" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_rdm_lab_noise_05.wav</ShortName>
@@ -1902,6 +2030,10 @@
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_tile_outdoor_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_tile_outdoor_01_87738049.wem</Path>
 				</File>
+				<File Id="813959279" Language="SFX">
+					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="816127690" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_tile_killerbasement_theentity_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
@@ -2022,6 +2154,10 @@
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_limitpoint_voice_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_limitpoint_voice_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="1068980789" Language="SFX">
+					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_halloween_watertower_creak_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="1072013909" Language="SFX">
 					<ShortName>Ambience\Theme\T01_Industrial\am_t01_industrial_emt_spotlight_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T01_Industrial\am_t01_industrial_emt_spotlight_01_256CDB0F.wem</Path>
@@ -2051,6 +2187,17 @@
 				</StateGroup>
 				<StateGroup Id="652601417" Name="AudioStateIndoor_01_Industrial_Maze" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_01_Industrial\AudioStateIndoor_01_Industrial\AudioStateIndoor_01_Industrial_Maze" GUID="{C351F297-B87F-4771-AA3C-D112FE2EF4D8}">
 					<States/>
+				</StateGroup>
+				<StateGroup Id="740164303" Name="AudioStateSpecialEvent" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent" GUID="{89228360-F550-42DF-8C5B-3A16ED5BC6EF}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent\None" GUID="{7BFB50FB-0E35-4EBC-B0F3-D0D1AAAFC6D4}"/>
+						<State Id="782826392" Name="Default" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent\Default" GUID="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}"/>
+						<State Id="2965343494" Name="Winter" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent\Winter" GUID="{29AF239D-31B2-4F5E-917E-7F402CDC20D5}"/>
+						<State Id="804732334" Name="Halloween" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent\Halloween" GUID="{BE90EE93-3C35-495D-8E6C-1581780912DE}"/>
+						<State Id="3924562482" Name="Summer" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent\Summer" GUID="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}"/>
+						<State Id="924602701" Name="LunarEvent" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent\LunarEvent" GUID="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}"/>
+						<State Id="1168076861" Name="Anniversary" ObjectPath="\States\STATES_MENU\AudioStateSpecialEvent\Anniversary" GUID="{7B2C5A20-E789-4E16-8838-F350790A50C6}"/>
+					</States>
 				</StateGroup>
 				<StateGroup Id="756166810" Name="AudioStateInOut_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Outdoor" GUID="{99364DC0-6C1A-4665-B7AC-51F820296BC2}">
 					<States/>

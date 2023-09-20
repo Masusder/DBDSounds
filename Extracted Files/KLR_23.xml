@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560504" GUID="{0476D2F1-8F68-4B91-81D8-FC833F330544}" Language="SFX" Hash="333514715">
+		<SoundBank Id="1457560504" GUID="{0476D2F1-8F68-4B91-81D8-FC833F330544}" Language="SFX" Hash="518770298">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_23</ObjectPath>
 			<ShortName>KLR_23</ShortName>
 			<Path>KLR_23.bnk</Path>
@@ -1748,8 +1748,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1272130051" Name="AudioEvent_K23_Comet_Status_Start_Menu" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_STATUS\AudioEvent_K23_Comet_Status_Start_Menu" GUID="{52E1123A-D15D-4AE0-BFB3-3BC8C7395741}" MaxAttenuation="4400." DurationType="Infinite">
@@ -2528,8 +2528,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3029718770" Name="AudioEvent_K23_GRUNT_Disdain" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Disdain" GUID="{07EC6BA0-E53A-4D8E-8671-5016E449BC44}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.216" DurationMax="2.405333">
@@ -2560,7 +2560,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3950782872" Name="AudioEvent_K23_GRUNT_Grab" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Grab" GUID="{73A8A280-D29E-42F3-A185-33BC0AB6CAFA}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.778667" DurationMax="3.888">
@@ -2615,7 +2615,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="285427399" Name="AudioEvent_K23_GRUNT_Hook" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Hook" GUID="{F2757E0E-56AF-435D-B29C-7861FE16D979}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.005333" DurationMax="5.034667">
@@ -2654,7 +2654,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="89345644" Name="AudioEvent_K23_GRUNT_Hurdle" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Hurdle" GUID="{FCF7280B-A737-4A89-AE93-284ED58B06E8}" MaxAttenuation="800." DurationType="OneShot" DurationMin="0.245333" DurationMax="1.290667">
@@ -2701,7 +2701,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="639434709" Name="AudioEvent_K23_GRUNT_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Hurt" GUID="{2AE0AA0B-C374-4C7E-BD62-67FF840892E0}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.430667" DurationMax="1.588">
@@ -2776,7 +2776,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3474746972" Name="AudioEvent_K23_GRUNT_Hurt_Recover" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Hurt_Recover" GUID="{99149F22-D4E0-4339-A0FD-7467A914A69B}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.481333" DurationMax="1.916">
@@ -2851,7 +2851,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1010724068" Name="AudioEvent_K23_GRUNT_Kick_Double" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Kick_Double" GUID="{AB91DCFE-7050-4CE3-A7E7-6A4C1F2A5D44}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.32" DurationMax="1.543333">
@@ -2874,7 +2874,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3781177463" Name="AudioEvent_K23_GRUNT_Kick_Single" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Kick_Single" GUID="{45D109D0-6194-4260-BDB6-B35AFC709B21}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.557333" DurationMax="1.552333">
@@ -2909,7 +2909,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2419836601" Name="AudioEvent_K23_GRUNT_Land_Heavy" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Land_Heavy" GUID="{6C72614F-E091-4A65-A2B1-507A5DE58DD4}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.297333" DurationMax="0.457333">
@@ -2940,7 +2940,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3035051032" Name="AudioEvent_K23_GRUNT_Land_Light" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Land_Light" GUID="{7DA1C9D2-3BCB-4A66-BEE0-B2A75DE37E59}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.31" DurationMax="0.578667">
@@ -2971,7 +2971,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1753036601" Name="AudioEvent_K23_GRUNT_Laugh_Heavy" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Laugh_Heavy" GUID="{1776D84E-BAB3-44E1-AAFE-5D3A540CBBCD}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.525333" DurationMax="2.432">
@@ -3034,7 +3034,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2368251032" Name="AudioEvent_K23_GRUNT_Laugh_Light" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Laugh_Light" GUID="{CBFC4DB4-9D00-4D29-96D9-E8E8DFF8471F}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.666667" DurationMax="3.477333">
@@ -3097,7 +3097,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="61542649" Name="AudioEvent_K23_GRUNT_MainEvent_Cooldown" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_MainEvent_Cooldown" GUID="{1B3A2CB8-AFDB-4BA0-9B2B-D1F1593AEFD6}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="5.980333" DurationMax="6.016">
@@ -3112,7 +3112,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1405181669" Name="AudioEvent_K23_GRUNT_Menu_Idle_Shift" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Menu_Idle_Shift" GUID="{146F9128-4D28-4F03-BE21-39E5A0DF86A8}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.939" DurationMax="2.143125">
@@ -3135,7 +3135,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2242454935" Name="AudioEvent_K23_GRUNT_Menu_Interrupt_01" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Menu_Interrupt_01" GUID="{2AF1E9F5-8F23-4CFF-A916-C5A59C50A141}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="5.405667" DurationMax="7.272333">
@@ -3158,7 +3158,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2242454932" Name="AudioEvent_K23_GRUNT_Menu_Interrupt_02" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Menu_Interrupt_02" GUID="{8DC1C355-4094-47B2-811D-09511B2EAF6C}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="6.239" DurationMax="7.739">
@@ -3181,7 +3181,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3229181402" Name="AudioEvent_K23_GRUNT_Menu_Lobby_Interrupt" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Menu_Lobby_Interrupt" GUID="{030730BA-CF92-43F7-943A-5BED33E4DB73}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.272333" DurationMax="4.605667">
@@ -3208,7 +3208,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="761593052" Name="AudioEvent_K23_GRUNT_Mori_Ooooh" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_Mori_Ooooh" GUID="{F54C50D7-EF24-4A8A-8437-2F0AB333A421}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.028375" DurationMax="2.028375">
@@ -3219,7 +3219,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2632875835" Name="AudioEvent_K23_GRUNT_PWR_Reload" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_PWR_Reload" GUID="{E3C25837-40DA-4CC0-A7DB-3271F358FBD3}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.706896" DurationMax="2.051208">
@@ -3242,7 +3242,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3250335068" Name="AudioEvent_K23_GRUNT_PWR_Throw" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_PWR_Throw" GUID="{66CA49C2-0FA9-48F7-973A-E9AD99086D64}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.368667" DurationMax="0.522949">
@@ -3529,7 +3529,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="102230450" Name="AudioEvent_K23_GRUNT_WPN_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_WPN_Attack" GUID="{582A9071-31CC-416C-B222-FB1F303F09C2}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0." DurationMax="0.963313">
@@ -3564,7 +3564,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1297630695" Name="AudioEvent_K23_OBJ_Bell_Loop_Menu" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_OBJECT\AudioEvent_K23_OBJ_Bell_Loop_Menu" GUID="{7DD36A31-435A-4450-9789-FEEDB3B8F4FA}" MaxAttenuation="1900." DurationType="Infinite">
@@ -3604,7 +3604,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1176509564" Name="AudioEvent_K23_PWR_Flurry_Ammo_Empty" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_POWER\AudioEvent_K23_PWR_Flurry_Ammo_Empty" GUID="{8289E2A2-D3FA-493A-ACC7-5619D9459F1D}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.743273" DurationMax="0.895728">
@@ -3703,7 +3703,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3212909382" Name="AudioEvent_K23_PWR_Flurry_Laceration_1_Meter" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_POWER\AudioEvent_K23_PWR_Flurry_Laceration_1_Meter" GUID="{B815CF38-4C4A-4FE4-961D-31EB958A4067}" MaxAttenuation="4500." DurationType="OneShot" DurationMin="0.860792" DurationMax="0.860792">
@@ -3939,7 +3939,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3508812370" Name="AudioEvent_K23_PWR_MainEvent_Cooldown_ThrowAttempt" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_POWER\AudioEvent_K23_PWR_MainEvent_Cooldown_ThrowAttempt" GUID="{A1339DFE-BDE9-44D2-99E5-9116B0BF3434}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.027833" DurationMax="2.027833">
@@ -3966,7 +3966,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="324240440" Name="AudioEvent_K23_PWR_Mori_CardFoley" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_POWER\AudioEvent_K23_PWR_Mori_CardFoley" GUID="{D453BCDA-B4B9-47D4-9259-2942B2B99283}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.385" DurationMax="2.385">
@@ -4021,7 +4021,7 @@
 						<ActionSetSwitchEntry Id="2930662992" Name="Crazy" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerStatus\Crazy" GUID="{0DFAB3FB-8F90-4C6F-9E4E-8513666A810A}"/>
 					</ActionSetSwitch>
 					<AuxBusSends>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4066592522" Name="AudioEvent_K23_SRV_PowerSuperMode_Off" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_POWER\AudioEvent_K23_SRV_PowerSuperMode_Off" GUID="{97F4FD40-03E2-45D5-AF67-470B2F251039}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -4037,8 +4037,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1773116695" Name="AudioEvent_K23_WPN_Custom_BatBladed_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatBladed_Arm" GUID="{7AF0C7EB-5286-41A8-973B-8B24CEB79231}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.454695" DurationMax="0.627202">
@@ -4061,7 +4061,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="737985711" Name="AudioEvent_K23_WPN_Custom_BatBladed_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatBladed_Attack" GUID="{178A5D9E-942D-49F0-9AF5-23A5A755B3A4}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.096346" DurationMax="1.1829">
@@ -4132,8 +4132,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1816454410" Name="AudioEvent_K23_WPN_Custom_BatBladed_Clean" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatBladed_Clean" GUID="{F003F360-5A40-4056-A525-8A0D5EE9D018}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.666954">
@@ -4188,7 +4188,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3813788909" Name="AudioEvent_K23_WPN_Custom_BatBladed_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatBladed_Impact" GUID="{0C1295B7-F970-439F-97F8-1F2CA1B13277}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.574716" DurationMax="1.">
@@ -4235,7 +4235,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3276583654" Name="AudioEvent_K23_WPN_Custom_BatBladed_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatBladed_Impact_Survivor" GUID="{B4A63228-80B1-436D-961C-060EB7836E91}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -4294,12 +4294,12 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2532897696" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Arm" GUID="{334C6A61-DC76-470D-BC61-A98D69793582}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1." DurationMax="1.">
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1224061630" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Attack" GUID="{D956DE1F-B4C1-45F7-A2DC-D9E37CD98E73}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.408383" DurationMax="0.513487">
@@ -4325,8 +4325,8 @@
 						<ActionPostEventEntry Id="102230450" Name="AudioEvent_K23_GRUNT_WPN_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_WPN_Attack" GUID="{582A9071-31CC-416C-B222-FB1F303F09C2}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3790808969" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Clean" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Clean" GUID="{153A7C7E-5DC7-440D-800D-966489774967}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.271523">
@@ -4370,7 +4370,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="805658764" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Impact" GUID="{B1AE0213-9F72-4824-A98B-AE23820C2865}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.432" DurationMax="1.">
@@ -4643,7 +4643,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="653810089" Name="AudioEvent_K23_WPN_Custom_BatCrescent_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatCrescent_Impact_Survivor" GUID="{04F2F895-5DBD-4D7F-8047-B9804F26AEC4}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -4698,7 +4698,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2558859986" Name="AudioEvent_K23_WPN_Custom_Baton_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_Baton_Arm" GUID="{BF58FD39-86AD-47AF-940D-15FE1034F03F}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.454695" DurationMax="0.627202">
@@ -4721,7 +4721,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="127005208" Name="AudioEvent_K23_WPN_Custom_Baton_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_Baton_Attack" GUID="{69A7C6E8-8DBA-4306-BDD8-E076F539455E}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.096346" DurationMax="1.1829">
@@ -4792,8 +4792,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2141245095" Name="AudioEvent_K23_WPN_Custom_Baton_Clean" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_Baton_Clean" GUID="{B1A858FA-427C-47B6-8600-D2CF116406C8}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.666954">
@@ -4848,7 +4848,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3775407658" Name="AudioEvent_K23_WPN_Custom_Baton_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_Baton_Impact" GUID="{83DFFDFA-E72E-4204-983A-DC273053CEDD}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.574716" DurationMax="1.">
@@ -4895,7 +4895,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="778007335" Name="AudioEvent_K23_WPN_Custom_Baton_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_Baton_Impact_Survivor" GUID="{140C0DF8-DA9A-486C-98C1-51103720C596}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -4950,7 +4950,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3654227614" Name="AudioEvent_K23_WPN_Custom_BatRidged_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatRidged_Arm" GUID="{A1CFC201-1067-467C-9A26-EC40EE24C079}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.454695" DurationMax="0.627202">
@@ -4973,7 +4973,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3406763412" Name="AudioEvent_K23_WPN_Custom_BatRidged_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatRidged_Attack" GUID="{FBEB7514-E035-4D94-87E3-317805E4BD6D}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.096346" DurationMax="1.1829">
@@ -5044,8 +5044,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="32572355" Name="AudioEvent_K23_WPN_Custom_BatRidged_Clean" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatRidged_Clean" GUID="{6417173A-3119-431C-B912-280DE0F784C0}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.666954">
@@ -5100,7 +5100,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2480305574" Name="AudioEvent_K23_WPN_Custom_BatRidged_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatRidged_Impact" GUID="{E14A3DFB-5E76-4828-A386-F4635E3B2C77}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.574716" DurationMax="1.">
@@ -5147,7 +5147,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3643942131" Name="AudioEvent_K23_WPN_Custom_BatRidged_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatRidged_Impact_Survivor" GUID="{54537419-1255-417D-8F4B-D9083E47D071}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -5206,7 +5206,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="732001927" Name="AudioEvent_K23_WPN_Custom_BatSpiked_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatSpiked_Arm" GUID="{A5089A4D-6702-46F2-BBF7-A36E6F3EAB8D}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.454695" DurationMax="0.627202">
@@ -5229,7 +5229,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2288431647" Name="AudioEvent_K23_WPN_Custom_BatSpiked_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatSpiked_Attack" GUID="{8A47E8CC-660C-439A-A435-F2EE4F59BA00}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.096346" DurationMax="1.1829">
@@ -5300,8 +5300,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1446322202" Name="AudioEvent_K23_WPN_Custom_BatSpiked_Clean" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatSpiked_Clean" GUID="{8658E8B6-6075-44EE-8267-FC953C313A06}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.666954">
@@ -5356,7 +5356,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3224190621" Name="AudioEvent_K23_WPN_Custom_BatSpiked_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatSpiked_Impact" GUID="{AB106CC6-C73B-4336-ABDE-FD2A11CC2724}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.574716" DurationMax="1.">
@@ -5403,7 +5403,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1700138518" Name="AudioEvent_K23_WPN_Custom_BatSpiked_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_BatSpiked_Impact_Survivor" GUID="{0D36962A-E727-42BB-A9E6-B6A47315468B}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -5462,12 +5462,12 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4289863770" Name="AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Arm" GUID="{3AF27A3B-3746-4209-9FDF-EE6B9C5C92B8}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1." DurationMax="1.">
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1955203824" Name="AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Attack" GUID="{51B6F4F3-3E10-4E80-942E-246B5025416A}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.408383" DurationMax="0.513487">
@@ -5490,8 +5490,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="275835922" Name="AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Impact" GUID="{CBDBC4E4-6434-4BFB-B786-5F6DAB35FDAF}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.345062" DurationMax="1.">
@@ -5901,7 +5901,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3839188879" Name="AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Impact_Survivor" GUID="{B36E2E03-030D-4A9D-B686-224A910575D1}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -5956,7 +5956,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2994584149" Name="AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Wipe" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_MarshmallowMayhem_Wipe" GUID="{771252D5-D10F-4488-821D-661FDFB75411}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.271523">
@@ -6000,7 +6000,144 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2278710907" Name="AudioEvent_K23_WPN_Custom_W017_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_W017_Arm" GUID="{C8ED7329-6853-46C7-8007-54FD59921486}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1." DurationMax="1.">
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3557503843" Name="AudioEvent_K23_WPN_Custom_W017_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_W017_Attack" GUID="{FB2CB38B-72EA-4788-8A31-0810F73CFDAA}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.408383" DurationMax="0.513487">
+					<ExcludedMemoryFiles>
+						<File Id="91986210" Language="SFX">
+							<ShortName>Character\KLR_23\sfx_wpn_k23_default_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_23\sfx_wpn_k23_default_attack_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="361215941" Language="SFX">
+							<ShortName>Character\KLR_23\sfx_wpn_k23_default_attack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_23\sfx_wpn_k23_default_attack_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="526291203" Language="SFX">
+							<ShortName>Character\KLR_23\sfx_wpn_k23_default_attack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_23\sfx_wpn_k23_default_attack_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="585523328" Language="SFX">
+							<ShortName>Character\KLR_23\sfx_wpn_k23_default_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_23\sfx_wpn_k23_default_attack_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="102230450" Name="AudioEvent_K23_GRUNT_WPN_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_WPN_Attack" GUID="{582A9071-31CC-416C-B222-FB1F303F09C2}"/>
+					</ActionPostEvent>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1514117422" Name="AudioEvent_K23_WPN_Custom_W017_Clean" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_W017_Clean" GUID="{E5B79831-BFE3-4EAD-A154-EBFAFD17E547}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.271523">
+					<ExcludedMemoryFiles>
+						<File Id="279450939" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_03.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="401620729" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_04.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="864909455" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_04.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_mono_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1061840497" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_03.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_weapon_bat_wipe_foley_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="782883121" Name="AudioEvent_K23_WPN_Custom_W017_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_W017_Impact" GUID="{323C06E8-AD96-4A10-A497-74E14123B393}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.432" DurationMax="1.">
+					<ExcludedMemoryFiles>
+						<File Id="43507450" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_01.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="847528692" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_05.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="939356901" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_02.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="988968669" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_04.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1011567256" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_03.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_bat_impact_foley_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2438887226" Name="AudioEvent_K23_WPN_Custom_W017_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Custom_W017_Impact_Survivor" GUID="{DF2A63B8-8E4E-472E-9330-B10B40809562}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
+					<ExcludedMemoryFiles>
+						<File Id="122706744" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_02.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="149673734" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_09.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="185132269" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_01.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="251345265" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_04.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_04_67368C31.wem</Path>
+						</File>
+						<File Id="286185922" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_03.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_03_67368C31.wem</Path>
+						</File>
+						<File Id="300167963" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_05.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="402790911" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_01.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_01_67368C31.wem</Path>
+						</File>
+						<File Id="564171571" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_10.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="578695436" Language="SFX">
+							<ShortName>Object\Obj_VFX\Blood\sfx_blood_spray_02.wav</ShortName>
+							<Path>SFX\Object\Obj_VFX\Blood\sfx_blood_spray_02_67368C31.wem</Path>
+						</File>
+						<File Id="645340190" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_03.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="738106850" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_06.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="1000654737" Language="SFX">
+							<ShortName>Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_04.wav</ShortName>
+							<Path>SFX\Character\KLR_23\K23_WEAPON\sfx_k23_wpn_custom_impact_survivor_blunt_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="261959953" Name="AudioEvent_K23_WPN_Default_BaseballBat_Arm" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Default_BaseballBat_Arm" GUID="{592DBA15-CCD0-4B73-B8AE-A34C604A2073}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.454695" DurationMax="0.627202">
@@ -6023,7 +6160,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="449503193" Name="AudioEvent_K23_WPN_Default_BaseballBat_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Default_BaseballBat_Attack" GUID="{AA2FC868-ECB3-4C8C-B709-4A6018138F0B}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="1.096346" DurationMax="1.1829">
@@ -6097,8 +6234,8 @@
 						<ActionPostEventEntry Id="102230450" Name="AudioEvent_K23_GRUNT_WPN_Attack" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_VO_GRUNTS\AudioEvent_K23_GRUNT_WPN_Attack" GUID="{582A9071-31CC-416C-B222-FB1F303F09C2}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
-						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="607517880" Name="AudioEvent_K23_WPN_Default_BaseballBat_Clean" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Default_BaseballBat_Clean" GUID="{9537A2C4-DFC4-4CA4-B463-17A261EB4ABC}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="2.694563" DurationMax="3.666954">
@@ -6186,7 +6323,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2878162339" Name="AudioEvent_K23_WPN_Default_BaseballBat_Impact" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Default_BaseballBat_Impact" GUID="{72398CE6-58ED-432E-8929-AC1A4E20B49C}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.574716" DurationMax="1.">
@@ -6614,7 +6751,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2273230732" Name="AudioEvent_K23_WPN_Default_BaseballBat_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K23_Comet\K23_WEAPON\AudioEvent_K23_WPN_Default_BaseballBat_Impact_Survivor" GUID="{972B9B31-D412-469C-9B31-F3C6E4954D18}" MaxAttenuation="2300." DurationType="OneShot" DurationMin="0.672699" DurationMax="1.509012">
@@ -6673,7 +6810,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>

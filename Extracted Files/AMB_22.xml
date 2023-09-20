@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2165637334" GUID="{9C2774B7-072A-4259-B90B-0605E1BFFC75}" Language="SFX" Hash="1797641975">
+		<SoundBank Id="2165637334" GUID="{9C2774B7-072A-4259-B90B-0605E1BFFC75}" Language="SFX" Hash="1052392275">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_22</ObjectPath>
 			<ShortName>AMB_22</ShortName>
 			<Path>AMB_22.bnk</Path>
@@ -156,7 +156,7 @@
 						<ActionSetStateEntry Id="821240261" Name="AudioStateOutdoor_22_Wormhole_Biome_Rocky" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_22_Wormhole\AudioStateOutdoor_22_Wormhole\AudioStateOutdoor_22_Wormhole_Biome_Rocky" GUID="{1E59F547-F92B-4DF6-B187-B8093F31D536}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1845485273" Name="AudioEvent_AM_T22_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AMB_T22_TILE\AudioEvent_AM_T22_Escape" GUID="{4C8E23B0-CE68-417E-814D-F75A5A2A128E}" DurationType="OneShot" DurationMin="0." DurationMax="15.249047">
@@ -430,35 +430,35 @@
 						<ActionPostEventEntry Id="2530659118" Name="AudioEvent_AM_Intro_22_Wormhole" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AudioEvent_AM_Intro_22_Wormhole" GUID="{534CB600-E6BC-4D27-9425-0AC94FC8DD00}"/>
 					</ActionPostEvent>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1600526803" Name="AudioEvent_ExitDoor_T22_Open_Loop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\ExitDoor_T22\AudioEvent_ExitDoor_T22_Open_Loop" GUID="{711FAC9C-9228-4F61-9107-720EDF722C3E}" MaxAttenuation="1700." DurationType="Infinite">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="244740472" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_loop_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_loop_02_025B2DE5.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1576087525" Name="AudioEvent_ExitDoor_T22_Open_Mid" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\ExitDoor_T22\AudioEvent_ExitDoor_T22_Open_Mid" GUID="{F42AB4BB-E357-4598-8A9E-D8616AB46CB1}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.633333" DurationMax="2.633333">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="73446671" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_mid_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_mid_02_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1633299507" Name="AudioEvent_ExitDoor_T22_Open_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\ExitDoor_T22\AudioEvent_ExitDoor_T22_Open_Start" GUID="{FB5FAF6C-7470-4F6A-B3CE-117B4134C36C}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.266667" DurationMax="2.6">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="8122092" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_start_metal_groan_05.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_start_metal_groan_05_7FA8D501.wem</Path>
@@ -487,26 +487,26 @@
 							<ShortName>Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_start_metal_groan_06.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_start_metal_groan_06_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2577380465" Name="AudioEvent_ExitDoor_T22_Open_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\ExitDoor_T22\AudioEvent_ExitDoor_T22_Open_Stop" GUID="{B28F48C6-32A0-4CFA-AC8F-67C506F321C1}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.2" DurationMax="3.2">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="237039423" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_stop_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\ExitDoor_T22\sfx_exitdoor_t22_open_stop_02_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2000303395" Name="AudioEvent_KeyCard_Drop" ObjectPath="\Events\OBJECT\OBJ_ITEM\KeyCard\AudioEvent_KeyCard_Drop" GUID="{8286DB0B-1479-46D7-A2FA-6B9BD35F1EC1}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.190171" DurationMax="0.253013">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="76905507" Language="SFX">
 							<ShortName>Object\Obj_Item\KeyCard\sfx_keycard_drop_04.wav</ShortName>
 							<Path>SFX\Object\Obj_Item\KeyCard\sfx_keycard_drop_04_7FA8D501.wem</Path>
@@ -531,10 +531,10 @@
 							<ShortName>Object\Obj_Item\KeyCard\sfx_keycard_drop_03.wav</ShortName>
 							<Path>SFX\Object\Obj_Item\KeyCard\sfx_keycard_drop_03_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="922936120" Name="AudioEvent_KeyCard_Get" ObjectPath="\Events\OBJECT\OBJ_ITEM\KeyCard\AudioEvent_KeyCard_Get" GUID="{70E75A58-4C6D-45E4-A525-5400E5346970}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.226412" DurationMax="0.267691">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="78899539" Language="SFX">
 							<ShortName>Object\Obj_Item\KeyCard\sfx_keycard_get_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Item\KeyCard\sfx_keycard_get_02_7FA8D501.wem</Path>
@@ -555,7 +555,7 @@
 							<ShortName>Object\Obj_Item\KeyCard\sfx_keycard_get_04.wav</ShortName>
 							<Path>SFX\Object\Obj_Item\KeyCard\sfx_keycard_get_04_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3555744384" Name="AudioEvent_REV_int_22_Wormhole_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AMB_T22_TILE\AM_Reverb_22_Wormhole\AudioEvent_REV_int_22_Wormhole_Escape" GUID="{C652E780-B56F-4FFC-BE02-F26DC7CE284F}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3483619803" Name="AudioEvent_REV_int_22_Wormhole_Nostromo_ControlRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AMB_T22_TILE\AM_Reverb_22_Wormhole\AudioEvent_REV_int_22_Wormhole_Nostromo_ControlRoom" GUID="{C1C05AEF-3155-4F82-9E3A-39CEBEC4C16F}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -653,7 +653,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4135887473" Name="AudioEvent_T22_Emitter_Debris_Medium" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AMB_T22_EMITTER\AudioEvent_T22_Emitter_Debris_Medium" GUID="{82D9E8F5-CC8B-4689-9834-5F734473ABCC}" MaxAttenuation="1700." DurationType="Infinite">
@@ -692,7 +692,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2773364046" Name="AudioEvent_T22_Emitter_Derelict" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AMB_T22_EMITTER\AudioEvent_T22_Emitter_Derelict" GUID="{3429AFE9-A83F-45D6-8F8D-5E5520989B50}" MaxAttenuation="6500." DurationType="Infinite">
@@ -735,7 +735,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3921803951" Name="AudioEvent_T22_Emitter_Escape_Cave" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AMB_T22_EMITTER\AudioEvent_T22_Emitter_Escape_Cave" GUID="{2DD4628F-1430-42B1-A37E-DB1EA371CE15}" MaxAttenuation="850." DurationType="OneShot" DurationMin="51.270817" DurationMax="51.270817">
@@ -862,7 +862,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1226892942" Name="AudioEvent_T22_Emitter_TV" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T22_Wormhole\AMB_T22_EMITTER\AudioEvent_T22_Emitter_TV" GUID="{890F4D83-10D6-4354-97CF-5590B7364373}" MaxAttenuation="450." DurationType="Infinite">
@@ -922,55 +922,55 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="858053300" Name="AudioEvent_Terminal_Complete_Jingle" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Complete_Jingle" GUID="{A0FAB5D5-C66E-43C7-A0C8-8BDA1EB219D9}" MaxAttenuation="850." DurationType="OneShot" DurationMin="5.723146" DurationMax="5.723146">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="1049237963" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_complete_jingle_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_complete_jingle_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="803635214" Name="AudioEvent_Terminal_Cooldown" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Cooldown" GUID="{FC4700FF-DF6A-451F-B144-16E6C1DD01C5}" MaxAttenuation="850." DurationType="Infinite">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="820024310" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_cooldown_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_cooldown_01_6582094F.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2339719604" Name="AudioEvent_Terminal_Cooldown_End" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Cooldown_End" GUID="{88B121C0-56B1-4750-B7FB-612C78F46841}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.310667" DurationMax="0.310667">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="870965688" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_cooldown_end_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_cooldown_end_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3706399842" Name="AudioEvent_Terminal_Door_Loop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Door_Loop" GUID="{41F3E60F-E8C3-4B40-BBC8-3152D56A7525}" MaxAttenuation="850." DurationType="Infinite">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="592442723" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_door_t22_loop_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_door_t22_loop_01_015D7358.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3048591820" Name="AudioEvent_Terminal_Door_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Door_Start" GUID="{6046D9EF-EABA-40CB-9A36-E61E1D934D71}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.215479" DurationMax="0.215479">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="739862827" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_door_t22_start_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_door_t22_start_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="652919904" Name="AudioEvent_Terminal_Door_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Door_Stop" GUID="{FA5BD4B0-7849-4AA7-A8C8-DD7176E8391B}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.221729" DurationMax="0.221729">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="894174322" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_door_t22_stop_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_door_t22_stop_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3295801100" Name="AudioEvent_Terminal_Input_Correct" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Input_Correct" GUID="{CF2392FF-5958-40DF-BD64-8FFA2DC79865}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.25" DurationMax="0.320729">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="70024707" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_correct_03.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_correct_03_7FA8D501.wem</Path>
@@ -995,10 +995,10 @@
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_correct_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_correct_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2041658505" Name="AudioEvent_Terminal_Input_Wrong" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Input_Wrong" GUID="{BA3B1260-8964-4592-AE0A-5D7ED5F051E1}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.370542" DurationMax="0.370542">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="453665316" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_button_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_button_02_7FA8D501.wem</Path>
@@ -1011,10 +1011,10 @@
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_button_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_input_button_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="638264983" Name="AudioEvent_Terminal_Interact" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Interact" GUID="{11C659CA-E188-428A-8CC5-5F90F649C79A}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.534398" DurationMax="0.534398">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="325067552" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_button_03.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_button_03_7FA8D501.wem</Path>
@@ -1031,10 +1031,10 @@
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_01_69364BEC.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="935663722" Name="AudioEvent_Terminal_Interact_Button" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_Interact_Button" GUID="{96CB3792-6485-4776-B709-7A59DA8CED8A}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.222062" DurationMax="0.228958">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="325067552" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_button_03.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_button_03_7FA8D501.wem</Path>
@@ -1047,15 +1047,15 @@
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_button_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_interact_button_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2955461636" Name="AudioEvent_Terminal_KeyCard_Insert" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Terminal_T22\AudioEvent_Terminal_KeyCard_Insert" GUID="{58A38352-18F9-4620-8294-5EF09B1C8D34}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.70525" DurationMax="0.70525">
-					<ExcludedMemoryFiles>
+					<IncludedMemoryFiles>
 						<File Id="1046280892" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_keycard_insert_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Gameplay\Terminal_T22\sfx_terminal_t22_keycard_insert_01_7FA8D501.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
+					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>

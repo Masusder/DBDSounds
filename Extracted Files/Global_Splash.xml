@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Wormhole_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Wormhole\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="3391614544">
+		<SoundBank Id="4149531102" GUID="{381E6153-2167-416C-B56E-2B085185599E}" Language="SFX" Hash="1454180291">
 			<ObjectPath>\SoundBanks\GLOBAL\Global_Splash</ObjectPath>
 			<ShortName>Global_Splash</ShortName>
 			<Path>Global_Splash.bnk</Path>
@@ -77,7 +77,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="4137123397" Name="AudioEvent_Dialog_Stop" ObjectPath="\Events\SYSTEM\AudioEvent_Dialog_Stop" GUID="{48618DFF-AEFE-488D-8ADC-9E54DF415C09}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -122,7 +122,7 @@
 						<ActionSetStateEntry Id="2584366991" Name="ArchivesPastStory" ObjectPath="\States\STATES_MENU\AudioStateGameflow\ArchivesPastStory" GUID="{D1B40FE1-978A-47BC-9F62-8F34949B7238}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="410153" Name="AudioEvent_Gameflow_ArchivesRewards_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_ArchivesRewards_Enter" GUID="{91DFFED6-682E-4C6A-AE55-BE7B2EFEF119}" DurationType="OneShot" DurationMin="3.703272" DurationMax="4.250001">
@@ -150,7 +150,7 @@
 						<ActionSetStateEntry Id="3590830768" Name="ArchivesRewards" ObjectPath="\States\STATES_MENU\AudioStateGameflow\ArchivesRewards" GUID="{3C49501B-7BC6-4F32-AB84-B0C6793D0C4F}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1393441834" Name="AudioEvent_Gameflow_ArchivesStory_Enter" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_ArchivesStory_Enter" GUID="{A23A4B93-07A8-4A2F-96C1-F9C010D97213}" DurationType="OneShot" DurationMin="3.703272" DurationMax="4.250001">
@@ -178,7 +178,7 @@
 						<ActionSetStateEntry Id="2975006907" Name="ArchivesStory" ObjectPath="\States\STATES_MENU\AudioStateGameflow\ArchivesStory" GUID="{EDF30E5E-5AE1-4FE5-8885-DFB130EDAD1A}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
+						<AuxBus Id="849174520" Name="MENU_Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_Reverb_2D" GUID="{A4CB9CC0-45DC-4BC0-A286-7B28719453E8}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1886194815" Name="AudioEvent_Gameflow_CrowdChoice" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_CrowdChoice" GUID="{AF02F9E1-530F-4F61-8C56-56B3BF563706}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -213,6 +213,10 @@
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_splashscreen_01_2E037E41.wem</Path>
@@ -235,21 +239,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="132103670" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_05.wav</ShortName>
@@ -263,14 +255,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -278,10 +262,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -295,25 +275,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="514807584" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -323,25 +287,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
 						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="643582075" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_04.wav</ShortName>
@@ -350,14 +302,6 @@
 						<File Id="657115610" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_06_67368C31.wem</Path>
-						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
@@ -371,37 +315,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
-						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
@@ -412,8 +328,8 @@
 						<ActionSetStateEntry Id="2791675679" Name="Defeated" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Defeated" GUID="{C8DD6FFD-D9E4-4E7E-92F5-477A20451CEB}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3312498366" Name="AudioEvent_Gameflow_Defeated_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Defeated_Survivor" GUID="{0764C484-E69C-47EC-816E-7B85D13A0B9F}" DurationType="Infinite">
@@ -442,6 +358,10 @@
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_splashscreen_01_2E037E41.wem</Path>
@@ -464,21 +384,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="132103670" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_05.wav</ShortName>
@@ -492,14 +400,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -507,10 +407,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -524,25 +420,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="514807584" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -552,25 +432,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
 						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="643582075" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_04.wav</ShortName>
@@ -579,14 +447,6 @@
 						<File Id="657115610" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_06_67368C31.wem</Path>
-						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
@@ -600,37 +460,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
-						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
@@ -641,8 +473,8 @@
 						<ActionSetStateEntry Id="2791675679" Name="Defeated" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Defeated" GUID="{C8DD6FFD-D9E4-4E7E-92F5-477A20451CEB}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="410408290" Name="AudioEvent_Gameflow_Escape" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Escape" GUID="{7AB9C2BF-498D-4E17-905D-5EA9D86B5C31}" DurationType="OneShot" DurationMin="8.532245" DurationMax="8.532245">
@@ -661,6 +493,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
+						<ActionSetStateEntry Id="581127697" Name="AmbAlt_Out" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateAmbienceAlternative\AmbAlt_Out" GUID="{15E0A646-97FC-4AE0-9A8C-F382AE6E1574}"/>
 						<ActionSetStateEntry Id="984691642" Name="Ingame" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Ingame" GUID="{E224B8AC-328E-4861-8851-A700D7BB2EE9}"/>
 						<ActionSetStateEntry Id="2818768589" Name="Menu_Out" ObjectPath="\States\STATES_MENU\AudioStateMenuInOut\Menu_Out" GUID="{7ED5325E-421B-4C4F-85BD-F41A083531A1}"/>
 					</ActionSetState>
@@ -705,6 +538,10 @@
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_splashscreen_01_2E037E41.wem</Path>
@@ -727,21 +564,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="132103670" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_05.wav</ShortName>
@@ -755,14 +580,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -770,10 +587,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -787,25 +600,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="514807584" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -815,25 +612,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
 						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="643582075" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_04.wav</ShortName>
@@ -842,14 +627,6 @@
 						<File Id="657115610" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_06_67368C31.wem</Path>
-						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
@@ -863,37 +640,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
-						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
@@ -903,8 +652,8 @@
 						<ActionSetStateEntry Id="2516092264" Name="Online" ObjectPath="\States\STATES_MENU\AudioStateOnlineStatus\Online" GUID="{AAFAD8E0-A103-4141-95DA-B5E768C0134B}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2123304394" Name="AudioEvent_Gameflow_Lobby_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Lobby_Survivor" GUID="{FF8124EA-5EF0-4DBB-9EFE-167BA12F9D37}" DurationType="Infinite">
@@ -929,6 +678,10 @@
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_splashscreen_01_2E037E41.wem</Path>
@@ -951,21 +704,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="132103670" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_05.wav</ShortName>
@@ -979,14 +720,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -994,10 +727,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -1011,25 +740,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="514807584" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -1039,25 +752,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
 						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="643582075" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_04.wav</ShortName>
@@ -1066,14 +767,6 @@
 						<File Id="657115610" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_06_67368C31.wem</Path>
-						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
@@ -1087,37 +780,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
-						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionSetState>
@@ -1127,8 +792,8 @@
 						<ActionSetStateEntry Id="3102261578" Name="Gameplay_Survivor" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay\Gameplay_Survivor" GUID="{C98A583A-7B78-4309-9B9F-76C976EC2919}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="519196509" Name="AudioEvent_Gameflow_MainMenu_Killer" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Killer" GUID="{D222DB98-BEB5-46F5-A2CA-8C8B5FEE723E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -1207,6 +872,10 @@
 							<ShortName>Music\Theme\mu_menu_lobby_roleselection.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_roleselection_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="422028859" Language="SFX">
 							<ShortName>Music\Theme\mu_menu_lobby_k12.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_k12_0BC91DCF.wem</Path>
@@ -1226,10 +895,6 @@
 						<File Id="450156871" Language="SFX">
 							<ShortName>Music\SpecialEvent\mu_menu_special_lunarevent_02.wav</ShortName>
 							<Path>SFX\Music\SpecialEvent\mu_menu_special_lunarevent_02_256CDB0F.wem</Path>
-						</File>
-						<File Id="471218563" Language="SFX">
-							<ShortName>Music\SpecialEvent\mu_menu_special_halloween_01.wav</ShortName>
-							<Path>SFX\Music\SpecialEvent\mu_menu_special_halloween_01_0BC91DCF.wem</Path>
 						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
@@ -1327,6 +992,10 @@
 							<ShortName>Music\Collection\mu_collection_vof_01.wav</ShortName>
 							<Path>SFX\Music\Collection\mu_collection_vof_01_256CDB0F.wem</Path>
 						</File>
+						<File Id="892200058" Language="SFX">
+							<ShortName>Music\Collection\mu_collection_cozybreak_01.wav</ShortName>
+							<Path>SFX\Music\Collection\mu_collection_cozybreak_01_256CDB0F.wem</Path>
+						</File>
 						<File Id="903240933" Language="SFX">
 							<ShortName>Music\Theme\mu_menu_lobby_k22.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_k22_256CDB0F.wem</Path>
@@ -1355,6 +1024,10 @@
 							<ShortName>Ambience\Menu\sfx_archives_background_shelves_wood_loop_02.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_archives_background_shelves_wood_loop_02_256CDB0F.wem</Path>
 						</File>
+						<File Id="1019158459" Language="SFX">
+							<ShortName>Music\SpecialEvent\mu_menu_special_halloween_02.wav</ShortName>
+							<Path>SFX\Music\SpecialEvent\mu_menu_special_halloween_02_0BC91DCF.wem</Path>
+						</File>
 						<File Id="1019883309" Language="SFX">
 							<ShortName>Music\Theme\mu_menu_lobby_k07.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_k07_256CDB0F.wem</Path>
@@ -1369,21 +1042,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="132103670" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_05.wav</ShortName>
@@ -1397,14 +1058,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -1416,10 +1069,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -1441,25 +1090,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="514807584" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -1469,17 +1102,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
-						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
@@ -1488,10 +1113,6 @@
 						<File Id="630272044" Language="SFX">
 							<ShortName>Music\Theme\mu_menu_lobby_k33.wav</ShortName>
 							<Path>SFX\Music\Theme\mu_menu_lobby_k33_256CDB0F.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="643582075" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_04.wav</ShortName>
@@ -1505,14 +1126,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_06_67368C31.wem</Path>
 						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_02_67368C31.wem</Path>
@@ -1525,41 +1138,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
 						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
 						<File Id="1013491611" Language="SFX">
 							<ShortName>Music\Collection\mu_collection_aot_survivor_01.wav</ShortName>
 							<Path>SFX\Music\Collection\mu_collection_aot_survivor_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<SwitchContainers>
@@ -2011,6 +1596,11 @@
 												<File Id="145038520"/>
 											</Media>
 										</SwitchContainer>
+										<SwitchContainer SwitchValue="{7E80965B-DF29-4F3D-8BE6-7E118D45164B}">
+											<Media>
+												<File Id="892200058"/>
+											</Media>
+										</SwitchContainer>
 									</Children>
 								</SwitchContainer>
 							</Children>
@@ -2031,7 +1621,7 @@
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{BE90EE93-3C35-495D-8E6C-1581780912DE}">
 											<Media>
-												<File Id="471218563"/>
+												<File Id="1019158459"/>
 											</Media>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
@@ -2119,8 +1709,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1066277998" Name="AudioEvent_Gameflow_MainMenu_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_MainMenu_Survivor" GUID="{33F9A214-3C20-4C7E-81BB-78A4A0ECC478}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -2203,6 +1793,10 @@
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_splashscreen_01_2E037E41.wem</Path>
@@ -2233,17 +1827,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="91317479" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_12.wav</ShortName>
@@ -2252,10 +1838,6 @@
 						<File Id="117272806" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_18.wav</ShortName>
 							<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_18_67368C31.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="123047498" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_04.wav</ShortName>
@@ -2273,14 +1855,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -2288,10 +1862,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -2313,21 +1883,9 @@
 							<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_open_01.wav</ShortName>
 							<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_open_01_67368C31.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
 						<File Id="467118191" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_23.wav</ShortName>
 							<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_23_67368C31.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="501101032" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_03.wav</ShortName>
@@ -2337,10 +1895,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
 						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_12_7FA8D501.wem</Path>
@@ -2348,10 +1902,6 @@
 						<File Id="532480916" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
-						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
@@ -2361,17 +1911,9 @@
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_19.wav</ShortName>
 							<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_19_67368C31.wem</Path>
 						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="640478729" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_17.wav</ShortName>
@@ -2397,14 +1939,6 @@
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_09.wav</ShortName>
 							<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_09_67368C31.wem</Path>
 						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_02_67368C31.wem</Path>
@@ -2421,41 +1955,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
 						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
 						<File Id="972846040" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_13.wav</ShortName>
 							<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_13_67368C31.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 						<File Id="1060327362" Language="SFX">
 							<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_22.wav</ShortName>
@@ -2486,56 +1992,24 @@
 						<SwitchContainer SwitchValue="{13864D48-75D6-4A4C-90BD-89A3BA7713B5}">
 							<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 							<Children>
+								<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
 								<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{7BFB50FB-0E35-4EBC-B0F3-D0D1AAAFC6D4}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -2543,56 +2017,24 @@
 						<SwitchContainer SwitchValue="{7B31D65D-92B0-4064-B13E-D89A851BE3FB}">
 							<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 							<Children>
+								<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
 								<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{7BFB50FB-0E35-4EBC-B0F3-D0D1AAAFC6D4}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -2616,56 +2058,24 @@
 								<File Id="377432510"/>
 							</Media>
 							<Children>
+								<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
 								<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{7BFB50FB-0E35-4EBC-B0F3-D0D1AAAFC6D4}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -2700,56 +2110,24 @@
 						<SwitchContainer SwitchValue="{EA0B60B4-09FE-4FA5-90EF-0D890B61380D}">
 							<DefaultSwitchValue>{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}</DefaultSwitchValue>
 							<Children>
+								<SwitchContainer SwitchValue="{DF2ADB0C-7CF0-47F5-9134-DBDE32CC4B41}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{E2634BB3-68D4-460C-A663-76ABEAC1DED2}">
+									<Media>
+										<File Id="402650029"/>
+									</Media>
+								</SwitchContainer>
 								<SwitchContainer SwitchValue="{AFB1ABDA-591D-455A-B9A5-73C1B7A4C948}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{7BFB50FB-0E35-4EBC-B0F3-D0D1AAAFC6D4}">
 									<Media>
-										<File Id="58771321"/>
-										<File Id="86746946"/>
-										<File Id="122161908"/>
-										<File Id="251399889"/>
-										<File Id="260490528"/>
-										<File Id="296141925"/>
-										<File Id="441285452"/>
-										<File Id="472699587"/>
-										<File Id="482849699"/>
-										<File Id="515965118"/>
-										<File Id="535680688"/>
-										<File Id="581615020"/>
-										<File Id="632918055"/>
-										<File Id="762275587"/>
-										<File Id="765853474"/>
-										<File Id="861234351"/>
-										<File Id="889437475"/>
-										<File Id="890298406"/>
-										<File Id="896694503"/>
-										<File Id="973801613"/>
-										<File Id="1049620792"/>
-										<File Id="1049714438"/>
+										<File Id="402650029"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -2788,8 +2166,8 @@
 						<ActionSetStateEntry Id="3140745524" Name="Splashscreen" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Splashscreen" GUID="{6A323999-83BE-475B-A7C2-D86FF97D4F40}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3877040936" Name="AudioEvent_Gameflow_SplashScreen_Quit" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_SplashScreen_Quit" GUID="{F11B7539-E157-4308-9C99-29227BA22954}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -3360,6 +2738,10 @@
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_splashscreen_01_2E037E41.wem</Path>
@@ -3386,21 +2768,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="132103670" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_05.wav</ShortName>
@@ -3414,14 +2784,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -3429,10 +2791,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -3446,25 +2804,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="514807584" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -3474,25 +2816,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
 						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="643582075" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_04.wav</ShortName>
@@ -3501,14 +2831,6 @@
 						<File Id="657115610" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_06_67368C31.wem</Path>
-						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
@@ -3522,37 +2844,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
-						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
@@ -3563,8 +2857,8 @@
 						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Victory" GUID="{FBD73DE4-B035-4154-9241-92A3514083AB}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2423535568" Name="AudioEvent_Gameflow_Victory_Survivor" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Victory_Survivor" GUID="{040C4554-F304-4B02-B5E9-03639555BEE2}" DurationType="Infinite">
@@ -3589,6 +2883,10 @@
 							<ShortName>Ambience\Menu\am_ui_background_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_ui_background_04_0BC91DCF.wem</Path>
 						</File>
+						<File Id="402650029" Language="SFX">
+							<ShortName>Ambience\Menu\am_lobby_01.wav</ShortName>
+							<Path>SFX\Ambience\Menu\am_lobby_01_0BC91DCF.wem</Path>
+						</File>
 						<File Id="480460084" Language="SFX">
 							<ShortName>Ambience\Menu\am_splashscreen_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\am_splashscreen_01_2E037E41.wem</Path>
@@ -3615,21 +2913,9 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 						</File>
-						<File Id="58771321" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="73937806" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-						</File>
-						<File Id="86746946" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
-						</File>
-						<File Id="122161908" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="132103670" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_05.wav</ShortName>
@@ -3643,14 +2929,6 @@
 							<ShortName>Ambience\Menu\sfx_burning_high_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_14_67368C31.wem</Path>
 						</File>
-						<File Id="251399889" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="260490528" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="273268972" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_04_7FA8D501.wem</Path>
@@ -3658,10 +2936,6 @@
 						<File Id="285596354" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-						</File>
-						<File Id="296141925" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="296924756" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -3675,25 +2949,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="441285452" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="472699587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="482849699" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="514807584" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-						</File>
-						<File Id="515965118" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="518399448" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -3703,25 +2961,13 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 						</File>
-						<File Id="535680688" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="539210571" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
 						</File>
-						<File Id="581615020" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="587880695" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
-						</File>
-						<File Id="632918055" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 						</File>
 						<File Id="643582075" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_04.wav</ShortName>
@@ -3730,14 +2976,6 @@
 						<File Id="657115610" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_06_67368C31.wem</Path>
-						</File>
-						<File Id="762275587" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="765853474" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="772636276" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
@@ -3751,37 +2989,9 @@
 							<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="861234351" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="864476920" Language="SFX">
 							<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 							<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
-						</File>
-						<File Id="889437475" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="890298406" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="896694503" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
-						</File>
-						<File Id="973801613" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049620792" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1049714438" Language="SFX">
-							<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-							<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
@@ -3792,8 +3002,8 @@
 						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\STATES_MENU\AudioStateGameflow\Victory" GUID="{FBD73DE4-B035-4154-9241-92A3514083AB}"/>
 					</ActionSetState>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3228245701" Name="AudioEvent_Gameflow_Video_Play" ObjectPath="\Events\GAMEFLOW\AudioEvent_Gameflow_Video_Play" GUID="{482FE13C-FA2E-4B40-8B49-D0AAB9BB07A9}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -3850,7 +3060,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2544026964" Name="AudioEvent_MainMenu_Ready_All" ObjectPath="\Events\MENU\Lobby\MainMenu\AudioEvent_MainMenu_Ready_All" GUID="{3980FC53-A859-40FB-B2DB-B3416591FF08}" DurationType="OneShot" DurationMin="8.032" DurationMax="8.032"/>
@@ -4527,17 +3737,10 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="9745833" Name="AudioEvent_Splashscreen_Summer" ObjectPath="\Events\MENU\Splashscreen\AudioEvent_Splashscreen_Summer" GUID="{EF9A78C1-243F-4DD9-B674-EEE6F2C8A42B}" DurationType="OneShot" DurationMin="11.729688" DurationMax="11.729688">
-					<ExcludedMemoryFiles>
-						<File Id="985183069" Language="SFX">
-							<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01.wav</ShortName>
-							<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01_7FA8D501.wem</Path>
-						</File>
-					</ExcludedMemoryFiles>
-				</Event>
+				<Event Id="9745833" Name="AudioEvent_Splashscreen_Summer" ObjectPath="\Events\MENU\Splashscreen\AudioEvent_Splashscreen_Summer" GUID="{EF9A78C1-243F-4DD9-B674-EEE6F2C8A42B}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="363594019" Name="AudioEvent_STG_KC" ObjectPath="\Events\GAMEPLAY\STINGERS\AudioEvent_STG_KC" GUID="{B075EB3F-7287-4668-911B-AD1B567ED78F}" DurationType="OneShot" DurationMin="7.85678" DurationMax="7.85678">
 					<ReferencedStreamedFiles>
 						<File Id="927504644" Language="SFX">
@@ -4591,7 +3794,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3972205050" Name="AudioEvent_TheEntity_DaddyFinger_Appear" ObjectPath="\Events\OBJECT\OBJ_VFX\TheEntity\AudioEvent_TheEntity_DaddyFinger_Appear" GUID="{DB66B252-AF08-4FAC-8DF2-D9938522906D}" DurationType="OneShot" DurationMin="23.931646" DurationMax="23.931646">
@@ -5261,10 +4464,6 @@
 					<ShortName>Music\SpecialEvent\mu_menu_special_lunarevent_02.wav</ShortName>
 					<Path>SFX\Music\SpecialEvent\mu_menu_special_lunarevent_02_256CDB0F.wem</Path>
 				</File>
-				<File Id="471218563" Language="SFX">
-					<ShortName>Music\SpecialEvent\mu_menu_special_halloween_01.wav</ShortName>
-					<Path>SFX\Music\SpecialEvent\mu_menu_special_halloween_01_0BC91DCF.wem</Path>
-				</File>
 				<File Id="515741038" Language="SFX">
 					<ShortName>Music\Menu\mu_menu_archives_02.wav</ShortName>
 					<Path>SFX\Music\Menu\mu_menu_archives_02_256CDB0F.wem</Path>
@@ -5353,6 +4552,10 @@
 					<ShortName>Music\Collection\mu_collection_vof_01.wav</ShortName>
 					<Path>SFX\Music\Collection\mu_collection_vof_01_256CDB0F.wem</Path>
 				</File>
+				<File Id="892200058" Language="SFX">
+					<ShortName>Music\Collection\mu_collection_cozybreak_01.wav</ShortName>
+					<Path>SFX\Music\Collection\mu_collection_cozybreak_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="903240933" Language="SFX">
 					<ShortName>Music\Theme\mu_menu_lobby_k22.wav</ShortName>
 					<Path>SFX\Music\Theme\mu_menu_lobby_k22_256CDB0F.wem</Path>
@@ -5384,6 +4587,10 @@
 				<File Id="994159933" Language="SFX">
 					<ShortName>Music\Menu\mu_menu_victory.wav</ShortName>
 					<Path>SFX\Music\Menu\mu_menu_victory_0BC91DCF.wem</Path>
+				</File>
+				<File Id="1019158459" Language="SFX">
+					<ShortName>Music\SpecialEvent\mu_menu_special_halloween_02.wav</ShortName>
+					<Path>SFX\Music\SpecialEvent\mu_menu_special_halloween_02_0BC91DCF.wem</Path>
 				</File>
 				<File Id="1019883309" Language="SFX">
 					<ShortName>Music\Theme\mu_menu_lobby_k07.wav</ShortName>
@@ -5419,17 +4626,9 @@
 					<ShortName>Ambience\Menu\sfx_burning_high_11.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_11_67368C31.wem</Path>
 				</File>
-				<File Id="58771321" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_10_7FA8D501.wem</Path>
-				</File>
 				<File Id="73937806" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_08.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_08_67368C31.wem</Path>
-				</File>
-				<File Id="86746946" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="91317479" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_12.wav</ShortName>
@@ -5438,10 +4637,6 @@
 				<File Id="117272806" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_18.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_18_67368C31.wem</Path>
-				</File>
-				<File Id="122161908" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="123047498" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_04.wav</ShortName>
@@ -5479,17 +4674,9 @@
 					<ShortName>Object\Obj_VFX\Burning_Menu\sfx_burning_menu_15.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\Burning_Menu\sfx_burning_menu_15_7FA8D501.wem</Path>
 				</File>
-				<File Id="251399889" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="259627233" Language="SFX">
 					<ShortName>Ambience\Menu\am_lobby_wormhole_emt_metal_creak_02.wav</ShortName>
 					<Path>SFX\Ambience\Menu\am_lobby_wormhole_emt_metal_creak_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="260490528" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="273268972" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_thunder_low_04.wav</ShortName>
@@ -5506,10 +4693,6 @@
 				<File Id="285596354" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_10.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_10_67368C31.wem</Path>
-				</File>
-				<File Id="296141925" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="296924756" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_13.wav</ShortName>
@@ -5551,21 +4734,9 @@
 					<ShortName>Ambience\Menu\am_lobby_wormhole_emt_metal_creak_04.wav</ShortName>
 					<Path>SFX\Ambience\Menu\am_lobby_wormhole_emt_metal_creak_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="441285452" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_07_7FA8D501.wem</Path>
-				</File>
 				<File Id="467118191" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_23.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_23_67368C31.wem</Path>
-				</File>
-				<File Id="472699587" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="482849699" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="501101032" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_03.wav</ShortName>
@@ -5574,10 +4745,6 @@
 				<File Id="514807584" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_01.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_01_67368C31.wem</Path>
-				</File>
-				<File Id="515965118" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="518399448" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_thunder_low_12.wav</ShortName>
@@ -5591,10 +4758,6 @@
 					<ShortName>Ambience\Menu\sfx_thunder_low_14.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_thunder_low_14_7FA8D501.wem</Path>
 				</File>
-				<File Id="535680688" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="539210571" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_12.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_12_67368C31.wem</Path>
@@ -5603,10 +4766,6 @@
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_19.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_19_67368C31.wem</Path>
 				</File>
-				<File Id="581615020" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="587880695" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_09.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_09_67368C31.wem</Path>
@@ -5614,10 +4773,6 @@
 				<File Id="630272044" Language="SFX">
 					<ShortName>Music\Theme\mu_menu_lobby_k33.wav</ShortName>
 					<Path>SFX\Music\Theme\mu_menu_lobby_k33_256CDB0F.wem</Path>
-				</File>
-				<File Id="632918055" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_weather_wind_01.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_weather_wind_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="640478729" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_17.wav</ShortName>
@@ -5655,14 +4810,6 @@
 					<ShortName>Object\Obj_VFX\Burning_Menu\sfx_burning_menu_09.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\Burning_Menu\sfx_burning_menu_09_7FA8D501.wem</Path>
 				</File>
-				<File Id="762275587" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="765853474" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_09_7FA8D501.wem</Path>
-				</File>
 				<File Id="772636276" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_02.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_02_67368C31.wem</Path>
@@ -5691,25 +4838,9 @@
 					<ShortName>Ambience\Menu\sfx_thunder_low_06.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_thunder_low_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="861234351" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_01_7FA8D501.wem</Path>
-				</File>
 				<File Id="864476920" Language="SFX">
 					<ShortName>Ambience\Menu\sfx_burning_high_03.wav</ShortName>
 					<Path>SFX\Ambience\Menu\sfx_burning_high_03_67368C31.wem</Path>
-				</File>
-				<File Id="889437475" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="890298406" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="896694503" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_theme_quad_01.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_theme_quad_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="938942038" Language="SFX">
 					<ShortName>Ambience\Menu\am_lobby_wormhole_emt_metal_creak_05.wav</ShortName>
@@ -5718,14 +4849,6 @@
 				<File Id="972846040" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_13.wav</ShortName>
 					<Path>SFX\Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_13_67368C31.wem</Path>
-				</File>
-				<File Id="973801613" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="985183069" Language="SFX">
-					<ShortName>Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01.wav</ShortName>
-					<Path>SFX\Menu\SplashScreen\sfx_ui_splashscreen_open_summer_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="987066025" Language="SFX">
 					<ShortName>Object\Obj_VFX\Burning_Menu\sfx_burning_menu_12.wav</ShortName>
@@ -5738,14 +4861,6 @@
 				<File Id="1013491611" Language="SFX">
 					<ShortName>Music\Collection\mu_collection_aot_survivor_01.wav</ShortName>
 					<Path>SFX\Music\Collection\mu_collection_aot_survivor_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="1049620792" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_sand_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="1049714438" Language="SFX">
-					<ShortName>Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08.wav</ShortName>
-					<Path>SFX\Ambience\Menu\am_lobby_wormhole_rdm_wind_gust_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="1060327362" Language="SFX">
 					<ShortName>Object\Obj_VFX\TheEntity\sfx_theentity_ui_scream_22.wav</ShortName>
@@ -5989,6 +5104,8 @@
 						<State Id="520109875" Name="SilentHill" ObjectPath="\States\STATES_MENU\AudioStateCollection\SilentHill" GUID="{72390862-9BF4-48B0-AC79-ADF3B76E224D}"/>
 						<State Id="1857378326" Name="Wormhole" ObjectPath="\States\STATES_MENU\AudioStateCollection\Wormhole" GUID="{64FFB238-EAB9-4C69-8D31-ED38493163F4}"/>
 						<State Id="2082561974" Name="FireMoon" ObjectPath="\States\STATES_MENU\AudioStateCollection\FireMoon" GUID="{F74DF116-C2E8-4833-ACCB-DC5A195593B5}"/>
+						<State Id="1368447741" Name="CozyBreak" ObjectPath="\States\STATES_MENU\AudioStateCollection\CozyBreak" GUID="{7E80965B-DF29-4F3D-8BE6-7E118D45164B}"/>
+						<State Id="1668749441" Name="NB" ObjectPath="\States\STATES_MENU\AudioStateCollection\NB" GUID="{60DC2AD4-8287-495C-A76F-E29415C500A1}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="4268632856" Name="AudioStateGameplay" ObjectPath="\States\STATES_GAMEPLAY\AudioStateGameplay" GUID="{135FF12B-3DE1-46E5-9343-8B3639D03D55}">
