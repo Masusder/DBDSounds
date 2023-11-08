@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Yerkes_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560511" GUID="{11006D46-13C9-40AE-AFCB-E208D6BCBC59}" Language="SFX" Hash="170088327">
+		<SoundBank Id="1457560511" GUID="{11006D46-13C9-40AE-AFCB-E208D6BCBC59}" Language="SFX" Hash="3378477621">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_24</ObjectPath>
 			<ShortName>KLR_24</ShortName>
 			<Path>KLR_24.bnk</Path>
@@ -754,6 +754,46 @@
 						<File Id="1047531941" Language="SFX">
 							<ShortName>Character\KLR_24\K24_MORI\sfx_k24_mori_impactlayer.wav</ShortName>
 							<Path>SFX\Character\KLR_24\K24_MORI\sfx_k24_mori_impactlayer_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1963606179" Name="AudioEvent_K24_OBJ_Serum_Injection_Start" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_OBJECT\AudioEvent_K24_OBJ_Serum_Injection_Start" GUID="{0B59E7AD-D566-462F-A0E1-67FC5CFE879D}" MaxAttenuation="850." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="191218909" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_01.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="218130520" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_01.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="428996506" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_02.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_02_256CDB0F.wem</Path>
+						</File>
+						<File Id="599162786" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_03.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="804029982" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_02.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2725406625" Name="AudioEvent_K24_OBJ_Serum_Injection_Stop" ObjectPath="\Events\CHARACTER\KILLER\K24_Eclipse\K24_OBJECT\AudioEvent_K24_OBJ_Serum_Injection_Stop" GUID="{6AFEF67D-A557-4766-BA14-7A9292309CC2}" MaxAttenuation="850." DurationType="OneShot" DurationMin="0.378047" DurationMax="0.552521">
+					<ExcludedMemoryFiles>
+						<File Id="215234153" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_03.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="468517656" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="552187901" Language="SFX">
+							<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -1683,6 +1723,10 @@
 					<ShortName>Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_pwr_arm_cooldown_03.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_pwr_arm_cooldown_03_AE69B689.wem</Path>
 				</File>
+				<File Id="191218909" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_01.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_01_256CDB0F.wem</Path>
+				</File>
 				<File Id="195761451" Language="SFX">
 					<ShortName>Character\KLR_24\K24_STATUS\sfx_k24_status_in_12.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_STATUS\sfx_k24_status_in_12_42D80115.wem</Path>
@@ -1703,9 +1747,17 @@
 					<ShortName>Character\KLR_24\K24_PWR\sfx_k24_pwr_whip_attack_cooldown_lvl3_whip_02.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_PWR\sfx_k24_pwr_whip_attack_cooldown_lvl3_whip_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="215234153" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_03.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="216246990" Language="SFX">
 					<ShortName>Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_stars_01.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_stars_01_42D80115.wem</Path>
+				</File>
+				<File Id="218130520" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_01.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="228147059" Language="SFX">
 					<ShortName>Character\KLR_24\K24_PWR\sfx_k24_pwr_whip_impact_survivor_cut_09.wav</ShortName>
@@ -1879,6 +1931,10 @@
 					<ShortName>Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_disinterest_06.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_disinterest_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="428996506" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_02.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_lp_02_256CDB0F.wem</Path>
+				</File>
 				<File Id="430130527" Language="SFX">
 					<ShortName>Character\KLR_24\K24_WPN\sfx_k24_wpn_impact_01.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_WPN\sfx_k24_wpn_impact_01_7FA8D501.wem</Path>
@@ -1910,6 +1966,10 @@
 				<File Id="459589853" Language="SFX">
 					<ShortName>Character\KLR_24\K24_STATUS\sfx_k24_status_in_02.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_STATUS\sfx_k24_status_in_02_42D80115.wem</Path>
+				</File>
+				<File Id="468517656" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_02.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="482933364" Language="SFX">
 					<ShortName>Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_pwr_arm_cooldown_04.wav</ShortName>
@@ -2015,6 +2075,10 @@
 					<ShortName>Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_pwr_miss_cooldown_09.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_pwr_miss_cooldown_09_7FA8D501.wem</Path>
 				</File>
+				<File Id="552187901" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_01.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_stop_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="569619326" Language="SFX">
 					<ShortName>Character\KLR_24\K24_STATUS\sfx_k24_status_in_18.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_STATUS\sfx_k24_status_in_18_42D80115.wem</Path>
@@ -2050,6 +2114,10 @@
 				<File Id="592328836" Language="SFX">
 					<ShortName>Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_pwr_miss_cooldown_06.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_pwr_miss_cooldown_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="599162786" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_03.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="605430265" Language="SFX">
 					<ShortName>Character\KLR_24\K24_WPN\sfx_k24_wpn_default_impact_survivor_blunt_09.wav</ShortName>
@@ -2226,6 +2294,10 @@
 				<File Id="799424855" Language="SFX">
 					<ShortName>Character\KLR_24\K24_STATUS\sfx_k24_status_out_16.wav</ShortName>
 					<Path>SFX\Character\KLR_24\K24_STATUS\sfx_k24_status_out_16_42D80115.wem</Path>
+				</File>
+				<File Id="804029982" Language="SFX">
+					<ShortName>Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_02.wav</ShortName>
+					<Path>SFX\Character\KLR_24\K24_OBJECT\sfx_k24_obj_serum_injection_start_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="810494663" Language="SFX">
 					<ShortName>Character\KLR_24\K24_GRUNTS\K24_GRUNTS\sfx_k24_grunt_wipe_roar_03.wav</ShortName>
@@ -2632,6 +2704,8 @@
 						<Switch Id="319360873" Name="K03_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Custom_Outfit010" GUID="{23B11BF9-E471-4DE1-ADE4-180DB6788001}"/>
 						<Switch Id="607815762" Name="K02_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Custom_Outfit010" GUID="{11DEEF2A-7791-4CC3-9C10-E68B18576D85}"/>
 						<Switch Id="1355720765" Name="K27_CLOTH_Default_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default_Custom_Outfit007" GUID="{38062467-CE92-4006-93E2-3CBC59C91069}"/>
+						<Switch Id="3225580426" Name="K34_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K34_CLOTH_Default" GUID="{F424FF4A-35BB-484D-9BE5-0DEB9295757D}"/>
+						<Switch Id="2763194826" Name="K34b_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K34b_CLOTH_Default" GUID="{1BE5B870-9D6A-49D8-9155-5B6784640BAC}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3548994684" Name="AudioSwitchProximity" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchProximity" GUID="{A238147F-8756-470E-AC66-0AFAF133FD8A}">

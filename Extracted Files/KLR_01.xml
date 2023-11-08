@@ -1,18 +1,651 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Yerkes_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115648" GUID="{3096291F-1CFC-425E-88BE-39C80F3272D2}" Language="SFX" Hash="1896509748">
+		<SoundBank Id="1491115648" GUID="{3096291F-1CFC-425E-88BE-39C80F3272D2}" Language="SFX" Hash="3980113433">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_01</ObjectPath>
 			<ShortName>KLR_01</ShortName>
 			<Path>KLR_01.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3401804990" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_01" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_01" GUID="{2F23F94B-F247-4FF6-A7F5-949B53F7E685}" DurationType="OneShot" DurationMin="4.234292" DurationMax="4.440333">
+					<ReferencedStreamedFiles>
+						<File Id="269820096" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_01_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_01_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="271090631" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_01_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_01_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="652076813" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_01_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_01_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3401804989" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_02" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_02" GUID="{9A3F12E1-9262-4A7D-A3A0-943C1FE29E9E}" DurationType="OneShot" DurationMin="3.126" DurationMax="3.658833">
+					<ReferencedStreamedFiles>
+						<File Id="323072466" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_02_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_02_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="421532269" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_02_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_02_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="912926556" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_02_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_02_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3401804988" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_03" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_03" GUID="{6BD08931-1F62-481C-92F4-8E4F0C6E1A6A}" DurationType="OneShot" DurationMin="4.461646" DurationMax="5.101042">
+					<ReferencedStreamedFiles>
+						<File Id="90849772" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_03_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_03_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="267046125" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_03_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_03_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="406225216" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_03_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_03_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3401804987" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_04" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_04" GUID="{D260AC12-2EA2-43BE-98B0-69F28C0ACB21}" DurationType="OneShot" DurationMin="3.140729" DurationMax="3.684625">
+					<ReferencedStreamedFiles>
+						<File Id="267466612" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_04_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_04_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="588375508" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_04_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_04_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="630776755" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_04_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_04_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3401804986" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_05" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_05" GUID="{8BE38218-C058-4057-9011-12C615EBD65A}" DurationType="OneShot" DurationMin="3.915521" DurationMax="4.94">
+					<ReferencedStreamedFiles>
+						<File Id="50885410" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_05_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_05_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="114596675" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_05_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_05_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="223364789" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_05_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_05_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3401804985" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_06" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_MORI_06" GUID="{52A6C8A3-D131-4639-AB41-E59CE71945D5}" DurationType="OneShot" DurationMin="3.07625" DurationMax="3.403063">
+					<ReferencedStreamedFiles>
+						<File Id="230568549" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_06_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_06_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="389362754" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_06_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_06_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="677722571" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_06_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_gameplay_mori_06_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382602" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_01" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_01" GUID="{5A8F42BA-78DF-4515-B0E3-5C4AA3E8671F}" DurationType="OneShot" DurationMin="4.16" DurationMax="5.44">
+					<ReferencedStreamedFiles>
+						<File Id="261103300" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_01_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_01_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="694284407" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_01_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_01_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="952258548" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_01_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_01_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382601" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_02" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_02" GUID="{E0B07052-4AED-426C-97F3-3464EFE9E14A}" DurationType="OneShot" DurationMin="3.183813" DurationMax="3.388854">
+					<ReferencedStreamedFiles>
+						<File Id="206180036" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_02_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_02_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="724415367" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_02_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_02_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="879312500" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_02_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_02_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382600" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_03" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_03" GUID="{7C830698-D75D-491E-BA36-6ACE45D1BAFB}" DurationType="OneShot" DurationMin="3.068833" DurationMax="4.093458">
+					<ReferencedStreamedFiles>
+						<File Id="28401640" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_03_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_03_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="164829045" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_03_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_03_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="781218079" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_03_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_03_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382607" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_04" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_04" GUID="{D60FD845-D30E-4BE9-ADA4-51B8996CBD76}" DurationType="OneShot" DurationMin="3.513021" DurationMax="3.684625">
+					<ReferencedStreamedFiles>
+						<File Id="889798005" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_04_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_04_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="975543962" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_04_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_04_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1066576670" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_04_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_04_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382606" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_05" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_05" GUID="{544F6C81-8C07-450A-B3C7-1D450B9A607D}" DurationType="OneShot" DurationMin="3.64425" DurationMax="4.366021">
+					<ReferencedStreamedFiles>
+						<File Id="148355497" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_05_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_05_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="455180588" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_05_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_05_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1026450882" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_05_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_05_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382605" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_06" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_06" GUID="{371A8BD4-C9A4-41F9-A93A-B0E27BC3FADB}" DurationType="OneShot" DurationMin="4.305333" DurationMax="5.42075">
+					<ReferencedStreamedFiles>
+						<File Id="309612365" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_06_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_06_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="445663410" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_06_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_06_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1017722852" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_06_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_06_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382604" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_07" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_07" GUID="{1B5B770D-80AF-42A0-9585-9DC94810A778}" DurationType="OneShot" DurationMin="3.59" DurationMax="3.95">
+					<ReferencedStreamedFiles>
+						<File Id="494040947" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_07_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_07_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="601232131" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_07_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_07_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="629490196" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_07_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_07_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382595" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_08" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_08" GUID="{1B34C176-5DD8-4F22-885C-2B5272DC9499}" DurationType="OneShot" DurationMin="3.701458" DurationMax="4.94475">
+					<ReferencedStreamedFiles>
+						<File Id="651964681" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_08_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_08_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="910408380" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_08_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_08_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="917977856" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_08_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_08_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1592382594" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_09" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_09" GUID="{F968816C-97E0-4879-A4C7-EE1CABD7543A}" DurationType="OneShot" DurationMin="2.564729" DurationMax="3.665937">
+					<ReferencedStreamedFiles>
+						<File Id="123730300" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_09_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_09_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="259910926" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_09_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_09_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1061571953" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_09_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_09_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1575605016" Name="AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_10" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_GAMEPLAY\AudioEvent_DIALOG_K01b_GAMEPLAY_TRIAL_START_10" GUID="{6D09543C-A6D8-4429-9F4D-D59FFB8AC460}" DurationType="OneShot" DurationMin="3.04" DurationMax="3.89">
+					<ReferencedStreamedFiles>
+						<File Id="314344607" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_10_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_10_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="628499696" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_10_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_10_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="676777594" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_10_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k10b_dialog_gameplay_trial_start_10_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371750" Name="AudioEvent_DIALOG_K01b_MENU_C1_01" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_01" GUID="{20697072-B644-40B7-BE25-62545BB05A63}" DurationType="OneShot" DurationMin="2.453042" DurationMax="3.083979">
+					<ReferencedStreamedFiles>
+						<File Id="286021311" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_01_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_01_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="778210762" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_01_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_01_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="886703296" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_01_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_01_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371749" Name="AudioEvent_DIALOG_K01b_MENU_C1_02" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_02" GUID="{7C6080D9-17EA-4EC9-BF1D-BD8324B73A7B}" DurationType="OneShot" DurationMin="1.554604" DurationMax="2.089646">
+					<ReferencedStreamedFiles>
+						<File Id="442656801" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_02_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_02_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="601130638" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_02_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_02_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="736146432" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_02_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_02_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371748" Name="AudioEvent_DIALOG_K01b_MENU_C1_03" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_03" GUID="{D0172D09-D99B-4EB3-B81F-3602C40DF618}" DurationType="OneShot" DurationMin="1.794438" DurationMax="2.306667">
+					<ReferencedStreamedFiles>
+						<File Id="537945418" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_03_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_03_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="692352357" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_03_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_03_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1016713188" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_03_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_03_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371747" Name="AudioEvent_DIALOG_K01b_MENU_C1_04" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_04" GUID="{C9A2AF3F-4DC7-48B1-8FE6-1218FCCDFB5B}" DurationType="OneShot" DurationMin="1.562479" DurationMax="2.070958">
+					<ReferencedStreamedFiles>
+						<File Id="369538721" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_04_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_04_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="424289422" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_04_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_04_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="637000226" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_04_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_04_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371746" Name="AudioEvent_DIALOG_K01b_MENU_C1_05" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_05" GUID="{606BE78B-FC15-4BA2-A96E-1E6D40E5F722}" DurationType="OneShot" DurationMin="2.543896" DurationMax="3.417104">
+					<ReferencedStreamedFiles>
+						<File Id="518291750" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_05_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_05_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="614307190" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_05_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_05_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="874822450" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_05_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_05_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371745" Name="AudioEvent_DIALOG_K01b_MENU_C1_06" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_06" GUID="{AB6F0A94-B1CF-4CA0-9B09-54AD5460CEE4}" DurationType="OneShot" DurationMin="1.678958" DurationMax="1.833417">
+					<ReferencedStreamedFiles>
+						<File Id="312330232" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_06_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_06_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1068238013" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_06_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_06_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1070421610" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_06_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_06_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371744" Name="AudioEvent_DIALOG_K01b_MENU_C1_07" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_07" GUID="{8127C4ED-0843-4B99-81F7-F64241CF6E0D}" DurationType="OneShot" DurationMin="2.678708" DurationMax="2.940479">
+					<ReferencedStreamedFiles>
+						<File Id="92852407" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_07_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_07_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="359333155" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_07_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_07_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="679727264" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_07_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_07_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371759" Name="AudioEvent_DIALOG_K01b_MENU_C1_08" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_08" GUID="{53A765C0-CE67-4EF4-A7A2-91A5A9F230DB}" DurationType="OneShot" DurationMin="3.042687" DurationMax="3.256938">
+					<ReferencedStreamedFiles>
+						<File Id="4932148" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_08_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_08_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="74300691" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_08_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_08_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="392486842" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_08_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_08_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="435371758" Name="AudioEvent_DIALOG_K01b_MENU_C1_09" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_09" GUID="{3E29E058-5815-4920-B6B5-43C2D8640C81}" DurationType="OneShot" DurationMin="2.95275" DurationMax="3.220271">
+					<ReferencedStreamedFiles>
+						<File Id="160476360" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_09_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_09_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="412570550" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_09_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_09_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="679538807" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_09_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_09_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="418594164" Name="AudioEvent_DIALOG_K01b_MENU_C1_10" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_10" GUID="{F7BDE9DC-0537-4BEB-99E1-530C37A4A145}" DurationType="OneShot" DurationMin="3.094083" DurationMax="3.450271">
+					<ReferencedStreamedFiles>
+						<File Id="320652027" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_10_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_10_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="606807863" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_10_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_10_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="963682086" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_10_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_10_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="418594165" Name="AudioEvent_DIALOG_K01b_MENU_C1_11" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_11" GUID="{C3B15E2C-5D8B-47BF-831B-1CB96AE7566D}" DurationType="OneShot" DurationMin="2.547729" DurationMax="3.354375">
+					<ReferencedStreamedFiles>
+						<File Id="12237411" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_11_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_11_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="107732085" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_11_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_11_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="806593405" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_11_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_11_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="418594166" Name="AudioEvent_DIALOG_K01b_MENU_C1_12" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_12" GUID="{CA0D3919-DC02-424C-B077-8F354503F944}" DurationType="OneShot" DurationMin="3.217917" DurationMax="3.417104">
+					<ReferencedStreamedFiles>
+						<File Id="178265006" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_12_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_12_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="661462433" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_12_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_12_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1004014861" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_12_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_12_02_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="418594167" Name="AudioEvent_DIALOG_K01b_MENU_C1_13" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_13" GUID="{E5F03665-935F-4D4D-BD75-CA2993EC3332}" DurationType="OneShot" DurationMin="2.126479" DurationMax="2.187438">
+					<ReferencedStreamedFiles>
+						<File Id="362573572" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_13_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_13_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="656977129" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_13_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_13_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="692363997" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_13_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_13_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="418594160" Name="AudioEvent_DIALOG_K01b_MENU_C1_14" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_14" GUID="{94976BA6-8940-4D41-B519-87666F013605}" DurationType="OneShot" DurationMin="3.589271" DurationMax="4.560479">
+					<ReferencedStreamedFiles>
+						<File Id="551310083" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_14_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_14_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="840145128" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_14_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_14_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="937643600" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_14_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_14_01_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="418594161" Name="AudioEvent_DIALOG_K01b_MENU_C1_15" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_C1_15" GUID="{3301931E-5E95-41E7-BB4F-85EE5764C321}" DurationType="OneShot" DurationMin="2.90575" DurationMax="3.9075">
+					<ReferencedStreamedFiles>
+						<File Id="113444589" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_15_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_15_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="387139639" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_15_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_15_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="499875046" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_15_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_c1_15_03_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2391051008" Name="AudioEvent_DIALOG_K01b_MENU_PRESTIGE100" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\DIALOG_K01b_MENU\AudioEvent_DIALOG_K01b_MENU_PRESTIGE100" GUID="{B4CD799A-3088-4A10-B207-8D72E4065D69}" DurationType="OneShot" DurationMin="5.778792" DurationMax="5.778792">
+					<ReferencedStreamedFiles>
+						<File Id="301318763" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_prestige100.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_DIALOG\vo_k01b_dialog_menu_prestige100_7FA8D501.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="819098840" Name="AudioEvent_DIALOG_K01b_STOP" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_DIALOG\AudioEvent_DIALOG_K01b_STOP" GUID="{25F49161-17F1-4364-B2E5-107F93D88D30}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="466743529" Name="AudioEvent_K01_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_CLOTH\AudioEvent_K01_CLOTH_Default_Land" GUID="{10BDD55F-F824-4D91-9C18-407307B18771}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.001" DurationMax="0.001">
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
@@ -193,7 +826,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3810117005" Name="AudioEvent_K01_GRUNT_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_GRUNT\AudioEvent_K01_GRUNT_Hurt" GUID="{1101BE44-FE11-4A35-97C2-1510D0D121DE}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.305034" DurationMax="0.533333">
+				<Event Id="3810117005" Name="AudioEvent_K01_GRUNT_Hurt" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_GRUNT\AudioEvent_K01_GRUNT_Hurt" GUID="{1101BE44-FE11-4A35-97C2-1510D0D121DE}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.305034" DurationMax="0.859205">
 					<ExcludedMemoryFiles>
 						<File Id="184717401" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_hurt_01.wav</ShortName>
@@ -203,6 +836,10 @@
 							<ShortName>Character\KLR_01\vo_killer_trapper_hurt_02.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_02_67368C31.wem</Path>
 						</File>
+						<File Id="387227978" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="397935499" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_hurt_06.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_06_67368C31.wem</Path>
@@ -211,21 +848,81 @@
 							<ShortName>Character\KLR_01\vo_killer_trapper_hurt_07.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_07_67368C31.wem</Path>
 						</File>
+						<File Id="483545276" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="520227949" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_hurt_04.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_04_67368C31.wem</Path>
+						</File>
+						<File Id="534110135" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_09.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="679981125" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_10.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="693414122" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="726640719" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_hurt_03.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_03_67368C31.wem</Path>
 						</File>
+						<File Id="731816765" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_06.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="818459589" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_08.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="908144271" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_12.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="970545103" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_07.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_07_7FA8D501.wem</Path>
+						</File>
 						<File Id="1003969210" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_hurt_05.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_05_67368C31.wem</Path>
 						</File>
+						<File Id="1009493026" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030569922" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="1051802313" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_11.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_11_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{171EF9F4-81C9-4233-8785-E044572D6562}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{9D3E254F-7906-459E-BEB3-2A65C72AF46B}">
+							<Media>
+								<File Id="387227978"/>
+								<File Id="483545276"/>
+								<File Id="534110135"/>
+								<File Id="679981125"/>
+								<File Id="693414122"/>
+								<File Id="731816765"/>
+								<File Id="818459589"/>
+								<File Id="908144271"/>
+								<File Id="970545103"/>
+								<File Id="1009493026"/>
+								<File Id="1030569922"/>
+								<File Id="1051802313"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{171EF9F4-81C9-4233-8785-E044572D6562}">
 							<Media>
 								<File Id="184717401"/>
@@ -242,11 +939,23 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4249969778" Name="AudioEvent_K01_GRUNT_Satisfaction" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_GRUNT\AudioEvent_K01_GRUNT_Satisfaction" GUID="{FE02170F-A3AA-4D51-8BE1-C32A39038927}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.753671" DurationMax="0.982292">
+				<Event Id="4249969778" Name="AudioEvent_K01_GRUNT_Satisfaction" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_GRUNT\AudioEvent_K01_GRUNT_Satisfaction" GUID="{FE02170F-A3AA-4D51-8BE1-C32A39038927}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.753671" DurationMax="1.183629">
 					<ExcludedMemoryFiles>
+						<File Id="43772291" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="86629879" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_04_7FA8D501.wem</Path>
+						</File>
 						<File Id="464274454" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_satisfaction_07.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_satisfaction_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="563345516" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="772020200" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_satisfaction_06.wav</ShortName>
@@ -256,9 +965,26 @@
 							<ShortName>Character\KLR_01\vo_killer_trapper_satisfaction_05.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_satisfaction_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="1011970979" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1050075042" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_02_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{171EF9F4-81C9-4233-8785-E044572D6562}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{9D3E254F-7906-459E-BEB3-2A65C72AF46B}">
+							<Media>
+								<File Id="43772291"/>
+								<File Id="86629879"/>
+								<File Id="563345516"/>
+								<File Id="1011970979"/>
+								<File Id="1050075042"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{171EF9F4-81C9-4233-8785-E044572D6562}">
 							<Media>
 								<File Id="464274454"/>
@@ -569,6 +1295,10 @@
 				</Event>
 				<Event Id="2804865788" Name="AudioEvent_K01_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_STATUS\AudioEvent_K01_Status_Start" GUID="{868C7669-7967-4B0D-BEDB-577FE2D698C2}" MaxAttenuation="1900." DurationType="Infinite">
 					<ExcludedMemoryFiles>
+						<File Id="28867887" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_17.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_17_7FA8D501.wem</Path>
+						</File>
 						<File Id="38268864" Language="SFX">
 							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_02.wav</ShortName>
 							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_02_7FA8D501.wem</Path>
@@ -581,9 +1311,33 @@
 							<ShortName>Character\KLR_01\vo_killer_trapper_breath_02.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_02_67368C31.wem</Path>
 						</File>
+						<File Id="165806117" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_19.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_19_7FA8D501.wem</Path>
+						</File>
 						<File Id="168909344" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_breath_05.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_05_67368C31.wem</Path>
+						</File>
+						<File Id="238880109" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_09.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="272166891" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_13.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="295059410" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_06.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="316049048" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_07.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="362873798" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_15.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_15_7FA8D501.wem</Path>
 						</File>
 						<File Id="382833801" Language="SFX">
 							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_08.wav</ShortName>
@@ -593,9 +1347,17 @@
 							<ShortName>Character\KLR_01\vo_killer_trapper_breath_09.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_09_67368C31.wem</Path>
 						</File>
+						<File Id="460027614" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_11.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="469867622" Language="SFX">
 							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_10.wav</ShortName>
 							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="473639100" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="484475149" Language="SFX">
 							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_01.wav</ShortName>
@@ -605,13 +1367,37 @@
 							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_09.wav</ShortName>
 							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="567587021" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_21.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_21_7FA8D501.wem</Path>
+						</File>
 						<File Id="589274713" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_breath_01.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_01_67368C31.wem</Path>
 						</File>
+						<File Id="593738130" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="618396271" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_12.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_12_7FA8D501.wem</Path>
+						</File>
 						<File Id="623977173" Language="SFX">
 							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_05.wav</ShortName>
 							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="633083289" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_10.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="638803327" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="649730010" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_14.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_14_7FA8D501.wem</Path>
 						</File>
 						<File Id="654033739" Language="SFX">
 							<ShortName>Character\KLR_01\vo_killer_trapper_breath_07.wav</ShortName>
@@ -633,6 +1419,18 @@
 							<ShortName>Character\KLR_01\vo_killer_trapper_breath_08.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_08_67368C31.wem</Path>
 						</File>
+						<File Id="727089263" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_20.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_20_7FA8D501.wem</Path>
+						</File>
+						<File Id="731657014" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_18.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="745383180" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="764826295" Language="SFX">
 							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_04.wav</ShortName>
 							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_04_7FA8D501.wem</Path>
@@ -649,9 +1447,36 @@
 							<ShortName>Character\KLR_01\vo_killer_trapper_breath_06.wav</ShortName>
 							<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_06_67368C31.wem</Path>
 						</File>
+						<File Id="1065570938" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_08.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_08_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{9D3E254F-7906-459E-BEB3-2A65C72AF46B}">
+							<Media>
+								<File Id="28867887"/>
+								<File Id="165806117"/>
+								<File Id="238880109"/>
+								<File Id="272166891"/>
+								<File Id="295059410"/>
+								<File Id="316049048"/>
+								<File Id="362873798"/>
+								<File Id="460027614"/>
+								<File Id="473639100"/>
+								<File Id="567587021"/>
+								<File Id="593738130"/>
+								<File Id="618396271"/>
+								<File Id="633083289"/>
+								<File Id="638803327"/>
+								<File Id="649730010"/>
+								<File Id="727089263"/>
+								<File Id="731657014"/>
+								<File Id="745383180"/>
+								<File Id="1065570938"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{171EF9F4-81C9-4233-8785-E044572D6562}">
 							<Media>
 								<File Id="153728570"/>
@@ -1202,11 +2027,348 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="547540499" Name="AudioEvent_K01b_CLOTH_Default_Land" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_CLOTH\AudioEvent_K01b_CLOTH_Default_Land" GUID="{01232D5B-DA4F-4E54-9AEF-9A3ABD7DF390}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.504729" DurationMax="0.758521">
+					<ExcludedMemoryFiles>
+						<File Id="80974710" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="93815298" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="687112989" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="754815253" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_06.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="848096509" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="947385624" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2466220787" Name="AudioEvent_K01b_CLOTH_Default_Move" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_CLOTH\AudioEvent_K01b_CLOTH_Default_Move" GUID="{CFE3A462-033E-4202-B189-DA4D7135D2C8}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.766333" DurationMax="1.231208">
+					<ExcludedMemoryFiles>
+						<File Id="1231699" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="41086258" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="273964197" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_06.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="311163458" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_07.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="315764569" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="635943317" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1047691632" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3322681903" Name="AudioEvent_K01b_CLOTH_Default_ShuffleHigh" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_CLOTH\AudioEvent_K01b_CLOTH_Default_ShuffleHigh" GUID="{A7E66F1B-5DF8-4512-9F5F-3C12750DBA68}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.610146" DurationMax="0.892062">
+					<ExcludedMemoryFiles>
+						<File Id="348295404" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="359362659" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="477267303" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="503763330" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_06.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="783107353" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="816969037" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2961804827" Name="AudioEvent_K01b_CLOTH_Default_ShuffleLow" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_CLOTH\AudioEvent_K01b_CLOTH_Default_ShuffleLow" GUID="{3DE57A45-B459-4584-B86C-9C7FE323A56A}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.801146" DurationMax="1.079563">
+					<ExcludedMemoryFiles>
+						<File Id="29092886" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="443930694" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="496116124" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_07.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="544140414" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_08.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="717042064" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="790156802" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="828949593" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1014838563" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_06.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_06_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1557382836" Name="AudioEvent_K01b_GRUNT_Boo" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01_GRUNT\AudioEvent_K01b_GRUNT_Boo" GUID="{C7B9638C-150D-40EC-BED1-387FCEC046B0}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.433313" DurationMax="2.088229">
+					<ExcludedMemoryFiles>
+						<File Id="2720196" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_05.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="576676186" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="634884247" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="832238674" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="969941607" Language="SFX">
+							<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3352742989" Name="AudioEvent_K01b_MENU_Footstep" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MENU\AudioEvent_K01b_MENU_Footstep" GUID="{D665AD71-9E39-47FF-B3FC-34ED731F5F28}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.586667" DurationMax="0.704">
+					<ExcludedMemoryFiles>
+						<File Id="50267166" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="105969613" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_03.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="231497215" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="960912718" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_04.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2482554361" Name="AudioEvent_K01b_MENU_Impact" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MENU\AudioEvent_K01b_MENU_Impact" GUID="{921461E2-EDC5-471C-BC50-1831FEBA5934}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.620604" DurationMax="0.620604">
+					<ExcludedMemoryFiles>
+						<File Id="132616640" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_impact_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_impact_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3019356903" Name="AudioEvent_K01b_MENU_Scratch_01" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MENU\AudioEvent_K01b_MENU_Scratch_01" GUID="{5290D1D5-EE9C-4DFE-AAB5-5000D1AFFB7E}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.445225" DurationMax="0.445225">
+					<ExcludedMemoryFiles>
+						<File Id="359554640" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3019356900" Name="AudioEvent_K01b_MENU_Scratch_02" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MENU\AudioEvent_K01b_MENU_Scratch_02" GUID="{32CE7251-369F-4710-95BF-5A4F005F8509}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.577385" DurationMax="0.577385">
+					<ExcludedMemoryFiles>
+						<File Id="458614421" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="821412355" Name="AudioEvent_K01b_MENU_WPN_Blade" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MENU\AudioEvent_K01b_MENU_WPN_Blade" GUID="{75691628-4FBC-459F-A30E-C171B498FB19}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.65966" DurationMax="0.65966">
+					<ExcludedMemoryFiles>
+						<File Id="463325699" Language="SFX">
+							<ShortName>Character\KLR_01\Machete\sfx_machete_clean_metal_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\Machete\sfx_machete_clean_metal_02_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3200148093" Name="AudioEvent_K01b_MENU_WPN_Throw" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MENU\AudioEvent_K01b_MENU_WPN_Throw" GUID="{414CA8BD-0A6D-4F42-8494-E2225B31FE33}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.545396" DurationMax="0.545396">
+					<ExcludedMemoryFiles>
+						<File Id="66719566" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_wpn_throw_01.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_wpn_throw_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1616374034" Name="AudioEvent_K01b_Mori_BearTrap_Drop" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_BearTrap_Drop" GUID="{0C2E711E-732A-4F71-8209-A0B677C60541}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.866604" DurationMax="0.866604">
+					<ExcludedMemoryFiles>
+						<File Id="27635781" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_drop.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_drop_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2333645869" Name="AudioEvent_K01b_Mori_BearTrap_Snap" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_BearTrap_Snap" GUID="{A6809D0F-8363-4633-B419-9D156D77B75B}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.433581" DurationMax="1.433581">
+					<ExcludedMemoryFiles>
+						<File Id="327029113" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap_BB2A22D8.wem</Path>
+						</File>
+						<File Id="796686359" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap_02.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap_02_15C6458E.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3472304657" Name="AudioEvent_K01b_Mori_Machete_Body" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_Machete_Body" GUID="{F63808D4-8663-4D33-9E35-55E340B9DFDB}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.674562" DurationMax="1.674562">
+					<ExcludedMemoryFiles>
+						<File Id="239757284" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_body.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_body_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="369674235" Name="AudioEvent_K01b_Mori_Machete_Head" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_Machete_Head" GUID="{B212F3AF-7462-4936-AD08-68A7D1984DB7}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.762125" DurationMax="0.762125">
+					<ExcludedMemoryFiles>
+						<File Id="306416254" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_head.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_head_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="4163235011" Name="AudioEvent_K01b_Mori_Machete_Kick" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_Machete_Kick" GUID="{1C8C60FA-DCC5-48C7-84DF-C23409D5DC9C}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.750875" DurationMax="0.750875">
+					<ExcludedMemoryFiles>
+						<File Id="138433209" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_kick.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_kick_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="245487928" Name="AudioEvent_K01b_Mori_Machete_Pullout" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_Machete_Pullout" GUID="{93A96585-1C7B-469B-AEB7-391957F635A6}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.020521" DurationMax="1.020521">
+					<ExcludedMemoryFiles>
+						<File Id="291901246" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_pullout.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_pullout_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1351594325" Name="AudioEvent_K01b_Mori_SVR_Body_Fall" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_SVR_Body_Fall" GUID="{098217F9-BB91-4B1B-B830-348D142724D9}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.840542" DurationMax="0.840542">
+					<ExcludedMemoryFiles>
+						<File Id="688195725" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_fall.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_fall_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3355001160" Name="AudioEvent_K01b_Mori_SVR_Body_Grab" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_SVR_Body_Grab" GUID="{FF28DD96-0859-4428-B05B-EEED7005497D}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.081" DurationMax="1.081">
+					<ExcludedMemoryFiles>
+						<File Id="655487206" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_grab.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_grab_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3751919544" Name="AudioEvent_K01b_Mori_SVR_Body_Loop" ObjectPath="\Events\CHARACTER\KILLER\K01_Trapper\K01b_MORI\AudioEvent_K01b_Mori_SVR_Body_Loop" GUID="{CFD11331-90E8-42E2-A848-C5EB59BED7AC}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.96925" DurationMax="1.96925">
+					<ExcludedMemoryFiles>
+						<File Id="279898615" Language="SFX">
+							<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_loop.wav</ShortName>
+							<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_loop_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="1231699" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="2720196" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="5286426" Language="SFX">
 					<ShortName>Impact\sfx_weapon_impact_hit_07.wav</ShortName>
 					<Path>SFX\Impact\sfx_weapon_impact_hit_07_67368C31.wem</Path>
+				</File>
+				<File Id="27635781" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_drop.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_drop_7FA8D501.wem</Path>
+				</File>
+				<File Id="28867887" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_17.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_17_7FA8D501.wem</Path>
+				</File>
+				<File Id="29092886" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="36369039" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_grab_04.wav</ShortName>
@@ -1220,6 +2382,18 @@
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_open_crank_02.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_open_crank_02_67368C31.wem</Path>
 				</File>
+				<File Id="41086258" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="43772291" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="50267166" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="55180812" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\Machete_Attack_Bounce_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\Machete_Attack_Bounce_01_67368C31.wem</Path>
@@ -1228,17 +2402,45 @@
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_snap_paddedjaws_03.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_snap_paddedjaws_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="66719566" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_wpn_throw_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_wpn_throw_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="74138198" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_02.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="80974710" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="81899508" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\sfx_machete_arm_02.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\sfx_machete_arm_02_67368C31.wem</Path>
 				</File>
+				<File Id="86629879" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="90436578" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_grab_max_capacity_05.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_grab_max_capacity_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="93815298" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="105969613" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="132616640" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_impact_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_impact_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="138433209" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_kick.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_kick_7FA8D501.wem</Path>
 				</File>
 				<File Id="142681015" Language="SFX">
 					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_03.wav</ShortName>
@@ -1255,6 +2457,10 @@
 				<File Id="156615286" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\sfx_machete_pull_out_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\sfx_machete_pull_out_01_67368C31.wem</Path>
+				</File>
+				<File Id="165806117" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_19.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_19_7FA8D501.wem</Path>
 				</File>
 				<File Id="168909344" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_05.wav</ShortName>
@@ -1300,6 +2506,18 @@
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_snap_paddedjaws_02.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_snap_paddedjaws_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="231497215" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="238880109" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_09.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="239757284" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_body.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_body_7FA8D501.wem</Path>
+				</File>
 				<File Id="246209422" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_4.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_4_67368C31.wem</Path>
@@ -1324,17 +2542,73 @@
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_3.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_3_67368C31.wem</Path>
 				</File>
+				<File Id="272166891" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_13.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="273964197" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_06.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="279898615" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_loop.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_loop_7FA8D501.wem</Path>
+				</File>
+				<File Id="291901246" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_pullout.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_pullout_7FA8D501.wem</Path>
+				</File>
 				<File Id="293550068" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_07.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="295059410" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_06.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="306416254" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_head.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_machete_head_7FA8D501.wem</Path>
+				</File>
+				<File Id="311163458" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_07.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="315764569" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="316049048" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_07.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="320283456" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\sfx_machete_pull_out_03.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\sfx_machete_pull_out_03_67368C31.wem</Path>
 				</File>
+				<File Id="327029113" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap_BB2A22D8.wem</Path>
+				</File>
 				<File Id="327720894" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_02.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="348295404" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="359362659" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="359554640" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="362873798" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_15.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_15_7FA8D501.wem</Path>
 				</File>
 				<File Id="365421976" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_07.wav</ShortName>
@@ -1355,6 +2629,10 @@
 				<File Id="382833801" Language="SFX">
 					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_08.wav</ShortName>
 					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="387227978" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="397935499" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_hurt_06.wav</ShortName>
@@ -1384,6 +2662,10 @@
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="443930694" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="444798502" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_open_crank_04.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_open_crank_04_67368C31.wem</Path>
@@ -1395,6 +2677,14 @@
 				<File Id="457734338" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_09.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="458614421" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_scratch_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="460027614" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_11.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="462883209" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_open_crank_add_03.wav</ShortName>
@@ -1420,6 +2710,18 @@
 					<ShortName>Character\KLR_01\vo_killer_trapper_hurt_07.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_07_67368C31.wem</Path>
 				</File>
+				<File Id="473639100" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="477267303" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="483545276" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="484475149" Language="SFX">
 					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_01_7FA8D501.wem</Path>
@@ -1432,6 +2734,10 @@
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_open_crank_03.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_open_crank_03_67368C31.wem</Path>
 				</File>
+				<File Id="496116124" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_07.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="499823753" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Desactivate_Mix_Bounce_3.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Desactivate_Mix_Bounce_3_67368C31.wem</Path>
@@ -1439,6 +2745,10 @@
 				<File Id="502710376" Language="SFX">
 					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_09.wav</ShortName>
 					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="503763330" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_06.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="520227949" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_hurt_04.wav</ShortName>
@@ -1456,9 +2766,17 @@
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_5.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_5_67368C31.wem</Path>
 				</File>
+				<File Id="534110135" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_09.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_09_7FA8D501.wem</Path>
+				</File>
 				<File Id="542888483" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_04.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="544140414" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_08.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="551070916" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\Machete_Attack_Bounce_07.wav</ShortName>
@@ -1468,9 +2786,25 @@
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_dissarm_Snap_Bounce_2.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_dissarm_Snap_Bounce_2_67368C31.wem</Path>
 				</File>
+				<File Id="563345516" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="567587021" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_21.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_21_7FA8D501.wem</Path>
+				</File>
+				<File Id="576676186" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="589274713" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_01_67368C31.wem</Path>
+				</File>
+				<File Id="593738130" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="593815699" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\Machete_Attack_Bounce_04.wav</ShortName>
@@ -1484,6 +2818,10 @@
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_snap_paddedjaws_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_snap_paddedjaws_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="618396271" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_12.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_12_7FA8D501.wem</Path>
+				</File>
 				<File Id="623977173" Language="SFX">
 					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_05.wav</ShortName>
 					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_05_7FA8D501.wem</Path>
@@ -1496,9 +2834,33 @@
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_2.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_2_67368C31.wem</Path>
 				</File>
+				<File Id="633083289" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_10.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="634884247" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="635943317" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="638803327" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="649730010" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_14.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_14_7FA8D501.wem</Path>
+				</File>
 				<File Id="654033739" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_07.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_07_67368C31.wem</Path>
+				</File>
+				<File Id="655487206" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_grab.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_grab_7FA8D501.wem</Path>
 				</File>
 				<File Id="668714130" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_04.wav</ShortName>
@@ -1508,9 +2870,21 @@
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_grab_max_capacity_02.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_grab_max_capacity_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="679981125" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_10.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="687112989" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="687246881" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_10.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_10_67368C31.wem</Path>
+				</File>
+				<File Id="688195725" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_fall.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_svr_body_fall_7FA8D501.wem</Path>
 				</File>
 				<File Id="688534215" Language="SFX">
 					<ShortName>Character\KLR_01\Custo\W019\sfx_k01_wpn_custo_w019_attack_01.wav</ShortName>
@@ -1528,6 +2902,10 @@
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_03.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_03_67368C31.wem</Path>
 				</File>
+				<File Id="693414122" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="693939638" Language="SFX">
 					<ShortName>Character\KLR_01\Custo\W019\sfx_k01_wpn_custo_w019_attack_08.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Custo\W019\sfx_k01_wpn_custo_w019_attack_08_7FA8D501.wem</Path>
@@ -1535,6 +2913,10 @@
 				<File Id="701617361" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Desactivate_Mix_Bounce_1.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Desactivate_Mix_Bounce_1_67368C31.wem</Path>
+				</File>
+				<File Id="717042064" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="725090050" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_08.wav</ShortName>
@@ -1544,9 +2926,29 @@
 					<ShortName>Character\KLR_01\vo_killer_trapper_hurt_03.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_hurt_03_67368C31.wem</Path>
 				</File>
+				<File Id="727089263" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_20.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_20_7FA8D501.wem</Path>
+				</File>
+				<File Id="731657014" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_18.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_18_7FA8D501.wem</Path>
+				</File>
+				<File Id="731816765" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_06.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="738303591" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\sfx_machete_clean_metal_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\sfx_machete_clean_metal_01_67368C31.wem</Path>
+				</File>
+				<File Id="745383180" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="754815253" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_06.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="756308429" Language="SFX">
 					<ShortName>Impact\sfx_weapon_impact_hit_03.wav</ShortName>
@@ -1568,6 +2970,18 @@
 					<ShortName>Character\KLR_01\vo_killer_trapper_satisfaction_06.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_satisfaction_06_479CC9DD.wem</Path>
 				</File>
+				<File Id="783107353" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="790156802" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="796686359" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MORI\sfx_k01b_mori_beartrap_snap_02_15C6458E.wem</Path>
+				</File>
 				<File Id="806205815" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_grab_chain_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_grab_chain_01_67368C31.wem</Path>
@@ -1584,6 +2998,14 @@
 					<ShortName>Character\KLR_01\Machete\sfx_k01_wpn_default_survivor_impact_cut_flesh_02.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\sfx_k01_wpn_default_survivor_impact_cut_flesh_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="816969037" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflehigh_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="818459589" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_08.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_08_7FA8D501.wem</Path>
+				</File>
 				<File Id="818896764" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Drop_Bounce_4.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Drop_Bounce_4_67368C31.wem</Path>
@@ -1596,13 +3018,25 @@
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_open_crank_01.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_open_crank_01_67368C31.wem</Path>
 				</File>
+				<File Id="828949593" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="830595115" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_grab_chain_04.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_grab_chain_04_67368C31.wem</Path>
 				</File>
+				<File Id="832238674" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="841312742" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_03.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="848096509" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="852979670" Language="SFX">
 					<ShortName>Character\KLR_01\Custo\W019\sfx_k01_wpn_custo_w019_attack_09.wav</ShortName>
@@ -1639,6 +3073,10 @@
 				<File Id="901401782" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_satisfaction_05.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_satisfaction_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="908144271" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_12.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_12_7FA8D501.wem</Path>
 				</File>
 				<File Id="912078509" Language="SFX">
 					<ShortName>Impact\sfx_weapon_impact_hit_04.wav</ShortName>
@@ -1680,6 +3118,14 @@
 					<ShortName>Character\KLR_01\Machete\Machete_Attack_Bounce_09.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\Machete_Attack_Bounce_09_67368C31.wem</Path>
 				</File>
+				<File Id="947385624" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_land_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="960912718" Language="SFX">
+					<ShortName>Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_04.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01b_MENU\sfx_k01b_menu_footstep_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="964134612" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_dissarm_Snap_Bounce_1.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_dissarm_Snap_Bounce_1_67368C31.wem</Path>
@@ -1687,6 +3133,14 @@
 				<File Id="968496870" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_dissarm_05.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\sfx_beartrap_dissarm_05_67368C31.wem</Path>
+				</File>
+				<File Id="969941607" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_boo_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="970545103" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_07.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="974506389" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\sfx_k01_wpn_default_survivor_impact_cut_flesh_10.wav</ShortName>
@@ -1712,9 +3166,21 @@
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_10.wav</ShortName>
 					<Path>SFX\Character\KLR_01\sfx_k01_bodymove_default_leather_equipement_10_7FA8D501.wem</Path>
 				</File>
+				<File Id="1009493026" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="1009676855" Language="SFX">
 					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_07.wav</ShortName>
 					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01_outfit010_status_dribble_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="1011970979" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_03.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1014838563" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_06.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_shufflelow_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="1017699514" Language="SFX">
 					<ShortName>Character\KLR_01\sfx_k01_bodymove_default_leather_03.wav</ShortName>
@@ -1724,6 +3190,10 @@
 					<ShortName>Character\KLR_01\Custo\W019\sfx_k01_wpn_custo_w019_attack_07.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Custo\W019\sfx_k01_wpn_custo_w019_attack_07_7FA8D501.wem</Path>
 				</File>
+				<File Id="1030569922" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_05.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="1045587420" Language="SFX">
 					<ShortName>Character\KLR_01\vo_killer_trapper_breath_06.wav</ShortName>
 					<Path>SFX\Character\KLR_01\vo_killer_trapper_breath_06_67368C31.wem</Path>
@@ -1732,9 +3202,21 @@
 					<ShortName>Character\KLR_01\Machete\Machete_Attack_Bounce_08.wav</ShortName>
 					<Path>SFX\Character\KLR_01\Machete\Machete_Attack_Bounce_08_67368C31.wem</Path>
 				</File>
+				<File Id="1047691632" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_01.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\sfx_k01b_body_move_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="1049603105" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_1.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Activate_Mix_Bounce_1_67368C31.wem</Path>
+				</File>
+				<File Id="1050075042" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_02.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_satisfaction_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1051802313" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_11.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_grunt_hurt_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="1053237008" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\sfx_beartrap_grab_chain_03.wav</ShortName>
@@ -1743,6 +3225,10 @@
 				<File Id="1057471175" Language="SFX">
 					<ShortName>Character\KLR_01\BearTrap\BearTrap_Desactivate_Mix_Bounce_2.wav</ShortName>
 					<Path>SFX\Character\KLR_01\BearTrap\BearTrap_Desactivate_Mix_Bounce_2_67368C31.wem</Path>
+				</File>
+				<File Id="1065570938" Language="SFX">
+					<ShortName>Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_08.wav</ShortName>
+					<Path>SFX\Character\KLR_01\K01_CUSTO\vo_k01b_status_normal_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="1066772016" Language="SFX">
 					<ShortName>Character\KLR_01\Machete\Machete_Attack_Bounce_06.wav</ShortName>
@@ -1883,6 +3369,8 @@
 						<Switch Id="319360873" Name="K03_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K03_CLOTH_Custom_Outfit010" GUID="{23B11BF9-E471-4DE1-ADE4-180DB6788001}"/>
 						<Switch Id="607815762" Name="K02_CLOTH_Custom_Outfit010" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K02_CLOTH_Custom_Outfit010" GUID="{11DEEF2A-7791-4CC3-9C10-E68B18576D85}"/>
 						<Switch Id="1355720765" Name="K27_CLOTH_Default_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default_Custom_Outfit007" GUID="{38062467-CE92-4006-93E2-3CBC59C91069}"/>
+						<Switch Id="3225580426" Name="K34_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K34_CLOTH_Default" GUID="{F424FF4A-35BB-484D-9BE5-0DEB9295757D}"/>
+						<Switch Id="2763194826" Name="K34b_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K34b_CLOTH_Default" GUID="{1BE5B870-9D6A-49D8-9155-5B6784640BAC}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

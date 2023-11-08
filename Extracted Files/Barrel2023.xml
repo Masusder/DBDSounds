@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Yerkes_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="771369958" GUID="{C47A7931-34B0-4DC2-86C6-4F9F188ED1B4}" Language="SFX" Hash="3873449587">
-			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\Barrel2023</ObjectPath>
+		<SoundBank Id="771369958" GUID="{C47A7931-34B0-4DC2-86C6-4F9F188ED1B4}" Language="SFX" Hash="3019976270">
+			<ObjectPath>\SoundBanks\OBJECT\OBJ_SPECIALEVENT\Barrel2023</ObjectPath>
 			<ShortName>Barrel2023</ShortName>
 			<Path>Barrel2023.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3026451909" Name="AudioEvent_Barrel2023_Blue_Spawn_2D" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Blue_Spawn_2D" GUID="{561F2DE4-1787-447D-88D1-908564E86612}" DurationType="OneShot" DurationMin="7.40825" DurationMax="7.40825">
+				<Event Id="3026451909" Name="AudioEvent_Barrel2023_Blue_Spawn_2D" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Blue_Spawn_2D" GUID="{561F2DE4-1787-447D-88D1-908564E86612}" DurationType="OneShot" DurationMin="7.40825" DurationMax="7.40825">
 					<ExcludedMemoryFiles>
 						<File Id="510341675" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_blue_spawn_04.wav</ShortName>
@@ -21,7 +21,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3212788530" Name="AudioEvent_Barrel2023_Despawn" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Despawn" GUID="{46973ED2-6604-4615-B690-CFB800813F4E}" MaxAttenuation="1450." DurationType="OneShot" DurationMin="3.406708" DurationMax="3.406708">
+				<Event Id="3212788530" Name="AudioEvent_Barrel2023_Despawn" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Despawn" GUID="{46973ED2-6604-4615-B690-CFB800813F4E}" MaxAttenuation="1450." DurationType="OneShot" DurationMin="3.406708" DurationMax="3.406708">
 					<ExcludedMemoryFiles>
 						<File Id="609074633" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_despawning_base_03.wav</ShortName>
@@ -29,7 +29,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="829369718" Name="AudioEvent_Barrel2023_Green_Spawn_2D" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Green_Spawn_2D" GUID="{D5134A25-03F4-4324-BDC4-B1F0A57BBE2E}" DurationType="OneShot" DurationMin="7.409458" DurationMax="7.409458">
+				<Event Id="829369718" Name="AudioEvent_Barrel2023_Green_Spawn_2D" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Green_Spawn_2D" GUID="{D5134A25-03F4-4324-BDC4-B1F0A57BBE2E}" DurationType="OneShot" DurationMin="7.409458" DurationMax="7.409458">
 					<ExcludedMemoryFiles>
 						<File Id="474870063" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_green_spawn_04.wav</ShortName>
@@ -37,7 +37,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3998546135" Name="AudioEvent_Barrel2023_Idle_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Idle_Start" GUID="{F61E36AC-7AA0-40AC-874E-7E8AEF0E6204}" MaxAttenuation="1450." DurationType="Infinite">
+				<Event Id="3998546135" Name="AudioEvent_Barrel2023_Idle_Start" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Idle_Start" GUID="{F61E36AC-7AA0-40AC-874E-7E8AEF0E6204}" MaxAttenuation="1450." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="10824230" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_electricity_22.wav</ShortName>
@@ -201,8 +201,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="802286781" Name="AudioEvent_Barrel2023_Idle_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Idle_Stop" GUID="{564A1089-4FDB-4C21-AE32-0DFC278BB033}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3909809806" Name="AudioEvent_Barrel2023_Interaction_Completed" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Interaction_Completed" GUID="{37C4546D-2B85-4AC3-8ACE-FBAF0FAB596F}" MaxAttenuation="1450." DurationType="OneShot" DurationMin="5.460667" DurationMax="5.460667">
+				<Event Id="802286781" Name="AudioEvent_Barrel2023_Idle_Stop" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Idle_Stop" GUID="{564A1089-4FDB-4C21-AE32-0DFC278BB033}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3909809806" Name="AudioEvent_Barrel2023_Interaction_Completed" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Interaction_Completed" GUID="{37C4546D-2B85-4AC3-8ACE-FBAF0FAB596F}" MaxAttenuation="1450." DurationType="OneShot" DurationMin="5.460667" DurationMax="5.460667">
 					<ExcludedMemoryFiles>
 						<File Id="218155982" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_pickup_01.wav</ShortName>
@@ -218,7 +218,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1089490755" Name="AudioEvent_Barrel2023_Interaction_GlowUp" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Interaction_GlowUp" GUID="{A43A7C74-5F46-47D1-9F11-2B0095058D1B}" MaxAttenuation="1450." DurationType="OneShot" DurationMin="4.141208" DurationMax="4.141208">
+				<Event Id="1089490755" Name="AudioEvent_Barrel2023_Interaction_GlowUp" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Interaction_GlowUp" GUID="{A43A7C74-5F46-47D1-9F11-2B0095058D1B}" MaxAttenuation="1450." DurationType="OneShot" DurationMin="4.141208" DurationMax="4.141208">
 					<ExcludedMemoryFiles>
 						<File Id="194160118" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_interaction_glowup_02.wav</ShortName>
@@ -226,7 +226,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3961882561" Name="AudioEvent_Barrel2023_Interaction_Loop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Interaction_Loop" GUID="{6186E12D-CF3D-4A26-A637-B29687FD7739}" MaxAttenuation="1450." DurationType="Infinite">
+				<Event Id="3961882561" Name="AudioEvent_Barrel2023_Interaction_Loop" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Interaction_Loop" GUID="{6186E12D-CF3D-4A26-A637-B29687FD7739}" MaxAttenuation="1450." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="11016281" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_interaction_lp_01.wav</ShortName>
@@ -234,7 +234,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1958993565" Name="AudioEvent_Barrel2023_Interaction_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Interaction_Start" GUID="{0FC703C6-179A-4F0C-B955-D1A5CFB452AF}" MaxAttenuation="1450." DurationType="Infinite">
+				<Event Id="1958993565" Name="AudioEvent_Barrel2023_Interaction_Start" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Interaction_Start" GUID="{0FC703C6-179A-4F0C-B955-D1A5CFB452AF}" MaxAttenuation="1450." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="11016281" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_interaction_lp_01.wav</ShortName>
@@ -246,7 +246,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3335115167" Name="AudioEvent_Barrel2023_Interaction_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Interaction_Stop" GUID="{C6B884AF-C2A7-4442-AEE7-BD4C27A9B90C}" MaxAttenuation="1450." DurationType="Infinite">
+				<Event Id="3335115167" Name="AudioEvent_Barrel2023_Interaction_Stop" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Interaction_Stop" GUID="{C6B884AF-C2A7-4442-AEE7-BD4C27A9B90C}" MaxAttenuation="1450." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="10824230" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_electricity_22.wav</ShortName>
@@ -414,7 +414,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="731934578" Name="AudioEvent_Barrel2023_Red_Spawn_2D" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Red_Spawn_2D" GUID="{3F1F747A-B605-49CC-8559-10249AADD486}" DurationType="OneShot" DurationMin="7.384083" DurationMax="7.384083">
+				<Event Id="731934578" Name="AudioEvent_Barrel2023_Red_Spawn_2D" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Red_Spawn_2D" GUID="{3F1F747A-B605-49CC-8559-10249AADD486}" DurationType="OneShot" DurationMin="7.384083" DurationMax="7.384083">
 					<ExcludedMemoryFiles>
 						<File Id="909330961" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_red_spawn_04.wav</ShortName>
@@ -422,7 +422,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1029986965" Name="AudioEvent_Barrel2023_Spawn_3D" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\Barrel2023\AudioEvent_Barrel2023_Spawn_3D" GUID="{FFDF5CAB-3A0E-4BC5-87CF-335627B38789}" MaxAttenuation="1450." DurationType="Infinite">
+				<Event Id="1029986965" Name="AudioEvent_Barrel2023_Spawn_3D" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\Barrel2023\AudioEvent_Barrel2023_Spawn_3D" GUID="{FFDF5CAB-3A0E-4BC5-87CF-335627B38789}" MaxAttenuation="1450." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="10824230" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\Barrel2023\sfx_barrel2023_electricity_22.wav</ShortName>

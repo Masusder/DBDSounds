@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_XRay_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Yerkes_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Xray\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="410960253" GUID="{3D21B07D-2DE9-4E1F-810B-B54A98498A7A}" Language="SFX" Hash="3107235155">
-			<ObjectPath>\SoundBanks\OBJECT\OBJECT_GAMEPLAY\CoreMemory</ObjectPath>
+		<SoundBank Id="410960253" GUID="{3D21B07D-2DE9-4E1F-810B-B54A98498A7A}" Language="SFX" Hash="4036295406">
+			<ObjectPath>\SoundBanks\OBJECT\OBJ_VFX\CoreMemory</ObjectPath>
 			<ShortName>CoreMemory</ShortName>
 			<Path>CoreMemory.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2840353973" Name="AudioEvent_CoreMemory_ArchivePortal_Appear" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Appear" GUID="{38530B63-2943-4065-A33D-58D88E0133EA}" DurationType="Infinite">
+				<Event Id="2840353973" Name="AudioEvent_CoreMemory_ArchivePortal_Appear" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Appear" GUID="{38530B63-2943-4065-A33D-58D88E0133EA}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="4986549" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\ArchivesPortal\sfx_corememory_portal_idle_whoosh_07.wav</ShortName>
@@ -125,7 +125,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="281196969" Name="AudioEvent_CoreMemory_ArchivePortal_Disappear" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Disappear" GUID="{0F2BAB70-4B47-4DD8-A570-5DC27A5AF15A}" MaxAttenuation="950." DurationType="OneShot" DurationMin="4.547791" DurationMax="4.547791">
+				<Event Id="281196969" Name="AudioEvent_CoreMemory_ArchivePortal_Disappear" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Disappear" GUID="{0F2BAB70-4B47-4DD8-A570-5DC27A5AF15A}" MaxAttenuation="950." DurationType="OneShot" DurationMin="4.547791" DurationMax="4.547791">
 					<ExcludedMemoryFiles>
 						<File Id="525013353" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\ArchivesPortal\sfx_corememory_portal_disappear_02.wav</ShortName>
@@ -133,7 +133,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1042038060" Name="AudioEvent_CoreMemory_ArchivePortal_Idle" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Idle" GUID="{61FD0F0F-6209-4490-9C99-B7D4DEFAE9FF}" MaxAttenuation="950." DurationType="Infinite">
+				<Event Id="1042038060" Name="AudioEvent_CoreMemory_ArchivePortal_Idle" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Idle" GUID="{61FD0F0F-6209-4490-9C99-B7D4DEFAE9FF}" MaxAttenuation="950." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="4986549" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\ArchivesPortal\sfx_corememory_portal_idle_whoosh_07.wav</ShortName>
@@ -241,8 +241,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="2333200144" Name="AudioEvent_CoreMemory_ArchivePortal_Interaction_Completed" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Interaction_Completed" GUID="{89A420B2-51D2-4CF8-9B6F-F964E8B6705C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3917331293" Name="AudioEvent_CoreMemory_MemoryFragments_Absorb" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Absorb" GUID="{D76850FB-052A-41B0-851A-5D112618B473}" MaxAttenuation="1600." DurationType="Infinite">
+				<Event Id="2333200144" Name="AudioEvent_CoreMemory_ArchivePortal_Interaction_Completed" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\ArchivesPortal\AudioEvent_CoreMemory_ArchivePortal_Interaction_Completed" GUID="{89A420B2-51D2-4CF8-9B6F-F964E8B6705C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3917331293" Name="AudioEvent_CoreMemory_MemoryFragments_Absorb" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Absorb" GUID="{D76850FB-052A-41B0-851A-5D112618B473}" MaxAttenuation="1600." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="29624271" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_02.wav</ShortName>
@@ -286,8 +286,64 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4196350832" Name="AudioEvent_CoreMemory_MemoryFragments_Absorb_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Absorb_Stop" GUID="{9CAD05EC-B391-4DF3-AE65-075E4F262D52}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="4213684157" Name="AudioEvent_CoreMemory_MemoryFragments_Disappear" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Disappear" GUID="{F4A6554B-B69F-4D3F-98C4-BFB803787114}" MaxAttenuation="800." DurationType="OneShot" DurationMin="2.904384" DurationMax="3.726903">
+				<Event Id="4196350832" Name="AudioEvent_CoreMemory_MemoryFragments_Absorb_Stop" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Absorb_Stop" GUID="{9CAD05EC-B391-4DF3-AE65-075E4F262D52}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3208454409" Name="AudioEvent_CoreMemory_MemoryFragments_Appear" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Appear" GUID="{4663F347-2F90-406F-BBD7-43C8B7CA43F4}" MaxAttenuation="950." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="345159659" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_idle_low_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_idle_low_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="430464068" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_idle_particules_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_idle_particules_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="687872509" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_idle_high_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_idle_high_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="1040423238" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_appear_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_appear_01_A0FD0556.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3416839280" Name="AudioEvent_CoreMemory_MemoryFragments_Collectable" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Collectable" GUID="{1E6BAE5C-CBF0-4B23-81CC-540C7785F581}" MaxAttenuation="950." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="29624271" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="106057821" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_04.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="127970003" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_trail_pulsing_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_trail_pulsing_01_2B4162D2.wem</Path>
+						</File>
+						<File Id="188591079" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="221867918" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collectable_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collectable_01_FA4DA237.wem</Path>
+						</File>
+						<File Id="416778805" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_voice_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_voice_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="417847137" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_loop.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_loop_256CDB0F.wem</Path>
+						</File>
+						<File Id="441914331" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="4213684157" Name="AudioEvent_CoreMemory_MemoryFragments_Disappear" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Disappear" GUID="{F4A6554B-B69F-4D3F-98C4-BFB803787114}" MaxAttenuation="800." DurationType="OneShot" DurationMin="2.904384" DurationMax="3.726903">
 					<ExcludedMemoryFiles>
 						<File Id="345901461" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_02.wav</ShortName>
@@ -303,7 +359,27 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1934724605" Name="AudioEvent_CoreMemory_MemoryFragments_Idle_Start" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Idle_Start" GUID="{0663A9FA-9C13-4194-8454-EB9ABAE5BB48}" MaxAttenuation="1650." DurationType="Infinite">
+				<Event Id="1439220956" Name="AudioEvent_CoreMemory_MemoryFragments_Disappear_Xray" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Disappear_Xray" GUID="{C7568537-352E-4EEE-83AF-4FFA168DAA18}" MaxAttenuation="800." DurationType="OneShot" DurationMin="4.081333" DurationMax="4.081333">
+					<ExcludedMemoryFiles>
+						<File Id="23915821" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_xray_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_xray_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="345901461" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_02_4E79A3EA.wem</Path>
+						</File>
+						<File Id="386206502" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_01_7A8050A7.wem</Path>
+						</File>
+						<File Id="663199309" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_03_60D7729D.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1934724605" Name="AudioEvent_CoreMemory_MemoryFragments_Idle_Start" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Idle_Start" GUID="{0663A9FA-9C13-4194-8454-EB9ABAE5BB48}" MaxAttenuation="1650." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="345159659" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_idle_low_01.wav</ShortName>
@@ -319,8 +395,8 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="309660799" Name="AudioEvent_CoreMemory_MemoryFragments_Idle_Stop" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Idle_Stop" GUID="{4B478E7E-1FF4-42DD-94C7-6C841DFEF57A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3919397572" Name="AudioEvent_CoreMemory_MemoryFragments_Impact" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Impact" GUID="{F1DD7386-BBFE-4EC7-B7D8-4EFA9F5A876D}" MaxAttenuation="800." DurationType="OneShot" DurationMin="1.935392" DurationMax="2.311697">
+				<Event Id="309660799" Name="AudioEvent_CoreMemory_MemoryFragments_Idle_Stop" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Idle_Stop" GUID="{4B478E7E-1FF4-42DD-94C7-6C841DFEF57A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3919397572" Name="AudioEvent_CoreMemory_MemoryFragments_Impact" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Impact" GUID="{F1DD7386-BBFE-4EC7-B7D8-4EFA9F5A876D}" MaxAttenuation="800." DurationType="OneShot" DurationMin="1.935392" DurationMax="2.311697">
 					<ExcludedMemoryFiles>
 						<File Id="12226297" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collected_03.wav</ShortName>
@@ -336,7 +412,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="3244406213" Name="AudioEvent_CoreMemory_MemoryFragments_LatestImpact" ObjectPath="\Events\OBJECT\OBJ_GAMEPLAY\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_LatestImpact" GUID="{3DC6B3F8-1551-456F-BBE7-2AFF235EC697}" MaxAttenuation="800." DurationType="OneShot" DurationMin="2.486454" DurationMax="3.395732">
+				<Event Id="3244406213" Name="AudioEvent_CoreMemory_MemoryFragments_LatestImpact" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_LatestImpact" GUID="{3DC6B3F8-1551-456F-BBE7-2AFF235EC697}" MaxAttenuation="800." DurationType="OneShot" DurationMin="2.486454" DurationMax="3.395732">
 					<ExcludedMemoryFiles>
 						<File Id="328940204" Language="SFX">
 							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_latest_collected_01.wav</ShortName>
@@ -352,6 +428,14 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="2812370365" Name="AudioEvent_CoreMemory_MemoryFragments_Pulse" ObjectPath="\Events\OBJECT\OBJ_ARCHIVES\CoreMemory\MemoryFragments\AudioEvent_CoreMemory_MemoryFragments_Pulse" GUID="{1F6949BD-C75B-47B3-8FFA-C5A557C6FB8B}" MaxAttenuation="950." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="127970003" Language="SFX">
+							<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_trail_pulsing_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_trail_pulsing_01_2B4162D2.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="4986549" Language="SFX">
@@ -361,6 +445,10 @@
 				<File Id="12226297" Language="SFX">
 					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collected_03.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collected_03_15AB8AA4.wem</Path>
+				</File>
+				<File Id="23915821" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_xray_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_disappear_xray_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="24067819" Language="SFX">
 					<ShortName>Object\Obj_Gameplay\CoreMemory\ArchivesPortal\sfx_corememory_portal_particules_04.wav</ShortName>
@@ -378,6 +466,10 @@
 					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_04.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="127970003" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_trail_pulsing_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_trail_pulsing_01_2B4162D2.wem</Path>
+				</File>
 				<File Id="166009613" Language="SFX">
 					<ShortName>Object\Obj_Gameplay\CoreMemory\ArchivesPortal\sfx_corememory_portal_idle_whoosh_05.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\CoreMemory\ArchivesPortal\sfx_corememory_portal_idle_whoosh_05_7FA8D501.wem</Path>
@@ -385,6 +477,10 @@
 				<File Id="188591079" Language="SFX">
 					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_01.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_absorb_whoosh_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="221867918" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collectable_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collectable_01_FA4DA237.wem</Path>
 				</File>
 				<File Id="228522041" Language="SFX">
 					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_collected_01.wav</ShortName>
@@ -554,7 +650,14 @@
 					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_latest_collected_02.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_latest_collected_02_BD2A66F5.wem</Path>
 				</File>
+				<File Id="1040423238" Language="SFX">
+					<ShortName>Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_appear_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Gameplay\CoreMemory\MemoryFragments\sfx_corememory_memoryfragments_appear_01_A0FD0556.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1198287921" Name="AudioRTPC_CoreMemory_Pulse_Speed" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_CoreMemory_Pulse_Speed" GUID="{8787D7A3-5245-4CF0-91FE-02F3827EF56C}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
