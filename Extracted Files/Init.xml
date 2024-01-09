@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Yerkes_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Zodiac_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3956837189">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1124480080">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -59,6 +59,7 @@
 				<GameParameter Id="383999224" Name="AudioRTPC_Addons_AllChainsaws_Volume" ObjectPath="\Game Parameters\RTPC_ADDON\AudioRTPC_Addons_AllChainsaws_Volume" GUID="{C9800B40-69E9-4BD1-8359-F99DF51077B5}"/>
 				<GameParameter Id="419864763" Name="AudioRTPC_REVERB_IN_LevelRev" ObjectPath="\Game Parameters\RTPC_REVERB\AudioRTPC_REVERB_IN_LevelRev" GUID="{42567FFA-94F5-4F6D-9348-AB77BE79DE1E}"/>
 				<GameParameter Id="583030859" Name="AudioRTPC_VOL_Heartbeat" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_Heartbeat" GUID="{40F4D35A-8C00-48A7-BC62-D2F49DCB2633}"/>
+				<GameParameter Id="624994715" Name="AudioRTPC_KLR_03_Chainsaw_Overheat_OnOff" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K03_HillBilly\AudioRTPC_KLR_03_Chainsaw_Overheat_OnOff" GUID="{72A9D9DE-B6AB-4D1B-B19A-AC28C872B826}"/>
 				<GameParameter Id="735547828" Name="AudioRTPC_REVERB_OUT_LevelRev" ObjectPath="\Game Parameters\RTPC_REVERB\AudioRTPC_REVERB_OUT_LevelRev" GUID="{1F76D704-D098-47CC-9B97-D371C00D7B75}"/>
 				<GameParameter Id="968473331" Name="AudioRTPC_VOL_FOOTSTEP" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_FOOTSTEP" GUID="{B48F4C65-0001-4D2D-80BA-E2DB0D186B65}"/>
 				<GameParameter Id="1118154521" Name="AudioRTPC_REVERB_IN_LevelER" ObjectPath="\Game Parameters\RTPC_REVERB\AudioRTPC_REVERB_IN_LevelER" GUID="{8FB69DF8-0D07-4AC3-93D6-B2D5259ECF9E}"/>
@@ -120,6 +121,12 @@
 						<State Id="748895195" Name="None" ObjectPath="\States\STATES_MENU\AudioStateOverlay\None" GUID="{1AF632C7-A944-4393-96D3-B99510930937}"/>
 						<State Id="3126000125" Name="Overlay_On" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_On" GUID="{639F628F-7DAD-4446-A735-8CF0AC2D4004}"/>
 						<State Id="1168080073" Name="Overlay_Off" ObjectPath="\States\STATES_MENU\AudioStateOverlay\Overlay_Off" GUID="{641E0AD5-B1F1-478F-A2AE-AAA764A1D5D7}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="72598505" Name="AudioStateLTE" ObjectPath="\States\STATES_MENU\AudioStateLTE" GUID="{272ADDE8-8036-44B4-983A-8BB5E7CD2FCE}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_MENU\AudioStateLTE\None" GUID="{357F88C4-B2BF-42F7-B63C-8AB0ADDD50AA}"/>
+						<State Id="1760927322" Name="DreadByDaylight" ObjectPath="\States\STATES_MENU\AudioStateLTE\DreadByDaylight" GUID="{BC86CABE-AFA7-42AF-84F9-2212B83B34B3}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="942906614" Name="AudioStateGameflow" ObjectPath="\States\STATES_MENU\AudioStateGameflow" GUID="{1C8F626C-3A0F-42DB-A700-76D9CCC6E9A3}">

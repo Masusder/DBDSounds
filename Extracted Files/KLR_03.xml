@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Yerkes_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Zodiac_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Yerkes\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115650" GUID="{86A8B68F-CA47-44FE-B3EC-5FEFC2754A81}" Language="SFX" Hash="1843564941">
+		<SoundBank Id="1491115650" GUID="{86A8B68F-CA47-44FE-B3EC-5FEFC2754A81}" Language="SFX" Hash="2569219069">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_03</ObjectPath>
 			<ShortName>KLR_03</ShortName>
 			<Path>KLR_03.bnk</Path>
@@ -322,9 +322,17 @@
 				</Event>
 				<Event Id="392460784" Name="AudioEvent_K03_PWR_Chainsaw_Hit_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Hit_Survivor" GUID="{E3A3A199-8382-45C2-9313-F953A444F261}" DurationType="OneShot" DurationMin="1.688628" DurationMax="2.335102">
 					<ExcludedMemoryFiles>
+						<File Id="116605436" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01_51906F18.wem</Path>
+						</File>
 						<File Id="163320749" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_01_67368C31.wem</Path>
+						</File>
+						<File Id="183169936" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01_6D345D62.wem</Path>
 						</File>
 						<File Id="446699959" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_body_loop_02.wav</ShortName>
@@ -343,7 +351,6 @@
 					<AuxBusSends>
 						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
@@ -353,9 +360,21 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_12.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_12_67368C31.wem</Path>
 						</File>
+						<File Id="22487286" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01_EF961666.wem</Path>
+						</File>
 						<File Id="83284039" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_05.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="96085089" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02_048F24FF.wem</Path>
+						</File>
+						<File Id="116605436" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01_51906F18.wem</Path>
 						</File>
 						<File Id="151470024" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_14.wav</ShortName>
@@ -365,6 +384,10 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_01_67368C31.wem</Path>
 						</File>
+						<File Id="183169936" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01_6D345D62.wem</Path>
+						</File>
 						<File Id="186914597" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05_67368C31.wem</Path>
@@ -372,6 +395,18 @@
 						<File Id="248776407" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="275842907" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05_B8B9E09B.wem</Path>
+						</File>
+						<File Id="350643154" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03_66BC4E7F.wem</Path>
+						</File>
+						<File Id="436742806" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04_7CBC2306.wem</Path>
 						</File>
 						<File Id="446699959" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_body_loop_02.wav</ShortName>
@@ -381,6 +416,10 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13_67368C31.wem</Path>
 						</File>
+						<File Id="482841265" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02_C82A196F.wem</Path>
+						</File>
 						<File Id="485649419" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_02_67368C31.wem</Path>
@@ -389,13 +428,61 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_04.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="614753927" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_59B0EEF4.wem</Path>
+						</File>
+						<File Id="638938107" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03_42812E9B.wem</Path>
+						</File>
+						<File Id="663741264" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_10018D0B.wem</Path>
+						</File>
+						<File Id="719757150" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_A0FFA007.wem</Path>
+						</File>
+						<File Id="737075485" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04_D5F4B58C.wem</Path>
+						</File>
 						<File Id="780655263" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_03.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_03_7FA8D501.wem</Path>
 						</File>
+						<File Id="782535334" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_F8E03E25.wem</Path>
+						</File>
+						<File Id="810418308" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_500F3960.wem</Path>
+						</File>
+						<File Id="834150754" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_87093038.wem</Path>
+						</File>
+						<File Id="842411298" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_4632A3E2.wem</Path>
+						</File>
+						<File Id="937180244" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_CF194805.wem</Path>
+						</File>
+						<File Id="953495386" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05_F61536E6.wem</Path>
+						</File>
 						<File Id="1053242183" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1063639736" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01_3F9A4523.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<ActionPostEvent>
@@ -404,7 +491,6 @@
 					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
-						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
@@ -462,73 +548,88 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_idle_loop_Mix_Bounce.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_idle_loop_Mix_Bounce_0BC91DCF.wem</Path>
 						</File>
-					</ExcludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="4274728594" Name="AudioEvent_K03_PWR_Chainsaw_Overheat_End" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Overheat_End" GUID="{18792877-ADBA-4174-9798-8F19EE23C1A0}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.8645" DurationMax="0.891104">
-					<ExcludedMemoryFiles>
-						<File Id="62744220" Language="SFX">
-							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02.wav</ShortName>
-							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="556465313" Language="SFX">
-							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03.wav</ShortName>
-							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="718907632" Language="SFX">
-							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01.wav</ShortName>
-							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01_7FA8D501.wem</Path>
+						<File Id="816999601" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_chainsaw_attack_rev_burning_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_chainsaw_attack_rev_burning_loop_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="22146417" Name="AudioEvent_K03_PWR_Chainsaw_Overheat_Start" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Overheat_Start" GUID="{AF28411D-9174-490F-A5DE-6453AA2A0575}" DurationType="OneShot" DurationMin="2.129167" DurationMax="2.464292">
+				<Event Id="4274728594" Name="AudioEvent_K03_PWR_Chainsaw_Overheat_End" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Overheat_End" GUID="{18792877-ADBA-4174-9798-8F19EE23C1A0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="22146417" Name="AudioEvent_K03_PWR_Chainsaw_Overheat_Start" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Overheat_Start" GUID="{AF28411D-9174-490F-A5DE-6453AA2A0575}" DurationType="OneShot" DurationMin="8.682207" DurationMax="8.682207">
 					<ExcludedMemoryFiles>
-						<File Id="472249795" Language="SFX">
-							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_03.wav</ShortName>
-							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="989307943" Language="SFX">
-							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_02.wav</ShortName>
-							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="1041134288" Language="SFX">
-							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_01.wav</ShortName>
-							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_01_7FA8D501.wem</Path>
+						<File Id="649648307" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_start_2d_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_start_2d_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="853934376" Name="AudioEvent_K03_PWR_Chainsaw_Stop" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Stop" GUID="{BF061916-460B-4AD3-819C-8D053C7D9291}"/>
-					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="2875341065" Name="AudioEvent_K03_PWR_Chainsaw_Rev_Loop_Start" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Rev_Loop_Start" GUID="{F482718B-C70A-4233-8F18-5B46145EEE01}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
+						<File Id="22487286" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01_EF961666.wem</Path>
+						</File>
 						<File Id="83284039" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_05.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="96085089" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02_048F24FF.wem</Path>
 						</File>
 						<File Id="248776407" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="275842907" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05_B8B9E09B.wem</Path>
+						</File>
+						<File Id="350643154" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03_66BC4E7F.wem</Path>
+						</File>
+						<File Id="436742806" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04_7CBC2306.wem</Path>
+						</File>
+						<File Id="482841265" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02_C82A196F.wem</Path>
+						</File>
 						<File Id="486977660" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_04.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="638938107" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03_42812E9B.wem</Path>
+						</File>
+						<File Id="737075485" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04_D5F4B58C.wem</Path>
 						</File>
 						<File Id="780655263" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_03.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_03_7FA8D501.wem</Path>
 						</File>
+						<File Id="953495386" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05_F61536E6.wem</Path>
+						</File>
 						<File Id="1053242183" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1063639736" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01_3F9A4523.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
@@ -555,7 +656,7 @@
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2263127050" Name="AudioEvent_K03_PWR_Chainsaw_Rev_Single" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Rev_Single" GUID="{65147E21-54F9-4DA6-9096-DB4328F05DDA}" DurationType="OneShot" DurationMin="1.320354" DurationMax="1.635102">
+				<Event Id="2263127050" Name="AudioEvent_K03_PWR_Chainsaw_Rev_Single" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Rev_Single" GUID="{65147E21-54F9-4DA6-9096-DB4328F05DDA}" DurationType="OneShot" DurationMin="1.734664" DurationMax="2.25904">
 					<ExcludedMemoryFiles>
 						<File Id="2674604" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_12.wav</ShortName>
@@ -581,17 +682,57 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_02_67368C31.wem</Path>
 						</File>
+						<File Id="614753927" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_59B0EEF4.wem</Path>
+						</File>
+						<File Id="663741264" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_10018D0B.wem</Path>
+						</File>
+						<File Id="719757150" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_A0FFA007.wem</Path>
+						</File>
+						<File Id="782535334" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_F8E03E25.wem</Path>
+						</File>
+						<File Id="810418308" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_500F3960.wem</Path>
+						</File>
+						<File Id="834150754" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_87093038.wem</Path>
+						</File>
+						<File Id="842411298" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_4632A3E2.wem</Path>
+						</File>
+						<File Id="937180244" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_CF194805.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="252919497" Name="AudioEvent_K03_PWR_Chainsaw_Rev_Single_Attack" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Rev_Single_Attack" GUID="{F2776865-B574-46B6-B86C-429589530FB5}" DurationType="OneShot" DurationMin="1.320354" DurationMax="1.635102">
+				<Event Id="252919497" Name="AudioEvent_K03_PWR_Chainsaw_Rev_Single_Attack" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Rev_Single_Attack" GUID="{F2776865-B574-46B6-B86C-429589530FB5}" DurationType="OneShot" DurationMin="1.734664" DurationMax="2.25904">
 					<ExcludedMemoryFiles>
 						<File Id="2674604" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_12.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_12_67368C31.wem</Path>
+						</File>
+						<File Id="65467432" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_A2EA5AF3.wem</Path>
+						</File>
+						<File Id="141864939" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_12110868.wem</Path>
 						</File>
 						<File Id="151470024" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_14.wav</ShortName>
@@ -605,6 +746,14 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05_67368C31.wem</Path>
 						</File>
+						<File Id="243226913" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_A0F4D523.wem</Path>
+						</File>
+						<File Id="378328983" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_E17C4380.wem</Path>
+						</File>
 						<File Id="482697328" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13_67368C31.wem</Path>
@@ -613,14 +762,97 @@
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_02_67368C31.wem</Path>
 						</File>
+						<File Id="638919286" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_EB9C76F0.wem</Path>
+						</File>
+						<File Id="853686450" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_47D75969.wem</Path>
+						</File>
+						<File Id="892544375" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_A87426B6.wem</Path>
+						</File>
+						<File Id="979392090" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_000F8B73.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="378155003" Name="AudioEvent_K03_PWR_Chainsaw_Startup" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Startup" GUID="{943FF70E-E1F1-4D8F-A833-4880C5F5D01D}" DurationType="OneShot" DurationMin="0.684853" DurationMax="0.833651">
+				<Event Id="4143636995" Name="AudioEvent_K03_PWR_Chainsaw_Rev_Sprint_Start" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Rev_Sprint_Start" GUID="{B504ABDA-3982-4637-9823-5983AD90DD49}" DurationType="OneShot" DurationMin="1.734664" DurationMax="2.25904">
 					<ExcludedMemoryFiles>
+						<File Id="2674604" Language="SFX">
+							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_12.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_12_67368C31.wem</Path>
+						</File>
+						<File Id="151470024" Language="SFX">
+							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_14.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_14_67368C31.wem</Path>
+						</File>
+						<File Id="186914597" Language="SFX">
+							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05_67368C31.wem</Path>
+						</File>
+						<File Id="482697328" Language="SFX">
+							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13_67368C31.wem</Path>
+						</File>
+						<File Id="614753927" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_59B0EEF4.wem</Path>
+						</File>
+						<File Id="663741264" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_10018D0B.wem</Path>
+						</File>
+						<File Id="719757150" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_A0FFA007.wem</Path>
+						</File>
+						<File Id="782535334" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_F8E03E25.wem</Path>
+						</File>
+						<File Id="810418308" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_500F3960.wem</Path>
+						</File>
+						<File Id="834150754" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_87093038.wem</Path>
+						</File>
+						<File Id="842411298" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_4632A3E2.wem</Path>
+						</File>
+						<File Id="937180244" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_CF194805.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="378155003" Name="AudioEvent_K03_PWR_Chainsaw_Startup" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Startup" GUID="{943FF70E-E1F1-4D8F-A833-4880C5F5D01D}" DurationType="OneShot" DurationMin="1.316937" DurationMax="1.750855">
+					<ExcludedMemoryFiles>
+						<File Id="676040916" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02_2D9B20A7.wem</Path>
+						</File>
+						<File Id="759683771" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02_FBED315C.wem</Path>
+						</File>
+						<File Id="800018824" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01_1A6FC029.wem</Path>
+						</File>
 						<File Id="841511598" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_start_02.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_start_02_67368C31.wem</Path>
@@ -628,6 +860,10 @@
 						<File Id="925000095" Language="SFX">
 							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_start_01.wav</ShortName>
 							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_start_01_67368C31.wem</Path>
+						</File>
+						<File Id="1072955222" Language="SFX">
+							<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01.wav</ShortName>
+							<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01_EF717EC7.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
@@ -996,6 +1232,10 @@
 					<ShortName>Character\KLR_03\Menu\sfx_machete_clean_01_interrupt.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Menu\sfx_machete_clean_01_interrupt_67368C31.wem</Path>
 				</File>
+				<File Id="22487286" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01_EF961666.wem</Path>
+				</File>
 				<File Id="33430818" Language="SFX">
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_05.wav</ShortName>
 					<Path>SFX\Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_05_7FA8D501.wem</Path>
@@ -1012,9 +1252,9 @@
 					<ShortName>Character\KLR_03\vo_killer_hillbilly_grunt_sprint_02.wav</ShortName>
 					<Path>SFX\Character\KLR_03\vo_killer_hillbilly_grunt_sprint_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="62744220" Language="SFX">
-					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02.wav</ShortName>
-					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02_7FA8D501.wem</Path>
+				<File Id="65467432" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_A2EA5AF3.wem</Path>
 				</File>
 				<File Id="83284039" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_05.wav</ShortName>
@@ -1028,6 +1268,10 @@
 					<ShortName>Character\KLR_03\sfx_killer_hillbilly_normal_breath_7.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_killer_hillbilly_normal_breath_7_67368C31.wem</Path>
 				</File>
+				<File Id="96085089" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02_048F24FF.wem</Path>
+				</File>
 				<File Id="106943639" Language="SFX">
 					<ShortName>Character\KLR_05\sfx_killer_lick_blood_02.wav</ShortName>
 					<Path>SFX\Character\KLR_05\sfx_killer_lick_blood_02_67368C31.wem</Path>
@@ -1036,9 +1280,17 @@
 					<ShortName>Music\TerrorRadius\mu_terrorradius_k03_layer_02.wav</ShortName>
 					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k03_layer_02_256CDB0F.wem</Path>
 				</File>
+				<File Id="116605436" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01_51906F18.wem</Path>
+				</File>
 				<File Id="132226834" Language="SFX">
 					<ShortName>Character\KLR_03\vo_killer_hillbilly_grunt_hurt_05.wav</ShortName>
 					<Path>SFX\Character\KLR_03\vo_killer_hillbilly_grunt_hurt_05_67368C31.wem</Path>
+				</File>
+				<File Id="141864939" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_12110868.wem</Path>
 				</File>
 				<File Id="151470024" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_14.wav</ShortName>
@@ -1072,6 +1324,10 @@
 					<ShortName>Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_06.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="183169936" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_attack_body_loop_overheat_01_6D345D62.wem</Path>
+				</File>
 				<File Id="186914597" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_05_67368C31.wem</Path>
@@ -1096,9 +1352,17 @@
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_hit_wall_04.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_hit_wall_04_67368C31.wem</Path>
 				</File>
+				<File Id="243226913" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_A0F4D523.wem</Path>
+				</File>
 				<File Id="248776407" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_02.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="275842907" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05_B8B9E09B.wem</Path>
 				</File>
 				<File Id="284761066" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_k03_bodymove_default_10.wav</ShortName>
@@ -1116,9 +1380,17 @@
 					<ShortName>Character\KLR_03\sfx_k03_bodymove_default_03.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_k03_bodymove_default_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="350643154" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03_66BC4E7F.wem</Path>
+				</File>
 				<File Id="358057695" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_hit_wall_03.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_hit_wall_03_67368C31.wem</Path>
+				</File>
+				<File Id="378328983" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_E17C4380.wem</Path>
 				</File>
 				<File Id="380416888" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_idle_loop_Mix_Bounce.wav</ShortName>
@@ -1132,6 +1404,10 @@
 					<ShortName>Impact\sfx_weapon_hammer_impact_hit_03.wav</ShortName>
 					<Path>SFX\Impact\sfx_weapon_hammer_impact_hit_03_67368C31.wem</Path>
 				</File>
+				<File Id="436742806" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04_7CBC2306.wem</Path>
+				</File>
 				<File Id="437157583" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_flip_whoosh_04.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_weapon_hammer_flip_whoosh_04_67368C31.wem</Path>
@@ -1144,10 +1420,6 @@
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_body_loop_02.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_body_loop_02_6931D3FB.wem</Path>
 				</File>
-				<File Id="472249795" Language="SFX">
-					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_03.wav</ShortName>
-					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="477311304" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_arm_move_04.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_weapon_hammer_arm_move_04_67368C31.wem</Path>
@@ -1159,6 +1431,10 @@
 				<File Id="482697328" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_single_13_67368C31.wem</Path>
+				</File>
+				<File Id="482841265" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_02_C82A196F.wem</Path>
 				</File>
 				<File Id="485649419" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_stop_02.wav</ShortName>
@@ -1188,10 +1464,6 @@
 					<ShortName>Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_03.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="556465313" Language="SFX">
-					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03.wav</ShortName>
-					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="565115878" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_attack_whoosh_02.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_weapon_hammer_attack_whoosh_02_67368C31.wem</Path>
@@ -1212,9 +1484,25 @@
 					<ShortName>Character\KLR_03\vo_killer_hillbilly_grunt_hurt_02.wav</ShortName>
 					<Path>SFX\Character\KLR_03\vo_killer_hillbilly_grunt_hurt_02_67368C31.wem</Path>
 				</File>
+				<File Id="614753927" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_59B0EEF4.wem</Path>
+				</File>
 				<File Id="634907896" Language="SFX">
 					<ShortName>Character\KLR_05\sfx_killer_lick_blood_03.wav</ShortName>
 					<Path>SFX\Character\KLR_05\sfx_killer_lick_blood_03_67368C31.wem</Path>
+				</File>
+				<File Id="638919286" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_EB9C76F0.wem</Path>
+				</File>
+				<File Id="638938107" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_03_42812E9B.wem</Path>
+				</File>
+				<File Id="649648307" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_start_2d_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_start_2d_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="658122349" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_arm_move_02.wav</ShortName>
@@ -1224,9 +1512,17 @@
 					<ShortName>Character\KLR_03\vo_killer_hillbilly_grunt_hurt_03.wav</ShortName>
 					<Path>SFX\Character\KLR_03\vo_killer_hillbilly_grunt_hurt_03_67368C31.wem</Path>
 				</File>
+				<File Id="663741264" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_10018D0B.wem</Path>
+				</File>
 				<File Id="672186915" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_k03_bodymove_default_05.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_k03_bodymove_default_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="676040916" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02_2D9B20A7.wem</Path>
 				</File>
 				<File Id="698323725" Language="SFX">
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_02.wav</ShortName>
@@ -1244,9 +1540,13 @@
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_06.wav</ShortName>
 					<Path>SFX\Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="718907632" Language="SFX">
-					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01.wav</ShortName>
-					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01_7FA8D501.wem</Path>
+				<File Id="719757150" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_A0FFA007.wem</Path>
+				</File>
+				<File Id="737075485" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_04_D5F4B58C.wem</Path>
 				</File>
 				<File Id="747656630" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_flip_whoosh_05.wav</ShortName>
@@ -1255,6 +1555,10 @@
 				<File Id="757078568" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_k03_bodymove_default_06.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_k03_bodymove_default_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="759683771" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_02_FBED315C.wem</Path>
 				</File>
 				<File Id="769872310" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_killer_hillbilly_normal_breath_2.wav</ShortName>
@@ -1272,6 +1576,10 @@
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_03.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="782535334" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_F8E03E25.wem</Path>
+				</File>
 				<File Id="784019473" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_hit_wall_02.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_hit_wall_02_67368C31.wem</Path>
@@ -1288,9 +1596,25 @@
 					<ShortName>Character\KLR_03\sfx_killer_hillbilly_normal_breath_6.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_killer_hillbilly_normal_breath_6_67368C31.wem</Path>
 				</File>
+				<File Id="800018824" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01_1A6FC029.wem</Path>
+				</File>
+				<File Id="810418308" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_500F3960.wem</Path>
+				</File>
 				<File Id="812038262" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_killer_hillbilly_normal_breath_9.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_killer_hillbilly_normal_breath_9_67368C31.wem</Path>
+				</File>
+				<File Id="816999601" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_chainsaw_attack_rev_burning_loop_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_chainsaw_attack_rev_burning_loop_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="834150754" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_87093038.wem</Path>
 				</File>
 				<File Id="835396286" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_killer_hillbilly_normal_breath_5.wav</ShortName>
@@ -1300,6 +1624,14 @@
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_start_02.wav</ShortName>
 					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_start_02_67368C31.wem</Path>
 				</File>
+				<File Id="842411298" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_4632A3E2.wem</Path>
+				</File>
+				<File Id="853686450" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_02_47D75969.wem</Path>
+				</File>
 				<File Id="872969251" Language="SFX">
 					<ShortName>Impact\sfx_weapon_hammer_impact_hit_01.wav</ShortName>
 					<Path>SFX\Impact\sfx_weapon_hammer_impact_hit_01_67368C31.wem</Path>
@@ -1307,6 +1639,10 @@
 				<File Id="884696826" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_k03_bodymove_default_01.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_k03_bodymove_default_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="892544375" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_A87426B6.wem</Path>
 				</File>
 				<File Id="906683920" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_arm_move_03.wav</ShortName>
@@ -1320,6 +1656,10 @@
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_09.wav</ShortName>
 					<Path>SFX\Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_09_7FA8D501.wem</Path>
 				</File>
+				<File Id="937180244" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_03_CF194805.wem</Path>
+				</File>
 				<File Id="938362329" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_attack_whoosh_05.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_weapon_hammer_attack_whoosh_05_67368C31.wem</Path>
@@ -1327,6 +1667,10 @@
 				<File Id="941947566" Language="SFX">
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_10.wav</ShortName>
 					<Path>SFX\Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="953495386" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_05_F61536E6.wem</Path>
 				</File>
 				<File Id="969099234" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_killer_hillbilly_normal_breath_8.wav</ShortName>
@@ -1336,9 +1680,9 @@
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_07.wav</ShortName>
 					<Path>SFX\Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="989307943" Language="SFX">
-					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_02.wav</ShortName>
-					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_02_7FA8D501.wem</Path>
+				<File Id="979392090" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_01_000F8B73.wem</Path>
 				</File>
 				<File Id="1015773944" Language="SFX">
 					<ShortName>Music\TerrorRadius\mu_terrorradius_k03_layer_03.wav</ShortName>
@@ -1351,10 +1695,6 @@
 				<File Id="1035824331" Language="SFX">
 					<ShortName>Character\KLR_03\vo_killer_hillbilly_grunt_sprint_03.wav</ShortName>
 					<Path>SFX\Character\KLR_03\vo_killer_hillbilly_grunt_sprint_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1041134288" Language="SFX">
-					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_01.wav</ShortName>
-					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_overheat_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="1053242183" Language="SFX">
 					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_rev_multi_01.wav</ShortName>
@@ -1372,6 +1712,10 @@
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_01.wav</ShortName>
 					<Path>SFX\Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="1063639736" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_loop_01_3F9A4523.wem</Path>
+				</File>
 				<File Id="1066515443" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_09.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_09_7FA8D501.wem</Path>
@@ -1380,8 +1724,14 @@
 					<ShortName>Character\KLR_03\sfx_killer_hillbilly_normal_breath_1.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_killer_hillbilly_normal_breath_1_67368C31.wem</Path>
 				</File>
+				<File Id="1072955222" Language="SFX">
+					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01.wav</ShortName>
+					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_in_01_EF717EC7.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="13686929" Name="AudioRTPC_KLR_03_Chainsaw_ChargeProgression" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K03_HillBilly\AudioRTPC_KLR_03_Chainsaw_ChargeProgression" GUID="{CAEB1403-C992-41E6-85FB-C1C4CDFE9581}"/>
+				<GameParameter Id="624994715" Name="AudioRTPC_KLR_03_Chainsaw_Overheat_OnOff" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K03_HillBilly\AudioRTPC_KLR_03_Chainsaw_Overheat_OnOff" GUID="{72A9D9DE-B6AB-4D1B-B19A-AC28C872B826}"/>
 				<GameParameter Id="1071185174" Name="AudioRTPC_KLR_03_Chainsaw_HeatPercentage" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K03_HillBilly\AudioRTPC_KLR_03_Chainsaw_HeatPercentage" GUID="{E2651C1B-8840-42AF-92D4-E62D1D68CAB5}"/>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
 				<GameParameter Id="2444086592" Name="AudioRTPC_Proximity_Terror_Radius" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Proximity_Terror_Radius" GUID="{B90C8BF7-27D1-46A0-8417-5EA7C60184A3}"/>
@@ -1523,6 +1873,7 @@
 						<Switch Id="1355720765" Name="K27_CLOTH_Default_Custom_Outfit007" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K27_CLOTH_Default_Custom_Outfit007" GUID="{38062467-CE92-4006-93E2-3CBC59C91069}"/>
 						<Switch Id="3225580426" Name="K34_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K34_CLOTH_Default" GUID="{F424FF4A-35BB-484D-9BE5-0DEB9295757D}"/>
 						<Switch Id="2763194826" Name="K34b_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K34b_CLOTH_Default" GUID="{1BE5B870-9D6A-49D8-9155-5B6784640BAC}"/>
+						<Switch Id="2631872381" Name="K28_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit013" GUID="{9203438A-2A1A-4325-871F-C1DA3C56F6ED}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3548994684" Name="AudioSwitchProximity" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchProximity" GUID="{A238147F-8756-470E-AC66-0AFAF133FD8A}">
