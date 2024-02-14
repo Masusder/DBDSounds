@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115650" GUID="{86A8B68F-CA47-44FE-B3EC-5FEFC2754A81}" Language="SFX" Hash="1329194135">
+		<SoundBank Id="1491115650" GUID="{86A8B68F-CA47-44FE-B3EC-5FEFC2754A81}" Language="SFX" Hash="431731475">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_03</ObjectPath>
 			<ShortName>KLR_03</ShortName>
 			<Path>KLR_03.bnk</Path>
@@ -452,6 +452,25 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="4035166125" Name="AudioEvent_K03_PWR_Chainsaw_Cooldown_End" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Cooldown_End" GUID="{49BDC5B8-F12A-4E67-8DC9-823599C9188E}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.8645" DurationMax="0.891104">
+					<ExcludedMemoryFiles>
+						<File Id="62744220" Language="SFX">
+							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="556465313" Language="SFX">
+							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="718907632" Language="SFX">
+							<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="2650845359" Name="AudioEvent_K03_PWR_Chainsaw_Hit_Object" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Hit_Object" GUID="{99176CA8-E25E-4A4E-9444-710F36C9E4D4}" DurationType="OneShot" DurationMin="1.488628" DurationMax="2.135102">
 					<ExcludedMemoryFiles>
 						<File Id="151744446" Language="SFX">
@@ -729,7 +748,7 @@
 						<AuxBus Id="2079789273" Name="HAPTIC_K03_CHAINSAW_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K03_CHAINSAW_AUX" GUID="{664EFFAF-4DCD-4F30-95E5-B2AA4138660F}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4274728594" Name="AudioEvent_K03_PWR_Chainsaw_Overheat_End" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Overheat_End" GUID="{18792877-ADBA-4174-9798-8F19EE23C1A0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4274728594" Name="AudioEvent_K03_PWR_Chainsaw_Overheat_End" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Overheat_End" GUID="{18792877-ADBA-4174-9798-8F19EE23C1A0}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="22146417" Name="AudioEvent_K03_PWR_Chainsaw_Overheat_Start" ObjectPath="\Events\CHARACTER\KILLER\K03_HillBilly\K03_POWER\AudioEvent_K03_PWR_Chainsaw_Overheat_Start" GUID="{AF28411D-9174-490F-A5DE-6453AA2A0575}" DurationType="OneShot" DurationMin="8.682207" DurationMax="8.682207">
 					<ExcludedMemoryFiles>
 						<File Id="649648307" Language="SFX">
@@ -1436,6 +1455,10 @@
 					<ShortName>Character\KLR_03\vo_killer_hillbilly_grunt_sprint_02.wav</ShortName>
 					<Path>SFX\Character\KLR_03\vo_killer_hillbilly_grunt_sprint_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="62744220" Language="SFX">
+					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="65467432" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
 					<Path>SFX\Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04_A2EA5AF3.wem</Path>
@@ -1732,6 +1755,10 @@
 					<ShortName>Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_03.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_k03_wpn_default_impact_survivor_blunt_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="556465313" Language="SFX">
+					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="565115878" Language="SFX">
 					<ShortName>Character\KLR_03\Hammer\sfx_weapon_hammer_attack_whoosh_02.wav</ShortName>
 					<Path>SFX\Character\KLR_03\Hammer\sfx_weapon_hammer_attack_whoosh_02_67368C31.wem</Path>
@@ -1827,6 +1854,10 @@
 				<File Id="717923457" Language="SFX">
 					<ShortName>Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_06.wav</ShortName>
 					<Path>SFX\Character\KLR_03\K03_CUSTO\vo_k03_outfit010_status_dribble_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="718907632" Language="SFX">
+					<ShortName>Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\Chainsaw\sfx_chainsaw_attack_ready_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="719757150" Language="SFX">
 					<ShortName>Character\KLR_03\sfx_k03_pwr_chainsaw_overheat_rev_single_04.wav</ShortName>
