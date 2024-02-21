@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Zodiac_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Applepie_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_Zodiac\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2215970217" GUID="{3EC0046B-A8CA-4EC3-9FC6-9FEBD72CB510}" Language="SFX" Hash="3188763317">
+		<SoundBank Id="2215970217" GUID="{3EC0046B-A8CA-4EC3-9FC6-9FEBD72CB510}" Language="SFX" Hash="1546535750">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_14</ObjectPath>
 			<ShortName>AMB_14</ShortName>
 			<Path>AMB_14.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1795661723" Name="AudioEvent_AM_Intro_14_Qatar" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T14_Qatar\AudioEvent_AM_Intro_14_Qatar" GUID="{1868F4B9-455A-42D1-9C7A-42C9F2B81E3E}" DurationType="OneShot" DurationMin="9.880542" DurationMax="9.880542">
+					<ExcludedMemoryFiles>
+						<File Id="755811848" Language="SFX">
+							<ShortName>Ambience\Theme\T14_Qatar\am_t14_qatar_intro_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T14_Qatar\am_t14_qatar_intro_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="2973529068" Name="AudioEvent_AM_T14_Qatar_ClinicTop" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T14_Qatar\AMB_T14_TILE\AudioEvent_AM_T14_Qatar_ClinicTop" GUID="{2C886024-49A7-45FA-A3B3-3EF1015C6F79}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="80768792" Language="SFX">
@@ -610,6 +618,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1795661723" Name="AudioEvent_AM_Intro_14_Qatar" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T14_Qatar\AudioEvent_AM_Intro_14_Qatar" GUID="{1868F4B9-455A-42D1-9C7A-42C9F2B81E3E}"/>
+					</ActionPostEvent>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
 					</AuxBusSends>
@@ -1030,6 +1041,10 @@
 				<File Id="751834796" Language="SFX">
 					<ShortName>Ambience\Theme\T14_Qatar\am_t14_qatar_emt_computer_vintage_random_C_03.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T14_Qatar\am_t14_qatar_emt_computer_vintage_random_C_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="755811848" Language="SFX">
+					<ShortName>Ambience\Theme\T14_Qatar\am_t14_qatar_intro_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T14_Qatar\am_t14_qatar_intro_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="756922336" Language="SFX">
 					<ShortName>Ambience\Theme\T14_Qatar\am_t14_qatar_emt_rift_roar_07.wav</ShortName>

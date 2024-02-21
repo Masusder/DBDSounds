@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Applepie_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2949026939" GUID="{70EE83FC-3A5F-4776-9A4A-F9CC9FD1BB13}" Language="SFX" Hash="1074227718">
+			<ObjectPath>\SoundBanks\OBJECT\OBJ_MAP\OBJ_T23\Projector_T23</ObjectPath>
+			<ShortName>Projector_T23</ShortName>
+			<Path>Projector_T23.bnk</Path>
+			<IncludedEvents>
+				<Event Id="285793375" Name="AudioEvent_Projector_Start" ObjectPath="\Events\OBJECT\OBJ_MAP\OBJ_T23\Projector\AudioEvent_Projector_Start" GUID="{FCA71AD1-B0AE-4445-9F44-A03E1054A8C3}" MaxAttenuation="1700." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="721899939" Language="SFX">
+							<ShortName>Object\Obj_Deco\Projector_T23\sfx_projector_loop_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Deco\Projector_T23\sfx_projector_loop_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="949903960" Language="SFX">
+							<ShortName>Object\Obj_Deco\Projector_T23\sfx_projector_start_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Deco\Projector_T23\sfx_projector_start_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2349595280" Name="AudioStateMovie_ON" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_23_Applepie\AudioStateMovie_23_Applepie\AudioStateMovie_ON" GUID="{109B90AE-B565-49A3-85EC-7BC473016D9D}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3121395493" Name="AudioEvent_Projector_Stop" ObjectPath="\Events\OBJECT\OBJ_MAP\OBJ_T23\Projector\AudioEvent_Projector_Stop" GUID="{0BF0A64E-3579-4107-BB24-F5A76A448C3D}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="6.5" DurationMax="6.5">
+					<ExcludedMemoryFiles>
+						<File Id="287759876" Language="SFX">
+							<ShortName>Object\Obj_Deco\Projector_T23\sfx_projector_stop_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Deco\Projector_T23\sfx_projector_stop_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="249265454" Name="AudioStateMovie_OFF" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_23_Applepie\AudioStateMovie_23_Applepie\AudioStateMovie_OFF" GUID="{71CE7A5B-20D2-4BF7-9248-CF2720F57FD5}"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="287759876" Language="SFX">
+					<ShortName>Object\Obj_Deco\Projector_T23\sfx_projector_stop_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Deco\Projector_T23\sfx_projector_stop_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="721899939" Language="SFX">
+					<ShortName>Object\Obj_Deco\Projector_T23\sfx_projector_loop_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Deco\Projector_T23\sfx_projector_loop_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="949903960" Language="SFX">
+					<ShortName>Object\Obj_Deco\Projector_T23\sfx_projector_start_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Deco\Projector_T23\sfx_projector_start_01_7FA8D501.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="249265454" Name="AudioStateMovie_OFF" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_23_Applepie\AudioStateMovie_23_Applepie\AudioStateMovie_OFF" GUID="{71CE7A5B-20D2-4BF7-9248-CF2720F57FD5}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2349595280" Name="AudioStateMovie_ON" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_23_Applepie\AudioStateMovie_23_Applepie\AudioStateMovie_ON" GUID="{109B90AE-B565-49A3-85EC-7BC473016D9D}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
