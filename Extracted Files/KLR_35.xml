@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1440782797" GUID="{4C0C2325-80DE-42BE-8C30-6CCCE71ECCBF}" Language="SFX" Hash="2520294580">
+		<SoundBank Id="1440782797" GUID="{4C0C2325-80DE-42BE-8C30-6CCCE71ECCBF}" Language="SFX" Hash="3347396867">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_35</ObjectPath>
 			<ShortName>KLR_35</ShortName>
 			<Path>KLR_35.bnk</Path>
@@ -1125,6 +1125,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_cancel_fpv_02_C80F6ADC.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3716913221" Name="Audievent_K35_PWR_Projectile_Charge_Completed" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Projectile\Audievent_K35_PWR_Projectile_Charge_Completed" GUID="{C6A5DFD7-170D-41A2-86D3-1804E2F350D8}" DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -1238,6 +1241,7 @@
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
@@ -1288,6 +1292,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_neck_break_04_B5A5B94B.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3015041406" Name="Audievent_K35_PWR_Projectile_Cooldown_End" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Projectile\Audievent_K35_PWR_Projectile_Cooldown_End" GUID="{2B3D86EA-F3D4-45A9-8405-6B2A6E1C3D18}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.484186" DurationMax="3.379525">
 					<ExcludedMemoryFiles>
@@ -1364,6 +1371,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_hit_affected_survivor_losing_health_2d_01_BC0D94DB.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2099263681" Name="Audievent_K35_PWR_Projectile_HitNonAffectedSurvivor" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Projectile\Audievent_K35_PWR_Projectile_HitNonAffectedSurvivor" GUID="{C898EBB2-1760-4A4A-96BA-B2CDDA82DD5B}" DurationType="OneShot" DurationMin="5.496823" DurationMax="5.496823">
 					<ExcludedMemoryFiles>
@@ -1383,6 +1393,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_hit_nonaffected_survivor_2d_01_B1E9354A.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2842328279" Name="Audievent_K35_PWR_Projectile_Shot" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Projectile\Audievent_K35_PWR_Projectile_Shot" GUID="{01FFBC0A-69C9-4ED2-888C-476880A6A8BD}" MaxAttenuation="1700." DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -1411,6 +1424,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_gore_loop_01_256CDB0F.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3870354987" Name="HAPTIC_K35_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_K35_POWER_AUX" GUID="{EE8D638D-4002-4FD8-92A9-F9B050229312}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2761825744" Name="Audievent_K35_PWR_Projectile_Shrink" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Projectile\Audievent_K35_PWR_Projectile_Shrink" GUID="{AEB3C0D5-5126-4540-BF3A-C7179ED7B288}" MaxAttenuation="2500." DurationType="OneShot" DurationMin="1.521132" DurationMax="2.836061">
 					<ExcludedMemoryFiles>
@@ -1442,6 +1458,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_01.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="902295957" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_01.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_01_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1450,6 +1470,10 @@
 				</Event>
 				<Event Id="735175065" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_02" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_02" GUID="{AB7C8B81-310E-4A66-91C0-B2E728308272}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="2.790667" DurationMax="2.790667">
 					<ReferencedStreamedFiles>
+						<File Id="75094457" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_02.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_02_7FA8D501.wem</Path>
+						</File>
 						<File Id="857987854" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_02.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_02_7FA8D501.wem</Path>
@@ -1462,6 +1486,10 @@
 				</Event>
 				<Event Id="735175064" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_03" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_03" GUID="{F500760E-88CC-4C0F-9F09-FB30D389A366}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="2.318458" DurationMax="2.318458">
 					<ReferencedStreamedFiles>
+						<File Id="830048916" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_03.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_03_7FA8D501.wem</Path>
+						</File>
 						<File Id="924028711" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_03.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_03_7FA8D501.wem</Path>
@@ -1478,6 +1506,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_04.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="683016612" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_04.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_04_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1489,6 +1521,10 @@
 						<File Id="203917137" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_05.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="736637708" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_05.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_05_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
@@ -1502,6 +1538,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_06.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_06_7FA8D501.wem</Path>
 						</File>
+						<File Id="295737855" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_06.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_06_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1513,6 +1553,10 @@
 						<File Id="35213574" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_07.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="602549622" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_07.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_07_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
@@ -1526,6 +1570,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_08.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_08_7FA8D501.wem</Path>
 						</File>
+						<File Id="872813009" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_08.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_08_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1538,6 +1586,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_09.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="650447335" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_09.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_09_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1546,6 +1598,10 @@
 				</Event>
 				<Event Id="718397480" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_10" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_10" GUID="{78B328F5-1698-4C9B-8426-A55C6E5FA2C9}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="2.878583" DurationMax="2.878583">
 					<ReferencedStreamedFiles>
+						<File Id="751843419" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_10.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_10_7FA8D501.wem</Path>
+						</File>
 						<File Id="969323711" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_10.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_10_7FA8D501.wem</Path>
@@ -1558,6 +1614,10 @@
 				</Event>
 				<Event Id="718397481" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_11" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_11" GUID="{AC3BEAF1-DA42-4977-9C33-6CE637FA7AFE}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
 					<ReferencedStreamedFiles>
+						<File Id="254582202" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_11.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_11_7FA8D501.wem</Path>
+						</File>
 						<File Id="257225303" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_11.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_11_7FA8D501.wem</Path>
@@ -1570,6 +1630,10 @@
 				</Event>
 				<Event Id="718397482" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_12" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_12" GUID="{B5A1936C-1C57-40BC-A271-B17B1002142C}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="1.936979" DurationMax="1.936979">
 					<ReferencedStreamedFiles>
+						<File Id="683338039" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_12.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_12_7FA8D501.wem</Path>
+						</File>
 						<File Id="770298093" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_12.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_12_7FA8D501.wem</Path>
@@ -1586,6 +1650,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_13.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_13_7FA8D501.wem</Path>
 						</File>
+						<File Id="1047382026" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_13.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_13_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1594,6 +1662,10 @@
 				</Event>
 				<Event Id="718397484" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_14" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_14" GUID="{77996955-5406-4908-B66A-F7EC959B13EC}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="3.014688" DurationMax="3.014688">
 					<ReferencedStreamedFiles>
+						<File Id="345396809" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_14.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_14_7FA8D501.wem</Path>
+						</File>
 						<File Id="1026362637" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_14.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_14_7FA8D501.wem</Path>
@@ -1606,6 +1678,10 @@
 				</Event>
 				<Event Id="718397485" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_15" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_15" GUID="{106DD709-8AD5-4967-B021-A60F78E20328}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="1.838396" DurationMax="1.838396">
 					<ReferencedStreamedFiles>
+						<File Id="493936080" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_15.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_15_7FA8D501.wem</Path>
+						</File>
 						<File Id="967473160" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_15.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_15_7FA8D501.wem</Path>
@@ -1618,6 +1694,10 @@
 				</Event>
 				<Event Id="718397486" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_16" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_16" GUID="{A43E76CB-5591-4D64-9FCF-78A3F2EC8506}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="3.106979" DurationMax="3.106979">
 					<ReferencedStreamedFiles>
+						<File Id="369669482" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_16.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_16_7FA8D501.wem</Path>
+						</File>
 						<File Id="596518343" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_16.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_16_7FA8D501.wem</Path>
@@ -1634,6 +1714,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_17.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_17_7FA8D501.wem</Path>
 						</File>
+						<File Id="777783939" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_17.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_17_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1645,6 +1729,10 @@
 						<File Id="676436725" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_18.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="915598551" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_18.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_18_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
@@ -1658,6 +1746,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_19.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_19_7FA8D501.wem</Path>
 						</File>
+						<File Id="1048618927" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_19.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_19_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1666,6 +1758,10 @@
 				</Event>
 				<Event Id="768730337" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_20" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_20" GUID="{16902B73-5767-451F-9C39-AE365E55FAE0}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="2.704042" DurationMax="2.704042">
 					<ReferencedStreamedFiles>
+						<File Id="905802648" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_20.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_20_7FA8D501.wem</Path>
+						</File>
 						<File Id="974989356" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_20.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_20_7FA8D501.wem</Path>
@@ -1682,6 +1778,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_21.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_21_7FA8D501.wem</Path>
 						</File>
+						<File Id="505342394" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_21.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_21_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1693,6 +1793,10 @@
 						<File Id="673722364" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_22.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_22_7FA8D501.wem</Path>
+						</File>
+						<File Id="833541226" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_22.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_22_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
@@ -1706,6 +1810,10 @@
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_23.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_23_7FA8D501.wem</Path>
 						</File>
+						<File Id="461761099" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_23.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_23_7FA8D501.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
 						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
@@ -1714,6 +1822,10 @@
 				</Event>
 				<Event Id="768730341" Name="AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_24" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_DIALOG\DIALOG_K35_GAMEPLAY\DIALOG_K35_GAMEPLAY_KillerEffect\AudioEvent_DIALOG_K35_GAMEPLAY_KillerEffect_24" GUID="{E83939C3-7744-4BC3-8CEC-DAD0062A1232}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="2.033979" DurationMax="2.033979">
 					<ReferencedStreamedFiles>
+						<File Id="129753487" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_24.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_24_7FA8D501.wem</Path>
+						</File>
 						<File Id="901690898" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_24.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_24_7FA8D501.wem</Path>
@@ -1729,6 +1841,10 @@
 						<File Id="208930292" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_25.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_male_25_7FA8D501.wem</Path>
+						</File>
+						<File Id="913597719" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_25.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_killereffect_female_25_7FA8D501.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<AuxBusSends>
@@ -8146,6 +8262,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_01.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="63551375" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_23.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_23_D5422288.wem</Path>
+						</File>
 						<File Id="73205001" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_attack_01.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_attack_01_B5CE8DE6.wem</Path>
@@ -8166,6 +8286,10 @@
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_23.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_23_7FA8D501.wem</Path>
 						</File>
+						<File Id="177526127" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_16.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_16_EEF93EA6.wem</Path>
+						</File>
 						<File Id="346105476" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_16.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_16_4EC8D599.wem</Path>
@@ -8178,9 +8302,17 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_05.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="486606267" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_05_A9753B75.wem</Path>
+						</File>
 						<File Id="498689569" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_12.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="506072078" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_12.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_12_5ED0ED89.wem</Path>
 						</File>
 						<File Id="583713273" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_14.wav</ShortName>
@@ -8197,6 +8329,10 @@
 						<File Id="615361968" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_11.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="621588267" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_17.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_17_E280C8B5.wem</Path>
 						</File>
 						<File Id="679392681" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_attack_06.wav</ShortName>
@@ -8222,6 +8358,18 @@
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_02.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_02_20072C78.wem</Path>
 						</File>
+						<File Id="770876905" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_21.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_21_1A3FE570.wem</Path>
+						</File>
+						<File Id="809030096" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_18.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_18_8010E4A0.wem</Path>
+						</File>
+						<File Id="820952039" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_15.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_15_C28E328B.wem</Path>
+						</File>
 						<File Id="850816909" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_07.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_07_7FA8D501.wem</Path>
@@ -8234,13 +8382,25 @@
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_21.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_21_6B33B47C.wem</Path>
 						</File>
+						<File Id="926414379" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_06.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_06_9662E4C4.wem</Path>
+						</File>
 						<File Id="927986044" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_04.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="933509303" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_09.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_09_A3E94618.wem</Path>
+						</File>
 						<File Id="941175387" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_08.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="975102232" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_01_B0365694.wem</Path>
 						</File>
 						<File Id="975922187" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_17.wav</ShortName>
@@ -8265,6 +8425,21 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{D24F948E-7B7E-434B-9C57-0CE32201F3EC}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DC6FAC12-E4D4-4952-B1E1-1565BD690A05}">
+							<Media>
+								<File Id="63551375"/>
+								<File Id="177526127"/>
+								<File Id="486606267"/>
+								<File Id="506072078"/>
+								<File Id="621588267"/>
+								<File Id="770876905"/>
+								<File Id="809030096"/>
+								<File Id="820952039"/>
+								<File Id="926414379"/>
+								<File Id="933509303"/>
+								<File Id="975102232"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D24F948E-7B7E-434B-9C57-0CE32201F3EC}">
 							<Media>
 								<File Id="45106348"/>
@@ -8307,6 +8482,7 @@
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 						<AuxBus Id="2465268839" Name="K35_Applepie_Grunt_Monster_Effect" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\CHARACTER\KILLER\K35_Applepie_Grunt_Monster_Effect" GUID="{635CD0A7-62B7-4761-8677-E069DD5CBD63}"/>
+						<AuxBus Id="2648303793" Name="K35_Applepie_Dialog_KillerEffect" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\CHARACTER\KILLER\K35_Applepie_Dialog_KillerEffect" GUID="{52414DB7-7911-4B94-81B7-10FB1F2A05D3}"/>
 						<AuxBus Id="2955330236" Name="K35_Applepie_Grunt_Human_Effect" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\CHARACTER\KILLER\K35_Applepie_Grunt_Human_Effect" GUID="{7C8E0134-6135-4723-9FEB-36F83E2FF7C5}"/>
 					</AuxBusSends>
 				</Event>
@@ -8426,9 +8602,17 @@
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_07.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_07_70AF8867.wem</Path>
 						</File>
+						<File Id="37345262" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_19.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_19_7FA8D501.wem</Path>
+						</File>
 						<File Id="54908291" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_01.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="66880665" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_29.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_29_8F686A24.wem</Path>
 						</File>
 						<File Id="76873758" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_01.wav</ShortName>
@@ -8450,6 +8634,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09_B748C459.wem</Path>
 						</File>
+						<File Id="126510643" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_21.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_21_7FA8D501.wem</Path>
+						</File>
 						<File Id="171955993" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_20.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_20_782CB5AE.wem</Path>
@@ -8461,6 +8649,10 @@
 						<File Id="230238527" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15_1FB71EE0.wem</Path>
+						</File>
+						<File Id="250209198" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_10.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="291558347" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_05.wav</ShortName>
@@ -8478,6 +8670,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_09.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="371826129" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_05.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_05_144BFB72.wem</Path>
+						</File>
 						<File Id="412844251" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_05.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_05_7FA8D501.wem</Path>
@@ -8486,6 +8682,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04_B579F37C.wem</Path>
 						</File>
+						<File Id="456742895" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28_123BC210.wem</Path>
+						</File>
 						<File Id="498689569" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_12.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_12_7FA8D501.wem</Path>
@@ -8493,6 +8693,10 @@
 						<File Id="499193416" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_03.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_03_AFA711BE.wem</Path>
+						</File>
+						<File Id="509694257" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_12.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_12_CCC03F6D.wem</Path>
 						</File>
 						<File Id="538780818" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_08.wav</ShortName>
@@ -8505,6 +8709,10 @@
 						<File Id="615361968" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_11.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="651437859" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_08.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_08_7FA8D501.wem</Path>
 						</File>
 						<File Id="669751165" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_06.wav</ShortName>
@@ -8530,9 +8738,17 @@
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_17.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_17_7FA8D501.wem</Path>
 						</File>
+						<File Id="749999953" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_27.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_27_63D0AD2A.wem</Path>
+						</File>
 						<File Id="760474309" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_02.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="797089916" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_09.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_09_4827DF16.wem</Path>
 						</File>
 						<File Id="813782648" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_07.wav</ShortName>
@@ -8550,6 +8766,10 @@
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_06.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_06_8436C617.wem</Path>
 						</File>
+						<File Id="907278272" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28_933078DA.wem</Path>
+						</File>
 						<File Id="908305400" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_18.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_18_7FA8D501.wem</Path>
@@ -8558,9 +8778,17 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_04.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_04_7FA8D501.wem</Path>
 						</File>
+						<File Id="936216282" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_32.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_32_A722A5B8.wem</Path>
+						</File>
 						<File Id="941175387" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_08.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="950913179" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_34.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_34_3485CDF6.wem</Path>
 						</File>
 						<File Id="957968125" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_04.wav</ShortName>
@@ -8578,6 +8806,14 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_06.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_06_7FA8D501.wem</Path>
 						</File>
+						<File Id="1025115042" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_22.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_22_7FA8D501.wem</Path>
+						</File>
+						<File Id="1031596789" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_33.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_33_71FB02A2.wem</Path>
+						</File>
 						<File Id="1045006361" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_12.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_12_C7383F82.wem</Path>
@@ -8589,6 +8825,25 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{D24F948E-7B7E-434B-9C57-0CE32201F3EC}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DC6FAC12-E4D4-4952-B1E1-1565BD690A05}">
+							<Media>
+								<File Id="37345262"/>
+								<File Id="66880665"/>
+								<File Id="126510643"/>
+								<File Id="250209198"/>
+								<File Id="371826129"/>
+								<File Id="456742895"/>
+								<File Id="509694257"/>
+								<File Id="651437859"/>
+								<File Id="749999953"/>
+								<File Id="797089916"/>
+								<File Id="907278272"/>
+								<File Id="936216282"/>
+								<File Id="950913179"/>
+								<File Id="1025115042"/>
+								<File Id="1031596789"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D24F948E-7B7E-434B-9C57-0CE32201F3EC}">
 							<Media>
 								<File Id="12583416"/>
@@ -8645,6 +8900,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_01.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_01_7FA8D501.wem</Path>
 						</File>
+						<File Id="72565385" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_09.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_09_7FA8D501.wem</Path>
+						</File>
 						<File Id="73918708" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_02.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_02_0FBD5994.wem</Path>
@@ -8656,6 +8915,10 @@
 						<File Id="84492254" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_18.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="88665584" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_37.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_37_7FA8D501.wem</Path>
 						</File>
 						<File Id="92241790" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_12.wav</ShortName>
@@ -8672,6 +8935,10 @@
 						<File Id="148905756" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_31.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_31_7FA8D501.wem</Path>
+						</File>
+						<File Id="167955827" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_22.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_22_7FA8D501.wem</Path>
 						</File>
 						<File Id="179153422" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_04.wav</ShortName>
@@ -8697,9 +8964,17 @@
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_22.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_22_7FA8D501.wem</Path>
 						</File>
+						<File Id="258400331" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_10.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_10_7FA8D501.wem</Path>
+						</File>
 						<File Id="275483160" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_21.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_21_7FA8D501.wem</Path>
+						</File>
+						<File Id="286948198" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_11.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_11_7FA8D501.wem</Path>
 						</File>
 						<File Id="291987761" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_13.wav</ShortName>
@@ -8729,9 +9004,21 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_09.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_09_7FA8D501.wem</Path>
 						</File>
+						<File Id="364759484" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_33.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_33_77DACED8.wem</Path>
+						</File>
+						<File Id="367552843" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_28.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_28_7FA8D501.wem</Path>
+						</File>
 						<File Id="367740171" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_03.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_03_86AF377D.wem</Path>
+						</File>
+						<File Id="410782174" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_39.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_39_7FA8D501.wem</Path>
 						</File>
 						<File Id="412844251" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_05.wav</ShortName>
@@ -8749,9 +9036,25 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04_B579F37C.wem</Path>
 						</File>
+						<File Id="438580549" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_08.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_08_7FA8D501.wem</Path>
+						</File>
 						<File Id="498689569" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_12.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="505007100" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_02.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="526857422" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_12.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="568350818" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_17.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_17_7FA8D501.wem</Path>
 						</File>
 						<File Id="614004747" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_23.wav</ShortName>
@@ -8761,6 +9064,14 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_11.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_11_7FA8D501.wem</Path>
 						</File>
+						<File Id="621265784" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_38.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_38_7FA8D501.wem</Path>
+						</File>
+						<File Id="632524696" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_29.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_29_7FA8D501.wem</Path>
+						</File>
 						<File Id="634993788" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_27.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_27_7FA8D501.wem</Path>
@@ -8768,6 +9079,10 @@
 						<File Id="663117666" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_06.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_06_E9555DB1.wem</Path>
+						</File>
+						<File Id="669460074" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_26.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_26_7FA8D501.wem</Path>
 						</File>
 						<File Id="669751165" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_06.wav</ShortName>
@@ -8793,6 +9108,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_07.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_07_7FA8D501.wem</Path>
 						</File>
+						<File Id="855167612" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_01.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_01_7FA8D501.wem</Path>
+						</File>
 						<File Id="869906427" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_11.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_11_994648F2.wem</Path>
@@ -8800,6 +9119,10 @@
 						<File Id="904111992" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_01.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="926461307" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_05.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="927986044" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_04.wav</ShortName>
@@ -8812,6 +9135,10 @@
 						<File Id="941175387" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_08.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="978831403" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_30.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_30_7FA8D501.wem</Path>
 						</File>
 						<File Id="985151636" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_02.wav</ShortName>
@@ -8832,6 +9159,28 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{D24F948E-7B7E-434B-9C57-0CE32201F3EC}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DC6FAC12-E4D4-4952-B1E1-1565BD690A05}">
+							<Media>
+								<File Id="72565385"/>
+								<File Id="88665584"/>
+								<File Id="167955827"/>
+								<File Id="258400331"/>
+								<File Id="286948198"/>
+								<File Id="364759484"/>
+								<File Id="367552843"/>
+								<File Id="410782174"/>
+								<File Id="438580549"/>
+								<File Id="505007100"/>
+								<File Id="526857422"/>
+								<File Id="568350818"/>
+								<File Id="621265784"/>
+								<File Id="632524696"/>
+								<File Id="669460074"/>
+								<File Id="855167612"/>
+								<File Id="926461307"/>
+								<File Id="978831403"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D24F948E-7B7E-434B-9C57-0CE32201F3EC}">
 							<Media>
 								<File Id="84492254"/>
@@ -9009,33 +9358,97 @@
 				</Event>
 				<Event Id="1467700887" Name="AudioEvent_K35_Husk_Human_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_VO_STATUS\K35_VO_STATUS\AudioEvent_K35_Husk_Human_Status_Start" GUID="{9AD9F45A-0A8F-4CD1-B2E1-BC0AD5263FAB}" MaxAttenuation="1300." DurationType="Infinite">
 					<ExcludedMemoryFiles>
+						<File Id="19777725" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_44.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_44_7FA8D501.wem</Path>
+						</File>
 						<File Id="67196460" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_28.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_28_7FA8D501.wem</Path>
+						</File>
+						<File Id="91192676" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_46.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_46_7FA8D501.wem</Path>
+						</File>
+						<File Id="118103308" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_20.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_20_7FA8D501.wem</Path>
 						</File>
 						<File Id="171574882" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_16.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_16_657DE994.wem</Path>
 						</File>
+						<File Id="171574883" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_16.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="183943390" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_56.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_56_7FA8D501.wem</Path>
+						</File>
+						<File Id="201263499" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_59.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_59_7FA8D501.wem</Path>
+						</File>
+						<File Id="203628465" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_61.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_61_7FA8D501.wem</Path>
+						</File>
+						<File Id="210999240" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_57.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_57_7FA8D501.wem</Path>
+						</File>
+						<File Id="228499175" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_60.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_60_7FA8D501.wem</Path>
+						</File>
+						<File Id="241737960" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_24.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_24_7FA8D501.wem</Path>
+						</File>
+						<File Id="269001156" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_19.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_19_7FA8D501.wem</Path>
+						</File>
 						<File Id="271273262" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_23.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_23_7FA8D501.wem</Path>
+						</File>
+						<File Id="271273263" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_23.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_23_7FA8D501.wem</Path>
 						</File>
 						<File Id="281468521" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_05.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="281908593" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_70.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_70_7FA8D501.wem</Path>
+						</File>
 						<File Id="298238475" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_39.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_39_7FA8D501.wem</Path>
+						</File>
+						<File Id="298238476" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_39.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_39_7FA8D501.wem</Path>
 						</File>
 						<File Id="312257353" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_37.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_37_7FA8D501.wem</Path>
 						</File>
+						<File Id="312257354" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_37.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_37_7FA8D501.wem</Path>
+						</File>
 						<File Id="331179735" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_27.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_27_7FA8D501.wem</Path>
+						</File>
+						<File Id="410466466" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_22.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_22_7FA8D501.wem</Path>
 						</File>
 						<File Id="421701003" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_15.wav</ShortName>
@@ -9045,9 +9458,17 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_32.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_32_7FA8D501.wem</Path>
 						</File>
+						<File Id="428029727" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_32.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_32_7FA8D501.wem</Path>
+						</File>
 						<File Id="496610769" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_13.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="496840149" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_71.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_71_7FA8D501.wem</Path>
 						</File>
 						<File Id="514855516" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_30.wav</ShortName>
@@ -9057,9 +9478,21 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_03.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_03_5D8316FE.wem</Path>
 						</File>
+						<File Id="550703849" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_45.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_45_7FA8D501.wem</Path>
+						</File>
+						<File Id="557311229" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_50.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_50_7FA8D501.wem</Path>
+						</File>
 						<File Id="557678972" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_14.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_14_7FA8D501.wem</Path>
+						</File>
+						<File Id="563808751" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_62.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_62_7FA8D501.wem</Path>
 						</File>
 						<File Id="618844516" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_33.wav</ShortName>
@@ -9089,33 +9522,108 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_41.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_41_7FA8D501.wem</Path>
 						</File>
+						<File Id="809104783" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_68.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_68_7FA8D501.wem</Path>
+						</File>
+						<File Id="875408195" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_72.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_72_7FA8D501.wem</Path>
+						</File>
 						<File Id="894727421" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_25.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_25_7FA8D501.wem</Path>
+						</File>
+						<File Id="894727422" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_25.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_25_D613BE30.wem</Path>
 						</File>
 						<File Id="911352809" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_10.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_10_7FA8D501.wem</Path>
 						</File>
+						<File Id="992324671" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_69.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_69_7FA8D501.wem</Path>
+						</File>
 						<File Id="996365671" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_12.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="1019109004" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_47.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_47_7FA8D501.wem</Path>
+						</File>
+						<File Id="1023959853" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_17.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_17_7FA8D501.wem</Path>
 						</File>
 						<File Id="1039814444" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_21.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_21_7FA8D501.wem</Path>
 						</File>
+						<File Id="1039814445" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_21.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_21_7FA8D501.wem</Path>
+						</File>
 						<File Id="1054126099" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_18.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="1054126100" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_18.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_18_7FA8D501.wem</Path>
 						</File>
 						<File Id="1064491534" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_31.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_31_7FA8D501.wem</Path>
 						</File>
+						<File Id="1064491535" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_31.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_31_7FA8D501.wem</Path>
+						</File>
+						<File Id="1067364066" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_35.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_35_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{D24F948E-7B7E-434B-9C57-0CE32201F3EC}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DC6FAC12-E4D4-4952-B1E1-1565BD690A05}">
+							<Media>
+								<File Id="19777725"/>
+								<File Id="91192676"/>
+								<File Id="118103308"/>
+								<File Id="171574883"/>
+								<File Id="183943390"/>
+								<File Id="201263499"/>
+								<File Id="203628465"/>
+								<File Id="210999240"/>
+								<File Id="228499175"/>
+								<File Id="241737960"/>
+								<File Id="269001156"/>
+								<File Id="271273263"/>
+								<File Id="281908593"/>
+								<File Id="298238476"/>
+								<File Id="312257354"/>
+								<File Id="410466466"/>
+								<File Id="428029727"/>
+								<File Id="496840149"/>
+								<File Id="550703849"/>
+								<File Id="557311229"/>
+								<File Id="563808751"/>
+								<File Id="809104783"/>
+								<File Id="875408195"/>
+								<File Id="894727422"/>
+								<File Id="992324671"/>
+								<File Id="1019109004"/>
+								<File Id="1023959853"/>
+								<File Id="1039814445"/>
+								<File Id="1054126100"/>
+								<File Id="1064491535"/>
+								<File Id="1067364066"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D24F948E-7B7E-434B-9C57-0CE32201F3EC}">
 							<Media>
 								<File Id="67196460"/>
@@ -9728,6 +10236,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_creationprocess_timer_complete_01_78476D62.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3105991483" Name="AudioEvent_K35_PWR_Husk_BeingStalked_Completed" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Husk\AudioEvent_K35_PWR_Husk_BeingStalked_Completed" GUID="{84F2A188-626A-4E4C-BA07-08A86D463C5F}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1.604906" DurationMax="1.604906">
 					<ExcludedMemoryFiles>
@@ -9764,6 +10275,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_spawn_bone_creaking_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3205008724" Name="AudioEvent_K35_PWR_Husk_CreationProcess_Timer" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Husk\AudioEvent_K35_PWR_Husk_CreationProcess_Timer" GUID="{CAA33F6F-80FA-4C04-8DC1-C16B76EBC506}" DurationType="OneShot" DurationMin="5.697837" DurationMax="5.917722">
 					<ExcludedMemoryFiles>
@@ -9772,6 +10286,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_creationprocess_timer__BAA54396.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3421812222" Name="AudioEvent_K35_PWR_Husk_Despawn" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Husk\AudioEvent_K35_PWR_Husk_Despawn" GUID="{6E7D9080-89CD-4E98-A946-C1DC67DEAC6C}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.945326" DurationMax="3.245528">
 					<ExcludedMemoryFiles>
@@ -9840,6 +10357,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_active_01_D8936663.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3433602789" Name="AudioEvent_K35_PWR_Husk_StopBeingStalked" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Husk\AudioEvent_K35_PWR_Husk_StopBeingStalked" GUID="{8E35182A-7179-4155-8CBE-EF5F1E4520C0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2205453601" Name="AudioEvent_K35_PWR_Husk_Survivor_FocusEffect_Start" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Husk\AudioEvent_K35_PWR_Husk_Survivor_FocusEffect_Start" GUID="{26AD8332-31CA-417A-A0D0-B1F1D803C7CC}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -10044,6 +10564,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_ready_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3261329420" Name="AudioEvent_K35_PWR_Teleport_Decoy_Dissolve" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Teleport\AudioEvent_K35_PWR_Teleport_Decoy_Dissolve" GUID="{0FEA3EF3-9F3D-4246-8111-447A605E5E06}" MaxAttenuation="900." DurationType="OneShot" DurationMin="4.104759" DurationMax="5.084912">
 					<ExcludedMemoryFiles>
@@ -10080,6 +10603,9 @@
 							<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_teleport_start_klr_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3436046292" Name="AudioEvent_K35_PWR_Teleport_Start_SVR" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_PWR\K35_PWR\K35_PWR_Teleport\AudioEvent_K35_PWR_Teleport_Start_SVR" GUID="{E99DC804-7677-4A09-A822-4361B11B24B9}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.059833" DurationMax="2.059833">
 					<ExcludedMemoryFiles>
@@ -10169,6 +10695,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_02.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_02_7FA8D501.wem</Path>
 						</File>
+						<File Id="19777725" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_44.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_44_7FA8D501.wem</Path>
+						</File>
 						<File Id="20053329" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_04.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_04_27889BCF.wem</Path>
@@ -10189,9 +10719,17 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_28.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_28_7FA8D501.wem</Path>
 						</File>
+						<File Id="91192676" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_46.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_46_7FA8D501.wem</Path>
+						</File>
 						<File Id="110698830" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_10.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="118103308" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_20.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_20_7FA8D501.wem</Path>
 						</File>
 						<File Id="120138082" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_07.wav</ShortName>
@@ -10209,21 +10747,65 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_16.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_16_657DE994.wem</Path>
 						</File>
+						<File Id="171574883" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_16.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="183943390" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_56.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_56_7FA8D501.wem</Path>
+						</File>
+						<File Id="201263499" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_59.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_59_7FA8D501.wem</Path>
+						</File>
+						<File Id="203628465" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_61.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_61_7FA8D501.wem</Path>
+						</File>
+						<File Id="210999240" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_57.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_57_7FA8D501.wem</Path>
+						</File>
+						<File Id="228499175" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_60.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_60_7FA8D501.wem</Path>
+						</File>
+						<File Id="241737960" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_24.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_24_7FA8D501.wem</Path>
+						</File>
 						<File Id="249522833" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15_ED6BBF1A.wem</Path>
+						</File>
+						<File Id="269001156" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_19.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_19_7FA8D501.wem</Path>
 						</File>
 						<File Id="271273262" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_23.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_23_7FA8D501.wem</Path>
 						</File>
+						<File Id="271273263" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_23.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_23_7FA8D501.wem</Path>
+						</File>
 						<File Id="281468521" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_05.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_05_7FA8D501.wem</Path>
 						</File>
+						<File Id="281908593" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_70.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_70_7FA8D501.wem</Path>
+						</File>
 						<File Id="298238475" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_39.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_39_7FA8D501.wem</Path>
+						</File>
+						<File Id="298238476" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_39.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_39_7FA8D501.wem</Path>
 						</File>
 						<File Id="311085934" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_05.wav</ShortName>
@@ -10232,6 +10814,10 @@
 						<File Id="312257353" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_37.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_37_7FA8D501.wem</Path>
+						</File>
+						<File Id="312257354" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_37.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_37_7FA8D501.wem</Path>
 						</File>
 						<File Id="326540765" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_08.wav</ShortName>
@@ -10253,6 +10839,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09_041D942C.wem</Path>
 						</File>
+						<File Id="410466466" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_22.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_22_7FA8D501.wem</Path>
+						</File>
 						<File Id="412844251" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_05.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_05_7FA8D501.wem</Path>
@@ -10269,9 +10859,17 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_32.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_32_7FA8D501.wem</Path>
 						</File>
+						<File Id="428029727" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_32.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_32_7FA8D501.wem</Path>
+						</File>
 						<File Id="496610769" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_13.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="496840149" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_71.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_71_7FA8D501.wem</Path>
 						</File>
 						<File Id="497292852" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04.wav</ShortName>
@@ -10293,6 +10891,14 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_03.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_03_5D8316FE.wem</Path>
 						</File>
+						<File Id="550703849" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_45.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_45_7FA8D501.wem</Path>
+						</File>
+						<File Id="557311229" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_50.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_50_7FA8D501.wem</Path>
+						</File>
 						<File Id="557678972" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_14.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_14_7FA8D501.wem</Path>
@@ -10304,6 +10910,10 @@
 						<File Id="560226049" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_01.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_01_CD7DC061.wem</Path>
+						</File>
+						<File Id="563808751" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_62.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_62_7FA8D501.wem</Path>
 						</File>
 						<File Id="615361968" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_11.wav</ShortName>
@@ -10349,6 +10959,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_16.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_16_7DE40AE7.wem</Path>
 						</File>
+						<File Id="809104783" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_68.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_68_7FA8D501.wem</Path>
+						</File>
 						<File Id="845841889" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_13.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_13_B1CF625A.wem</Path>
@@ -10361,9 +10975,17 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_06.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_06_9674FE61.wem</Path>
 						</File>
+						<File Id="875408195" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_72.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_72_7FA8D501.wem</Path>
+						</File>
 						<File Id="894727421" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_25.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_25_7FA8D501.wem</Path>
+						</File>
+						<File Id="894727422" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_25.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_25_D613BE30.wem</Path>
 						</File>
 						<File Id="911352809" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_10.wav</ShortName>
@@ -10385,6 +11007,10 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_03.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_03_33C63519.wem</Path>
 						</File>
+						<File Id="992324671" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_69.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_69_7FA8D501.wem</Path>
+						</File>
 						<File Id="996365671" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_12.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_12_7FA8D501.wem</Path>
@@ -10392,6 +11018,14 @@
 						<File Id="1005789820" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_03.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1019109004" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_47.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_47_7FA8D501.wem</Path>
+						</File>
+						<File Id="1023959853" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_17.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_17_7FA8D501.wem</Path>
 						</File>
 						<File Id="1024286203" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_06.wav</ShortName>
@@ -10401,17 +11035,68 @@
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_21.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_21_7FA8D501.wem</Path>
 						</File>
+						<File Id="1039814445" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_21.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_21_7FA8D501.wem</Path>
+						</File>
 						<File Id="1054126099" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_18.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_18_7FA8D501.wem</Path>
+						</File>
+						<File Id="1054126100" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_18.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_18_7FA8D501.wem</Path>
 						</File>
 						<File Id="1064491534" Language="SFX">
 							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_31.wav</ShortName>
 							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_31_7FA8D501.wem</Path>
 						</File>
+						<File Id="1064491535" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_31.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_31_7FA8D501.wem</Path>
+						</File>
+						<File Id="1067364066" Language="SFX">
+							<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_35.wav</ShortName>
+							<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_35_7FA8D501.wem</Path>
+						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{D24F948E-7B7E-434B-9C57-0CE32201F3EC}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DC6FAC12-E4D4-4952-B1E1-1565BD690A05}">
+							<Media>
+								<File Id="19777725"/>
+								<File Id="91192676"/>
+								<File Id="118103308"/>
+								<File Id="171574883"/>
+								<File Id="183943390"/>
+								<File Id="201263499"/>
+								<File Id="203628465"/>
+								<File Id="210999240"/>
+								<File Id="228499175"/>
+								<File Id="241737960"/>
+								<File Id="269001156"/>
+								<File Id="271273263"/>
+								<File Id="281908593"/>
+								<File Id="298238476"/>
+								<File Id="312257354"/>
+								<File Id="410466466"/>
+								<File Id="428029727"/>
+								<File Id="496840149"/>
+								<File Id="550703849"/>
+								<File Id="557311229"/>
+								<File Id="563808751"/>
+								<File Id="809104783"/>
+								<File Id="875408195"/>
+								<File Id="894727422"/>
+								<File Id="992324671"/>
+								<File Id="1019109004"/>
+								<File Id="1023959853"/>
+								<File Id="1039814445"/>
+								<File Id="1054126100"/>
+								<File Id="1064491535"/>
+								<File Id="1067364066"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D24F948E-7B7E-434B-9C57-0CE32201F3EC}">
 							<Media>
 								<File Id="67196460"/>
@@ -10588,6 +11273,7 @@
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="338496385" Name="HAPTIC_KLR_POWER_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_POWER\HAPTIC_KLR_POWER_AUX" GUID="{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1027540119" Name="AudioEvent_K35_WPN_Default_Axe_Impact" ObjectPath="\Events\CHARACTER\KILLER\K35_ApplePie\K35_WEAPON\K35_WEAPON\AudioEvent_K35_WPN_Default_Axe_Impact" GUID="{4AC9EFD9-964B-4603-966B-047B89CB4C0F}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0.650005" DurationMax="1.">
@@ -10887,6 +11573,10 @@
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_10.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_10_7FA8D501.wem</Path>
 				</File>
+				<File Id="19777725" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_44.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_44_7FA8D501.wem</Path>
+				</File>
 				<File Id="20053329" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_04_27889BCF.wem</Path>
@@ -10922,6 +11612,10 @@
 				<File Id="32508616" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_neck_break_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_neck_break_03_23F7CAD5.wem</Path>
+				</File>
+				<File Id="37345262" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_19.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_19_7FA8D501.wem</Path>
 				</File>
 				<File Id="42895942" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_monster_breath_03.wav</ShortName>
@@ -10971,6 +11665,10 @@
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_expand_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_expand_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="63551375" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_23.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_23_D5422288.wem</Path>
+				</File>
 				<File Id="64698757" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_despawn_bone_creaking_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_despawn_bone_creaking_01_EE8CD53F.wem</Path>
@@ -10978,6 +11676,10 @@
 				<File Id="65006233" Language="SFX">
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_02_E0554926.wem</Path>
+				</File>
+				<File Id="66880665" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_29.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_29_8F686A24.wem</Path>
 				</File>
 				<File Id="67196460" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_28.wav</ShortName>
@@ -10990,6 +11692,10 @@
 				<File Id="70405984" Language="SFX">
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_shuffle_c_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_FOLEY\sfx_k35_body_default_shuffle_c_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="72565385" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_09.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="73205001" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_attack_01.wav</ShortName>
@@ -11039,6 +11745,10 @@
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_beingstalked_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_beingstalked_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="88665584" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_37.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_37_7FA8D501.wem</Path>
+				</File>
 				<File Id="89515299" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_clean_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_clean_04_7FA8D501.wem</Path>
@@ -11046,6 +11756,10 @@
 				<File Id="90867090" Language="SFX">
 					<ShortName>Impact\IMPACT_Body_Hit_Bounce_01.wav</ShortName>
 					<Path>SFX\Impact\IMPACT_Body_Hit_Bounce_01_9DDEC222.wem</Path>
+				</File>
+				<File Id="91192676" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_46.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_46_7FA8D501.wem</Path>
 				</File>
 				<File Id="92241790" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_12.wav</ShortName>
@@ -11095,6 +11809,10 @@
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_teleport_start_svr_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_teleport_start_svr_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="118103308" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_20.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_20_7FA8D501.wem</Path>
+				</File>
 				<File Id="118921899" Language="SFX">
 					<ShortName>Impact\IMP_SUR_Glass_Bounce_04.wav</ShortName>
 					<Path>SFX\Impact\IMP_SUR_Glass_Bounce_04_B986E75E.wem</Path>
@@ -11114,6 +11832,10 @@
 				<File Id="125153073" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09_B748C459.wem</Path>
+				</File>
+				<File Id="126510643" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_21.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_21_7FA8D501.wem</Path>
 				</File>
 				<File Id="127646639" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_default_impact_survivor_cut_08.wav</ShortName>
@@ -11199,6 +11921,10 @@
 					<ShortName>Impact\IMP_SUR_Rock_Bounce_08.wav</ShortName>
 					<Path>SFX\Impact\IMP_SUR_Rock_Bounce_08_C279ADBD.wem</Path>
 				</File>
+				<File Id="167955827" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_22.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_22_7FA8D501.wem</Path>
+				</File>
 				<File Id="168586315" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_idle_07.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_idle_07_7FA8D501.wem</Path>
@@ -11210,6 +11936,10 @@
 				<File Id="171574882" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_16.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_16_657DE994.wem</Path>
+				</File>
+				<File Id="171574883" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_16.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_16_7FA8D501.wem</Path>
 				</File>
 				<File Id="171955993" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_effort_20.wav</ShortName>
@@ -11223,6 +11953,10 @@
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_09.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_09_7FA8D501.wem</Path>
 				</File>
+				<File Id="177526127" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_16.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_16_EEF93EA6.wem</Path>
+				</File>
 				<File Id="179153422" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_04_BE59D55A.wem</Path>
@@ -11234,6 +11968,10 @@
 				<File Id="181258817" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_08.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_08_E8A29D78.wem</Path>
+				</File>
+				<File Id="183943390" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_56.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_56_7FA8D501.wem</Path>
 				</File>
 				<File Id="188606884" Language="SFX">
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_05.wav</ShortName>
@@ -11263,6 +12001,14 @@
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_03_282468EF.wem</Path>
 				</File>
+				<File Id="201263499" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_59.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_59_7FA8D501.wem</Path>
+				</File>
+				<File Id="203628465" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_61.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_61_7FA8D501.wem</Path>
+				</File>
 				<File Id="205831128" Language="SFX">
 					<ShortName>Character\KLR_35\K35_MORI\sfx_k35_mori_survivor_dissolve_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_MORI\sfx_k35_mori_survivor_dissolve_01_7FA8D501.wem</Path>
@@ -11270,6 +12016,10 @@
 				<File Id="210245886" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_default_impact_survivor_cut_06.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_default_impact_survivor_cut_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="210999240" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_57.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_57_7FA8D501.wem</Path>
 				</File>
 				<File Id="214013653" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_08.wav</ShortName>
@@ -11299,6 +12049,10 @@
 					<ShortName>Impact\IMP_SUR_Rock_Bounce_03.wav</ShortName>
 					<Path>SFX\Impact\IMP_SUR_Rock_Bounce_03_74254CE2.wem</Path>
 				</File>
+				<File Id="228499175" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_60.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_60_7FA8D501.wem</Path>
+				</File>
 				<File Id="230238527" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15_1FB71EE0.wem</Path>
@@ -11323,6 +12077,10 @@
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_05_5EB33B5D.wem</Path>
 				</File>
+				<File Id="241737960" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_24.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_24_7FA8D501.wem</Path>
+				</File>
 				<File Id="242052785" Language="SFX">
 					<ShortName>Character\KLR_35\K35_MENU\sfx_k35_menu_intro_torso_creak_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_MENU\sfx_k35_menu_intro_torso_creak_01_AD4B8B7C.wem</Path>
@@ -11339,6 +12097,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15_ED6BBF1A.wem</Path>
 				</File>
+				<File Id="250209198" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_10.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_10_7FA8D501.wem</Path>
+				</File>
 				<File Id="251404122" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_22.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_22_7FA8D501.wem</Path>
@@ -11346,6 +12108,10 @@
 				<File Id="256010703" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_attack_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_attack_02_DAAF3A04.wem</Path>
+				</File>
+				<File Id="258400331" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_10.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="259353175" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_decoy_dissolve_02.wav</ShortName>
@@ -11363,6 +12129,10 @@
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_pwr_husk_creation_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_pwr_husk_creation_01_790C23B0.wem</Path>
 				</File>
+				<File Id="269001156" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_19.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_19_7FA8D501.wem</Path>
+				</File>
 				<File Id="270494960" Language="SFX">
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_04_7FA8D501.wem</Path>
@@ -11370,6 +12140,10 @@
 				<File Id="271273262" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_23.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_23_7FA8D501.wem</Path>
+				</File>
+				<File Id="271273263" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_23.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_23_7FA8D501.wem</Path>
 				</File>
 				<File Id="273493332" Language="SFX">
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_03.wav</ShortName>
@@ -11395,9 +12169,17 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="281908593" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_70.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_70_7FA8D501.wem</Path>
+				</File>
 				<File Id="282788160" Language="SFX">
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_04_23055253.wem</Path>
+				</File>
+				<File Id="286948198" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_11.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="290854337" Language="SFX">
 					<ShortName>Impact\IMP_SUR_ChainLinkFence_Bounce_02.wav</ShortName>
@@ -11419,6 +12201,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_39.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_39_7FA8D501.wem</Path>
 				</File>
+				<File Id="298238476" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_39.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_39_7FA8D501.wem</Path>
+				</File>
 				<File Id="301493448" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_lp_l2_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_lp_l2_04_7FA8D501.wem</Path>
@@ -11438,6 +12224,10 @@
 				<File Id="312257353" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_37.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_37_7FA8D501.wem</Path>
+				</File>
+				<File Id="312257354" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_37.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_37_7FA8D501.wem</Path>
 				</File>
 				<File Id="313717837" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_survivor_interaction_completed_01.wav</ShortName>
@@ -11571,9 +12361,17 @@
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_shuffle_c_08.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_FOLEY\sfx_k35_body_default_shuffle_c_08_7FA8D501.wem</Path>
 				</File>
+				<File Id="364759484" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_33.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_33_77DACED8.wem</Path>
+				</File>
 				<File Id="367045450" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_decoy_dissolve_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_decoy_dissolve_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="367552843" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_28.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_28_7FA8D501.wem</Path>
 				</File>
 				<File Id="367740171" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_03.wav</ShortName>
@@ -11582,6 +12380,10 @@
 				<File Id="369412707" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_monster_clics_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_monster_clics_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="371826129" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_05.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_05_144BFB72.wem</Path>
 				</File>
 				<File Id="372082982" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_pwr_projectile_charge_cooldown_04.wav</ShortName>
@@ -11635,6 +12437,14 @@
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_big_05_2A6602C5.wem</Path>
 				</File>
+				<File Id="410466466" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_22.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_22_7FA8D501.wem</Path>
+				</File>
+				<File Id="410782174" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_39.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_39_7FA8D501.wem</Path>
+				</File>
 				<File Id="412253464" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_mori_03_male_a.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_gameplay_mori_03_male_a_7FA8D501.wem</Path>
@@ -11683,6 +12493,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_32.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_32_7FA8D501.wem</Path>
 				</File>
+				<File Id="428029727" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_32.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_32_7FA8D501.wem</Path>
+				</File>
 				<File Id="428770224" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04_B579F37C.wem</Path>
@@ -11702,6 +12516,10 @@
 				<File Id="438544294" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_clean_06.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_clean_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="438580549" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_08.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="440391601" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_cancel_fpv_03.wav</ShortName>
@@ -11739,6 +12557,10 @@
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_arm_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_arm_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="456742895" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28_123BC210.wem</Path>
+				</File>
 				<File Id="457522844" Language="SFX">
 					<ShortName>Impact\IMP_SUR_Glass_Bounce_01.wav</ShortName>
 					<Path>SFX\Impact\IMP_SUR_Glass_Bounce_01_FE08A1DB.wem</Path>
@@ -11775,6 +12597,10 @@
 					<ShortName>Character\KLR_35\K35_MORI\sfx_k35_mori_tentacule_goingout_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_MORI\sfx_k35_mori_tentacule_goingout_01_B271456B.wem</Path>
 				</File>
+				<File Id="486606267" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_05.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_05_A9753B75.wem</Path>
+				</File>
 				<File Id="488951181" Language="SFX">
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_03_B09774BA.wem</Path>
@@ -11786,6 +12612,10 @@
 				<File Id="496610769" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_13.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="496840149" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_71.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_71_7FA8D501.wem</Path>
 				</File>
 				<File Id="497292852" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_04.wav</ShortName>
@@ -11803,6 +12633,14 @@
 					<ShortName>Impact\IMPACT_Body_Hit_Bounce_04.wav</ShortName>
 					<Path>SFX\Impact\IMPACT_Body_Hit_Bounce_04_A0BE94D0.wem</Path>
 				</File>
+				<File Id="505007100" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_02.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="506072078" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_12.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_12_5ED0ED89.wem</Path>
+				</File>
 				<File Id="506647353" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_arm_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_arm_02_7FA8D501.wem</Path>
@@ -11814,6 +12652,10 @@
 				<File Id="508235510" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_04_F7BCB6AE.wem</Path>
+				</File>
+				<File Id="509694257" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_12.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_12_CCC03F6D.wem</Path>
 				</File>
 				<File Id="511058325" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_03.wav</ShortName>
@@ -11850,6 +12692,10 @@
 				<File Id="525188855" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_neck_tear_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_neck_tear_01_6DA6255B.wem</Path>
+				</File>
+				<File Id="526857422" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_12.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_12_7FA8D501.wem</Path>
 				</File>
 				<File Id="530207428" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_despawn_bone_creaking_03.wav</ShortName>
@@ -11899,9 +12745,17 @@
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_04_5E23776A.wem</Path>
 				</File>
+				<File Id="550703849" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_45.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_45_7FA8D501.wem</Path>
+				</File>
 				<File Id="552664842" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_03_FE577584.wem</Path>
+				</File>
+				<File Id="557311229" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_50.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_50_7FA8D501.wem</Path>
 				</File>
 				<File Id="557552506" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_cancel_tpv_01.wav</ShortName>
@@ -11927,9 +12781,17 @@
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_killer_effect_survivor_removing_lp_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_killer_effect_survivor_removing_lp_01_256CDB0F.wem</Path>
 				</File>
+				<File Id="563808751" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_62.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_62_7FA8D501.wem</Path>
+				</File>
 				<File Id="566453945" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_11.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_11_8707B631.wem</Path>
+				</File>
+				<File Id="568350818" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_17.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_17_7FA8D501.wem</Path>
 				</File>
 				<File Id="573196489" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_spawn_bone_creaking_01.wav</ShortName>
@@ -12067,9 +12929,21 @@
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_04_F696FC86.wem</Path>
 				</File>
+				<File Id="621265784" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_38.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_38_7FA8D501.wem</Path>
+				</File>
+				<File Id="621588267" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_17.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_17_E280C8B5.wem</Path>
+				</File>
 				<File Id="627289661" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_idle_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_idle_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="632524696" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_29.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_29_7FA8D501.wem</Path>
 				</File>
 				<File Id="634118903" Language="SFX">
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_03.wav</ShortName>
@@ -12094,6 +12968,10 @@
 				<File Id="649621932" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_cooldown_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="651437859" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_08.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="651628225" Language="SFX">
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_10.wav</ShortName>
@@ -12130,6 +13008,10 @@
 				<File Id="667572374" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_beingstalked_lp_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_beingstalked_lp_02_256CDB0F.wem</Path>
+				</File>
+				<File Id="669460074" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_26.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_26_7FA8D501.wem</Path>
 				</File>
 				<File Id="669751165" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_06.wav</ShortName>
@@ -12315,6 +13197,10 @@
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_12.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_FOLEY\sfx_k35_body_default_bodymove_b_12_7FA8D501.wem</Path>
 				</File>
+				<File Id="749999953" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_27.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_27_63D0AD2A.wem</Path>
+				</File>
 				<File Id="753161562" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_extra_04_073CC94A.wem</Path>
@@ -12358,6 +13244,10 @@
 				<File Id="765803131" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_completed_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_completed_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="770876905" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_21.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_21_1A3FE570.wem</Path>
 				</File>
 				<File Id="772386366" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_06.wav</ShortName>
@@ -12427,6 +13317,10 @@
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_despawn_bone_creaking_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_despawn_bone_creaking_01_CF457730.wem</Path>
 				</File>
+				<File Id="797089916" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_09.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_09_4827DF16.wem</Path>
+				</File>
 				<File Id="806637928" Language="SFX">
 					<ShortName>Character\FOOTSTEP\Barefoot\sfx_footsteps_barefoot_concrete_walk_02.wav</ShortName>
 					<Path>SFX\Character\FOOTSTEP\Barefoot\sfx_footsteps_barefoot_concrete_walk_02_2861A3C9.wem</Path>
@@ -12434,6 +13328,14 @@
 				<File Id="808905853" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_shrink_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_shrink_04_7DD4354F.wem</Path>
+				</File>
+				<File Id="809030096" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_18.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_18_8010E4A0.wem</Path>
+				</File>
+				<File Id="809104783" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_68.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_68_7FA8D501.wem</Path>
 				</File>
 				<File Id="810446453" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_neck_tear_03.wav</ShortName>
@@ -12458,6 +13360,10 @@
 				<File Id="820347220" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_pwr_projectile_charge_cooldown_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_pwr_projectile_charge_cooldown_02_AB20F4B5.wem</Path>
+				</File>
+				<File Id="820952039" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_15.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_15_C28E328B.wem</Path>
 				</File>
 				<File Id="821159581" Language="SFX">
 					<ShortName>Impact\IMP_SUR_Rock_Bounce_05.wav</ShortName>
@@ -12527,6 +13433,10 @@
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_impact_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_impact_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="855167612" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_01.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="856752925" Language="SFX">
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_05_BEE6A734.wem</Path>
@@ -12555,6 +13465,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_06.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_slime_06_9674FE61.wem</Path>
 				</File>
+				<File Id="875408195" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_72.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_72_7FA8D501.wem</Path>
+				</File>
 				<File Id="886003048" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_beingstalked_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_beingstalked_03_7FA8D501.wem</Path>
@@ -12579,6 +13493,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_25.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_25_7FA8D501.wem</Path>
 				</File>
+				<File Id="894727422" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_25.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_25_D613BE30.wem</Path>
+				</File>
 				<File Id="895109216" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_expand_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_expand_04_7FA8D501.wem</Path>
@@ -12602,6 +13520,10 @@
 				<File Id="904392392" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_07.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_07_D7319548.wem</Path>
+				</File>
+				<File Id="907278272" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_28_933078DA.wem</Path>
 				</File>
 				<File Id="908079451" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_lp_l2_02.wav</ShortName>
@@ -12639,6 +13561,14 @@
 					<ShortName>Character\KLR_35\K35_MORI\sfx_k35_mori_tentacule_back_closing_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_MORI\sfx_k35_mori_tentacule_back_closing_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="926414379" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_06.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_06_9662E4C4.wem</Path>
+				</File>
+				<File Id="926461307" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_05.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="927986044" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_04.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_04_7FA8D501.wem</Path>
@@ -12646,6 +13576,10 @@
 				<File Id="932987285" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_12.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_12_124E0864.wem</Path>
+				</File>
+				<File Id="933509303" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_09.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_09_A3E94618.wem</Path>
 				</File>
 				<File Id="934700795" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_tentacule_lp_l2_05.wav</ShortName>
@@ -12662,6 +13596,10 @@
 				<File Id="935591055" Language="SFX">
 					<ShortName>Character\KLR_35\K35_MORI\sfx_k35_mori_legs_break_01.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_MORI\sfx_k35_mori_legs_break_01_B3BE7960.wem</Path>
+				</File>
+				<File Id="936216282" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_32.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_32_A722A5B8.wem</Path>
 				</File>
 				<File Id="937420019" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_husk_despawn_whoosh_03.wav</ShortName>
@@ -12691,6 +13629,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_15_A3B2824F.wem</Path>
 				</File>
+				<File Id="950913179" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_34.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_34_3485CDF6.wem</Path>
+				</File>
 				<File Id="952534928" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_03_33C63519.wem</Path>
@@ -12719,6 +13661,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_09_678D2E19.wem</Path>
 				</File>
+				<File Id="975102232" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_01.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_attack_01_B0365694.wem</Path>
+				</File>
 				<File Id="975922187" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_17.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_17_6C145921.wem</Path>
@@ -12730,6 +13676,10 @@
 				<File Id="977615990" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_cancel_fpv_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_cancel_fpv_02_C80F6ADC.wem</Path>
+				</File>
+				<File Id="978831403" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_30.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_hurt_30_7FA8D501.wem</Path>
 				</File>
 				<File Id="980400032" Language="SFX">
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_shuffle_c_03.wav</ShortName>
@@ -12750,6 +13700,10 @@
 				<File Id="985151636" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_hurt_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="992324671" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_69.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_69_7FA8D501.wem</Path>
 				</File>
 				<File Id="996365671" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_12.wav</ShortName>
@@ -12787,6 +13741,10 @@
 					<ShortName>Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_03.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_SPEC\sfx_k35_spec_bone_creak_small_03_EC76870B.wem</Path>
 				</File>
+				<File Id="1019109004" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_47.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_47_7FA8D501.wem</Path>
+				</File>
 				<File Id="1019231037" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_16.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_breath_16_6DF1C0FC.wem</Path>
@@ -12799,9 +13757,21 @@
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_expand_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_expand_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="1023959853" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_17.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_17_7FA8D501.wem</Path>
+				</File>
 				<File Id="1024286203" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_06.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_clickers_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="1025115042" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_22.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_22_7FA8D501.wem</Path>
+				</File>
+				<File Id="1031596789" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_33.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_female_effort_33_71FB02A2.wem</Path>
 				</File>
 				<File Id="1033615032" Language="SFX">
 					<ShortName>Character\KLR_35\K35_PWR\sfx_k35_pwr_projectile_charge_completed_02.wav</ShortName>
@@ -12818,6 +13788,10 @@
 				<File Id="1039814444" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_21.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_21_7FA8D501.wem</Path>
+				</File>
+				<File Id="1039814445" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_21.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_21_7FA8D501.wem</Path>
 				</File>
 				<File Id="1041105906" Language="SFX">
 					<ShortName>Character\KLR_35\K35_FOLEY\sfx_k35_body_default_shuffle_c_02.wav</ShortName>
@@ -12859,6 +13833,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_18.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_18_7FA8D501.wem</Path>
 				</File>
+				<File Id="1054126100" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_18.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_18_7FA8D501.wem</Path>
+				</File>
 				<File Id="1055769657" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_monster_snarl_02.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_DIALOG\vo_k35_dialog_monster_snarl_02_2AD25382.wem</Path>
@@ -12879,6 +13857,10 @@
 					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_31.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_male_31_7FA8D501.wem</Path>
 				</File>
+				<File Id="1064491535" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_31.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_31_7FA8D501.wem</Path>
+				</File>
 				<File Id="1064533809" Language="SFX">
 					<ShortName>Character\KLR_35\K35_WPN\sfx_k35_wpn_attack_05.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_WPN\sfx_k35_wpn_attack_05_7FA8D501.wem</Path>
@@ -12886,6 +13868,10 @@
 				<File Id="1066753863" Language="SFX">
 					<ShortName>Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_12.wav</ShortName>
 					<Path>SFX\Character\KLR_35\K35_VO_GRUNTS\vo_k35_grunt_killereffect_male_attack_12_7F49EC06.wem</Path>
+				</File>
+				<File Id="1067364066" Language="SFX">
+					<ShortName>Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_35.wav</ShortName>
+					<Path>SFX\Character\KLR_35\K35_VO_STATUS\vo_k35_status_killereffect_injured_female_35_7FA8D501.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
@@ -12913,7 +13899,7 @@
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\STATES_KILLER\STATE_K35_ApplePie\AudioState_K35_Customization\None" GUID="{73ED7DE9-1F1E-46DA-8539-A3709648AC62}"/>
 						<State Id="1300403888" Name="K35_Male" ObjectPath="\States\STATES_KILLER\STATE_K35_ApplePie\AudioState_K35_Customization\K35_Male" GUID="{D24F948E-7B7E-434B-9C57-0CE32201F3EC}"/>
-						<State Id="1069534586" Name="K35_L1" ObjectPath="\States\STATES_KILLER\STATE_K35_ApplePie\AudioState_K35_Customization\K35_L1" GUID="{DC6FAC12-E4D4-4952-B1E1-1565BD690A05}"/>
+						<State Id="4242766691" Name="K35_Female" ObjectPath="\States\STATES_KILLER\STATE_K35_ApplePie\AudioState_K35_Customization\K35_Female" GUID="{DC6FAC12-E4D4-4952-B1E1-1565BD690A05}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

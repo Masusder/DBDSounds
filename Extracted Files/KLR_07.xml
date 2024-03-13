@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115654" GUID="{2EAD4228-9C80-434D-8917-24ED7EB260BE}" Language="SFX" Hash="1198560923">
+		<SoundBank Id="1491115654" GUID="{2EAD4228-9C80-434D-8917-24ED7EB260BE}" Language="SFX" Hash="418711973">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_07</ObjectPath>
 			<ShortName>KLR_07</ShortName>
 			<Path>KLR_07.bnk</Path>
@@ -739,6 +739,10 @@
 							<ShortName>Character\KLR_07\K07_CUSTO\vo_k07_outfit013_status_dribble_07.wav</ShortName>
 							<Path>SFX\Character\KLR_07\K07_CUSTO\vo_k07_outfit013_status_dribble_07_7FA8D501.wem</Path>
 						</File>
+						<File Id="536761129" Language="SFX">
+							<ShortName>Character\KLR_07\K07_CUSTO\sfx_k07_outfit020_electric_loop.wav</ShortName>
+							<Path>SFX\Character\KLR_07\K07_CUSTO\sfx_k07_outfit020_electric_loop_256CDB0F.wem</Path>
+						</File>
 						<File Id="553156944" Language="SFX">
 							<ShortName>Character\KLR_07\vo_killer_doctor_normal_teeth_05.wav</ShortName>
 							<Path>SFX\Character\KLR_07\vo_killer_doctor_normal_teeth_05_67368C31.wem</Path>
@@ -894,6 +898,11 @@
 								<File Id="722919272"/>
 								<File Id="732540909"/>
 								<File Id="811628452"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{13A7D5B2-8C74-43A6-A79A-5A651D6336C5}">
+							<Media>
+								<File Id="536761129"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{5A418ED5-0DC4-45BE-A284-408E135DF205}">
@@ -1824,6 +1833,10 @@
 					<ShortName>Character\KLR_07\sfx_k07_wpn_stick_attack_swing_chrysalis_01.wav</ShortName>
 					<Path>SFX\Character\KLR_07\sfx_k07_wpn_stick_attack_swing_chrysalis_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="536761129" Language="SFX">
+					<ShortName>Character\KLR_07\K07_CUSTO\sfx_k07_outfit020_electric_loop.wav</ShortName>
+					<Path>SFX\Character\KLR_07\K07_CUSTO\sfx_k07_outfit020_electric_loop_256CDB0F.wem</Path>
+				</File>
 				<File Id="542880651" Language="SFX">
 					<ShortName>Character\KLR_07\Stick\sfx_k07_wpn_default_impact_survivor_blunt_09.wav</ShortName>
 					<Path>SFX\Character\KLR_07\Stick\sfx_k07_wpn_default_impact_survivor_blunt_09_7FA8D501.wem</Path>
@@ -2306,6 +2319,7 @@
 						<Switch Id="2763194826" Name="K34b_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K34b_CLOTH_Default" GUID="{1BE5B870-9D6A-49D8-9155-5B6784640BAC}"/>
 						<Switch Id="2631872381" Name="K28_CLOTH_Custom_Outfit013" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K28_CLOTH_Custom_Outfit013" GUID="{9203438A-2A1A-4325-871F-C1DA3C56F6ED}"/>
 						<Switch Id="2013449899" Name="K35_CLOTH_Default" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K35_CLOTH_Default" GUID="{ACD5F617-6DC2-49EB-A0B1-CAD1431F321F}"/>
+						<Switch Id="2339793148" Name="K07_CLOTH_Custom_Outfit020" ObjectPath="\Switches\SWITCH_KILLER\AudioSwitchKillerClothes\K07_CLOTH_Custom_Outfit020" GUID="{13A7D5B2-8C74-43A6-A79A-5A651D6336C5}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3548994684" Name="AudioSwitchProximity" ObjectPath="\Switches\SWITCH_SURVIVOR\AudioSwitchProximity" GUID="{A238147F-8756-470E-AC66-0AFAF133FD8A}">

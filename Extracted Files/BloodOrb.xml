@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Applepie_UGS\UnrealEngine\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_12_ApplePie\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1507854010" GUID="{D2676BDE-C286-4A8F-8C67-BDD7F29850C3}" Language="SFX" Hash="935166795">
+			<ObjectPath>\SoundBanks\OBJECT\OBJ_SPECIALEVENT\SPRING\BloodOrb</ObjectPath>
+			<ShortName>BloodOrb</ShortName>
+			<Path>BloodOrb.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2703264002" Name="AudioEvent_BloodOrb_Deposit" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\SPRING\BloodOrb\AudioEvent_BloodOrb_Deposit" GUID="{622CF0ED-46A0-490C-AD83-D45CA373B9B6}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3415147398" Name="AudioEvent_BloodOrb_Drip_Loop" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\SPRING\BloodOrb\AudioEvent_BloodOrb_Drip_Loop" GUID="{46EA7FAE-D5E8-4535-8AAC-61B456EF2916}" MaxAttenuation="1700." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="672097439" Language="SFX">
+							<ShortName>Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_drip_loop_01.wav</ShortName>
+							<Path>SFX\Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_drip_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1809760597" Name="AudioEvent_BloodOrb_Drip_Loop_Stop" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\SPRING\BloodOrb\AudioEvent_BloodOrb_Drip_Loop_Stop" GUID="{4DC55CB2-00C6-4772-8481-AA5D0E8F11A0}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3934859887" Name="AudioEvent_BloodOrb_Idle_Start" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\SPRING\BloodOrb\AudioEvent_BloodOrb_Idle_Start" GUID="{5F6B58F1-DC21-465D-887D-EC141860B093}" MaxAttenuation="850." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="409687990" Language="SFX">
+							<ShortName>Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_idle_loop_01.wav</ShortName>
+							<Path>SFX\Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_idle_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2413068149" Name="AudioEvent_BloodOrb_Idle_Stop" ObjectPath="\Events\OBJECT\OBJ_SPECIALEVENT\SPRING\BloodOrb\AudioEvent_BloodOrb_Idle_Stop" GUID="{18970670-36E8-4ECA-81AC-378B48932B42}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="409687990" Language="SFX">
+					<ShortName>Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_idle_loop_01.wav</ShortName>
+					<Path>SFX\Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_idle_loop_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="672097439" Language="SFX">
+					<ShortName>Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_drip_loop_01.wav</ShortName>
+					<Path>SFX\Object\Obj_SpecialEvent\Spring\BloodOrb\sfx_bloodorb_drip_loop_01_256CDB0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
