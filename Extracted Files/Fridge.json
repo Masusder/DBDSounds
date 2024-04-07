@@ -1,0 +1,68 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Bacon_UGS\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2337612214",
+    "GUID": "{BBED2754-7541-4BC7-B7F2-3DFFB2793C62}",
+    "Language": "SFX",
+    "Hash": "844038858",
+    "ObjectPath": "\\SoundBanks\\OBJECT\\OBJ_MAP\\Fridge",
+    "ShortName": "Fridge",
+    "Path": "Fridge.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1194306938",
+      "Name": "AudioEvent_Fridge_Loop",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_MAP\\Fridge\\AudioEvent_Fridge_Loop",
+      "GUID": "{59E0233D-4D76-4369-A6F9-34A8621938AD}",
+      "MaxAttenuation": "850.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "876817614",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Deco\\Fridge\\sfx_fridge_loop_01.wav",
+        "Path": "SFX\\Object\\Obj_Deco\\Fridge\\sfx_fridge_loop_01_256CDB0F.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "603224157",
+        "Name": "Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_INDOOR",
+        "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "876817614",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Deco\\Fridge\\sfx_fridge_loop_01.wav",
+      "Path": "SFX\\Object\\Obj_Deco\\Fridge\\sfx_fridge_loop_01_256CDB0F.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4096507154",
+      "Name": "AudioRTPC_Listener_Angle_Object_Relative",
+      "ObjectPath": "\\Game Parameters\\RTPC_WORLD\\AudioRTPC_Listener_Angle_Object_Relative",
+      "GUID": "{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"
+     }
+    ]
+   }
+  ]
+ }
+}

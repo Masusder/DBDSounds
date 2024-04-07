@@ -1,0 +1,119 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Bacon_UGS\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2803472840",
+    "GUID": "{8AD9436E-F0E5-49CF-A601-9BEEE2ECEDB8}",
+    "Language": "SFX",
+    "Hash": "630324515",
+    "ObjectPath": "\\SoundBanks\\OBJECT\\OBJ_MAP\\Tree_Leaves",
+    "ShortName": "Tree_Leaves",
+    "Path": "Tree_Leaves.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "895338102",
+      "Name": "AudioEvent_Tree_Leaves_Play",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_MAP\\Tree_Leaves\\AudioEvent_Tree_Leaves_Play",
+      "GUID": "{6CA46465-C3F1-45E1-96AF-909D87AE1158}",
+      "MaxAttenuation": "850.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "183069568",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Deco\\Trees\\sfx_tree_leaves_02.wav",
+        "Path": "SFX\\Object\\Obj_Deco\\Trees\\sfx_tree_leaves_02_256CDB0F.wem"
+       },
+       {
+        "Id": "925673673",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Deco\\Trees\\sfx_tree_leaves_rain_01.wav",
+        "Path": "SFX\\Object\\Obj_Deco\\Trees\\sfx_tree_leaves_rain_01_256CDB0F.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{392D48D3-A439-49FD-A660-02EECA04B588}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{0B357E2A-2208-4807-8B0C-989322D1E564}",
+        "Media": [
+         {
+          "Id": "183069568"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E666E02D-26CB-4485-879A-04307792AB79}",
+        "Media": [
+         {
+          "Id": "925673673"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{392D48D3-A439-49FD-A660-02EECA04B588}",
+        "Media": [
+         {
+          "Id": "183069568"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "183069568",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Deco\\Trees\\sfx_tree_leaves_02.wav",
+      "Path": "SFX\\Object\\Obj_Deco\\Trees\\sfx_tree_leaves_02_256CDB0F.wem"
+     },
+     {
+      "Id": "925673673",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Deco\\Trees\\sfx_tree_leaves_rain_01.wav",
+      "Path": "SFX\\Object\\Obj_Deco\\Trees\\sfx_tree_leaves_rain_01_256CDB0F.wem"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3604948880",
+      "Name": "AudioStateWeather",
+      "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateWeather",
+      "GUID": "{5A37C84E-42A2-4BF7-9173-263FBE28B45A}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateWeather\\None",
+        "GUID": "{0B357E2A-2208-4807-8B0C-989322D1E564}"
+       },
+       {
+        "Id": "2829968073",
+        "Name": "AudioStateWeather_Rain",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateWeather\\AudioStateWeather_Rain",
+        "GUID": "{E666E02D-26CB-4485-879A-04307792AB79}"
+       },
+       {
+        "Id": "3039144286",
+        "Name": "AudioStateWeather_Clear",
+        "ObjectPath": "\\States\\STATES_AMBIENCE\\STATE_Theme_00_Common\\AudioStateWeather\\AudioStateWeather_Clear",
+        "GUID": "{392D48D3-A439-49FD-A660-02EECA04B588}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

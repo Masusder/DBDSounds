@@ -1,0 +1,610 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Bacon_UGS\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_14_Bacon\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4237424144",
+    "GUID": "{EF9BDDA7-4FDE-4A52-B6A3-72EBAE660F83}",
+    "Language": "SFX",
+    "Hash": "2049574208",
+    "ObjectPath": "\\SoundBanks\\OBJECT\\OBJ_CORE\\Crow",
+    "ShortName": "Crow",
+    "Path": "Crow.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "308821730",
+      "Name": "AudioEvent_Crow_Bomb",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_CORE\\Crow\\Crow\\AudioEvent_Crow_Bomb",
+      "GUID": "{3C488443-3F8D-474C-A568-AE1A439F94C1}",
+      "MaxAttenuation": "6600.",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "201002642",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_bomb_loop_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_bomb_loop_01_0BC91DCF.wem"
+       }
+      ],
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "598152329",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_03_67368C31.wem"
+       },
+       {
+        "Id": "682787204",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_01_67368C31.wem"
+       },
+       {
+        "Id": "790039880",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_04.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_04_67368C31.wem"
+       },
+       {
+        "Id": "881341700",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_02_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "400794114",
+        "Name": "Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_2D",
+        "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
+       },
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "1757466089",
+      "Name": "AudioEvent_Crow_Fly",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_CORE\\Crow\\Crow\\AudioEvent_Crow_Fly",
+      "GUID": "{995649A5-E8E7-4D81-AE8E-A3083BA4496C}",
+      "MaxAttenuation": "1700.",
+      "DurationType": "OneShot",
+      "DurationMin": "1.803606",
+      "DurationMax": "2.630303",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "81878055",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_05.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_05_67368C31.wem"
+       },
+       {
+        "Id": "173100198",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_02_67368C31.wem"
+       },
+       {
+        "Id": "227738409",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_01_67368C31.wem"
+       },
+       {
+        "Id": "518853729",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_03_67368C31.wem"
+       },
+       {
+        "Id": "522271599",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_02_67368C31.wem"
+       },
+       {
+        "Id": "728471515",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_03_67368C31.wem"
+       },
+       {
+        "Id": "854322593",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_04.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_04_67368C31.wem"
+       },
+       {
+        "Id": "941828774",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_01_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "963067359",
+      "Name": "AudioEvent_Crow_Flying",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_CORE\\Crow\\Crow\\AudioEvent_Crow_Flying",
+      "GUID": "{DD614BDB-AE99-411A-B6F3-5BE40862EB12}",
+      "MaxAttenuation": "1700.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.251613",
+      "DurationMax": "1.090743",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "72897405",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03_67368C31.wem"
+       },
+       {
+        "Id": "184619829",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11_67368C31.wem"
+       },
+       {
+        "Id": "185130246",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10_67368C31.wem"
+       },
+       {
+        "Id": "190643111",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02_67368C31.wem"
+       },
+       {
+        "Id": "292749430",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01_67368C31.wem"
+       },
+       {
+        "Id": "441205033",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09_67368C31.wem"
+       },
+       {
+        "Id": "544907988",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04_67368C31.wem"
+       },
+       {
+        "Id": "552202633",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01_67368C31.wem"
+       },
+       {
+        "Id": "577225604",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02_67368C31.wem"
+       },
+       {
+        "Id": "776294285",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03_67368C31.wem"
+       },
+       {
+        "Id": "787360473",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08_67368C31.wem"
+       },
+       {
+        "Id": "859739792",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "3755183920",
+      "Name": "AudioEvent_Crow_Flying_Exposer",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_CORE\\Crow\\Crow\\AudioEvent_Crow_Flying_Exposer",
+      "GUID": "{3EB36828-7CA1-4727-ADE5-CD03D269C09B}",
+      "MaxAttenuation": "1700.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "72897405",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03_67368C31.wem"
+       },
+       {
+        "Id": "184619829",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11_67368C31.wem"
+       },
+       {
+        "Id": "185130246",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10_67368C31.wem"
+       },
+       {
+        "Id": "190643111",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02_67368C31.wem"
+       },
+       {
+        "Id": "292749430",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01_67368C31.wem"
+       },
+       {
+        "Id": "441205033",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09_67368C31.wem"
+       },
+       {
+        "Id": "544907988",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04_67368C31.wem"
+       },
+       {
+        "Id": "552202633",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01_67368C31.wem"
+       },
+       {
+        "Id": "577225604",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02_67368C31.wem"
+       },
+       {
+        "Id": "776294285",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03_67368C31.wem"
+       },
+       {
+        "Id": "787360473",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08_67368C31.wem"
+       },
+       {
+        "Id": "859739792",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "3019427647",
+      "Name": "AudioEvent_Crow_Flying_Exposer_Stop",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_CORE\\Crow\\Crow\\AudioEvent_Crow_Flying_Exposer_Stop",
+      "GUID": "{3218DC44-D173-487A-B1A5-CC252D949675}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2408619222",
+      "Name": "AudioEvent_Crow_Scream_Exposer",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_CORE\\Crow\\Crow\\AudioEvent_Crow_Scream_Exposer",
+      "GUID": "{44DD8DD5-0DB5-4741-B3E7-410896D45E60}",
+      "MaxAttenuation": "3400.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.219531",
+      "DurationMax": "1.090743",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "184619829",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11_67368C31.wem"
+       },
+       {
+        "Id": "185130246",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10_67368C31.wem"
+       },
+       {
+        "Id": "190643111",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02_67368C31.wem"
+       },
+       {
+        "Id": "292749430",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01_67368C31.wem"
+       },
+       {
+        "Id": "441205033",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09_67368C31.wem"
+       },
+       {
+        "Id": "544907988",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04_67368C31.wem"
+       },
+       {
+        "Id": "776294285",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03_67368C31.wem"
+       },
+       {
+        "Id": "787360473",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08_67368C31.wem"
+       },
+       {
+        "Id": "859739792",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     },
+     {
+      "Id": "1688508931",
+      "Name": "AudioEvent_Crow_Wing",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_CORE\\Crow\\Crow\\AudioEvent_Crow_Wing",
+      "GUID": "{A039465F-6A5C-43DC-8533-EF9E39FAD0D9}",
+      "MaxAttenuation": "850.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.251613",
+      "DurationMax": "0.377234",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "72897405",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03_67368C31.wem"
+       },
+       {
+        "Id": "552202633",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01_67368C31.wem"
+       },
+       {
+        "Id": "577225604",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02.wav",
+        "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "1578973140",
+        "Name": "Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "72897405",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_03_67368C31.wem"
+     },
+     {
+      "Id": "81878055",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_05.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_05_67368C31.wem"
+     },
+     {
+      "Id": "173100198",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_02.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_02_67368C31.wem"
+     },
+     {
+      "Id": "184619829",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_11_67368C31.wem"
+     },
+     {
+      "Id": "185130246",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_10_67368C31.wem"
+     },
+     {
+      "Id": "190643111",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_02_67368C31.wem"
+     },
+     {
+      "Id": "227738409",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_01.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_01_67368C31.wem"
+     },
+     {
+      "Id": "292749430",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_01_67368C31.wem"
+     },
+     {
+      "Id": "441205033",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_09_67368C31.wem"
+     },
+     {
+      "Id": "518853729",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_03.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_03_67368C31.wem"
+     },
+     {
+      "Id": "522271599",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_02.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_02_67368C31.wem"
+     },
+     {
+      "Id": "544907988",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_04_67368C31.wem"
+     },
+     {
+      "Id": "552202633",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_01_67368C31.wem"
+     },
+     {
+      "Id": "577225604",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_wing_02_67368C31.wem"
+     },
+     {
+      "Id": "598152329",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_03.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_03_67368C31.wem"
+     },
+     {
+      "Id": "682787204",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_01.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_01_67368C31.wem"
+     },
+     {
+      "Id": "728471515",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_03.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_fly_03_67368C31.wem"
+     },
+     {
+      "Id": "776294285",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_03_67368C31.wem"
+     },
+     {
+      "Id": "787360473",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_08_67368C31.wem"
+     },
+     {
+      "Id": "790039880",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_04.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_04_67368C31.wem"
+     },
+     {
+      "Id": "854322593",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_04.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_04_67368C31.wem"
+     },
+     {
+      "Id": "859739792",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\sfx_crow_scream_05_67368C31.wem"
+     },
+     {
+      "Id": "881341700",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_02.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Bomb_Bounce_02_67368C31.wem"
+     },
+     {
+      "Id": "941828774",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_01.wav",
+      "Path": "SFX\\Object\\Obj_Gameplay\\Crow\\Crow_Wings_Bounce_01_67368C31.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4096507154",
+      "Name": "AudioRTPC_Listener_Angle_Object_Relative",
+      "ObjectPath": "\\Game Parameters\\RTPC_WORLD\\AudioRTPC_Listener_Angle_Object_Relative",
+      "GUID": "{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"
+     }
+    ]
+   }
+  ]
+ }
+}
