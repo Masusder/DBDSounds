@@ -37,6 +37,9 @@
 | The Skull Merchant | KLR_31   | Character |
 | The Singularity    | KLR_32   | Character |
 | The Xenomorph      | KLR_33   | Character |
+| The Good Guy       | KLR_34   | Character |
+| The Unknown        | KLR_35   | Character |
+| The Vecna          | KLR_36   | Character |
 
 ## Survivors
 
@@ -68,6 +71,7 @@
 | Rebecca Chambers   | SVR_F18  | Character |
 | Thalita Lyra       | SVR_F19  | Character |
 | Ellen Ripley       | SVR_F20  | Character |
+| Sable Ward         | SVR_F21  | Character |
 | Dwight Fairfield   | SVR_M01  | Character |
 | Jake Park          | SVR_M02  | Character |
 | Ace Visconti       | SVR_M03  | Character |
@@ -90,3 +94,6 @@
 | Renato Lyra        | SVR_M17  | Character |
 | Gabriel Soma       | SVR_M18  | Character |
 | Nicolas Cage       | SVR_M19  | Character |
+| Alan Wake          | SVR_M20  | Character |
+| Saga Anderson      | SVR_M20b | Character |
+| Rose Marigold      | SVR_M20c | Character |

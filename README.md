@@ -1,14 +1,14 @@
 # DBDSounds
 <img src="https://i.imgur.com/pBGzNxL.png" align="right" alt="Wwise Logo" width="128" height="128">
 
-This repository serves as a collection of all audio featured in Dead By Daylight game. Main use of this repository is to track changes made in Dead By Daylight's audio database.
+This repository serves as a collection of all audio featured in Dead by Daylight game. Main use of this repository is to track changes made in Dead by Daylight's audio database.
 You can easily find here any audio that you need without need to look into the files by yourself. 
 
 ‎
 
 ## Overwiew
 
-Extracted Files - raw files extracted from Dead By Daylight<br>
+Extracted Files - raw files extracted from Dead by Daylight<br>
 Converted Files - audio files converted into OGG format with correct structure and names<br>
 CharacterDefinitions.md - additional file to help distinguish character audio IDs
 
