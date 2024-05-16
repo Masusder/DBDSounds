@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Churros\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3354566897" GUID="{2B49514C-2CCD-4EBD-8EEB-C899B0D07436}" Language="SFX" Hash="1978213995">
+			<ObjectPath>\SoundBanks\OBJECT\OBJ_KILLER\K36_Chest</ObjectPath>
+			<ShortName>K36_Chest</ShortName>
+			<Path>K36_Chest.bnk</Path>
+			<IncludedEvents>
+				<Event Id="291531197" Name="AudioEvent_K36_OBJ_Chest_Cloud_Loop" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Chest_Cloud_Loop" GUID="{61E620C9-8740-4DF1-B620-D4D778C975F5}" MaxAttenuation="800." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3757155843" Name="AudioEvent_K36_OBJ_Chest_Cloud_Stop" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Chest_Cloud_Stop" GUID="{27471BA0-37E4-4D1D-A950-3BBD5C5D4F6C}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="462168526" Name="AudioEvent_K36_OBJ_Dice_Appear" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Dice_Appear" GUID="{9D5349C5-1704-4C99-81EF-31AA3358CB49}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.458776" DurationMax="2.458776">
+					<ExcludedMemoryFiles>
+						<File Id="51375417" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="487248896" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_roll_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_roll_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="984970209" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="14275296" Name="AudioEvent_K36_OBJ_Dice_Disappear" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Dice_Disappear" GUID="{C39DE0E1-984C-4646-967F-D97CC94BFFCA}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="5.066667" DurationMax="5.066667">
+					<ExcludedMemoryFiles>
+						<File Id="417416327" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="480428004" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_04.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4060892174" Name="AudioEvent_K36_OBJ_Item_Activate" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Activate" GUID="{A29FDAD7-FF9B-4190-A975-32702C7DF87B}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="5.131239" DurationMax="5.131239">
+					<ExcludedMemoryFiles>
+						<File Id="1006575142" Language="SFX">
+							<ShortName>Character\KLR_36\K36_OBJ\sfx_k36_obj_magicitems_activate_02.wav</ShortName>
+							<Path>SFX\Character\KLR_36\K36_OBJ\sfx_k36_obj_magicitems_activate_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1974956979" Name="AudioEvent_K36_OBJ_Item_Equip" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Equip" GUID="{3FE07868-08BF-443A-8A2E-FFCD8CA8D44B}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3." DurationMax="3.">
+					<ExcludedMemoryFiles>
+						<File Id="665635542" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_equip_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_equip_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4277354404" Name="AudioEvent_K36_OBJ_Item_Legendary" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Legendary" GUID="{BAF95F4D-5B50-4E5C-9D4B-4CC85D105C2C}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="5.066667" DurationMax="5.066667">
+					<ExcludedMemoryFiles>
+						<File Id="417416327" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="480428004" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_04.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4035606632" Name="AudioEvent_K36_OBJ_Item_Normal" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Normal" GUID="{A0115F29-279E-4B2C-95F0-3C7C70E1C07E}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="4." DurationMax="4.">
+					<ExcludedMemoryFiles>
+						<File Id="347816897" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="559319652" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_06.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_06_7CD981F4.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3578377454" Name="AudioEvent_K36_OBJ_Item_Vecna" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Vecna" GUID="{361F80E8-EC0A-48AE-98C7-1BABBAFB68FA}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="6.033333" DurationMax="6.033333">
+					<ExcludedMemoryFiles>
+						<File Id="618494126" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_09.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="633008829" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_07.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_07_AC994F80.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3427489331" Name="AudioEvent_K36_OBJ_Item_Vecna_Eye_Consume" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Vecna_Eye_Consume" GUID="{36FBF3F0-3902-4E14-8B3D-6D82FC76A9DB}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1.033333" DurationMax="1.033333">
+					<ExcludedMemoryFiles>
+						<File Id="150510343" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="417459330" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="755084636" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_eye_consume_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_eye_consume_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="744478748" Name="AudioEvent_K36_OBJ_Item_Vecna_Global" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Vecna_Global" GUID="{3BB60E9B-8A6C-4D21-B825-A052F5148C0F}" DurationType="OneShot" DurationMin="10.533334" DurationMax="10.533334">
+					<ExcludedMemoryFiles>
+						<File Id="46114011" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_04.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="173328701" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_03_2CF20BDC.wem</Path>
+						</File>
+						<File Id="799109035" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="931013690" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1243130889" Name="AudioEvent_K36_OBJ_Item_Vecna_Hand_Consume" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Vecna_Hand_Consume" GUID="{1A010CA4-3BFA-4985-8382-F6B1371173EE}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="1.765751" DurationMax="1.765751">
+					<ExcludedMemoryFiles>
+						<File Id="260924400" Language="SFX">
+							<ShortName>Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_02.wav</ShortName>
+							<Path>SFX\Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_02_A175322E.wem</Path>
+						</File>
+						<File Id="268378779" Language="SFX">
+							<ShortName>Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_04.wav</ShortName>
+							<Path>SFX\Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_04_F2BE566F.wem</Path>
+						</File>
+						<File Id="354181116" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_consume_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_consume_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="519210527" Language="SFX">
+							<ShortName>Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_05.wav</ShortName>
+							<Path>SFX\Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_05_8721C2A2.wem</Path>
+						</File>
+						<File Id="693532411" Language="SFX">
+							<ShortName>Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_03.wav</ShortName>
+							<Path>SFX\Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_03_99416F9D.wem</Path>
+						</File>
+						<File Id="820030147" Language="SFX">
+							<ShortName>Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_01.wav</ShortName>
+							<Path>SFX\Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_01_FD6ADD3E.wem</Path>
+						</File>
+						<File Id="887151394" Language="SFX">
+							<ShortName>Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_06.wav</ShortName>
+							<Path>SFX\Character\KLR_36\K36_CLOTH\sfx_k36_body_hand_of_vecna_06_C2CBB59A.wem</Path>
+						</File>
+						<File Id="955258899" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_hand_consume_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_hand_consume_01_69DA34F7.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1229417436" Name="AudioEvent_K36_OBJ_Item_Vecna_Hand_Teleport" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_Item_Vecna_Hand_Teleport" GUID="{B9B6C639-7CF1-48EC-8D65-CC2BD818633D}" DurationType="OneShot" DurationMin="3.725578" DurationMax="3.725578">
+					<ExcludedMemoryFiles>
+						<File Id="927136538" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_teleport_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_teleport_01_C0A9F6DC.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3484956196" Name="AudioEvent_K36_OBJ_MimicChest_Open" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_MimicChest_Open" GUID="{D473C30F-919F-4317-8578-0BC7A3DF367E}" MaxAttenuation="1700." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="360776981" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_texture_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_texture_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="495290028" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_vo_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_vo_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="644848135" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="658213582" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_03.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="730867475" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_02.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1045608136" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="487361296" Name="AudioEvent_K36_OBJ_MimicChest_Out" ObjectPath="\Events\OBJECT\OBJ_KILLER\K36_Chest\AudioEvent_K36_OBJ_MimicChest_Out" GUID="{D51E7357-1FBF-4FF5-9627-CB63768A7283}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.233333" DurationMax="3.233333">
+					<ExcludedMemoryFiles>
+						<File Id="643933598" Language="SFX">
+							<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_out_01.wav</ShortName>
+							<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_out_01_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="46114011" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_04.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="51375417" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="150510343" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="173328701" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_03_2CF20BDC.wem</Path>
+				</File>
+				<File Id="347816897" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="354181116" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_consume_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_consume_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="360776981" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_texture_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_texture_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="417416327" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="417459330" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_eye_consume_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="480428004" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_04.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_legendary_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="487248896" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_roll_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_roll_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="495290028" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_vo_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_vo_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="559319652" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_06.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_normal_06_7CD981F4.wem</Path>
+				</File>
+				<File Id="618494126" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_09.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="633008829" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_07.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_vecna_07_AC994F80.wem</Path>
+				</File>
+				<File Id="643933598" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_out_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_out_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="644848135" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="658213582" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_03.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="665635542" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_equip_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_magicitem_equip_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="730867475" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_loop_vo_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="755084636" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_eye_consume_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_eye_consume_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="799109035" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="927136538" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_teleport_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_item_vecna_hand_teleport_01_C0A9F6DC.wem</Path>
+				</File>
+				<File Id="931013690" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_global_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="955258899" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_hand_consume_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_vecna_hand_consume_01_69DA34F7.wem</Path>
+				</File>
+				<File Id="984970209" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_02.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_dice_appear_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1045608136" Language="SFX">
+					<ShortName>Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_01.wav</ShortName>
+					<Path>SFX\Object\Obj_Killer\K36_Chest\sfx_k36_obj_mimicchest_open_01_7FA8D501.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

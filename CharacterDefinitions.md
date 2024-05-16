@@ -39,7 +39,7 @@
 | The Xenomorph      | KLR_33   | Character |
 | The Good Guy       | KLR_34   | Character |
 | The Unknown        | KLR_35   | Character |
-| The Vecna          | KLR_36   | Character |
+| The Lich           | KLR_36   | Character |
 
 ## Survivors
 
@@ -72,6 +72,7 @@
 | Thalita Lyra       | SVR_F19  | Character |
 | Ellen Ripley       | SVR_F20  | Character |
 | Sable Ward         | SVR_F21  | Character |
+| Aestri Yazar       | SVR_F22  | Character |
 | Dwight Fairfield   | SVR_M01  | Character |
 | Jake Park          | SVR_M02  | Character |
 | Ace Visconti       | SVR_M03  | Character |
@@ -95,5 +96,6 @@
 | Gabriel Soma       | SVR_M18  | Character |
 | Nicolas Cage       | SVR_M19  | Character |
 | Alan Wake          | SVR_M20  | Character |
-| Saga Anderson      | SVR_M20b | Character |
-| Rose Marigold      | SVR_M20c | Character |
+| Saga Anderson      | SVR_M20b | Outfit    |
+| Rose Marigold      | SVR_M20c | Outfit    |
+| Baermar Uraz       | SVR_M21  | Character |

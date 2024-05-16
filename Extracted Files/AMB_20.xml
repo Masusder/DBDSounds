@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Bacon\</ProjectRoot>
-		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Bacon\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Bacon_UGS\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Churros\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Bacon\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2165637332" GUID="{240FB5BD-C59E-4C31-AFBC-1EA2B0356CA5}" Language="SFX" Hash="776534549">
+		<SoundBank Id="2165637332" GUID="{240FB5BD-C59E-4C31-AFBC-1EA2B0356CA5}" Language="SFX" Hash="2737378926">
 			<ObjectPath>\SoundBanks\AMBIANCE\AMB_20</ObjectPath>
 			<ShortName>AMB_20</ShortName>
 			<Path>AMB_20.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1837330530" Name="AudioEvent_AM_Intro_20_Quantum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AudioEvent_AM_Intro_20_Quantum" GUID="{6613E4D7-A325-4478-839C-B9FA75B07CF7}" DurationType="OneShot" DurationMin="10." DurationMax="10.">
+				<Event Id="1837330530" Name="AudioEvent_AM_Intro_20_Quantum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AudioEvent_AM_Intro_20_Quantum" GUID="{6613E4D7-A325-4478-839C-B9FA75B07CF7}" DurationType="OneShot" DurationMin="10.5" DurationMax="11.">
 					<ExcludedMemoryFiles>
-						<File Id="52889337" Language="SFX">
-							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_intro_01.wav</ShortName>
-							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_intro_01_7FA8D501.wem</Path>
+						<File Id="160948727" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl02_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl02_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="350879742" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl01_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl01_01_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+					<DefaultSwitchValue>{7CA036F1-6E3B-4318-BA3B-0F315E40EF18}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{12C03835-7B1E-4BD6-95FE-4854E20F0E9A}">
+							<Media>
+								<File Id="350879742"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C74E1D75-CC68-40AE-8094-A9A68CC10823}">
+							<Media>
+								<File Id="160948727"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7CA036F1-6E3B-4318-BA3B-0F315E40EF18}">
+							<Media>
+								<File Id="350879742"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3655738349" Name="AudioEvent_AM_LimitPoint_20_Quantum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AudioEvent_AM_LimitPoint_20_Quantum" GUID="{DE1C8F81-26F7-4E64-B664-BCEE4385CE14}" MaxAttenuation="1600." DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -48,6 +70,1040 @@
 							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1101361145" Name="AudioEvent_AM_T20_Dungeon_AlchemyRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_AlchemyRoom" GUID="{08CB4711-4487-4C71-B0BC-A29D87B2D878}" DurationType="OneShot" DurationMin="342.114685" DurationMax="522.114685">
+					<ExcludedMemoryFiles>
+						<File Id="48027244" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="624847673" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="646618754" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="764504862" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="901629827" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="994066733" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1033943678" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3556850496" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_AlchemyRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_AlchemyRoom" GUID="{3E587FD1-76A2-49E9-A8F6-BA683B2184B6}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+						<ActionSetStateEntry Id="4275628286" Name="AudioStateIndoor_20_Quantum_Dungeon_AlchemyRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_AlchemyRoom" GUID="{931A0718-91DF-4BD9-AEED-111803432B81}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="459196707" Name="AudioEvent_AM_T20_Dungeon_Cell" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_Cell" GUID="{2FC46146-FD1C-4590-9202-F6A40EBCDE76}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="59415389" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+						</File>
+						<File Id="136270660" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+						</File>
+						<File Id="204400998" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+						</File>
+						<File Id="206990468" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+						</File>
+						<File Id="305949429" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+						</File>
+						<File Id="324046469" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+						</File>
+						<File Id="354937915" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+						</File>
+						<File Id="393658503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
+						</File>
+						<File Id="517656252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+						</File>
+						<File Id="599258456" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+						</File>
+						<File Id="604319211" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
+						</File>
+						<File Id="731336208" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+						</File>
+						<File Id="746298407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+						</File>
+						<File Id="758752502" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+						</File>
+						<File Id="780384385" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+						</File>
+						<File Id="793294133" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+						</File>
+						<File Id="905078053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+						</File>
+						<File Id="958021781" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+						</File>
+						<File Id="959634289" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+						</File>
+						<File Id="978803734" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+						</File>
+						<File Id="1019083895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+						</File>
+						<File Id="1020802222" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+						</File>
+						<File Id="1054859012" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="281635654" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_Tunnel" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_Tunnel" GUID="{1472D311-13F5-4A2F-9A6A-DDC39358F61B}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1304853954" Name="AudioStateIndoor_20_Quantum_Dungeon_Cell" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Cell" GUID="{A3E9F819-D13A-4B82-9A74-D123AF4289CD}"/>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="916257657" Name="AudioEvent_AM_T20_Dungeon_Corridor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_Corridor" GUID="{2D88F0CC-D114-4F1D-AAB0-1B9B7B4D3942}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="4985676" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_26.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_26_77F467B1.wem</Path>
+						</File>
+						<File Id="20766816" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="22884419" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_04_77F467B1.wem</Path>
+						</File>
+						<File Id="31242808" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_33.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_33_77F467B1.wem</Path>
+						</File>
+						<File Id="32412689" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_02_77F467B1.wem</Path>
+						</File>
+						<File Id="45226514" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_25.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_25_77F467B1.wem</Path>
+						</File>
+						<File Id="59415389" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+						</File>
+						<File Id="105447145" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_30.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_30_77F467B1.wem</Path>
+						</File>
+						<File Id="136270660" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+						</File>
+						<File Id="204400998" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+						</File>
+						<File Id="206216818" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_32.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_32_77F467B1.wem</Path>
+						</File>
+						<File Id="206990468" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+						</File>
+						<File Id="285763149" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_12_77F467B1.wem</Path>
+						</File>
+						<File Id="305949429" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+						</File>
+						<File Id="323949102" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="324046469" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+						</File>
+						<File Id="349940559" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_19_77F467B1.wem</Path>
+						</File>
+						<File Id="354937915" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+						</File>
+						<File Id="358115092" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_06_77F467B1.wem</Path>
+						</File>
+						<File Id="368501927" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_13_77F467B1.wem</Path>
+						</File>
+						<File Id="388948276" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_10_77F467B1.wem</Path>
+						</File>
+						<File Id="393658503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
+						</File>
+						<File Id="424632581" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="430784616" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_09_77F467B1.wem</Path>
+						</File>
+						<File Id="433163876" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_31.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_31_77F467B1.wem</Path>
+						</File>
+						<File Id="480453025" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_17_77F467B1.wem</Path>
+						</File>
+						<File Id="517656252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+						</File>
+						<File Id="519671194" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_07_77F467B1.wem</Path>
+						</File>
+						<File Id="551036715" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_20_77F467B1.wem</Path>
+						</File>
+						<File Id="575943853" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_34.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_34_77F467B1.wem</Path>
+						</File>
+						<File Id="591643484" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_15_77F467B1.wem</Path>
+						</File>
+						<File Id="599258456" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+						</File>
+						<File Id="599472828" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="604319211" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
+						</File>
+						<File Id="634207440" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_01_77F467B1.wem</Path>
+						</File>
+						<File Id="659509954" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_16_77F467B1.wem</Path>
+						</File>
+						<File Id="663973283" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_29.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_29_77F467B1.wem</Path>
+						</File>
+						<File Id="664898952" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_28.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_28_77F467B1.wem</Path>
+						</File>
+						<File Id="665275233" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="695895611" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="716680503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="731336208" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+						</File>
+						<File Id="731389130" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_14_77F467B1.wem</Path>
+						</File>
+						<File Id="746298407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+						</File>
+						<File Id="758752502" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+						</File>
+						<File Id="765370835" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_08_77F467B1.wem</Path>
+						</File>
+						<File Id="780384385" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+						</File>
+						<File Id="793294133" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+						</File>
+						<File Id="805052720" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="823348234" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_11_77F467B1.wem</Path>
+						</File>
+						<File Id="828907440" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="828912007" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_22_77F467B1.wem</Path>
+						</File>
+						<File Id="849231114" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="905078053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+						</File>
+						<File Id="941915896" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_24.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_24_77F467B1.wem</Path>
+						</File>
+						<File Id="957417451" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_21_77F467B1.wem</Path>
+						</File>
+						<File Id="958021781" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+						</File>
+						<File Id="959634289" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+						</File>
+						<File Id="964587024" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_23_77F467B1.wem</Path>
+						</File>
+						<File Id="974965136" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_27.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_27_77F467B1.wem</Path>
+						</File>
+						<File Id="978803734" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+						</File>
+						<File Id="986862932" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_18_77F467B1.wem</Path>
+						</File>
+						<File Id="989213648" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1019083895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+						</File>
+						<File Id="1020802222" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+						</File>
+						<File Id="1035319625" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="1054859012" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+						</File>
+						<File Id="1061103094" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_09_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="4080238870" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor" GUID="{7A45F4E1-DA04-4EF1-82B0-8033F7953B60}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="189458288" Name="AudioStateIndoor_20_Quantum_Dungeon_Corridor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Corridor" GUID="{BEAC1F50-CE7E-481B-A37E-CCD37D43B3FB}"/>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1076948918" Name="AudioEvent_AM_T20_Dungeon_Corridor_Deep" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_Corridor_Deep" GUID="{3EF78592-9638-4183-8E0D-AC2B7D3C6A55}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="48027244" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="59415389" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+						</File>
+						<File Id="136270660" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+						</File>
+						<File Id="204400998" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+						</File>
+						<File Id="206990468" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+						</File>
+						<File Id="305949429" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+						</File>
+						<File Id="324046469" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+						</File>
+						<File Id="354937915" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+						</File>
+						<File Id="393658503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
+						</File>
+						<File Id="517656252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+						</File>
+						<File Id="599258456" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+						</File>
+						<File Id="604319211" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
+						</File>
+						<File Id="624847673" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="731336208" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+						</File>
+						<File Id="746298407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+						</File>
+						<File Id="758752502" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+						</File>
+						<File Id="780384385" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+						</File>
+						<File Id="793294133" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+						</File>
+						<File Id="901629827" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="905078053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+						</File>
+						<File Id="958021781" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+						</File>
+						<File Id="959634289" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+						</File>
+						<File Id="978803734" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+						</File>
+						<File Id="1019083895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+						</File>
+						<File Id="1020802222" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+						</File>
+						<File Id="1033943678" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1054859012" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="966862579" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor_Deep" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor_Deep" GUID="{074C757E-4858-4492-8F84-52EAF83CA196}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+						<ActionSetStateEntry Id="2417264765" Name="AudioStateIndoor_20_Quantum_Dungeon_Corridor_Deep" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Corridor_Deep" GUID="{1F50421D-7E84-46ED-9F60-C0E3EA5978F3}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="293755105" Name="AudioEvent_AM_T20_Dungeon_LargeRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_LargeRoom" GUID="{2DC0192A-0644-4CD9-81A8-87FFFECA6DE2}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="48027244" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="59415389" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+						</File>
+						<File Id="136270660" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+						</File>
+						<File Id="204400998" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+						</File>
+						<File Id="206990468" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+						</File>
+						<File Id="305949429" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+						</File>
+						<File Id="324046469" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+						</File>
+						<File Id="354937915" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+						</File>
+						<File Id="393658503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
+						</File>
+						<File Id="517656252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+						</File>
+						<File Id="599258456" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+						</File>
+						<File Id="604319211" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
+						</File>
+						<File Id="624847673" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="731336208" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+						</File>
+						<File Id="746298407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+						</File>
+						<File Id="758752502" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+						</File>
+						<File Id="780384385" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+						</File>
+						<File Id="793294133" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+						</File>
+						<File Id="901629827" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="905078053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+						</File>
+						<File Id="958021781" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+						</File>
+						<File Id="959634289" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+						</File>
+						<File Id="978803734" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+						</File>
+						<File Id="1019083895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+						</File>
+						<File Id="1020802222" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+						</File>
+						<File Id="1033943678" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1054859012" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3468453504" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_LargeRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_LargeRoom" GUID="{5A1CE603-C8C2-4340-B4A2-D1F8B4F29C49}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1486476050" Name="AudioStateIndoor_20_Quantum_Dungeon_LargeRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_LargeRoom" GUID="{2D15F53B-24CC-4378-946C-D4326490C6C1}"/>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="747498371" Name="AudioEvent_AM_T20_Dungeon_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_MediumRoom" GUID="{4569BCFF-72EF-44CC-AADD-3A29F6C90D68}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="20766816" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="59415389" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+						</File>
+						<File Id="136270660" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+						</File>
+						<File Id="204400998" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+						</File>
+						<File Id="206990468" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+						</File>
+						<File Id="305949429" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+						</File>
+						<File Id="323949102" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="324046469" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+						</File>
+						<File Id="354937915" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+						</File>
+						<File Id="393658503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
+						</File>
+						<File Id="517656252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+						</File>
+						<File Id="599258456" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+						</File>
+						<File Id="604319211" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
+						</File>
+						<File Id="695895611" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="731336208" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+						</File>
+						<File Id="746298407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+						</File>
+						<File Id="758752502" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+						</File>
+						<File Id="780384385" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+						</File>
+						<File Id="793294133" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+						</File>
+						<File Id="905078053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+						</File>
+						<File Id="958021781" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+						</File>
+						<File Id="959634289" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+						</File>
+						<File Id="978803734" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+						</File>
+						<File Id="1019083895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+						</File>
+						<File Id="1020802222" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+						</File>
+						<File Id="1054859012" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3510377248" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_MediumRoom" GUID="{3C817D60-A9CA-4FAC-AF80-DCFF81B65266}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+						<ActionSetStateEntry Id="2114885918" Name="AudioStateIndoor_20_Quantum_Dungeon_MediumRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_MediumRoom" GUID="{AA3BB7E3-8298-4E7B-BA7B-21612847D704}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4210718130" Name="AudioEvent_AM_T20_Dungeon_TortureChamber" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_TortureChamber" GUID="{382789C1-F94B-4351-95DA-500091D79D13}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="48027244" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="59415389" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+						</File>
+						<File Id="136270660" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+						</File>
+						<File Id="204400998" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+						</File>
+						<File Id="206990468" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+						</File>
+						<File Id="305949429" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+						</File>
+						<File Id="324046469" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+						</File>
+						<File Id="354937915" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+						</File>
+						<File Id="393658503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
+						</File>
+						<File Id="517656252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+						</File>
+						<File Id="599258456" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+						</File>
+						<File Id="604319211" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
+						</File>
+						<File Id="624847673" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="731336208" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+						</File>
+						<File Id="746298407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+						</File>
+						<File Id="758752502" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+						</File>
+						<File Id="780384385" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+						</File>
+						<File Id="793294133" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+						</File>
+						<File Id="901629827" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="905078053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+						</File>
+						<File Id="958021781" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+						</File>
+						<File Id="959634289" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+						</File>
+						<File Id="978803734" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+						</File>
+						<File Id="1019083895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+						</File>
+						<File Id="1020802222" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+						</File>
+						<File Id="1033943678" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="1054859012" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3468453504" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_LargeRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_LargeRoom" GUID="{5A1CE603-C8C2-4340-B4A2-D1F8B4F29C49}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+						<ActionSetStateEntry Id="3292373871" Name="AudioStateIndoor_20_Quantum_Dungeon_TortureChamber" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_TortureChamber" GUID="{28FC3BA2-D82D-4822-B85B-BE7367ABD9F8}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1742297041" Name="AudioEvent_AM_T20_Dungeon_Tunnel" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Dungeon_Tunnel" GUID="{FD99CE47-E75C-48E2-9C75-D640949B4C18}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="59415389" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+						</File>
+						<File Id="136270660" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+						</File>
+						<File Id="204400998" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+						</File>
+						<File Id="206990468" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+						</File>
+						<File Id="305949429" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+						</File>
+						<File Id="324046469" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+						</File>
+						<File Id="354937915" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+						</File>
+						<File Id="393658503" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
+						</File>
+						<File Id="517656252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+						</File>
+						<File Id="599258456" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+						</File>
+						<File Id="604319211" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
+						</File>
+						<File Id="731336208" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+						</File>
+						<File Id="746298407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+						</File>
+						<File Id="758752502" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+						</File>
+						<File Id="780384385" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+						</File>
+						<File Id="793294133" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+						</File>
+						<File Id="905078053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+						</File>
+						<File Id="958021781" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+						</File>
+						<File Id="959634289" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+						</File>
+						<File Id="978803734" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+						</File>
+						<File Id="1019083895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+						</File>
+						<File Id="1020802222" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+						</File>
+						<File Id="1054859012" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="281635654" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_Tunnel" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_Tunnel" GUID="{1472D311-13F5-4A2F-9A6A-DDC39358F61B}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}"/>
+						<ActionSetStateEntry Id="2965676904" Name="AudioStateIndoor_20_Quantum_Dungeon_Tunnel" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Tunnel" GUID="{C973E516-0A12-420D-B5C0-D31C2A0BEC18}"/>
+					</ActionSetState>
+					<AuxBusSends>
+						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2679209059" Name="AudioEvent_AM_T20_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Escape" GUID="{0C9D50D4-3156-49F5-958D-E73436364872}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
@@ -556,6 +1612,33 @@
 						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="4107485313" Name="AudioEvent_AM_T20_Tower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Tower" GUID="{3374D9F8-AB02-452C-9712-2E03C9586877}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3319940448" Name="AudioEvent_Rev_Int_20_Quantum_Tower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Tower" GUID="{26B14EA0-2C1A-4C1B-8A8A-21FCD78990C7}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2420915422" Name="AudioStateIndoor_20_Quantum_Tower" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower" GUID="{F709B1FD-173F-42DE-BC28-379484384622}"/>
+						<ActionSetStateEntry Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3797115486" Name="AudioEvent_AM_T20_Tower_Stairs" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Tower_Stairs" GUID="{007C07CD-732A-4F6E-B0B0-027B4B1A40E5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3319940448" Name="AudioEvent_Rev_Int_20_Quantum_Tower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Tower" GUID="{26B14EA0-2C1A-4C1B-8A8A-21FCD78990C7}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="67738103" Name="AudioStateIndoor_20_Quantum_Tower_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower_Stairs" GUID="{15579C65-C299-4677-9734-1D99D532CCE0}"/>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="763157769" Name="AudioEvent_AM_T20_Tower_Stairs_Mid" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AudioEvent_AM_T20_Tower_Stairs_Mid" GUID="{9FBF2003-EC50-40A6-8992-65143FDD5031}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3319940448" Name="AudioEvent_Rev_Int_20_Quantum_Tower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Tower" GUID="{26B14EA0-2C1A-4C1B-8A8A-21FCD78990C7}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry Id="261663268" Name="AudioStateIndoor_20_Quantum_Tower_Stairs_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower_Stairs_Mid" GUID="{FC2DB21F-00A4-4081-AF83-BA1A6D49B1C2}"/>
+						<ActionSetStateEntry Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="374294093" Name="AudioEvent_AM_Theme_20_Quantum" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AudioEvent_AM_Theme_20_Quantum" GUID="{3D22088F-43DD-405E-AC70-BB02006D80BA}" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="171939155" Language="SFX">
@@ -615,11 +1698,82 @@
 							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_maze_01_256CDB0F.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+					<ExcludedMemoryFiles>
+						<File Id="341861320" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_largeroom_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_largeroom_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="400543189" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_tunnel_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_tunnel_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="417297946" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_mediumroom_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_mediumroom_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="492697053" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_alchemyroom_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_alchemyroom_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="515972754" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_main_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_main_01_144EC439.wem</Path>
+						</File>
+						<File Id="684184173" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_corridor_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_corridor_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="1022311529" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_smallroom_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_smallroom_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{93700A66-A166-4A84-B6C3-D1A4AA969BBD}</DefaultSwitchValue>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C973E516-0A12-420D-B5C0-D31C2A0BEC18}">
+							<Media>
+								<File Id="400543189"/>
+								<File Id="515972754"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{931A0718-91DF-4BD9-AEED-111803432B81}">
+							<Media>
+								<File Id="492697053"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A3E9F819-D13A-4B82-9A74-D123AF4289CD}">
+							<Media>
+								<File Id="515972754"/>
+								<File Id="1022311529"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1F50421D-7E84-46ED-9F60-C0E3EA5978F3}">
+							<Media>
+								<File Id="515972754"/>
+								<File Id="684184173"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FC2DB21F-00A4-4081-AF83-BA1A6D49B1C2}">
+							<Media>
+								<File Id="417297946"/>
+								<File Id="515972754"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2D15F53B-24CC-4378-946C-D4326490C6C1}">
+							<Media>
+								<File Id="341861320"/>
+								<File Id="515972754"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C0AEAC45-41E3-45FF-BF43-30A261268A81}">
 							<Media>
 								<File Id="995504498"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BEAC1F50-CE7E-481B-A37E-CCD37D43B3FB}">
+							<Media>
+								<File Id="515972754"/>
+								<File Id="684184173"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{59A98554-184D-4D06-AA9A-1D76BBD31A79}">
@@ -634,6 +1788,12 @@
 								<File Id="806748816"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{15579C65-C299-4677-9734-1D99D532CCE0}">
+							<Media>
+								<File Id="417297946"/>
+								<File Id="515972754"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{10722F6D-F38E-492A-BBC4-00DA46F757F6}">
 							<Media>
 								<File Id="365808236"/>
@@ -642,6 +1802,12 @@
 						<SwitchContainer SwitchValue="{B087699A-842E-4E2E-BDB7-7B0E4A10A845}">
 							<Media>
 								<File Id="784298146"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{28FC3BA2-D82D-4822-B85B-BE7367ABD9F8}">
+							<Media>
+								<File Id="341861320"/>
+								<File Id="515972754"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{3B0869A5-8F65-4777-BB1B-6918D6D459CB}">
@@ -661,9 +1827,20 @@
 								<File Id="556183093"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AA3BB7E3-8298-4E7B-BA7B-21612847D704}">
+							<Media>
+								<File Id="417297946"/>
+								<File Id="515972754"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{3C211CF0-E0F0-4779-BE84-BFF5ED73A7DB}">
 							<Media>
 								<File Id="179046316"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F709B1FD-173F-42DE-BC28-379484384622}">
+							<Media>
+								<File Id="515972754"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{05B30C2D-43EA-4094-A1ED-4653D80368E7}">
@@ -730,6 +1907,12 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="3556850496" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_AlchemyRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_AlchemyRoom" GUID="{3E587FD1-76A2-49E9-A8F6-BA683B2184B6}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4080238870" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor" GUID="{7A45F4E1-DA04-4EF1-82B0-8033F7953B60}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="966862579" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor_Deep" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_Corridor_Deep" GUID="{074C757E-4858-4492-8F84-52EAF83CA196}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3468453504" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_LargeRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_LargeRoom" GUID="{5A1CE603-C8C2-4340-B4A2-D1F8B4F29C49}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3510377248" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_MediumRoom" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_MediumRoom" GUID="{3C817D60-A9CA-4FAC-AF80-DCFF81B65266}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="281635654" Name="AudioEvent_Rev_Int_20_Quantum_Dungeon_Tunnel" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Dungeon_Tunnel" GUID="{1472D311-13F5-4A2F-9A6A-DDC39358F61B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3387126820" Name="AudioEvent_REV_int_20_Quantum_Escape" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_REV_int_20_Quantum_Escape" GUID="{027B4236-DAEC-4F48-8A43-0E22B4A28749}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="806988951" Name="AudioEvent_REV_int_20_Quantum_KillerBasement" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_REV_int_20_Quantum_KillerBasement" GUID="{DC6FE41B-A73A-4736-BC42-EDFFFB5921DA}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="649988672" Name="AudioEvent_REV_int_20_Quantum_KillerBasement_Stairs" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_REV_int_20_Quantum_KillerBasement_Stairs" GUID="{611DD6D7-AFD7-47CC-8226-40D69041096D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -737,6 +1920,160 @@
 				<Event Id="532874860" Name="AudioEvent_REV_int_20_Quantum_Maze" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_REV_int_20_Quantum_Maze" GUID="{966B714D-3B49-4B19-BA9B-F83C93E7C8C5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3042915552" Name="AudioEvent_REV_int_20_Quantum_RuinedHouse" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_REV_int_20_Quantum_RuinedHouse" GUID="{26DAF335-DE86-4984-82C9-B9F95963228F}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="266733851" Name="AudioEvent_REV_int_20_Quantum_Shack" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_REV_int_20_Quantum_Shack" GUID="{09285360-A71C-4DE8-B045-36BA462868F9}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3319940448" Name="AudioEvent_Rev_Int_20_Quantum_Tower" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_TILE\AM_Reverb_20_Quantum\AudioEvent_Rev_Int_20_Quantum_Tower" GUID="{26B14EA0-2C1A-4C1B-8A8A-21FCD78990C7}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2078241024" Name="AudioEvent_T20_Emitter_AlchemyCeiling" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_AlchemyCeiling" GUID="{B232EF32-4463-4A0A-9ECC-EEA4DD7A2426}" MaxAttenuation="1200." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="147336833" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="174779374" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="205856463" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="328402424" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="356104034" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="602432493" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="897327255" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="909198888" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1010988958" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1374344961" Name="AudioEvent_T20_Emitter_AlchemyStation" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_AlchemyStation" GUID="{D67F961A-108C-4E31-A7BC-9A138180B403}" MaxAttenuation="450." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="777093449" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_station_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_station_01_3E2D33F4.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3068624422" Name="AudioEvent_T20_Emitter_CagesPile_Rattle" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_CagesPile_Rattle" GUID="{A9F06066-9522-41DD-89E5-9376C50FAD8F}" MaxAttenuation="1700." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="148094252" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="235820181" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="297749002" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="346094165" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="406000108" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="431199142" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="515015492" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="584645407" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="614030441" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="845058570" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="874715514" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="1068522621" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1436504038" Name="AudioEvent_T20_Emitter_CagesPile_Squeak" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_CagesPile_Squeak" GUID="{CA0FCA61-9420-407A-84A3-6724FF4A9DC0}" MaxAttenuation="1700." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="25902032" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="60762638" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="90254574" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="160043039" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="566748634" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="644406791" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="687364605" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="735148140" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="991824560" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="1018801671" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="1021840680" Name="AudioEvent_T20_Emitter_Cauldron" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_Cauldron" GUID="{DEAF0437-D6FA-4740-863A-2050837E01E1}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="2250191" Language="SFX">
@@ -752,6 +2089,90 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1981306630" Name="AudioEvent_T20_Emitter_DeepScreams" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_DeepScreams" GUID="{2E05A429-8AA6-4113-8E9B-8BC9587671B8}" MaxAttenuation="3400." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="198130236" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="223848071" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="244603704" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="269793008" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="292610287" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="315963162" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="320586761" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="381379084" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="403261226" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="430926092" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="488411940" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="497028886" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="565189899" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="665663993" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="708533979" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="776428939" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="941319650" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="950328927" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1009254587" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1024803526" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="1809484727" Name="AudioEvent_T20_Emitter_Ember" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_Ember" GUID="{B60EC27F-89A3-454E-967B-AC3F33E733B1}" MaxAttenuation="450." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="418654938" Language="SFX">
@@ -762,6 +2183,101 @@
 					<AuxBusSends>
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="3958633972" Name="AudioEvent_T20_Emitter_Fire_Far" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_Fire_Far" GUID="{A1348656-E17C-4855-B77B-160A1D4AF114}" MaxAttenuation="3400." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="892136216" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_far_loop_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_far_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2898422376" Name="AudioEvent_T20_Emitter_Fire_Medium" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_Fire_Medium" GUID="{BE4F8A60-2D5D-4894-915A-3F0A435E9ED5}" MaxAttenuation="1700." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="112928232" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="3471494434" Name="AudioEvent_T20_Emitter_Fire_Small" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_Fire_Small" GUID="{60DDCD69-67B1-4CC9-AB79-FF09F0E3A6C4}" MaxAttenuation="850." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="112928232" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="674415425" Name="AudioEvent_T20_Emitter_FloorTrap" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_FloorTrap" GUID="{C57BD42F-E39A-41A7-A437-E1AD9544E4D8}" MaxAttenuation="850." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="112928232" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01_256CDB0F.wem</Path>
+						</File>
+						<File Id="129083310" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="208879090" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="220623105" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_11.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="234477562" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="284065384" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="534915521" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="549432368" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_09.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="593470714" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="663227378" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="806149610" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_12.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="887755965" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_13.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_13_7FA8D501.wem</Path>
+						</File>
+						<File Id="930236599" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="987742076" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_10.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_10_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1110618164" Name="AudioEvent_T20_Emitter_Grimoire" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_Grimoire" GUID="{6210685D-1D73-422A-AE9F-844941B18AF4}" MaxAttenuation="850." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="274499737" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_grimoire_loop_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_grimoire_loop_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="467814430" Name="AudioEvent_T20_Emitter_HangingCage" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_HangingCage" GUID="{F806EF4F-E7EC-446B-A9A5-7A7DC3294E76}" MaxAttenuation="850." DurationType="Infinite">
 					<ExcludedMemoryFiles>
@@ -822,6 +2338,57 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="1042166401" Name="AudioEvent_T20_Emitter_SingleScream" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_SingleScream" GUID="{7054587E-7C5E-40F3-8279-D5930792959D}" MaxAttenuation="450." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="222789954" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_singlescream_loop_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_singlescream_loop_01_D5A3193A.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1073254622" Name="AudioEvent_T20_Emitter_TowerWood" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_TowerWood" GUID="{98F9F17F-243E-4442-AFC6-87018BEAEF4E}" MaxAttenuation="2500." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="281221895" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="371690552" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="375706055" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="572443096" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_08.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_08_7FA8D501.wem</Path>
+						</File>
+						<File Id="880933603" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="953700206" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_07.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_07_7FA8D501.wem</Path>
+						</File>
+						<File Id="1025929893" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="603224157" Name="Reverb_INDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_INDOOR" GUID="{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3951692210" Name="AudioEvent_T20_Emitter_TunnelWind" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_TunnelWind" GUID="{076ACFE1-6659-4932-82BE-DB92741706AA}" MaxAttenuation="450." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="353970736" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tunnel_wind_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tunnel_wind_01_256CDB0F.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 				<Event Id="1118301035" Name="AudioEvent_T20_Emitter_UniqueTree" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_UniqueTree" GUID="{0B2034E2-E1A9-4BED-9E3A-50A7052949CE}" MaxAttenuation="3400." DurationType="Infinite">
 					<ExcludedMemoryFiles>
 						<File Id="334793432" Language="SFX">
@@ -843,6 +2410,37 @@
 						<File Id="1012414966" Language="SFX">
 							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_05.wav</ShortName>
 							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1893214735" Name="AudioEvent_T20_Emitter_WallTrap" ObjectPath="\Events\AMBIENCE\AMB_THEME\AMB_T20_Quantum\AMB_T20_EMITTER\AudioEvent_T20_Emitter_WallTrap" GUID="{CDC55CA1-2A33-4C3C-B51B-6AADF1C9A125}" MaxAttenuation="450." DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="92944031" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_06.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="111185093" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_01.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="205269066" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_04.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="297275618" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_03.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="606431608" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_02.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="702341135" Language="SFX">
+							<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_05.wav</ShortName>
+							<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_05_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 					<AuxBusSends>
@@ -881,88 +2479,102 @@
 					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
-			<ReferencedStreamedFiles>
-				<File Id="171939155" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_killerbasement_background_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_killerbasement_background_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="179046316" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_mainhouse_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_mainhouse_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="365808236" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_shack_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_shack_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="556183093" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_ruinedhouse_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_ruinedhouse_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="595767782" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_killerbasement_drops_10.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_killerbasement_drops_10_256CDB0F.wem</Path>
-				</File>
-				<File Id="610564081" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_gorymarket_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_gorymarket_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="614878224" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_weather_wind_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_weather_wind_01_37E07543.wem</Path>
-				</File>
-				<File Id="645316207" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_mainhouse_side_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_mainhouse_side_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="770115888" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_outdoor_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_outdoor_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="784298146" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_escape_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_escape_01_E746A26D.wem</Path>
-				</File>
-				<File Id="806748816" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_killerbasement_theentity_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_killerbasement_theentity_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="825196212" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_theme_quad_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_theme_quad_01_E925499C.wem</Path>
-				</File>
-				<File Id="909666447" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_fence_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_fence_01_256CDB0F.wem</Path>
-				</File>
-				<File Id="995504498" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_tile_maze_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_tile_maze_01_256CDB0F.wem</Path>
-				</File>
-			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="2250191" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cauldron_boiling_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cauldron_boiling_01_256CDB0F.wem</Path>
 				</File>
+				<File Id="4985676" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_26.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_26_77F467B1.wem</Path>
+				</File>
+				<File Id="20766816" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="22884419" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_04_77F467B1.wem</Path>
+				</File>
+				<File Id="25902032" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="31242808" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_33.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_33_77F467B1.wem</Path>
+				</File>
+				<File Id="32412689" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_02_77F467B1.wem</Path>
+				</File>
 				<File Id="40941169" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_04.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="45226514" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_25.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_25_77F467B1.wem</Path>
+				</File>
+				<File Id="48027244" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="52827845" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_03.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="52889337" Language="SFX">
-					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_intro_01.wav</ShortName>
-					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_intro_01_7FA8D501.wem</Path>
+				<File Id="59415389" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_16_B9078069.wem</Path>
+				</File>
+				<File Id="60762638" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_10.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="90254574" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="92944031" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_06.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="105447145" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_30.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_30_77F467B1.wem</Path>
+				</File>
 				<File Id="111185093" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="112928232" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_loop_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="129083310" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="136270660" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_12_B9078069.wem</Path>
+				</File>
+				<File Id="147336833" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="148094252" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_11.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="160043039" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="160948727" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl02_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl02_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="162947925" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_01.wav</ShortName>
@@ -972,49 +2584,245 @@
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_04.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="174779374" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="198130236" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="204400998" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_13_B9078069.wem</Path>
+				</File>
 				<File Id="205269066" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_04.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="205856463" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="206216818" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_32.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_32_77F467B1.wem</Path>
+				</File>
+				<File Id="206990468" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_02_B9078069.wem</Path>
+				</File>
+				<File Id="208879090" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="209165031" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_06.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="220623105" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_11.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="222789954" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_singlescream_loop_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_singlescream_loop_01_D5A3193A.wem</Path>
+				</File>
+				<File Id="223848071" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="234477562" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="235820181" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="244603704" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="269793008" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="274499737" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_grimoire_loop_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_grimoire_loop_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="281221895" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="284065384" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="285763149" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_12.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_12_77F467B1.wem</Path>
+				</File>
+				<File Id="292610287" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_04_7FA8D501.wem</Path>
+				</File>
 				<File Id="297275618" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_03.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="297749002" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="305949429" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_19_B9078069.wem</Path>
+				</File>
+				<File Id="315963162" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="320586761" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="323949102" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="324046469" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_11_B9078069.wem</Path>
+				</File>
+				<File Id="328402424" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="334793432" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="341861320" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_largeroom_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_largeroom_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="346094165" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="349057460" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cauldron_fire_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cauldron_fire_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="349940559" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_19.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_19_77F467B1.wem</Path>
+				</File>
+				<File Id="350879742" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl01_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_intro_lvl01_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="353970736" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tunnel_wind_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tunnel_wind_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="354937915" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_21_B9078069.wem</Path>
+				</File>
+				<File Id="356104034" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_09.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="358115092" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_06_77F467B1.wem</Path>
+				</File>
+				<File Id="368501927" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_13.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_13_77F467B1.wem</Path>
+				</File>
+				<File Id="371690552" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="375706055" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="378547551" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="381379084" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="382009006" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_03.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="388948276" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_10.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_10_77F467B1.wem</Path>
+				</File>
+				<File Id="393658503" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_20_B9078069.wem</Path>
 				</File>
 				<File Id="399334882" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_07.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_07_7FA8D501.wem</Path>
 				</File>
+				<File Id="400543189" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_tunnel_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_tunnel_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="403261226" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="406000108" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="415043271" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_05.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="417297946" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_mediumroom_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_mediumroom_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="418654938" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_ember_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_ember_01_256CDB0F.wem</Path>
 				</File>
+				<File Id="424632581" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_05_7FA8D501.wem</Path>
+				</File>
 				<File Id="429297580" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_02.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="430784616" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_09.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_09_77F467B1.wem</Path>
+				</File>
+				<File Id="430926092" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="431199142" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="433163876" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_31.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_31_77F467B1.wem</Path>
 				</File>
 				<File Id="437341452" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_02.wav</ShortName>
@@ -1024,37 +2832,297 @@
 					<ShortName>Object\Obj_Gameplay\ExitDoor_T20\sfx_exitdoor_t20_open_start_01.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\ExitDoor_T20\sfx_exitdoor_t20_open_start_01_7FA8D501.wem</Path>
 				</File>
+				<File Id="480453025" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_17.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_17_77F467B1.wem</Path>
+				</File>
+				<File Id="488411940" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="492697053" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_alchemyroom_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_alchemyroom_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="497028886" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_short_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="515015492" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="515972754" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_main_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_main_01_144EC439.wem</Path>
+				</File>
+				<File Id="517656252" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_09_B9078069.wem</Path>
+				</File>
 				<File Id="518396995" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_06.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="519671194" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_07_77F467B1.wem</Path>
+				</File>
+				<File Id="534915521" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_06_7FA8D501.wem</Path>
+				</File>
+				<File Id="549432368" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_09.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="551036715" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_20.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_20_77F467B1.wem</Path>
+				</File>
+				<File Id="565189899" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="566748634" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="572443096" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="575943853" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_34.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_34_77F467B1.wem</Path>
+				</File>
+				<File Id="584645407" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="591643484" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_15.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_15_77F467B1.wem</Path>
+				</File>
+				<File Id="593470714" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="599258456" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_05_B9078069.wem</Path>
+				</File>
+				<File Id="599472828" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="602432493" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="604319211" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_23_B9078069.wem</Path>
 				</File>
 				<File Id="606431608" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_02.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="614030441" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_10.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="624847673" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="634207440" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_01_77F467B1.wem</Path>
+				</File>
+				<File Id="644406791" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="646618754" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_01_7FA8D501.wem</Path>
+				</File>
 				<File Id="654378529" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_04.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="659509954" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_16.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_16_77F467B1.wem</Path>
+				</File>
+				<File Id="663227378" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="663973283" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_29.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_29_77F467B1.wem</Path>
+				</File>
+				<File Id="664898952" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_28.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_28_77F467B1.wem</Path>
+				</File>
+				<File Id="665275233" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="665663993" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="684184173" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_corridor_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_corridor_01_256CDB0F.wem</Path>
 				</File>
 				<File Id="687093369" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_06.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_06_7FA8D501.wem</Path>
 				</File>
+				<File Id="687364605" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="695895611" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="702341135" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_05.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_well_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="708533979" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_high_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="713355223" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_05.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="716680503" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="731336208" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_01_B9078069.wem</Path>
+				</File>
+				<File Id="731389130" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_14.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_14_77F467B1.wem</Path>
+				</File>
+				<File Id="735148140" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="746298407" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_15_B9078069.wem</Path>
+				</File>
 				<File Id="752551548" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_03.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_03_7FA8D501.wem</Path>
 				</File>
+				<File Id="758752502" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_17_B9078069.wem</Path>
+				</File>
+				<File Id="764504862" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="765370835" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_08_77F467B1.wem</Path>
+				</File>
+				<File Id="776428939" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="777093449" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_station_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_station_01_3E2D33F4.wem</Path>
+				</File>
+				<File Id="780384385" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_18_B9078069.wem</Path>
+				</File>
+				<File Id="793294133" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_10_B9078069.wem</Path>
+				</File>
+				<File Id="805052720" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_10.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_10_7FA8D501.wem</Path>
+				</File>
+				<File Id="806149610" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_12.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="823348234" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_11.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_11_77F467B1.wem</Path>
+				</File>
+				<File Id="828907440" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="828912007" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_22.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_22_77F467B1.wem</Path>
+				</File>
+				<File Id="845058570" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_09.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="849231114" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="874715514" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_12.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_12_7FA8D501.wem</Path>
+				</File>
+				<File Id="880933603" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="887755965" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_13.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_13_7FA8D501.wem</Path>
+				</File>
+				<File Id="892136216" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_far_loop_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_fire_far_loop_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="897327255" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_08_7FA8D501.wem</Path>
+				</File>
+				<File Id="901629827" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="905078053" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_06_B9078069.wem</Path>
+				</File>
+				<File Id="909198888" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_07_7FA8D501.wem</Path>
+				</File>
 				<File Id="910503673" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_01.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="930236599" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="933692842" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_hangingcage_05.wav</ShortName>
@@ -1064,17 +3132,85 @@
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_04.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_04_7FA8D501.wem</Path>
 				</File>
+				<File Id="941319650" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="941915896" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_24.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_24_77F467B1.wem</Path>
+				</File>
+				<File Id="950328927" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="953700206" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_07_7FA8D501.wem</Path>
+				</File>
+				<File Id="957417451" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_21.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_21_77F467B1.wem</Path>
+				</File>
+				<File Id="958021781" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_03_B9078069.wem</Path>
+				</File>
+				<File Id="959634289" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_08_B9078069.wem</Path>
+				</File>
+				<File Id="964587024" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_23.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_23_77F467B1.wem</Path>
+				</File>
 				<File Id="969334369" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_03.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="974965136" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_27.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_27_77F467B1.wem</Path>
+				</File>
+				<File Id="978803734" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_07_B9078069.wem</Path>
+				</File>
+				<File Id="986862932" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_18.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_waterdrops_18_77F467B1.wem</Path>
+				</File>
+				<File Id="987742076" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_10.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_floortrap_10_7FA8D501.wem</Path>
 				</File>
 				<File Id="988797396" Language="SFX">
 					<ShortName>Object\Obj_Gameplay\ExitDoor_T20\sfx_exitdoor_t20_open_loop_01.wav</ShortName>
 					<Path>SFX\Object\Obj_Gameplay\ExitDoor_T20\sfx_exitdoor_t20_open_loop_01_256CDB0F.wem</Path>
 				</File>
+				<File Id="989213648" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_02.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="991824560" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_09.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="994066733" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_alchemyroom_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="995777256" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_02.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_flies_02_7FA8D501.wem</Path>
+				</File>
+				<File Id="1009254587" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_low_03_7FA8D501.wem</Path>
+				</File>
+				<File Id="1010988958" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_alchemy_ceiling_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="1012348426" Language="SFX">
 					<ShortName>Object\Obj_Gameplay\ExitDoor_T20\sfx_exitdoor_t20_open_stop_01.wav</ShortName>
@@ -1084,19 +3220,74 @@
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_05.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_uniquetree_scream_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="1018801671" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_05.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_squeak_05_7FA8D501.wem</Path>
+				</File>
+				<File Id="1019083895" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_22_B9078069.wem</Path>
+				</File>
+				<File Id="1020802222" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_04_B9078069.wem</Path>
+				</File>
+				<File Id="1022311529" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_smallroom_01.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_tile_dungeon_smallroom_01_256CDB0F.wem</Path>
+				</File>
+				<File Id="1024803526" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_deepscreams_basement_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="1025929893" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_tower_wood_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="1033943678" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_horror_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="1035319625" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_06.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_06_7FA8D501.wem</Path>
+				</File>
 				<File Id="1040771410" Language="SFX">
 					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_02.wav</ShortName>
 					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_limitpoint_desert_voice_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="1054859012" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_common_rdm_rat_14_B9078069.wem</Path>
+				</File>
+				<File Id="1061103094" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_09.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_rdm_metal_09_7FA8D501.wem</Path>
+				</File>
+				<File Id="1068522621" Language="SFX">
+					<ShortName>Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_03.wav</ShortName>
+					<Path>SFX\Ambience\Theme\T20_Quantum\am_t20_quantum_emt_cage_rattle_03_7FA8D501.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="1667051498" Name="AudioRTPC_Listener_Elevation_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Elevation_Object_Relative" GUID="{A51BBEF3-A598-467B-ADA0-CBCC6E0BB4A4}"/>
+				<GameParameter Id="2938871122" Name="AudioRTPC_VOL_Amb_AlchemyRoom" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_Amb_AlchemyRoom" GUID="{0BCA50F1-9AA9-4725-97E6-8F4FBB2C5348}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="67738103" Name="AudioStateIndoor_20_Quantum_Tower_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower_Stairs" GUID="{15579C65-C299-4677-9734-1D99D532CCE0}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="76576761" Name="AudioStateIndoor_20_Quantum_Shack" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Shack" GUID="{10722F6D-F38E-492A-BBC4-00DA46F757F6}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="103069270" Name="AudioStateIndoor_20_Quantum_KillerBasement_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_KillerBasement_Stairs" GUID="{9812895E-06D7-46A0-95C6-2136C3585655}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="189458288" Name="AudioStateIndoor_20_Quantum_Dungeon_Corridor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Corridor" GUID="{BEAC1F50-CE7E-481B-A37E-CCD37D43B3FB}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="261663268" Name="AudioStateIndoor_20_Quantum_Tower_Stairs_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower_Stairs_Mid" GUID="{FC2DB21F-00A4-4081-AF83-BA1A6D49B1C2}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="578367998" Name="AudioStateIndoor_20_Quantum_Maze" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Maze" GUID="{C0AEAC45-41E3-45FF-BF43-30A261268A81}">
@@ -1109,6 +3300,9 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1278586972" Name="AudioStateIndoor_20_Quantum_MainHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_MainHouse" GUID="{3C211CF0-E0F0-4779-BE84-BFF5ED73A7DB}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1304853954" Name="AudioStateIndoor_20_Quantum_Dungeon_Cell" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Cell" GUID="{A3E9F819-D13A-4B82-9A74-D123AF4289CD}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1367787927" Name="AudioStateOutdoor_20_Quantum" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateOutdoor_20_Quantum" GUID="{C1637F84-7F55-4977-A5BB-9A177AF31656}">
@@ -1130,7 +3324,21 @@
 						<State Id="1278586972" Name="AudioStateIndoor_20_Quantum_MainHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_MainHouse" GUID="{3C211CF0-E0F0-4779-BE84-BFF5ED73A7DB}"/>
 						<State Id="578367998" Name="AudioStateIndoor_20_Quantum_Maze" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Maze" GUID="{C0AEAC45-41E3-45FF-BF43-30A261268A81}"/>
 						<State Id="1860064510" Name="AudioStateIndoor_20_Quantum_MainHouse_Side" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_MainHouse_Side" GUID="{3B0869A5-8F65-4777-BB1B-6918D6D459CB}"/>
+						<State Id="2420915422" Name="AudioStateIndoor_20_Quantum_Tower" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower" GUID="{F709B1FD-173F-42DE-BC28-379484384622}"/>
+						<State Id="67738103" Name="AudioStateIndoor_20_Quantum_Tower_Stairs" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower_Stairs" GUID="{15579C65-C299-4677-9734-1D99D532CCE0}"/>
+						<State Id="4275628286" Name="AudioStateIndoor_20_Quantum_Dungeon_AlchemyRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_AlchemyRoom" GUID="{931A0718-91DF-4BD9-AEED-111803432B81}"/>
+						<State Id="1486476050" Name="AudioStateIndoor_20_Quantum_Dungeon_LargeRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_LargeRoom" GUID="{2D15F53B-24CC-4378-946C-D4326490C6C1}"/>
+						<State Id="2114885918" Name="AudioStateIndoor_20_Quantum_Dungeon_MediumRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_MediumRoom" GUID="{AA3BB7E3-8298-4E7B-BA7B-21612847D704}"/>
+						<State Id="189458288" Name="AudioStateIndoor_20_Quantum_Dungeon_Corridor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Corridor" GUID="{BEAC1F50-CE7E-481B-A37E-CCD37D43B3FB}"/>
+						<State Id="1304853954" Name="AudioStateIndoor_20_Quantum_Dungeon_Cell" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Cell" GUID="{A3E9F819-D13A-4B82-9A74-D123AF4289CD}"/>
+						<State Id="2965676904" Name="AudioStateIndoor_20_Quantum_Dungeon_Tunnel" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Tunnel" GUID="{C973E516-0A12-420D-B5C0-D31C2A0BEC18}"/>
+						<State Id="3292373871" Name="AudioStateIndoor_20_Quantum_Dungeon_TortureChamber" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_TortureChamber" GUID="{28FC3BA2-D82D-4822-B85B-BE7367ABD9F8}"/>
+						<State Id="2417264765" Name="AudioStateIndoor_20_Quantum_Dungeon_Corridor_Deep" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Corridor_Deep" GUID="{1F50421D-7E84-46ED-9F60-C0E3EA5978F3}"/>
+						<State Id="261663268" Name="AudioStateIndoor_20_Quantum_Tower_Stairs_Mid" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower_Stairs_Mid" GUID="{FC2DB21F-00A4-4081-AF83-BA1A6D49B1C2}"/>
 					</States>
+				</StateGroup>
+				<StateGroup Id="1486476050" Name="AudioStateIndoor_20_Quantum_Dungeon_LargeRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_LargeRoom" GUID="{2D15F53B-24CC-4378-946C-D4326490C6C1}">
+					<States/>
 				</StateGroup>
 				<StateGroup Id="1627484778" Name="AudioStateOutdoor_20_Quantum_Outdoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateOutdoor_20_Quantum\AudioStateOutdoor_20_Quantum_Outdoor" GUID="{93700A66-A166-4A84-B6C3-D1A4AA969BBD}">
 					<States/>
@@ -1141,10 +3349,22 @@
 				<StateGroup Id="2046511725" Name="AudioStateInOut_Basement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Basement" GUID="{83F0DC21-ED8F-4609-AC30-CF9CFB300944}">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="2114885918" Name="AudioStateIndoor_20_Quantum_Dungeon_MediumRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_MediumRoom" GUID="{AA3BB7E3-8298-4E7B-BA7B-21612847D704}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2417264765" Name="AudioStateIndoor_20_Quantum_Dungeon_Corridor_Deep" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Corridor_Deep" GUID="{1F50421D-7E84-46ED-9F60-C0E3EA5978F3}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2420915422" Name="AudioStateIndoor_20_Quantum_Tower" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Tower" GUID="{F709B1FD-173F-42DE-BC28-379484384622}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="2700327433" Name="AudioStateInOut_Middle" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Middle" GUID="{1E0E4FEC-CE9D-4C73-B893-52B08DFC5965}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2843566831" Name="AudioStateInOut_Indoor" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_00_Common\AudioStateInOut\AudioStateInOut_Indoor" GUID="{AB73A13D-FA6D-4BAD-9DF3-9A8D4C8E9685}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2965676904" Name="AudioStateIndoor_20_Quantum_Dungeon_Tunnel" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_Tunnel" GUID="{C973E516-0A12-420D-B5C0-D31C2A0BEC18}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2983418921" Name="AudioStateIndoor_20_Quantum_KillerBasement" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_KillerBasement" GUID="{2E5161A9-5AEF-4C00-A104-4FD2BEACD2DC}">
@@ -1153,10 +3373,23 @@
 				<StateGroup Id="3192450282" Name="AudioStateIndoor_20_Quantum_Escape" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Escape" GUID="{B087699A-842E-4E2E-BDB7-7B0E4A10A845}">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="3292373871" Name="AudioStateIndoor_20_Quantum_Dungeon_TortureChamber" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_TortureChamber" GUID="{28FC3BA2-D82D-4822-B85B-BE7367ABD9F8}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="3422007695" Name="AudioStateOutdoor_20_Quantum_GoryMarket" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateOutdoor_20_Quantum\AudioStateOutdoor_20_Quantum_GoryMarket" GUID="{05B30C2D-43EA-4094-A1ED-4653D80368E7}">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="3766265097" Name="AudioStateMap_20_Quantum" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateMap_20_Quantum" GUID="{E9C9C435-A66C-4576-AFE5-49CCAD12F214}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateMap_20_Quantum\None" GUID="{12C03835-7B1E-4BD6-95FE-4854E20F0E9A}"/>
+						<State Id="987635873" Name="Level_01" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateMap_20_Quantum\Level_01" GUID="{7CA036F1-6E3B-4318-BA3B-0F315E40EF18}"/>
+						<State Id="987635874" Name="Level_02" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateMap_20_Quantum\Level_02" GUID="{C74E1D75-CC68-40AE-8094-A9A68CC10823}"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="4215405026" Name="AudioStateIndoor_20_Quantum_RuinedHouse" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_RuinedHouse" GUID="{D1B0EBDA-9ACC-4D8C-9DEF-071139902675}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4275628286" Name="AudioStateIndoor_20_Quantum_Dungeon_AlchemyRoom" ObjectPath="\States\STATES_AMBIENCE\STATE_Theme_20_Quantum\AudioStateIndoor_20_Quantum\AudioStateIndoor_20_Quantum_Dungeon_AlchemyRoom" GUID="{931A0718-91DF-4BD9-AEED-111803432B81}">
 					<States/>
 				</StateGroup>
 			</StateGroups>
