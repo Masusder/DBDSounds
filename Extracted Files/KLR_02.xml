@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\</ProjectRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Donut\</ProjectRoot>
 		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Churros\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Donut\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Donut\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115651" GUID="{D4C93B70-A39C-4B1E-AA00-8173CAAF1FAB}" Language="SFX" Hash="1327558791">
+		<SoundBank Id="1491115651" GUID="{D4C93B70-A39C-4B1E-AA00-8173CAAF1FAB}" Language="SFX" Hash="3550876330">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_02</ObjectPath>
 			<ShortName>KLR_02</ShortName>
 			<Path>KLR_02.bnk</Path>
@@ -232,7 +232,35 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1160782894" Name="AudioEvent_K02_PWR_Invisibility_Burn_Out" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_POWER\AudioEvent_K02_PWR_Invisibility_Burn_Out" GUID="{74DC49C7-097E-47D4-90EE-DCF75D40B705}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.310431" DurationMax="3.335374">
+				<Event Id="4097125138" Name="AudioEvent_K02_PWR_Invisibility_Burn_Out_KLR" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_POWER\AudioEvent_K02_PWR_Invisibility_Burn_Out_KLR" GUID="{AADA1BED-B08D-42D1-9C0A-92D607A260E9}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="2.010431" DurationMax="2.035374">
+					<ExcludedMemoryFiles>
+						<File Id="184714902" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_killer_invisibility_cracks_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_killer_invisibility_cracks_02_67368C31.wem</Path>
+						</File>
+						<File Id="471743470" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_killer_invisibility_burn_02.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_killer_invisibility_burn_02_67368C31.wem</Path>
+						</File>
+						<File Id="751455321" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_killer_invisibility_burn_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_killer_invisibility_burn_03_67368C31.wem</Path>
+						</File>
+						<File Id="863654280" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_killer_invisibility_burn_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_killer_invisibility_burn_01_67368C31.wem</Path>
+						</File>
+						<File Id="871684920" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_killer_invisibility_cracks_01.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_killer_invisibility_cracks_01_67368C31.wem</Path>
+						</File>
+						<File Id="1003639127" Language="SFX">
+							<ShortName>Character\KLR_02\sfx_killer_invisibility_cracks_03.wav</ShortName>
+							<Path>SFX\Character\KLR_02\sfx_killer_invisibility_cracks_03_67368C31.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="4268844340" Name="AudioEvent_K02_PWR_Invisibility_Burn_Out_SVR" ObjectPath="\Events\CHARACTER\KILLER\K02_Wraith\K02_POWER\AudioEvent_K02_PWR_Invisibility_Burn_Out_SVR" GUID="{40A48D27-3AFB-4F7B-A03A-324706320923}" MaxAttenuation="1700." DurationType="OneShot" DurationMin="3.310431" DurationMax="3.335374">
 					<ExcludedMemoryFiles>
 						<File Id="184714902" Language="SFX">
 							<ShortName>Character\KLR_02\sfx_killer_invisibility_cracks_02.wav</ShortName>
@@ -1916,6 +1944,7 @@
 			<GameParameters>
 				<GameParameter Id="1130577794" Name="AudioRTPC_Addons_KLR_02_InvisibilityBell_CoxcombedClapper" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K02_Wraith\AudioRTPC_Addons_KLR_02_InvisibilityBell_CoxcombedClapper" GUID="{8A9176C7-EE0A-439E-A0A5-E9F3E92EC841}"/>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
+				<GameParameter Id="1524665321" Name="AudioRTPC_Character_IsLocallyObserved" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_IsLocallyObserved" GUID="{04E9CEAE-113D-4B2C-A803-4EC61F653E91}"/>
 				<GameParameter Id="1879560128" Name="AudioRTPC_KLR_02_Wraith_Chain_Moving_Speed" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K02_Wraith\AudioRTPC_KLR_02_Wraith_Chain_Moving_Speed" GUID="{F00F12DB-2BBB-479F-8B8A-E7DB2F838B47}"/>
 				<GameParameter Id="3217119996" Name="AudioRTPC_Addons_KLR_02_InvisibilityBell_BoneClapper" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K02_Wraith\AudioRTPC_Addons_KLR_02_InvisibilityBell_BoneClapper" GUID="{D6CBA4FE-CDDE-4DBE-A0FA-1C525D3357D0}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>

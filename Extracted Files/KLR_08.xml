@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\</ProjectRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Donut\</ProjectRoot>
 		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Churros\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Donut\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Donut\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1491115657" GUID="{E5A332B2-2244-4F7D-B7C6-FDE66B77A93D}" Language="SFX" Hash="3982028044">
+		<SoundBank Id="1491115657" GUID="{E5A332B2-2244-4F7D-B7C6-FDE66B77A93D}" Language="SFX" Hash="2045459974">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_08</ObjectPath>
 			<ShortName>KLR_08</ShortName>
 			<Path>KLR_08.bnk</Path>
@@ -576,7 +576,7 @@
 						<AuxBus Id="1578973140" Name="Reverb_OUTDOOR" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\WORLD\WORLD\REVERB\Reverb_OUTDOOR" GUID="{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2008034801" Name="AudioEvent_K08_GRUNT_Charge" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_GRUNT\AudioEvent_K08_GRUNT_Charge" GUID="{47752343-24F9-4290-A405-C0FA97E36B0E}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.316902" DurationMax="1.590824">
+				<Event Id="2008034801" Name="AudioEvent_K08_GRUNT_Charge" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_GRUNT\AudioEvent_K08_GRUNT_Charge" GUID="{47752343-24F9-4290-A405-C0FA97E36B0E}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="0.316902" DurationMax="1.171841">
 					<ExcludedMemoryFiles>
 						<File Id="8857104" Language="SFX">
 							<ShortName>Character\KLR_08\K08_CUSTO\Outfit024\vo_k08_custom_outfit024_grunt_charge_03.wav</ShortName>
@@ -1440,15 +1440,11 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="2118642458" Name="AudioEvent_K08_PWR_Hatchet_Throw_Loop_Stop" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_POWER\AudioEvent_K08_PWR_Hatchet_Throw_Loop_Stop" GUID="{BC64EFBB-11FF-4191-AC1E-00125251978E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1761157491" Name="AudioEvent_K08_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_STATUS\AudioEvent_K08_Status_Start" GUID="{0C2CCB94-0C01-4A55-829F-BCF3F00C835A}" DurationType="Infinite">
+				<Event Id="1761157491" Name="AudioEvent_K08_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K08_Huntress\K08_STATUS\AudioEvent_K08_Status_Start" GUID="{0C2CCB94-0C01-4A55-829F-BCF3F00C835A}" MaxAttenuation="5000." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="214011735" Language="SFX">
 							<ShortName>Music\Killer\mu_k08_lullaby.wav</ShortName>
 							<Path>SFX\Music\Killer\mu_k08_lullaby_D7147E5C.wem</Path>
-						</File>
-						<File Id="864254079" Language="SFX">
-							<ShortName>Music\Killer\mu_k08_lullaby.wav</ShortName>
-							<Path>SFX\Music\Killer\mu_k08_lullaby_31102CE5.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<ExcludedMemoryFiles>
@@ -1596,49 +1592,6 @@
 						<SwitchContainer SwitchValue="{BA71BC8E-7804-42EC-9E0A-65E0A86EBDE5}">
 							<Media>
 								<File Id="214011735"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{D135DCFE-6634-4A54-BE39-67883D4A9471}">
-							<Media>
-								<File Id="135468711"/>
-								<File Id="219080201"/>
-								<File Id="321147460"/>
-								<File Id="370197281"/>
-								<File Id="488095758"/>
-								<File Id="515093312"/>
-								<File Id="554575400"/>
-								<File Id="643602637"/>
-								<File Id="725064100"/>
-								<File Id="842266939"/>
-								<File Id="862295653"/>
-								<File Id="882636715"/>
-								<File Id="917388661"/>
-								<File Id="925782159"/>
-								<File Id="950316526"/>
-								<File Id="951615443"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{1B3ACE18-41C8-4647-B777-6FFD4EB05ACC}">
-							<Media>
-								<File Id="96405103"/>
-								<File Id="151698858"/>
-								<File Id="168928393"/>
-								<File Id="217738714"/>
-								<File Id="353607370"/>
-								<File Id="524122312"/>
-								<File Id="554128510"/>
-								<File Id="563296792"/>
-								<File Id="579398221"/>
-								<File Id="841323513"/>
-								<File Id="897972405"/>
-								<File Id="902438888"/>
-								<File Id="920379789"/>
-								<File Id="962976586"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BA71BC8E-7804-42EC-9E0A-65E0A86EBDE5}">
-							<Media>
-								<File Id="864254079"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D135DCFE-6634-4A54-BE39-67883D4A9471}">
@@ -3719,9 +3672,9 @@
 			<GameParameters>
 				<GameParameter Id="76994197" Name="AudioRTPC_Character_Moving_Speed" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Moving_Speed" GUID="{8991C3AF-5E60-42E7-9897-D271BD7AA2C9}"/>
 				<GameParameter Id="625919133" Name="AudioRTPC_Character_Rotation_Speed" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_Rotation_Speed" GUID="{A8073099-2A67-4E14-954D-6A21863A4D94}"/>
-				<GameParameter Id="1264094883" Name="AudioRTPC_Chase_Killer" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Chase_Killer" GUID="{4771F806-0A14-4917-83EB-EC7E98879116}"/>
 				<GameParameter Id="1343933513" Name="AudioRTPC_VOL_KLR_GRUNT" ObjectPath="\Game Parameters\RTPC_VOLUME\AudioRTPC_VOL_KLR_GRUNT" GUID="{BAAB17DD-4958-4CD7-AEA6-A2737955A39A}"/>
 				<GameParameter Id="1488839951" Name="AudioRTPC_Proximity_Survivor_Killer" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Proximity_Survivor_Killer" GUID="{DDFD515E-1AF8-4012-96A5-AE9851788E16}"/>
+				<GameParameter Id="1524665321" Name="AudioRTPC_Character_IsLocallyObserved" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Character_IsLocallyObserved" GUID="{04E9CEAE-113D-4B2C-A803-4EC61F653E91}"/>
 				<GameParameter Id="2935614212" Name="AudioRTPC_Chase_Survivor" ObjectPath="\Game Parameters\RTPC_CHARACTER\RTPC_K00_COMMON\AudioRTPC_Chase_Survivor" GUID="{173C4D0D-11E9-4F47-871B-1284E8907774}"/>
 				<GameParameter Id="3539671151" Name="AudioRTPC_Snowman_KLR_Attenuation" ObjectPath="\Game Parameters\RTPC_OBJECT\AudioRTPC_Snowman_KLR_Attenuation" GUID="{E03A94D6-189E-4C55-8FF8-DCCB020DFB2F}"/>
 				<GameParameter Id="4096507154" Name="AudioRTPC_Listener_Angle_Object_Relative" ObjectPath="\Game Parameters\RTPC_WORLD\AudioRTPC_Listener_Angle_Object_Relative" GUID="{4A4DA43C-9F93-4C5C-A3EF-C2E12ACD41D3}"/>

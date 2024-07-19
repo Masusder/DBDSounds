@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\</ProjectRoot>
+		<ProjectRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Donut\</ProjectRoot>
 		<SourceFilesRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\DeadByDaylight_Churros\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<SoundBanksRoot>Z:\DeadByDaylight_Donut\DeadByDaylight\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Churros\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_14_Donut\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1440782794" GUID="{4EE761A3-A4E7-4DDF-A229-FE8678EBA1AB}" Language="SFX" Hash="1474498665">
+		<SoundBank Id="1440782794" GUID="{4EE761A3-A4E7-4DDF-A229-FE8678EBA1AB}" Language="SFX" Hash="2749254830">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_32</ObjectPath>
 			<ShortName>KLR_32</ShortName>
 			<Path>KLR_32.bnk</Path>
@@ -927,6 +927,30 @@
 					</ExcludedMemoryFiles>
 				</Event>
 				<Event Id="2757698509" Name="AudioEvent_K32_ADDON_Spores_Stop" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_ADDON\AudioEvent_K32_ADDON_Spores_Stop" GUID="{44DF1E9E-A5CB-4D1F-AB2B-82DA79907B7D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3902916192" Name="AudioEvent_K32_AimPod_Start" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_OBJECT\K32_OBJ_PodInterface\AudioEvent_K32_AimPod_Start" GUID="{B6A51733-C324-4D70-B1E1-64571FAE73DE}" DurationType="Infinite">
+					<ExcludedMemoryFiles>
+						<File Id="72229514" Language="SFX">
+							<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_02.wav</ShortName>
+							<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="343565123" Language="SFX">
+							<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_01.wav</ShortName>
+							<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1009932703" Language="SFX">
+							<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_03.wav</ShortName>
+							<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="1020578832" Language="SFX">
+							<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_04.wav</ShortName>
+							<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_04_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\SFX\MENU\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2764059788" Name="AudioEvent_K32_AimPod_Stop" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_OBJECT\K32_OBJ_PodInterface\AudioEvent_K32_AimPod_Stop" GUID="{F1237630-765C-4ECC-809C-D34E3CEFFFC5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2239177531" Name="AudioEvent_K32_CLOTH_Default_Glitch" ObjectPath="\Events\CHARACTER\KILLER\K32_Umbra\K32_CLOTH\AudioEvent_K32_CLOTH_Default_Glitch" GUID="{61F79401-D97D-48A4-928D-C727F20BB6D9}" MaxAttenuation="1900." DurationType="OneShot" DurationMin="1.28639" DurationMax="1.3717">
 					<ExcludedMemoryFiles>
 						<File Id="237101595" Language="SFX">
@@ -5409,6 +5433,10 @@
 					<ShortName>Character\KLR_32\K32_OBJ\sfx_k32_podsurvivor_impact_05.wav</ShortName>
 					<Path>SFX\Character\KLR_32\K32_OBJ\sfx_k32_podsurvivor_impact_05_7FA8D501.wem</Path>
 				</File>
+				<File Id="72229514" Language="SFX">
+					<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_02.wav</ShortName>
+					<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_02_7FA8D501.wem</Path>
+				</File>
 				<File Id="72682492" Language="SFX">
 					<ShortName>Character\KLR_32\K32_OBJ\sfx_k32_obj_chest_printer_close_lid_01.wav</ShortName>
 					<Path>SFX\Character\KLR_32\K32_OBJ\sfx_k32_obj_chest_printer_close_lid_01_7FA8D501.wem</Path>
@@ -5788,6 +5816,10 @@
 				<File Id="343341715" Language="SFX">
 					<ShortName>Character\KLR_32\K32_OBJ\sfx_k32_obj_chest_printer_interaction_04.wav</ShortName>
 					<Path>SFX\Character\KLR_32\K32_OBJ\sfx_k32_obj_chest_printer_interaction_04_7FA8D501.wem</Path>
+				</File>
+				<File Id="343565123" Language="SFX">
+					<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_01.wav</ShortName>
+					<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="345873837" Language="SFX">
 					<ShortName>Character\KLR_32\K32_CLOTH\sfx_k32_body_glitch_01.wav</ShortName>
@@ -6581,6 +6613,10 @@
 					<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_charge_shoot_02.wav</ShortName>
 					<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_charge_shoot_02_7FA8D501.wem</Path>
 				</File>
+				<File Id="1009932703" Language="SFX">
+					<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_03.wav</ShortName>
+					<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_03_7FA8D501.wem</Path>
+				</File>
 				<File Id="1016036251" Language="SFX">
 					<ShortName>Character\KLR_32\K32_MENU\sfx_k32_menu_rotor_04.wav</ShortName>
 					<Path>SFX\Character\KLR_32\K32_MENU\sfx_k32_menu_rotor_04_7FA8D501.wem</Path>
@@ -6592,6 +6628,10 @@
 				<File Id="1017725042" Language="SFX">
 					<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_charge_stop_01.wav</ShortName>
 					<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_charge_stop_01_7FA8D501.wem</Path>
+				</File>
+				<File Id="1020578832" Language="SFX">
+					<ShortName>Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_04.wav</ShortName>
+					<Path>SFX\Character\KLR_32\K32_PWR\sfx_k32_pwr_pod_aim_survivor_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="1022201802" Language="SFX">
 					<ShortName>Character\KLR_32\K32_OBJ\sfx_k32_podsurvivor_impact_02.wav</ShortName>
