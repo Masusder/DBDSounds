@@ -9,8 +9,7 @@ Remember that this audio is the property of its respective owners and should not
 
 ## Overwiew
 
-**Extracted Files** - raw files extracted from Dead by Daylight.<br>
-**Converted Files** - audio files converted into OGG format with reversed structure and names.<br>
+**Converted Files** - audio events converted into OGG format with reversed structure and names.<br>
 **CharacterDefinitions.md** - additional file to help distinguish character audio IDs.
 
 
